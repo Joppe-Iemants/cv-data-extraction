@@ -1,0 +1,55 @@
+{
+  "name": "pdf_text_llm",
+  "split": "development",
+  "document_ids": [
+    "CV001"
+  ],
+  "exclude_sources": [
+    "vdab"
+  ],
+  "repetitions": 1,
+  "monitoring": {
+    "memory": false,
+    "sample_interval_ms": 10
+  },
+  "stages": [
+    {
+      "name": "read_pdf",
+      "method": "pdf_text",
+      "settings": {
+        "sort_text": true
+      }
+    },
+    {
+      "name": "prepare_text",
+      "method": "join_page_text",
+      "settings": {
+        "page_separator": "\n\n"
+      }
+    },
+    {
+      "name": "structure_cv",
+      "method": "llm_structuring",
+      "settings": {
+        "model": "qwen3:8b",
+        "base_url": "http://localhost:11434",
+        "timeout_seconds": 1800,
+        "options": {
+          "temperature": 0,
+          "seed": 42,
+          "num_ctx": 32768,
+          "num_predict": 8192
+        },
+        "keep_alive": "5m"
+      }
+    }
+  ],
+  "excluded_inputs": [],
+  "inputs": [
+    {
+      "id": "CV001",
+      "file": "data/cvs/CV001_altacv_sample.pdf",
+      "sha256": "f887aba1f1220d79e3c8fb62da9d6a431f61bdd603242ce8f5f6037a63908579"
+    }
+  ]
+}
