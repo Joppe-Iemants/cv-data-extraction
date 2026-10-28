@@ -72,11 +72,36 @@ def prepare_config(config_path: Path) -> dict:
                 if document["id"] in requested_ids
             ]
 
+        excluded_sources = config.get("exclude_sources", [])
+
+        available_sources = set(manifest["sources"])
+        unknown_sources = set(excluded_sources) - available_sources
+
+        if unknown_sources:
+            raise ValueError(f"Unknown excluded sources: {sorted(unknown_sources)}")
+
+        config["excluded_inputs"] = [
+            {
+                "id": document["id"],
+                "reason": f"Source excluded: {document['source']}"
+            }
+            for document in documents
+            if document["source"] in excluded_sources
+        ]
+
+        documents = [
+            document
+            for document in documents
+            if document["source"] not in excluded_sources
+        ]
+        
         config["inputs"] = []
 
         for document in documents:
             path = PROJECT_ROOT / "data" / document["file"]
 
+            if not path.is_file():
+                raise FileNotFoundError(f"Selected PDF is missing: {document['id']} at {path}")
             config["inputs"].append({
                 "id": document["id"],
                 "file": path.relative_to(PROJECT_ROOT).as_posix(),
@@ -90,10 +115,11 @@ def prepare_config(config_path: Path) -> dict:
     for document in config["inputs"]:
         path = PROJECT_ROOT / document["file"]
 
+        if not path.is_file():
+            raise FileNotFoundError(f"Required rerun PDF is missing: {document['id']} at {path}")
+        
         if file_hash(path) != document["sha256"]:
-            raise ValueError(
-                f"PDF contents changed for {document['id']}: {path}"
-            )
+            raise ValueError(f"PDF contents changed for {document['id']}: {path}")
 
     return config
 
@@ -120,7 +146,7 @@ def main():
     arguments = parser.parse_args()
 
     config = prepare_config(arguments.config)
-
+        
     started_at = datetime.now(timezone.utc)
     run_id = (
         started_at.strftime("%Y%m%dT%H%M%S")

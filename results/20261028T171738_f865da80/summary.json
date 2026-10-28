@@ -1,0 +1,383 @@
+{
+  "run_id": "20261028T171738_f865da80",
+  "started_at_utc": "2026-10-28T17:17:38.640769+00:00",
+  "finished_at_utc": "2026-10-28T17:17:46.590110+00:00",
+  "document_count": 34,
+  "attempt_count": 170,
+  "documents": [
+    {
+      "document_id": "CV001",
+      "outcomes": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "median_extraction_seconds": 0.02799520001281053
+    },
+    {
+      "document_id": "CV002",
+      "outcomes": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "median_extraction_seconds": 0.0250023000407964
+    },
+    {
+      "document_id": "CV003",
+      "outcomes": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "median_extraction_seconds": 0.04917880007997155
+    },
+    {
+      "document_id": "CV004",
+      "outcomes": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "median_extraction_seconds": 0.019103300059214234
+    },
+    {
+      "document_id": "CV005",
+      "outcomes": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "median_extraction_seconds": 0.02197500003967434
+    },
+    {
+      "document_id": "CV006",
+      "outcomes": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "median_extraction_seconds": 0.027717199991457164
+    },
+    {
+      "document_id": "CV007",
+      "outcomes": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "median_extraction_seconds": 0.021189299994148314
+    },
+    {
+      "document_id": "CV008",
+      "outcomes": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "median_extraction_seconds": 0.06753000000026077
+    },
+    {
+      "document_id": "CV009",
+      "outcomes": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "median_extraction_seconds": 0.01608149998355657
+    },
+    {
+      "document_id": "CV010",
+      "outcomes": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "median_extraction_seconds": 0.02706910006236285
+    },
+    {
+      "document_id": "CV011",
+      "outcomes": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "median_extraction_seconds": 0.0293505999725312
+    },
+    {
+      "document_id": "CV012",
+      "outcomes": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "median_extraction_seconds": 0.032329400070011616
+    },
+    {
+      "document_id": "CV017",
+      "outcomes": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "median_extraction_seconds": 0.031334000057540834
+    },
+    {
+      "document_id": "CV018",
+      "outcomes": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "median_extraction_seconds": 0.034775299951434135
+    },
+    {
+      "document_id": "CV019",
+      "outcomes": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "median_extraction_seconds": 0.04083449998870492
+    },
+    {
+      "document_id": "CV020",
+      "outcomes": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "median_extraction_seconds": 0.037402199930511415
+    },
+    {
+      "document_id": "CV021",
+      "outcomes": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "median_extraction_seconds": 0.03864220005925745
+    },
+    {
+      "document_id": "CV022",
+      "outcomes": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "median_extraction_seconds": 0.04086609999649227
+    },
+    {
+      "document_id": "CV023",
+      "outcomes": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "median_extraction_seconds": 0.03812119993381202
+    },
+    {
+      "document_id": "CV024",
+      "outcomes": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "median_extraction_seconds": 0.038983099977485836
+    },
+    {
+      "document_id": "CV025",
+      "outcomes": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "median_extraction_seconds": 0.044468600070104
+    },
+    {
+      "document_id": "CV026",
+      "outcomes": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "median_extraction_seconds": 0.03673589997924864
+    },
+    {
+      "document_id": "CV027",
+      "outcomes": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "median_extraction_seconds": 0.027771499939262867
+    },
+    {
+      "document_id": "CV028",
+      "outcomes": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "median_extraction_seconds": 0.029278700007125735
+    },
+    {
+      "document_id": "CV029",
+      "outcomes": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "median_extraction_seconds": 0.05284930008929223
+    },
+    {
+      "document_id": "CV030",
+      "outcomes": [
+        "partial_text",
+        "partial_text",
+        "partial_text",
+        "partial_text",
+        "partial_text"
+      ],
+      "median_extraction_seconds": 0.0036586999194696546
+    },
+    {
+      "document_id": "CV031",
+      "outcomes": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "median_extraction_seconds": 0.03628600004594773
+    },
+    {
+      "document_id": "CV032",
+      "outcomes": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "median_extraction_seconds": 0.12368740001693368
+    },
+    {
+      "document_id": "CV033",
+      "outcomes": [
+        "empty_text",
+        "empty_text",
+        "empty_text",
+        "empty_text",
+        "empty_text"
+      ],
+      "median_extraction_seconds": 0.0106465999269858
+    },
+    {
+      "document_id": "CV034",
+      "outcomes": [
+        "empty_text",
+        "empty_text",
+        "empty_text",
+        "empty_text",
+        "empty_text"
+      ],
+      "median_extraction_seconds": 0.004523199982941151
+    },
+    {
+      "document_id": "CV035",
+      "outcomes": [
+        "empty_text",
+        "empty_text",
+        "empty_text",
+        "empty_text",
+        "empty_text"
+      ],
+      "median_extraction_seconds": 0.007951000006869435
+    },
+    {
+      "document_id": "CV036",
+      "outcomes": [
+        "empty_text",
+        "empty_text",
+        "empty_text",
+        "empty_text",
+        "empty_text"
+      ],
+      "median_extraction_seconds": 0.00388930004555732
+    },
+    {
+      "document_id": "CV037",
+      "outcomes": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "median_extraction_seconds": 0.323871299973689
+    },
+    {
+      "document_id": "CV038",
+      "outcomes": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "median_extraction_seconds": 0.05352640000637621
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "document_id": "CV007",
+  "repetition": 1,
+  "status": "success",
+  "metrics": {
+    "extraction_seconds": 0.021612799959257245,
+    "page_count": 1,
+    "character_count": 4170,
+    "pages_without_text": []
+  }
+}

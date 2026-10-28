@@ -20,3 +20,7 @@ Runs comparisons using reusable components
 ```cmd
 python experiments/run_experiment.py --config experiments/configs/pdf_text_sorted.json
 ```
+OR
+```cmd
+pipenv run experiment --config experiments/configs/pdf_text_sorted.json
+```

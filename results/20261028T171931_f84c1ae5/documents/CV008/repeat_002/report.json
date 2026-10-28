@@ -1,0 +1,11 @@
+{
+  "document_id": "CV008",
+  "repetition": 2,
+  "status": "success",
+  "metrics": {
+    "extraction_seconds": 0.060112299979664385,
+    "page_count": 4,
+    "character_count": 12189,
+    "pages_without_text": []
+  }
+}
