@@ -1,23 +1,231 @@
+import argparse
+import hashlib
 import json
+import platform
+import subprocess
+import sys
+from datetime import datetime, timezone
+from importlib.metadata import distributions
 from pathlib import Path
+from statistics import median
+from uuid import uuid4
 
 from cv_extraction.pipeline import run_extraction
+from cv_extraction.storage import save_json
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
 
+def file_hash(path: Path) -> str:
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def git_output(*arguments):
+    try:
+        result = subprocess.run(
+            ["git", *arguments],
+            cwd=PROJECT_ROOT,
+            capture_output=True,
+            text=True,
+            check=False
+        )
+    except OSError:
+        return None
+
+    return result.stdout.strip() if result.returncode == 0 else None
+
+
+def prepare_config(config_path: Path) -> dict:
+    config = json.loads(config_path.read_text(encoding="utf-8"))
+
+    if config["method"] != "pdf_text":
+        raise ValueError("Only the pdf_text method is currently supported.")
+
+    if type(config["settings"]["sort_text"]) is not bool:
+        raise ValueError("sort_text must be true or false.")
+
+    repetitions = config["repetitions"]
+
+    if type(repetitions) is not int or repetitions < 1:
+        raise ValueError("repetitions must be a positive integer.")
+
+    # Incase of rerun this gets skipped(because the config will already contain inputs)
+    if "inputs" not in config:
+        manifest_path = PROJECT_ROOT / "data" / "manifest.json"
+        manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+
+        documents = manifest["documents"]
+        requested_ids = config["document_ids"]
+
+        # Check if the requested id exists(in manifest.json)
+        if requested_ids is not None:
+            available_ids = {document["id"] for document in documents}
+            unknown_ids = set(requested_ids) - available_ids
+
+            if unknown_ids:
+                raise ValueError(f"Unknown document IDs: {sorted(unknown_ids)}")
+
+            documents = [
+                document
+                for document in documents
+                if document["id"] in requested_ids
+            ]
+
+        config["inputs"] = []
+
+        for document in documents:
+            path = PROJECT_ROOT / "data" / document["file"]
+
+            config["inputs"].append({
+                "id": document["id"],
+                "file": path.relative_to(PROJECT_ROOT).as_posix(),
+                "sha256": file_hash(path)
+            })
+
+    if not config["inputs"]:
+        raise ValueError("No documents were selected.")
+
+    # Check if the pdf content changed during rerun from original run.
+    for document in config["inputs"]:
+        path = PROJECT_ROOT / document["file"]
+
+        if file_hash(path) != document["sha256"]:
+            raise ValueError(
+                f"PDF contents changed for {document['id']}: {path}"
+            )
+
+    return config
+
+
+def capture_environment() -> dict:
+    return {
+        "python": sys.version,
+        "platform": platform.platform(),
+        "machine": platform.machine(),
+        "processor": platform.processor(),
+        "git_commit": git_output("rev-parse", "HEAD"),
+        "git_status": git_output("status", "--porcelain"),
+        "packages": {
+            distribution.metadata["Name"]: distribution.version
+            for distribution in distributions()
+            if distribution.metadata["Name"]
+        }
+    }
+
+
 def main():
-    pdf_path = (
-        PROJECT_ROOT
-        / "data"
-        / "cvs"
-        / "CV001_altacv_sample.pdf"
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--config", type=Path, required=True)
+    arguments = parser.parse_args()
+
+    config = prepare_config(arguments.config)
+
+    started_at = datetime.now(timezone.utc)
+    run_id = (
+        started_at.strftime("%Y%m%dT%H%M%S")
+        + "_"
+        + uuid4().hex[:8]
+    )
+    environment = capture_environment()
+    
+    run_directory = PROJECT_ROOT / "results" / run_id
+    run_directory.mkdir(parents=True, exist_ok=False)
+
+    save_json(run_directory / "config.json", config)
+    save_json(run_directory / "environment.json", environment)
+
+    reports = []
+
+    for document in config["inputs"]:
+        pdf_path = PROJECT_ROOT / document["file"]
+
+        for repetition in range(1, config["repetitions"] + 1):
+            output_directory = (
+                run_directory
+                / "documents"
+                / document["id"]
+                / f"repeat_{repetition:03d}"
+            )
+
+            try:
+                result = run_extraction(
+                    pdf_path,
+                    sort_text=config["settings"]["sort_text"]
+                )
+            except Exception as error:
+                result = {
+                    "status": "error",
+                    "metrics": {},
+                    "extracted_data": None,
+                    "error": {
+                        "type": type(error).__name__,
+                        "message": str(error)
+                    }
+                }
+
+            extracted_data = result.pop("extracted_data")
+
+            report = {
+                "document_id": document["id"],
+                "repetition": repetition,
+                **result
+            }
+
+            if extracted_data is not None:
+                save_json(
+                    output_directory / "extraction.json",
+                    extracted_data
+                )
+
+            save_json(output_directory / "report.json", report)
+            reports.append(report)
+
+            print(
+                f"{document['id']} "
+                f"[{repetition}/{config['repetitions']}]: "
+                f"{report['status']}"
+            )
+
+    document_summaries = []
+
+    for document in config["inputs"]:
+        measurements = [
+            report
+            for report in reports
+            if report["document_id"] == document["id"]
+        ]
+
+        durations = [
+            report["metrics"]["extraction_seconds"]
+            for report in measurements
+            if "extraction_seconds" in report["metrics"]
+        ]
+
+        document_summaries.append({
+            "document_id": document["id"],
+            "outcomes": [
+                report["status"]
+                for report in measurements
+            ],
+            "median_extraction_seconds": (
+                median(durations) if durations else None
+            )
+        })
+
+    save_json(
+        run_directory / "summary.json",
+        {
+            "run_id": run_id,
+            "started_at_utc": started_at.isoformat(),
+            "finished_at_utc": datetime.now(timezone.utc).isoformat(),
+            "document_count": len(config["inputs"]),
+            "attempt_count": len(reports),
+            "documents": document_summaries
+        }
     )
 
-    result = run_extraction(pdf_path)
-
-    print(json.dumps(result, indent=2, ensure_ascii=False))
+    print(f"Results saved to: {run_directory}")
 
 
 if __name__ == "__main__":
