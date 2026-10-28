@@ -1,0 +1,69 @@
+{
+  "run_id": "20261028T183547_07ac9769",
+  "started_at_utc": "2026-10-28T18:35:47.997912+00:00",
+  "finished_at_utc": "2026-10-28T18:35:48.484133+00:00",
+  "document_count": 2,
+  "attempt_count": 10,
+  "documents": [
+    {
+      "document_id": "CV001",
+      "attempt_count": 5,
+      "outcome_counts": {
+        "success": 5
+      },
+      "stages": {
+        "read_pdf": {
+          "method": "pdf_text",
+          "execution_counts": {
+            "completed": 5
+          },
+          "outcome_counts": {
+            "success": 5
+          },
+          "completed_timing_seconds": {
+            "count": 5,
+            "minimum": 0.026692899991758168,
+            "median": 0.026860499987378716,
+            "maximum": 0.02860099996905774
+          },
+          "failed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          }
+        }
+      }
+    },
+    {
+      "document_id": "CV033",
+      "attempt_count": 5,
+      "outcome_counts": {
+        "empty_text": 5
+      },
+      "stages": {
+        "read_pdf": {
+          "method": "pdf_text",
+          "execution_counts": {
+            "completed": 5
+          },
+          "outcome_counts": {
+            "empty_text": 5
+          },
+          "completed_timing_seconds": {
+            "count": 5,
+            "minimum": 0.009776100050657988,
+            "median": 0.010067199938930571,
+            "maximum": 0.011192700010724366
+          },
+          "failed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          }
+        }
+      }
+    }
+  ]
+}

@@ -51,6 +51,19 @@ def prepare_config(config_path: Path) -> dict:
     if type(repetitions) is not int or repetitions < 1:
         raise ValueError("repetitions must be a positive integer.")
 
+    monitoring = config.setdefault("monitoring", {})
+
+    monitoring.setdefault("memory", False)
+    monitoring.setdefault("sample_interval_ms", 10)
+
+    if type(monitoring["memory"]) is not bool:
+        raise ValueError("monitoring.memory must be true or false.")
+
+    interval = monitoring["sample_interval_ms"]
+
+    if type(interval) not in (int, float) or interval <= 0:
+        raise ValueError("monitoring.sample_interval_ms must be a positive number.")
+
     # Incase of rerun this gets skipped(because the config will already contain inputs)
     if "inputs" not in config:
         manifest_path = PROJECT_ROOT / "data" / "manifest.json"
@@ -202,7 +215,8 @@ def main():
             result = run_extraction(
                 pdf_path,
                 sort_text=config["settings"]["sort_text"],
-                on_stage_finished=on_stage_finished
+                on_stage_finished=on_stage_finished,
+                monitoring=config["monitoring"]
             )
 
             result.pop("extracted_data")

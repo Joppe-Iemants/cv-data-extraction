@@ -2,50 +2,58 @@ from pathlib import Path
 from time import perf_counter
 
 from .methods.pdf_text import extract_pdf_text
+from .monitoring import MemoryMonitor
 
-def execute_stage(name: str, method: str, function, *args, **kwargs) -> dict:
+def execute_stage(name: str, method: str, function, *args, monitoring: dict | None = None, **kwargs) -> dict:
+    settings = monitoring or {}
+
+    monitor = MemoryMonitor(
+        enabled=settings.get("memory", False),
+        sample_interval_ms=settings.get("sample_interval_ms", 10)
+    )
+
+    output = None
+    error_details = None
+    execution_status = "completed"
+
+    monitor.start()
     start = perf_counter()
 
     try:
         output = function(*args, **kwargs)
     except Exception as error:
-        return {
-            "report": {
-                "name": name,
-                "method": method,
-                "execution_status": "error",
-                "outcome": None,
-                "metrics": {
-                    "duration_seconds": perf_counter() - start
-                },
-                "error": {
-                    "type": type(error).__name__,
-                    "message": str(error)
-                }
-            },
-            "output": None
+        execution_status = "error"
+
+        error_details = {
+            "type": type(error).__name__,
+            "message": str(error)
         }
+    finally:
+        duration = perf_counter() - start
+        monitor.stop()
 
     return {
         "report": {
             "name": name,
             "method": method,
-            "execution_status": "completed",
+            "execution_status": execution_status,
             "outcome": None,
             "metrics": {
-                "duration_seconds": perf_counter() - start
+                "duration_seconds": duration,
+                "memory": monitor.report()
             },
-            "error": None
+            "error": error_details
         },
         "output": output
     }
 
-def run_extraction(pdf_path: Path, sort_text: bool = False, on_stage_finished=None) -> dict:
+def run_extraction(pdf_path: Path, sort_text: bool = False, on_stage_finished=None, monitoring: dict | None = None) -> dict:
     stage = execute_stage(
         "read_pdf",
         "pdf_text",
         extract_pdf_text,
         pdf_path,
+        monitoring=monitoring,
         sort_text=sort_text
     )
 
