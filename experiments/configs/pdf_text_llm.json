@@ -27,7 +27,7 @@
       "name": "structure_cv",
       "method": "llm_structuring",
       "settings": {
-        "model": "qwen2.5:14b",
+        "model": "qwen3:8b",
         "base_url": "http://localhost:11434",
         "timeout_seconds": 1800,
         "options": {
