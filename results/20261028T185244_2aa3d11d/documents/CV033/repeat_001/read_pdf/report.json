@@ -1,0 +1,30 @@
+{
+  "name": "read_pdf",
+  "method": "pdf_text",
+  "execution_status": "completed",
+  "outcome": "empty_text",
+  "metrics": {
+    "duration_seconds": 0.012744899955578148,
+    "memory": {
+      "enabled": true,
+      "collection_status": "completed",
+      "metric": "process_rss",
+      "scope": "current_process",
+      "sample_interval_ms": 10,
+      "sample_count": 2,
+      "start_rss_bytes": 132517888,
+      "end_rss_bytes": 133480448,
+      "sampled_peak_rss_bytes": 133480448,
+      "error": null
+    },
+    "page_count": 4,
+    "character_count": 0,
+    "pages_without_text": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "error": null
+}

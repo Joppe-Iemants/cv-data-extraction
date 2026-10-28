@@ -9,7 +9,7 @@
   "exclude_sources": ["vdab"],
   "repetitions": 5,
   "monitoring": {
-    "memory": false,
+    "memory": true,
     "sample_interval_ms": 10
   }
 }

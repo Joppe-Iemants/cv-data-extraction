@@ -2,12 +2,60 @@ from collections import Counter
 from statistics import median
 
 
-def summarize_timings(durations: list[float]) -> dict:
+def summarize_values(values: list) -> dict:
     return {
-        "count": len(durations),
-        "minimum": min(durations) if durations else None,
-        "median": median(durations) if durations else None,
-        "maximum": max(durations) if durations else None
+        "count": len(values),
+        "minimum": min(values) if values else None,
+        "median": median(values) if values else None,
+        "maximum": max(values) if values else None
+    }
+
+def summarize_memory(stage_reports: list[dict]) -> dict:
+    collection_counts = Counter()
+    completed_peaks = []
+    failed_peaks = []
+    boundary_only_measurements = 0
+
+    for report in stage_reports:
+        memory = report["metrics"].get("memory")
+
+        if memory is None:
+            collection_counts["not_recorded"] += 1
+            continue
+
+        if not memory.get("enabled", False):
+            collection_counts["disabled"] += 1
+            continue
+
+        if memory.get("collection_status") != "completed":
+            collection_counts["error"] += 1
+            continue
+
+        peak = memory.get("sampled_peak_rss_bytes")
+
+        if peak is None:
+            collection_counts["invalid"] += 1
+            continue
+
+        collection_counts["completed"] += 1
+
+        if memory["sample_count"] <= 2:
+            boundary_only_measurements += 1
+
+        if report["execution_status"] == "completed":
+            completed_peaks.append(peak)
+        elif report["execution_status"] == "error":
+            failed_peaks.append(peak)
+
+    return {
+        "collection_counts": dict(collection_counts),
+        "completed_stage_peak_rss_bytes": summarize_values(
+            completed_peaks
+        ),
+        "failed_stage_peak_rss_bytes": summarize_values(
+            failed_peaks
+        ),
+        "boundary_only_measurements": boundary_only_measurements
     }
 
 def summarize_stage(stage_reports: list[dict]) -> dict:
@@ -38,12 +86,13 @@ def summarize_stage(stage_reports: list[dict]) -> dict:
         "method": stage_reports[0]["method"],
         "execution_counts": dict(execution_counts),
         "outcome_counts": dict(outcome_counts),
-        "completed_timing_seconds": summarize_timings(
+        "completed_timing_seconds": summarize_values(
             completed_durations
         ),
-        "failed_timing_seconds": summarize_timings(
+        "failed_timing_seconds": summarize_values(
             failed_durations
-        )
+        ),
+        "memory": summarize_memory(stage_reports)
     }
 
 def build_document_summaries(reports: list[dict], inputs: list[dict]) -> list[dict]:

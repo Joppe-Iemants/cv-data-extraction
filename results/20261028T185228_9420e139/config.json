@@ -1,0 +1,33 @@
+{
+  "name": "pdf_text_baseline",
+  "method": "pdf_text",
+  "settings": {
+    "sort_text": true
+  },
+  "split": "development",
+  "document_ids": [
+    "CV001",
+    "CV033"
+  ],
+  "exclude_sources": [
+    "vdab"
+  ],
+  "repetitions": 5,
+  "monitoring": {
+    "memory": false,
+    "sample_interval_ms": 10
+  },
+  "excluded_inputs": [],
+  "inputs": [
+    {
+      "id": "CV001",
+      "file": "data/cvs/CV001_altacv_sample.pdf",
+      "sha256": "f887aba1f1220d79e3c8fb62da9d6a431f61bdd603242ce8f5f6037a63908579"
+    },
+    {
+      "id": "CV033",
+      "file": "data/cvs/CV033_reb_expert_handwritten_engineering.pdf",
+      "sha256": "9aa1050fc3dbd61a0ac05bde9696cbf3b12d2a4852620f7daa85c727886380d0"
+    }
+  ]
+}
