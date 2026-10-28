@@ -1,0 +1,40 @@
+{
+  "document_id": "CV001",
+  "repetition": 4,
+  "status": "completed",
+  "metrics": {
+    "processing_seconds": 0.027646100148558617
+  },
+  "stages": [
+    {
+      "name": "read_pdf",
+      "method": "pdf_text",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 0.02762450010050088,
+        "memory": {
+          "enabled": false
+        },
+        "page_count": 2,
+        "character_count": 5939,
+        "pages_without_text": []
+      },
+      "error": null
+    },
+    {
+      "name": "prepare_text",
+      "method": "join_page_text",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 2.1600048057734966e-05,
+        "memory": {
+          "enabled": false
+        },
+        "character_count": 5941
+      },
+      "error": null
+    }
+  ]
+}

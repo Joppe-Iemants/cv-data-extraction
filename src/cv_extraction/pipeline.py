@@ -4,6 +4,42 @@ from time import perf_counter
 from .stages import STAGE_METHODS
 from .monitoring import MemoryMonitor
 
+def validate_stage_output(output) -> None:
+    if not isinstance(output, dict):
+        raise TypeError("Stage output must be a dictionary.")
+
+    required_keys = {"data", "outcome", "metrics"}
+    missing_keys = required_keys - set(output)
+
+    if missing_keys:
+        raise ValueError(
+            f"Stage output is missing keys: {sorted(missing_keys)}"
+        )
+
+    if not isinstance(output["data"], dict):
+        raise TypeError("Stage output data must be a dictionary.")
+
+    outcome = output["outcome"]
+
+    if not isinstance(outcome, str) or not outcome.strip():
+        raise ValueError(
+            "Stage outcome must be a nonempty string."
+        )
+
+    metrics = output["metrics"]
+
+    if not isinstance(metrics, dict):
+        raise TypeError("Stage metrics must be a dictionary.")
+
+    reserved_keys = {"duration_seconds", "memory"}
+    conflicting_keys = reserved_keys & set(metrics)
+
+    if conflicting_keys:
+        raise ValueError(
+            "Stage metrics cannot overwrite shared measurements: "
+            f"{sorted(conflicting_keys)}"
+        )
+        
 def execute_stage(name: str, method: str, function, *args, monitoring: dict | None = None, **kwargs) -> dict:
     settings = monitoring or {}
 
@@ -21,7 +57,9 @@ def execute_stage(name: str, method: str, function, *args, monitoring: dict | No
 
     try:
         output = function(*args, **kwargs)
+        validate_stage_output(output)
     except Exception as error:
+        output = None
         execution_status = "error"
 
         error_details = {
