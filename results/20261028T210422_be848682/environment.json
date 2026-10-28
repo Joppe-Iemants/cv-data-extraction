@@ -1,0 +1,56 @@
+{
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "machine": "AMD64",
+  "processor": "Intel64 Family 6 Model 151 Stepping 2, GenuineIntel",
+  "hardware": {
+    "cpu": {
+      "model": "12th Gen Intel(R) Core(TM) i7-12700KF",
+      "physical_cores": 12,
+      "logical_processors": 20
+    },
+    "memory": {
+      "total_bytes": 34212798464,
+      "available_before_run_bytes": 21116559360
+    },
+    "power": {
+      "plugged_in": null
+    },
+    "gpu": {
+      "collection_status": "not_collected"
+    }
+  },
+  "git_commit": "2eb3a64007e6aec93efbd6249248f208c3bf970f",
+  "git_status": "",
+  "packages": {
+    "annotated-types": "0.8.0",
+    "contourpy": "1.4.0",
+    "cycler": "0.12.1",
+    "flatbuffers": "25.12.19",
+    "fonttools": "4.68.0",
+    "kiwisolver": "1.5.1",
+    "matplotlib": "3.11.2",
+    "networkx": "3.7",
+    "numpy": "2.5.4",
+    "onnxruntime": "1.31.1",
+    "packaging": "26.3",
+    "pandas": "3.1.0",
+    "pillow": "13.0.0",
+    "pip": "26.2.1",
+    "protobuf": "7.36.2",
+    "psutil": "7.2.2",
+    "pydantic": "2.14.1",
+    "pydantic_core": "2.50.1",
+    "pymupdf": "2.0",
+    "pymupdf4llm": "2.0",
+    "pymupdf_layout": "2.0",
+    "pyparsing": "3.3.3",
+    "python-dateutil": "3.0.0",
+    "PyYAML": "6.0.3",
+    "six": "1.17.0",
+    "tabulate": "0.10.0",
+    "typing_extensions": "4.16.0",
+    "typing-inspection": "0.4.4",
+    "tzdata": "2026.6"
+  }
+}
