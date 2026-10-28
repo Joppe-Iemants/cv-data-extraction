@@ -1,1 +1,304 @@
-[]
+{
+  "sources": {
+    "altacv": {
+      "attribution": "LianTze Lim, liantze/AltaCV",
+      "license": "LPPL 1.3 or later",
+      "license_url": "https://github.com/liantze/AltaCV/blob/91373530c55843533a4de12a29d28896f9b14c0d/LICENSE.md",
+      "license_file": "licenses/altacv-LICENSE.md"
+    },
+    "latexcv": {
+      "attribution": "Jan Küster, jankapunkt/latexcv",
+      "license": "MIT",
+      "license_url": "https://github.com/jankapunkt/latexcv/blob/1fc7a2033ddda0fa77003444cafcf96117ad58dd/LICENSE",
+      "license_file": "licenses/latexcv-LICENSE.txt"
+    },
+    "deedy": {
+      "attribution": "Debarghya Das, deedy/Deedy-Resume",
+      "license": "Apache-2.0",
+      "license_url": "https://github.com/deedy/Deedy-Resume/blob/6d06ba7d8eee5fb8870bb00cb13a777f2083aa18/LICENSE",
+      "license_file": "licenses/deedy-LICENSE.txt"
+    },
+    "simple-cv": {
+      "attribution": "Doruk Çetin, dcetin/Simple-CV",
+      "license": "MIT",
+      "license_url": "https://github.com/dcetin/Simple-CV/blob/c43f219336824bbaaa0be2fa31e6c1a611395156/LICENSE",
+      "license_file": "licenses/simple-cv-LICENSE.txt"
+    },
+    "rendercv": {
+      "attribution": "Sina Atalay and individual contributors, sinaatalay/rendercv",
+      "license": "MIT",
+      "license_url": "https://github.com/sinaatalay/rendercv/blob/1d4b87bc427e4cf61c0ef49623c971b0e2224708/LICENSE",
+      "license_file": "licenses/rendercv-LICENSE.txt"
+    },
+    "resume-extract-bench": {
+      "attribution": "Careerflow, ResumeExtractBench",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "terms_url": "https://huggingface.co/datasets/Careerflow/ResumeExtractBench/blob/9e6304c50e809baadbba3059929027ffb1f66bf5/README.md"
+    },
+    "guido-van-der-groen": {
+      "attribution": "Bieptest (Wikimedia uploader, own-work declaration); PDF author metadata: Ciska Maeckelbergh. Curriculum vitae van der Groen Guido.",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "quintous-crews": {
+      "attribution": "Quintous Crews; US Navy Bureau of Medicine and Surgery Office of Medical History; Internet Archive item CREWSQuintousCV.",
+      "license": "Public domain: US federal-government work, per source statement",
+      "license_url": "https://commons.wikimedia.org/wiki/File:CURRICULUM_VITAE_QUINTOUS_EARL_CREWS,_JR.,_M._D._(IA_CREWSQuintousCV).pdf"
+    },
+    "vdab": {
+      "attribution": "VDAB, Schrijf een sterk cv - voorbeeld-cv’s",
+      "license": "Informational-use permission; not an open license",
+      "license_url": "https://www.vdab.be/disclaimer",
+      "note": "Collected for internal educational evaluation. Public redistribution permission has not been established."
+    }
+  },
+  "documents": [
+    {
+      "id": "CV001",
+      "file": "cvs/CV001_altacv_sample.pdf",
+      "source": "altacv",
+      "source_url": "https://github.com/liantze/AltaCV/blob/91373530c55843533a4de12a29d28896f9b14c0d/sample.pdf"
+    },
+    {
+      "id": "CV002",
+      "file": "cvs/CV002_latexcv_classic.pdf",
+      "source": "latexcv",
+      "source_url": "https://github.com/jankapunkt/latexcv/blob/1fc7a2033ddda0fa77003444cafcf96117ad58dd/classic/main.pdf"
+    },
+    {
+      "id": "CV003",
+      "file": "cvs/CV003_latexcv_minimalistic.pdf",
+      "source": "latexcv",
+      "source_url": "https://github.com/jankapunkt/latexcv/blob/1fc7a2033ddda0fa77003444cafcf96117ad58dd/minimalistic/main.pdf"
+    },
+    {
+      "id": "CV004",
+      "file": "cvs/CV004_latexcv_modern.pdf",
+      "source": "latexcv",
+      "source_url": "https://github.com/jankapunkt/latexcv/blob/1fc7a2033ddda0fa77003444cafcf96117ad58dd/modern/main.pdf"
+    },
+    {
+      "id": "CV005",
+      "file": "cvs/CV005_latexcv_rows.pdf",
+      "source": "latexcv",
+      "source_url": "https://github.com/jankapunkt/latexcv/blob/1fc7a2033ddda0fa77003444cafcf96117ad58dd/rows/main.pdf"
+    },
+    {
+      "id": "CV006",
+      "file": "cvs/CV006_latexcv_two_column.pdf",
+      "source": "latexcv",
+      "source_url": "https://github.com/jankapunkt/latexcv/blob/1fc7a2033ddda0fa77003444cafcf96117ad58dd/two_column/main.pdf"
+    },
+    {
+      "id": "CV007",
+      "file": "cvs/CV007_latexcv_sidebar.pdf",
+      "source": "latexcv",
+      "source_url": "https://github.com/jankapunkt/latexcv/blob/1fc7a2033ddda0fa77003444cafcf96117ad58dd/sidebar/main.pdf"
+    },
+    {
+      "id": "CV008",
+      "file": "cvs/CV008_latexcv_sidebarleft.pdf",
+      "source": "latexcv",
+      "source_url": "https://github.com/jankapunkt/latexcv/blob/1fc7a2033ddda0fa77003444cafcf96117ad58dd/sidebarleft/main.pdf"
+    },
+    {
+      "id": "CV009",
+      "file": "cvs/CV009_latexcv_infographics.pdf",
+      "source": "latexcv",
+      "source_url": "https://github.com/jankapunkt/latexcv/blob/1fc7a2033ddda0fa77003444cafcf96117ad58dd/infographics/main.pdf"
+    },
+    {
+      "id": "CV010",
+      "file": "cvs/CV010_latexcv_infographics2_en.pdf",
+      "source": "latexcv",
+      "source_url": "https://github.com/jankapunkt/latexcv/blob/1fc7a2033ddda0fa77003444cafcf96117ad58dd/infographics2/en/main.pdf"
+    },
+    {
+      "id": "CV011",
+      "file": "cvs/CV011_latexcv_infographics2_fr.pdf",
+      "source": "latexcv",
+      "source_url": "https://github.com/jankapunkt/latexcv/blob/1fc7a2033ddda0fa77003444cafcf96117ad58dd/infographics2/fr/main.pdf"
+    },
+    {
+      "id": "CV012",
+      "file": "cvs/CV012_deedy_openfonts.pdf",
+      "source": "deedy",
+      "source_url": "https://github.com/deedy/Deedy-Resume/blob/6d06ba7d8eee5fb8870bb00cb13a777f2083aa18/OpenFonts/deedy_resume-openfont.pdf"
+    },
+    {
+      "id": "CV017",
+      "file": "cvs/CV017_simple_black.pdf",
+      "source": "simple-cv",
+      "source_url": "https://github.com/dcetin/Simple-CV/blob/c43f219336824bbaaa0be2fa31e6c1a611395156/examples/black.pdf"
+    },
+    {
+      "id": "CV018",
+      "file": "cvs/CV018_simple_blue_photo.pdf",
+      "source": "simple-cv",
+      "source_url": "https://github.com/dcetin/Simple-CV/blob/c43f219336824bbaaa0be2fa31e6c1a611395156/examples/blue_photo.pdf"
+    },
+    {
+      "id": "CV019",
+      "file": "cvs/CV019_rendercv_classic.pdf",
+      "source": "rendercv",
+      "source_url": "https://github.com/sinaatalay/rendercv/blob/1d4b87bc427e4cf61c0ef49623c971b0e2224708/examples/John_Doe_ClassicTheme_CV.pdf"
+    },
+    {
+      "id": "CV020",
+      "file": "cvs/CV020_rendercv_ember.pdf",
+      "source": "rendercv",
+      "source_url": "https://github.com/sinaatalay/rendercv/blob/1d4b87bc427e4cf61c0ef49623c971b0e2224708/examples/John_Doe_EmberTheme_CV.pdf"
+    },
+    {
+      "id": "CV021",
+      "file": "cvs/CV021_rendercv_engineeringclassic.pdf",
+      "source": "rendercv",
+      "source_url": "https://github.com/sinaatalay/rendercv/blob/1d4b87bc427e4cf61c0ef49623c971b0e2224708/examples/John_Doe_EngineeringclassicTheme_CV.pdf"
+    },
+    {
+      "id": "CV022",
+      "file": "cvs/CV022_rendercv_harvard.pdf",
+      "source": "rendercv",
+      "source_url": "https://github.com/sinaatalay/rendercv/blob/1d4b87bc427e4cf61c0ef49623c971b0e2224708/examples/John_Doe_HarvardTheme_CV.pdf"
+    },
+    {
+      "id": "CV023",
+      "file": "cvs/CV023_rendercv_moderncv.pdf",
+      "source": "rendercv",
+      "source_url": "https://github.com/sinaatalay/rendercv/blob/1d4b87bc427e4cf61c0ef49623c971b0e2224708/examples/John_Doe_ModerncvTheme_CV.pdf"
+    },
+    {
+      "id": "CV024",
+      "file": "cvs/CV024_rendercv_opal.pdf",
+      "source": "rendercv",
+      "source_url": "https://github.com/sinaatalay/rendercv/blob/1d4b87bc427e4cf61c0ef49623c971b0e2224708/examples/John_Doe_OpalTheme_CV.pdf"
+    },
+    {
+      "id": "CV025",
+      "file": "cvs/CV025_reb_real_anonymized_engineering.pdf",
+      "source": "resume-extract-bench",
+      "source_url": "https://huggingface.co/datasets/Careerflow/ResumeExtractBench/blob/9e6304c50e809baadbba3059929027ffb1f66bf5/pdfs/19af43e7-aea9-41fe-917a-1eea0a641e4e.pdf"
+    },
+    {
+      "id": "CV026",
+      "file": "cvs/CV026_reb_real_anonymized_legal.pdf",
+      "source": "resume-extract-bench",
+      "source_url": "https://huggingface.co/datasets/Careerflow/ResumeExtractBench/blob/9e6304c50e809baadbba3059929027ffb1f66bf5/pdfs/09e3f031-ca5e-4443-8539-b750ce57cc9f.pdf"
+    },
+    {
+      "id": "CV027",
+      "file": "cvs/CV027_reb_real_anonymized_government.pdf",
+      "source": "resume-extract-bench",
+      "source_url": "https://huggingface.co/datasets/Careerflow/ResumeExtractBench/blob/9e6304c50e809baadbba3059929027ffb1f66bf5/pdfs/08200294-a2da-40ad-b618-2a7f8ac4a8f5.pdf"
+    },
+    {
+      "id": "CV028",
+      "file": "cvs/CV028_reb_real_anonymized_education.pdf",
+      "source": "resume-extract-bench",
+      "source_url": "https://huggingface.co/datasets/Careerflow/ResumeExtractBench/blob/9e6304c50e809baadbba3059929027ffb1f66bf5/pdfs/4d6cf9fa-0ff1-43e2-9840-8f146d293def.pdf"
+    },
+    {
+      "id": "CV029",
+      "file": "cvs/CV029_reb_real_anonymized_consulting.pdf",
+      "source": "resume-extract-bench",
+      "source_url": "https://huggingface.co/datasets/Careerflow/ResumeExtractBench/blob/9e6304c50e809baadbba3059929027ffb1f66bf5/pdfs/16802487-5809-4b53-9d48-8e7cf1ea7854.pdf"
+    },
+    {
+      "id": "CV030",
+      "file": "cvs/CV030_reb_synthetic_forge_finance.pdf",
+      "source": "resume-extract-bench",
+      "source_url": "https://huggingface.co/datasets/Careerflow/ResumeExtractBench/blob/9e6304c50e809baadbba3059929027ffb1f66bf5/pdfs/run-1021154122-aug4905-f08-v5.pdf"
+    },
+    {
+      "id": "CV031",
+      "file": "cvs/CV031_reb_synthetic_latex_software_engineering.pdf",
+      "source": "resume-extract-bench",
+      "source_url": "https://huggingface.co/datasets/Careerflow/ResumeExtractBench/blob/9e6304c50e809baadbba3059929027ffb1f66bf5/pdfs/clean-cv-elena-vasquez-senior-full-stack-developer-berlin.pdf"
+    },
+    {
+      "id": "CV032",
+      "file": "cvs/CV032_reb_synthetic_latex_government.pdf",
+      "source": "resume-extract-bench",
+      "source_url": "https://huggingface.co/datasets/Careerflow/ResumeExtractBench/blob/9e6304c50e809baadbba3059929027ffb1f66bf5/pdfs/federal-resume-marcus-williams-gs-14-senior-data-scientist-dhs-cisa.pdf"
+    },
+    {
+      "id": "CV033",
+      "file": "cvs/CV033_reb_expert_handwritten_engineering.pdf",
+      "source": "resume-extract-bench",
+      "source_url": "https://huggingface.co/datasets/Careerflow/ResumeExtractBench/blob/9e6304c50e809baadbba3059929027ffb1f66bf5/pdfs/oracle-fusion-scm-consultant-resume.pdf"
+    },
+    {
+      "id": "CV034",
+      "file": "cvs/CV034_reb_expert_handwritten_legal.pdf",
+      "source": "resume-extract-bench",
+      "source_url": "https://huggingface.co/datasets/Careerflow/ResumeExtractBench/blob/9e6304c50e809baadbba3059929027ffb1f66bf5/pdfs/criminal-defense-counsel-white-collar-john-doe-esq.pdf"
+    },
+    {
+      "id": "CV035",
+      "file": "cvs/CV035_reb_expert_handwritten_non_profit.pdf",
+      "source": "resume-extract-bench",
+      "source_url": "https://huggingface.co/datasets/Careerflow/ResumeExtractBench/blob/9e6304c50e809baadbba3059929027ffb1f66bf5/pdfs/genetic-counselor.pdf"
+    },
+    {
+      "id": "CV036",
+      "file": "cvs/CV036_reb_expert_handwritten_general.pdf",
+      "source": "resume-extract-bench",
+      "source_url": "https://huggingface.co/datasets/Careerflow/ResumeExtractBench/blob/9e6304c50e809baadbba3059929027ffb1f66bf5/pdfs/master-bellfounder-tower-restoration-consultant-jane-doe.pdf"
+    },
+    {
+      "id": "CV037",
+      "file": "cvs/CV037_academic_guido_van_der_groen.pdf",
+      "source": "guido-van-der-groen",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Guidovandergroen_CV.pdf"
+    },
+    {
+      "id": "CV038",
+      "file": "cvs/CV038_archival_crews_scan.pdf",
+      "source": "quintous-crews",
+      "source_url": "https://commons.wikimedia.org/wiki/File:CURRICULUM_VITAE_QUINTOUS_EARL_CREWS,_JR.,_M._D._(IA_CREWSQuintousCV).pdf"
+    },
+    {
+      "id": "CV039",
+      "file": "cvs/CV039_dutch_vdab_administratief_medewerker.pdf",
+      "source": "vdab",
+      "source_url": "https://www.vdab.be/jobs/solliciteren/cv/tips-en-voorbeelden"
+    },
+    {
+      "id": "CV040",
+      "file": "cvs/CV040_dutch_vdab_leerkracht.pdf",
+      "source": "vdab",
+      "source_url": "https://www.vdab.be/jobs/solliciteren/cv/tips-en-voorbeelden"
+    },
+    {
+      "id": "CV041",
+      "file": "cvs/CV041_dutch_vdab_schoonmaker.pdf",
+      "source": "vdab",
+      "source_url": "https://www.vdab.be/jobs/solliciteren/cv/tips-en-voorbeelden"
+    },
+    {
+      "id": "CV042",
+      "file": "cvs/CV042_dutch_vdab_verkoper.pdf",
+      "source": "vdab",
+      "source_url": "https://www.vdab.be/jobs/solliciteren/cv/tips-en-voorbeelden"
+    },
+    {
+      "id": "CV043",
+      "file": "cvs/CV043_dutch_vdab_webdesigner.pdf",
+      "source": "vdab",
+      "source_url": "https://www.vdab.be/jobs/solliciteren/cv/tips-en-voorbeelden"
+    },
+    {
+      "id": "CV044",
+      "file": "cvs/CV044_dutch_vdab_boekhouder.pdf",
+      "source": "vdab",
+      "source_url": "https://www.vdab.be/jobs/solliciteren/cv/tips-en-voorbeelden"
+    },
+    {
+      "id": "CV045",
+      "file": "cvs/CV045_dutch_vdab_heftruckbestuurder.pdf",
+      "source": "vdab",
+      "source_url": "https://www.vdab.be/jobs/solliciteren/cv/tips-en-voorbeelden"
+    }
+  ]
+}
