@@ -63,6 +63,7 @@ def structure_cv_text(
         ],
         "format": schema,
         "stream": False,
+        "think": False,
         "options": options,
         "keep_alive": keep_alive
     }

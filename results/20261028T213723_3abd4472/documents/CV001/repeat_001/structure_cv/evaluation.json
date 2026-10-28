@@ -1,0 +1,8 @@
+{
+  "reference": "C:\\School\\TI_3\\TI_sem_5\\AI-Project\\cv-data-extraction\\data\\references\\CV001.json",
+  "prediction": "C:\\School\\TI_3\\TI_sem_5\\AI-Project\\cv-data-extraction\\results\\20261028T213723_3abd4472\\documents\\CV001\\repeat_001\\structure_cv\\extraction.json",
+  "reference_sha256": "2a519c6883f1f1f91fd350f94dc08a941c75f92781cf55de6b33e6f960677d01",
+  "extraction_status": "error",
+  "status": "extraction_failed",
+  "overall": null
+}
