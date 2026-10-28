@@ -11,3 +11,8 @@ venv/
 
 # Downloaded models
 models/
+
+# VDAB PDFs and extracted content
+/data/cvs/*_dutch_vdab_*.pdf
+/results/**/documents/CV039/**/extraction.json
+/results/**/documents/CV04[0-5]/**/extraction.json
