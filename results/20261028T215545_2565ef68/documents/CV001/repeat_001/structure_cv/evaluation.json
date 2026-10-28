@@ -1,0 +1,1559 @@
+{
+  "reference": "C:\\School\\TI_3\\TI_sem_5\\AI-Project\\cv-data-extraction\\data\\references\\CV001.json",
+  "prediction": "C:\\School\\TI_3\\TI_sem_5\\AI-Project\\cv-data-extraction\\results\\20261028T215545_2565ef68\\documents\\CV001\\repeat_001\\structure_cv\\extraction.json",
+  "reference_sha256": "2a519c6883f1f1f91fd350f94dc08a941c75f92781cf55de6b33e6f960677d01",
+  "extraction_status": "completed",
+  "prediction_sha256": "c4c7009065afd787f65b8f268d2b4e3cdfd588902cd351a892924dacb3e072cb",
+  "json_valid": true,
+  "schema_valid": true,
+  "status": "completed",
+  "scope": "structured_fields_only",
+  "matching_review_required": true,
+  "overall": {
+    "correct": 20,
+    "missing": 78,
+    "unexpected": 89,
+    "incorrect": 3,
+    "expected_fields": 101,
+    "predicted_fields": 112,
+    "precision": 0.17857142857142858,
+    "recall": 0.19801980198019803,
+    "f1": 0.18779342723004694
+  },
+  "sections": {
+    "education": {
+      "correct": 9,
+      "missing": 4,
+      "unexpected": 9,
+      "incorrect": 3,
+      "expected_fields": 16,
+      "predicted_fields": 21,
+      "precision": 0.42857142857142855,
+      "recall": 0.5625,
+      "f1": 0.4864864864864865
+    },
+    "languages": {
+      "correct": 0,
+      "missing": 9,
+      "unexpected": 0,
+      "incorrect": 0,
+      "expected_fields": 9,
+      "predicted_fields": 0,
+      "precision": null,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "personal_information": {
+      "correct": 5,
+      "missing": 14,
+      "unexpected": 19,
+      "incorrect": 0,
+      "expected_fields": 19,
+      "predicted_fields": 24,
+      "precision": 0.20833333333333334,
+      "recall": 0.2631578947368421,
+      "f1": 0.23255813953488372
+    },
+    "projects": {
+      "correct": 4,
+      "missing": 1,
+      "unexpected": 8,
+      "incorrect": 0,
+      "expected_fields": 5,
+      "predicted_fields": 12,
+      "precision": 0.3333333333333333,
+      "recall": 0.8,
+      "f1": 0.47058823529411764
+    },
+    "publications": {
+      "correct": 0,
+      "missing": 26,
+      "unexpected": 29,
+      "incorrect": 0,
+      "expected_fields": 26,
+      "predicted_fields": 29,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "references": {
+      "correct": 0,
+      "missing": 10,
+      "unexpected": 14,
+      "incorrect": 0,
+      "expected_fields": 10,
+      "predicted_fields": 14,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "skills": {
+      "correct": 0,
+      "missing": 6,
+      "unexpected": 0,
+      "incorrect": 0,
+      "expected_fields": 6,
+      "predicted_fields": 0,
+      "precision": null,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "work_experience": {
+      "correct": 2,
+      "missing": 8,
+      "unexpected": 10,
+      "incorrect": 0,
+      "expected_fields": 10,
+      "predicted_fields": 12,
+      "precision": 0.16666666666666666,
+      "recall": 0.2,
+      "f1": 0.18181818181818182
+    }
+  },
+  "differences": [
+    {
+      "path": "education[0->0].degree",
+      "result": "incorrect",
+      "expected": "Ph.D.",
+      "actual": "Ph.D. in Your Discipline"
+    },
+    {
+      "path": "education[0->0].fields_of_study[reference:0]",
+      "result": "missing",
+      "expected": "Your Discipline",
+      "actual": null
+    },
+    {
+      "path": "education[0->0].skills[prediction:0].category",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Embedded Systems"
+    },
+    {
+      "path": "education[0->0].skills[prediction:0].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "C++"
+    },
+    {
+      "path": "education[0->0].skills[prediction:1].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Statistical Analysis"
+    },
+    {
+      "path": "education[0->0].theses[reference:0].title",
+      "result": "missing",
+      "expected": "Wonderful Research",
+      "actual": null
+    },
+    {
+      "path": "education[1->1].degree",
+      "result": "incorrect",
+      "expected": "M.Sc.",
+      "actual": "M.Sc. in Your Discipline"
+    },
+    {
+      "path": "education[1->1].fields_of_study[reference:0]",
+      "result": "missing",
+      "expected": "Your Discipline",
+      "actual": null
+    },
+    {
+      "path": "education[1->1].skills[prediction:0].category",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Embedded Systems"
+    },
+    {
+      "path": "education[1->1].skills[prediction:0].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "C++"
+    },
+    {
+      "path": "education[1->1].skills[prediction:1].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Statistical Analysis"
+    },
+    {
+      "path": "education[2->2].degree",
+      "result": "incorrect",
+      "expected": "B.Sc.",
+      "actual": "B.Sc. in Your Discipline"
+    },
+    {
+      "path": "education[2->2].fields_of_study[reference:0]",
+      "result": "missing",
+      "expected": "Your Discipline",
+      "actual": null
+    },
+    {
+      "path": "education[2->2].skills[prediction:0].category",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Embedded Systems"
+    },
+    {
+      "path": "education[2->2].skills[prediction:0].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "C++"
+    },
+    {
+      "path": "education[2->2].skills[prediction:1].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Statistical Analysis"
+    },
+    {
+      "path": "languages[reference:0].name",
+      "result": "missing",
+      "expected": "English",
+      "actual": null
+    },
+    {
+      "path": "languages[reference:0].overall.maximum",
+      "result": "missing",
+      "expected": 5.0,
+      "actual": null
+    },
+    {
+      "path": "languages[reference:0].overall.value",
+      "result": "missing",
+      "expected": 5.0,
+      "actual": null
+    },
+    {
+      "path": "languages[reference:1].name",
+      "result": "missing",
+      "expected": "Spanish",
+      "actual": null
+    },
+    {
+      "path": "languages[reference:1].overall.maximum",
+      "result": "missing",
+      "expected": 5.0,
+      "actual": null
+    },
+    {
+      "path": "languages[reference:1].overall.value",
+      "result": "missing",
+      "expected": 4.0,
+      "actual": null
+    },
+    {
+      "path": "languages[reference:2].name",
+      "result": "missing",
+      "expected": "German",
+      "actual": null
+    },
+    {
+      "path": "languages[reference:2].overall.maximum",
+      "result": "missing",
+      "expected": 5.0,
+      "actual": null
+    },
+    {
+      "path": "languages[reference:2].overall.value",
+      "result": "missing",
+      "expected": 3.5,
+      "actual": null
+    },
+    {
+      "path": "personal_information.contacts[prediction:2].type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "messaging"
+    },
+    {
+      "path": "personal_information.contacts[prediction:2].value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Åddrésş, Street, 00000 Cóuntry"
+    },
+    {
+      "path": "personal_information.contacts[prediction:3].type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "other"
+    },
+    {
+      "path": "personal_information.contacts[prediction:3].value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Location, COUNTRY"
+    },
+    {
+      "path": "personal_information.contacts[prediction:4].type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "other"
+    },
+    {
+      "path": "personal_information.contacts[prediction:4].value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "homepage: www.homepage.com"
+    },
+    {
+      "path": "personal_information.contacts[prediction:5].type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "other"
+    },
+    {
+      "path": "personal_information.contacts[prediction:5].value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "xtwitter: @x-handle"
+    },
+    {
+      "path": "personal_information.contacts[prediction:6].type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "other"
+    },
+    {
+      "path": "personal_information.contacts[prediction:6].value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "linkedin: your_id"
+    },
+    {
+      "path": "personal_information.contacts[prediction:7].type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "other"
+    },
+    {
+      "path": "personal_information.contacts[prediction:7].value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "github: your_id"
+    },
+    {
+      "path": "personal_information.contacts[prediction:8].type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "other"
+    },
+    {
+      "path": "personal_information.contacts[prediction:8].value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "gitlab: your_id"
+    },
+    {
+      "path": "personal_information.contacts[prediction:9].type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "other"
+    },
+    {
+      "path": "personal_information.contacts[prediction:9].value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "mastodon: https://instance.url/@username"
+    },
+    {
+      "path": "personal_information.contacts[prediction:10].type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "other"
+    },
+    {
+      "path": "personal_information.contacts[prediction:10].value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "orcid: 0000-0000-0000-0000"
+    },
+    {
+      "path": "personal_information.headline",
+      "result": "missing",
+      "expected": "Your Position or Tagline Here",
+      "actual": null
+    },
+    {
+      "path": "personal_information.preferred_name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Your Position or Tagline Here"
+    },
+    {
+      "path": "personal_information.weblinks[reference:0].url",
+      "result": "missing",
+      "expected": "www.homepage.com",
+      "actual": null
+    },
+    {
+      "path": "personal_information.weblinks[reference:1].platform",
+      "result": "missing",
+      "expected": "X",
+      "actual": null
+    },
+    {
+      "path": "personal_information.weblinks[reference:1].url",
+      "result": "missing",
+      "expected": "@x-handle",
+      "actual": null
+    },
+    {
+      "path": "personal_information.weblinks[reference:2].platform",
+      "result": "missing",
+      "expected": "LinkedIn",
+      "actual": null
+    },
+    {
+      "path": "personal_information.weblinks[reference:2].url",
+      "result": "missing",
+      "expected": "your_id",
+      "actual": null
+    },
+    {
+      "path": "personal_information.weblinks[reference:3].platform",
+      "result": "missing",
+      "expected": "GitHub",
+      "actual": null
+    },
+    {
+      "path": "personal_information.weblinks[reference:3].url",
+      "result": "missing",
+      "expected": "your_id",
+      "actual": null
+    },
+    {
+      "path": "personal_information.weblinks[reference:4].platform",
+      "result": "missing",
+      "expected": "ORCID",
+      "actual": null
+    },
+    {
+      "path": "personal_information.weblinks[reference:4].url",
+      "result": "missing",
+      "expected": "0000-0000-0000-0000",
+      "actual": null
+    },
+    {
+      "path": "personal_information.weblinks[reference:5].platform",
+      "result": "missing",
+      "expected": "GitLab",
+      "actual": null
+    },
+    {
+      "path": "personal_information.weblinks[reference:5].url",
+      "result": "missing",
+      "expected": "your_id",
+      "actual": null
+    },
+    {
+      "path": "personal_information.weblinks[reference:6].platform",
+      "result": "missing",
+      "expected": "Mastodon",
+      "actual": null
+    },
+    {
+      "path": "personal_information.weblinks[reference:6].url",
+      "result": "missing",
+      "expected": "@username@instance",
+      "actual": null
+    },
+    {
+      "path": "projects[0->0].dates.start",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Project duration"
+    },
+    {
+      "path": "projects[0->0].skills[prediction:0].category",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Embedded Systems"
+    },
+    {
+      "path": "projects[0->0].skills[prediction:0].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "C++"
+    },
+    {
+      "path": "projects[0->0].skills[prediction:1].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Statistical Analysis"
+    },
+    {
+      "path": "projects[1->1].dates.duration",
+      "result": "missing",
+      "expected": "Project duration",
+      "actual": null
+    },
+    {
+      "path": "projects[1->1].dates.start",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Project duration"
+    },
+    {
+      "path": "projects[1->1].skills[prediction:0].category",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Embedded Systems"
+    },
+    {
+      "path": "projects[1->1].skills[prediction:0].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "C++"
+    },
+    {
+      "path": "projects[1->1].skills[prediction:1].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Statistical Analysis"
+    },
+    {
+      "path": "publications[reference:0].authors[reference:0]",
+      "result": "missing",
+      "expected": "E. Someone",
+      "actual": null
+    },
+    {
+      "path": "publications[reference:0].authors[reference:1]",
+      "result": "missing",
+      "expected": "T. Lim",
+      "actual": null
+    },
+    {
+      "path": "publications[reference:0].date",
+      "result": "missing",
+      "expected": "2010",
+      "actual": null
+    },
+    {
+      "path": "publications[reference:0].title",
+      "result": "missing",
+      "expected": "A Fictional Research",
+      "actual": null
+    },
+    {
+      "path": "publications[reference:0].type",
+      "result": "missing",
+      "expected": "book",
+      "actual": null
+    },
+    {
+      "path": "publications[reference:1].authors[reference:0]",
+      "result": "missing",
+      "expected": "L. T. Wong",
+      "actual": null
+    },
+    {
+      "path": "publications[reference:1].authors[reference:1]",
+      "result": "missing",
+      "expected": "E. Someone",
+      "actual": null
+    },
+    {
+      "path": "publications[reference:1].date",
+      "result": "missing",
+      "expected": "2011",
+      "actual": null
+    },
+    {
+      "path": "publications[reference:1].title",
+      "result": "missing",
+      "expected": "A non-existant paper",
+      "actual": null
+    },
+    {
+      "path": "publications[reference:1].type",
+      "result": "missing",
+      "expected": "journal article",
+      "actual": null
+    },
+    {
+      "path": "publications[reference:1].venue",
+      "result": "missing",
+      "expected": "Journal of Carrying On",
+      "actual": null
+    },
+    {
+      "path": "publications[reference:1].volume",
+      "result": "missing",
+      "expected": "12",
+      "actual": null
+    },
+    {
+      "path": "publications[reference:2].authors[reference:0]",
+      "result": "missing",
+      "expected": "L. T. Lim",
+      "actual": null
+    },
+    {
+      "path": "publications[reference:2].authors[reference:1]",
+      "result": "missing",
+      "expected": "E. Someone",
+      "actual": null
+    },
+    {
+      "path": "publications[reference:2].authors[reference:2]",
+      "result": "missing",
+      "expected": "A. Other",
+      "actual": null
+    },
+    {
+      "path": "publications[reference:2].date",
+      "result": "missing",
+      "expected": "2008",
+      "actual": null
+    },
+    {
+      "path": "publications[reference:2].title",
+      "result": "missing",
+      "expected": "A study into fireside storytelling",
+      "actual": null
+    },
+    {
+      "path": "publications[reference:2].type",
+      "result": "missing",
+      "expected": "journal article",
+      "actual": null
+    },
+    {
+      "path": "publications[reference:2].venue",
+      "result": "missing",
+      "expected": "Journal of Carrying On",
+      "actual": null
+    },
+    {
+      "path": "publications[reference:2].volume",
+      "result": "missing",
+      "expected": "7",
+      "actual": null
+    },
+    {
+      "path": "publications[reference:3].authors[reference:0]",
+      "result": "missing",
+      "expected": "E. Someone",
+      "actual": null
+    },
+    {
+      "path": "publications[reference:3].authors[reference:1]",
+      "result": "missing",
+      "expected": "L. T. Lim",
+      "actual": null
+    },
+    {
+      "path": "publications[reference:3].date",
+      "result": "missing",
+      "expected": "2013",
+      "actual": null
+    },
+    {
+      "path": "publications[reference:3].title",
+      "result": "missing",
+      "expected": "Another paper something something",
+      "actual": null
+    },
+    {
+      "path": "publications[reference:3].type",
+      "result": "missing",
+      "expected": "conference paper",
+      "actual": null
+    },
+    {
+      "path": "publications[reference:3].venue",
+      "result": "missing",
+      "expected": "Proceedings of the 72nd AmaZing Conference",
+      "actual": null
+    },
+    {
+      "path": "publications[prediction:0].authors[prediction:0]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "E. Someone"
+    },
+    {
+      "path": "publications[prediction:0].authors[prediction:1]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "T. Lim"
+    },
+    {
+      "path": "publications[prediction:0].date",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "2010"
+    },
+    {
+      "path": "publications[prediction:0].title",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "E. Someone and T. Lim, A Fictional Research. Somewhere, Some Place, 2010."
+    },
+    {
+      "path": "publications[prediction:0].type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Book"
+    },
+    {
+      "path": "publications[prediction:0].venue",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Somewhere, Some Place"
+    },
+    {
+      "path": "publications[prediction:1].authors[prediction:0]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "L. T. Wong"
+    },
+    {
+      "path": "publications[prediction:1].authors[prediction:1]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "E. Someone"
+    },
+    {
+      "path": "publications[prediction:1].issue",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "vol. 12"
+    },
+    {
+      "path": "publications[prediction:1].pages",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "2011"
+    },
+    {
+      "path": "publications[prediction:1].title",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "L. T. Wong and E. Someone, “A non-existant paper,” Journal of Carrying On, vol. 12, 2011."
+    },
+    {
+      "path": "publications[prediction:1].type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Journal Articles"
+    },
+    {
+      "path": "publications[prediction:1].venue",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Journal of Carrying On"
+    },
+    {
+      "path": "publications[prediction:1].volume",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "12"
+    },
+    {
+      "path": "publications[prediction:2].authors[prediction:0]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "L. T. Lim"
+    },
+    {
+      "path": "publications[prediction:2].authors[prediction:1]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "E. Someone"
+    },
+    {
+      "path": "publications[prediction:2].authors[prediction:2]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "A. Other"
+    },
+    {
+      "path": "publications[prediction:2].issue",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "vol. 7"
+    },
+    {
+      "path": "publications[prediction:2].pages",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "2008"
+    },
+    {
+      "path": "publications[prediction:2].title",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "L. T. Lim, E. Someone, and A. Other, “A study into ﬁreside story-telling,” Journal of Carrying On, vol. 7, 2008."
+    },
+    {
+      "path": "publications[prediction:2].type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Journal Articles"
+    },
+    {
+      "path": "publications[prediction:2].venue",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Journal of Carrying On"
+    },
+    {
+      "path": "publications[prediction:2].volume",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "7"
+    },
+    {
+      "path": "publications[prediction:3].authors[prediction:0]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "E. Someone"
+    },
+    {
+      "path": "publications[prediction:3].authors[prediction:1]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "L. T. Lim"
+    },
+    {
+      "path": "publications[prediction:3].date",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "2013"
+    },
+    {
+      "path": "publications[prediction:3].title",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "E. Someone and L. T. Lim, “Another paper something something,” in Proceedings of the 72nd AmaZing Conference, Far Far Away, 2013."
+    },
+    {
+      "path": "publications[prediction:3].type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Conference Proceedings"
+    },
+    {
+      "path": "publications[prediction:3].venue",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Proceedings of the 72nd AmaZing Conference"
+    },
+    {
+      "path": "references[reference:0].contacts[reference:0].type",
+      "result": "missing",
+      "expected": "email",
+      "actual": null
+    },
+    {
+      "path": "references[reference:0].contacts[reference:0].value",
+      "result": "missing",
+      "expected": "a.beta@university.edu",
+      "actual": null
+    },
+    {
+      "path": "references[reference:0].name",
+      "result": "missing",
+      "expected": "Alpha Beta",
+      "actual": null
+    },
+    {
+      "path": "references[reference:0].organization.name",
+      "result": "missing",
+      "expected": "Institute",
+      "actual": null
+    },
+    {
+      "path": "references[reference:0].title",
+      "result": "missing",
+      "expected": "Prof.",
+      "actual": null
+    },
+    {
+      "path": "references[reference:1].contacts[reference:0].type",
+      "result": "missing",
+      "expected": "email",
+      "actual": null
+    },
+    {
+      "path": "references[reference:1].contacts[reference:0].value",
+      "result": "missing",
+      "expected": "g.delta@university.edu",
+      "actual": null
+    },
+    {
+      "path": "references[reference:1].name",
+      "result": "missing",
+      "expected": "Gamma Delta",
+      "actual": null
+    },
+    {
+      "path": "references[reference:1].organization.name",
+      "result": "missing",
+      "expected": "Institute",
+      "actual": null
+    },
+    {
+      "path": "references[reference:1].title",
+      "result": "missing",
+      "expected": "Prof.",
+      "actual": null
+    },
+    {
+      "path": "references[prediction:0].contacts[prediction:0].type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "other"
+    },
+    {
+      "path": "references[prediction:0].contacts[prediction:0].value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Address Line 1"
+    },
+    {
+      "path": "references[prediction:0].contacts[prediction:1].type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "other"
+    },
+    {
+      "path": "references[prediction:0].contacts[prediction:1].value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Address Line 2"
+    },
+    {
+      "path": "references[prediction:0].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Prof. Alpha Beta"
+    },
+    {
+      "path": "references[prediction:0].organization.name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Institute"
+    },
+    {
+      "path": "references[prediction:0].weblinks[prediction:0].url",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "a.beta@university.edu"
+    },
+    {
+      "path": "references[prediction:1].contacts[prediction:0].type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "other"
+    },
+    {
+      "path": "references[prediction:1].contacts[prediction:0].value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Address Line 1"
+    },
+    {
+      "path": "references[prediction:1].contacts[prediction:1].type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "other"
+    },
+    {
+      "path": "references[prediction:1].contacts[prediction:1].value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Address Line 2"
+    },
+    {
+      "path": "references[prediction:1].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Prof. Gamma Delta"
+    },
+    {
+      "path": "references[prediction:1].organization.name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Institute"
+    },
+    {
+      "path": "references[prediction:1].weblinks[prediction:0].url",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "g.delta@university.edu"
+    },
+    {
+      "path": "skills[reference:0].name",
+      "result": "missing",
+      "expected": "Hard-working",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:1].name",
+      "result": "missing",
+      "expected": "Eye for detail",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:2].name",
+      "result": "missing",
+      "expected": "Motivator & Leader",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:3].name",
+      "result": "missing",
+      "expected": "C++",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:4].name",
+      "result": "missing",
+      "expected": "Embedded Systems",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:5].name",
+      "result": "missing",
+      "expected": "Statistical Analysis",
+      "actual": null
+    },
+    {
+      "path": "work_experience[0->0].dates.end",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Ongoing"
+    },
+    {
+      "path": "work_experience[0->0].dates.start",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Month 20XX"
+    },
+    {
+      "path": "work_experience[0->0].positions[reference:0].dates.end",
+      "result": "missing",
+      "expected": "Ongoing",
+      "actual": null
+    },
+    {
+      "path": "work_experience[0->0].positions[reference:0].dates.is_current",
+      "result": "missing",
+      "expected": true,
+      "actual": null
+    },
+    {
+      "path": "work_experience[0->0].positions[reference:0].dates.start",
+      "result": "missing",
+      "expected": "Month 20XX",
+      "actual": null
+    },
+    {
+      "path": "work_experience[0->0].positions[reference:0].title",
+      "result": "missing",
+      "expected": "Job Title 1",
+      "actual": null
+    },
+    {
+      "path": "work_experience[0->0].skills[prediction:0].category",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Embedded Systems"
+    },
+    {
+      "path": "work_experience[0->0].skills[prediction:0].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "C++"
+    },
+    {
+      "path": "work_experience[0->0].skills[prediction:1].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Statistical Analysis"
+    },
+    {
+      "path": "work_experience[1->1].dates.end",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Ongoing"
+    },
+    {
+      "path": "work_experience[1->1].dates.start",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Month 20XX"
+    },
+    {
+      "path": "work_experience[1->1].positions[reference:0].dates.end",
+      "result": "missing",
+      "expected": "Ongoing",
+      "actual": null
+    },
+    {
+      "path": "work_experience[1->1].positions[reference:0].dates.is_current",
+      "result": "missing",
+      "expected": true,
+      "actual": null
+    },
+    {
+      "path": "work_experience[1->1].positions[reference:0].dates.start",
+      "result": "missing",
+      "expected": "Month 20XX",
+      "actual": null
+    },
+    {
+      "path": "work_experience[1->1].positions[reference:0].title",
+      "result": "missing",
+      "expected": "Job Title 2",
+      "actual": null
+    },
+    {
+      "path": "work_experience[1->1].skills[prediction:0].category",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Embedded Systems"
+    },
+    {
+      "path": "work_experience[1->1].skills[prediction:0].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "C++"
+    },
+    {
+      "path": "work_experience[1->1].skills[prediction:1].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Statistical Analysis"
+    }
+  ],
+  "matching_warnings": [
+    {
+      "path": "education",
+      "reason": "Ambiguous identity match; review alignment",
+      "reference_index": 0,
+      "prediction_index": 0
+    },
+    {
+      "path": "education",
+      "reason": "Ambiguous identity match; review alignment",
+      "reference_index": 1,
+      "prediction_index": 1
+    }
+  ],
+  "manual_review": {
+    "reference": [
+      {
+        "path": "personal_information.locations",
+        "value": [
+          {
+            "source_pages": [
+              1
+            ],
+            "raw_text": "Åddrésş, Street, 00000 Cóuntry"
+          },
+          {
+            "source_pages": [
+              1
+            ],
+            "raw_text": "Location, COUNTRY",
+            "city": "Location",
+            "country": "COUNTRY"
+          }
+        ]
+      },
+      {
+        "path": "profiles",
+        "value": [
+          {
+            "source_pages": [
+              1
+            ],
+            "source_heading": "MY LIFE PHILOSOPHY",
+            "type": "other",
+            "heading": "MY LIFE PHILOSOPHY",
+            "text": "“Something smart or heartfelt, preferably in one sentence.”"
+          }
+        ]
+      },
+      {
+        "path": "work_experience[0].positions[0].locations",
+        "value": [
+          {
+            "source_pages": [
+              1
+            ],
+            "raw_text": "Location"
+          }
+        ]
+      },
+      {
+        "path": "work_experience[0].positions[0].responsibilities",
+        "value": [
+          "Job description 1",
+          "Job description 2"
+        ]
+      },
+      {
+        "path": "work_experience[1].positions[0].locations",
+        "value": [
+          {
+            "source_pages": [
+              1
+            ],
+            "raw_text": "Location"
+          }
+        ]
+      },
+      {
+        "path": "work_experience[1].positions[0].responsibilities",
+        "value": [
+          "Job description 1",
+          "Job description 2"
+        ]
+      },
+      {
+        "path": "projects[0].description",
+        "value": "Details"
+      },
+      {
+        "path": "projects[1].description",
+        "value": "A short abstract would also work."
+      },
+      {
+        "path": "publications[0].additional_sections",
+        "value": [
+          {
+            "source_pages": [
+              2
+            ],
+            "heading": "Publication details",
+            "content": [
+              {
+                "source_pages": [
+                  2
+                ],
+                "type": "paragraph",
+                "text": "Somewhere, Some Place"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "publications[3].additional_sections",
+        "value": [
+          {
+            "source_pages": [
+              2
+            ],
+            "heading": "Publication details",
+            "content": [
+              {
+                "source_pages": [
+                  2
+                ],
+                "type": "paragraph",
+                "text": "Far Far Away"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "references[0].additional_sections",
+        "value": [
+          {
+            "source_pages": [
+              2
+            ],
+            "content": [
+              {
+                "source_pages": [
+                  2
+                ],
+                "type": "paragraph",
+                "text": "Address Line 1\nAddress Line 2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "references[1].additional_sections",
+        "value": [
+          {
+            "source_pages": [
+              2
+            ],
+            "content": [
+              {
+                "source_pages": [
+                  2
+                ],
+                "type": "paragraph",
+                "text": "Address Line 1\nAddress Line 2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "additional_sections",
+        "value": [
+          {
+            "source_pages": [
+              1
+            ],
+            "source_heading": "A DAY OF MY LIFE",
+            "heading": "A DAY OF MY LIFE",
+            "content": [
+              {
+                "source_pages": [
+                  1
+                ],
+                "type": "other",
+                "text": "Doughnut chart with five labeled segments. No numeric values or units are printed."
+              },
+              {
+                "source_pages": [
+                  1
+                ],
+                "type": "bullet",
+                "text": "Sleep, beautiful sleep"
+              },
+              {
+                "source_pages": [
+                  1
+                ],
+                "type": "bullet",
+                "text": "Hopeful novelist by night"
+              },
+              {
+                "source_pages": [
+                  1
+                ],
+                "type": "bullet",
+                "text": "Daytime job"
+              },
+              {
+                "source_pages": [
+                  1
+                ],
+                "type": "bullet",
+                "text": "Sports and relaxation"
+              },
+              {
+                "source_pages": [
+                  1
+                ],
+                "type": "bullet",
+                "text": "Spending time with family"
+              }
+            ]
+          },
+          {
+            "source_pages": [
+              1
+            ],
+            "source_heading": "MOST PROUD OF",
+            "heading": "MOST PROUD OF",
+            "content": [
+              {
+                "source_pages": [
+                  1
+                ],
+                "type": "bullet",
+                "text": "Fantastic Achievement\nand some details about it"
+              },
+              {
+                "source_pages": [
+                  1
+                ],
+                "type": "bullet",
+                "text": "Another achievement\nmore details about it of course"
+              },
+              {
+                "source_pages": [
+                  1
+                ],
+                "type": "bullet",
+                "text": "Another achievement\nmore details about it of course"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "prediction": [
+      {
+        "path": "work_experience[0].locations",
+        "value": [
+          {
+            "raw_text": "Location",
+            "label": "Location",
+            "country": "COUNTRY"
+          }
+        ]
+      },
+      {
+        "path": "work_experience[0].description",
+        "value": "MOST PROUD OF"
+      },
+      {
+        "path": "work_experience[0].responsibilities",
+        "value": [
+          "Job description 1",
+          "Job description 2"
+        ]
+      },
+      {
+        "path": "work_experience[0].achievements",
+        "value": [
+          "Fantastic Achievement and some details about it",
+          "Another achievement more details about it of course"
+        ]
+      },
+      {
+        "path": "work_experience[1].locations",
+        "value": [
+          {
+            "raw_text": "Location",
+            "label": "Location",
+            "country": "COUNTRY"
+          }
+        ]
+      },
+      {
+        "path": "work_experience[1].description",
+        "value": "MOST PROUD OF"
+      },
+      {
+        "path": "work_experience[1].responsibilities",
+        "value": [
+          "Job description 1",
+          "Job description 2"
+        ]
+      },
+      {
+        "path": "work_experience[1].achievements",
+        "value": [
+          "Fantastic Achievement and some details about it",
+          "Another achievement more details about it of course"
+        ]
+      },
+      {
+        "path": "projects[0].description",
+        "value": "A short abstract would also work."
+      },
+      {
+        "path": "projects[0].contributions",
+        "value": [
+          "Details"
+        ]
+      },
+      {
+        "path": "projects[1].description",
+        "value": "A short abstract would also work."
+      },
+      {
+        "path": "projects[1].contributions",
+        "value": [
+          "Details"
+        ]
+      },
+      {
+        "path": "education[0].locations",
+        "value": [
+          {
+            "raw_text": "Your University",
+            "label": "Your University"
+          }
+        ]
+      },
+      {
+        "path": "education[0].description",
+        "value": "Thesis title: Wonderful Research"
+      },
+      {
+        "path": "education[1].locations",
+        "value": [
+          {
+            "raw_text": "Your University",
+            "label": "Your University"
+          }
+        ]
+      },
+      {
+        "path": "education[2].locations",
+        "value": [
+          {
+            "raw_text": "Stanford University",
+            "label": "Stanford University"
+          }
+        ]
+      },
+      {
+        "path": "publications[1].description",
+        "value": "Carrying On"
+      },
+      {
+        "path": "publications[2].description",
+        "value": "Carrying On"
+      },
+      {
+        "path": "additional_sections",
+        "value": [
+          {
+            "source_pages": [
+              1
+            ],
+            "source_heading": "A DAY OF MY LIFE",
+            "source_text": "MY LIFE PHILOSOPHY",
+            "content": [
+              {
+                "type": "paragraph",
+                "text": "Daytime\n\nHopeful\n\nelist\n\nb y\n\nnight:\n\nSleep,\n\nbeautifu l sleep:"
+              },
+              {
+                "type": "paragraph",
+                "text": "Sports an d  relaxation:\n\nPh.D. in Your Discipline\n\nYour University\n\nDate: Sept 2002 – June 2006\n\nThesis title: Wonderful Research\n\nM.Sc. in Your Discipline\n\nYour University\n\nDate: Sept 2001 – June 2002\n\nB.Sc. in Your Discipline\n\nStanford University\n\nDate: Sept 1998 – June 2001"
+              }
+            ]
+          },
+          {
+            "source_pages": [
+              1
+            ],
+            "source_heading": "LANGUAGES",
+            "source_text": "MY LIFE PHILOSOPHY",
+            "content": [
+              {
+                "type": "paragraph",
+                "text": "English         5\n\nSpanish         4\n\nGerman         3 . 5"
+              }
+            ]
+          },
+          {
+            "source_pages": [
+              1
+            ],
+            "source_heading": "STRENGTHS",
+            "source_text": "MY LIFE PHILOSOPHY",
+            "content": [
+              {
+                "type": "paragraph",
+                "text": "Hard-working   Eye for detail\n\nMotivator & Leader"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

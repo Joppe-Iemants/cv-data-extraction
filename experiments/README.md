@@ -34,7 +34,7 @@ Runs comparisons using reusable components
 }
 ```
 "document_ids": null, to select all documents inside the split.
-### 1) run the run_experiment.py file  
+### 2) run the run_experiment.py file  
    For example:
 ```cmd
 python experiments/run_experiment.py --config experiments/configs/pdf_text_sorted.json
@@ -42,4 +42,10 @@ python experiments/run_experiment.py --config experiments/configs/pdf_text_sorte
 OR
 ```cmd
 pipenv run experiment --config experiments/configs/pdf_text_sorted.json
+```
+
+### 3) Evaluate the run
+   For example:
+```cmd
+pipenv run python -m cv_extraction.evaluation --reference data/references/CV001.json --prediction results/RUN_ID/documents/CV001/repeat_001/structure_cv/extraction.json --output results/RUN_ID/documents/CV001/repeat_001/structure_cv/evaluation.json
 ```
