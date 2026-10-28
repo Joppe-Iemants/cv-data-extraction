@@ -1,9 +1,0 @@
-{
-  "name": "pdf_text_baseline",
-  "method": "pdf_text",
-  "settings": {
-    "sort_text": false
-  },
-  "document_ids": ["CV001", "CV033"],
-  "repetitions": 3
-}

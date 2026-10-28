@@ -1,0 +1,460 @@
+{
+  "run_id": "20261028T155536_19ad177c",
+  "started_at_utc": "2026-10-28T15:55:36.611543+00:00",
+  "finished_at_utc": "2026-10-28T15:55:45.608923+00:00",
+  "document_count": 41,
+  "attempt_count": 205,
+  "documents": [
+    {
+      "document_id": "CV001",
+      "outcomes": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "median_extraction_seconds": 0.026612099958583713
+    },
+    {
+      "document_id": "CV002",
+      "outcomes": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "median_extraction_seconds": 0.024056000052951276
+    },
+    {
+      "document_id": "CV003",
+      "outcomes": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "median_extraction_seconds": 0.0511647000676021
+    },
+    {
+      "document_id": "CV004",
+      "outcomes": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "median_extraction_seconds": 0.017922200029715896
+    },
+    {
+      "document_id": "CV005",
+      "outcomes": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "median_extraction_seconds": 0.020728099974803627
+    },
+    {
+      "document_id": "CV006",
+      "outcomes": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "median_extraction_seconds": 0.025623800000175834
+    },
+    {
+      "document_id": "CV007",
+      "outcomes": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "median_extraction_seconds": 0.021274699945934117
+    },
+    {
+      "document_id": "CV008",
+      "outcomes": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "median_extraction_seconds": 0.06506769999396056
+    },
+    {
+      "document_id": "CV009",
+      "outcomes": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "median_extraction_seconds": 0.016541299992240965
+    },
+    {
+      "document_id": "CV010",
+      "outcomes": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "median_extraction_seconds": 0.02736680000089109
+    },
+    {
+      "document_id": "CV011",
+      "outcomes": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "median_extraction_seconds": 0.028734399937093258
+    },
+    {
+      "document_id": "CV012",
+      "outcomes": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "median_extraction_seconds": 0.03109870001208037
+    },
+    {
+      "document_id": "CV017",
+      "outcomes": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "median_extraction_seconds": 0.030814599944278598
+    },
+    {
+      "document_id": "CV018",
+      "outcomes": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "median_extraction_seconds": 0.03290940006263554
+    },
+    {
+      "document_id": "CV019",
+      "outcomes": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "median_extraction_seconds": 0.03904189995955676
+    },
+    {
+      "document_id": "CV020",
+      "outcomes": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "median_extraction_seconds": 0.037269400083459914
+    },
+    {
+      "document_id": "CV021",
+      "outcomes": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "median_extraction_seconds": 0.03953650000039488
+    },
+    {
+      "document_id": "CV022",
+      "outcomes": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "median_extraction_seconds": 0.03878249996341765
+    },
+    {
+      "document_id": "CV023",
+      "outcomes": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "median_extraction_seconds": 0.04307180002797395
+    },
+    {
+      "document_id": "CV024",
+      "outcomes": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "median_extraction_seconds": 0.03836789994966239
+    },
+    {
+      "document_id": "CV025",
+      "outcomes": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "median_extraction_seconds": 0.0516670000506565
+    },
+    {
+      "document_id": "CV026",
+      "outcomes": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "median_extraction_seconds": 0.03601910010911524
+    },
+    {
+      "document_id": "CV027",
+      "outcomes": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "median_extraction_seconds": 0.027053699945099652
+    },
+    {
+      "document_id": "CV028",
+      "outcomes": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "median_extraction_seconds": 0.02864979999139905
+    },
+    {
+      "document_id": "CV029",
+      "outcomes": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "median_extraction_seconds": 0.05055939999874681
+    },
+    {
+      "document_id": "CV030",
+      "outcomes": [
+        "partial_text",
+        "partial_text",
+        "partial_text",
+        "partial_text",
+        "partial_text"
+      ],
+      "median_extraction_seconds": 0.0036337999626994133
+    },
+    {
+      "document_id": "CV031",
+      "outcomes": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "median_extraction_seconds": 0.03468399995472282
+    },
+    {
+      "document_id": "CV032",
+      "outcomes": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "median_extraction_seconds": 0.1226602999959141
+    },
+    {
+      "document_id": "CV033",
+      "outcomes": [
+        "empty_text",
+        "empty_text",
+        "empty_text",
+        "empty_text",
+        "empty_text"
+      ],
+      "median_extraction_seconds": 0.010949700023047626
+    },
+    {
+      "document_id": "CV034",
+      "outcomes": [
+        "empty_text",
+        "empty_text",
+        "empty_text",
+        "empty_text",
+        "empty_text"
+      ],
+      "median_extraction_seconds": 0.004193199914880097
+    },
+    {
+      "document_id": "CV035",
+      "outcomes": [
+        "empty_text",
+        "empty_text",
+        "empty_text",
+        "empty_text",
+        "empty_text"
+      ],
+      "median_extraction_seconds": 0.0067764000268653035
+    },
+    {
+      "document_id": "CV036",
+      "outcomes": [
+        "empty_text",
+        "empty_text",
+        "empty_text",
+        "empty_text",
+        "empty_text"
+      ],
+      "median_extraction_seconds": 0.003912299987860024
+    },
+    {
+      "document_id": "CV037",
+      "outcomes": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "median_extraction_seconds": 0.3117964999983087
+    },
+    {
+      "document_id": "CV038",
+      "outcomes": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "median_extraction_seconds": 0.052180300001055
+    },
+    {
+      "document_id": "CV039",
+      "outcomes": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "median_extraction_seconds": 0.038300200016237795
+    },
+    {
+      "document_id": "CV040",
+      "outcomes": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "median_extraction_seconds": 0.022082800045609474
+    },
+    {
+      "document_id": "CV041",
+      "outcomes": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "median_extraction_seconds": 0.01351229997817427
+    },
+    {
+      "document_id": "CV042",
+      "outcomes": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "median_extraction_seconds": 0.013160699978470802
+    },
+    {
+      "document_id": "CV043",
+      "outcomes": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "median_extraction_seconds": 0.029948099981993437
+    },
+    {
+      "document_id": "CV044",
+      "outcomes": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "median_extraction_seconds": 0.018210900016129017
+    },
+    {
+      "document_id": "CV045",
+      "outcomes": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "median_extraction_seconds": 0.01736609998624772
+    }
+  ]
+}

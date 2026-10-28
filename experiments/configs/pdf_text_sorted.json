@@ -1,0 +1,9 @@
+{
+  "name": "pdf_text_baseline",
+  "method": "pdf_text",
+  "settings": {
+    "sort_text": true
+  },
+  "document_ids": null,
+  "repetitions": 5
+}
