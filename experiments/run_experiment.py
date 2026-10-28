@@ -13,6 +13,7 @@ from cv_extraction.pipeline import run_extraction
 from cv_extraction.storage import save_json
 from cv_extraction.config import select_split
 from cv_extraction.reporting import build_document_summaries
+from cv_extraction.hardware import capture_hardware
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
@@ -140,6 +141,7 @@ def capture_environment() -> dict:
         "platform": platform.platform(),
         "machine": platform.machine(),
         "processor": platform.processor(),
+        "hardware": capture_hardware(),
         "git_commit": git_output("rev-parse", "HEAD"),
         "git_status": git_output("status", "--porcelain"),
         "packages": {
@@ -224,7 +226,7 @@ def main():
         reports,
         config["inputs"]
     )
-    
+
     save_json(
         run_directory / "summary.json",
         {
