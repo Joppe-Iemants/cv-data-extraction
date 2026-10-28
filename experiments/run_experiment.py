@@ -149,6 +149,13 @@ def capture_environment() -> dict:
         }
     }
 
+def save_stage(attempt_directory: Path, stage_report: dict, output) -> None:
+    stage_directory = attempt_directory / stage_report["name"]
+
+    if output is not None:
+        save_json(stage_directory / "extraction.json", output)
+
+    save_json(stage_directory / "report.json", stage_report)
 
 def main():
     parser = argparse.ArgumentParser()
@@ -183,36 +190,26 @@ def main():
                 / document["id"]
                 / f"repeat_{repetition:03d}"
             )
-
-            try:
-                result = run_extraction(
-                    pdf_path,
-                    sort_text=config["settings"]["sort_text"]
+            def on_stage_finished(stage_report, output):
+                save_stage(
+                    output_directory,
+                    stage_report,
+                    output
                 )
-            except Exception as error:
-                result = {
-                    "status": "error",
-                    "metrics": {},
-                    "extracted_data": None,
-                    "error": {
-                        "type": type(error).__name__,
-                        "message": str(error)
-                    }
-                }
 
-            extracted_data = result.pop("extracted_data")
+            result = run_extraction(
+                pdf_path,
+                sort_text=config["settings"]["sort_text"],
+                on_stage_finished=on_stage_finished
+            )
+
+            result.pop("extracted_data")
 
             report = {
                 "document_id": document["id"],
                 "repetition": repetition,
                 **result
             }
-
-            if extracted_data is not None:
-                save_json(
-                    output_directory / "extraction.json",
-                    extracted_data
-                )
 
             save_json(output_directory / "report.json", report)
             reports.append(report)

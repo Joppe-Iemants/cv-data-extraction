@@ -5,7 +5,7 @@
     "sort_text": true
   },
   "split": "development",
-  "document_ids": null,
+  "document_ids":  ["CV001", "CV033"],
   "exclude_sources": ["vdab"],
-  "repetitions": 5
+  "repetitions": 1
 }
