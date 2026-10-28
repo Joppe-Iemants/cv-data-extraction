@@ -1,7 +1,7 @@
 from pathlib import Path
 from time import perf_counter
 
-from .methods.pdf_text import extract_pdf_text
+from .stages import STAGE_METHODS
 from .monitoring import MemoryMonitor
 
 def execute_stage(name: str, method: str, function, *args, monitoring: dict | None = None, **kwargs) -> dict:
@@ -47,60 +47,84 @@ def execute_stage(name: str, method: str, function, *args, monitoring: dict | No
         "output": output
     }
 
-def run_extraction(pdf_path: Path, sort_text: bool = False, on_stage_finished=None, monitoring: dict | None = None) -> dict:
-    stage = execute_stage(
-        "read_pdf",
-        "pdf_text",
-        extract_pdf_text,
-        pdf_path,
-        monitoring=monitoring,
-        sort_text=sort_text
-    )
+def run_extraction(pdf_path: Path, stages: list[dict], on_stage_finished=None, monitoring: dict | None = None) -> dict:
+    current_input = pdf_path
+    last_output = None
+    stage_reports = []
 
-    stage_report = stage["report"]
-    extracted_data = stage["output"]
+    status = "completed"
+    stop_reason = None
 
-    if stage_report["execution_status"] == "error":
-        status = "error"
-    else:
-        pages = extracted_data["pages"]
+    for stage_config in stages:
+        name = stage_config["name"]
+        method = stage_config["method"]
 
-        character_count = sum(
-            page["character_count"]
-            for page in pages
+        if stop_reason is not None:
+            stage_report = {
+                "name": name,
+                "method": method,
+                "execution_status": "skipped",
+                "outcome": None,
+                "metrics": {},
+                "error": None,
+                "skip_reason": stop_reason
+            }
+
+            stage_reports.append(stage_report)
+
+            if on_stage_finished is not None:
+                on_stage_finished(stage_report, None)
+
+            continue
+
+        definition = STAGE_METHODS[method]
+
+        stage = execute_stage(
+            name,
+            method,
+            definition["function"],
+            current_input,
+            monitoring=monitoring,
+            **stage_config["settings"]
         )
 
-        pages_without_text = [
-            page["page_number"]
-            for page in pages
-            if page["character_count"] == 0
-        ]
+        stage_report = stage["report"]
+        output = None
 
-        if character_count == 0:
-            status = "empty_text"
-        elif pages_without_text:
-            status = "partial_text"
+        if stage_report["execution_status"] == "error":
+            status = "error"
+            stop_reason = f"Previous stage failed: {name}"
         else:
-            status = "success"
+            stage_output = stage["output"]
 
-        stage_report["outcome"] = status
+            output = stage_output["data"]
+            stage_report["outcome"] = stage_output["outcome"]
+            stage_report["metrics"].update(stage_output["metrics"])
 
-        stage_report["metrics"].update({
-            "page_count": extracted_data["page_count"],
-            "character_count": character_count,
-            "pages_without_text": pages_without_text
-        })
+            current_input = output
+            last_output = output
 
-    if on_stage_finished is not None:
-        on_stage_finished(stage_report, extracted_data)
+            if stage_report["outcome"] == "empty_text":
+                status = "empty_text"
+                stop_reason = f"Previous stage returned no text: {name}"
+            elif stage_report["outcome"] == "partial_text":
+                status = "partial_text"
+
+        stage_reports.append(stage_report)
+
+        if on_stage_finished is not None:
+            on_stage_finished(stage_report, output)
+
+    processing_seconds = sum(
+        report["metrics"].get("duration_seconds", 0)
+        for report in stage_reports
+    )
 
     return {
         "status": status,
         "metrics": {
-            "extraction_seconds": (
-                stage_report["metrics"]["duration_seconds"]
-            )
+            "processing_seconds": processing_seconds
         },
-        "stages": [stage_report],
-        "extracted_data": extracted_data
+        "stages": stage_reports,
+        "extracted_data": last_output
     }

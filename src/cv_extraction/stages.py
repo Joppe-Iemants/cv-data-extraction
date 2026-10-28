@@ -1,0 +1,73 @@
+from pathlib import Path
+
+from .methods.pdf_text import extract_pdf_text
+
+
+def read_pdf_stage(pdf_path: Path, sort_text: bool) -> dict:
+    data = extract_pdf_text(pdf_path, sort_text=sort_text)
+
+    character_count = sum(
+        page["character_count"]
+        for page in data["pages"]
+    )
+
+    pages_without_text = [
+        page["page_number"]
+        for page in data["pages"]
+        if page["character_count"] == 0
+    ]
+
+    if character_count == 0:
+        outcome = "empty_text"
+    elif pages_without_text:
+        outcome = "partial_text"
+    else:
+        outcome = "success"
+
+    return {
+        "data": data,
+        "outcome": outcome,
+        "metrics": {
+            "page_count": data["page_count"],
+            "character_count": character_count,
+            "pages_without_text": pages_without_text
+        }
+    }
+
+
+def prepare_text_stage(data: dict, page_separator: str) -> dict:
+    text = page_separator.join(
+        page["text"]
+        for page in data["pages"]
+    )
+
+    return {
+        "data": {
+            "text": text,
+            "page_count": data["page_count"]
+        },
+        "outcome": "success" if text.strip() else "empty_text",
+        "metrics": {
+            "character_count": len(text.strip())
+        }
+    }
+
+
+STAGE_METHODS = {
+    "pdf_text": {
+        "function": read_pdf_stage,
+        "input_kind": "pdf",
+        "output_kind": "pages",
+        "settings": {
+            "sort_text": bool
+        }
+    },
+    "join_page_text": {
+        "function": prepare_text_stage,
+        "input_kind": "pages",
+        "output_kind": "text",
+        "settings": {
+            "page_separator": str
+        }
+    }
+}

@@ -1,15 +1,27 @@
 {
   "name": "pdf_text_baseline",
-  "method": "pdf_text",
-  "settings": {
-    "sort_text": true
-  },
   "split": "development",
-  "document_ids":  ["CV001", "CV033"],
+  "document_ids": ["CV001", "CV033"],
   "exclude_sources": ["vdab"],
   "repetitions": 5,
   "monitoring": {
-    "memory": true,
+    "memory": false,
     "sample_interval_ms": 10
-  }
+  },
+  "stages": [
+    {
+      "name": "read_pdf",
+      "method": "pdf_text",
+      "settings": {
+        "sort_text": true
+      }
+    },
+    {
+      "name": "prepare_text",
+      "method": "join_page_text",
+      "settings": {
+        "page_separator": "\n\n"
+      }
+    }
+  ]
 }

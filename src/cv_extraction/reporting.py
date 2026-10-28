@@ -17,6 +17,9 @@ def summarize_memory(stage_reports: list[dict]) -> dict:
     boundary_only_measurements = 0
 
     for report in stage_reports:
+        if report["execution_status"] == "skipped":
+            collection_counts["skipped"] += 1
+            continue
         memory = report["metrics"].get("memory")
 
         if memory is None:

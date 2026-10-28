@@ -1,0 +1,181 @@
+{
+  "run_id": "20261028T190916_046224d1",
+  "started_at_utc": "2026-10-28T19:09:16.117800+00:00",
+  "finished_at_utc": "2026-10-28T19:09:16.592405+00:00",
+  "document_count": 2,
+  "attempt_count": 10,
+  "documents": [
+    {
+      "document_id": "CV001",
+      "attempt_count": 5,
+      "outcome_counts": {
+        "completed": 5
+      },
+      "stages": {
+        "prepare_text": {
+          "method": "join_page_text",
+          "execution_counts": {
+            "completed": 5
+          },
+          "outcome_counts": {
+            "success": 5
+          },
+          "completed_timing_seconds": {
+            "count": 5,
+            "minimum": 1.0300078429281712e-05,
+            "median": 1.209997572004795e-05,
+            "maximum": 1.5600002370774746e-05
+          },
+          "failed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "memory": {
+            "collection_counts": {
+              "disabled": 5
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "boundary_only_measurements": 0
+          }
+        },
+        "read_pdf": {
+          "method": "pdf_text",
+          "execution_counts": {
+            "completed": 5
+          },
+          "outcome_counts": {
+            "success": 5
+          },
+          "completed_timing_seconds": {
+            "count": 5,
+            "minimum": 0.02417690004222095,
+            "median": 0.026947999955154955,
+            "maximum": 0.02924850000999868
+          },
+          "failed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "memory": {
+            "collection_counts": {
+              "disabled": 5
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "boundary_only_measurements": 0
+          }
+        }
+      }
+    },
+    {
+      "document_id": "CV033",
+      "attempt_count": 5,
+      "outcome_counts": {
+        "empty_text": 5
+      },
+      "stages": {
+        "prepare_text": {
+          "method": "join_page_text",
+          "execution_counts": {
+            "skipped": 5
+          },
+          "outcome_counts": {},
+          "completed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "failed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "memory": {
+            "collection_counts": {
+              "skipped": 5
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "boundary_only_measurements": 0
+          }
+        },
+        "read_pdf": {
+          "method": "pdf_text",
+          "execution_counts": {
+            "completed": 5
+          },
+          "outcome_counts": {
+            "empty_text": 5
+          },
+          "completed_timing_seconds": {
+            "count": 5,
+            "minimum": 0.00910610007122159,
+            "median": 0.009540600003674626,
+            "maximum": 0.011264100088737905
+          },
+          "failed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "memory": {
+            "collection_counts": {
+              "disabled": 5
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "boundary_only_measurements": 0
+          }
+        }
+      }
+    }
+  ]
+}

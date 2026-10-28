@@ -11,7 +11,7 @@ from uuid import uuid4
 
 from cv_extraction.pipeline import run_extraction
 from cv_extraction.storage import save_json
-from cv_extraction.config import select_split
+from cv_extraction.config import select_split, validate_stages
 from cv_extraction.reporting import build_document_summaries
 from cv_extraction.hardware import capture_hardware
 
@@ -40,11 +40,7 @@ def git_output(*arguments):
 def prepare_config(config_path: Path) -> dict:
     config = json.loads(config_path.read_text(encoding="utf-8"))
 
-    if config["method"] != "pdf_text":
-        raise ValueError("Only the pdf_text method is currently supported.")
-
-    if type(config["settings"]["sort_text"]) is not bool:
-        raise ValueError("sort_text must be true or false.")
+    validate_stages(config["stages"])
 
     repetitions = config["repetitions"]
 
@@ -214,7 +210,7 @@ def main():
 
             result = run_extraction(
                 pdf_path,
-                sort_text=config["settings"]["sort_text"],
+                stages=config["stages"],
                 on_stage_finished=on_stage_finished,
                 monitoring=config["monitoring"]
             )
