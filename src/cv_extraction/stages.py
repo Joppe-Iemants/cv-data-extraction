@@ -1,7 +1,7 @@
 from pathlib import Path
 
 from .methods.pdf_text import extract_pdf_text
-
+from .methods.llm_structuring import structure_cv_text
 
 def read_pdf_stage(pdf_path: Path, sort_text: bool) -> dict:
     data = extract_pdf_text(pdf_path, sort_text=sort_text)
@@ -68,6 +68,18 @@ STAGE_METHODS = {
         "output_kind": "text",
         "settings": {
             "page_separator": str
+        }
+    },
+    "llm_structuring": {
+        "function": structure_cv_text,
+        "input_kind": "text",
+        "output_kind": "cv",
+        "settings": {
+            "model": str,
+            "base_url": str,
+            "timeout_seconds": int,
+            "options": dict,
+            "keep_alive": str
         }
     }
 }

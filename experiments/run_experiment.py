@@ -163,11 +163,17 @@ def capture_environment() -> dict:
 def save_stage(attempt_directory: Path, stage_report: dict, output) -> None:
     stage_directory = attempt_directory / stage_report["name"]
 
+    artifacts = stage_report.pop("artifacts", None)
+
+    if artifacts is not None:
+        save_json(stage_directory / "artifacts.json", artifacts)
+        stage_report["artifacts_file"] = "artifacts.json"
+
     if output is not None:
         save_json(stage_directory / "extraction.json", output)
 
     save_json(stage_directory / "report.json", stage_report)
-
+    
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--config", type=Path, required=True)

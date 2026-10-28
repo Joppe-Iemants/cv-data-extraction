@@ -39,6 +39,10 @@ def validate_stage_output(output) -> None:
             "Stage metrics cannot overwrite shared measurements: "
             f"{sorted(conflicting_keys)}"
         )
+    
+    if "artifacts" in output:
+        if not isinstance(output["artifacts"], dict):
+            raise TypeError("Stage artifacts must be a dictionary.")
         
 def execute_stage(name: str, method: str, function, *args, monitoring: dict | None = None, **kwargs) -> dict:
     settings = monitoring or {}
@@ -50,6 +54,7 @@ def execute_stage(name: str, method: str, function, *args, monitoring: dict | No
 
     output = None
     error_details = None
+    artifacts = None
     execution_status = "completed"
 
     monitor.start()
@@ -58,10 +63,11 @@ def execute_stage(name: str, method: str, function, *args, monitoring: dict | No
     try:
         output = function(*args, **kwargs)
         validate_stage_output(output)
+        artifacts = output.get("artifacts")
     except Exception as error:
         output = None
         execution_status = "error"
-
+        artifacts = getattr(error, "artifacts", None)
         error_details = {
             "type": type(error).__name__,
             "message": str(error)
@@ -80,7 +86,8 @@ def execute_stage(name: str, method: str, function, *args, monitoring: dict | No
                 "duration_seconds": duration,
                 "memory": monitor.report()
             },
-            "error": error_details
+            "error": error_details,
+            "artifacts": artifacts
         },
         "output": output
     }
