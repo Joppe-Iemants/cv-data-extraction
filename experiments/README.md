@@ -9,9 +9,11 @@ Runs comparisons using reusable components
   "name": "pdf_text_baseline",
   "method": "pdf_text",
   "settings": {
-    "sort_text": false
+    "sort_text": true
   },
-  "document_ids": null,
+  "split": "development",
+  "document_ids": null, // null for all ids within the split
+  "exclude_sources": ["vdab"],
   "repetitions": 5
 }
 ```

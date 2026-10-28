@@ -12,7 +12,7 @@ from uuid import uuid4
 
 from cv_extraction.pipeline import run_extraction
 from cv_extraction.storage import save_json
-
+from cv_extraction.config import select_split
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
@@ -56,6 +56,16 @@ def prepare_config(config_path: Path) -> dict:
         manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
 
         documents = manifest["documents"]
+
+        split_name = config.get("split")
+
+        if split_name is not None:
+            documents = select_split(
+                documents,
+                PROJECT_ROOT / "data" / "splits.json",
+                split_name
+            )
+
         requested_ids = config["document_ids"]
 
         # Check if the requested id exists(in manifest.json)
@@ -64,7 +74,7 @@ def prepare_config(config_path: Path) -> dict:
             unknown_ids = set(requested_ids) - available_ids
 
             if unknown_ids:
-                raise ValueError(f"Unknown document IDs: {sorted(unknown_ids)}")
+                raise ValueError("Requested IDs are unavailable in the selected dataset: "f"{sorted(unknown_ids)}")
 
             documents = [
                 document

@@ -4,6 +4,7 @@
   "settings": {
     "sort_text": true
   },
+  "split": "development",
   "document_ids": null,
   "exclude_sources": ["vdab"],
   "repetitions": 5
