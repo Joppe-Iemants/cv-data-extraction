@@ -2,22 +2,39 @@
 Runs comparisons using reusable components
 
 ## How to run
-1) Make sure you have a config file you want to use.  
+### 1) Make sure you have a config file you want to use.  
    For example:
 ```json
 {
   "name": "pdf_text_baseline",
-  "method": "pdf_text",
-  "settings": {
-    "sort_text": true
-  },
   "split": "development",
-  "document_ids": null, // null for all ids within the split
+  "document_ids": ["CV001", "CV033"],
   "exclude_sources": ["vdab"],
-  "repetitions": 5
+  "repetitions": 5,
+  "monitoring": {
+    "memory": false,
+    "sample_interval_ms": 10
+  },
+  "stages": [
+    {
+      "name": "read_pdf",
+      "method": "pdf_text",
+      "settings": {
+        "sort_text": true
+      }
+    },
+    {
+      "name": "prepare_text",
+      "method": "join_page_text",
+      "settings": {
+        "page_separator": "\n\n"
+      }
+    }
+  ]
 }
 ```
-1) run the run_experiment.py file  
+"document_ids": null, to select all documents inside the split.
+### 1) run the run_experiment.py file  
    For example:
 ```cmd
 python experiments/run_experiment.py --config experiments/configs/pdf_text_sorted.json
