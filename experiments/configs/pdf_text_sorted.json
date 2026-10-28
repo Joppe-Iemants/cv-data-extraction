@@ -7,5 +7,5 @@
   "split": "development",
   "document_ids":  ["CV001", "CV033"],
   "exclude_sources": ["vdab"],
-  "repetitions": 1
+  "repetitions": 5
 }

@@ -7,12 +7,12 @@ import sys
 from datetime import datetime, timezone
 from importlib.metadata import distributions
 from pathlib import Path
-from statistics import median
 from uuid import uuid4
 
 from cv_extraction.pipeline import run_extraction
 from cv_extraction.storage import save_json
 from cv_extraction.config import select_split
+from cv_extraction.reporting import build_document_summaries
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
@@ -220,32 +220,11 @@ def main():
                 f"{report['status']}"
             )
 
-    document_summaries = []
-
-    for document in config["inputs"]:
-        measurements = [
-            report
-            for report in reports
-            if report["document_id"] == document["id"]
-        ]
-
-        durations = [
-            report["metrics"]["extraction_seconds"]
-            for report in measurements
-            if "extraction_seconds" in report["metrics"]
-        ]
-
-        document_summaries.append({
-            "document_id": document["id"],
-            "outcomes": [
-                report["status"]
-                for report in measurements
-            ],
-            "median_extraction_seconds": (
-                median(durations) if durations else None
-            )
-        })
-
+    document_summaries = build_document_summaries(
+        reports,
+        config["inputs"]
+    )
+    
     save_json(
         run_directory / "summary.json",
         {
