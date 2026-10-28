@@ -62,7 +62,7 @@ def structure_cv_text(
             }
         ],
         "format": schema,
-        "stream": True,
+        "stream": False,
         "options": options,
         "keep_alive": keep_alive
     }
