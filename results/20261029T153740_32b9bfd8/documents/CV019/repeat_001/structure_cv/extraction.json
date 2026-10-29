@@ -1,0 +1,39 @@
+{
+  "personal_information": {
+    "source_pages": [
+      1,
+      2
+    ],
+    "full_name": "John Doe",
+    "headline": null,
+    "emails": [],
+    "phones": [],
+    "location": "San Francisco, CA",
+    "weblinks": [
+      {
+        "url": "rendercv.com",
+        "platform": "rendercv"
+      },
+      {
+        "url": "rendercv",
+        "platform": "rendercv"
+      },
+      {
+        "url": "rendercv",
+        "platform": "rendercv"
+      }
+    ],
+    "details": [
+      "Last updated in Mar 2026"
+    ]
+  },
+  "summary": "Welcome to RenderCV\n RenderCV reads a CV written in a YAML file, and generates a PDF with professional typography.\n Each section title is arbitrary.\n You can choose any of the 9 entry types for each section.\n Markdown syntax is supported everywhere. This is bold, italic, and link.",
+  "work_experience": [],
+  "projects": [],
+  "education": [],
+  "skills": [],
+  "languages": [],
+  "certifications": [],
+  "training": [],
+  "additional_sections": []
+}
