@@ -1,0 +1,942 @@
+{
+  "personal_information": {
+    "source_pages": [
+      1
+    ],
+    "source_heading": "JAN KüSTER RESUME",
+    "source_text": "Consultant and Software Developer",
+    "entry_id": null,
+    "additional_sections": [],
+    "full_name": "JAN KüSTER",
+    "preferred_name": null,
+    "given_names": null,
+    "family_name": null,
+    "professional_titles": [],
+    "headline": null,
+    "current_occupation": "Consultant and Software Developer",
+    "contacts": [
+      {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "type": "email",
+        "value": "info@jankuester.com",
+        "label": null,
+        "platform": null
+      },
+      {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "type": "phone",
+        "value": "+49 176 *** *** **",
+        "label": null,
+        "platform": null
+      }
+    ],
+    "locations": [
+      {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "raw_text": "Bremen, Germany",
+        "label": "Bremen, Germany",
+        "address": null,
+        "postal_code": null,
+        "city": null,
+        "region": null,
+        "country": null
+      }
+    ],
+    "weblinks": [
+      {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "url": "www.jankuester.com",
+        "label": "www.jankuester.com",
+        "type": null,
+        "platform": null
+      },
+      {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "url": "github.com/jankapunkt",
+        "label": "github.com/jankapunkt",
+        "type": null,
+        "platform": null
+      }
+    ],
+    "date_of_birth": null,
+    "place_of_birth": null,
+    "nationalities": [],
+    "pronouns": null,
+    "gender": null,
+    "marital_status": null
+  },
+  "profiles": [
+    {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "entry_id": null,
+      "additional_sections": [],
+      "type": null,
+      "heading": null,
+      "text": "Digital media graduate with project experience in the ﬁeld of technology based assessment. Currently working as IT Consultant at We4IT, Bremen in the ﬁeld of IBM Notes Domino and XPages applications. Master studies focused on teams from diﬀerent disciplines and cultural backgrounds on solutions for complex problems."
+    }
+  ],
+  "work_experience": [
+    {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "entry_id": null,
+      "additional_sections": [],
+      "organization": {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "entry_id": null,
+        "additional_sections": [],
+        "name": "University of Bremen",
+        "department": null,
+        "industry": null,
+        "description": null,
+        "locations": [],
+        "weblinks": []
+      },
+      "client": null,
+      "dates": {
+        "raw_text": null,
+        "start": "2016",
+        "end": "present",
+        "is_current": null,
+        "duration": null
+      },
+      "employment_type": null,
+      "locations": [],
+      "description": null,
+      "positions": [
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "entry_id": null,
+          "additional_sections": [],
+          "title": "Scientiﬁc Employee / PhD Student",
+          "department": null,
+          "employment_type": null,
+          "dates": null,
+          "locations": [],
+          "work_arrangement": null,
+          "description": null,
+          "responsibilities": [
+            "Develop and evaluate the next generation learning management system with Meteor",
+            "Deﬁne a new level of software for classroom management based on an extensive nursing curriculum"
+          ],
+          "achievements": [],
+          "skills": [],
+          "weblinks": []
+        }
+      ],
+      "responsibilities": [],
+      "achievements": [],
+      "skills": [],
+      "weblinks": []
+    },
+    {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "entry_id": null,
+      "additional_sections": [],
+      "organization": {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "entry_id": null,
+        "additional_sections": [],
+        "name": "We4IT GmbH Bremen",
+        "department": null,
+        "industry": null,
+        "description": null,
+        "locations": [],
+        "weblinks": []
+      },
+      "client": null,
+      "dates": {
+        "raw_text": null,
+        "start": "2014",
+        "end": "2016",
+        "is_current": null,
+        "duration": null
+      },
+      "employment_type": null,
+      "locations": [],
+      "description": null,
+      "positions": [
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "entry_id": null,
+          "additional_sections": [],
+          "title": "IT Consultant for IBM XPages and Notes Domino",
+          "department": null,
+          "employment_type": null,
+          "dates": null,
+          "locations": [],
+          "work_arrangement": null,
+          "description": null,
+          "responsibilities": [
+            "Realize projects in XPages and We4IT Aveedo, monitor project status, conduct reports",
+            "Implement the frontend for a BPMN compatible engine within We4IT Aveedo"
+          ],
+          "achievements": [],
+          "skills": [],
+          "weblinks": []
+        }
+      ],
+      "responsibilities": [],
+      "achievements": [],
+      "skills": [],
+      "weblinks": []
+    },
+    {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "entry_id": null,
+      "additional_sections": [],
+      "organization": {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "entry_id": null,
+        "additional_sections": [],
+        "name": "University of Bremen",
+        "department": null,
+        "industry": null,
+        "description": null,
+        "locations": [],
+        "weblinks": []
+      },
+      "client": null,
+      "dates": {
+        "raw_text": null,
+        "start": "2012",
+        "end": "2014",
+        "is_current": null,
+        "duration": null
+      },
+      "employment_type": null,
+      "locations": [],
+      "description": null,
+      "positions": [
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "entry_id": null,
+          "additional_sections": [],
+          "title": "Scientiﬁc Employee / Software Development",
+          "department": null,
+          "employment_type": null,
+          "dates": null,
+          "locations": [],
+          "work_arrangement": null,
+          "description": null,
+          "responsibilities": [
+            "Invented a ﬂexible assessment framework, targeting industrial trainees",
+            "Supervised software development lifecycle, Recruited team members"
+          ],
+          "achievements": [],
+          "skills": [],
+          "weblinks": []
+        }
+      ],
+      "responsibilities": [],
+      "achievements": [],
+      "skills": [],
+      "weblinks": []
+    },
+    {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "entry_id": null,
+      "additional_sections": [],
+      "organization": {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "entry_id": null,
+        "additional_sections": [],
+        "name": "Getoq Consulting",
+        "department": null,
+        "industry": null,
+        "description": null,
+        "locations": [],
+        "weblinks": []
+      },
+      "client": null,
+      "dates": {
+        "raw_text": null,
+        "start": "2011",
+        "end": "2011",
+        "is_current": null,
+        "duration": null
+      },
+      "employment_type": null,
+      "locations": [],
+      "description": null,
+      "positions": [
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "entry_id": null,
+          "additional_sections": [],
+          "title": "Project Management Simulation Training",
+          "department": null,
+          "employment_type": null,
+          "dates": null,
+          "locations": [],
+          "work_arrangement": null,
+          "description": null,
+          "responsibilities": [
+            "Performed a two-day project simulation from management perspective",
+            "Topics included customer contracts, change management, controlling, operational tasks"
+          ],
+          "achievements": [],
+          "skills": [],
+          "weblinks": []
+        }
+      ],
+      "responsibilities": [],
+      "achievements": [],
+      "skills": [],
+      "weblinks": []
+    },
+    {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "entry_id": null,
+      "additional_sections": [],
+      "organization": {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "entry_id": null,
+        "additional_sections": [],
+        "name": "otulea.uni-bremen.de",
+        "department": null,
+        "industry": null,
+        "description": null,
+        "locations": [],
+        "weblinks": []
+      },
+      "client": null,
+      "dates": {
+        "raw_text": null,
+        "start": "2010",
+        "end": "2011",
+        "is_current": null,
+        "duration": null
+      },
+      "employment_type": null,
+      "locations": [],
+      "description": null,
+      "positions": [
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "entry_id": null,
+          "additional_sections": [],
+          "title": "Student Assistant / Programmer",
+          "department": null,
+          "employment_type": null,
+          "dates": null,
+          "locations": [],
+          "work_arrangement": null,
+          "description": null,
+          "responsibilities": [
+            "Realized an online diagnosis platform for workforce literacy development (Flex)",
+            "Modeled software design, implemented various prototypes, conducted usability tests"
+          ],
+          "achievements": [],
+          "skills": [],
+          "weblinks": []
+        }
+      ],
+      "responsibilities": [],
+      "achievements": [],
+      "skills": [],
+      "weblinks": []
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "entry_id": null,
+      "additional_sections": [],
+      "institution": {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "entry_id": null,
+        "additional_sections": [],
+        "name": "University of Bremen",
+        "department": null,
+        "industry": null,
+        "description": null,
+        "locations": [],
+        "weblinks": []
+      },
+      "degree": null,
+      "qualification_level": null,
+      "fields_of_study": [],
+      "specializations": [],
+      "dates": {
+        "raw_text": null,
+        "start": "2015",
+        "end": "2015",
+        "is_current": null,
+        "duration": null
+      },
+      "status": null,
+      "study_mode": null,
+      "locations": [],
+      "description": "Graduated as M.Sc. Digital Media",
+      "coursework": [],
+      "grade": null,
+      "distinctions": [],
+      "theses": [],
+      "skills": [
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "entry_id": null,
+          "additional_sections": [],
+          "name": "Semi Automated Scoring in Technology Based Assessment",
+          "category": null,
+          "proficiency": null,
+          "experience_duration": null,
+          "last_used": null,
+          "description": null
+        }
+      ],
+      "weblinks": [
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "url": "www.jankuester.com",
+          "label": "www.jankuester.com",
+          "type": null,
+          "platform": null
+        }
+      ]
+    },
+    {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "entry_id": null,
+      "additional_sections": [],
+      "institution": {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "entry_id": null,
+        "additional_sections": [],
+        "name": "University of Bremen",
+        "department": null,
+        "industry": null,
+        "description": null,
+        "locations": [],
+        "weblinks": []
+      },
+      "degree": null,
+      "qualification_level": null,
+      "fields_of_study": [],
+      "specializations": [],
+      "dates": {
+        "raw_text": null,
+        "start": "2012",
+        "end": "2013",
+        "is_current": null,
+        "duration": null
+      },
+      "status": null,
+      "study_mode": null,
+      "locations": [],
+      "description": "Master Project - PrIMA",
+      "coursework": [],
+      "grade": null,
+      "distinctions": [],
+      "theses": [],
+      "skills": [
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "entry_id": null,
+          "additional_sections": [],
+          "name": "Touch table application for medical support",
+          "category": null,
+          "proficiency": null,
+          "experience_duration": null,
+          "last_used": null,
+          "description": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "entry_id": null,
+          "additional_sections": [],
+          "name": "Scrum team",
+          "category": null,
+          "proficiency": null,
+          "experience_duration": null,
+          "last_used": null,
+          "description": null
+        }
+      ],
+      "weblinks": [
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "url": "www.jankuester.com",
+          "label": "www.jankuester.com",
+          "type": null,
+          "platform": null
+        }
+      ]
+    },
+    {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "entry_id": null,
+      "additional_sections": [],
+      "institution": {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "entry_id": null,
+        "additional_sections": [],
+        "name": "University of Bremen",
+        "department": null,
+        "industry": null,
+        "description": null,
+        "locations": [],
+        "weblinks": []
+      },
+      "degree": null,
+      "qualification_level": null,
+      "fields_of_study": [],
+      "specializations": [],
+      "dates": {
+        "raw_text": null,
+        "start": "2012",
+        "end": "2015",
+        "is_current": null,
+        "duration": null
+      },
+      "status": null,
+      "study_mode": null,
+      "locations": [],
+      "description": "Master Studies Digital Media",
+      "coursework": [],
+      "grade": null,
+      "distinctions": [],
+      "theses": [],
+      "skills": [
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "entry_id": null,
+          "additional_sections": [],
+          "name": "Inter-cultural classes in English",
+          "category": null,
+          "proficiency": null,
+          "experience_duration": null,
+          "last_used": null,
+          "description": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "entry_id": null,
+          "additional_sections": [],
+          "name": "Research methods",
+          "category": null,
+          "proficiency": null,
+          "experience_duration": null,
+          "last_used": null,
+          "description": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "entry_id": null,
+          "additional_sections": [],
+          "name": "Software development",
+          "category": null,
+          "proficiency": null,
+          "experience_duration": null,
+          "last_used": null,
+          "description": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "entry_id": null,
+          "additional_sections": [],
+          "name": "E-assessment",
+          "category": null,
+          "proficiency": null,
+          "experience_duration": null,
+          "last_used": null,
+          "description": null
+        }
+      ],
+      "weblinks": [
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "url": "www.jankuester.com",
+          "label": "www.jankuester.com",
+          "type": null,
+          "platform": null
+        }
+      ]
+    },
+    {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "entry_id": null,
+      "additional_sections": [],
+      "institution": {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "entry_id": null,
+        "additional_sections": [],
+        "name": "University of Melbourne",
+        "department": null,
+        "industry": null,
+        "description": null,
+        "locations": [],
+        "weblinks": []
+      },
+      "degree": null,
+      "qualification_level": null,
+      "fields_of_study": [],
+      "specializations": [],
+      "dates": {
+        "raw_text": null,
+        "start": "2009",
+        "end": "2010",
+        "is_current": null,
+        "duration": null
+      },
+      "status": null,
+      "study_mode": null,
+      "locations": [],
+      "description": "Semester Abroad",
+      "coursework": [],
+      "grade": null,
+      "distinctions": [],
+      "theses": [],
+      "skills": [
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "entry_id": null,
+          "additional_sections": [],
+          "name": "Machine programming",
+          "category": null,
+          "proficiency": null,
+          "experience_duration": null,
+          "last_used": null,
+          "description": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "entry_id": null,
+          "additional_sections": [],
+          "name": "Information visualization",
+          "category": null,
+          "proficiency": null,
+          "experience_duration": null,
+          "last_used": null,
+          "description": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "entry_id": null,
+          "additional_sections": [],
+          "name": "Professional essay writing",
+          "category": null,
+          "proficiency": null,
+          "experience_duration": null,
+          "last_used": null,
+          "description": null
+        }
+      ],
+      "weblinks": [
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "url": "www.jankuester.com",
+          "label": "www.jankuester.com",
+          "type": null,
+          "platform": null
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "entry_id": null,
+      "additional_sections": [],
+      "name": "Meteor",
+      "category": null,
+      "proficiency": {
+        "type": "text",
+        "raw_value": "Meteor",
+        "value": null,
+        "minimum": null,
+        "maximum": null,
+        "scale_description": null,
+        "cefr_level": null
+      },
+      "experience_duration": null,
+      "last_used": null,
+      "description": null
+    },
+    {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "entry_id": null,
+      "additional_sections": [],
+      "name": "Javascript",
+      "category": null,
+      "proficiency": {
+        "type": "text",
+        "raw_value": "Javascript",
+        "value": null,
+        "minimum": null,
+        "maximum": null,
+        "scale_description": null,
+        "cefr_level": null
+      },
+      "experience_duration": null,
+      "last_used": null,
+      "description": null
+    },
+    {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "entry_id": null,
+      "additional_sections": [],
+      "name": "Mongo",
+      "category": null,
+      "proficiency": {
+        "type": "text",
+        "raw_value": "Mongo",
+        "value": null,
+        "minimum": null,
+        "maximum": null,
+        "scale_description": null,
+        "cefr_level": null
+      },
+      "experience_duration": null,
+      "last_used": null,
+      "description": null
+    },
+    {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "entry_id": null,
+      "additional_sections": [],
+      "name": "Bootstrap",
+      "category": null,
+      "proficiency": {
+        "type": "text",
+        "raw_value": "Bootstrap",
+        "value": null,
+        "minimum": null,
+        "maximum": null,
+        "scale_description": null,
+        "cefr_level": null
+      },
+      "experience_duration": null,
+      "last_used": null,
+      "description": null
+    },
+    {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "entry_id": null,
+      "additional_sections": [],
+      "name": "Bash",
+      "category": null,
+      "proficiency": {
+        "type": "text",
+        "raw_value": "Bash",
+        "value": null,
+        "minimum": null,
+        "maximum": null,
+        "scale_description": null,
+        "cefr_level": null
+      },
+      "experience_duration": null,
+      "last_used": null,
+      "description": null
+    },
+    {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "entry_id": null,
+      "additional_sections": [],
+      "name": "Git",
+      "category": null,
+      "proficiency": {
+        "type": "text",
+        "raw_value": "Git",
+        "value": null,
+        "minimum": null,
+        "maximum": null,
+        "scale_description": null,
+        "cefr_level": null
+      },
+      "experience_duration": null,
+      "last_used": null,
+      "description": null
+    },
+    {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "entry_id": null,
+      "additional_sections": [],
+      "name": "Webstorm",
+      "category": null,
+      "proficiency": {
+        "type": "text",
+        "raw_value": "Webstorm",
+        "value": null,
+        "minimum": null,
+        "maximum": null,
+        "scale_description": null,
+        "cefr_level": null
+      },
+      "experience_duration": null,
+      "last_used": null,
+      "description": null
+    }
+  ],
+  "languages": [],
+  "certifications": [],
+  "training": [],
+  "awards": [],
+  "publications": [],
+  "presentations": [],
+  "volunteering": [],
+  "military_service": [],
+  "memberships": [],
+  "interests": [],
+  "references": [],
+  "employment_preferences": {
+    "source_pages": [
+      1
+    ],
+    "source_heading": "Activities",
+    "source_text": "Global Game Jam, Open Source, Fitness",
+    "entry_id": null,
+    "additional_sections": [],
+    "desired_roles": [],
+    "desired_locations": [
+      {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "raw_text": "Bremen, Germany",
+        "label": null,
+        "address": null,
+        "postal_code": null,
+        "city": null,
+        "region": null,
+        "country": null
+      }
+    ],
+    "employment_types": [],
+    "work_arrangements": [
+      "Global Game Jam",
+      "Open Source",
+      "Fitness"
+    ],
+    "willingness_to_relocate": null,
+    "willingness_to_travel": null,
+    "desired_compensation": null,
+    "availability": null,
+    "work_authorizations": [],
+    "driving_licenses": [],
+    "security_clearances": []
+  },
+  "weblinks": [
+    {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "url": "www.jankuester.com",
+      "label": "www.jankuester.com",
+      "type": null,
+      "platform": null
+    },
+    {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "url": "github.com/jankapunkt",
+      "label": "github.com/jankapunkt",
+      "type": null,
+      "platform": null
+    }
+  ],
+  "declarations": [],
+  "additional_sections": []
+}

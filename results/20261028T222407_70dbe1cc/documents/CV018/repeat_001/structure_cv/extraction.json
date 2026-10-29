@@ -1,0 +1,550 @@
+{
+  "personal_information": {
+    "source_pages": [
+      1
+    ],
+    "source_heading": "Doruk Çetin",
+    "source_text": "Doruk Çetin",
+    "entry_id": null,
+    "additional_sections": [],
+    "full_name": "Doruk Çetin",
+    "preferred_name": null,
+    "given_names": null,
+    "family_name": null,
+    "professional_titles": [],
+    "headline": null,
+    "current_occupation": null,
+    "contacts": [],
+    "locations": [],
+    "weblinks": [
+      {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "url": "dcetin.me",
+        "label": "Website",
+        "type": "website",
+        "platform": null
+      },
+      {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "url": "dcetin@ethz.ch",
+        "label": "Email",
+        "type": "email",
+        "platform": null
+      },
+      {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "url": "github.com/dcetin",
+        "label": "GitHub",
+        "type": "github",
+        "platform": null
+      }
+    ],
+    "date_of_birth": null,
+    "place_of_birth": null,
+    "nationalities": [],
+    "pronouns": null,
+    "gender": null,
+    "marital_status": null
+  },
+  "profiles": [],
+  "work_experience": [],
+  "projects": [],
+  "education": [
+    {
+      "source_pages": [
+        1
+      ],
+      "source_heading": "Education",
+      "source_text": "Education",
+      "entry_id": null,
+      "additional_sections": [],
+      "institution": {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "entry_id": null,
+        "additional_sections": [],
+        "name": "ETH Zurich",
+        "department": null,
+        "industry": null,
+        "description": null,
+        "locations": [
+          {
+            "source_pages": [],
+            "source_heading": null,
+            "source_text": null,
+            "raw_text": null,
+            "label": null,
+            "address": null,
+            "postal_code": null,
+            "city": "Zurich",
+            "region": null,
+            "country": "CH"
+          }
+        ],
+        "weblinks": []
+      },
+      "degree": "M.S. in Computer Science",
+      "qualification_level": null,
+      "fields_of_study": [],
+      "specializations": [],
+      "dates": {
+        "raw_text": null,
+        "start": "2018",
+        "end": "2020",
+        "is_current": null,
+        "duration": null
+      },
+      "status": null,
+      "study_mode": null,
+      "locations": [],
+      "description": "GPA: 5.63/6.00",
+      "coursework": [],
+      "grade": null,
+      "distinctions": [],
+      "theses": [
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "entry_id": null,
+          "additional_sections": [],
+          "title": "Learning in-the-wild Temporal 3D Pose Estimation from MoCap Data",
+          "type": null,
+          "description": null,
+          "supervisors": [],
+          "grade": null,
+          "weblinks": []
+        }
+      ],
+      "skills": [],
+      "weblinks": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "source_heading": "Education",
+      "source_text": "Education",
+      "entry_id": null,
+      "additional_sections": [],
+      "institution": {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "entry_id": null,
+        "additional_sections": [],
+        "name": "Middle East Technical University",
+        "department": null,
+        "industry": null,
+        "description": null,
+        "locations": [
+          {
+            "source_pages": [],
+            "source_heading": null,
+            "source_text": null,
+            "raw_text": null,
+            "label": null,
+            "address": null,
+            "postal_code": null,
+            "city": "Ankara",
+            "region": null,
+            "country": "TR"
+          }
+        ],
+        "weblinks": []
+      },
+      "degree": "B.S. in Computer Engineering",
+      "qualification_level": null,
+      "fields_of_study": [],
+      "specializations": [],
+      "dates": {
+        "raw_text": null,
+        "start": "2013",
+        "end": "2018",
+        "is_current": null,
+        "duration": null
+      },
+      "status": null,
+      "study_mode": null,
+      "locations": [],
+      "description": "GPA: 3.96/4.00 (ranked 2nd/190 in the dept.)",
+      "coursework": [],
+      "grade": null,
+      "distinctions": [],
+      "theses": [
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "entry_id": null,
+          "additional_sections": [],
+          "title": "AlgoTrade: A web-based algorithmic trading and backtesting framework",
+          "type": null,
+          "description": null,
+          "supervisors": [],
+          "grade": null,
+          "weblinks": []
+        }
+      ],
+      "skills": [],
+      "weblinks": []
+    }
+  ],
+  "skills": [],
+  "languages": [],
+  "certifications": [],
+  "training": [],
+  "awards": [],
+  "publications": [],
+  "presentations": [],
+  "volunteering": [],
+  "military_service": [],
+  "memberships": [],
+  "interests": [],
+  "references": [],
+  "employment_preferences": {
+    "source_pages": [
+      1
+    ],
+    "source_heading": "Employment Preferences",
+    "source_text": "Employment Preferences",
+    "entry_id": null,
+    "additional_sections": [],
+    "desired_roles": [],
+    "desired_locations": [
+      {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "raw_text": null,
+        "label": null,
+        "address": null,
+        "postal_code": null,
+        "city": "Zurich",
+        "region": null,
+        "country": "CH"
+      },
+      {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "raw_text": null,
+        "label": null,
+        "address": null,
+        "postal_code": null,
+        "city": "London",
+        "region": null,
+        "country": "UK"
+      },
+      {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "raw_text": null,
+        "label": null,
+        "address": null,
+        "postal_code": null,
+        "city": "Lausanne",
+        "region": null,
+        "country": "CH"
+      }
+    ],
+    "employment_types": [
+      "Research"
+    ],
+    "work_arrangements": [
+      "Remote"
+    ],
+    "willingness_to_relocate": "Open to relocation",
+    "willingness_to_travel": "Open to travel",
+    "desired_compensation": "Competitive",
+    "availability": null,
+    "work_authorizations": [],
+    "driving_licenses": [],
+    "security_clearances": []
+  },
+  "weblinks": [
+    {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "url": "dcetin.me",
+      "label": "Website",
+      "type": "website",
+      "platform": null
+    },
+    {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "url": "dcetin@ethz.ch",
+      "label": "Email",
+      "type": "email",
+      "platform": null
+    },
+    {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "url": "github.com/dcetin",
+      "label": "GitHub",
+      "type": "github",
+      "platform": null
+    }
+  ],
+  "declarations": [],
+  "additional_sections": [
+    {
+      "source_pages": [
+        1
+      ],
+      "source_heading": "Experience",
+      "source_text": "Experience",
+      "heading": null,
+      "content": [
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "paragraph",
+          "text": "ETH Zurich, Zurich, CH\nStudent Research Assistant at Data Analytics Lab, Summer 2019\n\n– Interpretability in adversarial word embeddings for text\n\n– Adapted the codebase for adversarial attacks on embeddings, conducted qualitative and quantitative analyses, worked on adversarial text generation via embedding projection",
+          "table": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "paragraph",
+          "text": "Imperial College London, London, UK\nResearch Intern at Intelligent Behaviour Understanding Group (iBUG), Summer 2017\n\n– A novel audiovisual dataset for normal, whispered and silent speech\n\n– Created tools for data collection and analysis, analysed the collected data, implemented fixes, worked on the reimplementation of the existing network in a different library",
+          "table": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "paragraph",
+          "text": "École Polytechnique Fédérale de Lausanne, Lausanne, CH\nResearch Intern at Data Intensive Applications and Systems Laboratory (DIAS), Summer 2016\n\n– Microarchitectural analysis of OLAP database systems\n\n– Examined the changes in microarchitectural utilization of different column-oriented database systems on distinct workloads",
+          "table": null
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "source_heading": "Publications",
+      "source_text": "Publications",
+      "heading": null,
+      "content": [
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "paragraph",
+          "text": "[1]  S. Petridis, J. Shen, D. Cetin, and M. Pantic, “Visual-Only Recognition of Normal, Whispered and Silent Speech”, in 2018 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Apr. 2018, pp. 6219–6223.",
+          "table": null
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "source_heading": "Teaching",
+      "source_text": "Teaching",
+      "heading": null,
+      "content": [
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "bullet",
+          "text": "Student Teaching Assistant at Middle East Technical University, Spring 2018\nProgramming Language Concepts (CENG 242)",
+          "table": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "bullet",
+          "text": "Student Teaching Assistant at Middle East Technical University, Fall 2016\nIntroduction to C Programming (CENG 230)",
+          "table": null
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "source_heading": "Skills",
+      "source_text": "Skills",
+      "heading": null,
+      "content": [
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "paragraph",
+          "text": "• Programming:  Python, Matlab, C/C++, Java\n• M. Learning:  PyTorch, TensorFlow, Keras, Chainer\n• Tools/Techs:  LaTeX, Git, SQL\n• Web:  HTML/CSS, Jekyll, JavaScript\n• Languages:  English:  Proficient, TOEFL iBT score: 112/120\n– GRE: V: 162/170, Q: 170/170, AW: 4.0/6.0\n• Turkish:  Mother tongue, native speaker\n• Spanish:  Conversational, CEFR level: A1-A2",
+          "table": null
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "source_heading": "Projects",
+      "source_text": "Projects",
+      "heading": null,
+      "content": [
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "bullet",
+          "text": "eth-cs-notes (LaTeX/Markdown, 2019)\nLecture notes/cheatsheets for Master’s in CS",
+          "table": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "bullet",
+          "text": "bert-adv-embed (Python/Chainer, 2019)\nAdversarial perturbations on BERT word embeddings",
+          "table": null
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "source_heading": "Scholarships and Awards",
+      "source_text": "Scholarships and Awards",
+      "heading": null,
+      "content": [
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "bullet",
+          "text": "ETH Zurich Direct Doctorate Scholarship, 2018–2020",
+          "table": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "bullet",
+          "text": "3rd place in METU Ceng Demo Day 2018, final year project exhibition of the department, 2018",
+          "table": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "bullet",
+          "text": "Erasmus+ Traineeship Scholarship, 2017",
+          "table": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "bullet",
+          "text": "Summer@EPFL Scholarship, 2016",
+          "table": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "bullet",
+          "text": "METU Development Foundation Scholarship for Outstanding Success, 2013–2018",
+          "table": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "bullet",
+          "text": "Merit based Prime Ministry Scholarship, 2013–2018",
+          "table": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "bullet",
+          "text": "Isbank Altın Gençler Award and mobility grant, 2013",
+          "table": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "bullet",
+          "text": "Ranked 4th among 1.9 million participants nationwide in Undergraduate Placement Examination (LYS), 2013",
+          "table": null
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "source_heading": "Volunteering & Mentoring",
+      "source_text": "Volunteering & Mentoring",
+      "heading": null,
+      "content": [
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "bullet",
+          "text": "Career Mentor at Crossing Paths, 2017–Current\nHelping undergraduate students on their career goals, also took part in their Career Chats program",
+          "table": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "bullet",
+          "text": "Master Helper at ETH VIS Welcome Day 2019, Fall 2019\nMentored newcomer Master students, gave a campus tour and aided them in Study Planning Workshop",
+          "table": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "bullet",
+          "text": "C Programming Language Tutor at IEEE METU Student Branch, Fall 2016\nAn introduction to programming and a tutorial for the school courses for non-CS students",
+          "table": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "bullet",
+          "text": "Official Turkish localization of the video game Human Resource Machine, Winter 2015\nA puzzle game by Tomorrow Corporation, simulating a simple computer in an office environment",
+          "table": null
+        }
+      ],
+      "subsections": []
+    }
+  ]
+}
