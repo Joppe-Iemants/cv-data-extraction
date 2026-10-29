@@ -43,7 +43,7 @@ OR
 ```cmd
 pipenv run experiment --config experiments/configs/pdf_text_sorted.json
 
-pipenv run experiment --config experiments/configs/pdf_text_llm.json
+pipenv run experiment --config experiments/configs/text_baseline.json
 ```
 
 ### 3) Evaluate the run

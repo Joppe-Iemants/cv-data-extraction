@@ -1,5 +1,5 @@
 {
-  "name": "pdf_text_llm",
+  "name": "text_baseline",
   "split": "development",
   "document_ids": ["CV002", "CV012", "CV001"],
   "exclude_sources": ["vdab"],
