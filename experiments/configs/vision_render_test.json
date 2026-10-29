@@ -1,0 +1,20 @@
+{
+  "name": "vision_render_test",
+  "split": "development",
+  "document_ids": ["CV001"],
+  "exclude_sources": ["vdab"],
+  "repetitions": 1,
+  "monitoring": {
+    "memory": false,
+    "sample_interval_ms": 10
+  },
+  "stages": [
+    {
+      "name": "render_pages",
+      "method": "render_pdf",
+      "settings": {
+        "dpi": 120
+      }
+    }
+  ]
+}

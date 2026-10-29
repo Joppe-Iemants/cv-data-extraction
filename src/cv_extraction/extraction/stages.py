@@ -2,6 +2,8 @@ from pathlib import Path
 
 from .methods.pdf_text import extract_pdf_text
 from .methods.llm_structuring import structure_cv_text
+from .methods.pdf_render import render_pdf
+from .methods.vlm_structuring import structure_cv_images
 
 def read_pdf_stage(pdf_path: Path, sort_text: bool) -> dict:
     data = extract_pdf_text(pdf_path, sort_text=sort_text)
@@ -80,6 +82,25 @@ STAGE_METHODS = {
             "timeout_seconds": int,
             "options": dict,
             "keep_alive": str
+        }
+    },
+    "render_pdf": {
+        "function": render_pdf,
+        "input_kind": "pdf",
+        "output_kind": "images",
+        "needs_stage_directory": True,
+        "settings": {
+            "dpi": int
+        }
+    },
+    "vlm_structuring": {
+        "function": structure_cv_images,
+        "input_kind": "images",
+        "output_kind": "cv",
+        "settings": {
+            "model_id": str,
+            "load_in_4bit": bool,
+            "max_new_tokens": int
         }
     }
 }

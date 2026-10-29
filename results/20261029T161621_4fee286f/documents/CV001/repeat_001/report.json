@@ -1,0 +1,26 @@
+{
+  "document_id": "CV001",
+  "repetition": 1,
+  "status": "completed",
+  "metrics": {
+    "processing_seconds": 0.12705709994770586
+  },
+  "stages": [
+    {
+      "name": "render_pages",
+      "method": "render_pdf",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 0.12705709994770586,
+        "memory": {
+          "enabled": false
+        },
+        "page_count": 2,
+        "dpi": 120,
+        "total_pixels": 2788344
+      },
+      "error": null
+    }
+  ]
+}

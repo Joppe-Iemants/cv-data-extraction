@@ -218,7 +218,8 @@ def main():
                 pdf_path,
                 stages=config["stages"],
                 on_stage_finished=on_stage_finished,
-                monitoring=config["monitoring"]
+                monitoring=config["monitoring"],
+                attempt_directory=output_directory
             )
 
             result.pop("extracted_data")
