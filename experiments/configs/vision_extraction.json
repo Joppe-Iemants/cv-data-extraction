@@ -1,0 +1,29 @@
+{
+  "name": "vision_extraction",
+  "split": "development",
+  "document_ids": ["CV001"],
+  "exclude_sources": ["vdab"],
+  "repetitions": 1,
+  "monitoring": {
+    "memory": false,
+    "sample_interval_ms": 10
+  },
+  "stages": [
+    {
+      "name": "render_pages",
+      "method": "render_pdf",
+      "settings": {
+        "dpi": 120
+      }
+    },
+    {
+      "name": "structure_cv",
+      "method": "vlm_structuring",
+      "settings": {
+        "model_id": "Qwen/Qwen3-VL-8B-Instruct",
+        "load_in_4bit": true,
+        "max_new_tokens": 8192
+      }
+    }
+  ]
+}

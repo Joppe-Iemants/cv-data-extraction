@@ -1,0 +1,32 @@
+{
+  "name": "vision_render_test",
+  "split": "development",
+  "document_ids": [
+    "CV001"
+  ],
+  "exclude_sources": [
+    "vdab"
+  ],
+  "repetitions": 1,
+  "monitoring": {
+    "memory": false,
+    "sample_interval_ms": 10
+  },
+  "stages": [
+    {
+      "name": "render_pages",
+      "method": "render_pdf",
+      "settings": {
+        "dpi": 120
+      }
+    }
+  ],
+  "excluded_inputs": [],
+  "inputs": [
+    {
+      "id": "CV001",
+      "file": "data/cvs/CV001_altacv_sample.pdf",
+      "sha256": "f887aba1f1220d79e3c8fb62da9d6a431f61bdd603242ce8f5f6037a63908579"
+    }
+  ]
+}

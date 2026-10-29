@@ -92,7 +92,7 @@ def execute_stage(name: str, method: str, function, *args, monitoring: dict | No
         "output": output
     }
 
-def run_extraction(pdf_path: Path, stages: list[dict], on_stage_finished=None, monitoring: dict | None = None) -> dict:
+def run_extraction(pdf_path: Path, stages: list[dict], on_stage_finished=None, monitoring: dict | None = None, attempt_directory: Path | None = None) -> dict:
     current_input = pdf_path
     last_output = None
     stage_reports = []
@@ -124,13 +124,22 @@ def run_extraction(pdf_path: Path, stages: list[dict], on_stage_finished=None, m
 
         definition = STAGE_METHODS[method]
 
+        runtime_arguments = {}
+
+        if definition.get("needs_stage_directory", False):
+            if attempt_directory is None:
+                raise ValueError(f"Stage {name} requires an attempt directory.")
+
+            runtime_arguments["stage_directory"] = attempt_directory / name
+
         stage = execute_stage(
             name,
             method,
             definition["function"],
             current_input,
             monitoring=monitoring,
-            **stage_config["settings"]
+            **stage_config["settings"],
+            **runtime_arguments
         )
 
         stage_report = stage["report"]

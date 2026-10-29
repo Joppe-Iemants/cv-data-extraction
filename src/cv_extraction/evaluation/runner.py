@@ -11,6 +11,7 @@ from pydantic import ValidationError
 from ..schemas import RawCV
 from ..storage import save_json
 from .scoring import CATEGORIES, COUNTS, evaluate, metrics
+from ..extraction.stages import STAGE_METHODS
 
 VERSION = "1.1"
 ROOT = Path(__file__).resolve().parents[3]
@@ -71,7 +72,11 @@ def evaluate_run(root, run_id, allow_draft=False, overwrite=False, provenance_po
                 "sha256": sha256(ref_path), "status": (entry or {}).get("status", "unregistered")})
         for repetition in range(1, config["repetitions"] + 1):
             attempt = run_dir / "documents" / cv_id / f"repeat_{repetition:03d}"
-            stage_names = [stage["name"] for stage in config["stages"] if stage["method"] == "llm_structuring"]
+            stage_names = [
+                stage["name"]
+                for stage in config["stages"]
+                if STAGE_METHODS.get(stage["method"], {}).get("output_kind") == "cv"
+            ]
             report = {"document_id": cv_id, "repetition": repetition, "overall": None,
                       "provisional": (entry or {}).get("status") != "reviewed"}
             attempt_report = read_json(attempt / "report.json") if (attempt / "report.json").exists() else {}

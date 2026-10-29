@@ -1,0 +1,18 @@
+{
+  "page_count": 2,
+  "dpi": 120,
+  "pages": [
+    {
+      "page_number": 1,
+      "image_path": "C:\\School\\TI_3\\TI_sem_5\\AI-Project\\cv-data-extraction\\results\\20261029T165756_8db97c82\\documents\\CV001\\repeat_001\\render_pages\\images\\page_001.png",
+      "width": 993,
+      "height": 1404
+    },
+    {
+      "page_number": 2,
+      "image_path": "C:\\School\\TI_3\\TI_sem_5\\AI-Project\\cv-data-extraction\\results\\20261029T165756_8db97c82\\documents\\CV001\\repeat_001\\render_pages\\images\\page_002.png",
+      "width": 993,
+      "height": 1404
+    }
+  ]
+}

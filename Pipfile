@@ -3,6 +3,11 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 name = "pypi"
 
+[[source]]
+url = "https://download.pytorch.org/whl/cu128"
+verify_ssl = true
+name = "pytorch-cu128"
+
 [packages]
 matplotlib = "*"
 pandas = "*"
@@ -11,6 +16,12 @@ pymupdf = "*"
 pydantic = "*"
 psutil = "*"
 jinja2 = "*"
+torch = {version = "*", index = "pytorch-cu128"}
+transformers = "*"
+accelerate = "*"
+bitsandbytes = "*"
+pillow = "*"
+torchvision = {version = "*", index = "pytorch-cu128"}
 
 [dev-packages]
 
