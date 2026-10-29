@@ -1,10 +1,20 @@
 from typing import Annotated, Literal, Self
 
-from pydantic import BaseModel, ConfigDict, Field, model_validator
+from pydantic import BaseModel, BeforeValidator, ConfigDict, Field, model_validator
 
 NonEmptyText = Annotated[str, Field(min_length=1, pattern=r"\S")]
 PageNumber = Annotated[int, Field(ge=1, strict=True)]
 
+def blank_to_none(value):
+    if isinstance(value, str) and not value.strip():
+        return None
+    return value
+
+
+OptionalText = Annotated[
+    NonEmptyText | None,
+    BeforeValidator(blank_to_none),
+]
 
 class CVModel(BaseModel):
     model_config = ConfigDict(extra="forbid", allow_inf_nan=False)
@@ -16,28 +26,28 @@ class CVEntry(CVModel):
 
 
 class DateRange(CVModel):
-    start: NonEmptyText | None = None
-    end: NonEmptyText | None = None
-    duration: NonEmptyText | None = None
+    start: OptionalText = None
+    end: OptionalText = None
+    duration: OptionalText = None
 
 
 class Weblink(CVModel):
     url: NonEmptyText
-    platform: NonEmptyText | None = None
+    platform: OptionalText = None
 
 
 class PersonalInformation(CVEntry):
-    full_name: NonEmptyText | None = None
-    headline: NonEmptyText | None = None
+    full_name: OptionalText = None
+    headline: OptionalText = None
     emails: list[NonEmptyText] = Field(default_factory=list)
     phones: list[NonEmptyText] = Field(default_factory=list)
-    location: NonEmptyText | None = None
+    location: OptionalText = None
     weblinks: list[Weblink] = Field(default_factory=list)
     details: list[NonEmptyText] = Field(default_factory=list)
 
 
 class Proficiency(CVModel):
-    text: NonEmptyText | None = Field(default=None, description="Explicit wording, e.g. Fluent or B2; do not infer.")
+    text: OptionalText = Field(default=None, description="Explicit wording, e.g. Fluent or B2; do not infer.")
     type: Literal["stars", "dots", "bars", "percentage", "fraction", "numeric"] | None = None
     value: float | None = None
     maximum: float | None = None
@@ -70,54 +80,54 @@ class Language(CVEntry):
 
 
 class WorkExperience(CVEntry):
-    employer: NonEmptyText | None = None
-    role: NonEmptyText | None = None
-    client: NonEmptyText | None = None
+    employer: OptionalText = None
+    role: OptionalText = None
+    client: OptionalText = None
     dates: DateRange | None = None
-    location: NonEmptyText | None = None
+    location: OptionalText = None
     details: list[NonEmptyText] = Field(default_factory=list)
     skills: list[NonEmptyText] = Field(default_factory=list, description="Skills explicitly tied to this position only.")
 
 
 class Project(CVEntry):
-    name: NonEmptyText | None = None
-    organization: NonEmptyText | None = None
-    client: NonEmptyText | None = None
-    role: NonEmptyText | None = None
+    name: OptionalText = None
+    organization: OptionalText = None
+    client: OptionalText = None
+    role: OptionalText = None
     dates: DateRange | None = None
     details: list[NonEmptyText] = Field(default_factory=list)
     skills: list[NonEmptyText] = Field(default_factory=list, description="Skills explicitly tied to this project only.")
 
 
 class Education(CVEntry):
-    institution: NonEmptyText | None = None
-    qualification: NonEmptyText | None = Field(default=None, description="Full qualification as written, including field of study.")
+    institution: OptionalText = None
+    qualification: OptionalText = Field(default=None, description="Full qualification as written, including field of study.")
     dates: DateRange | None = None
     details: list[NonEmptyText] = Field(default_factory=list)
 
 
 class Certification(CVEntry):
     name: NonEmptyText
-    issuer: NonEmptyText | None = None
-    date: NonEmptyText | None = None
+    issuer: OptionalText = None
+    date: OptionalText = None
     details: list[NonEmptyText] = Field(default_factory=list)
 
 
 class Training(CVEntry):
     name: NonEmptyText
-    provider: NonEmptyText | None = None
+    provider: OptionalText = None
     dates: DateRange | None = None
     details: list[NonEmptyText] = Field(default_factory=list)
 
 
 class AdditionalSection(CVEntry):
-    heading: NonEmptyText | None = None
+    heading: OptionalText = None
     text: NonEmptyText = Field(description="Preserve remaining content in source wording, including bullets and line breaks." )
 
 
 class RawCV(CVModel):
     personal_information: PersonalInformation = Field(default_factory=PersonalInformation)
-    summary: NonEmptyText | None = Field(default=None, description="Existing introductory profile text; do not write a new summary.")
+    summary: OptionalText = Field(default=None, description="Existing introductory profile text; do not write a new summary.")
     work_experience: list[WorkExperience] = Field(default_factory=list)
     projects: list[Project] = Field(default_factory=list)
     education: list[Education] = Field(default_factory=list)
