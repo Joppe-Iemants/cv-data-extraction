@@ -1,671 +1,378 @@
+"""Offline evaluation of saved RawCV extractions. No model calls."""
+
 import argparse
+from collections import Counter
+from datetime import datetime, timezone
+from difflib import SequenceMatcher
 import hashlib
 import json
+from pathlib import Path
 import re
 import unicodedata
-from collections import Counter
-from pathlib import Path
 
-from pydantic import BaseModel, ValidationError
+from pydantic import ValidationError
 
 from .schemas import RawCV
 from .storage import save_json
 
-
-IGNORED = {
-    "entry_id",
-    "source_pages",
-    "source_heading",
-    "source_text",
-    "related_experience_ids",
-    "related_position_ids",
-    "scale_description"
-}
-
-MANUAL = {
-    "profiles",
-    "additional_sections",
-    "declarations",
-    "description",
-    "responsibilities",
-    "achievements",
-    "objectives",
-    "contributions",
-    "statement",
-    "locations",
-    "desired_locations",
-    "label"
-}
-
+VERSION = "1.0"
+ROOT = Path(__file__).resolve().parents[2]
+CATEGORIES = (
+    "personal_information", "work_experience", "projects", "education",
+    "skills", "languages", "certifications", "training",
+)
 IDENTITIES = {
-    "work_experience": ("organization.name",),
-    "volunteering": ("organization.name",),
-    "military_service": ("organization.name",),
-    "positions": ("title", "dates.start", "dates.end"),
-    "projects": ("name", "organization.name"),
-    "education": ("institution.name", "degree", "fields_of_study"),
-    "skills": ("name",),
-    "languages": ("name",),
-    "certifications": ("name", "issuer.name", "credential_id"),
-    "training": ("name", "provider.name"),
-    "awards": ("name", "issuer.name"),
-    "publications": ("title",),
-    "presentations": ("title", "event"),
-    "memberships": ("organization.name", "role"),
-    "interests": ("name",),
-    "references": ("name",),
-    "contacts": ("type", "value"),
-    "weblinks": ("platform", "url"),
-    "theses": ("title",),
-    "identifiers": ("type", "value"),
-    "driving_licenses": ("category", "country"),
-    "work_authorizations": ("country", "status"),
-    "security_clearances": ("level", "authority")
+    "work_experience": ("employer", "role", "dates.start", "dates.end"),
+    "projects": ("name", "organization", "role"),
+    "education": ("institution", "qualification", "dates.start", "dates.end"),
+    "skills": ("name",), "languages": ("name",),
+    "certifications": ("name", "issuer", "date"),
+    "training": ("name", "provider", "dates.start"),
+    "weblinks": ("url", "platform"),
 }
-
-MONTHS = {
-    "jan": "january",
-    "feb": "february",
-    "mar": "march",
-    "apr": "april",
-    "jun": "june",
-    "jul": "july",
-    "aug": "august",
-    "sep": "september",
-    "sept": "september",
-    "oct": "october",
-    "nov": "november",
-    "dec": "december"
-}
-
-DATE_FIELDS = {
-    "start",
-    "end",
-    "date",
-    "date_of_birth",
-    "date_achieved",
-    "expiration_date",
-    "date_issued",
-    "start_date",
-    "valid_until"
-}
+COUNTS = ("correct", "missing", "incorrect", "unexpected")
+MONTHS = dict(zip(
+    "jan feb mar apr may jun jul aug sep sept oct nov dec".split(),
+    "january february march april may june july august september september october november december".split(),
+))
 
 
-def empty(value):
-    return (
-        value is None
-        or (
-            isinstance(value, (str, list, dict))
-            and len(value) == 0
+def read_json(path):
+    return json.loads(path.read_text(encoding="utf-8-sig"))
+
+
+def sha256(path):
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def normalized(value, field=""):
+    if not isinstance(value, str):
+        return value
+    text = " ".join(unicodedata.normalize("NFKC", value).split())
+    # URLs/handles retain case and protocol; do not credit constructed links.
+    if field != "url":
+        text = text.casefold()
+    if field == "end" and text in {"present", "ongoing", "current"}:
+        return "present"
+    if field in {"start", "end", "date"}:
+        text = re.sub(
+            r"\b(" + "|".join(MONTHS) + r")\.?(?=\s|$)",
+            lambda match: MONTHS[match[1]], text,
         )
-        or (
-            isinstance(value, str)
-            and not value.strip()
-        )
-    )
+    return text
 
 
-def normalize(value, field=""):
-    if isinstance(value, str):
-        text = " ".join(
-            unicodedata.normalize("NFC", value).split()
-        )
-
-        if field not in {
-            "url", "value", "credential_id", "membership_id"
-        }:
-            text = text.casefold()
-
-        if field == "end" and text in {
-            "present", "ongoing", "current"
-        }:
-            text = "present"
-
-        if field in DATE_FIELDS:
-            text = re.sub(
-                r"\b(" + "|".join(MONTHS) + r")\.?(?=\s|$)",
-                lambda match: MONTHS[match.group(1)],
-                text
-            )
-
-        return ("text", text)
-
-    if isinstance(value, bool):
-        return ("boolean", value)
-
-    if isinstance(value, (float, int)):
-        return ("number", value)
-
-    if isinstance(value, list):
-        return tuple(
-            sorted(
-                (normalize(item, field) for item in value),
-                key=repr
-            )
-        )
-
-    return ("other", repr(value))
-
-
-def project(value, manual, path=""):
-    if isinstance(value, BaseModel):
-        result = {}
-
-        for key in type(value).model_fields:
-            item = getattr(value, key)
-            item_path = f"{path}.{key}" if path else key
-
-            if key in IGNORED:
-                continue
-
-            if key in MANUAL:
-                if not empty(item):
-                    manual.append({
-                        "path": item_path,
-                        "value": json.loads(
-                            json.dumps(
-                                item,
-                                default=lambda obj: obj.model_dump(
-                                    mode="json",
-                                    exclude_defaults=True
-                                )
-                            )
-                        )
-                    })
-
-                continue
-
-            if type(value).__name__ == "DateRange":
-                if key == "raw_text" and any(
-                    getattr(value, name) is not None
-                    for name in (
-                        "start", "end", "is_current", "duration"
-                    )
-                ):
-                    continue
-
-            if type(value).__name__ == "Proficiency":
-                if key == "type":
-                    continue
-
-                if key == "raw_value" and (
-                    value.value is not None
-                    or value.cefr_level is not None
-                ):
-                    continue
-
-            cleaned = project(item, manual, item_path)
-
-            if not empty(cleaned):
-                result[key] = cleaned
-
-        return result
-
-    if isinstance(value, list):
-        result = []
-
-        for index, item in enumerate(value):
-            cleaned = project(
-                item,
-                manual,
-                f"{path}[{index}]"
-            )
-
-            if not empty(cleaned):
-                result.append(cleaned)
-
-        return result
-
-    return value
+def metrics(counts):
+    result = {key: counts.get(key, 0) for key in COUNTS}
+    correct = result["correct"]
+    expected = correct + result["missing"] + result["incorrect"]
+    predicted = correct + result["unexpected"] + result["incorrect"]
+    return {
+        **result, "expected_facts": expected, "predicted_facts": predicted,
+        "precision": correct / predicted if predicted else None,
+        "recall": correct / expected if expected else None,
+        "f1": 2 * correct / (expected + predicted) if expected + predicted else None,
+    }
 
 
 def get_value(record, path):
-    value = record
-
     for key in path.split("."):
-        if not isinstance(value, dict):
-            return None
-
-        value = value.get(key)
-
-    return value
+        record = record.get(key) if isinstance(record, dict) else None
+    return record
 
 
-def match_records(expected, actual, fields):
-    scores = []
-
-    for left in expected:
-        row = []
-
-        for right in actual:
-            score = sum(
-                not empty(get_value(left, field))
-                and not empty(get_value(right, field))
-                and normalize(
-                    get_value(left, field),
-                    field.split(".")[-1]
-                )
-                == normalize(
-                    get_value(right, field),
-                    field.split(".")[-1]
-                )
-                for field in fields
-            )
-
-            row.append(score)
-
-        scores.append(row)
-
-    if not expected or not actual:
-        return [], scores
-
-    # Find a maximum-score one-to-one assignment.
-    # Dummy columns allow unmatched reference records.
-    n = len(expected)
-    m = max(len(expected), len(actual))
-
-    u = [0] * (n + 1)
-    v = [0] * (m + 1)
-    owner = [0] * (m + 1)
-    previous = [0] * (m + 1)
-
+def assignment(weights):
+    """Maximum-weight one-to-one assignment, with dummy unmatched columns."""
+    n = len(weights)
+    if not n or not weights[0]:
+        return []
+    actual = len(weights[0])
+    m = actual + n
+    u, v, owner, previous = [0.] * (n + 1), [0.] * (m + 1), [0] * (m + 1), [0] * (m + 1)
     for row in range(1, n + 1):
-        owner[0] = row
-        column = 0
-        distances = [float("inf")] * (m + 1)
-        used = [False] * (m + 1)
-
+        owner[0], column = row, 0
+        distance, used = [float("inf")] * (m + 1), [False] * (m + 1)
         while True:
             used[column] = True
-            current_row = owner[column]
-            delta = float("inf")
-            next_column = 0
-
+            current = owner[column]
+            delta, next_column = float("inf"), 0
             for candidate in range(1, m + 1):
                 if used[candidate]:
                     continue
-
-                weight = (
-                    scores[current_row - 1][candidate - 1]
-                    if candidate <= len(actual)
-                    else 0
-                )
-
-                cost = (
-                    -weight
-                    - u[current_row]
-                    - v[candidate]
-                )
-
-                if cost < distances[candidate]:
-                    distances[candidate] = cost
-                    previous[candidate] = column
-
-                if distances[candidate] < delta:
-                    delta = distances[candidate]
-                    next_column = candidate
-
+                weight = weights[current - 1][candidate - 1] if candidate <= actual else 0
+                cost = -weight - u[current] - v[candidate]
+                if cost < distance[candidate]:
+                    distance[candidate], previous[candidate] = cost, column
+                if distance[candidate] < delta:
+                    delta, next_column = distance[candidate], candidate
             for candidate in range(m + 1):
                 if used[candidate]:
                     u[owner[candidate]] += delta
                     v[candidate] -= delta
                 else:
-                    distances[candidate] -= delta
-
+                    distance[candidate] -= delta
             column = next_column
-
             if owner[column] == 0:
                 break
-
         while column:
             prior = previous[column]
-            owner[column] = owner[prior]
-            column = prior
-
-    pairs = [
-        (owner[column] - 1, column - 1)
-        for column in range(1, len(actual) + 1)
-        if owner[column]
-        and scores[owner[column] - 1][column - 1] > 0
-    ]
-
-    return pairs, scores
+            owner[column], column = owner[prior], prior
+    return [(owner[j] - 1, j - 1) for j in range(1, actual + 1)
+            if owner[j] and weights[owner[j] - 1][j - 1] > 0]
 
 
-def summarize(counts):
-    correct = counts["correct"]
-
-    predicted = (
-        correct
-        + counts["unexpected"]
-        + counts["incorrect"]
-    )
-
-    expected = (
-        correct
-        + counts["missing"]
-        + counts["incorrect"]
-    )
-
-    return {
-        **{
-            key: counts[key]
-            for key in (
-                "correct", "missing", "unexpected", "incorrect"
-            )
-        },
-        "expected_fields": expected,
-        "predicted_fields": predicted,
-        "precision": correct / predicted if predicted else None,
-        "recall": correct / expected if expected else None,
-        "f1": (
-            2 * correct / (predicted + expected)
-            if predicted + expected
-            else None
+def align(expected, actual, section, path, warnings):
+    fields = IDENTITIES[section]
+    weights = []
+    for left in expected:
+        row = []
+        for right in actual:
+            evidence = []
+            for field in fields:
+                a, b = get_value(left, field), get_value(right, field)
+                if a is None or b is None:
+                    continue
+                a, b = normalized(a, field.split(".")[-1]), normalized(b, field.split(".")[-1])
+                similarity = SequenceMatcher(None, str(a), str(b)).ratio()
+                # Dates only match exactly. Fuzzy text helps alignment, never scoring.
+                exact = a == b
+                if exact or (not field.startswith("dates.") and field != "date" and similarity >= .85):
+                    evidence.append((field, 1. if exact else similarity))
+            # A date alone cannot identify a record.
+            identity = [score for field, score in evidence if field not in {"date", "dates.start", "dates.end"}]
+            row.append(sum(score for _, score in evidence) if identity else 0.)
+        weights.append(row)
+    pairs = assignment(weights)
+    for i, j in pairs:
+        score = weights[i][j]
+        ambiguous = any(k != j and abs(value - score) < .15 for k, value in enumerate(weights[i]))
+        ambiguous |= any(k != i and abs(row[j] - score) < .15 for k, row in enumerate(weights))
+        fuzzy = any(
+            get_value(expected[i], field) is not None
+            and get_value(actual[j], field) is not None
+            and normalized(get_value(expected[i], field), field.split(".")[-1])
+            != normalized(get_value(actual[j], field), field.split(".")[-1])
+            for field in fields
         )
-    }
+        if ambiguous or fuzzy:
+            warnings.append({"path": path, "reference_index": i, "prediction_index": j,
+                             "reason": "Ambiguous or non-exact identity alignment; review this pair."})
+    return pairs
 
 
-def evaluate(reference: RawCV, prediction: RawCV) -> dict:
-    manual_reference = []
-    manual_prediction = []
+def evaluate(reference, prediction, provenance_policy="empty"):
+    expected, actual = reference.model_dump(), prediction.model_dump()
+    differences, warnings = [], []
+    provenance, provenance_differences = Counter(), []
 
-    expected = project(reference, manual_reference)
-    actual = project(prediction, manual_prediction)
-
-    details = []
-    warnings = []
-    sections = {}
-    totals = Counter()
+    def record(left, right, path, counts, destination):
+        if left is None and right is None:
+            return
+        kind = ("unexpected" if left is None else "missing" if right is None else
+                "correct" if normalized(left, path.rsplit(".", 1)[-1]) == normalized(right, path.rsplit(".", 1)[-1]) else "incorrect")
+        counts[kind] += 1
+        if kind != "correct":
+            destination.append({"path": path, "result": kind, "expected": left, "actual": right})
 
     def compare(left, right, path, counts):
         if isinstance(left, dict) or isinstance(right, dict):
-            left = left or {}
-            right = right or {}
-
+            left, right = left or {}, right or {}
             for key in sorted(left.keys() | right.keys()):
-                compare(
-                    left.get(key),
-                    right.get(key),
-                    f"{path}.{key}",
-                    counts
-                )
-
-            return
-
-        if isinstance(left, list) or isinstance(right, list):
-            left = left or []
-            right = right or []
-
-            if any(
-                isinstance(item, dict)
-                for item in left + right
-            ):
-                fields = IDENTITIES.get(
-                    path.rsplit(".", 1)[-1]
-                )
-
-                if fields is None:
-                    raise ValueError(
-                        f"No record matching policy for {path}"
-                    )
-
-                pairs, scores = match_records(
-                    left,
-                    right,
-                    fields
-                )
-
+                if key in {"details", "summary", "additional_sections"}:
+                    continue
+                if key == "source_pages":
+                    a = [] if provenance_policy == "empty" else left.get(key, [])
+                    compare_pages(a, right.get(key, []), f"{path}.{key}")
+                else:
+                    compare(left.get(key), right.get(key), f"{path}.{key}", counts)
+        elif isinstance(left, list) or isinstance(right, list):
+            left, right = left or [], right or []
+            if any(isinstance(item, dict) for item in left + right):
+                section = path.rsplit(".", 1)[-1]
+                pairs = align(left, right, section, path, warnings)
                 for i, j in pairs:
-                    weight = scores[i][j]
-
-                    if (
-                        scores[i].count(weight) > 1
-                        or sum(
-                            row[j] == weight
-                            for row in scores
-                        ) > 1
-                    ):
-                        warnings.append({
-                            "path": path,
-                            "reason": (
-                                "Ambiguous identity match; "
-                                "review alignment"
-                            ),
-                            "reference_index": i,
-                            "prediction_index": j
-                        })
-
-                    compare(
-                        left[i],
-                        right[j],
-                        f"{path}[{i}->{j}]",
-                        counts
-                    )
-
+                    compare(left[i], right[j], f"{path}[{i}->{j}]", counts)
+                for i, item in enumerate(left):
+                    if i not in {a for a, _ in pairs}:
+                        compare(item, None, f"{path}[reference:{i}]", counts)
+                for j, item in enumerate(right):
+                    if j not in {b for _, b in pairs}:
+                        compare(None, item, f"{path}[prediction:{j}]", counts)
             else:
-                pairs = []
-                available = set(range(len(right)))
                 field = path.rsplit(".", 1)[-1]
-
-                for i, value in enumerate(left):
-                    for j in sorted(available):
-                        if normalize(value, field) == normalize(
-                            right[j],
-                            field
-                        ):
-                            pairs.append((i, j))
-                            available.remove(j)
-                            break
-
-                for i, j in pairs:
-                    compare(
-                        left[i],
-                        right[j],
-                        f"{path}[{i}->{j}]",
-                        counts
-                    )
-
-            matched_left = {i for i, j in pairs}
-            matched_right = {j for i, j in pairs}
-
-            for i, item in enumerate(left):
-                if i not in matched_left:
-                    compare(
-                        item,
-                        None,
-                        f"{path}[reference:{i}]",
-                        counts
-                    )
-
-            for j, item in enumerate(right):
-                if j not in matched_right:
-                    compare(
-                        None,
-                        item,
-                        f"{path}[prediction:{j}]",
-                        counts
-                    )
-
-            return
-
-        if empty(left) and empty(right):
-            return
-
-        if empty(left):
-            kind = "unexpected"
-        elif empty(right):
-            kind = "missing"
-        elif normalize(
-            left,
-            path.rsplit(".", 1)[-1]
-        ) == normalize(
-            right,
-            path.rsplit(".", 1)[-1]
-        ):
-            kind = "correct"
+                remaining = list(right)
+                for i, item in enumerate(left):
+                    found = next((j for j, value in enumerate(remaining)
+                                  if normalized(item, field) == normalized(value, field)), None)
+                    record(item, remaining.pop(found) if found is not None else None,
+                           f"{path}[reference:{i}]", counts, differences)
+                for j, item in enumerate(remaining):
+                    record(None, item, f"{path}[prediction:{j}]", counts, differences)
         else:
-            kind = "incorrect"
+            record(left, right, path, counts, differences)
 
-        counts[kind] += 1
+    def compare_pages(left, right, path):
+        a, b = Counter(left), Counter(right)
+        provenance["correct"] += sum((a & b).values())
+        for kind, values in (("missing", a - b), ("unexpected", b - a)):
+            provenance[kind] += sum(values.values())
+            for value, count in values.items():
+                provenance_differences.append({"path": path, "result": kind, "page": value, "count": count})
 
-        if kind != "correct":
-            details.append({
-                "path": path,
-                "result": kind,
-                "expected": left,
-                "actual": right
-            })
-
-    for section in sorted(expected.keys() | actual.keys()):
+    categories, total = {}, Counter()
+    for category in CATEGORIES:
         counts = Counter()
+        compare(expected[category], actual[category], category, counts)
+        categories[category] = metrics(counts)
+        total.update(counts)
+    # Additional-section pages are separate from manually reviewed section text.
+    for i, section in enumerate(actual["additional_sections"]):
+        if provenance_policy == "empty":
+            compare_pages([], section["source_pages"], f"additional_sections[{i}].source_pages")
 
-        compare(
-            expected.get(section),
-            actual.get(section),
-            section,
-            counts
-        )
-
-        sections[section] = summarize(counts)
-        totals.update(counts)
+    def content(data, path=""):
+        items = []
+        if isinstance(data, dict):
+            for key, value in data.items():
+                child = f"{path}.{key}" if path else key
+                if key in {"details", "summary", "additional_sections"}:
+                    if value:
+                        items.append({"path": child, "content": value})
+                else:
+                    items.extend(content(value, child))
+        elif isinstance(data, list):
+            for i, value in enumerate(data):
+                items.extend(content(value, f"{path}[{i}]"))
+        return items
 
     return {
-        "status": "completed",
-        "scope": "structured_fields_only",
-        "matching_review_required": bool(warnings),
-        "overall": summarize(totals),
-        "sections": sections,
-        "differences": details,
+        "overall": metrics(total), "categories": categories,
+        "differences": differences, "matching_review_required": bool(warnings),
         "matching_warnings": warnings,
-        "manual_review": {
-            "reference": manual_reference,
-            "prediction": manual_prediction
-        }
+        "provenance": {"policy": provenance_policy, **metrics(provenance),
+                       "differences": provenance_differences},
+        "content_review": {
+            "status": "pending", "reference": content(expected), "prediction": content(actual),
+            "checklist": {key: {"passed": None, "notes": ""} for key in
+                          ("preservation", "faithfulness", "placement", "duplication")},
+        },
     }
+
+
+def resolve_run(root, manifest, run_id):
+    if Path(run_id).name != run_id or run_id in {".", ".."}:
+        raise ValueError("Run IDs must be folder names.")
+    active = root / "results" / run_id
+    selected = manifest.get("archived_runs", {}).get(run_id, {})
+    saved = root / "data" / selected.get("path", f"archived_runs/{run_id}")
+    if not saved.resolve().is_relative_to((root / "data").resolve()):
+        raise ValueError("Archived-run paths must stay within data.")
+    candidates = [path for path in (active, saved) if (path / "config.json").is_file()]
+    if not candidates:
+        raise FileNotFoundError(f"Run not found: {run_id}")
+    # An explicitly registered preserved copy is authoritative; active results
+    # may be removed later without changing the source used for evaluation.
+    return saved if selected and saved in candidates else candidates[0]
+
+
+def evaluate_run(root, run_id, allow_draft=False, overwrite=False, provenance_policy="empty"):
+    manifest = read_json(root / "data/manifest.json")
+    run_dir = resolve_run(root, manifest, run_id)
+    config_path = run_dir / "config.json"
+    config = read_json(config_path)
+    destination = root / "evaluation/results" / run_id
+    if destination.exists() and not overwrite:
+        raise FileExistsError(f"{destination} already exists. Use --overwrite to replace it.")
+    reports, references = [], {}
+    catalog = manifest.get("references", {})
+    for document in config["inputs"]:
+        cv_id = document["id"]
+        entry = catalog.get(cv_id)
+        ref_path = root / "data" / (entry or {}).get("path", f"references/{cv_id}.json")
+        reference, reference_error = None, None
+        if not entry or not ref_path.exists():
+            reference_error = "missing_reference"
+        elif entry.get("pdf_sha256") != document["sha256"]:
+            reference_error = "reference_source_mismatch"
+        elif entry.get("status") != "reviewed" and not allow_draft:
+            reference_error = "unreviewed_reference"
+        else:
+            try:
+                reference = RawCV.model_validate_json(ref_path.read_text(encoding="utf-8-sig"))
+            except (ValidationError, ValueError) as error:
+                reference_error = "invalid_reference"
+                references[cv_id] = {"error": str(error)}
+        if ref_path.exists():
+            references.setdefault(cv_id, {}).update({"path": str(ref_path.relative_to(root)),
+                "sha256": sha256(ref_path), "status": (entry or {}).get("status", "unregistered")})
+        for repetition in range(1, config["repetitions"] + 1):
+            attempt = run_dir / "documents" / cv_id / f"repeat_{repetition:03d}"
+            stage_names = [stage["name"] for stage in config["stages"] if stage["method"] == "llm_structuring"]
+            report = {"document_id": cv_id, "repetition": repetition, "overall": None,
+                      "provisional": (entry or {}).get("status") != "reviewed"}
+            attempt_report = read_json(attempt / "report.json") if (attempt / "report.json").exists() else {}
+            prediction_path = attempt / stage_names[-1] / "extraction.json" if stage_names else None
+            report["extraction_status"] = attempt_report.get("status", "incomplete")
+            if report["extraction_status"] not in {"completed", "success"}:
+                report["status"] = "extraction_failed" if attempt_report else "incomplete_attempt"
+            elif prediction_path is None:
+                report["status"] = "no_structuring_stage"
+            elif not prediction_path.exists():
+                report["status"] = "missing_output"
+            else:
+                report["prediction_sha256"] = sha256(prediction_path)
+                try:
+                    raw = read_json(prediction_path)
+                    report["json_valid"] = True
+                    prediction = RawCV.model_validate(raw)
+                    report["schema_valid"] = True
+                    if reference_error:
+                        report["status"] = reference_error
+                    else:
+                        report.update(evaluate(reference, prediction, provenance_policy))
+                        report["status"] = "evaluated"
+                except json.JSONDecodeError as error:
+                    report.update(status="invalid_json", json_valid=False, error=str(error))
+                except ValidationError as error:
+                    report.update(status="invalid_schema", schema_valid=False, error=str(error))
+            reports.append(report)
+    totals = Counter()
+    category_totals = {category: Counter() for category in CATEGORIES}
+    for report in reports:
+        if report["status"] == "evaluated":
+            totals.update({key: report["overall"][key] for key in COUNTS})
+            for category in CATEGORIES:
+                category_totals[category].update({key: report["categories"][category][key] for key in COUNTS})
+    settings = {"source_run_id": run_id, "source_path": str(run_dir.relative_to(root)),
+                "source_config_sha256": sha256(config_path), "evaluator_version": VERSION,
+                "evaluator_sha256": sha256(Path(__file__)),
+                "schema_sha256": sha256(Path(__file__).with_name("schemas.py")),
+                "evaluated_at_utc": datetime.now(timezone.utc).isoformat(),
+                "provenance_policy": provenance_policy, "allow_draft": allow_draft,
+                "references": references, "run_description": manifest.get("archived_runs", {}).get(run_id)}
+    summary = {"run_id": run_id, "attempt_count": len(reports),
+               "status_counts": dict(Counter(report["status"] for report in reports)),
+               "evaluated_attempts": sum(report["status"] == "evaluated" for report in reports),
+               "provisional": any(report["provisional"] for report in reports if report["status"] == "evaluated"),
+               "scope": "structured_facts_only; free text requires manual review",
+               "overall": metrics(totals), "categories": {k: metrics(v) for k, v in category_totals.items()}}
+    save_json(destination / "config.json", settings)
+    for report in reports:
+        save_json(destination / "documents" / report["document_id"] / f"repeat_{report['repetition']:03d}.json", report)
+    save_json(destination / "summary.json", summary)
+    return summary
 
 
 def main():
-    parser = argparse.ArgumentParser()
-
-    parser.add_argument(
-        "--reference",
-        type=Path,
-        required=True
-    )
-    parser.add_argument(
-        "--prediction",
-        type=Path,
-        required=True
-    )
-    parser.add_argument(
-        "--output",
-        type=Path,
-        required=True
-    )
-
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--run-ids", nargs="+", required=True)
+    parser.add_argument("--allow-draft", action="store_true", help="Explicitly permit provisional reference scores.")
+    parser.add_argument("--overwrite", action="store_true")
+    
     args = parser.parse_args()
-
-    if args.output.resolve() in {
-        args.reference.resolve(),
-        args.prediction.resolve()
-    }:
-        parser.error("Output must not overwrite either input.")
-
-    reference_text = args.reference.read_text(
-        encoding="utf-8-sig"
-    )
-    reference = RawCV.model_validate_json(reference_text)
-
-    report = {
-        "reference": str(args.reference.resolve()),
-        "prediction": str(args.prediction.resolve()),
-        "reference_sha256": hashlib.sha256(
-            args.reference.read_bytes()
-        ).hexdigest()
-    }
-
-    stage_report_path = (
-        args.prediction.parent / "report.json"
-    )
-
-    stage_report = (
-        json.loads(
-            stage_report_path.read_text(
-                encoding="utf-8-sig"
-            )
-        )
-        if stage_report_path.exists()
-        else {}
-    )
-
-    report["extraction_status"] = stage_report.get(
-        "execution_status",
-        "unknown"
-    )
-
-    try:
-        if report["extraction_status"] not in {
-            "completed", "unknown"
-        }:
-            report.update(
-                status="extraction_failed",
-                overall=None
-            )
-
-        elif not args.prediction.exists():
-            report.update(
-                status="missing_output",
-                overall=None
-            )
-
-        else:
-            text = args.prediction.read_text(
-                encoding="utf-8-sig"
-            )
-
-            report["prediction_sha256"] = hashlib.sha256(
-                args.prediction.read_bytes()
-            ).hexdigest()
-
-            json.loads(text)
-            report["json_valid"] = True
-
-            prediction = RawCV.model_validate_json(text)
-            report["schema_valid"] = True
-
-            report.update(
-                evaluate(reference, prediction)
-            )
-
-    except json.JSONDecodeError as error:
-        report.update(
-            status="invalid_json",
-            json_valid=False,
-            overall=None,
-            error=str(error)
-        )
-
-    except ValidationError as error:
-        report.update(
-            status="invalid_schema",
-            schema_valid=False,
-            overall=None,
-            error=str(error)
-        )
-
-    save_json(args.output, report)
-
-    print(
-        json.dumps(
-            {
-                "status": report["status"],
-                "overall": report["overall"],
-                "output": str(args.output)
-            },
-            indent=2
-        )
-    )
+    for run_id in dict.fromkeys(args.run_ids):
+        summary = evaluate_run(ROOT, run_id, args.allow_draft, args.overwrite)
+        print(json.dumps(summary, indent=2))
 
 
 if __name__ == "__main__":

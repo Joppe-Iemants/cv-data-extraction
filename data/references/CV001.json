@@ -1,1174 +1,189 @@
 {
   "personal_information": {
-    "source_pages": [
-      1
-    ],
-    "source_heading": null,
-    "source_text": null,
-    "entry_id": null,
-    "additional_sections": [],
     "full_name": "YOUR NAME HERE",
-    "preferred_name": null,
-    "given_names": null,
-    "family_name": null,
-    "professional_titles": [],
     "headline": "Your Position or Tagline Here",
-    "current_occupation": null,
-    "contacts": [
-      {
-        "source_pages": [
-          1
-        ],
-        "source_heading": null,
-        "source_text": null,
-        "type": "email",
-        "value": "your_name@email.com",
-        "label": null,
-        "platform": null
-      },
-      {
-        "source_pages": [
-          1
-        ],
-        "source_heading": null,
-        "source_text": null,
-        "type": "phone",
-        "value": "000-00-0000",
-        "label": null,
-        "platform": null
-      }
+    "emails": [
+      "your_name@email.com"
     ],
-    "locations": [
-      {
-        "source_pages": [
-          1
-        ],
-        "source_heading": null,
-        "source_text": null,
-        "raw_text": "Åddrésş, Street, 00000 Cóuntry",
-        "label": null,
-        "address": null,
-        "postal_code": null,
-        "city": null,
-        "region": null,
-        "country": null
-      },
-      {
-        "source_pages": [
-          1
-        ],
-        "source_heading": null,
-        "source_text": null,
-        "raw_text": "Location, COUNTRY",
-        "label": null,
-        "address": null,
-        "postal_code": null,
-        "city": "Location",
-        "region": null,
-        "country": "COUNTRY"
-      }
+    "phones": [
+      "000-00-0000"
     ],
+    "location": "Åddrésş, Street, 00000 Cóuntry",
     "weblinks": [
       {
-        "source_pages": [
-          1
-        ],
-        "source_heading": null,
-        "source_text": null,
-        "url": "www.homepage.com",
-        "label": null,
-        "type": null,
-        "platform": null
+        "url": "www.homepage.com"
       },
       {
-        "source_pages": [
-          1
-        ],
-        "source_heading": null,
-        "source_text": null,
         "url": "@x-handle",
-        "label": null,
-        "type": null,
         "platform": "X"
       },
       {
-        "source_pages": [
-          1
-        ],
-        "source_heading": null,
-        "source_text": null,
         "url": "your_id",
-        "label": null,
-        "type": null,
         "platform": "LinkedIn"
       },
       {
-        "source_pages": [
-          1
-        ],
-        "source_heading": null,
-        "source_text": null,
         "url": "your_id",
-        "label": null,
-        "type": null,
         "platform": "GitHub"
       },
       {
-        "source_pages": [
-          1
-        ],
-        "source_heading": null,
-        "source_text": null,
         "url": "0000-0000-0000-0000",
-        "label": null,
-        "type": null,
         "platform": "ORCID"
       },
       {
-        "source_pages": [
-          1
-        ],
-        "source_heading": null,
-        "source_text": null,
         "url": "your_id",
-        "label": null,
-        "type": null,
         "platform": "GitLab"
       },
       {
-        "source_pages": [
-          1
-        ],
-        "source_heading": null,
-        "source_text": null,
         "url": "@username@instance",
-        "label": null,
-        "type": null,
         "platform": "Mastodon"
       }
     ],
-    "date_of_birth": null,
-    "place_of_birth": null,
-    "nationalities": [],
-    "pronouns": null,
-    "gender": null,
-    "marital_status": null
+    "details": [
+      "Location, COUNTRY"
+    ]
   },
-  "profiles": [
-    {
-      "source_pages": [
-        1
-      ],
-      "source_heading": "MY LIFE PHILOSOPHY",
-      "source_text": null,
-      "entry_id": null,
-      "additional_sections": [],
-      "type": "other",
-      "heading": "MY LIFE PHILOSOPHY",
-      "text": "“Something smart or heartfelt, preferably in one sentence.”"
-    }
-  ],
   "work_experience": [
     {
-      "source_pages": [
-        1
-      ],
-      "source_heading": "EXPERIENCE",
-      "source_text": null,
-      "entry_id": null,
-      "additional_sections": [],
-      "organization": {
-        "source_pages": [
-          1
-        ],
-        "source_heading": null,
-        "source_text": null,
-        "entry_id": null,
-        "additional_sections": [],
-        "name": "Company 1",
-        "department": null,
-        "industry": null,
-        "description": null,
-        "locations": [],
-        "weblinks": []
+      "employer": "Company 1",
+      "role": "Job Title 1",
+      "dates": {
+        "start": "Month 20XX",
+        "end": "Ongoing"
       },
-      "client": null,
-      "dates": null,
-      "employment_type": null,
-      "locations": [],
-      "description": null,
-      "positions": [
-        {
-          "source_pages": [
-            1
-          ],
-          "source_heading": "EXPERIENCE",
-          "source_text": null,
-          "entry_id": null,
-          "additional_sections": [],
-          "title": "Job Title 1",
-          "department": null,
-          "employment_type": null,
-          "dates": {
-            "raw_text": "Month 20XX – Ongoing",
-            "start": "Month 20XX",
-            "end": "Ongoing",
-            "is_current": true,
-            "duration": null
-          },
-          "locations": [
-            {
-              "source_pages": [
-                1
-              ],
-              "source_heading": null,
-              "source_text": null,
-              "raw_text": "Location",
-              "label": null,
-              "address": null,
-              "postal_code": null,
-              "city": null,
-              "region": null,
-              "country": null
-            }
-          ],
-          "work_arrangement": null,
-          "description": null,
-          "responsibilities": [
-            "Job description 1",
-            "Job description 2"
-          ],
-          "achievements": [],
-          "skills": [],
-          "weblinks": []
-        }
-      ],
-      "responsibilities": [],
-      "achievements": [],
-      "skills": [],
-      "weblinks": []
+      "location": "Location",
+      "details": [
+        "Job description 1",
+        "Job description 2"
+      ]
     },
     {
-      "source_pages": [
-        1
-      ],
-      "source_heading": "EXPERIENCE",
-      "source_text": null,
-      "entry_id": null,
-      "additional_sections": [],
-      "organization": {
-        "source_pages": [
-          1
-        ],
-        "source_heading": null,
-        "source_text": null,
-        "entry_id": null,
-        "additional_sections": [],
-        "name": "Company 2",
-        "department": null,
-        "industry": null,
-        "description": null,
-        "locations": [],
-        "weblinks": []
+      "employer": "Company 2",
+      "role": "Job Title 2",
+      "dates": {
+        "start": "Month 20XX",
+        "end": "Ongoing"
       },
-      "client": null,
-      "dates": null,
-      "employment_type": null,
-      "locations": [],
-      "description": null,
-      "positions": [
-        {
-          "source_pages": [
-            1
-          ],
-          "source_heading": "EXPERIENCE",
-          "source_text": null,
-          "entry_id": null,
-          "additional_sections": [],
-          "title": "Job Title 2",
-          "department": null,
-          "employment_type": null,
-          "dates": {
-            "raw_text": "Month 20XX – Ongoing",
-            "start": "Month 20XX",
-            "end": "Ongoing",
-            "is_current": true,
-            "duration": null
-          },
-          "locations": [
-            {
-              "source_pages": [
-                1
-              ],
-              "source_heading": null,
-              "source_text": null,
-              "raw_text": "Location",
-              "label": null,
-              "address": null,
-              "postal_code": null,
-              "city": null,
-              "region": null,
-              "country": null
-            }
-          ],
-          "work_arrangement": null,
-          "description": null,
-          "responsibilities": [
-            "Job description 1",
-            "Job description 2"
-          ],
-          "achievements": [],
-          "skills": [],
-          "weblinks": []
-        }
-      ],
-      "responsibilities": [],
-      "achievements": [],
-      "skills": [],
-      "weblinks": []
+      "location": "Location",
+      "details": [
+        "Job description 1",
+        "Job description 2"
+      ]
     }
   ],
   "projects": [
     {
-      "source_pages": [
-        1
-      ],
-      "source_heading": "PROJECTS",
-      "source_text": null,
-      "entry_id": null,
-      "additional_sections": [],
       "name": "Project 1",
-      "type": null,
-      "role": null,
-      "organization": {
-        "source_pages": [
-          1
-        ],
-        "source_heading": null,
-        "source_text": null,
-        "entry_id": null,
-        "additional_sections": [],
-        "name": "Funding agency/institution",
-        "department": null,
-        "industry": null,
-        "description": null,
-        "locations": [],
-        "weblinks": []
-      },
-      "client": null,
-      "dates": null,
-      "locations": [],
-      "description": "Details",
-      "objectives": [],
-      "contributions": [],
-      "achievements": [],
-      "skills": [],
-      "weblinks": [],
-      "related_experience_ids": [],
-      "related_position_ids": []
+      "organization": "Funding agency/institution",
+      "details": [
+        "Details"
+      ]
     },
     {
-      "source_pages": [
-        1
-      ],
-      "source_heading": "PROJECTS",
-      "source_text": null,
-      "entry_id": null,
-      "additional_sections": [],
       "name": "Project 2",
-      "type": null,
-      "role": null,
-      "organization": {
-        "source_pages": [
-          1
-        ],
-        "source_heading": null,
-        "source_text": null,
-        "entry_id": null,
-        "additional_sections": [],
-        "name": "Funding agency/institution",
-        "department": null,
-        "industry": null,
-        "description": null,
-        "locations": [],
-        "weblinks": []
-      },
-      "client": null,
+      "organization": "Funding agency/institution",
       "dates": {
-        "raw_text": "Project duration",
-        "start": null,
-        "end": null,
-        "is_current": null,
         "duration": "Project duration"
       },
-      "locations": [],
-      "description": "A short abstract would also work.",
-      "objectives": [],
-      "contributions": [],
-      "achievements": [],
-      "skills": [],
-      "weblinks": [],
-      "related_experience_ids": [],
-      "related_position_ids": []
+      "details": [
+        "A short abstract would also work."
+      ]
     }
   ],
   "education": [
     {
-      "source_pages": [
-        1
-      ],
-      "source_heading": "EDUCATION",
-      "source_text": null,
-      "entry_id": null,
-      "additional_sections": [],
-      "institution": {
-        "source_pages": [
-          1
-        ],
-        "source_heading": null,
-        "source_text": null,
-        "entry_id": null,
-        "additional_sections": [],
-        "name": "Your University",
-        "department": null,
-        "industry": null,
-        "description": null,
-        "locations": [],
-        "weblinks": []
-      },
-      "degree": "Ph.D.",
-      "qualification_level": null,
-      "fields_of_study": [
-        "Your Discipline"
-      ],
-      "specializations": [],
+      "institution": "Your University",
+      "qualification": "Ph.D. in Your Discipline",
       "dates": {
-        "raw_text": "Sept 2002 – June 2006",
         "start": "Sept 2002",
-        "end": "June 2006",
-        "is_current": null,
-        "duration": null
+        "end": "June 2006"
       },
-      "status": null,
-      "study_mode": null,
-      "locations": [],
-      "description": null,
-      "coursework": [],
-      "grade": null,
-      "distinctions": [],
-      "theses": [
-        {
-          "source_pages": [
-            1
-          ],
-          "source_heading": null,
-          "source_text": null,
-          "entry_id": null,
-          "additional_sections": [],
-          "title": "Wonderful Research",
-          "type": null,
-          "description": null,
-          "supervisors": [],
-          "grade": null,
-          "weblinks": []
-        }
-      ],
-      "skills": [],
-      "weblinks": []
+      "details": [
+        "Thesis title: Wonderful Research"
+      ]
     },
     {
-      "source_pages": [
-        1
-      ],
-      "source_heading": "EDUCATION",
-      "source_text": null,
-      "entry_id": null,
-      "additional_sections": [],
-      "institution": {
-        "source_pages": [
-          1
-        ],
-        "source_heading": null,
-        "source_text": null,
-        "entry_id": null,
-        "additional_sections": [],
-        "name": "Your University",
-        "department": null,
-        "industry": null,
-        "description": null,
-        "locations": [],
-        "weblinks": []
-      },
-      "degree": "M.Sc.",
-      "qualification_level": null,
-      "fields_of_study": [
-        "Your Discipline"
-      ],
-      "specializations": [],
+      "institution": "Your University",
+      "qualification": "M.Sc. in Your Discipline",
       "dates": {
-        "raw_text": "Sept 2001 – June 2002",
         "start": "Sept 2001",
-        "end": "June 2002",
-        "is_current": null,
-        "duration": null
-      },
-      "status": null,
-      "study_mode": null,
-      "locations": [],
-      "description": null,
-      "coursework": [],
-      "grade": null,
-      "distinctions": [],
-      "theses": [],
-      "skills": [],
-      "weblinks": []
+        "end": "June 2002"
+      }
     },
     {
-      "source_pages": [
-        1
-      ],
-      "source_heading": "EDUCATION",
-      "source_text": null,
-      "entry_id": null,
-      "additional_sections": [],
-      "institution": {
-        "source_pages": [
-          1
-        ],
-        "source_heading": null,
-        "source_text": null,
-        "entry_id": null,
-        "additional_sections": [],
-        "name": "Stanford University",
-        "department": null,
-        "industry": null,
-        "description": null,
-        "locations": [],
-        "weblinks": []
-      },
-      "degree": "B.Sc.",
-      "qualification_level": null,
-      "fields_of_study": [
-        "Your Discipline"
-      ],
-      "specializations": [],
+      "institution": "Stanford University",
+      "qualification": "B.Sc. in Your Discipline",
       "dates": {
-        "raw_text": "Sept 1998 – June 2001",
         "start": "Sept 1998",
-        "end": "June 2001",
-        "is_current": null,
-        "duration": null
-      },
-      "status": null,
-      "study_mode": null,
-      "locations": [],
-      "description": null,
-      "coursework": [],
-      "grade": null,
-      "distinctions": [],
-      "theses": [],
-      "skills": [],
-      "weblinks": []
+        "end": "June 2001"
+      }
     }
   ],
   "skills": [
     {
-      "source_pages": [
-        1
-      ],
-      "source_heading": "STRENGTHS",
-      "source_text": null,
-      "entry_id": null,
-      "additional_sections": [],
-      "name": "Hard-working",
-      "category": null,
-      "proficiency": null,
-      "experience_duration": null,
-      "last_used": null,
-      "description": null
+      "name": "Hard-working"
     },
     {
-      "source_pages": [
-        1
-      ],
-      "source_heading": "STRENGTHS",
-      "source_text": null,
-      "entry_id": null,
-      "additional_sections": [],
-      "name": "Eye for detail",
-      "category": null,
-      "proficiency": null,
-      "experience_duration": null,
-      "last_used": null,
-      "description": null
+      "name": "Eye for detail"
     },
     {
-      "source_pages": [
-        1
-      ],
-      "source_heading": "STRENGTHS",
-      "source_text": null,
-      "entry_id": null,
-      "additional_sections": [],
-      "name": "Motivator & Leader",
-      "category": null,
-      "proficiency": null,
-      "experience_duration": null,
-      "last_used": null,
-      "description": null
+      "name": "Motivator & Leader"
     },
     {
-      "source_pages": [
-        1
-      ],
-      "source_heading": "STRENGTHS",
-      "source_text": null,
-      "entry_id": null,
-      "additional_sections": [],
-      "name": "C++",
-      "category": null,
-      "proficiency": null,
-      "experience_duration": null,
-      "last_used": null,
-      "description": null
+      "name": "C++"
     },
     {
-      "source_pages": [
-        1
-      ],
-      "source_heading": "STRENGTHS",
-      "source_text": null,
-      "entry_id": null,
-      "additional_sections": [],
-      "name": "Embedded Systems",
-      "category": null,
-      "proficiency": null,
-      "experience_duration": null,
-      "last_used": null,
-      "description": null
+      "name": "Embedded Systems"
     },
     {
-      "source_pages": [
-        1
-      ],
-      "source_heading": "STRENGTHS",
-      "source_text": null,
-      "entry_id": null,
-      "additional_sections": [],
-      "name": "Statistical Analysis",
-      "category": null,
-      "proficiency": null,
-      "experience_duration": null,
-      "last_used": null,
-      "description": null
+      "name": "Statistical Analysis"
     }
   ],
   "languages": [
     {
-      "source_pages": [
-        1
-      ],
-      "source_heading": "LANGUAGES",
-      "source_text": null,
-      "entry_id": null,
-      "additional_sections": [],
       "name": "English",
-      "is_native": null,
-      "overall": {
+      "proficiency": {
         "type": "dots",
-        "raw_value": "5 fully filled circles",
         "value": 5.0,
-        "minimum": null,
-        "maximum": 5.0,
-        "scale_description": "Five circles; red fill indicates proficiency, including partial fill.",
-        "cefr_level": null
-      },
-      "understanding": null,
-      "listening": null,
-      "reading": null,
-      "speaking": null,
-      "spoken_interaction": null,
-      "spoken_production": null,
-      "writing": null,
-      "qualifications": [],
-      "description": null
+        "maximum": 5.0
+      }
     },
     {
-      "source_pages": [
-        1
-      ],
-      "source_heading": "LANGUAGES",
-      "source_text": null,
-      "entry_id": null,
-      "additional_sections": [],
       "name": "Spanish",
-      "is_native": null,
-      "overall": {
+      "proficiency": {
         "type": "dots",
-        "raw_value": "4 fully filled circles and 1 unfilled circle",
         "value": 4.0,
-        "minimum": null,
-        "maximum": 5.0,
-        "scale_description": "Five circles; red fill indicates proficiency, including partial fill.",
-        "cefr_level": null
-      },
-      "understanding": null,
-      "listening": null,
-      "reading": null,
-      "speaking": null,
-      "spoken_interaction": null,
-      "spoken_production": null,
-      "writing": null,
-      "qualifications": [],
-      "description": null
+        "maximum": 5.0
+      }
     },
     {
-      "source_pages": [
-        1
-      ],
-      "source_heading": "LANGUAGES",
-      "source_text": null,
-      "entry_id": null,
-      "additional_sections": [],
       "name": "German",
-      "is_native": null,
-      "overall": {
+      "proficiency": {
         "type": "dots",
-        "raw_value": "3 fully filled circles, 1 half-filled circle and 1 unfilled circle",
         "value": 3.5,
-        "minimum": null,
-        "maximum": 5.0,
-        "scale_description": "Five circles; red fill indicates proficiency, including partial fill.",
-        "cefr_level": null
-      },
-      "understanding": null,
-      "listening": null,
-      "reading": null,
-      "speaking": null,
-      "spoken_interaction": null,
-      "spoken_production": null,
-      "writing": null,
-      "qualifications": [],
-      "description": null
+        "maximum": 5.0
+      }
     }
   ],
-  "certifications": [],
-  "training": [],
-  "awards": [],
-  "publications": [
-    {
-      "source_pages": [
-        2
-      ],
-      "source_heading": "PUBLICATIONS / Books",
-      "source_text": "E. Someone and T. Lim, A Fictional Research. Somewhere, Some Place, 2010.",
-      "entry_id": null,
-      "additional_sections": [
-        {
-          "source_pages": [
-            2
-          ],
-          "source_heading": null,
-          "source_text": null,
-          "heading": "Publication details",
-          "content": [
-            {
-              "source_pages": [
-                2
-              ],
-              "source_heading": null,
-              "source_text": null,
-              "type": "paragraph",
-              "text": "Somewhere, Some Place",
-              "table": null
-            }
-          ],
-          "subsections": []
-        }
-      ],
-      "title": "A Fictional Research",
-      "type": "book",
-      "authors": [
-        "E. Someone",
-        "T. Lim"
-      ],
-      "venue": null,
-      "publisher": null,
-      "date": "2010",
-      "volume": null,
-      "issue": null,
-      "pages": null,
-      "status": null,
-      "identifiers": [],
-      "description": null,
-      "weblinks": []
-    },
-    {
-      "source_pages": [
-        2
-      ],
-      "source_heading": "PUBLICATIONS / Journal Articles",
-      "source_text": "L. T. Wong and E. Someone, “A non-existant paper,” Journal of Carrying On, vol. 12, 2011.",
-      "entry_id": null,
-      "additional_sections": [],
-      "title": "A non-existant paper",
-      "type": "journal article",
-      "authors": [
-        "L. T. Wong",
-        "E. Someone"
-      ],
-      "venue": "Journal of Carrying On",
-      "publisher": null,
-      "date": "2011",
-      "volume": "12",
-      "issue": null,
-      "pages": null,
-      "status": null,
-      "identifiers": [],
-      "description": null,
-      "weblinks": []
-    },
-    {
-      "source_pages": [
-        2
-      ],
-      "source_heading": "PUBLICATIONS / Journal Articles",
-      "source_text": "L. T. Lim, E. Someone, and A. Other, “A study into fireside storytelling,” Journal of Carrying On, vol. 7, 2008.",
-      "entry_id": null,
-      "additional_sections": [],
-      "title": "A study into fireside storytelling",
-      "type": "journal article",
-      "authors": [
-        "L. T. Lim",
-        "E. Someone",
-        "A. Other"
-      ],
-      "venue": "Journal of Carrying On",
-      "publisher": null,
-      "date": "2008",
-      "volume": "7",
-      "issue": null,
-      "pages": null,
-      "status": null,
-      "identifiers": [],
-      "description": null,
-      "weblinks": []
-    },
-    {
-      "source_pages": [
-        2
-      ],
-      "source_heading": "PUBLICATIONS / Conference Proceedings",
-      "source_text": "E. Someone and L. T. Lim, “Another paper something something,” in Proceedings of the 72nd AmaZing Conference, Far Far Away, 2013.",
-      "entry_id": null,
-      "additional_sections": [
-        {
-          "source_pages": [
-            2
-          ],
-          "source_heading": null,
-          "source_text": null,
-          "heading": "Publication details",
-          "content": [
-            {
-              "source_pages": [
-                2
-              ],
-              "source_heading": null,
-              "source_text": null,
-              "type": "paragraph",
-              "text": "Far Far Away",
-              "table": null
-            }
-          ],
-          "subsections": []
-        }
-      ],
-      "title": "Another paper something something",
-      "type": "conference paper",
-      "authors": [
-        "E. Someone",
-        "L. T. Lim"
-      ],
-      "venue": "Proceedings of the 72nd AmaZing Conference",
-      "publisher": null,
-      "date": "2013",
-      "volume": null,
-      "issue": null,
-      "pages": null,
-      "status": null,
-      "identifiers": [],
-      "description": null,
-      "weblinks": []
-    }
-  ],
-  "presentations": [],
-  "volunteering": [],
-  "military_service": [],
-  "memberships": [],
-  "interests": [],
-  "references": [
-    {
-      "source_pages": [
-        2
-      ],
-      "source_heading": "REFEREES",
-      "source_text": null,
-      "entry_id": null,
-      "additional_sections": [
-        {
-          "source_pages": [
-            2
-          ],
-          "source_heading": null,
-          "source_text": null,
-          "heading": null,
-          "content": [
-            {
-              "source_pages": [
-                2
-              ],
-              "source_heading": null,
-              "source_text": null,
-              "type": "paragraph",
-              "text": "Address Line 1\nAddress Line 2",
-              "table": null
-            }
-          ],
-          "subsections": []
-        }
-      ],
-      "name": "Alpha Beta",
-      "title": "Prof.",
-      "organization": {
-        "source_pages": [
-          2
-        ],
-        "source_heading": null,
-        "source_text": null,
-        "entry_id": null,
-        "additional_sections": [],
-        "name": "Institute",
-        "department": null,
-        "industry": null,
-        "description": null,
-        "locations": [],
-        "weblinks": []
-      },
-      "relationship": null,
-      "contacts": [
-        {
-          "source_pages": [
-            2
-          ],
-          "source_heading": null,
-          "source_text": null,
-          "type": "email",
-          "value": "a.beta@university.edu",
-          "label": null,
-          "platform": null
-        }
-      ],
-      "weblinks": [],
-      "statement": null
-    },
-    {
-      "source_pages": [
-        2
-      ],
-      "source_heading": "REFEREES",
-      "source_text": null,
-      "entry_id": null,
-      "additional_sections": [
-        {
-          "source_pages": [
-            2
-          ],
-          "source_heading": null,
-          "source_text": null,
-          "heading": null,
-          "content": [
-            {
-              "source_pages": [
-                2
-              ],
-              "source_heading": null,
-              "source_text": null,
-              "type": "paragraph",
-              "text": "Address Line 1\nAddress Line 2",
-              "table": null
-            }
-          ],
-          "subsections": []
-        }
-      ],
-      "name": "Gamma Delta",
-      "title": "Prof.",
-      "organization": {
-        "source_pages": [
-          2
-        ],
-        "source_heading": null,
-        "source_text": null,
-        "entry_id": null,
-        "additional_sections": [],
-        "name": "Institute",
-        "department": null,
-        "industry": null,
-        "description": null,
-        "locations": [],
-        "weblinks": []
-      },
-      "relationship": null,
-      "contacts": [
-        {
-          "source_pages": [
-            2
-          ],
-          "source_heading": null,
-          "source_text": null,
-          "type": "email",
-          "value": "g.delta@university.edu",
-          "label": null,
-          "platform": null
-        }
-      ],
-      "weblinks": [],
-      "statement": null
-    }
-  ],
-  "employment_preferences": {
-    "source_pages": [],
-    "source_heading": null,
-    "source_text": null,
-    "entry_id": null,
-    "additional_sections": [],
-    "desired_roles": [],
-    "desired_locations": [],
-    "employment_types": [],
-    "work_arrangements": [],
-    "willingness_to_relocate": null,
-    "willingness_to_travel": null,
-    "desired_compensation": null,
-    "availability": null,
-    "work_authorizations": [],
-    "driving_licenses": [],
-    "security_clearances": []
-  },
-  "weblinks": [],
-  "declarations": [],
   "additional_sections": [
     {
-      "source_pages": [
-        1
-      ],
-      "source_heading": "A DAY OF MY LIFE",
-      "source_text": null,
       "heading": "A DAY OF MY LIFE",
-      "content": [
-        {
-          "source_pages": [
-            1
-          ],
-          "source_heading": null,
-          "source_text": null,
-          "type": "other",
-          "text": "Doughnut chart with five labeled segments. No numeric values or units are printed.",
-          "table": null
-        },
-        {
-          "source_pages": [
-            1
-          ],
-          "source_heading": null,
-          "source_text": null,
-          "type": "bullet",
-          "text": "Sleep, beautiful sleep",
-          "table": null
-        },
-        {
-          "source_pages": [
-            1
-          ],
-          "source_heading": null,
-          "source_text": null,
-          "type": "bullet",
-          "text": "Hopeful novelist by night",
-          "table": null
-        },
-        {
-          "source_pages": [
-            1
-          ],
-          "source_heading": null,
-          "source_text": null,
-          "type": "bullet",
-          "text": "Daytime job",
-          "table": null
-        },
-        {
-          "source_pages": [
-            1
-          ],
-          "source_heading": null,
-          "source_text": null,
-          "type": "bullet",
-          "text": "Sports and relaxation",
-          "table": null
-        },
-        {
-          "source_pages": [
-            1
-          ],
-          "source_heading": null,
-          "source_text": null,
-          "type": "bullet",
-          "text": "Spending time with family",
-          "table": null
-        }
-      ],
-      "subsections": []
+      "text": "Doughnut chart with five labeled segments. No numeric values or units are printed.\nSleep, beautiful sleep\nHopeful novelist by night\nDaytime job\nSports and relaxation\nSpending time with family"
     },
     {
-      "source_pages": [
-        1
-      ],
-      "source_heading": "MOST PROUD OF",
-      "source_text": null,
       "heading": "MOST PROUD OF",
-      "content": [
-        {
-          "source_pages": [
-            1
-          ],
-          "source_heading": null,
-          "source_text": null,
-          "type": "bullet",
-          "text": "Fantastic Achievement\nand some details about it",
-          "table": null
-        },
-        {
-          "source_pages": [
-            1
-          ],
-          "source_heading": null,
-          "source_text": null,
-          "type": "bullet",
-          "text": "Another achievement\nmore details about it of course",
-          "table": null
-        },
-        {
-          "source_pages": [
-            1
-          ],
-          "source_heading": null,
-          "source_text": null,
-          "type": "bullet",
-          "text": "Another achievement\nmore details about it of course",
-          "table": null
-        }
-      ],
-      "subsections": []
+      "text": "Fantastic Achievement\nand some details about it\nAnother achievement\nmore details about it of course\nAnother achievement\nmore details about it of course"
+    },
+    {
+      "heading": "MY LIFE PHILOSOPHY",
+      "text": "“Something smart or heartfelt, preferably in one sentence.”"
+    },
+    {
+      "heading": "PUBLICATIONS",
+      "text": "E. Someone and T. Lim, A Fictional Research. Somewhere, Some Place, 2010.\nL. T. Wong and E. Someone, “A non-existant paper,” Journal of Carrying On, vol. 12, 2011.\nL. T. Lim, E. Someone, and A. Other, “A study into fireside storytelling,” Journal of Carrying On, vol. 7, 2008.\nE. Someone and L. T. Lim, “Another paper something something,” in Proceedings of the 72nd AmaZing Conference, Far Far Away, 2013."
+    },
+    {
+      "heading": "REFEREES",
+      "text": "Prof. Alpha Beta\nInstitute\na.beta@university.edu\nAddress Line 1\nAddress Line 2\n\nProf. Gamma Delta\nInstitute\ng.delta@university.edu\nAddress Line 1\nAddress Line 2"
     }
   ]
 }

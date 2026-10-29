@@ -18,3 +18,4 @@ python_version = "3.12"
 
 [scripts]
 experiment = "python experiments/run_experiment.py"
+evaluate = "python -m cv_extraction.evaluation"

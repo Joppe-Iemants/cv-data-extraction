@@ -300,5 +300,46 @@
       "source": "vdab",
       "source_url": "https://www.vdab.be/jobs/solliciteren/cv/tips-en-voorbeelden"
     }
-  ]
+  ],
+  "references": {
+    "CV001": {
+      "path": "references/CV001.json",
+      "status": "draft",
+      "schema_version": "compact-v1",
+      "pdf_sha256": "f887aba1f1220d79e3c8fb62da9d6a431f61bdd603242ce8f5f6037a63908579",
+      "notes": "references/CV001.notes.md"
+    },
+    "CV002": {
+      "path": "references/CV002.json",
+      "status": "draft",
+      "schema_version": "compact-v1",
+      "pdf_sha256": "92882b625bfcb059a7ff68db63038c8439642faf05eb7d842ebe20a018673f37",
+      "notes": "references/CV002.notes.md"
+    },
+    "CV012": {
+      "path": "references/CV012.json",
+      "status": "draft",
+      "schema_version": "compact-v1",
+      "pdf_sha256": "a839590a2de03b330cc3b3c1e73910d66408cb759c2d9bad64b76ca7ffa0de09",
+      "notes": "references/CV012.notes.md"
+    }
+  },
+  "archived_runs": {
+    "20261029T101434_7476b507": {
+      "path": "archived_runs/20261029T101434_7476b507",
+      "title": "Compact schema with restored extraction rules",
+      "description": "Three-CV test after optional blank-text normalization and expanded extraction prompt. All three attempts completed; keep for timing and accuracy comparisons.",
+      "tags": [
+        "baseline",
+        "compact-schema",
+        "pdf-text",
+        "qwen3-8b"
+      ],
+      "document_ids": [
+        "CV001",
+        "CV002",
+        "CV012"
+      ]
+    }
+  }
 }

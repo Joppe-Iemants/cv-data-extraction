@@ -1,0 +1,278 @@
+{
+  "personal_information": {
+    "full_name": "Debarghya Das",
+    "emails": [
+      "deedy@fb.com",
+      "dd367@cornell.edu"
+    ],
+    "phones": [
+      "607.379.5733"
+    ],
+    "weblinks": [
+      {
+        "url": "debarghyadas.com"
+      },
+      {
+        "url": "fb.co/dd"
+      },
+      {
+        "url": "dd",
+        "platform": "Facebook"
+      },
+      {
+        "url": "deedydas",
+        "platform": "Github"
+      },
+      {
+        "url": "debarghyadas",
+        "platform": "LinkedIn"
+      },
+      {
+        "url": "DeedyDash007",
+        "platform": "YouTube"
+      },
+      {
+        "url": "@debarghya_das",
+        "platform": "Twitter"
+      },
+      {
+        "url": "Debarghya-Das",
+        "platform": "Quora"
+      }
+    ]
+  },
+  "work_experience": [
+    {
+      "employer": "FACEBOOK",
+      "role": "SOFTWARE ENGINEER",
+      "dates": {
+        "start": "Jan 2015",
+        "end": "Present"
+      },
+      "location": "New York, NY"
+    },
+    {
+      "employer": "COURSERA",
+      "role": "KPCB FELLOW + SOFTWARE ENGINEERING INTERN",
+      "dates": {
+        "start": "June 2014",
+        "end": "Sep 2014"
+      },
+      "location": "Mountain View, CA",
+      "details": [
+        "52 out of 2500 applicants chosen to be a KPCB Fellow 2014.",
+        "Led and shipped Yoda - the admin interface for the new Phoenix platform.",
+        "Full-stack developer - Wrote and reviewed code for JS using Backbone, Jade, Stylus and Require and Scala using Play"
+      ]
+    },
+    {
+      "employer": "GOOGLE",
+      "role": "SOFTWARE ENGINEERING INTERN",
+      "dates": {
+        "start": "May 2013",
+        "end": "Aug 2013"
+      },
+      "location": "Mountain View, CA",
+      "details": [
+        "Worked on the YouTube Captions team, in Javascript and Python to plan, to design and develop the full stack to add and edit Automatic Speech Recognition captions. In production.",
+        "Created a backbone.js-like framework for the Captions editor."
+      ]
+    },
+    {
+      "employer": "PHABRICATOR",
+      "role": "OPEN SOURCE CONTRIBUTOR & TEAM LEADER",
+      "dates": {
+        "start": "Jan 2013",
+        "end": "May 2013"
+      },
+      "location": "Palo Alto, CA & Ithaca, NY",
+      "details": [
+        "Phabricator is used daily by Facebook, Dropbox, Quora, Asana and more.",
+        "I created the Meme generator and more in PHP and Shell.",
+        "Led a team from MIT, Cornell, IC London and UHelsinki for the project."
+      ]
+    },
+    {
+      "employer": "CORNELL ROBOT LEARNING LAB",
+      "role": "RESEARCHER",
+      "dates": {
+        "start": "Jan 2014",
+        "end": "Jan 2015"
+      },
+      "location": "Ithaca, NY",
+      "details": [
+        "Worked with Ashesh Jain and Prof Ashutosh Saxena to create PlanIt, a tool which learns from large scale user preference feedback to plan robot trajectories in human environments."
+      ]
+    },
+    {
+      "employer": "CORNELL PHONETICS LAB",
+      "role": "HEAD UNDERGRADUATE RESEARCHER",
+      "dates": {
+        "start": "Mar 2012",
+        "end": "May 2013"
+      },
+      "location": "Ithaca, NY",
+      "details": [
+        "Led the development of QuickTongue, the first ever breakthrough tongue-controlled game with Prof Sam Tilsen to aid in Linguistics research."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Cornell University",
+      "qualification": "MEng in Computer Science",
+      "dates": {
+        "end": "Dec 2014"
+      },
+      "details": [
+        "Ithaca, NY"
+      ]
+    },
+    {
+      "institution": "Cornell University",
+      "qualification": "BS in Computer Science",
+      "dates": {
+        "end": "May 2014"
+      },
+      "details": [
+        "Ithaca, NY",
+        "College of Engineering",
+        "Magna Cum Laude",
+        "Cum. GPA: 3.83 / 4.0",
+        "Major GPA: 3.9 / 4.0"
+      ]
+    },
+    {
+      "institution": "La Martiniere for Boys",
+      "dates": {
+        "end": "May 2011"
+      },
+      "details": [
+        "Grad.",
+        "Kolkata, India"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Java",
+      "proficiency": {
+        "text": "Over 5000 lines"
+      }
+    },
+    {
+      "name": "Shell",
+      "proficiency": {
+        "text": "Over 5000 lines"
+      }
+    },
+    {
+      "name": "Python",
+      "proficiency": {
+        "text": "Over 5000 lines"
+      }
+    },
+    {
+      "name": "Javascript",
+      "proficiency": {
+        "text": "Over 5000 lines"
+      }
+    },
+    {
+      "name": "OCaml",
+      "proficiency": {
+        "text": "Over 5000 lines"
+      }
+    },
+    {
+      "name": "Matlab",
+      "proficiency": {
+        "text": "Over 5000 lines"
+      }
+    },
+    {
+      "name": "Rails",
+      "proficiency": {
+        "text": "Over 5000 lines"
+      }
+    },
+    {
+      "name": "LATEX",
+      "proficiency": {
+        "text": "Over 5000 lines"
+      }
+    },
+    {
+      "name": "C",
+      "proficiency": {
+        "text": "Over 1000 lines"
+      }
+    },
+    {
+      "name": "C++",
+      "proficiency": {
+        "text": "Over 1000 lines"
+      }
+    },
+    {
+      "name": "CSS",
+      "proficiency": {
+        "text": "Over 1000 lines"
+      }
+    },
+    {
+      "name": "PHP",
+      "proficiency": {
+        "text": "Over 1000 lines"
+      }
+    },
+    {
+      "name": "Assembly",
+      "proficiency": {
+        "text": "Over 1000 lines"
+      }
+    },
+    {
+      "name": "AS3",
+      "proficiency": {
+        "text": "Familiar"
+      }
+    },
+    {
+      "name": "iOS",
+      "proficiency": {
+        "text": "Familiar"
+      }
+    },
+    {
+      "name": "Android",
+      "proficiency": {
+        "text": "Familiar"
+      }
+    },
+    {
+      "name": "MySQL",
+      "proficiency": {
+        "text": "Familiar"
+      }
+    }
+  ],
+  "additional_sections": [
+    {
+      "heading": "COURSEWORK",
+      "text": "GRADUATE\nAdvanced Machine Learning\nOpen Source Software Engineering\nAdvanced Interactive Graphics\nCompilers + Practicum\nCloud Computing\nEvolutionary Computation\nDefending Computer Networks\nMachine Learning\nUNDERGRADUATE\nInformation Retrieval\nOperating Systems\nArtificial Intelligence + Practicum\nFunctional Programming\nComputer Graphics + Practicum\n(Research Asst. & Teaching Asst 2x)\nUnix Tools and Scripting"
+    },
+    {
+      "heading": "AWARDS",
+      "text": "2014\ntop 52/2500\nKPCB Engineering Fellow\n2014\n1st/50\nMicrosoft Coding Competition, Cornell\n2013\nNational\nJump Trading Challenge Finalist\n2013\n7th/120\nCS 3410 Cache Race Bot Tournament\n2012\n2nd/150\nCS 3110 Biannual Intra-Class Bot Tournament\n2011\nNational\nIndian National Mathematics Olympiad (INMO) Finalist"
+    },
+    {
+      "heading": "PUBLICATIONS",
+      "text": "[1] A. Jain, D. Das, and A. Saxena. Planit: A crowdsourcing approach for learning to\nplan paths from large scale preference feedback. Tech Report, ICRA, in press.\n[2] S. Tilsen, D. Das, and B. McKee. Real-time articulatory biofeedback with\nelectromagnetic articulography. Linguistics Vanguard, in press."
+    },
+    {
+      "heading": "Document metadata",
+      "text": "Last Updated on 21st January 2015"
+    }
+  ]
+}
