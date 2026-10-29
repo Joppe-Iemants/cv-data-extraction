@@ -1,7 +1,7 @@
 {
   "name": "pdf_text_llm",
   "split": "development",
-  "document_ids": null,
+  "document_ids": ["CV002", "CV012", "CV001"],
   "exclude_sources": ["vdab"],
   "repetitions": 1,
   "monitoring": {
