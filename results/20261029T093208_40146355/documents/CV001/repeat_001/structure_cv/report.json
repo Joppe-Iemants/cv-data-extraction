@@ -1,0 +1,17 @@
+{
+  "name": "structure_cv",
+  "method": "llm_structuring",
+  "execution_status": "error",
+  "outcome": null,
+  "metrics": {
+    "duration_seconds": 4.127288399999998,
+    "memory": {
+      "enabled": false
+    }
+  },
+  "error": {
+    "type": "StructuringError",
+    "message": "URLError: <urlopen error [WinError 10061] Kan geen verbinding maken omdat de doelcomputer de verbinding actief heeft geweigerd>"
+  },
+  "artifacts_file": "artifacts.json"
+}

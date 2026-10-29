@@ -42,6 +42,8 @@ python experiments/run_experiment.py --config experiments/configs/pdf_text_sorte
 OR
 ```cmd
 pipenv run experiment --config experiments/configs/pdf_text_sorted.json
+
+pipenv run experiment --config experiments/configs/pdf_text_llm.json
 ```
 
 ### 3) Evaluate the run
