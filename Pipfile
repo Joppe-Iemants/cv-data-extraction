@@ -10,6 +10,7 @@ numpy = "*"
 pymupdf = "*"
 pydantic = "*"
 psutil = "*"
+jinja2 = "*"
 
 [dev-packages]
 

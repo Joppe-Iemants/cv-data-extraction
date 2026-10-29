@@ -26,6 +26,8 @@ Placement:
 - Put languages in languages, separate from skills.
 - Use summary only for an existing introductory profile, not document metadata.
 - Preserve other sections in additional_sections using their heading and original text.
+- Create one additional_sections record per distinct section. Preserve each available heading; use null only when no heading is supplied.
+- Keep unrelated sections and columns separate. Do not merge publications, referees, awards, interests or life philosophy into one text block or into job details.
 - Do not duplicate information across fields or records.
 
 Dates, links and proficiency:

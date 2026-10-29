@@ -1,0 +1,111 @@
+{
+  "run_id": "20261029T101434_7476b507",
+  "attempt_count": 3,
+  "status_counts": {
+    "evaluated": 3
+  },
+  "evaluated_attempts": 3,
+  "provisional": true,
+  "scope": "structured_facts_only; free text requires manual review",
+  "overall": {
+    "correct": 126,
+    "missing": 62,
+    "incorrect": 18,
+    "unexpected": 26,
+    "expected_facts": 206,
+    "predicted_facts": 170,
+    "precision": 0.7411764705882353,
+    "recall": 0.6116504854368932,
+    "f1": 0.6702127659574468
+  },
+  "categories": {
+    "personal_information": {
+      "correct": 28,
+      "missing": 5,
+      "incorrect": 11,
+      "unexpected": 3,
+      "expected_facts": 44,
+      "predicted_facts": 42,
+      "precision": 0.6666666666666666,
+      "recall": 0.6363636363636364,
+      "f1": 0.6511627906976745
+    },
+    "work_experience": {
+      "correct": 49,
+      "missing": 10,
+      "incorrect": 0,
+      "unexpected": 0,
+      "expected_facts": 59,
+      "predicted_facts": 49,
+      "precision": 1.0,
+      "recall": 0.8305084745762712,
+      "f1": 0.9074074074074074
+    },
+    "projects": {
+      "correct": 4,
+      "missing": 1,
+      "incorrect": 0,
+      "unexpected": 2,
+      "expected_facts": 5,
+      "predicted_facts": 6,
+      "precision": 0.6666666666666666,
+      "recall": 0.8,
+      "f1": 0.7272727272727273
+    },
+    "education": {
+      "correct": 27,
+      "missing": 4,
+      "incorrect": 4,
+      "unexpected": 6,
+      "expected_facts": 35,
+      "predicted_facts": 37,
+      "precision": 0.7297297297297297,
+      "recall": 0.7714285714285715,
+      "f1": 0.75
+    },
+    "skills": {
+      "correct": 9,
+      "missing": 42,
+      "incorrect": 0,
+      "unexpected": 12,
+      "expected_facts": 51,
+      "predicted_facts": 21,
+      "precision": 0.42857142857142855,
+      "recall": 0.17647058823529413,
+      "f1": 0.25
+    },
+    "languages": {
+      "correct": 9,
+      "missing": 0,
+      "incorrect": 3,
+      "unexpected": 3,
+      "expected_facts": 12,
+      "predicted_facts": 15,
+      "precision": 0.6,
+      "recall": 0.75,
+      "f1": 0.6666666666666666
+    },
+    "certifications": {
+      "correct": 0,
+      "missing": 0,
+      "incorrect": 0,
+      "unexpected": 0,
+      "expected_facts": 0,
+      "predicted_facts": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null
+    },
+    "training": {
+      "correct": 0,
+      "missing": 0,
+      "incorrect": 0,
+      "unexpected": 0,
+      "expected_facts": 0,
+      "predicted_facts": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null
+    }
+  }
+}

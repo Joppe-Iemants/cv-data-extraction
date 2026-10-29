@@ -12,7 +12,7 @@ from ..schemas import RawCV
 from ..storage import save_json
 from .scoring import CATEGORIES, COUNTS, evaluate, metrics
 
-VERSION = "1.0"
+VERSION = "1.1"
 ROOT = Path(__file__).resolve().parents[3]
 
 def read_json(path):

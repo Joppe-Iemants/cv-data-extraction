@@ -2,7 +2,7 @@
 
 from difflib import SequenceMatcher
 
-from .normalization import normalized
+from .normalization import link_identity, normalized
 
 IDENTITIES = {
     "work_experience": ("employer", "role", "dates.start", "dates.end"),
@@ -16,6 +16,8 @@ IDENTITIES = {
 
 
 def get_value(record, path):
+    if path == "url" and isinstance(record, dict):
+        return link_identity(record)
     for key in path.split("."):
         record = record.get(key) if isinstance(record, dict) else None
     return record

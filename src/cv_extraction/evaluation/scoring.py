@@ -3,7 +3,7 @@
 from collections import Counter
 
 from .matching import align
-from .normalization import normalized
+from .normalization import link_identity, normalized
 
 CATEGORIES = (
     "personal_information", "work_experience", "projects", "education",
@@ -32,11 +32,11 @@ def evaluate(reference, prediction, provenance_policy="empty"):
     differences, warnings = [], []
     provenance, provenance_differences = Counter(), []
 
-    def record(left, right, path, counts, destination):
+    def record(left, right, path, counts, destination, equivalent=None):
         if left is None and right is None:
             return
         kind = ("unexpected" if left is None else "missing" if right is None else
-                "correct" if normalized(left, path.rsplit(".", 1)[-1]) == normalized(right, path.rsplit(".", 1)[-1]) else "incorrect")
+                "correct" if (equivalent if equivalent is not None else normalized(left, path.rsplit(".", 1)[-1]) == normalized(right, path.rsplit(".", 1)[-1])) else "incorrect")
         counts[kind] += 1
         if kind != "correct":
             destination.append({"path": path, "result": kind, "expected": left, "actual": right})
@@ -46,6 +46,10 @@ def evaluate(reference, prediction, provenance_policy="empty"):
             left, right = left or {}, right or {}
             for key in sorted(left.keys() | right.keys()):
                 if key in {"details", "summary", "additional_sections"}:
+                    continue
+                if key == "url":
+                    record(left.get(key), right.get(key), f"{path}.{key}", counts,
+                           differences, link_identity(left) == link_identity(right))
                     continue
                 if key == "source_pages":
                     a = [] if provenance_policy == "empty" else left.get(key, [])
