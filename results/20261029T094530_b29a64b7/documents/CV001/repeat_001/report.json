@@ -1,0 +1,57 @@
+{
+  "document_id": "CV001",
+  "repetition": 1,
+  "status": "error",
+  "metrics": {
+    "processing_seconds": 163.01962089999995
+  },
+  "stages": [
+    {
+      "name": "read_pdf",
+      "method": "pdf_text",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 0.03518829999995887,
+        "memory": {
+          "enabled": false
+        },
+        "page_count": 2,
+        "character_count": 5939,
+        "pages_without_text": []
+      },
+      "error": null
+    },
+    {
+      "name": "prepare_text",
+      "method": "join_page_text",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 9.999999974752427e-06,
+        "memory": {
+          "enabled": false
+        },
+        "character_count": 5941
+      },
+      "error": null
+    },
+    {
+      "name": "structure_cv",
+      "method": "llm_structuring",
+      "execution_status": "error",
+      "outcome": null,
+      "metrics": {
+        "duration_seconds": 162.98442260000002,
+        "memory": {
+          "enabled": false
+        }
+      },
+      "error": {
+        "type": "StructuringError",
+        "message": "ValidationError: 10 validation errors for RawCV\nwork_experience.0.dates.duration\n  String should have at least 1 character [type=string_too_short, input_value='', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_too_short\nwork_experience.1.dates.duration\n  String should have at least 1 character [type=string_too_short, input_value='', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_too_short\nprojects.0.dates.end\n  String should have at least 1 character [type=string_too_short, input_value='', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_too_short\nprojects.0.dates.duration\n  String should have at least 1 character [type=string_too_short, input_value='', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_too_short\nprojects.1.dates.end\n  String should have at least 1 character [type=string_too_short, input_value='', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_too_short\nprojects.1.dates.duration\n  String should have at least 1 character [type=string_too_short, input_value='', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_too_short\neducation.0.dates.duration\n  String should have at least 1 character [type=string_too_short, input_value='', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_too_short\neducation.1.dates.duration\n  String should have at least 1 character [type=string_too_short, input_value='', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_too_short\neducation.2.dates.duration\n  String should have at least 1 character [type=string_too_short, input_value='', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_too_short\nskills.1.proficiency.text\n  String should have at least 1 character [type=string_too_short, input_value='', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_too_short"
+      },
+      "artifacts_file": "artifacts.json"
+    }
+  ]
+}

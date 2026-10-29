@@ -1,0 +1,385 @@
+{
+  "run_id": "20261029T094530_b29a64b7",
+  "started_at_utc": "2026-10-29T09:45:30.516560+00:00",
+  "finished_at_utc": "2026-10-29T09:53:53.474194+00:00",
+  "document_count": 3,
+  "attempt_count": 3,
+  "documents": [
+    {
+      "document_id": "CV001",
+      "attempt_count": 1,
+      "outcome_counts": {
+        "error": 1
+      },
+      "stages": {
+        "prepare_text": {
+          "method": "join_page_text",
+          "execution_counts": {
+            "completed": 1
+          },
+          "outcome_counts": {
+            "success": 1
+          },
+          "completed_timing_seconds": {
+            "count": 1,
+            "minimum": 9.999999974752427e-06,
+            "median": 9.999999974752427e-06,
+            "maximum": 9.999999974752427e-06
+          },
+          "failed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "memory": {
+            "collection_counts": {
+              "disabled": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "boundary_only_measurements": 0
+          }
+        },
+        "read_pdf": {
+          "method": "pdf_text",
+          "execution_counts": {
+            "completed": 1
+          },
+          "outcome_counts": {
+            "success": 1
+          },
+          "completed_timing_seconds": {
+            "count": 1,
+            "minimum": 0.03518829999995887,
+            "median": 0.03518829999995887,
+            "maximum": 0.03518829999995887
+          },
+          "failed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "memory": {
+            "collection_counts": {
+              "disabled": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "boundary_only_measurements": 0
+          }
+        },
+        "structure_cv": {
+          "method": "llm_structuring",
+          "execution_counts": {
+            "error": 1
+          },
+          "outcome_counts": {},
+          "completed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "failed_timing_seconds": {
+            "count": 1,
+            "minimum": 162.98442260000002,
+            "median": 162.98442260000002,
+            "maximum": 162.98442260000002
+          },
+          "memory": {
+            "collection_counts": {
+              "disabled": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "boundary_only_measurements": 0
+          }
+        }
+      }
+    },
+    {
+      "document_id": "CV002",
+      "attempt_count": 1,
+      "outcome_counts": {
+        "completed": 1
+      },
+      "stages": {
+        "prepare_text": {
+          "method": "join_page_text",
+          "execution_counts": {
+            "completed": 1
+          },
+          "outcome_counts": {
+            "success": 1
+          },
+          "completed_timing_seconds": {
+            "count": 1,
+            "minimum": 1.319999995530452e-05,
+            "median": 1.319999995530452e-05,
+            "maximum": 1.319999995530452e-05
+          },
+          "failed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "memory": {
+            "collection_counts": {
+              "disabled": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "boundary_only_measurements": 0
+          }
+        },
+        "read_pdf": {
+          "method": "pdf_text",
+          "execution_counts": {
+            "completed": 1
+          },
+          "outcome_counts": {
+            "success": 1
+          },
+          "completed_timing_seconds": {
+            "count": 1,
+            "minimum": 0.018091199999958008,
+            "median": 0.018091199999958008,
+            "maximum": 0.018091199999958008
+          },
+          "failed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "memory": {
+            "collection_counts": {
+              "disabled": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "boundary_only_measurements": 0
+          }
+        },
+        "structure_cv": {
+          "method": "llm_structuring",
+          "execution_counts": {
+            "completed": 1
+          },
+          "outcome_counts": {
+            "success": 1
+          },
+          "completed_timing_seconds": {
+            "count": 1,
+            "minimum": 141.1422286,
+            "median": 141.1422286,
+            "maximum": 141.1422286
+          },
+          "failed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "memory": {
+            "collection_counts": {
+              "disabled": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "boundary_only_measurements": 0
+          }
+        }
+      }
+    },
+    {
+      "document_id": "CV012",
+      "attempt_count": 1,
+      "outcome_counts": {
+        "completed": 1
+      },
+      "stages": {
+        "prepare_text": {
+          "method": "join_page_text",
+          "execution_counts": {
+            "completed": 1
+          },
+          "outcome_counts": {
+            "success": 1
+          },
+          "completed_timing_seconds": {
+            "count": 1,
+            "minimum": 8.999999977277184e-06,
+            "median": 8.999999977277184e-06,
+            "maximum": 8.999999977277184e-06
+          },
+          "failed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "memory": {
+            "collection_counts": {
+              "disabled": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "boundary_only_measurements": 0
+          }
+        },
+        "read_pdf": {
+          "method": "pdf_text",
+          "execution_counts": {
+            "completed": 1
+          },
+          "outcome_counts": {
+            "success": 1
+          },
+          "completed_timing_seconds": {
+            "count": 1,
+            "minimum": 0.017346599999996215,
+            "median": 0.017346599999996215,
+            "maximum": 0.017346599999996215
+          },
+          "failed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "memory": {
+            "collection_counts": {
+              "disabled": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "boundary_only_measurements": 0
+          }
+        },
+        "structure_cv": {
+          "method": "llm_structuring",
+          "execution_counts": {
+            "completed": 1
+          },
+          "outcome_counts": {
+            "success": 1
+          },
+          "completed_timing_seconds": {
+            "count": 1,
+            "minimum": 197.4690535000001,
+            "median": 197.4690535000001,
+            "maximum": 197.4690535000001
+          },
+          "failed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "memory": {
+            "collection_counts": {
+              "disabled": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "boundary_only_measurements": 0
+          }
+        }
+      }
+    }
+  ]
+}
