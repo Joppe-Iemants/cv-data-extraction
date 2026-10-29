@@ -1,0 +1,1408 @@
+{
+  "personal_information": {
+    "source_pages": [
+      1
+    ],
+    "source_heading": "Welcome to RenderCV",
+    "source_text": " RenderCV reads a CV written in a YAML file, and generates a PDF with professional typography. Each section title is arbitrary. You can choose any of the 9 entry types for each section. Markdown syntax is supported everywhere. This is bold, italic, and link.",
+    "entry_id": null,
+    "additional_sections": [],
+    "full_name": "John Doe",
+    "preferred_name": "John Doe",
+    "given_names": "John",
+    "family_name": "Doe",
+    "professional_titles": [],
+    "headline": "Welcome to RenderCV",
+    "current_occupation": "Co-Founder & CTO",
+    "contacts": [
+      {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "type": "email",
+        "value": "john.doe@email.com",
+        "label": null,
+        "platform": null
+      },
+      {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "type": "phone",
+        "value": "rendercv.com",
+        "label": null,
+        "platform": null
+      },
+      {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "type": "messaging",
+        "value": "rendercv",
+        "label": null,
+        "platform": null
+      },
+      {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "type": "other",
+        "value": "rendercv",
+        "label": null,
+        "platform": null
+      }
+    ],
+    "locations": [
+      {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "raw_text": "San Francisco, CA",
+        "label": "San Francisco, CA",
+        "address": null,
+        "postal_code": null,
+        "city": null,
+        "region": null,
+        "country": null
+      }
+    ],
+    "weblinks": [
+      {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "url": "rendercv.com",
+        "label": "rendercv",
+        "type": "website",
+        "platform": null
+      }
+    ],
+    "date_of_birth": null,
+    "place_of_birth": null,
+    "nationalities": [],
+    "pronouns": null,
+    "gender": null,
+    "marital_status": null
+  },
+  "profiles": [
+    {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "entry_id": null,
+      "additional_sections": [],
+      "type": null,
+      "heading": null,
+      "text": "RenderCV reads a CV written in a YAML file, and generates a PDF with professional typography. Each section title is arbitrary. You can choose any of the 9 entry types for each section. Markdown syntax is supported everywhere. This is bold, italic, and link."
+    }
+  ],
+  "work_experience": [
+    {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "entry_id": null,
+      "additional_sections": [],
+      "organization": {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "entry_id": null,
+        "additional_sections": [],
+        "name": "Nexus AI",
+        "department": null,
+        "industry": null,
+        "description": null,
+        "locations": [
+          {
+            "source_pages": [],
+            "source_heading": null,
+            "source_text": null,
+            "raw_text": "San Francisco, CA",
+            "label": "San Francisco, CA",
+            "address": null,
+            "postal_code": null,
+            "city": null,
+            "region": null,
+            "country": null
+          }
+        ],
+        "weblinks": []
+      },
+      "client": null,
+      "dates": {
+        "raw_text": null,
+        "start": "June 2023",
+        "end": "present",
+        "is_current": true,
+        "duration": null
+      },
+      "employment_type": "Full-time",
+      "locations": [
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "raw_text": "San Francisco, CA",
+          "label": "San Francisco, CA",
+          "address": null,
+          "postal_code": null,
+          "city": null,
+          "region": null,
+          "country": null
+        }
+      ],
+      "description": "Co-Founder & CTO",
+      "positions": [],
+      "responsibilities": [
+        "Built foundation model infrastructure serving 2M+ monthly API requests with 99.97% uptime",
+        "Raised $18M Series A led by Sequoia Capital, with participation from a16z and Founders Fund",
+        "Scaled engineering team from 3 to 28 across ML research, platform, and applied AI divisions",
+        "Developed proprietary inference optimization reducing latency by 73% compared to baseline"
+      ],
+      "achievements": [],
+      "skills": [],
+      "weblinks": []
+    },
+    {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "entry_id": null,
+      "additional_sections": [],
+      "organization": {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "entry_id": null,
+        "additional_sections": [],
+        "name": "NVIDIA Research",
+        "department": null,
+        "industry": null,
+        "description": null,
+        "locations": [
+          {
+            "source_pages": [],
+            "source_heading": null,
+            "source_text": null,
+            "raw_text": "Santa Clara, CA",
+            "label": "Santa Clara, CA",
+            "address": null,
+            "postal_code": null,
+            "city": null,
+            "region": null,
+            "country": null
+          }
+        ],
+        "weblinks": []
+      },
+      "client": null,
+      "dates": {
+        "raw_text": null,
+        "start": "May 2022",
+        "end": "Aug 2022",
+        "is_current": null,
+        "duration": null
+      },
+      "employment_type": "Internship",
+      "locations": [
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "raw_text": "Santa Clara, CA",
+          "label": "Santa Clara, CA",
+          "address": null,
+          "postal_code": null,
+          "city": null,
+          "region": null,
+          "country": null
+        }
+      ],
+      "description": "Research Intern",
+      "positions": [],
+      "responsibilities": [
+        "Designed sparse attention mechanism reducing transformer memory footprint by 4.2x",
+        "Co-authored paper accepted at NeurIPS 2022 (spotlight presentation, top 5% of submissions)"
+      ],
+      "achievements": [],
+      "skills": [],
+      "weblinks": []
+    },
+    {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "entry_id": null,
+      "additional_sections": [],
+      "organization": {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "entry_id": null,
+        "additional_sections": [],
+        "name": "Google DeepMind",
+        "department": null,
+        "industry": null,
+        "description": null,
+        "locations": [
+          {
+            "source_pages": [],
+            "source_heading": null,
+            "source_text": null,
+            "raw_text": "London, UK",
+            "label": "London, UK",
+            "address": null,
+            "postal_code": null,
+            "city": null,
+            "region": null,
+            "country": null
+          }
+        ],
+        "weblinks": []
+      },
+      "client": null,
+      "dates": {
+        "raw_text": null,
+        "start": "May 2021",
+        "end": "Aug 2021",
+        "is_current": null,
+        "duration": null
+      },
+      "employment_type": "Internship",
+      "locations": [
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "raw_text": "London, UK",
+          "label": "London, UK",
+          "address": null,
+          "postal_code": null,
+          "city": null,
+          "region": null,
+          "country": null
+        }
+      ],
+      "description": "Research Intern",
+      "positions": [],
+      "responsibilities": [
+        "Developed reinforcement learning algorithms for multi-agent coordination",
+        "Published research at top-tier venues with significant academic impact"
+      ],
+      "achievements": [
+        "ICML 2022 main conference paper, cited 340+ times within two years",
+        "NeurIPS 2022 workshop paper on emergent communication protocols",
+        "Invited journal extension in JMLR (2023)"
+      ],
+      "skills": [],
+      "weblinks": []
+    },
+    {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "entry_id": null,
+      "additional_sections": [],
+      "organization": {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "entry_id": null,
+        "additional_sections": [],
+        "name": "Apple ML Research",
+        "department": null,
+        "industry": null,
+        "description": null,
+        "locations": [
+          {
+            "source_pages": [],
+            "source_heading": null,
+            "source_text": null,
+            "raw_text": "Cupertino, CA",
+            "label": "Cupertino, CA",
+            "address": null,
+            "postal_code": null,
+            "city": null,
+            "region": null,
+            "country": null
+          }
+        ],
+        "weblinks": []
+      },
+      "client": null,
+      "dates": {
+        "raw_text": null,
+        "start": "May 2020",
+        "end": "Aug 2020",
+        "is_current": null,
+        "duration": null
+      },
+      "employment_type": "Internship",
+      "locations": [
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "raw_text": "Cupertino, CA",
+          "label": "Cupertino, CA",
+          "address": null,
+          "postal_code": null,
+          "city": null,
+          "region": null,
+          "country": null
+        }
+      ],
+      "description": "Research Intern",
+      "positions": [],
+      "responsibilities": [
+        "Created on-device neural network compression pipeline deployed across 50M+ devices",
+        "Filed 2 patents on efficient model quantization techniques for edge inference"
+      ],
+      "achievements": [],
+      "skills": [],
+      "weblinks": []
+    },
+    {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "entry_id": null,
+      "additional_sections": [],
+      "organization": {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "entry_id": null,
+        "additional_sections": [],
+        "name": "Microsoft Research",
+        "department": null,
+        "industry": null,
+        "description": null,
+        "locations": [
+          {
+            "source_pages": [],
+            "source_heading": null,
+            "source_text": null,
+            "raw_text": "Redmond, WA",
+            "label": "Redmond, WA",
+            "address": null,
+            "postal_code": null,
+            "city": null,
+            "region": null,
+            "country": null
+          }
+        ],
+        "weblinks": []
+      },
+      "client": null,
+      "dates": {
+        "raw_text": null,
+        "start": "May 2019",
+        "end": "Aug 2019",
+        "is_current": null,
+        "duration": null
+      },
+      "employment_type": "Internship",
+      "locations": [
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "raw_text": "Redmond, WA",
+          "label": "Redmond, WA",
+          "address": null,
+          "postal_code": null,
+          "city": null,
+          "region": null,
+          "country": null
+        }
+      ],
+      "description": "Research Intern",
+      "positions": [],
+      "responsibilities": [
+        "Implemented novel self-supervised learning framework for low-resource language modeling",
+        "Research integrated into Azure Cognitive Services, reducing training data requirements by 60%"
+      ],
+      "achievements": [],
+      "skills": [],
+      "weblinks": []
+    }
+  ],
+  "projects": [
+    {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "entry_id": null,
+      "additional_sections": [],
+      "name": "FlashInfer",
+      "type": "Open-source library",
+      "role": "Developer",
+      "organization": {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "entry_id": null,
+        "additional_sections": [],
+        "name": "Nexus AI",
+        "department": null,
+        "industry": null,
+        "description": null,
+        "locations": [],
+        "weblinks": []
+      },
+      "client": null,
+      "dates": {
+        "raw_text": null,
+        "start": "Jan 2023",
+        "end": "present",
+        "is_current": true,
+        "duration": null
+      },
+      "locations": [
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "raw_text": "San Francisco, CA",
+          "label": "San Francisco, CA",
+          "address": null,
+          "postal_code": null,
+          "city": null,
+          "region": null,
+          "country": null
+        }
+      ],
+      "description": "High-performance LLM inference kernels",
+      "objectives": [],
+      "contributions": [
+        "Achieved 2.8x speedup over baseline attention implementations on A100 GPUs",
+        "Adopted by 3 major AI labs, 8,500+ GitHub stars, 200+ contributors"
+      ],
+      "achievements": [],
+      "skills": [],
+      "weblinks": [],
+      "related_experience_ids": [],
+      "related_position_ids": []
+    },
+    {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "entry_id": null,
+      "additional_sections": [],
+      "name": "NeuralPrune",
+      "type": "Automated neural network pruning toolkit",
+      "role": "Developer",
+      "organization": {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "entry_id": null,
+        "additional_sections": [],
+        "name": "Nexus AI",
+        "department": null,
+        "industry": null,
+        "description": null,
+        "locations": [],
+        "weblinks": []
+      },
+      "client": null,
+      "dates": {
+        "raw_text": null,
+        "start": "Jan 2021",
+        "end": "present",
+        "is_current": null,
+        "duration": null
+      },
+      "locations": [
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "raw_text": "San Francisco, CA",
+          "label": "San Francisco, CA",
+          "address": null,
+          "postal_code": null,
+          "city": null,
+          "region": null,
+          "country": null
+        }
+      ],
+      "description": "Differentiable masks",
+      "objectives": [],
+      "contributions": [
+        "Reduced model size by 90% with less than 1% accuracy degradation on ImageNet",
+        "Featured in PyTorch ecosystem tools, 4,200+ GitHub stars"
+      ],
+      "achievements": [],
+      "skills": [],
+      "weblinks": [],
+      "related_experience_ids": [],
+      "related_position_ids": []
+    }
+  ],
+  "education": [
+    {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "entry_id": null,
+      "additional_sections": [],
+      "institution": {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "entry_id": null,
+        "additional_sections": [],
+        "name": "Princeton University",
+        "department": null,
+        "industry": null,
+        "description": null,
+        "locations": [
+          {
+            "source_pages": [],
+            "source_heading": null,
+            "source_text": null,
+            "raw_text": "Princeton, NJ",
+            "label": "Princeton, NJ",
+            "address": null,
+            "postal_code": null,
+            "city": null,
+            "region": null,
+            "country": null
+          }
+        ],
+        "weblinks": []
+      },
+      "degree": "PhD",
+      "qualification_level": null,
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "specializations": [],
+      "dates": {
+        "raw_text": null,
+        "start": "Sept 2018",
+        "end": "May 2023",
+        "is_current": null,
+        "duration": null
+      },
+      "status": "Completed",
+      "study_mode": null,
+      "locations": [],
+      "description": "Thesis: Efficient Neural Architecture Search for Resource-Constrained Deployment",
+      "coursework": [],
+      "grade": null,
+      "distinctions": [],
+      "theses": [],
+      "skills": [],
+      "weblinks": []
+    },
+    {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "entry_id": null,
+      "additional_sections": [],
+      "institution": {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "entry_id": null,
+        "additional_sections": [],
+        "name": "Boğaziçi University",
+        "department": null,
+        "industry": null,
+        "description": null,
+        "locations": [
+          {
+            "source_pages": [],
+            "source_heading": null,
+            "source_text": null,
+            "raw_text": "Istanbul, Türkiye",
+            "label": "Istanbul, Türkiye",
+            "address": null,
+            "postal_code": null,
+            "city": null,
+            "region": null,
+            "country": null
+          }
+        ],
+        "weblinks": []
+      },
+      "degree": "BS",
+      "qualification_level": null,
+      "fields_of_study": [
+        "Computer Engineering"
+      ],
+      "specializations": [],
+      "dates": {
+        "raw_text": null,
+        "start": "Sept 2014",
+        "end": "June 2018",
+        "is_current": null,
+        "duration": null
+      },
+      "status": "Completed",
+      "study_mode": null,
+      "locations": [],
+      "description": "GPA: 3.97/4.00, Valedictorian",
+      "coursework": [],
+      "grade": null,
+      "distinctions": [],
+      "theses": [],
+      "skills": [],
+      "weblinks": []
+    }
+  ],
+  "skills": [
+    {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "entry_id": null,
+      "additional_sections": [],
+      "name": "Languages",
+      "category": "Programming",
+      "proficiency": {
+        "type": "text",
+        "raw_value": "Python, C++, CUDA, Rust, Julia",
+        "value": null,
+        "minimum": null,
+        "maximum": null,
+        "scale_description": null,
+        "cefr_level": null
+      },
+      "experience_duration": null,
+      "last_used": null,
+      "description": null
+    },
+    {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "entry_id": null,
+      "additional_sections": [],
+      "name": "ML Frameworks",
+      "category": "Machine Learning",
+      "proficiency": {
+        "type": "text",
+        "raw_value": "PyTorch, JAX, TensorFlow, Triton, ONNX",
+        "value": null,
+        "minimum": null,
+        "maximum": null,
+        "scale_description": null,
+        "cefr_level": null
+      },
+      "experience_duration": null,
+      "last_used": null,
+      "description": null
+    },
+    {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "entry_id": null,
+      "additional_sections": [],
+      "name": "Infrastructure",
+      "category": "Systems",
+      "proficiency": {
+        "type": "text",
+        "raw_value": "Kubernetes, Ray, distributed training, AWS, GCP",
+        "value": null,
+        "minimum": null,
+        "maximum": null,
+        "scale_description": null,
+        "cefr_level": null
+      },
+      "experience_duration": null,
+      "last_used": null,
+      "description": null
+    },
+    {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "entry_id": null,
+      "additional_sections": [],
+      "name": "Research Areas",
+      "category": "Research",
+      "proficiency": {
+        "type": "text",
+        "raw_value": "Neural architecture search, model compression, efficient inference, multi-agent RL",
+        "value": null,
+        "minimum": null,
+        "maximum": null,
+        "scale_description": null,
+        "cefr_level": null
+      },
+      "experience_duration": null,
+      "last_used": null,
+      "description": null
+    }
+  ],
+  "languages": [
+    {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "entry_id": null,
+      "additional_sections": [],
+      "name": "English",
+      "is_native": true,
+      "overall": {
+        "type": "text",
+        "raw_value": "Native",
+        "value": null,
+        "minimum": null,
+        "maximum": null,
+        "scale_description": null,
+        "cefr_level": null
+      },
+      "understanding": {
+        "type": "text",
+        "raw_value": "Native",
+        "value": null,
+        "minimum": null,
+        "maximum": null,
+        "scale_description": null,
+        "cefr_level": null
+      },
+      "listening": {
+        "type": "text",
+        "raw_value": "Native",
+        "value": null,
+        "minimum": null,
+        "maximum": null,
+        "scale_description": null,
+        "cefr_level": null
+      },
+      "reading": {
+        "type": "text",
+        "raw_value": "Native",
+        "value": null,
+        "minimum": null,
+        "maximum": null,
+        "scale_description": null,
+        "cefr_level": null
+      },
+      "speaking": {
+        "type": "text",
+        "raw_value": "Native",
+        "value": null,
+        "minimum": null,
+        "maximum": null,
+        "scale_description": null,
+        "cefr_level": null
+      },
+      "spoken_interaction": {
+        "type": "text",
+        "raw_value": "Native",
+        "value": null,
+        "minimum": null,
+        "maximum": null,
+        "scale_description": null,
+        "cefr_level": null
+      },
+      "spoken_production": {
+        "type": "text",
+        "raw_value": "Native",
+        "value": null,
+        "minimum": null,
+        "maximum": null,
+        "scale_description": null,
+        "cefr_level": null
+      },
+      "writing": {
+        "type": "text",
+        "raw_value": "Native",
+        "value": null,
+        "minimum": null,
+        "maximum": null,
+        "scale_description": null,
+        "cefr_level": null
+      },
+      "qualifications": [],
+      "description": null
+    }
+  ],
+  "certifications": [],
+  "training": [],
+  "awards": [
+    {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "entry_id": null,
+      "additional_sections": [],
+      "name": "Sparse Mixture-of-Experts at Scale: Efficient Routing for Trillion-Parameter Models",
+      "issuer": {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "entry_id": null,
+        "additional_sections": [],
+        "name": "NeurIPS 2023",
+        "department": null,
+        "industry": null,
+        "description": null,
+        "locations": [],
+        "weblinks": []
+      },
+      "date": "July 2023",
+      "category": "Research",
+      "description": "John Doe, Sarah Williams, David Park",
+      "amount": null,
+      "weblinks": [
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "url": "10.1234/neurips.2023.1234",
+          "label": "10.1234/neurips.2023.1234",
+          "type": "publication",
+          "platform": null
+        }
+      ]
+    },
+    {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "entry_id": null,
+      "additional_sections": [],
+      "name": "Neural Architecture Search via Differentiable Pruning",
+      "issuer": {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "entry_id": null,
+        "additional_sections": [],
+        "name": "NeurIPS 2022",
+        "department": null,
+        "industry": null,
+        "description": null,
+        "locations": [],
+        "weblinks": []
+      },
+      "date": "Dec 2022",
+      "category": "Research",
+      "description": "James Liu, John Doe",
+      "amount": null,
+      "weblinks": [
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "url": "10.1234/neurips.2022.5678",
+          "label": "10.1234/neurips.2022.5678",
+          "type": "publication",
+          "platform": null
+        }
+      ]
+    },
+    {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "entry_id": null,
+      "additional_sections": [],
+      "name": "Multi-Agent Reinforcement Learning with Emergent Communication",
+      "issuer": {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "entry_id": null,
+        "additional_sections": [],
+        "name": "ICML 2022",
+        "department": null,
+        "industry": null,
+        "description": null,
+        "locations": [],
+        "weblinks": []
+      },
+      "date": "July 2022",
+      "category": "Research",
+      "description": "Maria Garcia, John Doe, Tom Anderson",
+      "amount": null,
+      "weblinks": [
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "url": "10.1234/icml.2022.9012",
+          "label": "10.1234/icml.2022.9012",
+          "type": "publication",
+          "platform": null
+        }
+      ]
+    },
+    {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "entry_id": null,
+      "additional_sections": [],
+      "name": "On-Device Model Compression via Learned Quantization",
+      "issuer": {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "entry_id": null,
+        "additional_sections": [],
+        "name": "ICLR 2021",
+        "department": null,
+        "industry": null,
+        "description": null,
+        "locations": [],
+        "weblinks": []
+      },
+      "date": "May 2021",
+      "category": "Research",
+      "description": "John Doe, Kevin Wu",
+      "amount": null,
+      "weblinks": [
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "url": "10.1234/iclr.2021.3456",
+          "label": "10.1234/iclr.2021.3456",
+          "type": "publication",
+          "platform": null
+        }
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "entry_id": null,
+      "additional_sections": [],
+      "title": "Sparse Mixture-of-Experts at Scale: Efficient Routing for Trillion-Parameter Models",
+      "type": "Research Paper",
+      "authors": [
+        "John Doe",
+        "Sarah Williams",
+        "David Park"
+      ],
+      "venue": "NeurIPS 2023",
+      "publisher": {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "entry_id": null,
+        "additional_sections": [],
+        "name": "NeurIPS 2023",
+        "department": null,
+        "industry": null,
+        "description": null,
+        "locations": [],
+        "weblinks": []
+      },
+      "date": "July 2023",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "status": "Published",
+      "identifiers": [
+        {
+          "type": "DOI",
+          "value": "10.1234/neurips.2023.1234"
+        }
+      ],
+      "description": null,
+      "weblinks": [
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "url": "10.1234/neurips.2023.1234",
+          "label": "10.1234/neurips.2023.1234",
+          "type": "publication",
+          "platform": null
+        }
+      ]
+    },
+    {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "entry_id": null,
+      "additional_sections": [],
+      "title": "Neural Architecture Search via Differentiable Pruning",
+      "type": "Research Paper",
+      "authors": [
+        "James Liu",
+        "John Doe"
+      ],
+      "venue": "NeurIPS 2022",
+      "publisher": {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "entry_id": null,
+        "additional_sections": [],
+        "name": "NeurIPS 2022",
+        "department": null,
+        "industry": null,
+        "description": null,
+        "locations": [],
+        "weblinks": []
+      },
+      "date": "Dec 2022",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "status": "Published",
+      "identifiers": [
+        {
+          "type": "DOI",
+          "value": "10.1234/neurips.2022.5678"
+        }
+      ],
+      "description": null,
+      "weblinks": [
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "url": "10.1234/neurips.2022.5678",
+          "label": "10.1234/neurips.2022.5678",
+          "type": "publication",
+          "platform": null
+        }
+      ]
+    },
+    {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "entry_id": null,
+      "additional_sections": [],
+      "title": "Multi-Agent Reinforcement Learning with Emergent Communication",
+      "type": "Research Paper",
+      "authors": [
+        "Maria Garcia",
+        "John Doe",
+        "Tom Anderson"
+      ],
+      "venue": "ICML 2022",
+      "publisher": {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "entry_id": null,
+        "additional_sections": [],
+        "name": "ICML 2022",
+        "department": null,
+        "industry": null,
+        "description": null,
+        "locations": [],
+        "weblinks": []
+      },
+      "date": "July 2022",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "status": "Published",
+      "identifiers": [
+        {
+          "type": "DOI",
+          "value": "10.1234/icml.2022.9012"
+        }
+      ],
+      "description": null,
+      "weblinks": [
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "url": "10.1234/icml.2022.9012",
+          "label": "10.1234/icml.2022.9012",
+          "type": "publication",
+          "platform": null
+        }
+      ]
+    },
+    {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "entry_id": null,
+      "additional_sections": [],
+      "title": "On-Device Model Compression via Learned Quantization",
+      "type": "Research Paper",
+      "authors": [
+        "John Doe",
+        "Kevin Wu"
+      ],
+      "venue": "ICLR 2021",
+      "publisher": {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "entry_id": null,
+        "additional_sections": [],
+        "name": "ICLR 2021",
+        "department": null,
+        "industry": null,
+        "description": null,
+        "locations": [],
+        "weblinks": []
+      },
+      "date": "May 2021",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "status": "Published",
+      "identifiers": [
+        {
+          "type": "DOI",
+          "value": "10.1234/iclr.2021.3456"
+        }
+      ],
+      "description": null,
+      "weblinks": [
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "url": "10.1234/iclr.2021.3456",
+          "label": "10.1234/iclr.2021.3456",
+          "type": "publication",
+          "platform": null
+        }
+      ]
+    }
+  ],
+  "presentations": [
+    {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "entry_id": null,
+      "additional_sections": [],
+      "title": "Scaling Laws for Efficient Inference",
+      "event": "Stanford HAI Symposium",
+      "organizer": {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "entry_id": null,
+        "additional_sections": [],
+        "name": "Stanford HAI Symposium",
+        "department": null,
+        "industry": null,
+        "description": null,
+        "locations": [],
+        "weblinks": []
+      },
+      "role": "Speaker",
+      "date": "2024",
+      "locations": [
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "raw_text": "Stanford, CA",
+          "label": "Stanford, CA",
+          "address": null,
+          "postal_code": null,
+          "city": null,
+          "region": null,
+          "country": null
+        }
+      ],
+      "co_presenters": [],
+      "description": null,
+      "weblinks": []
+    },
+    {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "entry_id": null,
+      "additional_sections": [],
+      "title": "Building AI Infrastructure for the Next Decade",
+      "event": "TechCrunch Disrupt",
+      "organizer": {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "entry_id": null,
+        "additional_sections": [],
+        "name": "TechCrunch Disrupt",
+        "department": null,
+        "industry": null,
+        "description": null,
+        "locations": [],
+        "weblinks": []
+      },
+      "role": "Speaker",
+      "date": "2024",
+      "locations": [
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "raw_text": "San Francisco, CA",
+          "label": "San Francisco, CA",
+          "address": null,
+          "postal_code": null,
+          "city": null,
+          "region": null,
+          "country": null
+        }
+      ],
+      "co_presenters": [],
+      "description": null,
+      "weblinks": []
+    },
+    {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "entry_id": null,
+      "additional_sections": [],
+      "title": "From Research to Production: Lessons in ML Systems",
+      "event": "NeurIPS Workshop",
+      "organizer": {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "entry_id": null,
+        "additional_sections": [],
+        "name": "NeurIPS Workshop",
+        "department": null,
+        "industry": null,
+        "description": null,
+        "locations": [],
+        "weblinks": []
+      },
+      "role": "Speaker",
+      "date": "2023",
+      "locations": [
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "raw_text": "New Orleans, LA",
+          "label": "New Orleans, LA",
+          "address": null,
+          "postal_code": null,
+          "city": null,
+          "region": null,
+          "country": null
+        }
+      ],
+      "co_presenters": [],
+      "description": null,
+      "weblinks": []
+    },
+    {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "entry_id": null,
+      "additional_sections": [],
+      "title": "Efficient Deep Learning: A Practitioner’s Perspective",
+      "event": "Google Tech Talk",
+      "organizer": {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "entry_id": null,
+        "additional_sections": [],
+        "name": "Google Tech Talk",
+        "department": null,
+        "industry": null,
+        "description": null,
+        "locations": [],
+        "weblinks": []
+      },
+      "role": "Speaker",
+      "date": "2022",
+      "locations": [
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "raw_text": "Mountain View, CA",
+          "label": "Mountain View, CA",
+          "address": null,
+          "postal_code": null,
+          "city": null,
+          "region": null,
+          "country": null
+        }
+      ],
+      "co_presenters": [],
+      "description": null,
+      "weblinks": []
+    }
+  ],
+  "volunteering": [],
+  "military_service": [],
+  "memberships": [],
+  "interests": [],
+  "references": [],
+  "employment_preferences": {
+    "source_pages": [],
+    "source_heading": null,
+    "source_text": null,
+    "entry_id": null,
+    "additional_sections": [],
+    "desired_roles": [],
+    "desired_locations": [
+      {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "raw_text": "San Francisco, CA",
+        "label": "San Francisco, CA",
+        "address": null,
+        "postal_code": null,
+        "city": null,
+        "region": null,
+        "country": null
+      }
+    ],
+    "employment_types": [],
+    "work_arrangements": [],
+    "willingness_to_relocate": null,
+    "willingness_to_travel": null,
+    "desired_compensation": null,
+    "availability": {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "entry_id": null,
+      "additional_sections": [],
+      "raw_text": null,
+      "start_date": "present",
+      "notice_period": null,
+      "hours": null
+    },
+    "work_authorizations": [],
+    "driving_licenses": [],
+    "security_clearances": []
+  },
+  "weblinks": [
+    {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "url": "rendercv.com",
+      "label": "rendercv",
+      "type": "website",
+      "platform": null
+    }
+  ],
+  "declarations": [],
+  "additional_sections": []
+}

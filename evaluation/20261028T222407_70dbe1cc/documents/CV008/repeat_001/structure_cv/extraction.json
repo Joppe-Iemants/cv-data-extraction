@@ -1,0 +1,2117 @@
+{
+  "personal_information": {
+    "source_pages": [],
+    "source_heading": null,
+    "source_text": null,
+    "entry_id": null,
+    "additional_sections": [],
+    "full_name": "ILYA RUMYANTSEV",
+    "preferred_name": null,
+    "given_names": null,
+    "family_name": null,
+    "professional_titles": [],
+    "headline": "Freelance Automation Consultant and Developer",
+    "current_occupation": "Freelance Automation Consultant and Developer",
+    "contacts": [
+      {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "type": "email",
+        "value": "contact@example.com",
+        "label": null,
+        "platform": null
+      },
+      {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "type": "phone",
+        "value": "+49 178 910 11 12 13",
+        "label": null,
+        "platform": null
+      }
+    ],
+    "locations": [
+      {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "raw_text": "Example St. 1, 12345 Somewhere",
+        "label": null,
+        "address": null,
+        "postal_code": null,
+        "city": null,
+        "region": null,
+        "country": null
+      }
+    ],
+    "weblinks": [],
+    "date_of_birth": null,
+    "place_of_birth": null,
+    "nationalities": [],
+    "pronouns": null,
+    "gender": null,
+    "marital_status": null
+  },
+  "profiles": [
+    {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "entry_id": null,
+      "additional_sections": [],
+      "type": null,
+      "heading": null,
+      "text": "IT Consultant with strong theoretical skills and a passion for OpenSource software."
+    },
+    {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "entry_id": null,
+      "additional_sections": [],
+      "type": null,
+      "heading": null,
+      "text": "DevOps Engineer, specialized both in automation and in custom application development, experienced with large projects and heterogeneous infrastructures. The link between development and operations, comfortable in both."
+    },
+    {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "entry_id": null,
+      "additional_sections": [],
+      "type": null,
+      "heading": null,
+      "text": "Customer-oriented and structured method of working, focused on quality and maintainability. Highly motivated to work in a team, both comfortable in big companies as in small teams."
+    }
+  ],
+  "work_experience": [
+    {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "entry_id": null,
+      "additional_sections": [],
+      "organization": {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "entry_id": null,
+        "additional_sections": [],
+        "name": "Research and Development",
+        "department": null,
+        "industry": null,
+        "description": null,
+        "locations": [],
+        "weblinks": []
+      },
+      "client": null,
+      "dates": {
+        "raw_text": null,
+        "start": "Sep 15",
+        "end": "NOW",
+        "is_current": null,
+        "duration": null
+      },
+      "employment_type": "FullStack",
+      "locations": [
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "raw_text": "Example St. 1, 12345 Somewhere",
+          "label": null,
+          "address": null,
+          "postal_code": null,
+          "city": null,
+          "region": null,
+          "country": null
+        }
+      ],
+      "description": "DevOps/FullStack developer",
+      "positions": [
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "entry_id": null,
+          "additional_sections": [],
+          "title": "DevOps/FullStack developer",
+          "department": null,
+          "employment_type": null,
+          "dates": null,
+          "locations": [],
+          "work_arrangement": null,
+          "description": null,
+          "responsibilities": [
+            "Research and Development"
+          ],
+          "achievements": [
+            "A web based tool for an intuitive role assignment and administration",
+            "Online overview of company structures, projects, etc",
+            "Tools for role review, reporting and troubleshooting"
+          ],
+          "skills": [
+            {
+              "source_pages": [],
+              "source_heading": null,
+              "source_text": null,
+              "entry_id": null,
+              "additional_sections": [],
+              "name": "Python",
+              "category": null,
+              "proficiency": {
+                "type": "numeric",
+                "raw_value": null,
+                "value": 5.0,
+                "minimum": null,
+                "maximum": null,
+                "scale_description": null,
+                "cefr_level": null
+              },
+              "experience_duration": null,
+              "last_used": null,
+              "description": null
+            },
+            {
+              "source_pages": [],
+              "source_heading": null,
+              "source_text": null,
+              "entry_id": null,
+              "additional_sections": [],
+              "name": "Ansible",
+              "category": null,
+              "proficiency": {
+                "type": "numeric",
+                "raw_value": null,
+                "value": 5.0,
+                "minimum": null,
+                "maximum": null,
+                "scale_description": null,
+                "cefr_level": null
+              },
+              "experience_duration": null,
+              "last_used": null,
+              "description": null
+            },
+            {
+              "source_pages": [],
+              "source_heading": null,
+              "source_text": null,
+              "entry_id": null,
+              "additional_sections": [],
+              "name": "Linux",
+              "category": null,
+              "proficiency": {
+                "type": "numeric",
+                "raw_value": null,
+                "value": 5.0,
+                "minimum": null,
+                "maximum": null,
+                "scale_description": null,
+                "cefr_level": null
+              },
+              "experience_duration": null,
+              "last_used": null,
+              "description": null
+            },
+            {
+              "source_pages": [],
+              "source_heading": null,
+              "source_text": null,
+              "entry_id": null,
+              "additional_sections": [],
+              "name": "Open Source Tools",
+              "category": null,
+              "proficiency": {
+                "type": "numeric",
+                "raw_value": null,
+                "value": 5.0,
+                "minimum": null,
+                "maximum": null,
+                "scale_description": null,
+                "cefr_level": null
+              },
+              "experience_duration": null,
+              "last_used": null,
+              "description": null
+            },
+            {
+              "source_pages": [],
+              "source_heading": null,
+              "source_text": null,
+              "entry_id": null,
+              "additional_sections": [],
+              "name": "Django",
+              "category": null,
+              "proficiency": {
+                "type": "numeric",
+                "raw_value": null,
+                "value": 5.0,
+                "minimum": null,
+                "maximum": null,
+                "scale_description": null,
+                "cefr_level": null
+              },
+              "experience_duration": null,
+              "last_used": null,
+              "description": null
+            },
+            {
+              "source_pages": [],
+              "source_heading": null,
+              "source_text": null,
+              "entry_id": null,
+              "additional_sections": [],
+              "name": "Html/CSS",
+              "category": null,
+              "proficiency": {
+                "type": "numeric",
+                "raw_value": null,
+                "value": 3.0,
+                "minimum": null,
+                "maximum": null,
+                "scale_description": null,
+                "cefr_level": null
+              },
+              "experience_duration": null,
+              "last_used": null,
+              "description": null
+            },
+            {
+              "source_pages": [],
+              "source_heading": null,
+              "source_text": null,
+              "entry_id": null,
+              "additional_sections": [],
+              "name": "Javascript",
+              "category": null,
+              "proficiency": {
+                "type": "numeric",
+                "raw_value": null,
+                "value": 3.0,
+                "minimum": null,
+                "maximum": null,
+                "scale_description": null,
+                "cefr_level": null
+              },
+              "experience_duration": null,
+              "last_used": null,
+              "description": null
+            },
+            {
+              "source_pages": [],
+              "source_heading": null,
+              "source_text": null,
+              "entry_id": null,
+              "additional_sections": [],
+              "name": "GIT",
+              "category": null,
+              "proficiency": {
+                "type": "numeric",
+                "raw_value": null,
+                "value": 3.0,
+                "minimum": null,
+                "maximum": null,
+                "scale_description": null,
+                "cefr_level": null
+              },
+              "experience_duration": null,
+              "last_used": null,
+              "description": null
+            }
+          ],
+          "weblinks": [
+            {
+              "source_pages": [],
+              "source_heading": null,
+              "source_text": null,
+              "url": "https://example.com",
+              "label": "contact@example.com",
+              "type": null,
+              "platform": null
+            }
+          ]
+        }
+      ],
+      "responsibilities": [],
+      "achievements": [],
+      "skills": [],
+      "weblinks": []
+    },
+    {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "entry_id": null,
+      "additional_sections": [],
+      "organization": {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "entry_id": null,
+        "additional_sections": [],
+        "name": "Research and Development",
+        "department": null,
+        "industry": null,
+        "description": null,
+        "locations": [],
+        "weblinks": []
+      },
+      "client": null,
+      "dates": {
+        "raw_text": null,
+        "start": "Jan 15",
+        "end": "Sep 15",
+        "is_current": null,
+        "duration": null
+      },
+      "employment_type": "DevOps engineer",
+      "locations": [
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "raw_text": "Example St. 1, 12345 Somewhere",
+          "label": null,
+          "address": null,
+          "postal_code": null,
+          "city": null,
+          "region": null,
+          "country": null
+        }
+      ],
+      "description": "DevOps engineer",
+      "positions": [
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "entry_id": null,
+          "additional_sections": [],
+          "title": "DevOps engineer",
+          "department": null,
+          "employment_type": null,
+          "dates": null,
+          "locations": [],
+          "work_arrangement": null,
+          "description": null,
+          "responsibilities": [
+            "Responsible for infrastructure architecture with regard on the future development and tool selection in the field of identity and access management"
+          ],
+          "achievements": [
+            "Selection of future-proof tools for a large infrastructure",
+            "Infrastructure migration into a cloudstack cloud",
+            "Quality assurance in terms of documentation, data analysis and transformation",
+            "Tool development for infrastructure overview",
+            "Development of Ansible modules for client"
+          ],
+          "skills": [
+            {
+              "source_pages": [],
+              "source_heading": null,
+              "source_text": null,
+              "entry_id": null,
+              "additional_sections": [],
+              "name": "Python",
+              "category": null,
+              "proficiency": {
+                "type": "numeric",
+                "raw_value": null,
+                "value": 5.0,
+                "minimum": null,
+                "maximum": null,
+                "scale_description": null,
+                "cefr_level": null
+              },
+              "experience_duration": null,
+              "last_used": null,
+              "description": null
+            },
+            {
+              "source_pages": [],
+              "source_heading": null,
+              "source_text": null,
+              "entry_id": null,
+              "additional_sections": [],
+              "name": "Ansible",
+              "category": null,
+              "proficiency": {
+                "type": "numeric",
+                "raw_value": null,
+                "value": 5.0,
+                "minimum": null,
+                "maximum": null,
+                "scale_description": null,
+                "cefr_level": null
+              },
+              "experience_duration": null,
+              "last_used": null,
+              "description": null
+            },
+            {
+              "source_pages": [],
+              "source_heading": null,
+              "source_text": null,
+              "entry_id": null,
+              "additional_sections": [],
+              "name": "SLES12",
+              "category": null,
+              "proficiency": {
+                "type": "numeric",
+                "raw_value": null,
+                "value": 5.0,
+                "minimum": null,
+                "maximum": null,
+                "scale_description": null,
+                "cefr_level": null
+              },
+              "experience_duration": null,
+              "last_used": null,
+              "description": null
+            },
+            {
+              "source_pages": [],
+              "source_heading": null,
+              "source_text": null,
+              "entry_id": null,
+              "additional_sections": [],
+              "name": "Django",
+              "category": null,
+              "proficiency": {
+                "type": "numeric",
+                "raw_value": null,
+                "value": 5.0,
+                "minimum": null,
+                "maximum": null,
+                "scale_description": null,
+                "cefr_level": null
+              },
+              "experience_duration": null,
+              "last_used": null,
+              "description": null
+            }
+          ],
+          "weblinks": [
+            {
+              "source_pages": [],
+              "source_heading": null,
+              "source_text": null,
+              "url": "https://example.com",
+              "label": "contact@example.com",
+              "type": null,
+              "platform": null
+            }
+          ]
+        }
+      ],
+      "responsibilities": [],
+      "achievements": [],
+      "skills": [],
+      "weblinks": []
+    },
+    {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "entry_id": null,
+      "additional_sections": [],
+      "organization": {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "entry_id": null,
+        "additional_sections": [],
+        "name": "Research and Development",
+        "department": null,
+        "industry": null,
+        "description": null,
+        "locations": [],
+        "weblinks": []
+      },
+      "client": null,
+      "dates": {
+        "raw_text": null,
+        "start": "Mar 14",
+        "end": "Jan 15",
+        "is_current": null,
+        "duration": null
+      },
+      "employment_type": "Systems Analyst",
+      "locations": [
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "raw_text": "Example St. 1, 12345 Somewhere",
+          "label": null,
+          "address": null,
+          "postal_code": null,
+          "city": null,
+          "region": null,
+          "country": null
+        }
+      ],
+      "description": "Responsible for infrastructure architecture / automaton as well as custom tool development on a project for directory services and identity / access management in a large heterogeneous environment.",
+      "positions": [
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "entry_id": null,
+          "additional_sections": [],
+          "title": "Systems Analyst",
+          "department": null,
+          "employment_type": null,
+          "dates": null,
+          "locations": [],
+          "work_arrangement": null,
+          "description": null,
+          "responsibilities": [
+            "Design and implementation of update and deployment process automation",
+            "Quality assurance by design of infrastructure monitoring, centralized logging solutions and documentation",
+            "Customized tool creation for ldap operations",
+            "Installation and maintenance of single sign on solutions",
+            "Customer support in ldap / infrastructural / programming concerns"
+          ],
+          "achievements": [
+            "Drastically accelerated (20x faster) the update process and improved its reliability by introduction of centralized configuration management",
+            "Extended the python-ldap library with interfaces for simplified access and modification of LDAP-Objects and searches",
+            "Introduction of a complete and reliable centralized logging solution including log filtering and alerting for both windows and Linux systems"
+          ],
+          "skills": [
+            {
+              "source_pages": [],
+              "source_heading": null,
+              "source_text": null,
+              "entry_id": null,
+              "additional_sections": [],
+              "name": "Ansible",
+              "category": null,
+              "proficiency": {
+                "type": "numeric",
+                "raw_value": null,
+                "value": 5.0,
+                "minimum": null,
+                "maximum": null,
+                "scale_description": null,
+                "cefr_level": null
+              },
+              "experience_duration": null,
+              "last_used": null,
+              "description": null
+            },
+            {
+              "source_pages": [],
+              "source_heading": null,
+              "source_text": null,
+              "entry_id": null,
+              "additional_sections": [],
+              "name": "Python",
+              "category": null,
+              "proficiency": {
+                "type": "numeric",
+                "raw_value": null,
+                "value": 5.0,
+                "minimum": null,
+                "maximum": null,
+                "scale_description": null,
+                "cefr_level": null
+              },
+              "experience_duration": null,
+              "last_used": null,
+              "description": null
+            },
+            {
+              "source_pages": [],
+              "source_heading": null,
+              "source_text": null,
+              "entry_id": null,
+              "additional_sections": [],
+              "name": "nxLog + rsyslog + graylog",
+              "category": null,
+              "proficiency": {
+                "type": "numeric",
+                "raw_value": null,
+                "value": 5.0,
+                "minimum": null,
+                "maximum": null,
+                "scale_description": null,
+                "cefr_level": null
+              },
+              "experience_duration": null,
+              "last_used": null,
+              "description": null
+            }
+          ],
+          "weblinks": [
+            {
+              "source_pages": [],
+              "source_heading": null,
+              "source_text": null,
+              "url": "https://example.com",
+              "label": "contact@example.com",
+              "type": null,
+              "platform": null
+            }
+          ]
+        }
+      ],
+      "responsibilities": [],
+      "achievements": [],
+      "skills": [],
+      "weblinks": []
+    },
+    {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "entry_id": null,
+      "additional_sections": [],
+      "organization": {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "entry_id": null,
+        "additional_sections": [],
+        "name": "Research and Development",
+        "department": null,
+        "industry": null,
+        "description": null,
+        "locations": [],
+        "weblinks": []
+      },
+      "client": null,
+      "dates": {
+        "raw_text": null,
+        "start": "Sep 13",
+        "end": "Mar 14",
+        "is_current": null,
+        "duration": null
+      },
+      "employment_type": "Systems Analyst",
+      "locations": [
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "raw_text": "Example St. 1, 12345 Somewhere",
+          "label": null,
+          "address": null,
+          "postal_code": null,
+          "city": null,
+          "region": null,
+          "country": null
+        }
+      ],
+      "description": "Responsible for data transformation and tool customization on a migration (legacy c++ code from Solaris to Linux systems) project. The tasks include tool development for identification of critical spots in code, legacy code analysis, quality assurance, and department-wide training in python.",
+      "positions": [
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "entry_id": null,
+          "additional_sections": [],
+          "title": "Systems Analyst",
+          "department": null,
+          "employment_type": null,
+          "dates": null,
+          "locations": [],
+          "work_arrangement": null,
+          "description": null,
+          "responsibilities": [
+            "Tool development for identification of critical spots in code",
+            "Legacy code analysis",
+            "Quality assurance"
+          ],
+          "achievements": [
+            "Implementing code coverage and dynamic code checker for c++ legacy source code based on gcov",
+            "Introduction of Python + Environment in project"
+          ],
+          "skills": [
+            {
+              "source_pages": [],
+              "source_heading": null,
+              "source_text": null,
+              "entry_id": null,
+              "additional_sections": [],
+              "name": "Python",
+              "category": null,
+              "proficiency": {
+                "type": "numeric",
+                "raw_value": null,
+                "value": 5.0,
+                "minimum": null,
+                "maximum": null,
+                "scale_description": null,
+                "cefr_level": null
+              },
+              "experience_duration": null,
+              "last_used": null,
+              "description": null
+            },
+            {
+              "source_pages": [],
+              "source_heading": null,
+              "source_text": null,
+              "entry_id": null,
+              "additional_sections": [],
+              "name": "Git",
+              "category": null,
+              "proficiency": {
+                "type": "numeric",
+                "raw_value": null,
+                "value": 5.0,
+                "minimum": null,
+                "maximum": null,
+                "scale_description": null,
+                "cefr_level": null
+              },
+              "experience_duration": null,
+              "last_used": null,
+              "description": null
+            },
+            {
+              "source_pages": [],
+              "source_heading": null,
+              "source_text": null,
+              "entry_id": null,
+              "additional_sections": [],
+              "name": "Linux (Debian)",
+              "category": null,
+              "proficiency": {
+                "type": "numeric",
+                "raw_value": null,
+                "value": 5.0,
+                "minimum": null,
+                "maximum": null,
+                "scale_description": null,
+                "cefr_level": null
+              },
+              "experience_duration": null,
+              "last_used": null,
+              "description": null
+            }
+          ],
+          "weblinks": [
+            {
+              "source_pages": [],
+              "source_heading": null,
+              "source_text": null,
+              "url": "https://example.com",
+              "label": "contact@example.com",
+              "type": null,
+              "platform": null
+            }
+          ]
+        }
+      ],
+      "responsibilities": [],
+      "achievements": [],
+      "skills": [],
+      "weblinks": []
+    },
+    {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "entry_id": null,
+      "additional_sections": [],
+      "organization": {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "entry_id": null,
+        "additional_sections": [],
+        "name": "Research and Development",
+        "department": null,
+        "industry": null,
+        "description": null,
+        "locations": [],
+        "weblinks": []
+      },
+      "client": null,
+      "dates": {
+        "raw_text": null,
+        "start": "Oct 12",
+        "end": "Sep 13",
+        "is_current": null,
+        "duration": null
+      },
+      "employment_type": "Systems Analyst",
+      "locations": [
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "raw_text": "Example St. 1, 12345 Somewhere",
+          "label": null,
+          "address": null,
+          "postal_code": null,
+          "city": null,
+          "region": null,
+          "country": null
+        }
+      ],
+      "description": "Responsible for the infrastructure including performance and quality assurance on a large social media project.",
+      "positions": [
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "entry_id": null,
+          "additional_sections": [],
+          "title": "Systems Analyst",
+          "department": null,
+          "employment_type": null,
+          "dates": null,
+          "locations": [],
+          "work_arrangement": null,
+          "description": null,
+          "responsibilities": [
+            "Organization and care of a cloud network (Debian systems)",
+            "Support for software developers",
+            "Configuration of open source tools for code quality and documentation",
+            "Implementation of performance checks"
+          ],
+          "achievements": [
+            "Customized wiki and documentation application for developers with Jenkins and Git integration",
+            "Django web application to test the product performance using selenium tests in background with customizable tests / test environments and a graphical evaluation using the jqPlot library (also JavaScript / jQuery)",
+            "Improvement of the overall code quality by raising test coverage (+ ~30%) and identification + elimination of potential code flaws"
+          ],
+          "skills": [
+            {
+              "source_pages": [],
+              "source_heading": null,
+              "source_text": null,
+              "entry_id": null,
+              "additional_sections": [],
+              "name": "Python + Django",
+              "category": null,
+              "proficiency": {
+                "type": "numeric",
+                "raw_value": null,
+                "value": 5.0,
+                "minimum": null,
+                "maximum": null,
+                "scale_description": null,
+                "cefr_level": null
+              },
+              "experience_duration": null,
+              "last_used": null,
+              "description": null
+            },
+            {
+              "source_pages": [],
+              "source_heading": null,
+              "source_text": null,
+              "entry_id": null,
+              "additional_sections": [],
+              "name": "Sonar",
+              "category": null,
+              "proficiency": {
+                "type": "numeric",
+                "raw_value": null,
+                "value": 5.0,
+                "minimum": null,
+                "maximum": null,
+                "scale_description": null,
+                "cefr_level": null
+              },
+              "experience_duration": null,
+              "last_used": null,
+              "description": null
+            },
+            {
+              "source_pages": [],
+              "source_heading": null,
+              "source_text": null,
+              "entry_id": null,
+              "additional_sections": [],
+              "name": "OpenLDAP",
+              "category": null,
+              "proficiency": {
+                "type": "numeric",
+                "raw_value": null,
+                "value": 5.0,
+                "minimum": null,
+                "maximum": null,
+                "scale_description": null,
+                "cefr_level": null
+              },
+              "experience_duration": null,
+              "last_used": null,
+              "description": null
+            },
+            {
+              "source_pages": [],
+              "source_heading": null,
+              "source_text": null,
+              "entry_id": null,
+              "additional_sections": [],
+              "name": "JIRA",
+              "category": null,
+              "proficiency": {
+                "type": "numeric",
+                "raw_value": null,
+                "value": 5.0,
+                "minimum": null,
+                "maximum": null,
+                "scale_description": null,
+                "cefr_level": null
+              },
+              "experience_duration": null,
+              "last_used": null,
+              "description": null
+            }
+          ],
+          "weblinks": [
+            {
+              "source_pages": [],
+              "source_heading": null,
+              "source_text": null,
+              "url": "https://example.com",
+              "label": "contact@example.com",
+              "type": null,
+              "platform": null
+            }
+          ]
+        }
+      ],
+      "responsibilities": [],
+      "achievements": [],
+      "skills": [],
+      "weblinks": []
+    },
+    {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "entry_id": null,
+      "additional_sections": [],
+      "organization": {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "entry_id": null,
+        "additional_sections": [],
+        "name": "Accenture Tech. Solutions",
+        "department": null,
+        "industry": null,
+        "description": null,
+        "locations": [],
+        "weblinks": []
+      },
+      "client": null,
+      "dates": {
+        "raw_text": null,
+        "start": "Oct 11",
+        "end": "Oct 12",
+        "is_current": null,
+        "duration": null
+      },
+      "employment_type": "IT Consultant",
+      "locations": [
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "raw_text": "Example St. 1, 12345 Somewhere",
+          "label": null,
+          "address": null,
+          "postal_code": null,
+          "city": null,
+          "region": null,
+          "country": null
+        }
+      ],
+      "description": "Large public service project with the goal to establish a platform for handling of finance processes with a very high number of transactions. Main focus was the migration of legacy data, by assuring data quality and transformation into various formats.",
+      "positions": [
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "entry_id": null,
+          "additional_sections": [],
+          "title": "IT Consultant",
+          "department": null,
+          "employment_type": null,
+          "dates": null,
+          "locations": [],
+          "work_arrangement": null,
+          "description": null,
+          "responsibilities": [
+            "Customer consulting with regard to loading / unloading interfaces",
+            "Definition of requirements for transformation of legacy data",
+            "Implementation of algorithms for data transformation",
+            "Tool development for secure data transport",
+            "Tool development for tests of data quality/interface implementation"
+          ],
+          "achievements": [
+            "Definition of uniform standards",
+            "Introduction of the standard Linux stack as global toolset for data analysis in project"
+          ],
+          "skills": [
+            {
+              "source_pages": [],
+              "source_heading": null,
+              "source_text": null,
+              "entry_id": null,
+              "additional_sections": [],
+              "name": "Standard Linux tools",
+              "category": null,
+              "proficiency": {
+                "type": "numeric",
+                "raw_value": null,
+                "value": 5.0,
+                "minimum": null,
+                "maximum": null,
+                "scale_description": null,
+                "cefr_level": null
+              },
+              "experience_duration": null,
+              "last_used": null,
+              "description": null
+            },
+            {
+              "source_pages": [],
+              "source_heading": null,
+              "source_text": null,
+              "entry_id": null,
+              "additional_sections": [],
+              "name": "Python",
+              "category": null,
+              "proficiency": {
+                "type": "numeric",
+                "raw_value": null,
+                "value": 5.0,
+                "minimum": null,
+                "maximum": null,
+                "scale_description": null,
+                "cefr_level": null
+              },
+              "experience_duration": null,
+              "last_used": null,
+              "description": null
+            },
+            {
+              "source_pages": [],
+              "source_heading": null,
+              "source_text": null,
+              "entry_id": null,
+              "additional_sections": [],
+              "name": "Java",
+              "category": null,
+              "proficiency": {
+                "type": "numeric",
+                "raw_value": null,
+                "value": 5.0,
+                "minimum": null,
+                "maximum": null,
+                "scale_description": null,
+                "cefr_level": null
+              },
+              "experience_duration": null,
+              "last_used": null,
+              "description": null
+            },
+            {
+              "source_pages": [],
+              "source_heading": null,
+              "source_text": null,
+              "entry_id": null,
+              "additional_sections": [],
+              "name": "IBM DataStage",
+              "category": null,
+              "proficiency": {
+                "type": "numeric",
+                "raw_value": null,
+                "value": 5.0,
+                "minimum": null,
+                "maximum": null,
+                "scale_description": null,
+                "cefr_level": null
+              },
+              "experience_duration": null,
+              "last_used": null,
+              "description": null
+            }
+          ],
+          "weblinks": [
+            {
+              "source_pages": [],
+              "source_heading": null,
+              "source_text": null,
+              "url": "https://example.com",
+              "label": "contact@example.com",
+              "type": null,
+              "platform": null
+            }
+          ]
+        }
+      ],
+      "responsibilities": [],
+      "achievements": [],
+      "skills": [],
+      "weblinks": []
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "entry_id": null,
+      "additional_sections": [],
+      "institution": {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "entry_id": null,
+        "additional_sections": [],
+        "name": "Universität Bonn",
+        "department": null,
+        "industry": null,
+        "description": null,
+        "locations": [],
+        "weblinks": []
+      },
+      "degree": null,
+      "qualification_level": null,
+      "fields_of_study": [],
+      "specializations": [],
+      "dates": {
+        "raw_text": null,
+        "start": "Jan 15",
+        "end": "Sep 15",
+        "is_current": null,
+        "duration": null
+      },
+      "status": null,
+      "study_mode": "Full-time",
+      "locations": [],
+      "description": "DevOps engineer",
+      "coursework": [],
+      "grade": null,
+      "distinctions": [],
+      "theses": [],
+      "skills": [
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "entry_id": null,
+          "additional_sections": [],
+          "name": "Python",
+          "category": null,
+          "proficiency": {
+            "type": "numeric",
+            "raw_value": null,
+            "value": 5.0,
+            "minimum": null,
+            "maximum": null,
+            "scale_description": null,
+            "cefr_level": null
+          },
+          "experience_duration": null,
+          "last_used": null,
+          "description": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "entry_id": null,
+          "additional_sections": [],
+          "name": "Ansible",
+          "category": null,
+          "proficiency": {
+            "type": "numeric",
+            "raw_value": null,
+            "value": 5.0,
+            "minimum": null,
+            "maximum": null,
+            "scale_description": null,
+            "cefr_level": null
+          },
+          "experience_duration": null,
+          "last_used": null,
+          "description": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "entry_id": null,
+          "additional_sections": [],
+          "name": "SLES12",
+          "category": null,
+          "proficiency": {
+            "type": "numeric",
+            "raw_value": null,
+            "value": 5.0,
+            "minimum": null,
+            "maximum": null,
+            "scale_description": null,
+            "cefr_level": null
+          },
+          "experience_duration": null,
+          "last_used": null,
+          "description": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "entry_id": null,
+          "additional_sections": [],
+          "name": "Django",
+          "category": null,
+          "proficiency": {
+            "type": "numeric",
+            "raw_value": null,
+            "value": 5.0,
+            "minimum": null,
+            "maximum": null,
+            "scale_description": null,
+            "cefr_level": null
+          },
+          "experience_duration": null,
+          "last_used": null,
+          "description": null
+        }
+      ],
+      "weblinks": [
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "url": "https://example.com",
+          "label": "contact@example.com",
+          "type": null,
+          "platform": null
+        }
+      ]
+    },
+    {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "entry_id": null,
+      "additional_sections": [],
+      "institution": {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "entry_id": null,
+        "additional_sections": [],
+        "name": "Universität Bonn",
+        "department": null,
+        "industry": null,
+        "description": null,
+        "locations": [],
+        "weblinks": []
+      },
+      "degree": null,
+      "qualification_level": null,
+      "fields_of_study": [],
+      "specializations": [],
+      "dates": {
+        "raw_text": null,
+        "start": "2009",
+        "end": "2011",
+        "is_current": null,
+        "duration": null
+      },
+      "status": null,
+      "study_mode": "Full-time",
+      "locations": [],
+      "description": "M. Sc. Physics",
+      "coursework": [],
+      "grade": null,
+      "distinctions": [],
+      "theses": [],
+      "skills": [
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "entry_id": null,
+          "additional_sections": [],
+          "name": "Python",
+          "category": null,
+          "proficiency": {
+            "type": "numeric",
+            "raw_value": null,
+            "value": 5.0,
+            "minimum": null,
+            "maximum": null,
+            "scale_description": null,
+            "cefr_level": null
+          },
+          "experience_duration": null,
+          "last_used": null,
+          "description": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "entry_id": null,
+          "additional_sections": [],
+          "name": "Ansible",
+          "category": null,
+          "proficiency": {
+            "type": "numeric",
+            "raw_value": null,
+            "value": 5.0,
+            "minimum": null,
+            "maximum": null,
+            "scale_description": null,
+            "cefr_level": null
+          },
+          "experience_duration": null,
+          "last_used": null,
+          "description": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "entry_id": null,
+          "additional_sections": [],
+          "name": "SLES11",
+          "category": null,
+          "proficiency": {
+            "type": "numeric",
+            "raw_value": null,
+            "value": 5.0,
+            "minimum": null,
+            "maximum": null,
+            "scale_description": null,
+            "cefr_level": null
+          },
+          "experience_duration": null,
+          "last_used": null,
+          "description": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "entry_id": null,
+          "additional_sections": [],
+          "name": "Django",
+          "category": null,
+          "proficiency": {
+            "type": "numeric",
+            "raw_value": null,
+            "value": 5.0,
+            "minimum": null,
+            "maximum": null,
+            "scale_description": null,
+            "cefr_level": null
+          },
+          "experience_duration": null,
+          "last_used": null,
+          "description": null
+        }
+      ],
+      "weblinks": [
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "url": "https://example.com",
+          "label": "contact@example.com",
+          "type": null,
+          "platform": null
+        }
+      ]
+    },
+    {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "entry_id": null,
+      "additional_sections": [],
+      "institution": {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "entry_id": null,
+        "additional_sections": [],
+        "name": "Universität Bonn",
+        "department": null,
+        "industry": null,
+        "description": null,
+        "locations": [],
+        "weblinks": []
+      },
+      "degree": null,
+      "qualification_level": null,
+      "fields_of_study": [],
+      "specializations": [],
+      "dates": {
+        "raw_text": null,
+        "start": "2006",
+        "end": "2009",
+        "is_current": null,
+        "duration": null
+      },
+      "status": null,
+      "study_mode": "Full-time",
+      "locations": [],
+      "description": "B. Sc. Physics",
+      "coursework": [],
+      "grade": null,
+      "distinctions": [],
+      "theses": [],
+      "skills": [
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "entry_id": null,
+          "additional_sections": [],
+          "name": "Python",
+          "category": null,
+          "proficiency": {
+            "type": "numeric",
+            "raw_value": null,
+            "value": 5.0,
+            "minimum": null,
+            "maximum": null,
+            "scale_description": null,
+            "cefr_level": null
+          },
+          "experience_duration": null,
+          "last_used": null,
+          "description": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "entry_id": null,
+          "additional_sections": [],
+          "name": "Ansible",
+          "category": null,
+          "proficiency": {
+            "type": "numeric",
+            "raw_value": null,
+            "value": 5.0,
+            "minimum": null,
+            "maximum": null,
+            "scale_description": null,
+            "cefr_level": null
+          },
+          "experience_duration": null,
+          "last_used": null,
+          "description": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "entry_id": null,
+          "additional_sections": [],
+          "name": "SLES11",
+          "category": null,
+          "proficiency": {
+            "type": "numeric",
+            "raw_value": null,
+            "value": 5.0,
+            "minimum": null,
+            "maximum": null,
+            "scale_description": null,
+            "cefr_level": null
+          },
+          "experience_duration": null,
+          "last_used": null,
+          "description": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "entry_id": null,
+          "additional_sections": [],
+          "name": "Django",
+          "category": null,
+          "proficiency": {
+            "type": "numeric",
+            "raw_value": null,
+            "value": 5.0,
+            "minimum": null,
+            "maximum": null,
+            "scale_description": null,
+            "cefr_level": null
+          },
+          "experience_duration": null,
+          "last_used": null,
+          "description": null
+        }
+      ],
+      "weblinks": [
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "url": "https://example.com",
+          "label": "contact@example.com",
+          "type": null,
+          "platform": null
+        }
+      ]
+    }
+  ],
+  "skills": [],
+  "languages": [],
+  "certifications": [
+    {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "entry_id": null,
+      "additional_sections": [],
+      "name": "LPIC 1 - Linux administrator",
+      "type": null,
+      "issuer": {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "entry_id": null,
+        "additional_sections": [],
+        "name": "Linux Professional Institute",
+        "department": null,
+        "industry": null,
+        "description": null,
+        "locations": [],
+        "weblinks": []
+      },
+      "date_achieved": "2015",
+      "expiration_date": null,
+      "credential_id": null,
+      "status": null,
+      "description": "Certificate issued by the Linux Professional Institute to prove abilities in Linux administration",
+      "grade": null,
+      "skills": [],
+      "weblinks": []
+    },
+    {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "entry_id": null,
+      "additional_sections": [],
+      "name": "IBM InfoSphere Advanced DataStage Essentials",
+      "type": null,
+      "issuer": {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "entry_id": null,
+        "additional_sections": [],
+        "name": "IBM",
+        "department": null,
+        "industry": null,
+        "description": null,
+        "locations": [],
+        "weblinks": []
+      },
+      "date_achieved": "2015",
+      "expiration_date": null,
+      "credential_id": null,
+      "status": null,
+      "description": "Intense course about the ETL technologies and the use of IBM DataStage.",
+      "grade": null,
+      "skills": [],
+      "weblinks": []
+    },
+    {
+      "source_pages": [],
+      "source_heading": null,
+      "source_text": null,
+      "entry_id": null,
+      "additional_sections": [],
+      "name": "Jump Start Program",
+      "type": null,
+      "issuer": {
+        "source_pages": [],
+        "source_heading": null,
+        "source_text": null,
+        "entry_id": null,
+        "additional_sections": [],
+        "name": "Online Classes",
+        "department": null,
+        "industry": null,
+        "description": null,
+        "locations": [],
+        "weblinks": []
+      },
+      "date_achieved": "2013",
+      "expiration_date": null,
+      "credential_id": null,
+      "status": null,
+      "description": "Two months full-time training in object oriented programming, software development, testing and modern enterprise web-frameworks.",
+      "grade": null,
+      "skills": [],
+      "weblinks": []
+    }
+  ],
+  "training": [],
+  "awards": [],
+  "publications": [],
+  "presentations": [],
+  "volunteering": [],
+  "military_service": [],
+  "memberships": [],
+  "interests": [],
+  "references": [],
+  "employment_preferences": {
+    "source_pages": [],
+    "source_heading": null,
+    "source_text": null,
+    "entry_id": null,
+    "additional_sections": [],
+    "desired_roles": [],
+    "desired_locations": [],
+    "employment_types": [],
+    "work_arrangements": [],
+    "willingness_to_relocate": null,
+    "willingness_to_travel": null,
+    "desired_compensation": null,
+    "availability": null,
+    "work_authorizations": [],
+    "driving_licenses": [],
+    "security_clearances": []
+  },
+  "weblinks": [],
+  "declarations": [],
+  "additional_sections": [
+    {
+      "source_pages": [],
+      "source_heading": "SKILLS",
+      "source_text": "DevOps Engineer, specialized both in automation and in custom application development, experienced with large projects and heterogeneous infrastructures. The link between development and operations, comfortable in both.\n\nCustomer-oriented and structured method of working, focused on quality and maintainability. Highly motivated to work in a team, both comfortable in big companies as in small teams.",
+      "heading": null,
+      "content": [
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "paragraph",
+          "text": "Python 5+ yrs\n\nAnsible 5+ yrs\n\nLinux 5+ yrs\n\nOpen Source Tools 5+ yrs\n\nDjango 5+ yrs\n\nHtml/CSS 3+ yrs\n\nJavascript 3+ yrs\n\nGIT 3+ yrs",
+          "table": null
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "source_pages": [],
+      "source_heading": "CONTACT",
+      "source_text": "Example St. 1\n12345 Somewhere\n\nÆ  +49 178 910 11 12 13\n\ncontact@example.com",
+      "heading": null,
+      "content": [
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "paragraph",
+          "text": "Example St. 1\n12345 Somewhere",
+          "table": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "paragraph",
+          "text": "Æ  +49 178 910 11 12 13",
+          "table": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "paragraph",
+          "text": "contact@example.com",
+          "table": null
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "source_pages": [],
+      "source_heading": "WORK EXPERIENCE",
+      "source_text": "DevOps/FullStack developer                      Sep 15 - NOW\nResearch and Development\n\nA large IAM project required an intuitive interface for role-based access and rights management. At the same time, new workflows for role based access, life time and monitoring had to be established\n\n• Creation of a web portal for role- and rights management\n• Establishing a connection to the existing MicroFocus role solution\n• Development of new role-based workflows and processes, as well as training and support\n\nMaintenance of existing infrastructure\n\nTechnologies include:\n\n• Django for the roles- and rights management tool backend (backend is a REST interface)\n• Angular for the easy frontend interaction\n• HTML5/CSS3/Bootstrap3 for the frontend\n• Ansible + Docker for 1-click deployments\n\nAchievements include:\n\n• A web based tool for an intuitive role assignment and administration\n• Online overview of company structures, projects, etc\n• Tools for role review, reporting and troubleshooting",
+      "heading": null,
+      "content": [
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "paragraph",
+          "text": "DevOps/FullStack developer                      Sep 15 - NOW\nResearch and Development",
+          "table": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "paragraph",
+          "text": "A large IAM project required an intuitive interface for role-based access and rights management. At the same time, new workflows for role based access, life time and monitoring had to be established",
+          "table": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "bullet",
+          "text": "Creation of a web portal for role- and rights management",
+          "table": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "bullet",
+          "text": "Establishing a connection to the existing MicroFocus role solution",
+          "table": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "bullet",
+          "text": "Development of new role-based workflows and processes, as well as training and support",
+          "table": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "paragraph",
+          "text": "Maintenance of existing infrastructure",
+          "table": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "paragraph",
+          "text": "Technologies include:",
+          "table": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "bullet",
+          "text": "Django for the roles- and rights management tool backend (backend is a REST interface)",
+          "table": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "bullet",
+          "text": "Angular for the easy frontend interaction",
+          "table": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "bullet",
+          "text": "HTML5/CSS3/Bootstrap3 for the frontend",
+          "table": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "bullet",
+          "text": "Ansible + Docker for 1-click deployments",
+          "table": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "paragraph",
+          "text": "Achievements include:",
+          "table": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "bullet",
+          "text": "A web based tool for an intuitive role assignment and administration",
+          "table": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "bullet",
+          "text": "Online overview of company structures, projects, etc",
+          "table": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "bullet",
+          "text": "Tools for role review, reporting and troubleshooting",
+          "table": null
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "source_pages": [],
+      "source_heading": "EDUCATION",
+      "source_text": "DevOps engineer                                   Jan 15 - Sep 15\nResearch and Development\n\nResponsible for infrastructure architecture with regard on the future development and tool selection in the field of identity and access management\n\n• Selection of future-proof tools for a large infrastructure\n• Infrastructure migration into a cloudstack cloud\n• Quality assurance in terms of documentation, data analysis and transformation\n• Tool development for infrastructure overview\n• Development of Ansible modules for client\n\nTechnologies include:\n\n• Python for custom tool development\n• Ansible for infrastructure migration and cloud configuration\n• SLES12\n• Django for Visualization\n\nAchievements include:\n\n• Ansible module for SLES12 System + Package registration\n• Python tool for ACL-administration in cloud\n• Fully automated migration of old systems into cloud with Ansible playbooks/roles\n• Django tool on LDAP - Schema Review",
+      "heading": null,
+      "content": [
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "paragraph",
+          "text": "DevOps engineer                                   Jan 15 - Sep 15\nResearch and Development",
+          "table": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "paragraph",
+          "text": "Responsible for infrastructure architecture with regard on the future development and tool selection in the field of identity and access management",
+          "table": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "bullet",
+          "text": "Selection of future-proof tools for a large infrastructure",
+          "table": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "bullet",
+          "text": "Infrastructure migration into a cloudstack cloud",
+          "table": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "bullet",
+          "text": "Quality assurance in terms of documentation, data analysis and transformation",
+          "table": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "bullet",
+          "text": "Tool development for infrastructure overview",
+          "table": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "bullet",
+          "text": "Development of Ansible modules for client",
+          "table": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "paragraph",
+          "text": "Technologies include:",
+          "table": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "bullet",
+          "text": "Python for custom tool development",
+          "table": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "bullet",
+          "text": "Ansible for infrastructure migration and cloud configuration",
+          "table": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "bullet",
+          "text": "SLES12",
+          "table": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "bullet",
+          "text": "Django for Visualization",
+          "table": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "paragraph",
+          "text": "Achievements include:",
+          "table": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "bullet",
+          "text": "Ansible module for SLES12 System + Package registration",
+          "table": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "bullet",
+          "text": "Python tool for ACL-administration in cloud",
+          "table": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "bullet",
+          "text": "Fully automated migration of old systems into cloud with Ans, Ansible playbooks/roles",
+          "table": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "bullet",
+          "text": "Django tool on LDAP - Schema Review",
+          "table": null
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "source_pages": [],
+      "source_heading": "CERTIFICATIONS",
+      "source_text": "NOVELL eDirectory\n\nShibboleth as identity Provider combined with ldap\n\nLPIC 1 - Linux administrator\n\nCertificate issued by the Linux Professional Institute to prove abilities in Linux administration\n\nIBM InfoSphere Advanced DataStage Essentials\n\nIntense course about the ETL technologies and the use of IBM DataStage.\n\nJump Start Program\n\nTwo months full-time training in object oriented programming, software development, testing and modern enterprise web-frameworks.\n\nOther topics were object oriented design patterns, test-driven development, SQL-databases and webservers in Java environment (Tomcat / Glassfish / JBoss / Jety)\n\nOnline Classes\n\nIt is important for me to stay up to date with the newest topics in the field of IT. In DevOps it is also important to have a general overview and a hands-on experience on them. Therefore, besides intense article studies, I also keep myself up to date with online classes.",
+      "heading": null,
+      "content": [
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "paragraph",
+          "text": "NOVELL eDirectory",
+          "table": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "paragraph",
+          "text": "Shibboleth as identity Provider combined with ldap",
+          "table": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "paragraph",
+          "text": "LPIC 1 - Linux administrator",
+          "table": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "paragraph",
+          "text": "Certificate issued by the Linux Professional Institute to prove abilities in Linux administration",
+          "table": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "paragraph",
+          "text": "IBM InfoSphere Advanced DataStage Essentials",
+          "table": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "paragraph",
+          "text": "Intense course about the ETL technologies and the use of IBM DataStage.",
+          "table": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "paragraph",
+          "text": "Jump Start Program",
+          "table": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "paragraph",
+          "text": "Two months full-time training in object oriented programming, software development, testing and modern enterprise web-frameworks.",
+          "table": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "paragraph",
+          "text": "Other topics were object oriented design patterns, test-driven development, SQL-databases and webservers in Java environment (Tomcat / Glassfish / JBoss / Jety)",
+          "table": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "paragraph",
+          "text": "Online Classes",
+          "table": null
+        },
+        {
+          "source_pages": [],
+          "source_heading": null,
+          "source_text": null,
+          "type": "paragraph",
+          "text": "It is important for me to stay up to date with the newest topics in the field of IT. In DevOps it is also important to have a general overview and a hands-on experience on them. Therefore, besides intense article studies, I also keep myself up to date with online classes.",
+          "table": null
+        }
+      ],
+      "subsections": []
+    }
+  ]
+}
