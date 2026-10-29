@@ -2,7 +2,7 @@ import json
 from urllib.error import HTTPError
 from urllib.request import Request, urlopen
 
-from ..schemas import RawCV
+from ...schemas import RawCV
 
 
 SYSTEM_PROMPT = """

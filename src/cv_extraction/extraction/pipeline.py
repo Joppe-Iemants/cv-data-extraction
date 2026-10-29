@@ -2,7 +2,7 @@ from pathlib import Path
 from time import perf_counter
 
 from .stages import STAGE_METHODS
-from .monitoring import MemoryMonitor
+from ..monitoring.monitoring import MemoryMonitor
 
 def validate_stage_output(output) -> None:
     if not isinstance(output, dict):

@@ -9,11 +9,11 @@ from importlib.metadata import distributions
 from pathlib import Path
 from uuid import uuid4
 
-from cv_extraction.pipeline import run_extraction
+from cv_extraction.extraction.pipeline import run_extraction
 from cv_extraction.storage import save_json
 from cv_extraction.config import select_split, validate_stages
-from cv_extraction.reporting import build_document_summaries
-from cv_extraction.hardware import capture_hardware
+from cv_extraction.monitoring.reporting import build_document_summaries
+from cv_extraction.monitoring.hardware import capture_hardware
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 

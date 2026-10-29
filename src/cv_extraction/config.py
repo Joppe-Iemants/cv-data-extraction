@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 
-from .stages import STAGE_METHODS
+from .extraction.stages import STAGE_METHODS
 
 def select_split(documents: list[dict], splits_path: Path, split_name: str) -> list[dict]:
     splits = json.loads(splits_path.read_text(encoding="utf-8"))

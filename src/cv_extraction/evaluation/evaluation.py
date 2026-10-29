@@ -12,8 +12,8 @@ import unicodedata
 
 from pydantic import ValidationError
 
-from .schemas import RawCV
-from .storage import save_json
+from ..schemas import RawCV
+from ..storage import save_json
 
 VERSION = "1.0"
 ROOT = Path(__file__).resolve().parents[2]
@@ -368,7 +368,7 @@ def main():
     parser.add_argument("--run-ids", nargs="+", required=True)
     parser.add_argument("--allow-draft", action="store_true", help="Explicitly permit provisional reference scores.")
     parser.add_argument("--overwrite", action="store_true")
-    
+
     args = parser.parse_args()
     for run_id in dict.fromkeys(args.run_ids):
         summary = evaluate_run(ROOT, run_id, args.allow_draft, args.overwrite)
