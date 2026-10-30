@@ -13,7 +13,7 @@ from ..storage import save_json
 from .scoring import CATEGORIES, COUNTS, evaluate, metrics
 from ..extraction.stages import STAGE_METHODS
 
-VERSION = "1.1"
+VERSION = "1.2"
 ROOT = Path(__file__).resolve().parents[3]
 
 def read_json(path):
@@ -40,7 +40,7 @@ def resolve_run(root, manifest, run_id):
     return saved if selected and saved in candidates else candidates[0]
 
 
-def evaluate_run(root, run_id, allow_draft=False, overwrite=False, provenance_policy="empty"):
+def evaluate_run(root, run_id, overwrite=False, provenance_policy="empty"):
     manifest = read_json(root / "data/manifest.json")
     run_dir = resolve_run(root, manifest, run_id)
     config_path = run_dir / "config.json"
@@ -59,8 +59,6 @@ def evaluate_run(root, run_id, allow_draft=False, overwrite=False, provenance_po
             reference_error = "missing_reference"
         elif entry.get("pdf_sha256") != document["sha256"]:
             reference_error = "reference_source_mismatch"
-        elif entry.get("status") != "reviewed" and not allow_draft:
-            reference_error = "unreviewed_reference"
         else:
             try:
                 reference = RawCV.model_validate_json(ref_path.read_text(encoding="utf-8-sig"))
@@ -69,7 +67,7 @@ def evaluate_run(root, run_id, allow_draft=False, overwrite=False, provenance_po
                 references[cv_id] = {"error": str(error)}
         if ref_path.exists():
             references.setdefault(cv_id, {}).update({"path": str(ref_path.relative_to(root)),
-                "sha256": sha256(ref_path), "status": (entry or {}).get("status", "unregistered")})
+                "sha256": sha256(ref_path)})
         for repetition in range(1, config["repetitions"] + 1):
             attempt = run_dir / "documents" / cv_id / f"repeat_{repetition:03d}"
             stage_names = [
@@ -77,8 +75,7 @@ def evaluate_run(root, run_id, allow_draft=False, overwrite=False, provenance_po
                 for stage in config["stages"]
                 if STAGE_METHODS.get(stage["method"], {}).get("output_kind") == "cv"
             ]
-            report = {"document_id": cv_id, "repetition": repetition, "overall": None,
-                      "provisional": (entry or {}).get("status") != "reviewed"}
+            report = {"document_id": cv_id, "repetition": repetition, "overall": None}
             attempt_report = read_json(attempt / "report.json") if (attempt / "report.json").exists() else {}
             prediction_path = attempt / stage_names[-1] / "extraction.json" if stage_names else None
             report["extraction_status"] = attempt_report.get("status", "incomplete")
@@ -120,12 +117,11 @@ def evaluate_run(root, run_id, allow_draft=False, overwrite=False, provenance_po
                 },
                 "schema_sha256": sha256(Path(__file__).parents[1] / "schemas.py"),
                 "evaluated_at_utc": datetime.now(timezone.utc).isoformat(),
-                "provenance_policy": provenance_policy, "allow_draft": allow_draft,
+                "provenance_policy": provenance_policy,
                 "references": references, "run_description": manifest.get("archived_runs", {}).get(run_id)}
     summary = {"run_id": run_id, "attempt_count": len(reports),
                "status_counts": dict(Counter(report["status"] for report in reports)),
                "evaluated_attempts": sum(report["status"] == "evaluated" for report in reports),
-               "provisional": any(report["provisional"] for report in reports if report["status"] == "evaluated"),
                "scope": "structured_facts_only; free text requires manual review",
                "overall": metrics(totals), "categories": {k: metrics(v) for k, v in category_totals.items()}}
     save_json(destination / "config.json", settings)

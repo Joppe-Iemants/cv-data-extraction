@@ -49,5 +49,6 @@ pipenv run experiment --config experiments/configs/text_baseline.json
 ### 3) Evaluate the run
    For example:
 ```cmd
-pipenv run python -m cv_extraction.evaluation --reference data/references/CV001.json --prediction results/RUN_ID/documents/CV001/repeat_001/structure_cv/extraction.json --output results/RUN_ID/documents/CV001/repeat_001/structure_cv/evaluation.json
+pipenv run evaluate --run-ids RUN_ID
 ```
+"--overwrite": lets you overwrite an existing report for the RUN_ID
