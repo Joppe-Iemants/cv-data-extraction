@@ -1,0 +1,186 @@
+{
+  "personal_information": {
+    "full_name": "ACHRAF NAJMI",
+    "headline": "ÉLECTRO INFO PHYSICIEN",
+    "emails": [
+      "najmi.achraf@gmail.com"
+    ],
+    "phones": [
+      "+212 6 22 90 22 21"
+    ],
+    "location": "Casablanca, Maroc",
+    "weblinks": [
+      {
+        "url": "github.com/NajmiAchraf",
+        "platform": "GitHub"
+      },
+      {
+        "url": "stackoverflow.com/users/12854948",
+        "platform": "Stack Overflow"
+      },
+      {
+        "url": "linkedin.com/in/najmiachraf",
+        "platform": "LinkedIn"
+      }
+    ],
+    "details": [
+      "Né le: 24/07/1994",
+      "Permis : B"
+    ]
+  },
+  "summary": "Je suis diplômé en Physique Électronique avec une expérience de travail dans des projets de recherche. Je suis toujours à la recherche de nouveaux projets interdisciplinaires passionnants liés à la physique.",
+  "projects": [
+    {
+      "name": "Projet Hydrogéologie",
+      "dates": {
+        "start": "2/2021"
+      },
+      "details": [
+        "Hydrologie des eaux souterraines",
+        "github.com/NajmiAchraf/Hydrogeologie (PROJET PRIVÉ)"
+      ]
+    },
+    {
+      "name": "Projet Gmail",
+      "dates": {
+        "start": "9/2020"
+      },
+      "details": [
+        "Expéditeur CSV de Google messagerie",
+        "github.com/NajmiAchraf/Gmail"
+      ]
+    },
+    {
+      "name": "Projet MathPy",
+      "dates": {
+        "start": "12/2019"
+      },
+      "details": [
+        "Calculatrice Scientifique Moderne",
+        "4/2020 Mis le projet MathPy dans GitHub",
+        "github.com/NajmiAchraf/MathPy (PROJET PRIVÉ)",
+        "Projet MathPy est constamment mis à jour"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Université Hassan II de Casablanca : Faculté des Sciences Ben M’sik.",
+      "qualification": "Licence d’Études Fondamentales (LEF)",
+      "dates": {
+        "end": "6/2019"
+      },
+      "details": [
+        "Filière : Science Matière Physique",
+        "Parcours : Électronique"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "PyCharm"
+    },
+    {
+      "name": "MD"
+    },
+    {
+      "name": "CLion"
+    },
+    {
+      "name": "Terminal"
+    },
+    {
+      "name": "Proteus"
+    },
+    {
+      "name": "git"
+    },
+    {
+      "name": "Windows"
+    },
+    {
+      "name": "macOS"
+    },
+    {
+      "name": "Python 3"
+    },
+    {
+      "name": "C"
+    },
+    {
+      "name": "LATEX"
+    },
+    {
+      "name": "pyinstaller"
+    },
+    {
+      "name": "matplotlib"
+    },
+    {
+      "name": "sympy"
+    },
+    {
+      "name": "tkinter"
+    },
+    {
+      "name": "numpy"
+    },
+    {
+      "name": "pandas"
+    },
+    {
+      "name": "Développement"
+    },
+    {
+      "name": "Maintenance"
+    },
+    {
+      "name": "Désigne"
+    },
+    {
+      "name": "Schématisation"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Français",
+      "proficiency": {
+        "text": "B2"
+      }
+    },
+    {
+      "name": "Anglais",
+      "proficiency": {
+        "text": "A2"
+      }
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Scientific Computing with Python Developer Certification",
+      "date": "3/2021",
+      "details": [
+        "freecodecamp.org/certification/najmiachraf/scientific-computing-with-python-v7"
+      ]
+    }
+  ],
+  "training": [
+    {
+      "name": "Piscine d’école 1337 42 network",
+      "provider": "UM6P",
+      "dates": {
+        "start": "7/2021",
+        "duration": "Un mois"
+      },
+      "details": [
+        "github.com/NajmiAchraf/1337_Piscine"
+      ]
+    }
+  ],
+  "additional_sections": [
+    {
+      "heading": "ACTIVITES",
+      "text": "Tutoriels\nActualités Tech\nJeux Cérébrale\nSport\n8 repos publique dans mon Compte GitHub"
+    }
+  ]
+}

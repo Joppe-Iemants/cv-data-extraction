@@ -1,0 +1,371 @@
+{
+  "document_id": "CV027",
+  "repetition": 4,
+  "overall": {
+    "correct": 38,
+    "missing": 5,
+    "incorrect": 5,
+    "unexpected": 0,
+    "expected_facts": 48,
+    "predicted_facts": 43,
+    "precision": 0.8837209302325582,
+    "recall": 0.7916666666666666,
+    "f1": 0.8351648351648352
+  },
+  "extraction_status": "completed",
+  "prediction_sha256": "b6d0f8f7c1134cbb22a60fbadaab86ea3d2e27b7a35f56cbcb8ea423301fd801",
+  "json_valid": true,
+  "schema_valid": true,
+  "categories": {
+    "personal_information": {
+      "correct": 5,
+      "missing": 1,
+      "incorrect": 1,
+      "unexpected": 0,
+      "expected_facts": 7,
+      "predicted_facts": 6,
+      "precision": 0.8333333333333334,
+      "recall": 0.7142857142857143,
+      "f1": 0.7692307692307693
+    },
+    "work_experience": {
+      "correct": 9,
+      "missing": 3,
+      "incorrect": 3,
+      "unexpected": 0,
+      "expected_facts": 15,
+      "predicted_facts": 12,
+      "precision": 0.75,
+      "recall": 0.6,
+      "f1": 0.6666666666666666
+    },
+    "projects": {
+      "correct": 0,
+      "missing": 0,
+      "incorrect": 0,
+      "unexpected": 0,
+      "expected_facts": 0,
+      "predicted_facts": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null
+    },
+    "education": {
+      "correct": 1,
+      "missing": 1,
+      "incorrect": 1,
+      "unexpected": 0,
+      "expected_facts": 3,
+      "predicted_facts": 2,
+      "precision": 0.5,
+      "recall": 0.3333333333333333,
+      "f1": 0.4
+    },
+    "skills": {
+      "correct": 16,
+      "missing": 0,
+      "incorrect": 0,
+      "unexpected": 0,
+      "expected_facts": 16,
+      "predicted_facts": 16,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "languages": {
+      "correct": 4,
+      "missing": 0,
+      "incorrect": 0,
+      "unexpected": 0,
+      "expected_facts": 4,
+      "predicted_facts": 4,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "certifications": {
+      "correct": 3,
+      "missing": 0,
+      "incorrect": 0,
+      "unexpected": 0,
+      "expected_facts": 3,
+      "predicted_facts": 3,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "training": {
+      "correct": 0,
+      "missing": 0,
+      "incorrect": 0,
+      "unexpected": 0,
+      "expected_facts": 0,
+      "predicted_facts": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null
+    }
+  },
+  "differences": [
+    {
+      "path": "personal_information.location",
+      "result": "incorrect",
+      "expected": "Hyderabad",
+      "actual": "Hyderabad – 500084"
+    },
+    {
+      "path": "personal_information.weblinks[0->0].platform",
+      "result": "missing",
+      "expected": "LinkedIn",
+      "actual": null
+    },
+    {
+      "path": "work_experience[0->0].employer",
+      "result": "incorrect",
+      "expected": "Cognizant Technology Solutions India Pvt. Ltd.",
+      "actual": "Cognizant Technology Solutions India Pvt. Ltd., Hyderabad"
+    },
+    {
+      "path": "work_experience[0->0].location",
+      "result": "missing",
+      "expected": "Hyderabad",
+      "actual": null
+    },
+    {
+      "path": "work_experience[1->1].employer",
+      "result": "incorrect",
+      "expected": "Infosys Limited",
+      "actual": "Infosys Limited, Bangalore"
+    },
+    {
+      "path": "work_experience[1->1].location",
+      "result": "missing",
+      "expected": "Bangalore",
+      "actual": null
+    },
+    {
+      "path": "work_experience[2->2].employer",
+      "result": "incorrect",
+      "expected": "Kakatiya Infosolutions Pvt. Ltd.",
+      "actual": "Kakatiya Infosolutions Pvt. Ltd., Secunderabad"
+    },
+    {
+      "path": "work_experience[2->2].location",
+      "result": "missing",
+      "expected": "Secunderabad",
+      "actual": null
+    },
+    {
+      "path": "education[0->0].dates.end",
+      "result": "missing",
+      "expected": "2011",
+      "actual": null
+    },
+    {
+      "path": "education[0->0].qualification",
+      "result": "incorrect",
+      "expected": "B.Tech (Mechanical)",
+      "actual": "B.Tech (Mechanical), 2011, 74.2%"
+    }
+  ],
+  "matching_review_required": true,
+  "matching_warnings": [
+    {
+      "path": "work_experience",
+      "reference_index": 0,
+      "prediction_index": 0,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    },
+    {
+      "path": "work_experience",
+      "reference_index": 1,
+      "prediction_index": 1,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    },
+    {
+      "path": "work_experience",
+      "reference_index": 2,
+      "prediction_index": 2,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    },
+    {
+      "path": "education",
+      "reference_index": 0,
+      "prediction_index": 0,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    }
+  ],
+  "provenance": {
+    "policy": "empty",
+    "correct": 0,
+    "missing": 0,
+    "incorrect": 0,
+    "unexpected": 5,
+    "expected_facts": 0,
+    "predicted_facts": 5,
+    "precision": 0.0,
+    "recall": null,
+    "f1": 0.0,
+    "differences": [
+      {
+        "path": "personal_information.source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "work_experience[0->0].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "work_experience[1->1].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "work_experience[2->2].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "education[0->0].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      }
+    ]
+  },
+  "content_review": {
+    "status": "pending",
+    "reference": [
+      {
+        "path": "summary",
+        "content": "Pega Lead Business Architect bringing 15+ yrs rolling out large-scale solutions for US public-sector, healthcare and BFSI clients from Indian delivery centres. Adept at converting policy plus market goals toward robust Pegasystems workflows, record handling, and rules engines to raise intake pace, adherence, and productivity.\n\nDeep hands-on knowledge of Pegasystems design tooling, Direct Capture practices, envisioning, process automation, decision engines, plus responsible machine intelligence with human review gates. Seasoned at executive partner management, coaching analyst groups, change control, plus bid-phase solutioning."
+      },
+      {
+        "path": "work_experience[0].details",
+        "content": [
+          "Owned full lifecycle results on Pegasystems solutions for a US state health-agency client under strict compliance norms.",
+          "Directed rollout of intake and vetting processes onto unified Pegasystems records and rules hubs, cutting turnaround by 27–40% with complete audit trails.",
+          "Facilitated Pegasystems envisioning and Direct Capture sessions with partners from operations, risk, compliance, and line units.",
+          "Established performance measures covering throughput, compliance conformance, and defect rework minimisation.",
+          "Implemented priority queuing and role-tailored process flows.",
+          "Leveraged Pegasystems design maps to secure upfront partner consensus.",
+          "Enabled responsible ML and Pega GenAI usage with governance controls.",
+          "Framed product objectives, theme groups, capabilities, and narratives mapped to compliance and rollout priorities.",
+          "Coached BA squads in Hyderabad and Bengaluru; supported RFP/bid-stage work."
+        ]
+      },
+      {
+        "path": "work_experience[1].details",
+        "content": [
+          "Facilitated Direct Capture workshops and refined scope details.",
+          "Managed product queue ordering and effort sizing.",
+          "Ran scrum events and served as domain expert.",
+          "Assisted user acceptance testing and QA.",
+          "Developed strong familiarity with Pegasystems methods, release norms, and large-scale solution patterns."
+        ]
+      },
+      {
+        "path": "work_experience[2].details",
+        "content": [
+          "Collected and assessed functional needs of co-operative bank users.",
+          "Converted needs into backlog narratives.",
+          "Assisted releases and QA for co-op bank clients (₹2,400 crore deposits)."
+        ]
+      },
+      {
+        "path": "education[0].details",
+        "content": [
+          "74.2%"
+        ]
+      },
+      {
+        "path": "additional_sections",
+        "content": [
+          {
+            "source_pages": [],
+            "heading": "AWARDS & RECOGNITION",
+            "text": "Rising Star Recognition\nKey Contributor"
+          }
+        ]
+      }
+    ],
+    "prediction": [
+      {
+        "path": "summary",
+        "content": "Pega Lead Business Architect bringing 15+ yrs rolling out large-scale solutions for US public-sector, healthcare and BFSI clients from Indian delivery centres. Adept at converting policy plus market goals toward robust Pegasystems workflows, record handling, and rules engines to raise intake pace, adherence, and productivity.\n\nDeep hands-on knowledge of Pegasystems design tooling, Direct Capture practices, envisioning, process automation, decision engines, plus responsible machine intelligence with human review gates. Seasoned at executive partner management, coaching analyst groups, change control, plus bid-phase solutioning."
+      },
+      {
+        "path": "work_experience[0].details",
+        "content": [
+          "Owned full lifecycle results on Pegasystems solutions for a US state health-agency client under strict compliance norms.",
+          "Directed rollout of intake and vetting processes onto unified Pegasystems records and rules hubs, cutting turnaround by 27–40% with complete audit trails.",
+          "Facilitated Pegasystems envisioning and Direct Capture sessions with partners from operations, risk, compliance, and line units.",
+          "Established performance measures covering throughput, compliance conformance, and defect rework minimisation.",
+          "Implemented priority queuing and role-tailored process flows.",
+          "Leveraged Pegasystems design maps to secure upfront partner consensus.",
+          "Enabled responsible ML and Pega GenAI usage with governance controls.",
+          "Framed product objectives, theme groups, capabilities, and narratives mapped to compliance and rollout priorities.",
+          "Coached BA squads in Hyderabad and Bengaluru; supported RFP/bid-stage work."
+        ]
+      },
+      {
+        "path": "work_experience[1].details",
+        "content": [
+          "Facilitated Direct Capture workshops and refined scope details.",
+          "Managed product queue ordering and effort sizing.",
+          "Ran scrum events and served as domain expert.",
+          "Assisted user acceptance testing and QA.",
+          "Developed strong familiarity with Pegasystems methods, release norms, and large-scale solution patterns."
+        ]
+      },
+      {
+        "path": "work_experience[2].details",
+        "content": [
+          "Collected and assessed functional needs of co-operative bank users.",
+          "Converted needs into backlog narratives.",
+          "Assisted releases and QA for co-op bank clients ( ₹2,400 crore deposits)."
+        ]
+      },
+      {
+        "path": "additional_sections",
+        "content": [
+          {
+            "source_pages": [],
+            "heading": null,
+            "text": "   Certified Pega Business Architect\n  TOGAF 9 Certified\n  SAFe Scrum Master"
+          },
+          {
+            "source_pages": [],
+            "heading": null,
+            "text": "   Rising Star Recognition – Infosys\n  Key Contributor – Cognizant"
+          }
+        ]
+      }
+    ],
+    "checklist": {
+      "preservation": {
+        "passed": null,
+        "notes": ""
+      },
+      "faithfulness": {
+        "passed": null,
+        "notes": ""
+      },
+      "placement": {
+        "passed": null,
+        "notes": ""
+      },
+      "duplication": {
+        "passed": null,
+        "notes": ""
+      }
+    }
+  },
+  "status": "evaluated"
+}

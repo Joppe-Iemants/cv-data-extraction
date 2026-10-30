@@ -1,0 +1,127 @@
+{
+  "personal_information": {
+    "full_name": "PAVEL SHOPENKO",
+    "headline": "VERKOPER",
+    "emails": [
+      "pavel.shopenko@mail.be"
+    ],
+    "phones": [
+      "0412 34 56 78"
+    ],
+    "location": "Handelsweg 26, 8880 Sint-Eloois-Winkel",
+    "details": [
+      "19 augustus 2005"
+    ]
+  },
+  "summary": "Ik ben een gemotiveerde en gedreven jonge professional met een passie voor de verkoop. De klant helpen om de juiste outfit te vinden: daar ga ik vol enthousiasme voor. Een tevreden klant geeft me energie en als deze dan later ook nog eens terugkomt, kan mijn dag helemaal niet meer stuk. Daarnaast ben ik vertrouwd met diverse kassasystemen, kan ik vlot omgaan met verschillende betalingsmethoden, en volg ik omruilingen en voorraad efficiënt op.",
+  "work_experience": [
+    {
+      "employer": "Boutique",
+      "role": "Verkoper",
+      "dates": {
+        "start": "10/2024",
+        "end": "nu"
+      },
+      "location": "Sint-Eloois-Winkel",
+      "details": [
+        "Klanten verwelkomen en adviseren, winkel openen en sluiten, winkelinrichting verzorgen, kassaverrichtingen, ..."
+      ]
+    },
+    {
+      "employer": "Productionplant",
+      "role": "Productiemedewerker",
+      "dates": {
+        "start": "07/2024",
+        "end": "08/2024"
+      },
+      "location": "Sint-Eloois-Winkel",
+      "details": [
+        "studentenjob"
+      ]
+    },
+    {
+      "employer": "Boutique",
+      "role": "Winkelmedewerker",
+      "dates": {
+        "start": "03/2024",
+        "end": "05/2024"
+      },
+      "location": "Sint-Eloois-Winkel",
+      "details": [
+        "stage",
+        "Rekken aanvullen, winkelinrichting verzorgen, klanten helpen, leveringen verwerken, ..."
+      ]
+    },
+    {
+      "employer": "Supermarkt",
+      "role": "Winkelmedewerker",
+      "dates": {
+        "start": "04/2023",
+        "end": "05/2023"
+      },
+      "location": "Sint-Eloois-Winkel",
+      "details": [
+        "stage",
+        "Rekken aanvullen, onderhoud winkel, producten prijzen, inspringen aan vleestoog, magazijnwerk, ..."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Beroepsschool Sint-Eloois-Winkel",
+      "qualification": "7de specialisatiejaar richting verkoop",
+      "dates": {
+        "start": "2023",
+        "end": "2024"
+      }
+    },
+    {
+      "institution": "Beroepsschool Sint-Eloois-Winkel",
+      "qualification": "BSO 3de graad richting verkoop",
+      "dates": {
+        "start": "2017",
+        "end": "2023"
+      }
+    }
+  ],
+  "skills": [
+    {
+      "name": "Klantvriendelijk"
+    },
+    {
+      "name": "Stipt"
+    },
+    {
+      "name": "Flexibel"
+    },
+    {
+      "name": "Zelfstandig"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Nederlands",
+      "proficiency": {
+        "text": "moedertaal"
+      }
+    },
+    {
+      "name": "Oekraïens",
+      "proficiency": {
+        "text": "moedertaal"
+      }
+    },
+    {
+      "name": "Engels",
+      "proficiency": {
+        "text": "goed"
+      }
+    },
+    {
+      "name": "Frans",
+      "proficiency": {
+        "text": "basiskennis"
+      }
+    }
+  ]
+}

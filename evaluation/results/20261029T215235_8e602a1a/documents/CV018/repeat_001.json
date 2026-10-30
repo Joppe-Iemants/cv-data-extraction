@@ -1,0 +1,604 @@
+{
+  "document_id": "CV018",
+  "repetition": 1,
+  "overall": {
+    "correct": 15,
+    "missing": 39,
+    "incorrect": 3,
+    "unexpected": 4,
+    "expected_facts": 57,
+    "predicted_facts": 22,
+    "precision": 0.6818181818181818,
+    "recall": 0.2631578947368421,
+    "f1": 0.379746835443038
+  },
+  "extraction_status": "completed",
+  "prediction_sha256": "6d9b3456f938240955171904e3db3587898087e278c34697d422c978b1be5523",
+  "json_valid": true,
+  "schema_valid": true,
+  "categories": {
+    "personal_information": {
+      "correct": 4,
+      "missing": 1,
+      "incorrect": 0,
+      "unexpected": 0,
+      "expected_facts": 5,
+      "predicted_facts": 4,
+      "precision": 1.0,
+      "recall": 0.8,
+      "f1": 0.8888888888888888
+    },
+    "work_experience": {
+      "correct": 0,
+      "missing": 18,
+      "incorrect": 0,
+      "unexpected": 0,
+      "expected_facts": 18,
+      "predicted_facts": 0,
+      "precision": null,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "projects": {
+      "correct": 0,
+      "missing": 6,
+      "incorrect": 0,
+      "unexpected": 0,
+      "expected_facts": 6,
+      "predicted_facts": 0,
+      "precision": null,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "education": {
+      "correct": 6,
+      "missing": 0,
+      "incorrect": 2,
+      "unexpected": 0,
+      "expected_facts": 8,
+      "predicted_facts": 8,
+      "precision": 0.75,
+      "recall": 0.75,
+      "f1": 0.75
+    },
+    "skills": {
+      "correct": 0,
+      "missing": 14,
+      "incorrect": 0,
+      "unexpected": 4,
+      "expected_facts": 14,
+      "predicted_facts": 4,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "languages": {
+      "correct": 5,
+      "missing": 0,
+      "incorrect": 1,
+      "unexpected": 0,
+      "expected_facts": 6,
+      "predicted_facts": 6,
+      "precision": 0.8333333333333334,
+      "recall": 0.8333333333333334,
+      "f1": 0.8333333333333334
+    },
+    "certifications": {
+      "correct": 0,
+      "missing": 0,
+      "incorrect": 0,
+      "unexpected": 0,
+      "expected_facts": 0,
+      "predicted_facts": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null
+    },
+    "training": {
+      "correct": 0,
+      "missing": 0,
+      "incorrect": 0,
+      "unexpected": 0,
+      "expected_facts": 0,
+      "predicted_facts": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null
+    }
+  },
+  "differences": [
+    {
+      "path": "personal_information.weblinks[1->1].platform",
+      "result": "missing",
+      "expected": "GitHub",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:0].dates.start",
+      "result": "missing",
+      "expected": "Summer 2019",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:0].employer",
+      "result": "missing",
+      "expected": "ETH Zurich",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:0].location",
+      "result": "missing",
+      "expected": "Zurich, CH",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:0].role",
+      "result": "missing",
+      "expected": "Student Research Assistant at Data Analytics Lab",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:1].dates.start",
+      "result": "missing",
+      "expected": "Summer 2017",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:1].employer",
+      "result": "missing",
+      "expected": "Imperial College London",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:1].location",
+      "result": "missing",
+      "expected": "London, UK",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:1].role",
+      "result": "missing",
+      "expected": "Research Intern at Intelligent Behaviour Understanding Group (iBUG)",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:2].dates.start",
+      "result": "missing",
+      "expected": "Summer 2016",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:2].employer",
+      "result": "missing",
+      "expected": "École Polytechnique Fédérale de Lausanne",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:2].location",
+      "result": "missing",
+      "expected": "Lausanne, CH",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:2].role",
+      "result": "missing",
+      "expected": "Research Intern at Data Intensive Applications and Systems Laboratory (DIAS)",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:3].dates.start",
+      "result": "missing",
+      "expected": "Spring 2018",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:3].employer",
+      "result": "missing",
+      "expected": "Middle East Technical University",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:3].role",
+      "result": "missing",
+      "expected": "Student Teaching Assistant",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:4].dates.start",
+      "result": "missing",
+      "expected": "Fall 2016",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:4].employer",
+      "result": "missing",
+      "expected": "Middle East Technical University",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:4].role",
+      "result": "missing",
+      "expected": "Student Teaching Assistant",
+      "actual": null
+    },
+    {
+      "path": "projects[reference:0].dates.start",
+      "result": "missing",
+      "expected": "2019",
+      "actual": null
+    },
+    {
+      "path": "projects[reference:0].name",
+      "result": "missing",
+      "expected": "eth-cs-notes",
+      "actual": null
+    },
+    {
+      "path": "projects[reference:0].skills[reference:0]",
+      "result": "missing",
+      "expected": "LaTeX/Markdown",
+      "actual": null
+    },
+    {
+      "path": "projects[reference:1].dates.start",
+      "result": "missing",
+      "expected": "2019",
+      "actual": null
+    },
+    {
+      "path": "projects[reference:1].name",
+      "result": "missing",
+      "expected": "bert-adv-embed",
+      "actual": null
+    },
+    {
+      "path": "projects[reference:1].skills[reference:0]",
+      "result": "missing",
+      "expected": "Python/Chainer",
+      "actual": null
+    },
+    {
+      "path": "education[0->0].qualification",
+      "result": "incorrect",
+      "expected": "M.S. in Computer Science",
+      "actual": "M.S. in Computer Science, GPA: 5.63/6.00"
+    },
+    {
+      "path": "education[1->1].qualification",
+      "result": "incorrect",
+      "expected": "B.S. in Computer Engineering",
+      "actual": "B.S. in Computer Engineering, GPA: 3.96/4.00 (ranked 2nd/190 in the dept.)"
+    },
+    {
+      "path": "skills[reference:0].name",
+      "result": "missing",
+      "expected": "Python",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:1].name",
+      "result": "missing",
+      "expected": "Matlab",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:2].name",
+      "result": "missing",
+      "expected": "C/C++",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:3].name",
+      "result": "missing",
+      "expected": "Java",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:4].name",
+      "result": "missing",
+      "expected": "PyTorch",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:5].name",
+      "result": "missing",
+      "expected": "TensorFlow",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:6].name",
+      "result": "missing",
+      "expected": "Keras",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:7].name",
+      "result": "missing",
+      "expected": "Chainer",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:8].name",
+      "result": "missing",
+      "expected": "LaTeX",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:9].name",
+      "result": "missing",
+      "expected": "Git",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:10].name",
+      "result": "missing",
+      "expected": "SQL",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:11].name",
+      "result": "missing",
+      "expected": "HTML/CSS",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:12].name",
+      "result": "missing",
+      "expected": "Jekyll",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:13].name",
+      "result": "missing",
+      "expected": "JavaScript",
+      "actual": null
+    },
+    {
+      "path": "skills[prediction:0].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Programming"
+    },
+    {
+      "path": "skills[prediction:1].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "M. Learning"
+    },
+    {
+      "path": "skills[prediction:2].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Tools/Techs"
+    },
+    {
+      "path": "skills[prediction:3].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Web"
+    },
+    {
+      "path": "languages[0->0].proficiency.text",
+      "result": "incorrect",
+      "expected": "Proficient",
+      "actual": "Proficient, TOEFL iBT score: 112/120"
+    }
+  ],
+  "matching_review_required": true,
+  "matching_warnings": [
+    {
+      "path": "education",
+      "reference_index": 0,
+      "prediction_index": 0,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    },
+    {
+      "path": "education",
+      "reference_index": 1,
+      "prediction_index": 1,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    }
+  ],
+  "provenance": {
+    "policy": "empty",
+    "correct": 0,
+    "missing": 0,
+    "incorrect": 0,
+    "unexpected": 3,
+    "expected_facts": 0,
+    "predicted_facts": 3,
+    "precision": 0.0,
+    "recall": null,
+    "f1": 0.0,
+    "differences": [
+      {
+        "path": "personal_information.source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "education[0->0].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "education[1->1].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      }
+    ]
+  },
+  "content_review": {
+    "status": "pending",
+    "reference": [
+      {
+        "path": "work_experience[0].details",
+        "content": [
+          "Interpretability in adversarial word embeddings for text",
+          "Adapted the codebase for adversarial attacks on embeddings, conducted qualitative and quantitative analyses, worked on adversarial text generation via embedding projection"
+        ]
+      },
+      {
+        "path": "work_experience[1].details",
+        "content": [
+          "A novel audiovisual dataset for normal, whispered and silent speech",
+          "Created tools for data collection and analysis, analysed the collected data, implemented fixes, worked on the reimplementation of the existing network in a different library"
+        ]
+      },
+      {
+        "path": "work_experience[2].details",
+        "content": [
+          "Microarchitectural analysis of OLAP database systems",
+          "Examined the changes in microarchitectural utilization of different column-oriented database systems on distinct workloads"
+        ]
+      },
+      {
+        "path": "work_experience[3].details",
+        "content": [
+          "Programming Language Concepts (CENG 242)"
+        ]
+      },
+      {
+        "path": "work_experience[4].details",
+        "content": [
+          "Introduction to C Programming (CENG 230)"
+        ]
+      },
+      {
+        "path": "projects[0].details",
+        "content": [
+          "Lecture notes/cheatsheets for Master’s in CS"
+        ]
+      },
+      {
+        "path": "projects[1].details",
+        "content": [
+          "Adversarial perturbations on BERT word embeddings"
+        ]
+      },
+      {
+        "path": "education[0].details",
+        "content": [
+          "GPA: 5.63/6.00",
+          "Thesis: “Learning in-the-wild Temporal 3D Pose Estimation from MoCap Data”",
+          "Zurich, CH"
+        ]
+      },
+      {
+        "path": "education[1].details",
+        "content": [
+          "GPA: 3.96/4.00 (ranked 2nd/190 in the dept.)",
+          "Thesis: “AlgoTrade: A web-based algorithmic trading and backtesting framework”",
+          "Ankara, TR"
+        ]
+      },
+      {
+        "path": "languages[0].details",
+        "content": [
+          "TOEFL iBT score: 112/120",
+          "GRE: V: 162/170, Q: 170/170, AW: 4.0/6.0"
+        ]
+      },
+      {
+        "path": "additional_sections",
+        "content": [
+          {
+            "source_pages": [],
+            "heading": "Publications",
+            "text": "S. Petridis, J. Shen, D. Cetin, and M. Pantic, “Visual-Only Recognition of Normal, Whispered and Silent Speech”, in 2018 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Apr. 2018, pp. 6219–6223."
+          },
+          {
+            "source_pages": [],
+            "heading": "Scholarships and Awards",
+            "text": "• ETH Zurich Direct Doctorate Scholarship 2018–2020\n• 3rd place in METU Ceng Demo Day 2018, final year project exhibition of the department 2018\n• Erasmus+ Traineeship Scholarship 2017\n• Summer@EPFL Scholarship 2016\n• METU Development Foundation Scholarship for Outstanding Success 2013–2018\n• Merit based Prime Ministry Scholarship 2013–2018\n• Isbank Altın Gençler Award and mobility grant 2013\n• Ranked 4th among 1.9 million participants nationwide in Undergraduate Placement Examination (LYS) 2013"
+          },
+          {
+            "source_pages": [],
+            "heading": "Volunteering & Mentoring",
+            "text": "• Career Mentor at Crossing Paths 2017–Current\nHelping undergraduate students on their career goals, also took part in their Career Chats program\n• Master Helper at ETH VIS Welcome Day 2019 Fall 2019\nMentored newcomer Master students, gave a campus tour and aided them in Study Planning Workshop\n• C Programming Language Tutor at IEEE METU Student Branch Fall 2016\nAn introduction to programming and a tutorial for the school courses for non-CS students\n• Official Turkish localization of the video game Human Resource Machine Winter 2015\nA puzzle game by Tomorrow Corporation, simulating a simple computer in an office environment"
+          }
+        ]
+      }
+    ],
+    "prediction": [
+      {
+        "path": "education[0].details",
+        "content": [
+          "– Thesis: “Learning in-the-wild Temporal 3D Pose Estimation from MoCap Data”"
+        ]
+      },
+      {
+        "path": "education[1].details",
+        "content": [
+          "– Thesis: “AlgoTrade: A web-based algorithmic trading and backtesting framework”"
+        ]
+      },
+      {
+        "path": "skills[0].details",
+        "content": [
+          "Python, Matlab, C/C++, Java"
+        ]
+      },
+      {
+        "path": "skills[1].details",
+        "content": [
+          "PyTorch, TensorFlow, Keras, Chainer"
+        ]
+      },
+      {
+        "path": "skills[2].details",
+        "content": [
+          "LaTeX, Git, SQL"
+        ]
+      },
+      {
+        "path": "skills[3].details",
+        "content": [
+          "HTML/CSS, Jekyll, JavaScript"
+        ]
+      },
+      {
+        "path": "additional_sections",
+        "content": [
+          {
+            "source_pages": [],
+            "heading": null,
+            "text": "Publications\n\n[1]  S. Petridis, J. Shen, D. Cetin, and M. Pantic, “Visual-Only Recognition of Normal, Whispered and\n     Silent Speech”, in 2018 IEEE International Conference on Acoustics, Speech and Signal Processing\n    (ICASSP), Apr. 2018, pp. 6219–6223."
+          },
+          {
+            "source_pages": [],
+            "heading": null,
+            "text": "Scholarships and Awards\n\n• ETH Zurich Direct Doctorate Scholarship                                                         2018–2020\n\n• 3rd place in METU Ceng Demo Day 2018, final year project exhibition of the department               2018\n\n• Erasmus+ Traineeship Scholarship                                                                2017\n\n• Summer@EPFL Scholarship                                                                     2016\n\n• METU Development Foundation Scholarship for Outstanding Success                                 2013–2018\n\n• Merit based Prime Ministry Scholarship                                                           2013–2018\n\n• Isbank Altın Gençler Award and mobility grant                                                    2013\n\n• Ranked 4th among 1.9 million participants nationwide in Undergraduate Placement Examination (LYS)   2013"
+          },
+          {
+            "source_pages": [],
+            "heading": null,
+            "text": "Volunteering & Mentoring\n\n• Career Mentor at Crossing Paths                                                              2017–Current\n   Helping undergraduate students on their career goals, also took part in their Career Chats program\n\n• Master Helper at ETH VIS Welcome Day 2019                                                                 Fall 2019\n   Mentored newcomer Master students, gave a campus tour and aided them in Study Planning Workshop\n\n• C Programming Language Tutor at IEEE METU Student Branch                                             Fall 2016\n  An introduction to programming and a tutorial for the school courses for non-CS students\n\n• Official Turkish localization of the video game Human Resource Machine                           Winter 2015\n  A puzzle game by Tomorrow Corporation, simulating a simple computer in an office environment"
+          }
+        ]
+      }
+    ],
+    "checklist": {
+      "preservation": {
+        "passed": null,
+        "notes": ""
+      },
+      "faithfulness": {
+        "passed": null,
+        "notes": ""
+      },
+      "placement": {
+        "passed": null,
+        "notes": ""
+      },
+      "duplication": {
+        "passed": null,
+        "notes": ""
+      }
+    }
+  },
+  "status": "evaluated"
+}

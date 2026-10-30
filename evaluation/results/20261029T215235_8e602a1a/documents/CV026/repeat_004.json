@@ -1,0 +1,623 @@
+{
+  "document_id": "CV026",
+  "repetition": 4,
+  "overall": {
+    "correct": 40,
+    "missing": 14,
+    "incorrect": 9,
+    "unexpected": 26,
+    "expected_facts": 63,
+    "predicted_facts": 75,
+    "precision": 0.5333333333333333,
+    "recall": 0.6349206349206349,
+    "f1": 0.5797101449275363
+  },
+  "extraction_status": "completed",
+  "prediction_sha256": "03c3d459c02a792d3285c33e416393fca9f5d8145db2b878cb02a34926397489",
+  "json_valid": true,
+  "schema_valid": true,
+  "categories": {
+    "personal_information": {
+      "correct": 2,
+      "missing": 2,
+      "incorrect": 0,
+      "unexpected": 1,
+      "expected_facts": 4,
+      "predicted_facts": 3,
+      "precision": 0.6666666666666666,
+      "recall": 0.5,
+      "f1": 0.5714285714285714
+    },
+    "work_experience": {
+      "correct": 13,
+      "missing": 0,
+      "incorrect": 7,
+      "unexpected": 16,
+      "expected_facts": 20,
+      "predicted_facts": 36,
+      "precision": 0.3611111111111111,
+      "recall": 0.65,
+      "f1": 0.4642857142857143
+    },
+    "projects": {
+      "correct": 0,
+      "missing": 0,
+      "incorrect": 0,
+      "unexpected": 0,
+      "expected_facts": 0,
+      "predicted_facts": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null
+    },
+    "education": {
+      "correct": 6,
+      "missing": 3,
+      "incorrect": 0,
+      "unexpected": 3,
+      "expected_facts": 9,
+      "predicted_facts": 9,
+      "precision": 0.6666666666666666,
+      "recall": 0.6666666666666666,
+      "f1": 0.6666666666666666
+    },
+    "skills": {
+      "correct": 14,
+      "missing": 9,
+      "incorrect": 0,
+      "unexpected": 2,
+      "expected_facts": 23,
+      "predicted_facts": 16,
+      "precision": 0.875,
+      "recall": 0.6086956521739131,
+      "f1": 0.717948717948718
+    },
+    "languages": {
+      "correct": 0,
+      "missing": 0,
+      "incorrect": 0,
+      "unexpected": 0,
+      "expected_facts": 0,
+      "predicted_facts": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null
+    },
+    "certifications": {
+      "correct": 5,
+      "missing": 0,
+      "incorrect": 2,
+      "unexpected": 4,
+      "expected_facts": 7,
+      "predicted_facts": 11,
+      "precision": 0.45454545454545453,
+      "recall": 0.7142857142857143,
+      "f1": 0.5555555555555556
+    },
+    "training": {
+      "correct": 0,
+      "missing": 0,
+      "incorrect": 0,
+      "unexpected": 0,
+      "expected_facts": 0,
+      "predicted_facts": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null
+    }
+  },
+  "differences": [
+    {
+      "path": "personal_information.emails[reference:0]",
+      "result": "missing",
+      "expected": "kingjohn315@gmail.com",
+      "actual": null
+    },
+    {
+      "path": "personal_information.phones[reference:0]",
+      "result": "missing",
+      "expected": "+1 (719) 555-0180",
+      "actual": null
+    },
+    {
+      "path": "personal_information.weblinks[prediction:0].url",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "LinkedIn Profile"
+    },
+    {
+      "path": "work_experience[0->0].employer",
+      "result": "incorrect",
+      "expected": "U.S. Army, 10th Special Forces Group",
+      "actual": "U.S. Army"
+    },
+    {
+      "path": "work_experience[0->0].skills[prediction:0]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Program Delivery"
+    },
+    {
+      "path": "work_experience[0->0].skills[prediction:1]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Operations Leadership"
+    },
+    {
+      "path": "work_experience[0->0].skills[prediction:2]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Resilience Planning"
+    },
+    {
+      "path": "work_experience[0->0].skills[prediction:3]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Strategic Roadmapping"
+    },
+    {
+      "path": "work_experience[0->0].skills[prediction:4]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Vendor Negotiations"
+    },
+    {
+      "path": "work_experience[0->0].skills[prediction:5]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Budget control"
+    },
+    {
+      "path": "work_experience[0->0].skills[prediction:6]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Risk Reduction"
+    },
+    {
+      "path": "work_experience[0->0].skills[prediction:7]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Quality Assurance"
+    },
+    {
+      "path": "work_experience[1->1].employer",
+      "result": "incorrect",
+      "expected": "U.S. Army, Syracuse University",
+      "actual": "U.S. Army"
+    },
+    {
+      "path": "work_experience[1->1].location",
+      "result": "incorrect",
+      "expected": "Syracuse, NY",
+      "actual": "Syracuse University, Syracuse, NY"
+    },
+    {
+      "path": "work_experience[2->2].employer",
+      "result": "incorrect",
+      "expected": "U.S. Army, University of Virginia",
+      "actual": "U.S. Army"
+    },
+    {
+      "path": "work_experience[2->2].location",
+      "result": "incorrect",
+      "expected": "Charlottesville, VA",
+      "actual": "University of Virginia, Charlottesville, VA"
+    },
+    {
+      "path": "work_experience[3->3].employer",
+      "result": "incorrect",
+      "expected": "U.S. Army, 82nd Sustainment Brigade",
+      "actual": "U.S. Army"
+    },
+    {
+      "path": "work_experience[3->3].location",
+      "result": "incorrect",
+      "expected": "Fort Bragg, NC",
+      "actual": "82nd Sustainment Brigade, Fort Bragg, NC"
+    },
+    {
+      "path": "work_experience[3->3].skills[prediction:0]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "People Leadership"
+    },
+    {
+      "path": "work_experience[3->3].skills[prediction:1]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Supply Chain Operations"
+    },
+    {
+      "path": "work_experience[3->3].skills[prediction:2]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Cross-team Coordination"
+    },
+    {
+      "path": "work_experience[3->3].skills[prediction:3]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Team Relationship Building"
+    },
+    {
+      "path": "work_experience[3->3].skills[prediction:4]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Critical & Analytical Skills"
+    },
+    {
+      "path": "work_experience[3->3].skills[prediction:5]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Problem Solving & Decisions"
+    },
+    {
+      "path": "work_experience[3->3].skills[prediction:6]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Cross-cultural skills"
+    },
+    {
+      "path": "work_experience[3->3].skills[prediction:7]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Inclusion Leadership"
+    },
+    {
+      "path": "education[0->0].dates.end",
+      "result": "missing",
+      "expected": "2020",
+      "actual": null
+    },
+    {
+      "path": "education[0->0].dates.start",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "2020"
+    },
+    {
+      "path": "education[1->1].dates.end",
+      "result": "missing",
+      "expected": "2019",
+      "actual": null
+    },
+    {
+      "path": "education[1->1].dates.start",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "2019"
+    },
+    {
+      "path": "education[2->2].dates.end",
+      "result": "missing",
+      "expected": "2010",
+      "actual": null
+    },
+    {
+      "path": "education[2->2].dates.start",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "2010"
+    },
+    {
+      "path": "skills[reference:7].name",
+      "result": "missing",
+      "expected": "Materials Planning",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:13].name",
+      "result": "missing",
+      "expected": "Learning & Development",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:14].name",
+      "result": "missing",
+      "expected": "Account Management & Client Relations",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:15].name",
+      "result": "missing",
+      "expected": "Business Software",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:16].name",
+      "result": "missing",
+      "expected": "Interpersonal & Communication",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:19].name",
+      "result": "missing",
+      "expected": "Presentations & Proposals",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:20].name",
+      "result": "missing",
+      "expected": "Google Workspace",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:21].name",
+      "result": "missing",
+      "expected": "Confluence",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:22].name",
+      "result": "missing",
+      "expected": "SAP ERP",
+      "actual": null
+    },
+    {
+      "path": "skills[prediction:14].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Cross-cultural skills"
+    },
+    {
+      "path": "skills[prediction:15].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Inclusion Leadership"
+    },
+    {
+      "path": "certifications[0->0].date",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "2023"
+    },
+    {
+      "path": "certifications[0->0].name",
+      "result": "incorrect",
+      "expected": "LSSGB, Lean Six Sigma Green Belt",
+      "actual": "LSSGB"
+    },
+    {
+      "path": "certifications[1->1].date",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "2023"
+    },
+    {
+      "path": "certifications[1->1].name",
+      "result": "incorrect",
+      "expected": "PMI-ACP, Agile Certified Practitioner",
+      "actual": "PMI-ACP"
+    },
+    {
+      "path": "certifications[2->2].date",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "estimated completion October 2024"
+    },
+    {
+      "path": "certifications[3->3].date",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Valid expires 2025"
+    }
+  ],
+  "matching_review_required": true,
+  "matching_warnings": [
+    {
+      "path": "work_experience",
+      "reference_index": 0,
+      "prediction_index": 0,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    },
+    {
+      "path": "work_experience",
+      "reference_index": 1,
+      "prediction_index": 1,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    },
+    {
+      "path": "work_experience",
+      "reference_index": 2,
+      "prediction_index": 2,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    },
+    {
+      "path": "work_experience",
+      "reference_index": 3,
+      "prediction_index": 3,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    },
+    {
+      "path": "certifications",
+      "reference_index": 0,
+      "prediction_index": 0,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    },
+    {
+      "path": "certifications",
+      "reference_index": 1,
+      "prediction_index": 1,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    }
+  ],
+  "provenance": {
+    "policy": "empty",
+    "correct": 0,
+    "missing": 0,
+    "incorrect": 0,
+    "unexpected": 8,
+    "expected_facts": 0,
+    "predicted_facts": 8,
+    "precision": 0.0,
+    "recall": null,
+    "f1": 0.0,
+    "differences": [
+      {
+        "path": "personal_information.source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "work_experience[0->0].source_pages",
+        "result": "unexpected",
+        "page": 2,
+        "count": 1
+      },
+      {
+        "path": "work_experience[1->1].source_pages",
+        "result": "unexpected",
+        "page": 2,
+        "count": 1
+      },
+      {
+        "path": "work_experience[2->2].source_pages",
+        "result": "unexpected",
+        "page": 2,
+        "count": 1
+      },
+      {
+        "path": "work_experience[3->3].source_pages",
+        "result": "unexpected",
+        "page": 2,
+        "count": 1
+      },
+      {
+        "path": "education[0->0].source_pages",
+        "result": "unexpected",
+        "page": 3,
+        "count": 1
+      },
+      {
+        "path": "education[1->1].source_pages",
+        "result": "unexpected",
+        "page": 3,
+        "count": 1
+      },
+      {
+        "path": "education[2->2].source_pages",
+        "result": "unexpected",
+        "page": 3,
+        "count": 1
+      }
+    ]
+  },
+  "content_review": {
+    "status": "pending",
+    "reference": [
+      {
+        "path": "summary",
+        "content": "Supply chain leader with 23 years across strategy, operations planning, sourcing, budgeting, and program/project delivery. Served in the U.S. Army as a Logistics Officer. Proven people manager driving admin and org change, meeting targets, applying best practice, and improving processes. Skilled communicator with strong organization and presenting skills, focused on client experience. Background includes an MS in Supply Chain Management and a PMI-ACP, now working toward the PMP. Holds active Top Secret clearance."
+      },
+      {
+        "path": "work_experience[0].details",
+        "content": [
+          "Directed end-to-end logistics for a Special Operations unit of 2,260 across five elements, sustaining global readiness without supply-driven delays.",
+          "Ran day-to-day logistics with 7 program leads overseeing compliance (ITAR/EAR), sourcing and purchasing, logistics moves, vehicle upkeep, inventory control, and asset management. Oversaw reviews that assigned financial liability for more than $4.4M in lost or damaged government assets over two years.",
+          "Orchestrated multimode freight using internal, strategic, and 3PL providers across road, maritime, and air networks. Used TMS tools (GATES, ICODES) and an SAP-backed logistics ERP (GCSS).",
+          "Reviewed OKRs each day to steer operations, ensure regulatory compliance, and deliver reliable, agile logistics support. Drove operational excellence that cut overhead, raised customer satisfaction, and simplified workflows, boosting scores 17% and saving $1M+ per year.",
+          "Engaged partners and vendors every day to meet targets and uphold customer satisfaction. Worked with the comptroller on deploying the $13.0M annual budget, aligning funding sources, methods, and controls.",
+          "Served as a direct report to the Commander. Cultivated strong stakeholder ties to advance the Commander’s vision, rolling out systems that aligned teams to enterprise goals. Also led Commander-sponsored initiatives and handled leadership communications.",
+          "Lead Program Manager for a 20-program portfolio advancing strategic goals with a $2.0M annual budget.",
+          "Coached, evaluated, and guided 9 cross-functional PMs, with all advancing to higher-responsibility roles. Advised eight units that went on to win multiple enterprise and defense logistics awards in recent fiscal years.",
+          "Planned and ran joint training across six directorates and 444+ staff over 580 square miles, stress-testing systems in conflict scenarios and raising critical task proficiency by 27% with zero injuries or losses."
+        ]
+      },
+      {
+        "path": "work_experience[3].details",
+        "content": [
+          "Directed a 172-person, five-specialty team delivering parachutes to six organizations serving 7,504+ personnel within the 82nd Airborne Division. Accountable for workforce discipline, well-being, morale, and professional growth.",
+          "Counseled senior leaders on $1.1M in parachute ops, innovation, safety, output, and use while sustaining 97% readiness, 79% safety, and delivering 20,042+ defect-free canopies.",
+          "Converted stakeholder feedback into programs that met goals, lifted morale, boosted output by 27%, and cut misconduct by 38% over 15 months.",
+          "Drove org redesign to minimize customer impact over six months and advised executives on disposing $667,236+ in excess assets, avoiding large recurring maintenance costs."
+        ]
+      },
+      {
+        "path": "additional_sections",
+        "content": [
+          {
+            "source_pages": [],
+            "heading": "HONORS & RECOGNITIONS",
+            "text": "Bronze Star Medal\nMeritorious Service Medal\nArmy Commendation Medal\nArmy Achievement Medal"
+          },
+          {
+            "source_pages": [],
+            "heading": "TECHNICAL STRENGTHS",
+            "text": "Google Workspace\nConfluence\nSAP ERP"
+          }
+        ]
+      }
+    ],
+    "prediction": [
+      {
+        "path": "personal_information.details",
+        "content": [
+          "+1 (719) 555-0180",
+          "kingjohn315@gmail.com"
+        ]
+      },
+      {
+        "path": "summary",
+        "content": "Supply chain leader with 23 years across strategy, operations planning, sourcing, budgeting, and program/project delivery. Served in the U.S. Army as a Logistics Officer. Proven people manager driving admin and org change, meeting targets, applying best practice, and improving processes. Skilled communicator with strong organization and presenting skills, focused on client experience. Background includes an MS in Supply Chain Management and a PMI-ACP, now working toward the PMP. Holds active Top Secret clearance."
+      },
+      {
+        "path": "work_experience[0].details",
+        "content": [
+          "Directed end-to-end logistics for a Special Operations unit of 2,260 across five elements, sustaining global readiness without supply-driven delays.",
+          "Ran day-to-day logistics with 7 program leads overseeing compliance (ITAR/EAR), sourcing and purchasing, logistics moves, vehicle upkeep, inventory control, and asset management. Oversaw reviews that assigned financial liability for more than $4.4M in lost or damaged government assets over two years.",
+          "Orchestrated multimode freight using internal, strategic, and 3PL providers across road, maritime, and air networks. Used TMS tools (GATES, ICODES) and an SAP-backed logistics ERP (GCSS).",
+          "Reviewed OKRs each day to steer operations, ensure regulatory compliance, and deliver reliable, agile logistics support. Drove operational excellence that cut overhead, raised customer satisfaction, and simplified workflows, boosting scores 17% and saving $1M+ per year.",
+          "Engaged partners and vendors every day to meet targets and uphold customer satisfaction. Worked with the comptroller on deploying the $13.0M annual budget, aligning funding sources, methods, and controls.",
+          "Served as a direct report to the Commander. Cultivated strong stakeholder ties to advance the Commander’s vision, rolling out systems that aligned teams to enterprise goals. Also led Commander-sponsored initiatives and handled leadership communications.",
+          "Lead Program Manager for a 20-program portfolio advancing strategic goals with a $2.0M annual budget.",
+          "Coached, evaluated, and guided 9 cross-functional PMs, with all advancing to higher-responsibility roles. Advised eight units that went on to win multiple enterprise and defense logistics awards in recent fiscal years.",
+          "Planned and ran joint training across six directorates and 444+ staff over 580 square miles, stress-testing systems in conflict scenarios and raising critical task proficiency by 27% with zero injuries or losses."
+        ]
+      },
+      {
+        "path": "work_experience[3].details",
+        "content": [
+          "Directed a 172-person, five-specialty team delivering parachutes to six organizations serving 7,504+ personnel within the 82nd Airborne Division. Accountable for workforce discipline, well-being, morale, and professional growth.",
+          "Counseled senior leaders on $1.1M in parachute ops, innovation, safety, output, and use while sustaining 97% readiness, 79% safety, and delivering 20,042+ defect-free canopies.",
+          "Converted stakeholder feedback into programs that met goals, lifted morale, boosted output by 27%, and cut misconduct by 38% over 15 months.",
+          "Drove org redesign to minimize customer impact over six months and advised executives on disposing $667,236+ in excess assets, avoiding large recurring maintenance costs."
+        ]
+      },
+      {
+        "path": "additional_sections",
+        "content": [
+          {
+            "source_pages": [],
+            "heading": null,
+            "text": "Google Workspace | Confluence | SAP ERP"
+          },
+          {
+            "source_pages": [],
+            "heading": null,
+            "text": "Bronze Star Medal, 2004, 2009\nMeritorious Service Medal, 2017, 2019, 2023\nArmy Commendation Medal, 2005, 2007, 2008, 2009, 2014\nArmy Achievement Medal, 2001, 2002, 2003, 2004, 2005, 2006"
+          }
+        ]
+      }
+    ],
+    "checklist": {
+      "preservation": {
+        "passed": null,
+        "notes": ""
+      },
+      "faithfulness": {
+        "passed": null,
+        "notes": ""
+      },
+      "placement": {
+        "passed": null,
+        "notes": ""
+      },
+      "duplication": {
+        "passed": null,
+        "notes": ""
+      }
+    }
+  },
+  "status": "evaluated"
+}

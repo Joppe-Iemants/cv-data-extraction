@@ -1,0 +1,128 @@
+{
+  "personal_information": {
+    "full_name": "Faiz Admani",
+    "headline": "ADMINISTRATIEF MEDEWERKER",
+    "emails": [
+      "faiz.admani@mail.be"
+    ],
+    "phones": [
+      "0412 345 678"
+    ],
+    "location": "Archiefplein 26, 2811 Leest",
+    "weblinks": [
+      {
+        "url": "Faiz Admani",
+        "platform": "LinkedIn"
+      }
+    ],
+    "details": [
+      "17.02.1987",
+      "Rijbewijs B"
+    ]
+  },
+  "summary": "Met meer dan 10 jaar ervaring in administratie breng ik structuur en overzicht in elke werkdag. Ik ben goed in documentbeheer, planning en klantencontact en haal plezier uit het stroomlijnen van complexe processen. Dankzij mijn oog voor detail en mijn systematische aanpak handel ik dossiers correct af en haal ik altijd mijn deadlines.",
+  "work_experience": [
+    {
+      "employer": "Lijstermans Administratie",
+      "role": "Administratief bediende",
+      "dates": {
+        "start": "2017",
+        "end": "heden"
+      },
+      "location": "Leest",
+      "details": [
+        "Samenstellen en beheren van klantendossiers.",
+        "Opmaken van verslagen, actieplannen, ...",
+        "Plannen en organiseren van afspraken, vergaderingen en evenementen.",
+        "Zakenreizen coördineren en agenda’s van senior medewerkers beheren."
+      ]
+    },
+    {
+      "employer": "Tellers & Partners",
+      "role": "Balie + administratief medewerker",
+      "dates": {
+        "start": "2013",
+        "end": "2017"
+      },
+      "location": "Letterhoutem",
+      "details": [
+        "Klanten en bezoekers onthalen.",
+        "Telefonische oproepen afhandelen, correspondentie verwerken (post + digitaal).",
+        "Digitale en fysieke archieven beheren.",
+        "Bestellingen verwerken en de voorraad opvolgen.",
+        "Opstellen van diverse rapporten, verslagen en presentaties."
+      ]
+    },
+    {
+      "employer": "Provinciale hogeschool",
+      "role": "Onderhoudsmedewerker",
+      "dates": {
+        "start": "09.2010",
+        "end": "06.2012"
+      }
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universiteit Punjab, Pakistan",
+      "qualification": "Master onderwijswetenschappen",
+      "dates": {
+        "end": "2010"
+      },
+      "details": [
+        "Gelijkgesteld met bachelordiploma NARIC-Vlaanderen"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Data-invoer"
+    },
+    {
+      "name": "MS Office"
+    },
+    {
+      "name": "Agendabeheer"
+    },
+    {
+      "name": "Exact Online"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Nederlands"
+    },
+    {
+      "name": "Engels"
+    },
+    {
+      "name": "Urdu"
+    },
+    {
+      "name": "Duits"
+    }
+  ],
+  "training": [
+    {
+      "name": "Administratief medewerker",
+      "provider": "VDAB",
+      "dates": {
+        "end": "2013"
+      }
+    },
+    {
+      "name": "Intensieve cursussen Nederlands",
+      "provider": "Universiteit Antwerpen + basiseducatie",
+      "dates": {
+        "start": "2011",
+        "end": "2012"
+      }
+    }
+  ],
+  "additional_sections": [
+    {
+      "heading": "Referenties",
+      "text": "Mevrouw Ordermans\nHR-verantwoordelijke bij Lijstermans Administratie | 0423 456789"
+    }
+  ]
+}

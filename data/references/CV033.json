@@ -1,0 +1,130 @@
+{
+  "personal_information": {
+    "full_name": "MOHANA KUMARI",
+    "emails": [
+      "Mkumari@example.com"
+    ],
+    "phones": [
+      "7208762147"
+    ],
+    "location": "Hyderabad, India"
+  },
+  "summary": "- Oracle Fusion SCM Functional Consultant with 3+ years of experience delivering end-to-end Oracle Fusion implementations, integrations, and production support.\n- Proven expertise across Order Management (OM), Inventory (INV), Procurement (P2P), DOO, Pricing, SSP, Supplier portal, and integrations, with hands on experience in data migration (FDBI, ADFDI), OTBI reporting, UAT leadership, and post go live stabilization.\n- Recognized for driving business outcomes, reducing operational issues, accelerating order cycles, and ensuring zero defect deployments through rigorous testing and stakeholder collaboration.\n- Detailed knowledge and Hands on experience of Oracle Fusion Supply chain Modules Procurement, Order Management, Inventory, Product Management.\n- Excellent written, oral, visual and communication skills.\n- Extensive experience in creating knowledge documents.\n- Productive in both team based and self managed projects.\n- Professional at managing priorities, learning new concepts quickly, and building strong relationships with colleagues and clients. Currently seeking roles in Consulting / Implementation role to leverage their expertise and problem solving skills.",
+  "work_experience": [
+    {
+      "employer": "LTM",
+      "role": "senior Consultant - package Implementation",
+      "dates": {
+        "start": "Jan 2023",
+        "end": "July 2026"
+      }
+    },
+    {
+      "employer": "ONGC India private Limited",
+      "role": "senior Medical coder",
+      "dates": {
+        "start": "Nov 2021",
+        "end": "Oct 2022"
+      }
+    },
+    {
+      "employer": "Global solutions",
+      "role": "senior Medical coding Analyst",
+      "dates": {
+        "start": "Sep 2021",
+        "end": "Sep 2021"
+      }
+    }
+  ],
+  "projects": [
+    {
+      "name": "NWC (National Water Company)",
+      "dates": {
+        "start": "Jan 2025",
+        "end": "Feb 2026"
+      },
+      "details": [
+        "Implemented Oracle Fusion SCM for aviation operations, covering P2P, O2C, Dropship, Back-to-Back, and RMA cycles",
+        "Designed and configured orchestration rules, including SSD pause logic when on-hand quality falls short.",
+        "Built and supported CRP, SIT, UAT, and production instances, ensuring controlled system progression",
+        "Supported Blue yonder WMS integration via Mulesoft, handling field mapping and data exchange validations",
+        "Conducted user training sessions, enabling fast adoption across business teams",
+        "Technology & tools: Oracle Fusion Applications, SQL Developer."
+      ]
+    },
+    {
+      "name": "Onsemi",
+      "dates": {
+        "start": "Jun 2024",
+        "end": "Dec 2024"
+      },
+      "details": [
+        "Led end-to-end functional delivery for SCM modules, aligning Oracle Fusion capabilities with manufacturing business processes",
+        "Conducted Fit-gap analysis and designed future state processes, reduced manual interventions by 30%.",
+        "Configured inventory, Procurement, and OM modules to support Streamlined D2C & P2P flow",
+        "Supported UAT and go-live stabilization, ensuring zero business disruption during deployment.",
+        "Technology & Tools: Oracle Fusion Applications, SQL Developer"
+      ]
+    },
+    {
+      "name": "Quadien",
+      "dates": {
+        "start": "Feb 2023",
+        "end": "May 2024"
+      },
+      "details": [
+        "provided production support, resolving PO, requisition, supplier and OM issues within SLA.",
+        "Led enhancement initiatives, configuring workflows and business rules to meet evolving business needs.",
+        "Conducted functional and regression testing, improving release quality and reducing post-deployment defects.",
+        "Delivered P2P and O2C demos and training sessions for business and IT stakeholders.",
+        "Technology & tools: Oracle Fusion Applications, SQL Developer."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Dr. NTR University of Health sciences",
+      "qualification": "B.Sc (Nursing)",
+      "dates": {
+        "end": "2013"
+      }
+    },
+    {
+      "institution": "Board of Intermediate Education, AP",
+      "qualification": "Intermediate",
+      "dates": {
+        "end": "2009"
+      }
+    },
+    {
+      "institution": "Board of Secondary Education, AP",
+      "qualification": "10th Grade",
+      "dates": {
+        "end": "2007"
+      }
+    }
+  ],
+  "skills": [
+    {
+      "name": "Oracle Fusion Supply chain Management"
+    },
+    {
+      "name": "oracle SQL"
+    },
+    {
+      "name": "R13"
+    },
+    {
+      "name": "Oracle Fusion Applications"
+    },
+    {
+      "name": "SQL Developer"
+    }
+  ],
+  "additional_sections": [
+    {
+      "heading": "CORE COMPONENTS",
+      "text": "Integration: Hands on experience with Mulesoft for WMS integrations.\nLeadership: Proven track record in leading UAT and end-to-end functional delivery.\nTraining: Conducted extensive user training to accelerate business adoption."
+    }
+  ]
+}

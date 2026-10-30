@@ -1,0 +1,95 @@
+{
+  "personal_information": {
+    "full_name": "Boris Rein",
+    "headline": "SCHOONMAKER",
+    "emails": [
+      "boris.rein@mail.com"
+    ],
+    "phones": [
+      "0412 345 678"
+    ],
+    "location": "Wasdreef 3/C, 8030 Schoonbeke",
+    "details": [
+      "03-12-2000"
+    ]
+  },
+  "summary": "Schoonmaken is voor mij een manier om een nette, gezellige plek te creëren waar mensen zich goed voelen. Ik werk grondig en met oog voor detail, zie snel wat er nodig is en pak het meteen aan. Bovendien ben ik betrouwbaar en discreet.",
+  "work_experience": [
+    {
+      "employer": "Hulp aan Huis Inc",
+      "role": "Huishoudhulp",
+      "dates": {
+        "start": "2024",
+        "end": "heden"
+      },
+      "details": [
+        "Schoonmaken van de woonkamer, slaapkamers en badkamer.",
+        "Stof afnemen van meubels en vensterbanken.",
+        "Stofzuigen en dweilen van vloeren.",
+        "Schoonmaken van de keuken en het sanitair.",
+        "Ramen wassen."
+      ]
+    },
+    {
+      "employer": "Rest’Aurant",
+      "role": "Keukenhulp",
+      "dates": {
+        "start": "2017",
+        "end": "2023"
+      },
+      "details": [
+        "Voorbereiden van ingrediënten.",
+        "Assisteren van de chef-kok bij eenvoudige taken.",
+        "Afwassen van potten, pannen en keukengerei.",
+        "Zorgen voor een nette en hygiënische keuken.",
+        "Schrobben en dweilen van de vloeren."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Beroepsschool Schoonbeke",
+      "qualification": "A2 horeca",
+      "dates": {
+        "end": "2017"
+      }
+    }
+  ],
+  "skills": [
+    {
+      "name": "Klantvriendelijk en discreet"
+    },
+    {
+      "name": "Goede fysieke conditie"
+    },
+    {
+      "name": "Kan zelfstandig mijn werk plannen en organiseren"
+    },
+    {
+      "name": "Zorgvuldig en efficiënt"
+    },
+    {
+      "name": "Betrouwbaar, stipt en kom afspraken na"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Nederlands"
+    },
+    {
+      "name": "Frans"
+    },
+    {
+      "name": "Engels"
+    }
+  ],
+  "training": [
+    {
+      "name": "Professionele schoonmaaktechnieken",
+      "provider": "VDAB",
+      "dates": {
+        "end": "2024"
+      }
+    }
+  ]
+}

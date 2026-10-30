@@ -1,0 +1,222 @@
+{
+  "personal_information": {
+    "full_name": "Majid Al Suwaidi",
+    "emails": [
+      "alsuwaidimajid621@icloud.com"
+    ],
+    "phones": [
+      "+971 55 804 571"
+    ],
+    "location": "Dubai"
+  },
+  "summary": "IT professional with 7+ years in site administration, e-learning, and academic office roles. Duties cover publishing content, building and maintaining pages, and administering Plesk (mail, backups, etc.). I also oversee the ERP and LMS, including virtual classes, e-exams, admin accounts, training, and exam uploads. I also instruct courses like Intro to CS, Modeling, and Simulation.",
+  "work_experience": [
+    {
+      "employer": "EMIRCOM",
+      "dates": {
+        "start": "2022",
+        "end": "Present"
+      },
+      "location": "UAE",
+      "details": [
+        "Built a corporate site with Drupal.",
+        "Deployed Canvas and configured it on the firm’s server.",
+        "HYBRID CONTRACT"
+      ]
+    },
+    {
+      "employer": "DUBAI POLICE ACADEMY",
+      "role": "ASSISTANT HEAD OF ICT AND LMS LEAD.",
+      "dates": {
+        "start": "2022",
+        "end": "Present"
+      },
+      "location": "UAE",
+      "details": [
+        "Monitor staff progress.",
+        "Oversight of Canvas and training platform",
+        "Site administration and training on IMAP use.",
+        "Guided faculty to use and connect their official email to ORCID."
+      ]
+    },
+    {
+      "employer": "Dubai Pharmacy College",
+      "role": "IT SUPPORT",
+      "dates": {
+        "start": "2022"
+      },
+      "location": "UAE",
+      "details": [
+        "Administered the site and trained faculty on the instructor portal.",
+        "E-learning (managed Canvas platform).",
+        "Provided technical help for the college journal, its website, and editorial unit.",
+        "Taught CS courses to Pharmacy students",
+        "Trained faculty to use and connect official email with ORCID"
+      ]
+    },
+    {
+      "employer": "Skyline University College",
+      "role": "IT SUPPORT",
+      "dates": {
+        "start": "2019",
+        "end": "2021"
+      },
+      "location": "UAE",
+      "details": [
+        "E-learning (trained staff and students on Canvas; managed platform)",
+        "Website admin (updates + site ops) managed IMAP.",
+        "Administered the ERP and trained staff on usage.",
+        "Taught computer apps and modeling and simulation classes"
+      ]
+    },
+    {
+      "employer": "Skyline University College",
+      "role": "OFFICE SECRETARY",
+      "dates": {
+        "start": "2019",
+        "end": "2021"
+      },
+      "location": "UAE",
+      "details": [
+        "Handled office, student services, and admin processes."
+      ]
+    },
+    {
+      "employer": "AJMAN UNIVERSITY",
+      "role": "ACADEMIC SECRETARY",
+      "dates": {
+        "start": "2018",
+        "end": "2019"
+      },
+      "location": "UAE",
+      "details": [
+        "Handled office, student services, and admin processes."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "AJMAN UNIVERSITY",
+      "qualification": "MSc. in Information Systems.",
+      "dates": {
+        "start": "2016",
+        "end": "2018"
+      },
+      "details": [
+        "MSC. IN INFORMATION SYSTEMS."
+      ]
+    },
+    {
+      "institution": "AJMAN UNIVERSITY",
+      "qualification": "BSc. in Computer Science.",
+      "dates": {
+        "start": "2012",
+        "end": "2016"
+      },
+      "details": [
+        "BSc. in Computer Science."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Robust analysis ability"
+    },
+    {
+      "name": "Practical grasp of OS, software, and coding"
+    },
+    {
+      "name": "Outstanding troubleshooting and reasoning skills"
+    },
+    {
+      "name": "High attention to detail"
+    },
+    {
+      "name": "Skilled in organizing, time, and prioritization"
+    },
+    {
+      "name": "Efficient diagnostic skills"
+    },
+    {
+      "name": "Clear communication abilities, covering speaking, writing, and active listening."
+    },
+    {
+      "name": "workplace problem-solving skills."
+    },
+    {
+      "name": "Education focused."
+    },
+    {
+      "name": "Analytical mindset to diagnose issues, find root causes, and deliver effective fixes."
+    },
+    {
+      "name": "Inventive troubleshooting to create workarounds or short-term fixes when instant solutions are unavailable."
+    },
+    {
+      "name": "Windows 7, 8, 10, 11, and Fedora."
+    },
+    {
+      "name": "Google Workspace"
+    },
+    {
+      "name": "Drupal."
+    }
+  ],
+  "languages": [
+    {
+      "name": "Arabic",
+      "proficiency": {
+        "text": "native"
+      }
+    },
+    {
+      "name": "English",
+      "proficiency": {
+        "text": "fluent writing and speaking"
+      }
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Cisco CCNA",
+      "issuer": "Cisco"
+    },
+    {
+      "name": "SAP TERP10",
+      "issuer": "SAP"
+    },
+    {
+      "name": "CIW Web Design",
+      "issuer": "CIW"
+    },
+    {
+      "name": "Office Management Certificate"
+    },
+    {
+      "name": "QuickBooks ProAdvisor",
+      "issuer": "QuickBooks"
+    },
+    {
+      "name": "Online Teaching Certificate",
+      "issuer": "Coursera"
+    }
+  ],
+  "additional_sections": [
+    {
+      "heading": "PUBLICATIONS",
+      "text": "Distributed Systems Review ICCCEEE19"
+    },
+    {
+      "heading": "TRAINING COURSES OFFERED",
+      "text": "training in the use of the Canvas system - Dubai Pharmacy College\ntraining on the use of the Canvas system - Skyline University College"
+    },
+    {
+      "heading": "WORKSHOPS AND CONFERENCES",
+      "text": "Modern Database Query Optimization at University of Sharjah.\nEfficient Resource Allocation Methods\nNovel Approaches to Network Security\nScalable Machine Learning Frameworks"
+    },
+    {
+      "heading": "SOFTWARE",
+      "text": "Windows 7, 8, 10, 11, and Fedora.\nGoogle Workspace\nPHP, XSL, XML\nDrupal."
+    }
+  ]
+}

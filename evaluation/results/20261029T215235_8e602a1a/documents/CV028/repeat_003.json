@@ -1,0 +1,733 @@
+{
+  "document_id": "CV028",
+  "repetition": 3,
+  "overall": {
+    "correct": 37,
+    "missing": 22,
+    "incorrect": 10,
+    "unexpected": 19,
+    "expected_facts": 69,
+    "predicted_facts": 66,
+    "precision": 0.5606060606060606,
+    "recall": 0.5362318840579711,
+    "f1": 0.5481481481481482
+  },
+  "extraction_status": "completed",
+  "prediction_sha256": "144631d2f655fd1c775924e7b53992b9acb56b0b67fcef146e24bbcf30f1bda0",
+  "json_valid": true,
+  "schema_valid": true,
+  "categories": {
+    "personal_information": {
+      "correct": 4,
+      "missing": 0,
+      "incorrect": 0,
+      "unexpected": 1,
+      "expected_facts": 4,
+      "predicted_facts": 5,
+      "precision": 0.8,
+      "recall": 1.0,
+      "f1": 0.8888888888888888
+    },
+    "work_experience": {
+      "correct": 13,
+      "missing": 9,
+      "incorrect": 6,
+      "unexpected": 5,
+      "expected_facts": 28,
+      "predicted_facts": 24,
+      "precision": 0.5416666666666666,
+      "recall": 0.4642857142857143,
+      "f1": 0.5
+    },
+    "projects": {
+      "correct": 0,
+      "missing": 0,
+      "incorrect": 0,
+      "unexpected": 0,
+      "expected_facts": 0,
+      "predicted_facts": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null
+    },
+    "education": {
+      "correct": 6,
+      "missing": 0,
+      "incorrect": 2,
+      "unexpected": 0,
+      "expected_facts": 8,
+      "predicted_facts": 8,
+      "precision": 0.75,
+      "recall": 0.75,
+      "f1": 0.75
+    },
+    "skills": {
+      "correct": 5,
+      "missing": 7,
+      "incorrect": 2,
+      "unexpected": 0,
+      "expected_facts": 14,
+      "predicted_facts": 7,
+      "precision": 0.7142857142857143,
+      "recall": 0.35714285714285715,
+      "f1": 0.47619047619047616
+    },
+    "languages": {
+      "correct": 4,
+      "missing": 0,
+      "incorrect": 0,
+      "unexpected": 6,
+      "expected_facts": 4,
+      "predicted_facts": 10,
+      "precision": 0.4,
+      "recall": 1.0,
+      "f1": 0.5714285714285714
+    },
+    "certifications": {
+      "correct": 5,
+      "missing": 6,
+      "incorrect": 0,
+      "unexpected": 1,
+      "expected_facts": 11,
+      "predicted_facts": 6,
+      "precision": 0.8333333333333334,
+      "recall": 0.45454545454545453,
+      "f1": 0.5882352941176471
+    },
+    "training": {
+      "correct": 0,
+      "missing": 0,
+      "incorrect": 0,
+      "unexpected": 6,
+      "expected_facts": 0,
+      "predicted_facts": 6,
+      "precision": 0.0,
+      "recall": null,
+      "f1": 0.0
+    }
+  },
+  "differences": [
+    {
+      "path": "personal_information.weblinks[prediction:0].url",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Majid Al Suwaidi | LinkedIn"
+    },
+    {
+      "path": "work_experience[1->1].employer",
+      "result": "incorrect",
+      "expected": "DUBAI POLICE ACADEMY",
+      "actual": "DUBAI POLICE ACADEMY, UAE"
+    },
+    {
+      "path": "work_experience[1->1].location",
+      "result": "missing",
+      "expected": "UAE",
+      "actual": null
+    },
+    {
+      "path": "work_experience[1->1].role",
+      "result": "incorrect",
+      "expected": "ASSISTANT HEAD OF ICT AND LMS LEAD.",
+      "actual": "ASSISTANT HEAD OF ICT AND LMS LEAD"
+    },
+    {
+      "path": "work_experience[2->2].dates.end",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "2022"
+    },
+    {
+      "path": "work_experience[2->2].employer",
+      "result": "incorrect",
+      "expected": "Dubai Pharmacy College",
+      "actual": "DUBAI PHARMACY COLLEGE, UAE"
+    },
+    {
+      "path": "work_experience[2->2].location",
+      "result": "missing",
+      "expected": "UAE",
+      "actual": null
+    },
+    {
+      "path": "work_experience[3->3].employer",
+      "result": "incorrect",
+      "expected": "Skyline University College",
+      "actual": "SKYLINE UNIVERSITY COLLEGE, UAE"
+    },
+    {
+      "path": "work_experience[3->3].location",
+      "result": "missing",
+      "expected": "UAE",
+      "actual": null
+    },
+    {
+      "path": "work_experience[4->4].employer",
+      "result": "incorrect",
+      "expected": "Skyline University College",
+      "actual": "SKYLINE UNIVERSITY COLLEGE, UAE"
+    },
+    {
+      "path": "work_experience[4->4].location",
+      "result": "missing",
+      "expected": "UAE",
+      "actual": null
+    },
+    {
+      "path": "work_experience[5->5].employer",
+      "result": "incorrect",
+      "expected": "AJMAN UNIVERSITY",
+      "actual": "AJMAN UNIVERSITY, UAE"
+    },
+    {
+      "path": "work_experience[5->5].location",
+      "result": "missing",
+      "expected": "UAE",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:0].dates.end",
+      "result": "missing",
+      "expected": "Present",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:0].dates.start",
+      "result": "missing",
+      "expected": "2022",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:0].employer",
+      "result": "missing",
+      "expected": "EMIRCOM",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:0].location",
+      "result": "missing",
+      "expected": "UAE",
+      "actual": null
+    },
+    {
+      "path": "work_experience[prediction:0].dates.end",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Present"
+    },
+    {
+      "path": "work_experience[prediction:0].dates.start",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "2022"
+    },
+    {
+      "path": "work_experience[prediction:0].employer",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "EMIRCOM, UAE"
+    },
+    {
+      "path": "work_experience[prediction:0].role",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "HYBRID CONTRACT"
+    },
+    {
+      "path": "education[0->0].qualification",
+      "result": "incorrect",
+      "expected": "MSc. in Information Systems.",
+      "actual": "MSC., INFORMATION SYSTEMS AJMAN UNIVERSITY MSC. IN INFORMATION SYSTEMS."
+    },
+    {
+      "path": "education[1->1].qualification",
+      "result": "incorrect",
+      "expected": "BSc. in Computer Science.",
+      "actual": "BSC., COMPUTER SCIENCE AJMAN UNIVERSITY BSc. in Computer Science."
+    },
+    {
+      "path": "skills[7->1].name",
+      "result": "incorrect",
+      "expected": "workplace problem-solving skills.",
+      "actual": "workplace problem-solving skills"
+    },
+    {
+      "path": "skills[6->6].name",
+      "result": "incorrect",
+      "expected": "Clear communication abilities, covering speaking, writing, and active listening.",
+      "actual": "Clear communication abilities, covering speaking, writing, and active listening"
+    },
+    {
+      "path": "skills[reference:5].name",
+      "result": "missing",
+      "expected": "Efficient diagnostic skills",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:8].name",
+      "result": "missing",
+      "expected": "Education focused.",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:9].name",
+      "result": "missing",
+      "expected": "Analytical mindset to diagnose issues, find root causes, and deliver effective fixes.",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:10].name",
+      "result": "missing",
+      "expected": "Inventive troubleshooting to create workarounds or short-term fixes when instant solutions are unavailable.",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:11].name",
+      "result": "missing",
+      "expected": "Windows 7, 8, 10, 11, and Fedora.",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:12].name",
+      "result": "missing",
+      "expected": "Google Workspace",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:13].name",
+      "result": "missing",
+      "expected": "Drupal.",
+      "actual": null
+    },
+    {
+      "path": "languages[0->0].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 10.0
+    },
+    {
+      "path": "languages[0->0].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "languages[0->0].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 10.0
+    },
+    {
+      "path": "languages[1->1].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 10.0
+    },
+    {
+      "path": "languages[1->1].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "languages[1->1].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 10.0
+    },
+    {
+      "path": "certifications[0->0].issuer",
+      "result": "missing",
+      "expected": "Cisco",
+      "actual": null
+    },
+    {
+      "path": "certifications[1->1].issuer",
+      "result": "missing",
+      "expected": "SAP",
+      "actual": null
+    },
+    {
+      "path": "certifications[2->2].issuer",
+      "result": "missing",
+      "expected": "CIW",
+      "actual": null
+    },
+    {
+      "path": "certifications[4->4].issuer",
+      "result": "missing",
+      "expected": "QuickBooks",
+      "actual": null
+    },
+    {
+      "path": "certifications[reference:5].issuer",
+      "result": "missing",
+      "expected": "Coursera",
+      "actual": null
+    },
+    {
+      "path": "certifications[reference:5].name",
+      "result": "missing",
+      "expected": "Online Teaching Certificate",
+      "actual": null
+    },
+    {
+      "path": "certifications[prediction:5].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Online Teaching Certificate, Coursera"
+    },
+    {
+      "path": "training[prediction:0].dates.end",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "2022"
+    },
+    {
+      "path": "training[prediction:0].dates.start",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "2022"
+    },
+    {
+      "path": "training[prediction:0].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "training in the use of the Canvas system - Dubai Pharmacy College"
+    },
+    {
+      "path": "training[prediction:1].dates.end",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "2021"
+    },
+    {
+      "path": "training[prediction:1].dates.start",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "2019"
+    },
+    {
+      "path": "training[prediction:1].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "training on the use of the Canvas system - Skyline University College"
+    }
+  ],
+  "matching_review_required": true,
+  "matching_warnings": [
+    {
+      "path": "work_experience",
+      "reference_index": 1,
+      "prediction_index": 1,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    },
+    {
+      "path": "work_experience",
+      "reference_index": 2,
+      "prediction_index": 2,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    },
+    {
+      "path": "work_experience",
+      "reference_index": 3,
+      "prediction_index": 3,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    },
+    {
+      "path": "work_experience",
+      "reference_index": 4,
+      "prediction_index": 4,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    },
+    {
+      "path": "work_experience",
+      "reference_index": 5,
+      "prediction_index": 5,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    },
+    {
+      "path": "education",
+      "reference_index": 0,
+      "prediction_index": 0,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    },
+    {
+      "path": "education",
+      "reference_index": 1,
+      "prediction_index": 1,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    },
+    {
+      "path": "skills",
+      "reference_index": 7,
+      "prediction_index": 1,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    },
+    {
+      "path": "skills",
+      "reference_index": 6,
+      "prediction_index": 6,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    }
+  ],
+  "provenance": {
+    "policy": "empty",
+    "correct": 0,
+    "missing": 0,
+    "incorrect": 0,
+    "unexpected": 9,
+    "expected_facts": 0,
+    "predicted_facts": 9,
+    "precision": 0.0,
+    "recall": null,
+    "f1": 0.0,
+    "differences": [
+      {
+        "path": "personal_information.source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "work_experience[1->1].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "work_experience[2->2].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "work_experience[3->3].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "work_experience[4->4].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "work_experience[5->5].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "work_experience[prediction:0].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "education[0->0].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "education[1->1].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      }
+    ]
+  },
+  "content_review": {
+    "status": "pending",
+    "reference": [
+      {
+        "path": "summary",
+        "content": "IT professional with 7+ years in site administration, e-learning, and academic office roles. Duties cover publishing content, building and maintaining pages, and administering Plesk (mail, backups, etc.). I also oversee the ERP and LMS, including virtual classes, e-exams, admin accounts, training, and exam uploads. I also instruct courses like Intro to CS, Modeling, and Simulation."
+      },
+      {
+        "path": "work_experience[0].details",
+        "content": [
+          "Built a corporate site with Drupal.",
+          "Deployed Canvas and configured it on the firm’s server.",
+          "HYBRID CONTRACT"
+        ]
+      },
+      {
+        "path": "work_experience[1].details",
+        "content": [
+          "Monitor staff progress.",
+          "Oversight of Canvas and training platform",
+          "Site administration and training on IMAP use.",
+          "Guided faculty to use and connect their official email to ORCID."
+        ]
+      },
+      {
+        "path": "work_experience[2].details",
+        "content": [
+          "Administered the site and trained faculty on the instructor portal.",
+          "E-learning (managed Canvas platform).",
+          "Provided technical help for the college journal, its website, and editorial unit.",
+          "Taught CS courses to Pharmacy students",
+          "Trained faculty to use and connect official email with ORCID"
+        ]
+      },
+      {
+        "path": "work_experience[3].details",
+        "content": [
+          "E-learning (trained staff and students on Canvas; managed platform)",
+          "Website admin (updates + site ops) managed IMAP.",
+          "Administered the ERP and trained staff on usage.",
+          "Taught computer apps and modeling and simulation classes"
+        ]
+      },
+      {
+        "path": "work_experience[4].details",
+        "content": [
+          "Handled office, student services, and admin processes."
+        ]
+      },
+      {
+        "path": "work_experience[5].details",
+        "content": [
+          "Handled office, student services, and admin processes."
+        ]
+      },
+      {
+        "path": "education[0].details",
+        "content": [
+          "MSC. IN INFORMATION SYSTEMS."
+        ]
+      },
+      {
+        "path": "education[1].details",
+        "content": [
+          "BSc. in Computer Science."
+        ]
+      },
+      {
+        "path": "additional_sections",
+        "content": [
+          {
+            "source_pages": [],
+            "heading": "PUBLICATIONS",
+            "text": "Distributed Systems Review ICCCEEE19"
+          },
+          {
+            "source_pages": [],
+            "heading": "TRAINING COURSES OFFERED",
+            "text": "training in the use of the Canvas system - Dubai Pharmacy College\ntraining on the use of the Canvas system - Skyline University College"
+          },
+          {
+            "source_pages": [],
+            "heading": "WORKSHOPS AND CONFERENCES",
+            "text": "Modern Database Query Optimization at University of Sharjah.\nEfficient Resource Allocation Methods\nNovel Approaches to Network Security\nScalable Machine Learning Frameworks"
+          },
+          {
+            "source_pages": [],
+            "heading": "SOFTWARE",
+            "text": "Windows 7, 8, 10, 11, and Fedora.\nGoogle Workspace\nPHP, XSL, XML\nDrupal."
+          }
+        ]
+      }
+    ],
+    "prediction": [
+      {
+        "path": "summary",
+        "content": "IT professional with 7+ years in site administration, e-learning, and academic office roles. Duties cover publishing content, building and maintaining pages, and administering Plesk (mail, backups, etc.).  I also oversee the ERP and LMS, including virtual classes, e-exams, admin accounts, training, and exam uploads. I also instruct courses like Intro to CS, Modeling, and Simulation."
+      },
+      {
+        "path": "work_experience[0].details",
+        "content": [
+          "Built a corporate site with Drupal.",
+          "Deployed Canvas and configured it on the firm’s server."
+        ]
+      },
+      {
+        "path": "work_experience[1].details",
+        "content": [
+          "Monitor staff progress.",
+          "Oversight of Canvas and training platform",
+          "Site administration and training on IMAP use.",
+          "Guided faculty to use and connect their official email to ORCID."
+        ]
+      },
+      {
+        "path": "work_experience[2].details",
+        "content": [
+          "Administered the site and trained faculty on the instructor portal.",
+          "E-learning (managed Canvas platform).",
+          "Provided technical help for the college journal, its website, and editorial unit.",
+          "Taught CS courses to Pharmacy students",
+          "Trained faculty to use and connect official email with ORCID"
+        ]
+      },
+      {
+        "path": "work_experience[3].details",
+        "content": [
+          "E-learning (trained staff and students on Canvas; managed platform)",
+          "Website admin (updates + site ops) managed IMAP.",
+          "Administered the ERP and trained staff on usage.",
+          "Taught computer apps and modeling and simulation classes"
+        ]
+      },
+      {
+        "path": "work_experience[4].details",
+        "content": [
+          "Handled office, student services, and admin processes."
+        ]
+      },
+      {
+        "path": "work_experience[5].details",
+        "content": [
+          "Handled office, student services, and admin processes."
+        ]
+      },
+      {
+        "path": "additional_sections",
+        "content": [
+          {
+            "source_pages": [],
+            "heading": "PUBLICATIONS",
+            "text": "PUBLICATIONS\n\n   Distributed Systems Review ICCCEEE19"
+          },
+          {
+            "source_pages": [],
+            "heading": "WORKSHOPS AND CONFERENCES",
+            "text": "WORKSHOPS AND CONFERENCES\n\n   Modern Database Query Optimization at University of Sharjah.\n    Efficient Resource Allocation Methods\n   Novel Approaches to Network Security\n    Scalable Machine Learning Frameworks"
+          },
+          {
+            "source_pages": [],
+            "heading": "CERTIFICATES",
+            "text": "CERTIFICATES\n\n    Cisco CCNA\n   SAP TERP10\n   CIW Web Design\n    Office Management Certificate\n   QuickBooks ProAdvisor\n   Online Teaching Certificate, Coursera"
+          },
+          {
+            "source_pages": [],
+            "heading": "SOFTWARE",
+            "text": "SOFTWARE\n\n  Windows 7, 8, 10, 11, and Fedora.\n  Google Workspace\n  PHP, XSL, XML\n   Drupal."
+          }
+        ]
+      }
+    ],
+    "checklist": {
+      "preservation": {
+        "passed": null,
+        "notes": ""
+      },
+      "faithfulness": {
+        "passed": null,
+        "notes": ""
+      },
+      "placement": {
+        "passed": null,
+        "notes": ""
+      },
+      "duplication": {
+        "passed": null,
+        "notes": ""
+      }
+    }
+  },
+  "status": "evaluated"
+}

@@ -1,0 +1,671 @@
+{
+  "document_id": "CV023",
+  "repetition": 1,
+  "overall": {
+    "correct": 39,
+    "missing": 24,
+    "incorrect": 2,
+    "unexpected": 8,
+    "expected_facts": 65,
+    "predicted_facts": 49,
+    "precision": 0.7959183673469388,
+    "recall": 0.6,
+    "f1": 0.6842105263157895
+  },
+  "extraction_status": "completed",
+  "prediction_sha256": "38547a6a907cdd2c4be0067cbee04d8c55a25c1ea2f9607218d17fd3f66196d4",
+  "json_valid": true,
+  "schema_valid": true,
+  "categories": {
+    "personal_information": {
+      "correct": 3,
+      "missing": 5,
+      "incorrect": 0,
+      "unexpected": 3,
+      "expected_facts": 8,
+      "predicted_facts": 6,
+      "precision": 0.5,
+      "recall": 0.375,
+      "f1": 0.42857142857142855
+    },
+    "work_experience": {
+      "correct": 25,
+      "missing": 0,
+      "incorrect": 0,
+      "unexpected": 0,
+      "expected_facts": 25,
+      "predicted_facts": 25,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "projects": {
+      "correct": 5,
+      "missing": 0,
+      "incorrect": 0,
+      "unexpected": 1,
+      "expected_facts": 5,
+      "predicted_facts": 6,
+      "precision": 0.8333333333333334,
+      "recall": 1.0,
+      "f1": 0.9090909090909091
+    },
+    "education": {
+      "correct": 6,
+      "missing": 0,
+      "incorrect": 2,
+      "unexpected": 0,
+      "expected_facts": 8,
+      "predicted_facts": 8,
+      "precision": 0.75,
+      "recall": 0.75,
+      "f1": 0.75
+    },
+    "skills": {
+      "correct": 0,
+      "missing": 19,
+      "incorrect": 0,
+      "unexpected": 4,
+      "expected_facts": 19,
+      "predicted_facts": 4,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "languages": {
+      "correct": 0,
+      "missing": 0,
+      "incorrect": 0,
+      "unexpected": 0,
+      "expected_facts": 0,
+      "predicted_facts": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null
+    },
+    "certifications": {
+      "correct": 0,
+      "missing": 0,
+      "incorrect": 0,
+      "unexpected": 0,
+      "expected_facts": 0,
+      "predicted_facts": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null
+    },
+    "training": {
+      "correct": 0,
+      "missing": 0,
+      "incorrect": 0,
+      "unexpected": 0,
+      "expected_facts": 0,
+      "predicted_facts": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null
+    }
+  },
+  "differences": [
+    {
+      "path": "personal_information.emails[reference:0]",
+      "result": "missing",
+      "expected": "john.doe@email.com",
+      "actual": null
+    },
+    {
+      "path": "personal_information.weblinks[0->0].platform",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "rendercv"
+    },
+    {
+      "path": "personal_information.weblinks[reference:1].platform",
+      "result": "missing",
+      "expected": "LinkedIn",
+      "actual": null
+    },
+    {
+      "path": "personal_information.weblinks[reference:1].url",
+      "result": "missing",
+      "expected": "rendercv",
+      "actual": null
+    },
+    {
+      "path": "personal_information.weblinks[reference:2].platform",
+      "result": "missing",
+      "expected": "GitHub",
+      "actual": null
+    },
+    {
+      "path": "personal_information.weblinks[reference:2].url",
+      "result": "missing",
+      "expected": "rendercv",
+      "actual": null
+    },
+    {
+      "path": "personal_information.weblinks[prediction:1].platform",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "rendercv"
+    },
+    {
+      "path": "personal_information.weblinks[prediction:1].url",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "rendercv"
+    },
+    {
+      "path": "projects[1->1].dates.end",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Jan 2021"
+    },
+    {
+      "path": "education[0->0].qualification",
+      "result": "incorrect",
+      "expected": "PhD in Computer Science",
+      "actual": "PhD in Computer Science – Princeton, NJ"
+    },
+    {
+      "path": "education[1->1].qualification",
+      "result": "incorrect",
+      "expected": "BS in Computer Engineering",
+      "actual": "BS in Computer Engineering – Istanbul, Türkiye"
+    },
+    {
+      "path": "skills[reference:0].name",
+      "result": "missing",
+      "expected": "Python",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:1].name",
+      "result": "missing",
+      "expected": "C++",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:2].name",
+      "result": "missing",
+      "expected": "CUDA",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:3].name",
+      "result": "missing",
+      "expected": "Rust",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:4].name",
+      "result": "missing",
+      "expected": "Julia",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:5].name",
+      "result": "missing",
+      "expected": "PyTorch",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:6].name",
+      "result": "missing",
+      "expected": "JAX",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:7].name",
+      "result": "missing",
+      "expected": "TensorFlow",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:8].name",
+      "result": "missing",
+      "expected": "Triton",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:9].name",
+      "result": "missing",
+      "expected": "ONNX",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:10].name",
+      "result": "missing",
+      "expected": "Kubernetes",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:11].name",
+      "result": "missing",
+      "expected": "Ray",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:12].name",
+      "result": "missing",
+      "expected": "distributed training",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:13].name",
+      "result": "missing",
+      "expected": "AWS",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:14].name",
+      "result": "missing",
+      "expected": "GCP",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:15].name",
+      "result": "missing",
+      "expected": "Neural architecture search",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:16].name",
+      "result": "missing",
+      "expected": "model compression",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:17].name",
+      "result": "missing",
+      "expected": "efficient inference",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:18].name",
+      "result": "missing",
+      "expected": "multi-agent RL",
+      "actual": null
+    },
+    {
+      "path": "skills[prediction:0].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Languages"
+    },
+    {
+      "path": "skills[prediction:1].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "ML Frameworks"
+    },
+    {
+      "path": "skills[prediction:2].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Infrastructure"
+    },
+    {
+      "path": "skills[prediction:3].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Research Areas"
+    }
+  ],
+  "matching_review_required": true,
+  "matching_warnings": [
+    {
+      "path": "education",
+      "reference_index": 0,
+      "prediction_index": 0,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    },
+    {
+      "path": "education",
+      "reference_index": 1,
+      "prediction_index": 1,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    }
+  ],
+  "provenance": {
+    "policy": "empty",
+    "correct": 0,
+    "missing": 0,
+    "incorrect": 0,
+    "unexpected": 12,
+    "expected_facts": 0,
+    "predicted_facts": 12,
+    "precision": 0.0,
+    "recall": null,
+    "f1": 0.0,
+    "differences": [
+      {
+        "path": "personal_information.source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "personal_information.source_pages",
+        "result": "unexpected",
+        "page": 2,
+        "count": 1
+      },
+      {
+        "path": "personal_information.source_pages",
+        "result": "unexpected",
+        "page": 3,
+        "count": 1
+      },
+      {
+        "path": "work_experience[0->0].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "work_experience[1->1].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "work_experience[2->2].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "work_experience[3->3].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "work_experience[4->4].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "projects[0->0].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "projects[1->1].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "education[0->0].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "education[1->1].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      }
+    ]
+  },
+  "content_review": {
+    "status": "pending",
+    "reference": [
+      {
+        "path": "work_experience[0].details",
+        "content": [
+          "Built foundation model infrastructure serving 2M+ monthly API requests with 99.97% uptime",
+          "Raised $18M Series A led by Sequoia Capital, with participation from a16z and Founders Fund",
+          "Scaled engineering team from 3 to 28 across ML research, platform, and applied AI divisions",
+          "Developed proprietary inference optimization reducing latency by 73% compared to baseline"
+        ]
+      },
+      {
+        "path": "work_experience[1].details",
+        "content": [
+          "Designed sparse attention mechanism reducing transformer memory footprint by 4.2x",
+          "Co-authored paper accepted at NeurIPS 2022 (spotlight presentation, top 5% of submissions)"
+        ]
+      },
+      {
+        "path": "work_experience[2].details",
+        "content": [
+          "Developed reinforcement learning algorithms for multi-agent coordination",
+          "Published research at top-tier venues with significant academic impact",
+          "ICML 2022 main conference paper, cited 340+ times within two years",
+          "NeurIPS 2022 workshop paper on emergent communication protocols",
+          "Invited journal extension in JMLR (2023)"
+        ]
+      },
+      {
+        "path": "work_experience[3].details",
+        "content": [
+          "Created on-device neural network compression pipeline deployed across 50M+ devices",
+          "Filed 2 patents on efficient model quantization techniques for edge inference"
+        ]
+      },
+      {
+        "path": "work_experience[4].details",
+        "content": [
+          "Implemented novel self-supervised learning framework for low-resource language modeling",
+          "Research integrated into Azure Cognitive Services, reducing training data requirements by 60%"
+        ]
+      },
+      {
+        "path": "projects[0].details",
+        "content": [
+          "Open-source library for high-performance LLM inference kernels",
+          "Achieved 2.8x speedup over baseline attention implementations on A100 GPUs",
+          "Adopted by 3 major AI labs, 8,500+ GitHub stars, 200+ contributors"
+        ]
+      },
+      {
+        "path": "projects[1].details",
+        "content": [
+          "Automated neural network pruning toolkit with differentiable masks",
+          "Reduced model size by 90% with less than 1% accuracy degradation on ImageNet",
+          "Featured in PyTorch ecosystem tools, 4,200+ GitHub stars"
+        ]
+      },
+      {
+        "path": "education[0].details",
+        "content": [
+          "Princeton, NJ",
+          "Thesis: Efficient Neural Architecture Search for Resource-Constrained Deployment",
+          "Advisor: Prof. Sanjeev Arora",
+          "NSF Graduate Research Fellowship, Siebel Scholar (Class of 2022)"
+        ]
+      },
+      {
+        "path": "education[1].details",
+        "content": [
+          "Istanbul, Türkiye",
+          "GPA: 3.97/4.00, Valedictorian",
+          "Fulbright Scholarship recipient for Graduate Studies"
+        ]
+      },
+      {
+        "path": "additional_sections",
+        "content": [
+          {
+            "source_pages": [],
+            "heading": "Welcome to RenderCV",
+            "text": "RenderCV reads a CV written in a YAML file, and generates a PDF with professional typography.\nEach section title is arbitrary.\nYou can choose any of the 9 entry types for each section.\nMarkdown syntax is supported everywhere. This is bold, italic, and link."
+          },
+          {
+            "source_pages": [],
+            "heading": "Publications",
+            "text": "Sparse Mixture-of-Experts at Scale: Efficient Routing for Trillion-Parameter Models July 2023\nJohn Doe, Sarah Williams, David Park\n10.1234/neurips.2023.1234 (NeurIPS 2023)\nNeural Architecture Search via Differentiable Pruning Dec 2022\nJames Liu, John Doe\n10.1234/neurips.2022.5678 (NeurIPS 2022, Spotlight)\nMulti-Agent Reinforcement Learning with Emergent Communication July 2022\nMaria Garcia, John Doe, Tom Anderson\n10.1234/icml.2022.9012 (ICML 2022)\nOn-Device Model Compression via Learned Quantization May 2021\nJohn Doe, Kevin Wu\n10.1234/iclr.2021.3456 (ICLR 2021, Best Paper Award)"
+          },
+          {
+            "source_pages": [],
+            "heading": "Selected Honors",
+            "text": "• MIT Technology Review 35 Under 35 Innovators (2024)\n• Forbes 30 Under 30 in Enterprise Technology (2024)\n• ACM Doctoral Dissertation Award Honorable Mention (2023)\n• Google PhD Fellowship in Machine Learning (2020 – 2023)\n• Fulbright Scholarship for Graduate Studies (2018)"
+          },
+          {
+            "source_pages": [],
+            "heading": "Patents",
+            "text": "1. Adaptive Quantization for Neural Network Inference on Edge Devices (US Patent 11,234,567)\n2. Dynamic Sparsity Patterns for Efficient Transformer Attention (US Patent 11,345,678)\n3. Hardware-Aware Neural Architecture Search Method (US Patent 11,456,789)"
+          },
+          {
+            "source_pages": [],
+            "heading": "Invited Talks",
+            "text": "4. Scaling Laws for Efficient Inference — Stanford HAI Symposium (2024)\n3. Building AI Infrastructure for the Next Decade — TechCrunch Disrupt (2024)\n2. From Research to Production: Lessons in ML Systems — NeurIPS Workshop (2023)\n1. Efficient Deep Learning: A Practitioner’s Perspective — Google Tech Talk (2022)"
+          }
+        ]
+      }
+    ],
+    "prediction": [
+      {
+        "path": "personal_information.details",
+        "content": [
+          "Welcome to RenderCV"
+        ]
+      },
+      {
+        "path": "work_experience[0].details",
+        "content": [
+          "Built foundation model infrastructure serving 2M+ monthly API requests with 99.97% uptime",
+          "Raised $18M Series A led by Sequoia Capital, with participation from a16z and Founders Fund",
+          "Scaled engineering team from 3 to 28 across ML research, platform, and applied AI divisions",
+          "Developed proprietary inference optimization reducing latency by 73% compared to baseline"
+        ]
+      },
+      {
+        "path": "work_experience[1].details",
+        "content": [
+          "Designed sparse attention mechanism reducing transformer memory footprint by 4.2x",
+          "Co-authored paper accepted at NeurIPS 2022 (spotlight presentation, top 5% of submissions)"
+        ]
+      },
+      {
+        "path": "work_experience[2].details",
+        "content": [
+          "Developed reinforcement learning algorithms for multi-agent coordination",
+          "Published research at top-tier venues with significant academic impact",
+          "ICML 2022 main conference paper, cited 340+ times within two years",
+          "NeurIPS 2022 workshop paper on emergent communication protocols",
+          "Invited journal extension in JMLR (2023)"
+        ]
+      },
+      {
+        "path": "work_experience[3].details",
+        "content": [
+          "Created on-device neural network compression pipeline deployed across 50M+ devices",
+          "Filed 2 patents on efficient model quantization techniques for edge inference"
+        ]
+      },
+      {
+        "path": "work_experience[4].details",
+        "content": [
+          "Implemented novel self-supervised learning framework for low-resource language modeling",
+          "Research integrated into Azure Cognitive Services, reducing training data requirements by 60%"
+        ]
+      },
+      {
+        "path": "projects[0].details",
+        "content": [
+          "Open-source library for high-performance LLM inference kernels",
+          "Achieved 2.8x speedup over baseline attention implementations on A100 GPUs",
+          "Adopted by 3 major AI labs, 8,500+ GitHub stars, 200+ contributors"
+        ]
+      },
+      {
+        "path": "projects[1].details",
+        "content": [
+          "Automated neural network pruning toolkit with differentiable masks",
+          "Reduced model size by 90% with less than 1% accuracy degradation on ImageNet",
+          "Featured in PyTorch ecosystem tools, 4,200+ GitHub stars"
+        ]
+      },
+      {
+        "path": "education[0].details",
+        "content": [
+          "Thesis: Efficient Neural Architecture Search for Resource-Constrained Deployment",
+          "Advisor: Prof. Sanjeev Arora",
+          "NSF Graduate Research Fellowship, Siebel Scholar (Class of 2022)"
+        ]
+      },
+      {
+        "path": "education[1].details",
+        "content": [
+          "GPA: 3.97/4.00, Valedictorian",
+          "Fulbright Scholarship recipient for Graduate Studies"
+        ]
+      },
+      {
+        "path": "skills[0].details",
+        "content": [
+          "Python, C++, CUDA, Rust, Julia"
+        ]
+      },
+      {
+        "path": "skills[1].details",
+        "content": [
+          "PyTorch, JAX, TensorFlow, Triton, ONNX"
+        ]
+      },
+      {
+        "path": "skills[2].details",
+        "content": [
+          "Kubernetes, Ray, distributed training, AWS, GCP"
+        ]
+      },
+      {
+        "path": "skills[3].details",
+        "content": [
+          "Neural architecture search, model compression, efficient inference, multi-agent RL"
+        ]
+      },
+      {
+        "path": "additional_sections",
+        "content": [
+          {
+            "source_pages": [],
+            "heading": null,
+            "text": "Publications\n\nJuly 2023  Sparse Mixture-of-Experts at Scale: Efficient Routing for Trillion-Parameter Models\nJohn Doe, Sarah Williams, David Park\n10.1234/neurips.2023.1234 (NeurIPS 2023)\n\nDec 2022  Neural Architecture Search via Differentiable Pruning\nJames Liu, John Doe\n10.1234/neurips.2022.5678 (NeurIPS 2022, Spotlight)\n\nJuly 2022  Multi-Agent Reinforcement Learning with Emergent Communication\nMaria Garcia, John Doe, Tom Anderson\n10.1234/icml.2022.9012 (ICML 2022)\n\nMay 2021  On-Device Model Compression via Learned Quantization\nJohn Doe, Kevin Wu\n10.1234/iclr.2021.3456 (ICLR 2021, Best Paper Award)"
+          },
+          {
+            "source_pages": [],
+            "heading": null,
+            "text": "Selected Honors\n\n• MIT Technology Review 35 Under 35 Innovators (2024)\n\n• Forbes 30 Under 30 in Enterprise Technology (2024)\n\n• ACM Doctoral Dissertation Award Honorable Mention (2023)\n\n• Google PhD Fellowship in Machine Learning (2020 – 2023)\n\n• Fulbright Scholarship for Graduate Studies (2018)"
+          },
+          {
+            "source_pages": [],
+            "heading": null,
+            "text": "Patents\n\n1. Adaptive Quantization for Neural Network Inference on Edge Devices (US Patent 11,234,567)\n\n2. Dynamic Sparsity Patterns for Efficient Transformer Attention (US Patent 11,345,678)\n\n3. Hardware-Aware Neural Architecture Search Method (US Patent 11,456,789)"
+          },
+          {
+            "source_pages": [],
+            "heading": null,
+            "text": "Invited Talks\n\n4. Scaling Laws for Efficient Inference — Stanford HAI Symposium (2024)\n\n3. Building AI Infrastructure for the Next Decade — TechCrunch Disrupt (2024)\n\n2. From Research to Production: Lessons in ML Systems — NeurIPS Workshop (2023)\n\n 1. Efficient Deep Learning: A Practitioner’s Perspective — Google Tech Talk (2022)"
+          }
+        ]
+      }
+    ],
+    "checklist": {
+      "preservation": {
+        "passed": null,
+        "notes": ""
+      },
+      "faithfulness": {
+        "passed": null,
+        "notes": ""
+      },
+      "placement": {
+        "passed": null,
+        "notes": ""
+      },
+      "duplication": {
+        "passed": null,
+        "notes": ""
+      }
+    }
+  },
+  "status": "evaluated"
+}

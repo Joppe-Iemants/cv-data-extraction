@@ -1,0 +1,954 @@
+{
+  "document_id": "CV031",
+  "repetition": 4,
+  "overall": {
+    "correct": 79,
+    "missing": 0,
+    "incorrect": 7,
+    "unexpected": 79,
+    "expected_facts": 86,
+    "predicted_facts": 165,
+    "precision": 0.47878787878787876,
+    "recall": 0.9186046511627907,
+    "f1": 0.6294820717131474
+  },
+  "extraction_status": "completed",
+  "prediction_sha256": "2adab108cc70f733c791178cd4ef6a45d8a6f931957a8da39ae135151d8913c6",
+  "json_valid": true,
+  "schema_valid": true,
+  "categories": {
+    "personal_information": {
+      "correct": 7,
+      "missing": 0,
+      "incorrect": 4,
+      "unexpected": 0,
+      "expected_facts": 11,
+      "predicted_facts": 11,
+      "precision": 0.6363636363636364,
+      "recall": 0.6363636363636364,
+      "f1": 0.6363636363636364
+    },
+    "work_experience": {
+      "correct": 9,
+      "missing": 0,
+      "incorrect": 3,
+      "unexpected": 3,
+      "expected_facts": 12,
+      "predicted_facts": 15,
+      "precision": 0.6,
+      "recall": 0.75,
+      "f1": 0.6666666666666666
+    },
+    "projects": {
+      "correct": 13,
+      "missing": 0,
+      "incorrect": 0,
+      "unexpected": 16,
+      "expected_facts": 13,
+      "predicted_facts": 29,
+      "precision": 0.4482758620689655,
+      "recall": 1.0,
+      "f1": 0.6190476190476191
+    },
+    "education": {
+      "correct": 8,
+      "missing": 0,
+      "incorrect": 0,
+      "unexpected": 0,
+      "expected_facts": 8,
+      "predicted_facts": 8,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "skills": {
+      "correct": 26,
+      "missing": 0,
+      "incorrect": 0,
+      "unexpected": 52,
+      "expected_facts": 26,
+      "predicted_facts": 78,
+      "precision": 0.3333333333333333,
+      "recall": 1.0,
+      "f1": 0.5
+    },
+    "languages": {
+      "correct": 6,
+      "missing": 0,
+      "incorrect": 0,
+      "unexpected": 3,
+      "expected_facts": 6,
+      "predicted_facts": 9,
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "f1": 0.8
+    },
+    "certifications": {
+      "correct": 10,
+      "missing": 0,
+      "incorrect": 0,
+      "unexpected": 5,
+      "expected_facts": 10,
+      "predicted_facts": 15,
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "f1": 0.8
+    },
+    "training": {
+      "correct": 0,
+      "missing": 0,
+      "incorrect": 0,
+      "unexpected": 0,
+      "expected_facts": 0,
+      "predicted_facts": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null
+    }
+  },
+  "differences": [
+    {
+      "path": "personal_information.headline",
+      "result": "incorrect",
+      "expected": "Full-Stack Developer, Cloud Architect",
+      "actual": "she/her"
+    },
+    {
+      "path": "personal_information.weblinks[0->0].platform",
+      "result": "incorrect",
+      "expected": "GitHub",
+      "actual": "a"
+    },
+    {
+      "path": "personal_information.weblinks[1->1].platform",
+      "result": "incorrect",
+      "expected": "LinkedIn",
+      "actual": " ]"
+    },
+    {
+      "path": "personal_information.weblinks[2->2].platform",
+      "result": "incorrect",
+      "expected": "Stack Overflow",
+      "actual": " m"
+    },
+    {
+      "path": "work_experience[0->0].client",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Full-Stack Developer"
+    },
+    {
+      "path": "work_experience[0->0].location",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Berlin, Germany"
+    },
+    {
+      "path": "work_experience[0->0].role",
+      "result": "incorrect",
+      "expected": "Senior Full-Stack Engineer",
+      "actual": "Full-time, Senior Full-Stack Engineer"
+    },
+    {
+      "path": "work_experience[1->1].location",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Berlin, Germany"
+    },
+    {
+      "path": "work_experience[1->1].role",
+      "result": "incorrect",
+      "expected": "Software Engineer",
+      "actual": "Full-time, Software Engineer"
+    },
+    {
+      "path": "work_experience[2->2].role",
+      "result": "incorrect",
+      "expected": "Web Developer",
+      "actual": "Contract, Web Developer"
+    },
+    {
+      "path": "projects[0->0].skills[prediction:0]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Go"
+    },
+    {
+      "path": "projects[0->0].skills[prediction:1]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "WebSocket"
+    },
+    {
+      "path": "projects[0->0].skills[prediction:2]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Redis"
+    },
+    {
+      "path": "projects[0->0].skills[prediction:3]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "CRDTs"
+    },
+    {
+      "path": "projects[1->1].skills[prediction:0]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Python"
+    },
+    {
+      "path": "projects[1->1].skills[prediction:1]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "AWS SDK"
+    },
+    {
+      "path": "projects[1->1].skills[prediction:2]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Grafana"
+    },
+    {
+      "path": "projects[1->1].skills[prediction:3]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Terraform"
+    },
+    {
+      "path": "projects[2->2].skills[prediction:0]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "React"
+    },
+    {
+      "path": "projects[2->2].skills[prediction:1]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "TypeScript"
+    },
+    {
+      "path": "projects[2->2].skills[prediction:2]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Storybook"
+    },
+    {
+      "path": "projects[2->2].skills[prediction:3]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Rollup"
+    },
+    {
+      "path": "projects[3->3].skills[prediction:0]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Next.js"
+    },
+    {
+      "path": "projects[3->3].skills[prediction:1]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "PostgreSQL"
+    },
+    {
+      "path": "projects[3->3].skills[prediction:2]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Stripe"
+    },
+    {
+      "path": "projects[3->3].skills[prediction:3]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Vercel"
+    },
+    {
+      "path": "skills[0->0].proficiency.text",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Fluent"
+    },
+    {
+      "path": "skills[0->0].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "dots"
+    },
+    {
+      "path": "skills[1->1].proficiency.text",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Fluent"
+    },
+    {
+      "path": "skills[1->1].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "dots"
+    },
+    {
+      "path": "skills[2->2].proficiency.text",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Fluent"
+    },
+    {
+      "path": "skills[2->2].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "dots"
+    },
+    {
+      "path": "skills[3->3].proficiency.text",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Fluent"
+    },
+    {
+      "path": "skills[3->3].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "dots"
+    },
+    {
+      "path": "skills[4->4].proficiency.text",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Fluent"
+    },
+    {
+      "path": "skills[4->4].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "dots"
+    },
+    {
+      "path": "skills[5->5].proficiency.text",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Fluent"
+    },
+    {
+      "path": "skills[5->5].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "dots"
+    },
+    {
+      "path": "skills[6->6].proficiency.text",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Fluent"
+    },
+    {
+      "path": "skills[6->6].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "dots"
+    },
+    {
+      "path": "skills[7->7].proficiency.text",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Fluent"
+    },
+    {
+      "path": "skills[7->7].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "dots"
+    },
+    {
+      "path": "skills[8->8].proficiency.text",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Fluent"
+    },
+    {
+      "path": "skills[8->8].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "dots"
+    },
+    {
+      "path": "skills[9->9].proficiency.text",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Fluent"
+    },
+    {
+      "path": "skills[9->9].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "dots"
+    },
+    {
+      "path": "skills[10->10].proficiency.text",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Fluent"
+    },
+    {
+      "path": "skills[10->10].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "dots"
+    },
+    {
+      "path": "skills[11->11].proficiency.text",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Fluent"
+    },
+    {
+      "path": "skills[11->11].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "dots"
+    },
+    {
+      "path": "skills[12->12].proficiency.text",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Fluent"
+    },
+    {
+      "path": "skills[12->12].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "dots"
+    },
+    {
+      "path": "skills[13->13].proficiency.text",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Fluent"
+    },
+    {
+      "path": "skills[13->13].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "dots"
+    },
+    {
+      "path": "skills[14->14].proficiency.text",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Fluent"
+    },
+    {
+      "path": "skills[14->14].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "dots"
+    },
+    {
+      "path": "skills[15->15].proficiency.text",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Fluent"
+    },
+    {
+      "path": "skills[15->15].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "dots"
+    },
+    {
+      "path": "skills[16->16].proficiency.text",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Fluent"
+    },
+    {
+      "path": "skills[16->16].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "dots"
+    },
+    {
+      "path": "skills[17->17].proficiency.text",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Fluent"
+    },
+    {
+      "path": "skills[17->17].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "dots"
+    },
+    {
+      "path": "skills[18->18].proficiency.text",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Fluent"
+    },
+    {
+      "path": "skills[18->18].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "dots"
+    },
+    {
+      "path": "skills[19->19].proficiency.text",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Fluent"
+    },
+    {
+      "path": "skills[19->19].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "dots"
+    },
+    {
+      "path": "skills[20->20].proficiency.text",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Fluent"
+    },
+    {
+      "path": "skills[20->20].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "dots"
+    },
+    {
+      "path": "skills[21->21].proficiency.text",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Fluent"
+    },
+    {
+      "path": "skills[21->21].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "dots"
+    },
+    {
+      "path": "skills[22->22].proficiency.text",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Fluent"
+    },
+    {
+      "path": "skills[22->22].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "dots"
+    },
+    {
+      "path": "skills[23->23].proficiency.text",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Fluent"
+    },
+    {
+      "path": "skills[23->23].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "dots"
+    },
+    {
+      "path": "skills[25->24].proficiency.text",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Fluent"
+    },
+    {
+      "path": "skills[25->24].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "dots"
+    },
+    {
+      "path": "skills[24->25].proficiency.text",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Fluent"
+    },
+    {
+      "path": "skills[24->25].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "dots"
+    },
+    {
+      "path": "languages[0->0].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "dots"
+    },
+    {
+      "path": "languages[1->1].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "dots"
+    },
+    {
+      "path": "languages[2->2].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "dots"
+    },
+    {
+      "path": "certifications[0->0].issuer",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "AWS"
+    },
+    {
+      "path": "certifications[1->1].issuer",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "2023"
+    },
+    {
+      "path": "certifications[2->2].issuer",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Google Cloud"
+    },
+    {
+      "path": "certifications[3->3].issuer",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "2020"
+    },
+    {
+      "path": "certifications[4->4].issuer",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "2019"
+    }
+  ],
+  "matching_review_required": true,
+  "matching_warnings": [
+    {
+      "path": "personal_information.weblinks",
+      "reference_index": 0,
+      "prediction_index": 0,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    },
+    {
+      "path": "personal_information.weblinks",
+      "reference_index": 1,
+      "prediction_index": 1,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    },
+    {
+      "path": "personal_information.weblinks",
+      "reference_index": 2,
+      "prediction_index": 2,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    },
+    {
+      "path": "work_experience",
+      "reference_index": 0,
+      "prediction_index": 0,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    },
+    {
+      "path": "work_experience",
+      "reference_index": 1,
+      "prediction_index": 1,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    },
+    {
+      "path": "work_experience",
+      "reference_index": 2,
+      "prediction_index": 2,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    }
+  ],
+  "provenance": {
+    "policy": "empty",
+    "correct": 0,
+    "missing": 0,
+    "incorrect": 0,
+    "unexpected": 10,
+    "expected_facts": 0,
+    "predicted_facts": 10,
+    "precision": 0.0,
+    "recall": null,
+    "f1": 0.0,
+    "differences": [
+      {
+        "path": "personal_information.source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "work_experience[0->0].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "work_experience[1->1].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "work_experience[2->2].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "projects[0->0].source_pages",
+        "result": "unexpected",
+        "page": 2,
+        "count": 1
+      },
+      {
+        "path": "projects[1->1].source_pages",
+        "result": "unexpected",
+        "page": 2,
+        "count": 1
+      },
+      {
+        "path": "projects[2->2].source_pages",
+        "result": "unexpected",
+        "page": 2,
+        "count": 1
+      },
+      {
+        "path": "projects[3->3].source_pages",
+        "result": "unexpected",
+        "page": 2,
+        "count": 1
+      },
+      {
+        "path": "education[0->0].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "education[1->1].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      }
+    ]
+  },
+  "content_review": {
+    "status": "pending",
+    "reference": [
+      {
+        "path": "personal_information.details",
+        "content": [
+          "she/her",
+          "15/03/1992"
+        ]
+      },
+      {
+        "path": "work_experience[0].details",
+        "content": [
+          "Led migration of monolithic checkout to microservices, reducing latency by 40%",
+          "Designed real-time inventory sync processing 2M+ events/day using Kafka and Go",
+          "Architected multi-region failover ensuring 99.99% uptime across EU data centers",
+          "Mentored 4 junior developers through pair programming and code reviews"
+        ]
+      },
+      {
+        "path": "work_experience[1].details",
+        "content": [
+          "Built customer onboarding flow serving 500K+ monthly signups across 25 markets",
+          "Developed internal tooling for compliance team, cutting review time by 60%",
+          "Implemented feature flag system enabling safe gradual rollouts to 7M+ users"
+        ]
+      },
+      {
+        "path": "work_experience[2].details",
+        "content": [
+          "Delivered 15+ client projects from e-commerce platforms to SaaS dashboards",
+          "Built custom CMS for a Berlin media company processing 50K daily articles"
+        ]
+      },
+      {
+        "path": "projects[0].details",
+        "content": [
+          "Built a CRDT-based collaborative editing system enabling multiple users to simultaneously edit product descriptions. Handles 10K concurrent sessions with sub-50ms sync latency.",
+          "Go, WebSocket, Redis, CRDTs"
+        ]
+      },
+      {
+        "path": "projects[1].details",
+        "content": [
+          "Developed an internal tool that analyzes AWS resource usage patterns and recommends right-sizing. Saved the team EUR 180K annually in cloud spend.",
+          "Python, AWS SDK, Grafana, Terraform"
+        ]
+      },
+      {
+        "path": "projects[2].details",
+        "content": [
+          "Created and maintained a React/TypeScript design system with 60+ components, used by 12 teams. Published on npm with 2K+ weekly downloads.",
+          "React, TypeScript, Storybook, Rollup"
+        ]
+      },
+      {
+        "path": "projects[3].details",
+        "content": [
+          "Led technical redesign of a fashion retailer’s online store, improving page load from 4.2s to 1.1s and boosting conversion by 23%.",
+          "Next.js, PostgreSQL, Stripe, Vercel"
+        ]
+      },
+      {
+        "path": "education[0].details",
+        "content": [
+          "Specialization: Distributed Systems",
+          "Thesis: Event-driven architectures for real-time collaborative editing",
+          "Grade: 1.4"
+        ]
+      },
+      {
+        "path": "education[1].details",
+        "content": [
+          "Final Project: RESTful microservices framework in Node.js",
+          "Grade: 8.7/10"
+        ]
+      },
+      {
+        "path": "additional_sections",
+        "content": [
+          {
+            "source_pages": [],
+            "heading": "Publications",
+            "text": "Event-Driven Architectures in Practice\nReal-Time Collaborative Editing with CRDTs\nReducing Cloud Costs Without Reducing Velocity"
+          },
+          {
+            "source_pages": [],
+            "heading": "Hobbies",
+            "text": "Street photography\nContributing to open-source projects"
+          },
+          {
+            "source_pages": [],
+            "heading": "Open Source",
+            "text": "crdt-collab (2.1K stars)\ncost-lens (890 stars)\nn26-react-ui contributor"
+          },
+          {
+            "source_pages": [],
+            "heading": "Technical Leadership",
+            "text": "Platform Architecture Initiative — Zalando SE — 2023–Present\nLeading cross-team working group (12 engineers) defining platform standards for 250+ microservices\nDesigned service mesh strategy using Istio, reducing inter-service latency by 30%\nAuthored ADRs (Architecture Decision Records) adopted as standard across 6 engineering domains\nEngineering Excellence Program — Zalando SE — 2022\nEstablished inner-source program enabling engineers to contribute to shared platform libraries\nIntroduced weekly architecture guild (40+ members) raising the bar on system design\nReduced new-engineer onboarding time from 3 weeks to 5 days via coding standards docs"
+          },
+          {
+            "source_pages": [],
+            "heading": "Speaking",
+            "text": "ReactDay Berlin 2023\nKubeCon EU 2022\nJSConf Berlin 2021"
+          }
+        ]
+      }
+    ],
+    "prediction": [
+      {
+        "path": "personal_information.details",
+        "content": [
+          "15/03/1992"
+        ]
+      },
+      {
+        "path": "work_experience[0].details",
+        "content": [
+          "Led migration of monolithic checkout to microservices, reducing latency by 40%",
+          "Designed real-time inventory sync processing 2M+ events/day using Kafka and Go",
+          "Architected multi-region failover ensuring 99.99% uptime",
+          "Mentored 4 junior developers through pair programming and code reviews"
+        ]
+      },
+      {
+        "path": "work_experience[1].details",
+        "content": [
+          "Built customer onboarding flow serving 500K+ monthly signups across 25 markets",
+          "Developed internal tooling for compliance team, cutting review time by 60%",
+          "Implemented feature flag system enabling safe gradual roll-outs to 7M+ users"
+        ]
+      },
+      {
+        "path": "work_experience[2].details",
+        "content": [
+          "Delivered 15+ client projects from e-commerce platforms to SaaS dashboards",
+          "Built custom CMS for a Berlin media company processing 50K daily articles"
+        ]
+      },
+      {
+        "path": "projects[0].details",
+        "content": [
+          "Built a CRDT-based collaborative editing system enabling multiple users to simultaneously edit product descriptions. Handles 10K concurrent sessions with sub-50ms sync latency."
+        ]
+      },
+      {
+        "path": "projects[1].details",
+        "content": [
+          "Developed an internal tool that analyzes AWS resource usage patterns and recommends right-sizing. Saved the team EUR 180K annually in cloud spend."
+        ]
+      },
+      {
+        "path": "projects[2].details",
+        "content": [
+          "Created and maintained a React/TypeScript design system with 60+ components, used by 12 teams. Published on npm with 2K+ weekly downloads."
+        ]
+      },
+      {
+        "path": "projects[3].details",
+        "content": [
+          "Led technical redesign of a fashion retailer’s online store, improving page load from 4.2s to 1.1s and boosting conversion by 23%."
+        ]
+      },
+      {
+        "path": "education[0].details",
+        "content": [
+          "Grade: 1.4",
+          "Specialization: Distributed Systems",
+          "Thesis: Event-driven architectures for real-time collaborative editing"
+        ]
+      },
+      {
+        "path": "education[1].details",
+        "content": [
+          "Grade: 8.7/10",
+          "Final Project: RESTful microservices framework in Node.js"
+        ]
+      },
+      {
+        "path": "additional_sections",
+        "content": [
+          {
+            "source_pages": [],
+            "heading": null,
+            "text": "Technical Leadership\n\nPlatform Architecture Initiative\n\nZalando SE    2023–Present\n\nSpeaking\n\n• Leading cross-team working group (12 engineers) defining platform standards for 250+ microservices\n\n• Designed service mesh strategy using Istio, reducing inter-service latency by 30%\n\n• Authored ADRs (Architecture Decision Records) adopted as standard across 6 engineering domains\n\nEngineering Excellence Program\n\nOpen Source                                Zalando SE   2022\n\n• Established inner-source program enabling engineers to contribute to shared platform libraries\n\n• Introduced weekly architecture guild (40+ members) raising the bar on system design\n\n• Reduced new-engineer onboarding time from 3 weeks to 5 days via coding standards docs\n\nPublications\n\nEvent-Driven Architectures in Practice\n\nZalando Engineering Blog   2023\n\nDeep dive on migrating checkout to event-driven microservices.\n\n45K+ reads.\n\nReal-Time Collaborative Editing with CRDTs\n\nThe Pragmatic Engineer   2023\n\nTutorial on operational transforms vs CRDTs for collaborative apps.\n\n28K+ reads.\n\nReducing Cloud Costs Without Reducing Velocity\n\nInfoQ   2022\n\nCase study on EUR 180K/year savings through automated resource governance. 19K+ reads."
+          },
+          {
+            "source_pages": [],
+            "heading": null,
+            "text": "Languages: TypeScript, Go, Python, Rust                                                 Page 3of 3"
+          }
+        ]
+      }
+    ],
+    "checklist": {
+      "preservation": {
+        "passed": null,
+        "notes": ""
+      },
+      "faithfulness": {
+        "passed": null,
+        "notes": ""
+      },
+      "placement": {
+        "passed": null,
+        "notes": ""
+      },
+      "duplication": {
+        "passed": null,
+        "notes": ""
+      }
+    }
+  },
+  "status": "evaluated"
+}

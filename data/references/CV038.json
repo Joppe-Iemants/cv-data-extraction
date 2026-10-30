@@ -1,0 +1,360 @@
+{
+  "personal_information": {
+    "full_name": "QUINTOUS EARL CREWS, JR., M. D.",
+    "details": [
+      "Date of Birth: 19 September 1929",
+      "Place of Birth: Port Arthur, Texas",
+      "Marital Status: Married 19 December 1954",
+      "Wife: Maybelle",
+      "Children: Quintous, III (3 Oct 55); Cynthia (6 Nov 57); Patricia (17 Mar 60); Victoria (2 Dec 68)"
+    ]
+  },
+  "work_experience": [
+    {
+      "employer": "Naval Dispensary",
+      "role": "Medical Officer",
+      "dates": {
+        "start": "1956",
+        "end": "1958"
+      },
+      "location": "Long Beach, California"
+    },
+    {
+      "employer": "Naval Hospital",
+      "role": "Medical Officer, Duty Instruction",
+      "dates": {
+        "start": "1958",
+        "end": "1960"
+      },
+      "location": "Oakland, California"
+    },
+    {
+      "employer": "Los Angeles Tumor Institute",
+      "role": "Duty Instruction",
+      "dates": {
+        "start": "1960",
+        "end": "1961"
+      },
+      "location": "Los Angeles, California"
+    },
+    {
+      "employer": "Naval Hospital",
+      "role": "Assistant Chief, Radiology",
+      "dates": {
+        "start": "1961",
+        "end": "1964"
+      },
+      "location": "Great Lakes, Illinois"
+    },
+    {
+      "employer": "Naval Hospital",
+      "role": "Chief, Radiology",
+      "dates": {
+        "start": "1964",
+        "end": "1968"
+      },
+      "location": "Guam, Marianas Islands"
+    },
+    {
+      "employer": "M. D. Anderson Hospital",
+      "role": "Senior Fellow Radiotherapy, Duty Instruction",
+      "dates": {
+        "start": "1968",
+        "end": "1969"
+      },
+      "location": "Houston, Texas"
+    },
+    {
+      "employer": "Naval Hospital",
+      "role": "Assistant Chief, Radiology",
+      "dates": {
+        "start": "1969",
+        "end": "1970"
+      },
+      "location": "San Diego, California"
+    },
+    {
+      "employer": "Naval Regional Medical Center",
+      "role": "Chief, Radiology",
+      "dates": {
+        "start": "1970",
+        "end": "1976"
+      },
+      "location": "San Diego, California"
+    },
+    {
+      "employer": "National Naval Medical Center",
+      "role": "Director of Clinical Services",
+      "dates": {
+        "start": "1976",
+        "end": "1978"
+      },
+      "location": "Bethesda, Maryland"
+    },
+    {
+      "employer": "Naval Regional Medical Center",
+      "role": "Commanding Officer",
+      "dates": {
+        "start": "1978",
+        "end": "Present"
+      },
+      "location": "Long Beach, California"
+    },
+    {
+      "employer": "Guam Memorial Hospital",
+      "role": "Consultant Radiologist",
+      "dates": {
+        "start": "1964",
+        "end": "1968"
+      },
+      "location": "Guam, Marianas Islands"
+    },
+    {
+      "employer": "U. S. Trust Territories of Pacific",
+      "role": "Consultant Radiologist",
+      "dates": {
+        "start": "1964",
+        "end": "1968"
+      },
+      "location": "HQ Saipan, Marianas Islands"
+    },
+    {
+      "employer": "Andersen Air Force Base",
+      "role": "Consultant Radiologist",
+      "dates": {
+        "start": "1964",
+        "end": "1968"
+      },
+      "location": "Guam, Marianas Islands"
+    },
+    {
+      "employer": "Hospital Corps School",
+      "role": "Professional Director of X-Ray Technique School",
+      "dates": {
+        "start": "1969",
+        "end": "1976"
+      },
+      "location": "San Diego, California"
+    },
+    {
+      "employer": "University of California",
+      "role": "Associate Clinical Professor, Department of Radiology",
+      "dates": {
+        "start": "1970",
+        "end": "1976"
+      },
+      "location": "San Diego, California"
+    },
+    {
+      "employer": "University of Southern California School of Medicine",
+      "role": "Assistant Clinical Professor of Radiology",
+      "dates": {
+        "start": "1970",
+        "end": "1976"
+      },
+      "location": "Los Angeles, California"
+    },
+    {
+      "employer": "American College of Radiology",
+      "role": "Navy Alternate Counselor",
+      "dates": {
+        "start": "1971",
+        "end": "1973"
+      }
+    },
+    {
+      "employer": "Joint Review Committee on Education in Radiologic Technology",
+      "role": "Surveyor",
+      "dates": {
+        "start": "1973",
+        "end": "1976"
+      }
+    },
+    {
+      "employer": "George Washington University",
+      "role": "Clinical Professor of Radiology",
+      "dates": {
+        "start": "1973",
+        "end": "1976"
+      },
+      "location": "Washington, D. C."
+    },
+    {
+      "employer": "Bureau of Medicine and Surgery, Department of the Navy",
+      "role": "Radiological Advisor to the Surgeon General",
+      "dates": {
+        "start": "1973",
+        "end": "1978"
+      }
+    },
+    {
+      "employer": "American College of Radiology",
+      "role": "Navy Counselor",
+      "dates": {
+        "start": "1974",
+        "end": "Present"
+      }
+    },
+    {
+      "employer": "Joint Review Committee on Education in Radiologic Technology",
+      "role": "Member",
+      "dates": {
+        "start": "1975",
+        "end": "1980"
+      }
+    },
+    {
+      "employer": "Uniformed Services University of the Health Sciences",
+      "role": "Associate Dean for Academic Affairs",
+      "dates": {
+        "start": "1977",
+        "end": "1978"
+      }
+    },
+    {
+      "employer": "Radiological Society of North America",
+      "role": "Navy Counselor",
+      "dates": {
+        "start": "1977",
+        "end": "Present"
+      }
+    },
+    {
+      "employer": "University of Southern California School of Medicine",
+      "role": "Associate Clinical Professor of Radiology",
+      "dates": {
+        "start": "1979",
+        "end": "Present"
+      },
+      "location": "Los Angeles, California"
+    },
+    {
+      "employer": "Department of Health Services, Memorial Hospital Medical Center/UC, Irvine",
+      "role": "Attending Physician",
+      "dates": {
+        "start": "1979",
+        "end": "Present"
+      }
+    }
+  ],
+  "education": [
+    {
+      "institution": "Lamar Junior College",
+      "qualification": "College",
+      "dates": {
+        "start": "1948",
+        "end": "1950"
+      },
+      "details": [
+        "Beaumont, Texas"
+      ]
+    },
+    {
+      "institution": "University of Texas",
+      "qualification": "College",
+      "dates": {
+        "start": "1950",
+        "end": "1951"
+      },
+      "details": [
+        "Austin, Texas"
+      ]
+    },
+    {
+      "institution": "University of Texas School of Medicine",
+      "qualification": "M. D.",
+      "dates": {
+        "start": "1951",
+        "end": "1955"
+      },
+      "details": [
+        "Galveston, Texas",
+        "M. D. Degree 3 June 1955"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Diplomate",
+      "issuer": "American Board of Radiology",
+      "date": "1963"
+    },
+    {
+      "name": "Fellow",
+      "issuer": "American College of Radiology",
+      "date": "1973"
+    },
+    {
+      "name": "Professional License Texas #C-5017",
+      "date": "20 Aug 55"
+    },
+    {
+      "name": "Professional License California #18479",
+      "date": "8 Apr 57"
+    },
+    {
+      "name": "Professional License Guam, Marianas Islands #0000111",
+      "date": "7 May 67"
+    }
+  ],
+  "training": [
+    {
+      "name": "Internship (Rotating)",
+      "provider": "Good Samaritan Hospital",
+      "dates": {
+        "start": "1955",
+        "end": "1956"
+      },
+      "details": [
+        "Phoenix, Arizona"
+      ]
+    },
+    {
+      "name": "Radiology Residency",
+      "provider": "Naval Hospital",
+      "dates": {
+        "start": "1958",
+        "end": "1960"
+      },
+      "details": [
+        "Oakland, California"
+      ]
+    },
+    {
+      "name": "Fellow Therapeutic Radiology",
+      "provider": "Los Angeles Tumor Institute",
+      "dates": {
+        "start": "1960",
+        "end": "1961"
+      },
+      "details": [
+        "Los Angeles, California"
+      ]
+    },
+    {
+      "name": "Fellow Therapeutic Radiology",
+      "provider": "M. D. Anderson Hospital",
+      "dates": {
+        "start": "1968",
+        "end": "1969"
+      },
+      "details": [
+        "Houston, Texas"
+      ]
+    }
+  ],
+  "additional_sections": [
+    {
+      "heading": "Professional Societies",
+      "text": "The American College of Radiology\nThe Radiological Society of North America\nThe Society of Nuclear Medicine\nAmerican Medical Association (Military)\nAmerican Society of Therapeutic Radiologists\nCalifornia Radiation Therapy Association\nSan Diego Radiological Society\nAssociation of Military Surgeons of the United States"
+    },
+    {
+      "heading": "Bibliography",
+      "text": "1. Crews, Q.E.: Observations on the Combined Use of 5-Fluorouracil and 2 MEV\nRadiation in Advanced Solid Tumors in Man. Cancer Chemotherapy Reports, No.\n14, October 1961.\n2. Hare, H.F., and Crews, Q.E.: Nasopharyngeal Tumors: Three to Five Year\nSurvivals. The American Journal of Roentgenology, Radium Therapy and Nuclear\nMedicine. Vol. 89, No. 1, January 1963.\n3. Rosenzweig, A. L., Crews, Q. E., and Hopwood, H. G.: Vinblastine Sulfate\nin Hodgkins' Disease in Pregnancy. Annals of Internal Medicine, Vol. 61, No. 1\n1964.\n4. Crews, Q. E., and Fletcher, G. H.: Comparative Evaluation of the Sequential\nUse of Radiation and Surgery in Primary Tumors of the Oral Cavity, Oropharynx,\nLarynx and HyPopharynx. The American Journal of Roentgenology, Radium Therapy\nand Nuclear Medicine. Vol. III:73, No. 1, January 1971.\n5. Schroeder, A.F., Crews, Q.E., and Rotner, M.B.: Combined Treatment of Non-\nSeminoma Testicular Cancer. Frontiers of Radiation Therapy and Oncology. Vol. 5,\npp 240-250, 1970.\n6. Asher, W. M .• and Crews, Q. E.: Radiation Therapy Applications of Diagnostic\nUltrasound. Abstract published in the proceedings of the Third international Con-\nference on Medical Physics, Goteborg, Sweden, 1972.\n7. Hill, D.R., Crews, Q. E., and Walsh, P.D.: Prostate Carcinoma: Radiation\nTherapy of Primary and Regional Lymphatics. Cancer, 34-156-60, July 1974.\n8. Safer, M.L., Green, J.P., Crews, Q.E., and Hill, D.R.: Lymphangiogram\nAccuracy in the Staging of Testicular Tumors. Cancer Journal, Vol. 35, pp _160-163,\nJune 1975.\n9. Williams, D. M., Wilcox, J. R., Asher, W. M., Crews, Q. E.: A Non-Invasive\nTechnique for Estimating Renal Volume in Vivo. \"Work in Progress,\" RSNA, Dec 1975.\nBibliography (Continued):\n10. Green, N., Kurohara, S.S., George, F. W., Crews, Q. E.: Postresection\nIrradiation for Primary Lung Cancer. Radiology. Vol. 116, No. 2, pp 405-407,\nAugust 1975.\n11. Green, J.P., Marriott, J.D., Halpern, S.E., Crews, Q.E.: Thyroid Uptake\nof 131 - I: Further Comparisons of Capsules and Liquid Preparation. Journal of\nNuclear Medicine. Vol, 17, No. 4, pp 310-312, April 1976.\n12. Stolz, Jonathan L., Rominger, C. Jules, Crews, Q. E.: Radiologic Technology\nand Education: The Role of the Radiologist. Radiology. Vol. 134, No. 3, pp 787-\n788, March, 1980.\n"
+    },
+    {
+      "heading": "Lectures",
+      "text": "1. \"Radium and Interstial Therapy Techniques. \" Radiation Oncology Lecture\n\\ Series - Naval Re.gional Medical Center, San Diego, California, 1973-1976.\n2. \"Early Detection of Breast Cancer.\" Ambulatory Heal.th Care Symposium,\n1975, Hilton Hotel, San Diego, California.\n3. \"History of Radioactivity - How, When and Why It All Began.\" Nuclear\nAccident Symposium, 7 April 1979, Naval Support Activity, Long Beach,\nCalifornia.\n4. \"Overview Radiation Oncology.\" 28 April 1980, Lorna Linda University\nSchool of Medicine, Lorna Linda, California.."
+    }
+  ]
+}

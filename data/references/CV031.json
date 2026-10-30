@@ -1,0 +1,290 @@
+{
+  "personal_information": {
+    "full_name": "Elena Vasquez",
+    "headline": "Full-Stack Developer, Cloud Architect",
+    "emails": [
+      "elena.vasquez@email.com"
+    ],
+    "phones": [
+      "+49-176-4821-9035"
+    ],
+    "location": "Prenzlauer Berg, Berlin, Germany",
+    "weblinks": [
+      {
+        "url": "/elenavz",
+        "platform": "GitHub"
+      },
+      {
+        "url": "/elena-vasquez",
+        "platform": "LinkedIn"
+      },
+      {
+        "url": "/Elena_Vasquez",
+        "platform": "Stack Overflow"
+      }
+    ],
+    "details": [
+      "she/her",
+      "15/03/1992"
+    ]
+  },
+  "work_experience": [
+    {
+      "employer": "Zalando SE",
+      "role": "Senior Full-Stack Engineer",
+      "dates": {
+        "start": "Jan 2021",
+        "end": "Present"
+      },
+      "details": [
+        "Led migration of monolithic checkout to microservices, reducing latency by 40%",
+        "Designed real-time inventory sync processing 2M+ events/day using Kafka and Go",
+        "Architected multi-region failover ensuring 99.99% uptime across EU data centers",
+        "Mentored 4 junior developers through pair programming and code reviews"
+      ]
+    },
+    {
+      "employer": "N26 GmbH",
+      "role": "Software Engineer",
+      "dates": {
+        "start": "Mar 2018",
+        "end": "Dec 2020"
+      },
+      "details": [
+        "Built customer onboarding flow serving 500K+ monthly signups across 25 markets",
+        "Developed internal tooling for compliance team, cutting review time by 60%",
+        "Implemented feature flag system enabling safe gradual rollouts to 7M+ users"
+      ]
+    },
+    {
+      "employer": "Freelance",
+      "role": "Web Developer",
+      "dates": {
+        "start": "Jun 2016",
+        "end": "Feb 2018"
+      },
+      "details": [
+        "Delivered 15+ client projects from e-commerce platforms to SaaS dashboards",
+        "Built custom CMS for a Berlin media company processing 50K daily articles"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Real-time Collaboration Engine",
+      "organization": "Zalando SE",
+      "dates": {
+        "start": "2023"
+      },
+      "details": [
+        "Built a CRDT-based collaborative editing system enabling multiple users to simultaneously edit product descriptions. Handles 10K concurrent sessions with sub-50ms sync latency.",
+        "Go, WebSocket, Redis, CRDTs"
+      ]
+    },
+    {
+      "name": "Cloud Cost Optimizer",
+      "organization": "Zalando SE",
+      "dates": {
+        "start": "2022"
+      },
+      "details": [
+        "Developed an internal tool that analyzes AWS resource usage patterns and recommends right-sizing. Saved the team EUR 180K annually in cloud spend.",
+        "Python, AWS SDK, Grafana, Terraform"
+      ]
+    },
+    {
+      "name": "Open-source Component Library",
+      "organization": "N26",
+      "dates": {
+        "start": "2020",
+        "end": "ongoing"
+      },
+      "details": [
+        "Created and maintained a React/TypeScript design system with 60+ components, used by 12 teams. Published on npm with 2K+ weekly downloads.",
+        "React, TypeScript, Storybook, Rollup"
+      ]
+    },
+    {
+      "name": "E-commerce Platform Redesign",
+      "organization": "Freelance",
+      "dates": {
+        "start": "2017"
+      },
+      "details": [
+        "Led technical redesign of a fashion retailer’s online store, improving page load from 4.2s to 1.1s and boosting conversion by 23%.",
+        "Next.js, PostgreSQL, Stripe, Vercel"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "TU Berlin",
+      "qualification": "Computer Science (M.Sc.)",
+      "dates": {
+        "start": "Oct 2014",
+        "end": "Sep 2016"
+      },
+      "details": [
+        "Specialization: Distributed Systems",
+        "Thesis: Event-driven architectures for real-time collaborative editing",
+        "Grade: 1.4"
+      ]
+    },
+    {
+      "institution": "Univ. of Valencia",
+      "qualification": "Computer Science (B.Sc.)",
+      "dates": {
+        "start": "Sep 2010",
+        "end": "Jun 2014"
+      },
+      "details": [
+        "Final Project: RESTful microservices framework in Node.js",
+        "Grade: 8.7/10"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "TypeScript"
+    },
+    {
+      "name": "JavaScript"
+    },
+    {
+      "name": "Python"
+    },
+    {
+      "name": "Go"
+    },
+    {
+      "name": "Rust"
+    },
+    {
+      "name": "PostgreSQL"
+    },
+    {
+      "name": "MongoDB"
+    },
+    {
+      "name": "Redis"
+    },
+    {
+      "name": "GraphQL"
+    },
+    {
+      "name": "HTML"
+    },
+    {
+      "name": "CSS"
+    },
+    {
+      "name": "Sass"
+    },
+    {
+      "name": "Tailwind"
+    },
+    {
+      "name": "Docker"
+    },
+    {
+      "name": "Kubernetes"
+    },
+    {
+      "name": "Terraform"
+    },
+    {
+      "name": "AWS"
+    },
+    {
+      "name": "GCP"
+    },
+    {
+      "name": "Linux"
+    },
+    {
+      "name": "macOS"
+    },
+    {
+      "name": "VS Code"
+    },
+    {
+      "name": "IntelliJ"
+    },
+    {
+      "name": "Neovim"
+    },
+    {
+      "name": "Git"
+    },
+    {
+      "name": "Agile/Scrum"
+    },
+    {
+      "name": "CI/CD"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Spanish",
+      "proficiency": {
+        "text": "Mother tongue"
+      }
+    },
+    {
+      "name": "English",
+      "proficiency": {
+        "text": "Fluent"
+      }
+    },
+    {
+      "name": "German",
+      "proficiency": {
+        "text": "C1"
+      }
+    }
+  ],
+  "certifications": [
+    {
+      "name": "AWS Solutions Architect Professional",
+      "date": "2023"
+    },
+    {
+      "name": "Certified Kubernetes Administrator",
+      "date": "2022"
+    },
+    {
+      "name": "Google Cloud Professional Cloud Architect",
+      "date": "2021"
+    },
+    {
+      "name": "HashiCorp Terraform Associate",
+      "date": "2020"
+    },
+    {
+      "name": "MongoDB Certified Developer",
+      "date": "2019"
+    }
+  ],
+  "additional_sections": [
+    {
+      "heading": "Publications",
+      "text": "Event-Driven Architectures in Practice\nReal-Time Collaborative Editing with CRDTs\nReducing Cloud Costs Without Reducing Velocity"
+    },
+    {
+      "heading": "Hobbies",
+      "text": "Street photography\nContributing to open-source projects"
+    },
+    {
+      "heading": "Open Source",
+      "text": "crdt-collab (2.1K stars)\ncost-lens (890 stars)\nn26-react-ui contributor"
+    },
+    {
+      "heading": "Technical Leadership",
+      "text": "Platform Architecture Initiative — Zalando SE — 2023–Present\nLeading cross-team working group (12 engineers) defining platform standards for 250+ microservices\nDesigned service mesh strategy using Istio, reducing inter-service latency by 30%\nAuthored ADRs (Architecture Decision Records) adopted as standard across 6 engineering domains\nEngineering Excellence Program — Zalando SE — 2022\nEstablished inner-source program enabling engineers to contribute to shared platform libraries\nIntroduced weekly architecture guild (40+ members) raising the bar on system design\nReduced new-engineer onboarding time from 3 weeks to 5 days via coding standards docs"
+    },
+    {
+      "heading": "Speaking",
+      "text": "ReactDay Berlin 2023\nKubeCon EU 2022\nJSConf Berlin 2021"
+    }
+  ]
+}

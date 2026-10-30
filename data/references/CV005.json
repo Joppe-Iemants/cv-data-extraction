@@ -1,0 +1,192 @@
+{
+  "personal_information": {
+    "full_name": "Jan Küster",
+    "headline": "Consultant and Software Engineer",
+    "emails": [
+      "info@jankuester.com"
+    ],
+    "phones": [
+      "+49 176 313 XXX XX"
+    ],
+    "location": "Bremen, Germany",
+    "weblinks": [
+      {
+        "url": "www.jankuester.com"
+      },
+      {
+        "url": "twitter.com/kuester_jan",
+        "platform": "Twitter"
+      },
+      {
+        "url": "github.com/jankapunkt",
+        "platform": "GitHub"
+      }
+    ],
+    "details": [
+      "Status: PhD student, M.Sc. Digital Media, Fullstack JS Engineer"
+    ]
+  },
+  "summary": "I create awesome resume templates in LaTeX for everyone.",
+  "work_experience": [
+    {
+      "employer": "University of Bremen",
+      "role": "Fullstack Javascript Engineer",
+      "dates": {
+        "start": "2016",
+        "end": "now"
+      },
+      "details": [
+        "Invent a realtime classroom management using Meteor and React",
+        "Design software architecture and leading development"
+      ]
+    },
+    {
+      "employer": "We4IT GmbH Bremen",
+      "role": "IT Consultant for IBM XPages and Notes Domino",
+      "dates": {
+        "start": "2014",
+        "end": "2016"
+      },
+      "details": [
+        "Realize projects in XPages and We4IT Aveedo, monitor project status, conduct reports",
+        "Integrated Camunda BPMN engine and BPMN.IO modeler in We4IT Aveedo"
+      ]
+    },
+    {
+      "employer": "University of Bremen",
+      "role": "Scientific Employee / Software Development",
+      "dates": {
+        "start": "2012",
+        "end": "2014"
+      },
+      "details": [
+        "Invented a flexible assessment framework, targeting industrial trainees",
+        "Supervised software development lifecycle, Recruited team members"
+      ]
+    },
+    {
+      "employer": "Getoq Consulting",
+      "role": "Project Management Simulation Training",
+      "dates": {
+        "start": "Nov. 2011"
+      },
+      "details": [
+        "Performed a two-day project simulation from management perspective",
+        "Topics included customer contracts, change management, controlling, operational tasks"
+      ]
+    },
+    {
+      "employer": "otulea.uni-bremen.de",
+      "role": "Student Assistant / Programmer",
+      "dates": {
+        "start": "2010",
+        "end": "2011"
+      },
+      "details": [
+        "Realized an online diagnosis platform for workforce literacy development (Flex)",
+        "Modeled software design, implemented various prototypes, conducted usability tests"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Master Project - PrIMA",
+      "organization": "University of Bremen",
+      "dates": {
+        "start": "2012",
+        "end": "2013"
+      },
+      "details": [
+        "Co-Invented a touch table application for medical support, co-developed software (Java)",
+        "Formed a scrum team, mainted project dev server (Debian), surveyed target audience"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Bremen",
+      "qualification": "Graduated as M.Sc. Digital Media",
+      "dates": {
+        "end": "2015 / 07"
+      },
+      "details": [
+        "Master Thesis: Semi Automated Scoring in Technology Based Assessment",
+        "Developed and evaluated an algorithm for semi automated scoring of spreadsheet data"
+      ]
+    },
+    {
+      "institution": "University of Bremen",
+      "qualification": "Master Studies Digital Media",
+      "dates": {
+        "start": "2012",
+        "end": "2015"
+      },
+      "details": [
+        "Inter-cultural classes in English, covering special topics in computer science and design",
+        "Professionalized in research methods, software development and e-assessment"
+      ]
+    },
+    {
+      "institution": "University of Melbourne",
+      "qualification": "Semester Abroad",
+      "dates": {
+        "start": "2009",
+        "end": "2010"
+      },
+      "details": [
+        "Mastered six months of study and trans-cultural experience in Melbourne, Australia",
+        "Finished machine programming, information visualization, professional essay writing"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Software Development"
+    },
+    {
+      "name": "Consulting"
+    },
+    {
+      "name": "Education"
+    },
+    {
+      "name": "Meteor"
+    },
+    {
+      "name": "Mongo"
+    },
+    {
+      "name": "React"
+    },
+    {
+      "name": "Bootstrap"
+    },
+    {
+      "name": "Fontawesome"
+    },
+    {
+      "name": "Mocha"
+    },
+    {
+      "name": "Git"
+    },
+    {
+      "name": "Sourcetree"
+    },
+    {
+      "name": "Travis"
+    },
+    {
+      "name": "Webstorm"
+    },
+    {
+      "name": "Terminal"
+    }
+  ],
+  "additional_sections": [
+    {
+      "heading": "Activities",
+      "text": "Global Game Jam, Sound Engineering, Blender, Martial Arts"
+    }
+  ]
+}

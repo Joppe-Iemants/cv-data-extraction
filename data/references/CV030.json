@@ -1,0 +1,196 @@
+{
+  "personal_information": {
+    "full_name": "Dhruv Chauhan",
+    "headline": "Treasury Analyst",
+    "emails": [
+      "chauhandhruv864@yahoo.com"
+    ],
+    "phones": [
+      "+91 99689 0172"
+    ],
+    "location": "Ahmedabad, Gujarat, India"
+  },
+  "summary": "Treasury analyst with 9 years in cash management, foreign-exchange hedging and bank-limit monitoring for Gujarat manufacturers. Runs daily liquidity forecasts, negotiates working-capital lines with banks and keeps hedge documentation audit-ready.",
+  "work_experience": [
+    {
+      "employer": "Nirma Limited",
+      "role": "Senior Treasury Analyst",
+      "dates": {
+        "start": "04.2022",
+        "end": "Present"
+      },
+      "location": "Ahmedabad, Gujarat, India",
+      "details": [
+        "Forecast daily cash positions accross 14 bank accounts with a 3-day variance ≤ 2.5%",
+        "Stood in for the Head of Treasury at monthly bank review meetings and recieved the lenders' covenant queries",
+        "Moved surplus cash into overnight TREPS and liquid funds within the board-approved counterparty limits"
+      ]
+    },
+    {
+      "employer": "Nirma Limited",
+      "role": "Treasury Analyst",
+      "dates": {
+        "start": "06.2019",
+        "end": "03.2022"
+      },
+      "location": "Ahmedabad, Gujarat, India",
+      "details": [
+        "Executed foward contracts worth USD 48 million to hedge soda ash import exposure within ± 15 paise of the budget rate",
+        "Cut bank charges by 11% after renegotiating cash managment fees with 3 banks"
+      ]
+    },
+    {
+      "employer": "Arvind Limited",
+      "role": "Treasury Executive",
+      "dates": {
+        "start": "08.2016",
+        "end": "05.2019"
+      },
+      "location": "Ahmedabad, Gujarat, India",
+      "details": [
+        "Managed export bill discounting and packing credit lines of INR 210 crore for denim mills at Santej and Khatraj",
+        "Prepared the monthly interest-cost MIS for the CFO and the audit comittee",
+        "Tracked LIBOR-to-SOFR transition clauses across 6 foreign-currency term loans"
+      ]
+    },
+    {
+      "employer": "Surat Weavers Exports",
+      "role": "Treasury Consultant",
+      "dates": {
+        "start": "07.2015",
+        "end": "07.2016"
+      },
+      "details": [
+        "Built a 13-week cash-flow model for two textile exporters in Ichalkaranji and Bhiwandi and acheived a weekly variance under 4%",
+        "Set up a weekly bank-balance dashboard for the two promoters in Google Sheets"
+      ]
+    },
+    {
+      "employer": "Kalupur Commercial Co-operative Bank",
+      "role": "Forex Dealing Assistant",
+      "dates": {
+        "start": "07.2013",
+        "end": "06.2015"
+      },
+      "location": "Ahmedabad, Gujarat, India",
+      "details": [
+        "Processed 40 outward remittances a day under FEMA guidlines",
+        "Reconciled the USD, GBP and EUR nostro accounts every morning before the 10:30 dealing window",
+        "Quoted daily card rates to 9 branches in Maninagar, Naroda and Vatva",
+        "Filed the daily forex postion report to the bank's head office before 5 pm"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Gujarat University",
+      "qualification": "Bachelor of Commerce in Accounting and Finance",
+      "dates": {
+        "start": "06.2009",
+        "end": "05.2012"
+      }
+    },
+    {
+      "institution": "H.L. College of Commerce",
+      "qualification": "Postgraduate Diploma in Banking and Finance",
+      "dates": {
+        "start": "06.2012",
+        "end": "04.2013"
+      }
+    }
+  ],
+  "skills": [
+    {
+      "name": "Cash Flow Forecasting"
+    },
+    {
+      "name": "Forex Hedging With Forwards"
+    },
+    {
+      "name": "Bank Limit Management"
+    },
+    {
+      "name": "Working Capital Financing"
+    },
+    {
+      "name": "SAP S/4HANA Treasury"
+    },
+    {
+      "name": "Kyriba Cash Management"
+    },
+    {
+      "name": "Microsoft Excel Power Query"
+    },
+    {
+      "name": "Bloomberg Terminal"
+    },
+    {
+      "name": "FEMA Regulations"
+    },
+    {
+      "name": "Ind AS 109 Hedge Accounting"
+    },
+    {
+      "name": "RBI Returns Reporting"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Hindi",
+      "proficiency": {
+        "text": "Native"
+      }
+    },
+    {
+      "name": "Gujarati",
+      "proficiency": {
+        "text": "Native"
+      }
+    },
+    {
+      "name": "English",
+      "proficiency": {
+        "text": "Fluent"
+      }
+    },
+    {
+      "name": "Marathi",
+      "proficiency": {
+        "text": "Conversational"
+      }
+    },
+    {
+      "name": "Sanskrit",
+      "proficiency": {
+        "text": "Basic"
+      }
+    }
+  ],
+  "certifications": [
+    {
+      "name": "NISM Series I: Currency Derivatives",
+      "issuer": "National Institute of Securities Markets",
+      "date": "2014"
+    },
+    {
+      "name": "Certified Treasury Professional (CTP)",
+      "issuer": "Association for Financial Professionals",
+      "date": "2020"
+    },
+    {
+      "name": "Certificate in Foreign Exchange Operations",
+      "issuer": "Indian Institute of Banking and Finance",
+      "date": "2015"
+    }
+  ],
+  "additional_sections": [
+    {
+      "heading": "Awards",
+      "text": "Treasury Excellence Award"
+    },
+    {
+      "heading": "Speaking Engagements",
+      "text": "Hedging INR exposure for mid-size importers, ICAI Ahmedabad Branch seminar, March 2022\nRolling 13-week cash forecasts, Gujarat Chamber of Commerce workshop, October 2023"
+    }
+  ]
+}

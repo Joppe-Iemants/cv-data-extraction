@@ -314,11 +314,277 @@
       "pdf_sha256": "92882b625bfcb059a7ff68db63038c8439642faf05eb7d842ebe20a018673f37",
       "notes": "references/CV002.notes.md"
     },
+    "CV003": {
+      "path": "references/CV003.json",
+      "schema_version": "compact-v1",
+      "pdf_sha256": "d679b4db010e4a46bf5d91c548cf02bc09a0017eeb21458385292ec29d45f979",
+      "notes": "references/CV003.notes.md",
+      "annotation_source": "source_pdf"
+    },
+    "CV004": {
+      "path": "references/CV004.json",
+      "schema_version": "compact-v1",
+      "pdf_sha256": "b74c18f17240b07d5e1c099b14cb1b6699adbbc26b5c37ae8094bea8042047da",
+      "notes": "references/CV004.notes.md",
+      "annotation_source": "source_pdf"
+    },
+    "CV005": {
+      "path": "references/CV005.json",
+      "schema_version": "compact-v1",
+      "pdf_sha256": "da16a0e2c0208cf2a45589f6265c3a6b1607e871578cdd22cce7608f4e2c0321",
+      "notes": "references/CV005.notes.md",
+      "annotation_source": "source_pdf"
+    },
+    "CV006": {
+      "path": "references/CV006.json",
+      "schema_version": "compact-v1",
+      "pdf_sha256": "3330a01263faad50bdbb66693c3b0a6695a509bdc3ba5f2906a21da215b79c2d",
+      "notes": "references/CV006.notes.md",
+      "annotation_source": "source_pdf"
+    },
+    "CV007": {
+      "path": "references/CV007.json",
+      "schema_version": "compact-v1",
+      "pdf_sha256": "0b815a4300d09da6a061e5dc51c1db5145fd3d4cef29800f2e0fe55b83314da7",
+      "notes": "references/CV007.notes.md",
+      "annotation_source": "source_pdf"
+    },
+    "CV008": {
+      "path": "references/CV008.json",
+      "schema_version": "compact-v1",
+      "pdf_sha256": "3a83ef8101eb1c7a08555cc96d0b564c5557ad20099a74356638e93bba04b761",
+      "notes": "references/CV008.notes.md",
+      "annotation_source": "source_pdf"
+    },
+    "CV009": {
+      "path": "references/CV009.json",
+      "schema_version": "compact-v1",
+      "pdf_sha256": "496c3d3e05cfdab8efb1aa0b081132fcd387ac206da5ddd34199d1f2761f8032",
+      "notes": "references/CV009.notes.md",
+      "annotation_source": "source_pdf"
+    },
+    "CV010": {
+      "path": "references/CV010.json",
+      "schema_version": "compact-v1",
+      "pdf_sha256": "e149c2ab05664b8647e186fca335e143cf6c0adcc9a2766ebdea8e605e63ce54",
+      "notes": "references/CV010.notes.md",
+      "annotation_source": "source_pdf"
+    },
+    "CV011": {
+      "path": "references/CV011.json",
+      "schema_version": "compact-v1",
+      "pdf_sha256": "77b738cabf8df01e15be7ded1d797cc2613722891e38f107f0b78f3fff616f73",
+      "notes": "references/CV011.notes.md",
+      "annotation_source": "source_pdf"
+    },
     "CV012": {
       "path": "references/CV012.json",
       "schema_version": "compact-v1",
       "pdf_sha256": "a839590a2de03b330cc3b3c1e73910d66408cb759c2d9bad64b76ca7ffa0de09",
       "notes": "references/CV012.notes.md"
+    },
+    "CV017": {
+      "path": "references/CV017.json",
+      "schema_version": "compact-v1",
+      "pdf_sha256": "a533f600de9a453d42a09eb4fce50b2047278d167ff14a20651f93aa4850cbde",
+      "notes": "references/CV017.notes.md",
+      "annotation_source": "source_pdf"
+    },
+    "CV018": {
+      "path": "references/CV018.json",
+      "schema_version": "compact-v1",
+      "pdf_sha256": "8543bd77cc4e05e0494295a0ebdac9f874506acfdd368cf65b95e5a93d806a0f",
+      "notes": "references/CV018.notes.md",
+      "annotation_source": "source_pdf"
+    },
+    "CV019": {
+      "path": "references/CV019.json",
+      "schema_version": "compact-v1",
+      "pdf_sha256": "96fb560dcb5bd335dd96d248bad0ba70a3fd4cd599595c9a895631718847996c",
+      "notes": "references/CV019.notes.md",
+      "annotation_source": "source_pdf"
+    },
+    "CV020": {
+      "path": "references/CV020.json",
+      "schema_version": "compact-v1",
+      "pdf_sha256": "e6723edabec6eb73370657a9f823c3a99f2c90cfddafc71adac0db29f2192c33",
+      "notes": "references/CV020.notes.md",
+      "annotation_source": "source_pdf"
+    },
+    "CV021": {
+      "path": "references/CV021.json",
+      "schema_version": "compact-v1",
+      "pdf_sha256": "c6805f29b6f9e332d8f0f943ed50683151dcf721886fcbec577d346c95b099db",
+      "notes": "references/CV021.notes.md",
+      "annotation_source": "source_pdf"
+    },
+    "CV022": {
+      "path": "references/CV022.json",
+      "schema_version": "compact-v1",
+      "pdf_sha256": "70deb6fa861b924b1fc02534790217eda5f7ef496a087b177dc6e3edf9dbb538",
+      "notes": "references/CV022.notes.md",
+      "annotation_source": "source_pdf"
+    },
+    "CV023": {
+      "path": "references/CV023.json",
+      "schema_version": "compact-v1",
+      "pdf_sha256": "310cccc79d538814278250d2dd12dc42fe272f04f80ebe00d75743c7e161d4ca",
+      "notes": "references/CV023.notes.md",
+      "annotation_source": "source_pdf"
+    },
+    "CV024": {
+      "path": "references/CV024.json",
+      "schema_version": "compact-v1",
+      "pdf_sha256": "e6e2d373698328521264049586d3c976d0056472b0f9bb2b521dfe5667cefc4f",
+      "notes": "references/CV024.notes.md",
+      "annotation_source": "source_pdf"
+    },
+    "CV025": {
+      "path": "references/CV025.json",
+      "schema_version": "compact-v1",
+      "pdf_sha256": "ddcb481355fe674aafc7410a7ac4c69f338d745986f3750b80719480f3eec7e5",
+      "notes": "references/CV025.notes.md",
+      "annotation_source": "publisher_labels_and_pdf"
+    },
+    "CV026": {
+      "path": "references/CV026.json",
+      "schema_version": "compact-v1",
+      "pdf_sha256": "84592b15256f32caaaa32a60ef2b74a6950f338dfd4791099d4cbd8084009897",
+      "notes": "references/CV026.notes.md",
+      "annotation_source": "publisher_labels_and_pdf"
+    },
+    "CV027": {
+      "path": "references/CV027.json",
+      "schema_version": "compact-v1",
+      "pdf_sha256": "c465ce07aa6918cc01b0ddd89fcb1d05926a56d1c5cf85608ea714931c703768",
+      "notes": "references/CV027.notes.md",
+      "annotation_source": "publisher_labels_and_pdf"
+    },
+    "CV028": {
+      "path": "references/CV028.json",
+      "schema_version": "compact-v1",
+      "pdf_sha256": "158a90c61f656d4b874c616e0556a20c878e7b509c2b4aa0da646c21d4555d66",
+      "notes": "references/CV028.notes.md",
+      "annotation_source": "publisher_labels_and_pdf"
+    },
+    "CV029": {
+      "path": "references/CV029.json",
+      "schema_version": "compact-v1",
+      "pdf_sha256": "7735e6a8df252d1e097afa28054958a376576580c794bca12b18b5ccfdbecb67",
+      "notes": "references/CV029.notes.md",
+      "annotation_source": "publisher_labels_and_pdf"
+    },
+    "CV030": {
+      "path": "references/CV030.json",
+      "schema_version": "compact-v1",
+      "pdf_sha256": "1259f79104c89c22e1f7acb2daf62e97251eed00869a8070ff3bff94a2f185a9",
+      "notes": "references/CV030.notes.md",
+      "annotation_source": "publisher_labels_and_pdf"
+    },
+    "CV031": {
+      "path": "references/CV031.json",
+      "schema_version": "compact-v1",
+      "pdf_sha256": "8f2a11ac99ec7c982ede8d7a2cf9383a34d2f7739e1b3af25cda221ca56ca658",
+      "notes": "references/CV031.notes.md",
+      "annotation_source": "publisher_labels_and_pdf"
+    },
+    "CV032": {
+      "path": "references/CV032.json",
+      "schema_version": "compact-v1",
+      "pdf_sha256": "cd4a93ebe941b5c59d06ea0c8fafa9bb79b163f83b78e46716580f1f0e5a9372",
+      "notes": "references/CV032.notes.md",
+      "annotation_source": "publisher_labels_and_pdf"
+    },
+    "CV033": {
+      "path": "references/CV033.json",
+      "schema_version": "compact-v1",
+      "pdf_sha256": "9aa1050fc3dbd61a0ac05bde9696cbf3b12d2a4852620f7daa85c727886380d0",
+      "notes": "references/CV033.notes.md",
+      "annotation_source": "publisher_labels_and_pdf"
+    },
+    "CV034": {
+      "path": "references/CV034.json",
+      "schema_version": "compact-v1",
+      "pdf_sha256": "6aac602604657a3d268c22148ca2b11447a9ee9879fbf855871fbbffd19f83a3",
+      "notes": "references/CV034.notes.md",
+      "annotation_source": "publisher_labels_and_pdf"
+    },
+    "CV035": {
+      "path": "references/CV035.json",
+      "schema_version": "compact-v1",
+      "pdf_sha256": "7b8e60350b2704622f41d7690dc5a09990c5a1e6213075be6afaf2e55547084f",
+      "notes": "references/CV035.notes.md",
+      "annotation_source": "publisher_labels_and_pdf"
+    },
+    "CV036": {
+      "path": "references/CV036.json",
+      "schema_version": "compact-v1",
+      "pdf_sha256": "829aff4db4447f2cb438c1da7e2aaa5ddd55f4e22042dbe9b3e135b41655dd4e",
+      "notes": "references/CV036.notes.md",
+      "annotation_source": "publisher_labels_and_pdf"
+    },
+    "CV037": {
+      "path": "references/CV037.json",
+      "schema_version": "compact-v1",
+      "pdf_sha256": "dbae0c54dd8b36fe5eb065bed008f176a41be22261d4575fa10b8d582123ddbc",
+      "notes": "references/CV037.notes.md",
+      "annotation_source": "source_pdf"
+    },
+    "CV038": {
+      "path": "references/CV038.json",
+      "schema_version": "compact-v1",
+      "pdf_sha256": "759f081d0f5c3247af877f2479c014ddabe030a64d7ac103f77ae60d9bab375a",
+      "notes": "references/CV038.notes.md",
+      "annotation_source": "source_pdf"
+    },
+    "CV039": {
+      "path": "references/CV039.json",
+      "schema_version": "compact-v1",
+      "pdf_sha256": "42c40a3cff6ffcb5df0cc3c4bbfeeadefa4c003c2453580406be38eb6fa46932",
+      "notes": "references/CV039.notes.md",
+      "annotation_source": "source_pdf"
+    },
+    "CV040": {
+      "path": "references/CV040.json",
+      "schema_version": "compact-v1",
+      "pdf_sha256": "30644fe25d1800868db810a26d599343baf61e8372fce779d36e1a41023db715",
+      "notes": "references/CV040.notes.md",
+      "annotation_source": "source_pdf"
+    },
+    "CV041": {
+      "path": "references/CV041.json",
+      "schema_version": "compact-v1",
+      "pdf_sha256": "e6496140d0554e17cf7937cc88bc6e7e35b696b9e3c8aa5786d5bd0353d09d0c",
+      "notes": "references/CV041.notes.md",
+      "annotation_source": "source_pdf"
+    },
+    "CV042": {
+      "path": "references/CV042.json",
+      "schema_version": "compact-v1",
+      "pdf_sha256": "9a7c21ac40081bebc480e3d27536a9cc014c9dc8fd4fee7239b1325e61ba0f18",
+      "notes": "references/CV042.notes.md",
+      "annotation_source": "source_pdf"
+    },
+    "CV043": {
+      "path": "references/CV043.json",
+      "schema_version": "compact-v1",
+      "pdf_sha256": "9df33b322b6151e5444391a9ff2a48963b4c88deb6026fb087fd469b8acd8134",
+      "notes": "references/CV043.notes.md",
+      "annotation_source": "source_pdf"
+    },
+    "CV044": {
+      "path": "references/CV044.json",
+      "schema_version": "compact-v1",
+      "pdf_sha256": "feb0a5a94dad4dd990ed137cc64fc917798a262a23eb9a240fbc26aab09d9187",
+      "notes": "references/CV044.notes.md",
+      "annotation_source": "source_pdf"
+    },
+    "CV045": {
+      "path": "references/CV045.json",
+      "schema_version": "compact-v1",
+      "pdf_sha256": "2697c427b4977d5de0753b94821a8e41305d892792c1045fd23ea5d0b9383faf",
+      "notes": "references/CV045.notes.md",
+      "annotation_source": "source_pdf"
     }
   },
   "archived_runs": {
@@ -336,6 +602,25 @@
         "CV001",
         "CV002",
         "CV012"
+      ]
+    },
+    "20261029T215235_8e602a1a": {
+      "path": "archived_runs/20261029T215235_8e602a1a",
+      "title": "Text baseline development run with five repetitions",
+      "description": "Text baseline using native PDF text and Qwen3 8B on 34 development CVs, excluding VDAB sources. Five repetitions per CV: 122 completed attempts, 28 structuring errors (18 output-limit failures, 5 token-repeat server errors and 5 timeouts), and 20 empty-text outcomes. Preserved for timing, reliability and accuracy comparisons.",
+      "tags": [
+        "baseline",
+        "compact-schema",
+        "pdf-text",
+        "qwen3-8b",
+        "development",
+        "five-repetitions"
+      ],
+      "document_ids": [
+        "CV001", "CV002", "CV003", "CV004", "CV005", "CV006", "CV007", "CV008", "CV009",
+        "CV010", "CV011", "CV012", "CV017", "CV018", "CV019", "CV020", "CV021", "CV022",
+        "CV023", "CV024", "CV025", "CV026", "CV027", "CV028", "CV029", "CV030",
+        "CV031", "CV032", "CV033", "CV034", "CV035", "CV036", "CV037", "CV038"
       ]
     }
   }

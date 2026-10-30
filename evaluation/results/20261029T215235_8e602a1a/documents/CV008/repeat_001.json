@@ -1,0 +1,842 @@
+{
+  "document_id": "CV008",
+  "repetition": 1,
+  "overall": {
+    "correct": 36,
+    "missing": 7,
+    "incorrect": 8,
+    "unexpected": 52,
+    "expected_facts": 51,
+    "predicted_facts": 96,
+    "precision": 0.375,
+    "recall": 0.7058823529411765,
+    "f1": 0.4897959183673469
+  },
+  "extraction_status": "completed",
+  "prediction_sha256": "1f51909f987908a4c95a6599162e07c142e37b90ed37e3ecae34a995f68043c3",
+  "json_valid": true,
+  "schema_valid": true,
+  "categories": {
+    "personal_information": {
+      "correct": 4,
+      "missing": 0,
+      "incorrect": 1,
+      "unexpected": 0,
+      "expected_facts": 5,
+      "predicted_facts": 5,
+      "precision": 0.8,
+      "recall": 0.8,
+      "f1": 0.8
+    },
+    "work_experience": {
+      "correct": 18,
+      "missing": 4,
+      "incorrect": 2,
+      "unexpected": 45,
+      "expected_facts": 24,
+      "predicted_facts": 65,
+      "precision": 0.27692307692307694,
+      "recall": 0.75,
+      "f1": 0.4044943820224719
+    },
+    "projects": {
+      "correct": 0,
+      "missing": 0,
+      "incorrect": 0,
+      "unexpected": 0,
+      "expected_facts": 0,
+      "predicted_facts": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null
+    },
+    "education": {
+      "correct": 4,
+      "missing": 0,
+      "incorrect": 4,
+      "unexpected": 0,
+      "expected_facts": 8,
+      "predicted_facts": 8,
+      "precision": 0.5,
+      "recall": 0.5,
+      "f1": 0.5
+    },
+    "skills": {
+      "correct": 8,
+      "missing": 0,
+      "incorrect": 0,
+      "unexpected": 1,
+      "expected_facts": 8,
+      "predicted_facts": 9,
+      "precision": 0.8888888888888888,
+      "recall": 1.0,
+      "f1": 0.9411764705882353
+    },
+    "languages": {
+      "correct": 0,
+      "missing": 0,
+      "incorrect": 0,
+      "unexpected": 0,
+      "expected_facts": 0,
+      "predicted_facts": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null
+    },
+    "certifications": {
+      "correct": 1,
+      "missing": 0,
+      "incorrect": 1,
+      "unexpected": 4,
+      "expected_facts": 2,
+      "predicted_facts": 6,
+      "precision": 0.16666666666666666,
+      "recall": 0.5,
+      "f1": 0.25
+    },
+    "training": {
+      "correct": 1,
+      "missing": 3,
+      "incorrect": 0,
+      "unexpected": 2,
+      "expected_facts": 4,
+      "predicted_facts": 3,
+      "precision": 0.3333333333333333,
+      "recall": 0.25,
+      "f1": 0.2857142857142857
+    }
+  },
+  "differences": [
+    {
+      "path": "personal_information.location",
+      "result": "incorrect",
+      "expected": "Example St. 1, 12345 Somewhere",
+      "actual": "12345 Somewhere"
+    },
+    {
+      "path": "work_experience[0->0].skills[prediction:0]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "DevOps Engineer"
+    },
+    {
+      "path": "work_experience[0->0].skills[prediction:1]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Python"
+    },
+    {
+      "path": "work_experience[0->0].skills[prediction:2]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Ansible"
+    },
+    {
+      "path": "work_experience[0->0].skills[prediction:3]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Linux"
+    },
+    {
+      "path": "work_experience[0->0].skills[prediction:4]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Open Source Tools"
+    },
+    {
+      "path": "work_experience[0->0].skills[prediction:5]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Django"
+    },
+    {
+      "path": "work_experience[0->0].skills[prediction:6]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Html/CSS"
+    },
+    {
+      "path": "work_experience[0->0].skills[prediction:7]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Javascript"
+    },
+    {
+      "path": "work_experience[0->0].skills[prediction:8]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "GIT"
+    },
+    {
+      "path": "work_experience[2->1].skills[prediction:0]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "DevOps Engineer"
+    },
+    {
+      "path": "work_experience[2->1].skills[prediction:1]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Python"
+    },
+    {
+      "path": "work_experience[2->1].skills[prediction:2]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Ansible"
+    },
+    {
+      "path": "work_experience[2->1].skills[prediction:3]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Linux"
+    },
+    {
+      "path": "work_experience[2->1].skills[prediction:4]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Open Source Tools"
+    },
+    {
+      "path": "work_experience[2->1].skills[prediction:5]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Django"
+    },
+    {
+      "path": "work_experience[2->1].skills[prediction:6]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Html/CSS"
+    },
+    {
+      "path": "work_experience[2->1].skills[prediction:7]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Javascript"
+    },
+    {
+      "path": "work_experience[2->1].skills[prediction:8]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "GIT"
+    },
+    {
+      "path": "work_experience[3->2].employer",
+      "result": "incorrect",
+      "expected": "Tourism industry",
+      "actual": "Research and Development"
+    },
+    {
+      "path": "work_experience[3->2].skills[prediction:0]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "DevOps Engineer"
+    },
+    {
+      "path": "work_experience[3->2].skills[prediction:1]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Python"
+    },
+    {
+      "path": "work_experience[3->2].skills[prediction:2]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Ansible"
+    },
+    {
+      "path": "work_experience[3->2].skills[prediction:3]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Linux"
+    },
+    {
+      "path": "work_experience[3->2].skills[prediction:4]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Open Source Tools"
+    },
+    {
+      "path": "work_experience[3->2].skills[prediction:5]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Django"
+    },
+    {
+      "path": "work_experience[3->2].skills[prediction:6]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Html/CSS"
+    },
+    {
+      "path": "work_experience[3->2].skills[prediction:7]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Javascript"
+    },
+    {
+      "path": "work_experience[3->2].skills[prediction:8]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "GIT"
+    },
+    {
+      "path": "work_experience[4->3].employer",
+      "result": "incorrect",
+      "expected": "Tourism industry",
+      "actual": "Research and Development"
+    },
+    {
+      "path": "work_experience[4->3].skills[prediction:0]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "DevOps Engineer"
+    },
+    {
+      "path": "work_experience[4->3].skills[prediction:1]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Python"
+    },
+    {
+      "path": "work_experience[4->3].skills[prediction:2]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Ansible"
+    },
+    {
+      "path": "work_experience[4->3].skills[prediction:3]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Linux"
+    },
+    {
+      "path": "work_experience[4->3].skills[prediction:4]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Open Source Tools"
+    },
+    {
+      "path": "work_experience[4->3].skills[prediction:5]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Django"
+    },
+    {
+      "path": "work_experience[4->3].skills[prediction:6]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Html/CSS"
+    },
+    {
+      "path": "work_experience[4->3].skills[prediction:7]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Javascript"
+    },
+    {
+      "path": "work_experience[4->3].skills[prediction:8]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "GIT"
+    },
+    {
+      "path": "work_experience[5->4].skills[prediction:0]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "DevOps Engineer"
+    },
+    {
+      "path": "work_experience[5->4].skills[prediction:1]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Python"
+    },
+    {
+      "path": "work_experience[5->4].skills[prediction:2]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Ansible"
+    },
+    {
+      "path": "work_experience[5->4].skills[prediction:3]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Linux"
+    },
+    {
+      "path": "work_experience[5->4].skills[prediction:4]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Open Source Tools"
+    },
+    {
+      "path": "work_experience[5->4].skills[prediction:5]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Django"
+    },
+    {
+      "path": "work_experience[5->4].skills[prediction:6]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Html/CSS"
+    },
+    {
+      "path": "work_experience[5->4].skills[prediction:7]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Javascript"
+    },
+    {
+      "path": "work_experience[5->4].skills[prediction:8]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "GIT"
+    },
+    {
+      "path": "work_experience[reference:1].dates.end",
+      "result": "missing",
+      "expected": "Sep 15",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:1].dates.start",
+      "result": "missing",
+      "expected": "Jan 15",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:1].employer",
+      "result": "missing",
+      "expected": "Research and Development",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:1].role",
+      "result": "missing",
+      "expected": "DevOps engineer",
+      "actual": null
+    },
+    {
+      "path": "education[0->0].dates.end",
+      "result": "incorrect",
+      "expected": "2011",
+      "actual": "Sep 15"
+    },
+    {
+      "path": "education[0->0].dates.start",
+      "result": "incorrect",
+      "expected": "2009",
+      "actual": "Jan 15"
+    },
+    {
+      "path": "education[0->0].qualification",
+      "result": "incorrect",
+      "expected": "M. Sc. Physics.",
+      "actual": "M. Sc. Physics"
+    },
+    {
+      "path": "education[1->1].qualification",
+      "result": "incorrect",
+      "expected": "B. Sc. Physics.",
+      "actual": "B. Sc. Physics"
+    },
+    {
+      "path": "skills[prediction:0].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "DevOps Engineer"
+    },
+    {
+      "path": "certifications[0->0].issuer",
+      "result": "incorrect",
+      "expected": "Linux Professional Institute",
+      "actual": "Certiﬁcate issued by the Linux Professional Institute"
+    },
+    {
+      "path": "certifications[prediction:1].issuer",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "IBM"
+    },
+    {
+      "path": "certifications[prediction:1].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "IBM InfoSphere Advanced DataStage Essentials"
+    },
+    {
+      "path": "certifications[prediction:2].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "NOVELL eDirectory"
+    },
+    {
+      "path": "certifications[prediction:3].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Shibboleth"
+    },
+    {
+      "path": "training[1->0].dates.duration",
+      "result": "missing",
+      "expected": "Two months",
+      "actual": null
+    },
+    {
+      "path": "training[1->0].dates.start",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Two months full-time training"
+    },
+    {
+      "path": "training[1->0].provider",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Online Classes"
+    },
+    {
+      "path": "training[reference:0].name",
+      "result": "missing",
+      "expected": "IBM InfoSphere Advanced DataStage Essentials",
+      "actual": null
+    },
+    {
+      "path": "training[reference:2].name",
+      "result": "missing",
+      "expected": "Online Classes",
+      "actual": null
+    }
+  ],
+  "matching_review_required": true,
+  "matching_warnings": [
+    {
+      "path": "work_experience",
+      "reference_index": 3,
+      "prediction_index": 2,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    },
+    {
+      "path": "work_experience",
+      "reference_index": 4,
+      "prediction_index": 3,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    },
+    {
+      "path": "education",
+      "reference_index": 0,
+      "prediction_index": 0,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    },
+    {
+      "path": "education",
+      "reference_index": 1,
+      "prediction_index": 1,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    },
+    {
+      "path": "certifications",
+      "reference_index": 0,
+      "prediction_index": 0,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    }
+  ],
+  "provenance": {
+    "policy": "empty",
+    "correct": 0,
+    "missing": 0,
+    "incorrect": 0,
+    "unexpected": 8,
+    "expected_facts": 0,
+    "predicted_facts": 8,
+    "precision": 0.0,
+    "recall": null,
+    "f1": 0.0,
+    "differences": [
+      {
+        "path": "personal_information.source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "work_experience[0->0].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "work_experience[2->1].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "work_experience[3->2].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "work_experience[4->3].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "work_experience[5->4].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "education[0->0].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "education[1->1].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      }
+    ]
+  },
+  "content_review": {
+    "status": "pending",
+    "reference": [
+      {
+        "path": "summary",
+        "content": "IT Consultant with strong theoretical skills and a passion for OpenSource\nsofware.\n\n\nDevOps Engineer, specialized both in automation and in custom applica-\ntion development, experienced with large projects and heterogeneous\ninfrastructures. The link between development and operations, comfort-\nable in both.\n\n\nCustomer-oriented and structured method of working, focused on quality\nand maintainability. Highly motivated to work in a team, both comfortable\nin big companies as in small teams."
+      },
+      {
+        "path": "work_experience[0].details",
+        "content": [
+          "A large IAM project required an intuitive interface for role-based access\nand rights management. At the same time, new workfows for role based\naccess, life time and monitoring had to be established\n\n\n • Creation of a web portal for role- and rights management\n\n • Establishing a connection to the existing MicroFocus role solution\n\n • Development of new role-based workfows and processes, as well as train-\n ing and support\n\n • Maintenance of existing infrastructure\n\n\nTechnologies include:\n\n\n • Django for the roles- and rights management tool backend (backend is a\n REST interface)\n\n • Angular for the easy frontend interaction\n\n • HTML5/CSS3/Bootstrap3 for the frontend\n\n • Ansible + Docker for 1-click deployments\n\n\nAchievements include:\n\n\n • A web based tool for an intuitive role assignment and administration\n\n • Online overview of company structures, projects, etc\n\n • Tools for role review, reporting and troubleshooting"
+        ]
+      },
+      {
+        "path": "work_experience[1].details",
+        "content": [
+          "Responsible for infrastructure architecture with regard on the future de-\nvelopment and tool selection in the ﬁeld of identity and access manage-\nment\n\n\n • Selection of future-proof tools for a large infrastructure\n\n • Infrastructure migration into a cloudstack cloud\n\n • Quality assurance in terms of documentation\n\n • Tool development for infrastructure overview\n\n • Development of Ansible modules for client\n\n\nTechnologies include:\n\n\n • Python for custom tool development\n\n • Ansible for infrastructure migration and cloud conﬁguration\n\n • SLES12\n\n • Django for Visualization\n\n\nAchievements include:\n\n\n • Ansible module for SLES12 System + Package registration\n\n • Python tool for ACL-administration in cloud\n\n • Fully automated migration of old systems into cloud with Ansible play-\n books/roles\n\n • Django tool on LDAP - Schema Review"
+        ]
+      },
+      {
+        "path": "work_experience[2].details",
+        "content": [
+          "Responsible for infrastructure architecture / automaton as well as custom\ntool development on a project for directory services and identity / access\nmanagement in a large heterogeneous environment.\n\n\n • Design and implementation of update and deployment process automa-\n ton\n\n • Quality assurance by design of infrastructure monitoring, centralized log-\n ging solutions and documentation\n\n • Customized tool creation for ldap operations\n\n • Installation and maintenance of single sign on solutions\n\n • Customer support in ldap / infrastructural / programming concerns\n\n\nTechnologies include:\n\n\n • Ansible for infrastructure automaton and conﬁguration management\n\n • Python for custom Tool development\n\n • nxLog + rsyslog + graylog for logging infrastructure\n • NOVELL eDirectory\n\n • Shibboleth as identity Provider combined with ldap\n\n • SLES11\n\n • Git for conﬁguration and documentation versioning\n\n\nAchievements include:\n\n\n • Drastically accelerated ( 20x faster) the update process and improved its\n reliability by introduction of centralized conﬁguration management\n\n • Extended the python-ldap library with interfaces for simpliﬁed access and\n modiﬁcation of LDAP-Objects and searches\n\n • Introduction of a complete and reliable centralized logging solution in-\n cluding log ﬁltering and alerting for both windows and Linux systems"
+        ]
+      },
+      {
+        "path": "work_experience[3].details",
+        "content": [
+          "Responsible for data transformation and tool customization on a migra-\ntion (legacy c++ code from Solaris to Linux systems) project. The tasks\ninclude\n\n\n • Tool development for identiﬁcation of critical spots in code\n\n • Legacy code analysis\n\n • Quality assurance\n\n • Department-wide training in python\n\n • Consulting in topics of migration to Git\n\n\nTechnologies include:\n\n\n • Python\n\n • Git\n\n • Linux (Debian)\n\n\nAchievements include:\n\n\n • Implementing code coverage and dynamic code checker for c++ legacy\n source code based on gcov\n\n • Introduction of Python + Environment in project"
+        ]
+      },
+      {
+        "path": "work_experience[4].details",
+        "content": [
+          "Responsible for the infrastructure including performance and quality as-\nsurance on a large social media project.\n\n\n • Organization and care of a cloud network (Debian systems)\n\n • Support for software developers\n\n • Conﬁguration of open source tools for code quality and documentation\n\n • Implementation of performance checks\n • Implementation of automated reports on code quality and performance\n\n\nTechnologies include:\n\n\n • Python + Django for tool development\n\n • Sonar as static and dynamic tool for code analysis\n\n • OpenLDAP for user rights management\n\n • JIRA as the issue tracking/SCRUM tool\n\n\nAchievements include:\n\n\n • Customized wiki and documentation application for developers with Jenk-\n ins and Git integration\n\n • Django web application to test the product performance using selenium\n tests in background with customizable tests / test environments ad a\n graphical evaluation using the jqPlot library (also Jaiascript / jQuery)\n\n • Improvement of the overall code quality by raising test coverage (+ ˜30%)\n and identiﬁcation + elimination of potential code ﬂaws"
+        ]
+      },
+      {
+        "path": "work_experience[5].details",
+        "content": [
+          "Large public service project with the goal to establish a platform for han-\ndling of ﬁnance processes with a very high number of transactions. Main\nfocus was the migration of legacy data, by assuring data quality and trans-\nformation into various formats\n\n\n • Customer consulting with regard to loading / unloading interfaces\n\n • Deﬁnition of requirements for transformation of legacy data\n\n • Implementation of algorithms for data transformation\n\n • Tool development for secure data transport\n\n • Tool development for tests of data quality/interface implementation\n\n\nTechnologies include:\n\n\n • Standard Linux tools, such as awk, sed, grep, ...\n\n • Python for in-depth data analysis\n\n • Java for transport layers\n\n • IBM DataStage\n\n\nAchievements include:\n\n\n • Deﬁnition of uniform standards\n\n • Introduction of the standard Linux stack as global toolset for data analysis\n in project"
+        ]
+      },
+      {
+        "path": "education[0].details",
+        "content": [
+          "Main thematic priority of those master studies was numerical time series analysis of non-linear dynamical systems. Besides data analysis and transformation, great importance was attached to fast algorithms and efficient software architecture. In the master thesis a numerical approach for the detection of the direction of interaction was proposed. Analysis of this new approach was performed with the help computer simulations to find out its limits and to compare it to another commonly used approaches. This numerical approach was highly optimised for cluster computing and implemented in c++. For those purposes a distributed computing cluster had to be set up and administrated."
+        ]
+      },
+      {
+        "path": "education[1].details",
+        "content": [
+          "The topic for the bachelor’s thesis was ’Feshbach resonance’. A numerical application was built to calculate the diagrams."
+        ]
+      },
+      {
+        "path": "skills[0].details",
+        "content": [
+          "5+ yrs"
+        ]
+      },
+      {
+        "path": "skills[1].details",
+        "content": [
+          "5+ yrs"
+        ]
+      },
+      {
+        "path": "skills[2].details",
+        "content": [
+          "5+ yrs"
+        ]
+      },
+      {
+        "path": "skills[3].details",
+        "content": [
+          "5+ yrs"
+        ]
+      },
+      {
+        "path": "skills[4].details",
+        "content": [
+          "5+ yrs"
+        ]
+      },
+      {
+        "path": "skills[5].details",
+        "content": [
+          "3+ yrs"
+        ]
+      },
+      {
+        "path": "skills[6].details",
+        "content": [
+          "3+ yrs"
+        ]
+      },
+      {
+        "path": "skills[7].details",
+        "content": [
+          "3+ yrs"
+        ]
+      },
+      {
+        "path": "training[0].details",
+        "content": [
+          "Intense course about the ETL technologies and the use of IBM DataStage."
+        ]
+      },
+      {
+        "path": "training[1].details",
+        "content": [
+          "Two months full-time training in object oriented programming in Java SE/EE, software development, testing and modern enterprise web-frameworks. Other topics were object oriented design patterns, test-driven development, SQL-databases and webservers in Java environment (Tomcat / Glasfish / JBoss / Jety)"
+        ]
+      }
+    ],
+    "prediction": [
+      {
+        "path": "work_experience[0].details",
+        "content": [
+          "A large IAM project required an intuitive interface for role-based access and rights management. At the same time, new workflows for role based access, life time and monitoring had to be established",
+          "Creation of a web portal for role- and rights management",
+          "Establishing a connection to the existing MicroFocus role solution",
+          "Development of new role-based workflows and processes, as well as training and support",
+          "Maintenance of existing infrastructure",
+          "Technologies include: Django for the roles- and rights management tool backend (backend is a REST interface), Angular for the easy frontend interaction, HTML5/CSS3/Bootstrap3 for the frontend, Ansible + Docker for 1-click deployments",
+          "Achievements include: A web based tool for an intuitive role assignment and administration, Online overview of company structures, projects, etc, Tools for role review, reporting and troubleshooting"
+        ]
+      },
+      {
+        "path": "work_experience[1].details",
+        "content": [
+          "Responsible for infrastructure architecture / automaton as well as custom tool development on a project for directory services and identity / access management in a large heterogeneous environment",
+          "Design and implementation of update and deployment process automation",
+          "Quality assurance by design of infrastructure monitoring, centralized logging solutions and documentation",
+          "Customized tool creation for ldap operations",
+          "Installation and maintenance of single sign on solutions",
+          "Customer support in ldap / infrastructural / programming concerns",
+          "Technologies include: Ansible for infrastructure automaton and configuration management, Python for custom Tool development, nxLog + rsyslog + graylog for logging infrastructure",
+          "Achievements include: Drastically accelerated (20x faster) the update process and improved its reliability by introduction of centralized configuration management, Extended the python-ldap library with interfaces for simplified access and modification of LDAP-Objects and searches, Introduction of a complete and reliable centralized logging solution including log filtering and alerting for both windows and Linux systems"
+        ]
+      },
+      {
+        "path": "work_experience[2].details",
+        "content": [
+          "Responsible for data transformation and tool customization on a migration (legacy c++ code from Solaris to Linux systems) project. The tasks include Tool development for identification of critical spots in code, Legacy code analysis, Quality assurance, Department-wide training in python, Consulting in topics of migration to Git",
+          "Technologies include: Python, Git, Linux (Debian)",
+          "Achievements include: Implementing code coverage and dynamic code checker for c++ legacy source code based on gcov, Introduction of Python + Environment in project"
+        ]
+      },
+      {
+        "path": "work_experience[3].details",
+        "content": [
+          "Responsible for the infrastructure including performance and quality assurance on a large social media project",
+          "Organization and care of a cloud network (Debian systems)",
+          "Support for software developers",
+          "Configuration of open source tools for code quality and documentation",
+          "Implementation of performance checks",
+          "Implementation of automated reports on code quality and performance",
+          "Technologies include: Python + Django for tool development, Sonar as static and dynamic tool for code analysis, OpenLDAP for user rights management, JIRA as the issue tracking/SCRUM tool",
+          "Achievements include: Customized wiki and documentation application for developers with Jenkins and Git integration, Django web application to test the product performance using selenium tests in background with customizable tests / test environments and a graphical evaluation using the jqPlot library (also JavaScript / jQuery), Improvement of the overall code quality by raising test coverage (+ ~30%) and identification + elimination of potential code flaws"
+        ]
+      },
+      {
+        "path": "work_experience[4].details",
+        "content": [
+          "Large public service project with the goal to establish a platform for handling of finance processes with a very high number of transactions. Main focus was the migration of legacy data, by assuring data quality and transformation into various formats",
+          "Customer consulting with regard to loading / unloading interfaces",
+          "Definition of requirements for transformation of legacy data",
+          "Implementation of algorithms for data transformation",
+          "Tool development for secure data transport",
+          "Tool development for tests of data quality/interface implementation",
+          "Technologies include: Standard Linux tools, such as awk, sed, grep, ..., Python for in-depth data analysis, Java for transport layers, IBM DataStage",
+          "Achievements include: Definition of uniform standards, Introduction of the standard Linux stack as global toolset for data analysis in project"
+        ]
+      },
+      {
+        "path": "education[0].details",
+        "content": [
+          "Responsible for infrastructure architecture with regard on the future development and tool selection in the field of identity and access management",
+          "Selection of future-proof tools for a large infrastructure",
+          "Infrastructure migration into a cloudstack cloud",
+          "Quality assurance in terms of documentation, data analysis and transformation",
+          "Tool development for infrastructure overview",
+          "Development of Ansible modules for client",
+          "Technologies include: Python for custom tool development, Ansible for infrastructure migration and cloud configuration, SLES12, Django for Visualization",
+          "Achievements include: Ansible module for SLES12 System + Package registration, Python tool for ACL-administration in cloud, Fully automated migration of old systems into cloud with Ansible playbooks/roles, Django tool on LDAP - Schema Review"
+        ]
+      },
+      {
+        "path": "education[1].details",
+        "content": [
+          "The topic for the bachelor’s thesis was 'Feshbach resonance'. A numerical application was built to calculate the diagrams",
+          "Technologies include: Python for custom tool development, Ansible for infrastructure migration and cloud configuration, SLES11, Django for Visualization",
+          "Achievements include: Ansible module for SLES12 System + Package registration, Python tool for ACL-administration in cloud, Fully automated migration of old systems into cloud with Ansible playbooks/roles, Django tool on LDAP - Schema Review"
+        ]
+      },
+      {
+        "path": "training[0].details",
+        "content": [
+          "object oriented programming in Java SE/EE, software development, testing and modern enterprise web-frameworks. Other topics were object oriented design patterns, test-driven development, SQL-databases and webservers in Java environment (Tomcat / Glasﬁsh / JBoss / Jety)"
+        ]
+      },
+      {
+        "path": "additional_sections",
+        "content": [
+          {
+            "source_pages": [],
+            "heading": null,
+            "text": "It is important for me to stay up to date with the newest topics in the field of IT. In DevOps it is also important to have a general overview and a hands-on experience on them. Therefore, besides intense article studies, I also keep myself up to date with online classes.\n\nTechnologies include: Python, Git, Linux (Debian)\n\nAchievements include: Implementing code coverage and dynamic code checker for c++ legacy source code based on gcov, Introduction of Python + Environment in project"
+          }
+        ]
+      }
+    ],
+    "checklist": {
+      "preservation": {
+        "passed": null,
+        "notes": ""
+      },
+      "faithfulness": {
+        "passed": null,
+        "notes": ""
+      },
+      "placement": {
+        "passed": null,
+        "notes": ""
+      },
+      "duplication": {
+        "passed": null,
+        "notes": ""
+      }
+    }
+  },
+  "status": "evaluated"
+}

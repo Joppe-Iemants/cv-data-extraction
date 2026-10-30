@@ -1,0 +1,140 @@
+{
+  "personal_information": {
+    "full_name": "John Doe ESQ",
+    "headline": "CRIMINAL DEFENSE COUNSEL - WHITE COLLAR & REGULATORY ENFORCEMENT",
+    "emails": [
+      "john.doe@doedefensegroup.com"
+    ],
+    "location": "Chicago, IL"
+  },
+  "summary": "White collar criminal defense attorney with 11 years representing individuals and corporations in federal securities fraud, healthcare fraud, and public corruption investigations. Former Assistant United States Attorney with trial experience now applied to defense-side representation before federal grand juries, the SEC, and DOJ. Known within the local bar, somewhat informally, as \"the closer\" for a track record of pre-indictment resolutions, a reputation that has become as much a source of referrals as any formal marketing the practice has done.",
+  "work_experience": [
+    {
+      "employer": "Doe Defense Group",
+      "role": "Founding Partner",
+      "dates": {
+        "start": "2019",
+        "end": "Present"
+      },
+      "location": "Chicago, IL",
+      "details": [
+        "Represent corporate and individual clients in federal white collar investigations, achieving pre-indictment resolution or declination in the majority of matters handled since founding practice.",
+        "Lead counsel in a significant healthcare fraud investigation involving a regional hospital system, negotiating a civil resolution that avoided criminal charges against 3 individual physician clients.",
+        "Conduct internal investigations for corporate boards facing regulatory inquiry, typically engaged within days of an initial subpoena or investigative demand.",
+        "Built the firm's voluntary self-disclosure protocol, used to advise 4 corporate clients on the risk tradeoffs of proactive disclosure to DOJ ahead of an anticipated inquiry.",
+        "Grew the practice from a solo founding to 3 partners and 4 associates over five years, while maintaining personal involvement as lead or co-lead counsel on every matter above a defined exposure threshold.",
+        "Coordinated parallel civil and criminal proceedings for 5 corporate clients simultaneously facing SEC civil enforcement and a related DOJ criminal inquiry, managing a unified defense strategy across both tracks.",
+        "Represented an individual corporate officer client in a whistleblower-triggered SEC investigation, negotiation a resolution that avoided any admission of wrongdoing.",
+        "Built out the practice's document-review protocol for large-scale internal investigations, now standard procedure for any engagement involving more than 50,000 responsive documents."
+      ]
+    },
+    {
+      "employer": "Halvorsen Reyes LLP",
+      "role": "Partner",
+      "dates": {
+        "start": "2016",
+        "end": "2019"
+      },
+      "location": "Chicago, IL",
+      "details": [
+        "Represented individual and corporate clients in SEC enforcement matters and parallel criminal investigations.",
+        "First-chaired 4 federal jury trials during this period, obtaining acquittal or favorable verdict in 3.",
+        "Built relationships with 3 forensic accounting firms regularly retained as testifying experts in securities fraud matters handled by the practice group."
+      ]
+    },
+    {
+      "employer": "U.S. Attorney's Office, Nothern District of Illinois",
+      "role": "Assistant United States Attorney",
+      "dates": {
+        "start": "2014",
+        "end": "2016"
+      },
+      "location": "Chicago, IL",
+      "details": [
+        "Prosecuted federal securities fraud and public corruption cases, first chairing 2 federal jury trials and managing grand jury investigations.",
+        "Supervised 2 case agents on a multi-year public corruption investigation resulting in indictment of 3 defendants.",
+        "Presented complex financial evidence to grand juries in 6 separate securities fraud investigations, working closely with SEC enforcement staff on parallel civil referrals."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Northwestern Pritzker School of Law",
+      "qualification": "J.D.",
+      "dates": {}
+    },
+    {
+      "institution": "University of Illinois at Urbana-Champaign",
+      "qualification": "B.S., Accounting",
+      "dates": {}
+    }
+  ],
+  "skills": [
+    {
+      "name": "Federal Grand Jury Representation"
+    },
+    {
+      "name": "SEC and DOJ Investigations"
+    },
+    {
+      "name": "Healthcare Fraud Defense (False Claims Act)"
+    },
+    {
+      "name": "Internal Corporate Investigations"
+    },
+    {
+      "name": "Trial Advocacy"
+    },
+    {
+      "name": "Plea Negotiation"
+    },
+    {
+      "name": "Public Corruption Defense"
+    },
+    {
+      "name": "Voluntary Disclosure Strategy"
+    },
+    {
+      "name": "Parallel Proceedings Coordination (civil and criminal)"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Certificate in corporate internal investigations",
+      "issuer": "American Bar Association",
+      "date": "2023"
+    },
+    {
+      "name": "Licensed to practice",
+      "issuer": "State of Illinois",
+      "date": "2011"
+    },
+    {
+      "name": "Certificate, White collar crime Institute",
+      "issuer": "Georgetown Law",
+      "date": "2021"
+    },
+    {
+      "name": "Admitted to practice",
+      "issuer": "U.S. District Court, Nothern District of Illinois"
+    }
+  ],
+  "additional_sections": [
+    {
+      "heading": "AWARDS AND RECOGNITION.",
+      "text": "Recognized by a Chicago business journal as one of the city's notable young defense attorneys\nNamed to a regional legal publication's list of leading white collar defense attorneys"
+    },
+    {
+      "heading": "NOTABLE MATTERS",
+      "text": "Healthcare fraud investigation referenced above remains the highest-exposure matter resolved by the practice to date, avoiding criminal charges for 3 individual physicians through a negotiated civil resolution following an 11-month investigation. Coordinated parallel SEC and DOJ proceedings for a corporate client facing simultaneous civil and criminal exposure, resulting in a negotiated non-prosecution agreement after extensive cooperation credit negotiations with both agencies. Represented an individual client in a federal securities fraud grand jury investigation that concluded in a declination without indictment after an 8-month engagement, a result the client’s subsequent civil litigation counsel described as having materially strengthened their negotiating position in a related shareholder suit."
+    },
+    {
+      "heading": "PROFESSIONAL AFFILIATIONS",
+      "text": "National Association of Criminal Defense Lawyers, member since 2016. Federal Bar Association, Chicago Chapter. Occasional CLE presenter, Illinois State Bar Association white collar practice section, 2020 to present."
+    },
+    {
+      "heading": "SPEAKING ENGAGEMENTS & COMMUNITY INVOLVEMENT",
+      "text": "Presented on voluntary self-disclosure risk tradeoffs at the Illinois State Bar Association’s White Collar practice CLE series, most recently 2023. Guest panelist, a regional corporate compliance officers’ association annual conference, invited 2022, speaking on parallel civil-criminal proceedings strategy. Provides pro bono consultation, informally and on an as-needed basis, to a nonprofit legal clinic serving small business owners facing regulatory inquiry."
+    }
+  ]
+}

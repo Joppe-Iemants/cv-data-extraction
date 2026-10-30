@@ -1,0 +1,211 @@
+{
+  "personal_information": {
+    "full_name": "Doruk Çetin",
+    "emails": [
+      "dcetin@ethz.ch"
+    ],
+    "weblinks": [
+      {
+        "url": "dcetin.me"
+      },
+      {
+        "url": "github.com/dcetin",
+        "platform": "GitHub"
+      }
+    ]
+  },
+  "work_experience": [
+    {
+      "employer": "ETH Zurich",
+      "role": "Student Research Assistant at Data Analytics Lab",
+      "dates": {
+        "start": "Summer 2019"
+      },
+      "location": "Zurich, CH",
+      "details": [
+        "Interpretability in adversarial word embeddings for text",
+        "Adapted the codebase for adversarial attacks on embeddings, conducted qualitative and quantitative analyses, worked on adversarial text generation via embedding projection"
+      ]
+    },
+    {
+      "employer": "Imperial College London",
+      "role": "Research Intern at Intelligent Behaviour Understanding Group (iBUG)",
+      "dates": {
+        "start": "Summer 2017"
+      },
+      "location": "London, UK",
+      "details": [
+        "A novel audiovisual dataset for normal, whispered and silent speech",
+        "Created tools for data collection and analysis, analysed the collected data, implemented fixes, worked on the reimplementation of the existing network in a different library"
+      ]
+    },
+    {
+      "employer": "École Polytechnique Fédérale de Lausanne",
+      "role": "Research Intern at Data Intensive Applications and Systems Laboratory (DIAS)",
+      "dates": {
+        "start": "Summer 2016"
+      },
+      "location": "Lausanne, CH",
+      "details": [
+        "Microarchitectural analysis of OLAP database systems",
+        "Examined the changes in microarchitectural utilization of different column-oriented database systems on distinct workloads"
+      ]
+    },
+    {
+      "employer": "Middle East Technical University",
+      "role": "Student Teaching Assistant",
+      "dates": {
+        "start": "Spring 2018"
+      },
+      "details": [
+        "Programming Language Concepts (CENG 242)"
+      ]
+    },
+    {
+      "employer": "Middle East Technical University",
+      "role": "Student Teaching Assistant",
+      "dates": {
+        "start": "Fall 2016"
+      },
+      "details": [
+        "Introduction to C Programming (CENG 230)"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "eth-cs-notes",
+      "dates": {
+        "start": "2019"
+      },
+      "details": [
+        "Lecture notes/cheatsheets for Master’s in CS"
+      ],
+      "skills": [
+        "LaTeX/Markdown"
+      ]
+    },
+    {
+      "name": "bert-adv-embed",
+      "dates": {
+        "start": "2019"
+      },
+      "details": [
+        "Adversarial perturbations on BERT word embeddings"
+      ],
+      "skills": [
+        "Python/Chainer"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "ETH Zurich",
+      "qualification": "M.S. in Computer Science",
+      "dates": {
+        "start": "2018",
+        "end": "2020"
+      },
+      "details": [
+        "GPA: 5.63/6.00",
+        "Thesis: “Learning in-the-wild Temporal 3D Pose Estimation from MoCap Data”",
+        "Zurich, CH"
+      ]
+    },
+    {
+      "institution": "Middle East Technical University",
+      "qualification": "B.S. in Computer Engineering",
+      "dates": {
+        "start": "2013",
+        "end": "2018"
+      },
+      "details": [
+        "GPA: 3.96/4.00 (ranked 2nd/190 in the dept.)",
+        "Thesis: “AlgoTrade: A web-based algorithmic trading and backtesting framework”",
+        "Ankara, TR"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python"
+    },
+    {
+      "name": "Matlab"
+    },
+    {
+      "name": "C/C++"
+    },
+    {
+      "name": "Java"
+    },
+    {
+      "name": "PyTorch"
+    },
+    {
+      "name": "TensorFlow"
+    },
+    {
+      "name": "Keras"
+    },
+    {
+      "name": "Chainer"
+    },
+    {
+      "name": "LaTeX"
+    },
+    {
+      "name": "Git"
+    },
+    {
+      "name": "SQL"
+    },
+    {
+      "name": "HTML/CSS"
+    },
+    {
+      "name": "Jekyll"
+    },
+    {
+      "name": "JavaScript"
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "proficiency": {
+        "text": "Proficient"
+      },
+      "details": [
+        "TOEFL iBT score: 112/120",
+        "GRE: V: 162/170, Q: 170/170, AW: 4.0/6.0"
+      ]
+    },
+    {
+      "name": "Turkish",
+      "proficiency": {
+        "text": "Mother tongue, native speaker"
+      }
+    },
+    {
+      "name": "Spanish",
+      "proficiency": {
+        "text": "Conversational, CEFR level: A1-A2"
+      }
+    }
+  ],
+  "additional_sections": [
+    {
+      "heading": "Publications",
+      "text": "S. Petridis, J. Shen, D. Cetin, and M. Pantic, “Visual-Only Recognition of Normal, Whispered and Silent Speech”, in 2018 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Apr. 2018, pp. 6219–6223."
+    },
+    {
+      "heading": "Scholarships and Awards",
+      "text": "• ETH Zurich Direct Doctorate Scholarship 2018–2020\n• 3rd place in METU Ceng Demo Day 2018, final year project exhibition of the department 2018\n• Erasmus+ Traineeship Scholarship 2017\n• Summer@EPFL Scholarship 2016\n• METU Development Foundation Scholarship for Outstanding Success 2013–2018\n• Merit based Prime Ministry Scholarship 2013–2018\n• Isbank Altın Gençler Award and mobility grant 2013\n• Ranked 4th among 1.9 million participants nationwide in Undergraduate Placement Examination (LYS) 2013"
+    },
+    {
+      "heading": "Volunteering & Mentoring",
+      "text": "• Career Mentor at Crossing Paths 2017–Current\nHelping undergraduate students on their career goals, also took part in their Career Chats program\n• Master Helper at ETH VIS Welcome Day 2019 Fall 2019\nMentored newcomer Master students, gave a campus tour and aided them in Study Planning Workshop\n• C Programming Language Tutor at IEEE METU Student Branch Fall 2016\nAn introduction to programming and a tutorial for the school courses for non-CS students\n• Official Turkish localization of the video game Human Resource Machine Winter 2015\nA puzzle game by Tomorrow Corporation, simulating a simple computer in an office environment"
+    }
+  ]
+}

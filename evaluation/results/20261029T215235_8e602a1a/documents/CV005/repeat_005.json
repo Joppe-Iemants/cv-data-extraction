@@ -1,0 +1,850 @@
+{
+  "document_id": "CV005",
+  "repetition": 5,
+  "overall": {
+    "correct": 49,
+    "missing": 8,
+    "incorrect": 1,
+    "unexpected": 69,
+    "expected_facts": 58,
+    "predicted_facts": 119,
+    "precision": 0.4117647058823529,
+    "recall": 0.8448275862068966,
+    "f1": 0.5536723163841808
+  },
+  "extraction_status": "completed",
+  "prediction_sha256": "662960a2dd6ac0c45f9238d5ac3394ff9adecab93544ebe28e4761c57854d36f",
+  "json_valid": true,
+  "schema_valid": true,
+  "categories": {
+    "personal_information": {
+      "correct": 8,
+      "missing": 2,
+      "incorrect": 0,
+      "unexpected": 1,
+      "expected_facts": 10,
+      "predicted_facts": 9,
+      "precision": 0.8888888888888888,
+      "recall": 0.8,
+      "f1": 0.8421052631578947
+    },
+    "work_experience": {
+      "correct": 19,
+      "missing": 0,
+      "incorrect": 0,
+      "unexpected": 56,
+      "expected_facts": 19,
+      "predicted_facts": 75,
+      "precision": 0.25333333333333335,
+      "recall": 1.0,
+      "f1": 0.40425531914893614
+    },
+    "projects": {
+      "correct": 4,
+      "missing": 0,
+      "incorrect": 0,
+      "unexpected": 8,
+      "expected_facts": 4,
+      "predicted_facts": 12,
+      "precision": 0.3333333333333333,
+      "recall": 1.0,
+      "f1": 0.5
+    },
+    "education": {
+      "correct": 7,
+      "missing": 3,
+      "incorrect": 1,
+      "unexpected": 0,
+      "expected_facts": 11,
+      "predicted_facts": 8,
+      "precision": 0.875,
+      "recall": 0.6363636363636364,
+      "f1": 0.7368421052631579
+    },
+    "skills": {
+      "correct": 11,
+      "missing": 3,
+      "incorrect": 0,
+      "unexpected": 4,
+      "expected_facts": 14,
+      "predicted_facts": 15,
+      "precision": 0.7333333333333333,
+      "recall": 0.7857142857142857,
+      "f1": 0.7586206896551724
+    },
+    "languages": {
+      "correct": 0,
+      "missing": 0,
+      "incorrect": 0,
+      "unexpected": 0,
+      "expected_facts": 0,
+      "predicted_facts": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null
+    },
+    "certifications": {
+      "correct": 0,
+      "missing": 0,
+      "incorrect": 0,
+      "unexpected": 0,
+      "expected_facts": 0,
+      "predicted_facts": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null
+    },
+    "training": {
+      "correct": 0,
+      "missing": 0,
+      "incorrect": 0,
+      "unexpected": 0,
+      "expected_facts": 0,
+      "predicted_facts": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null
+    }
+  },
+  "differences": [
+    {
+      "path": "personal_information.weblinks[0->0].platform",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "website"
+    },
+    {
+      "path": "personal_information.weblinks[reference:2].platform",
+      "result": "missing",
+      "expected": "GitHub",
+      "actual": null
+    },
+    {
+      "path": "personal_information.weblinks[reference:2].url",
+      "result": "missing",
+      "expected": "github.com/jankapunkt",
+      "actual": null
+    },
+    {
+      "path": "work_experience[0->0].skills[prediction:0]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Meteor"
+    },
+    {
+      "path": "work_experience[0->0].skills[prediction:1]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Mongo"
+    },
+    {
+      "path": "work_experience[0->0].skills[prediction:2]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "React"
+    },
+    {
+      "path": "work_experience[0->0].skills[prediction:3]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Bootstrap"
+    },
+    {
+      "path": "work_experience[0->0].skills[prediction:4]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Fontawesome"
+    },
+    {
+      "path": "work_experience[0->0].skills[prediction:5]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Mocha"
+    },
+    {
+      "path": "work_experience[0->0].skills[prediction:6]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Git"
+    },
+    {
+      "path": "work_experience[0->0].skills[prediction:7]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Sourcetree"
+    },
+    {
+      "path": "work_experience[0->0].skills[prediction:8]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Travis"
+    },
+    {
+      "path": "work_experience[0->0].skills[prediction:9]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Webstorm"
+    },
+    {
+      "path": "work_experience[0->0].skills[prediction:10]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Terminal"
+    },
+    {
+      "path": "work_experience[1->1].skills[prediction:0]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Meteor"
+    },
+    {
+      "path": "work_experience[1->1].skills[prediction:1]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Mongo"
+    },
+    {
+      "path": "work_experience[1->1].skills[prediction:2]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "React"
+    },
+    {
+      "path": "work_experience[1->1].skills[prediction:3]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Bootstrap"
+    },
+    {
+      "path": "work_experience[1->1].skills[prediction:4]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Fontawesome"
+    },
+    {
+      "path": "work_experience[1->1].skills[prediction:5]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Mocha"
+    },
+    {
+      "path": "work_experience[1->1].skills[prediction:6]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Git"
+    },
+    {
+      "path": "work_experience[1->1].skills[prediction:7]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Sourcetree"
+    },
+    {
+      "path": "work_experience[1->1].skills[prediction:8]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Travis"
+    },
+    {
+      "path": "work_experience[1->1].skills[prediction:9]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Webstorm"
+    },
+    {
+      "path": "work_experience[1->1].skills[prediction:10]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Terminal"
+    },
+    {
+      "path": "work_experience[2->2].skills[prediction:0]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Meteor"
+    },
+    {
+      "path": "work_experience[2->2].skills[prediction:1]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Mongo"
+    },
+    {
+      "path": "work_experience[2->2].skills[prediction:2]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "React"
+    },
+    {
+      "path": "work_experience[2->2].skills[prediction:3]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Bootstrap"
+    },
+    {
+      "path": "work_experience[2->2].skills[prediction:4]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Fontawesome"
+    },
+    {
+      "path": "work_experience[2->2].skills[prediction:5]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Mocha"
+    },
+    {
+      "path": "work_experience[2->2].skills[prediction:6]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Git"
+    },
+    {
+      "path": "work_experience[2->2].skills[prediction:7]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Sourcetree"
+    },
+    {
+      "path": "work_experience[2->2].skills[prediction:8]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Travis"
+    },
+    {
+      "path": "work_experience[2->2].skills[prediction:9]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Webstorm"
+    },
+    {
+      "path": "work_experience[2->2].skills[prediction:10]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Terminal"
+    },
+    {
+      "path": "work_experience[3->3].dates.end",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Nov. 2011"
+    },
+    {
+      "path": "work_experience[3->3].skills[prediction:0]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Meteor"
+    },
+    {
+      "path": "work_experience[3->3].skills[prediction:1]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Mongo"
+    },
+    {
+      "path": "work_experience[3->3].skills[prediction:2]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "React"
+    },
+    {
+      "path": "work_experience[3->3].skills[prediction:3]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Bootstrap"
+    },
+    {
+      "path": "work_experience[3->3].skills[prediction:4]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Fontawesome"
+    },
+    {
+      "path": "work_experience[3->3].skills[prediction:5]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Mocha"
+    },
+    {
+      "path": "work_experience[3->3].skills[prediction:6]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Git"
+    },
+    {
+      "path": "work_experience[3->3].skills[prediction:7]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Sourcetree"
+    },
+    {
+      "path": "work_experience[3->3].skills[prediction:8]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Travis"
+    },
+    {
+      "path": "work_experience[3->3].skills[prediction:9]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Webstorm"
+    },
+    {
+      "path": "work_experience[3->3].skills[prediction:10]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Terminal"
+    },
+    {
+      "path": "work_experience[4->4].skills[prediction:0]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Meteor"
+    },
+    {
+      "path": "work_experience[4->4].skills[prediction:1]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Mongo"
+    },
+    {
+      "path": "work_experience[4->4].skills[prediction:2]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "React"
+    },
+    {
+      "path": "work_experience[4->4].skills[prediction:3]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Bootstrap"
+    },
+    {
+      "path": "work_experience[4->4].skills[prediction:4]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Fontawesome"
+    },
+    {
+      "path": "work_experience[4->4].skills[prediction:5]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Mocha"
+    },
+    {
+      "path": "work_experience[4->4].skills[prediction:6]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Git"
+    },
+    {
+      "path": "work_experience[4->4].skills[prediction:7]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Sourcetree"
+    },
+    {
+      "path": "work_experience[4->4].skills[prediction:8]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Travis"
+    },
+    {
+      "path": "work_experience[4->4].skills[prediction:9]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Webstorm"
+    },
+    {
+      "path": "work_experience[4->4].skills[prediction:10]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Terminal"
+    },
+    {
+      "path": "projects[0->0].skills[prediction:0]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Java"
+    },
+    {
+      "path": "projects[0->0].skills[prediction:1]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Debian"
+    },
+    {
+      "path": "projects[prediction:1].dates.end",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "2015 / 07"
+    },
+    {
+      "path": "projects[prediction:1].dates.start",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "2015 / 07"
+    },
+    {
+      "path": "projects[prediction:1].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Master Thesis"
+    },
+    {
+      "path": "projects[prediction:1].organization",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "University of Bremen"
+    },
+    {
+      "path": "projects[prediction:1].skills[prediction:0]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Algorithm"
+    },
+    {
+      "path": "projects[prediction:1].skills[prediction:1]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Spreadsheet"
+    },
+    {
+      "path": "education[1->0].qualification",
+      "result": "incorrect",
+      "expected": "Master Studies Digital Media",
+      "actual": "M.Sc. Digital Media"
+    },
+    {
+      "path": "education[reference:0].dates.end",
+      "result": "missing",
+      "expected": "2015 / 07",
+      "actual": null
+    },
+    {
+      "path": "education[reference:0].institution",
+      "result": "missing",
+      "expected": "University of Bremen",
+      "actual": null
+    },
+    {
+      "path": "education[reference:0].qualification",
+      "result": "missing",
+      "expected": "Graduated as M.Sc. Digital Media",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:0].name",
+      "result": "missing",
+      "expected": "Software Development",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:1].name",
+      "result": "missing",
+      "expected": "Consulting",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:2].name",
+      "result": "missing",
+      "expected": "Education",
+      "actual": null
+    },
+    {
+      "path": "skills[prediction:11].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Java"
+    },
+    {
+      "path": "skills[prediction:12].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Debian"
+    },
+    {
+      "path": "skills[prediction:13].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Algorithm"
+    },
+    {
+      "path": "skills[prediction:14].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Spreadsheet"
+    }
+  ],
+  "matching_review_required": true,
+  "matching_warnings": [
+    {
+      "path": "education",
+      "reference_index": 1,
+      "prediction_index": 0,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    }
+  ],
+  "provenance": {
+    "policy": "empty",
+    "correct": 0,
+    "missing": 0,
+    "incorrect": 0,
+    "unexpected": 10,
+    "expected_facts": 0,
+    "predicted_facts": 10,
+    "precision": 0.0,
+    "recall": null,
+    "f1": 0.0,
+    "differences": [
+      {
+        "path": "personal_information.source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "work_experience[0->0].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "work_experience[1->1].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "work_experience[2->2].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "work_experience[3->3].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "work_experience[4->4].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "projects[0->0].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "projects[prediction:1].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "education[1->0].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "education[2->1].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      }
+    ]
+  },
+  "content_review": {
+    "status": "pending",
+    "reference": [
+      {
+        "path": "personal_information.details",
+        "content": [
+          "Status: PhD student, M.Sc. Digital Media, Fullstack JS Engineer"
+        ]
+      },
+      {
+        "path": "summary",
+        "content": "I create awesome resume templates in LaTeX for everyone."
+      },
+      {
+        "path": "work_experience[0].details",
+        "content": [
+          "Invent a realtime classroom management using Meteor and React",
+          "Design software architecture and leading development"
+        ]
+      },
+      {
+        "path": "work_experience[1].details",
+        "content": [
+          "Realize projects in XPages and We4IT Aveedo, monitor project status, conduct reports",
+          "Integrated Camunda BPMN engine and BPMN.IO modeler in We4IT Aveedo"
+        ]
+      },
+      {
+        "path": "work_experience[2].details",
+        "content": [
+          "Invented a flexible assessment framework, targeting industrial trainees",
+          "Supervised software development lifecycle, Recruited team members"
+        ]
+      },
+      {
+        "path": "work_experience[3].details",
+        "content": [
+          "Performed a two-day project simulation from management perspective",
+          "Topics included customer contracts, change management, controlling, operational tasks"
+        ]
+      },
+      {
+        "path": "work_experience[4].details",
+        "content": [
+          "Realized an online diagnosis platform for workforce literacy development (Flex)",
+          "Modeled software design, implemented various prototypes, conducted usability tests"
+        ]
+      },
+      {
+        "path": "projects[0].details",
+        "content": [
+          "Co-Invented a touch table application for medical support, co-developed software (Java)",
+          "Formed a scrum team, mainted project dev server (Debian), surveyed target audience"
+        ]
+      },
+      {
+        "path": "education[0].details",
+        "content": [
+          "Master Thesis: Semi Automated Scoring in Technology Based Assessment",
+          "Developed and evaluated an algorithm for semi automated scoring of spreadsheet data"
+        ]
+      },
+      {
+        "path": "education[1].details",
+        "content": [
+          "Inter-cultural classes in English, covering special topics in computer science and design",
+          "Professionalized in research methods, software development and e-assessment"
+        ]
+      },
+      {
+        "path": "education[2].details",
+        "content": [
+          "Mastered six months of study and trans-cultural experience in Melbourne, Australia",
+          "Finished machine programming, information visualization, professional essay writing"
+        ]
+      },
+      {
+        "path": "additional_sections",
+        "content": [
+          {
+            "source_pages": [],
+            "heading": "Activities",
+            "text": "Global Game Jam, Sound Engineering, Blender, Martial Arts"
+          }
+        ]
+      }
+    ],
+    "prediction": [
+      {
+        "path": "personal_information.details",
+        "content": [
+          "I create awesome resume templates in LaTeX for everyone."
+        ]
+      },
+      {
+        "path": "work_experience[0].details",
+        "content": [
+          "Invent a realtime classroom management using Meteor and React",
+          "Design software architecture and leading development"
+        ]
+      },
+      {
+        "path": "work_experience[1].details",
+        "content": [
+          "Realize projects in XPages and We4IT Aveedo, monitor project status, conduct reports",
+          "Integrated Camunda BPMN engine and BPMN.IO modeler in We4IT Aveedo"
+        ]
+      },
+      {
+        "path": "work_experience[2].details",
+        "content": [
+          "Invented a ﬂexible assessment framework, targeting industrial trainees",
+          "Supervised software development lifecycle, Recruited team members"
+        ]
+      },
+      {
+        "path": "work_experience[3].details",
+        "content": [
+          "Performed a two-day project simulation from management perspective",
+          "Topics included customer contracts, change management, controlling, operational tasks"
+        ]
+      },
+      {
+        "path": "work_experience[4].details",
+        "content": [
+          "Realized an online diagnosis platform for workforce literacy development (Flex)",
+          "Modeled software design, implemented various prototypes, conducted usability tests"
+        ]
+      },
+      {
+        "path": "projects[0].details",
+        "content": [
+          "Co-Invented a touch table application for medical support, co-developed software (Java)",
+          "Formed a scrum team, maintained project dev server (Debian), surveyed target audience"
+        ]
+      },
+      {
+        "path": "projects[1].details",
+        "content": [
+          "Master Thesis: Semi Automated Scoring in Technology Based Assessment",
+          "Developed and evaluated an algorithm for semi automated scoring of spreadsheet data"
+        ]
+      },
+      {
+        "path": "education[0].details",
+        "content": [
+          "Inter-cultural classes in English, covering special topics in computer science and design",
+          "Professionalized in research methods, software development and e-assessment"
+        ]
+      },
+      {
+        "path": "education[1].details",
+        "content": [
+          "Mastered six months of study and trans-cultural experience in Melbourne, Australia",
+          "Finished machine programming, information visualization, professional essay writing"
+        ]
+      },
+      {
+        "path": "additional_sections",
+        "content": [
+          {
+            "source_pages": [],
+            "heading": null,
+            "text": "Check out my open source projects at - github.com/jankapunkt"
+          }
+        ]
+      }
+    ],
+    "checklist": {
+      "preservation": {
+        "passed": null,
+        "notes": ""
+      },
+      "faithfulness": {
+        "passed": null,
+        "notes": ""
+      },
+      "placement": {
+        "passed": null,
+        "notes": ""
+      },
+      "duplication": {
+        "passed": null,
+        "notes": ""
+      }
+    }
+  },
+  "status": "evaluated"
+}

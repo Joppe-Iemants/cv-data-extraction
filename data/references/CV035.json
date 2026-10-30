@@ -1,0 +1,176 @@
+{
+  "personal_information": {
+    "full_name": "Jane Doe",
+    "headline": "Genetic Counsellor",
+    "emails": [
+      "jane.doe@example.com"
+    ],
+    "phones": [
+      "0412 345 789"
+    ],
+    "location": "Victoria, Australia",
+    "weblinks": [
+      {
+        "url": "linkedin.com/in/jane-doe",
+        "platform": "LinkedIn"
+      }
+    ]
+  },
+  "summary": "Accomplished Genetic Counsellor with over 12 years of clinical experience across prenatal, paediatric, and cancer genetics services within major Australian tertiary hospitals. Skilled in patient-centred risk assessments, complex pedigree analysis, genomic test interpretation, and psychosocial support for individuals and families navigating hereditary conditions. Proven track record leading multidisciplinary case conferences, mentoring genetic counselling students, and contributing to service redesign that improved patient throughput by over 30%. Deep expertise in NATA-accredited laboratory liaison, Medicare Benefits Schedule (MBS) genetic testing item numbers, and the NSW/VIC public health genomics landscape. Committed to evidence-based, culturally safe care in alignment with the Human Genetics Society of Australasia (HGSA) and Australasian Society of Genetic Counsellors (ASGC) standards.",
+  "work_experience": [
+    {
+      "employer": "Familial Cancer Center, Peter MacCallum Cancer Center",
+      "role": "Senior Genetic Counsellor",
+      "dates": {
+        "start": "March 2019",
+        "end": "Present"
+      },
+      "location": "Melbourne, VIC",
+      "details": [
+        "Lead genetic counsellor for the hereditary breast and ovarian cancer (HBOC) clinic, managing a caseload of approximately 25-30 new patient consultations per month across BRCA1/2, PALB2 and Lynch syndrome referrals.",
+        "Coordinated care for over 450 active familial cancer families, ensuring cascade testing uptake among at-risk relatives increased from 42% to 68% over three years through structured family letter protocols and follow-up call procedures.",
+        "Supervise a team of four genetic counsellors and two genetic counselling registrars, conducting monthly case review sessions and competency assessments.",
+        "Serve as the primary liason with the Peter MacCallum Molecular Pathology laboratory.",
+        "Redesigned the pretest counselling pathway to incorporate a group education session model.",
+        "Developed and delivered GP education sessions across four Victorian Primary Health Networks (PHNs) on appropriate genetic testing referral pathways, reaching over 200 general practitioners."
+      ]
+    },
+    {
+      "employer": "Victorian Clinical Genetics Services (VCGS), Royal Children's Hospital",
+      "role": "Genetic Counsellor",
+      "dates": {
+        "start": "July 2014",
+        "end": "February 2019"
+      },
+      "location": "Melbourne, VIC",
+      "details": [
+        "Provided genetic counselling to paediatric patients and families across neurodevelopmental, metabolic and rare disease clinics, managing on average caseload of 20 families per week",
+        "Delivered pre and post test counselling for whole exome and whole genome sequencing as part of the Melbourne Genomics Health Alliance flagship program, one of the first public genomic sequencing initiatives in Australia.",
+        "Coordinated results disclosure for over 200 exome sequencing cases; including delivery of complex and incidental findings in line with HGSA guidelines.",
+        "Collaborated closely with paediatricians, clinal geneticists and allied health teams in fortnightly undiagnosed disease MDT meetings; contributing case summaries and psychosocial impact assessments.",
+        "Established a peer support group for parents of children with newly diagnosed rare genetics conditions, which ran continuously for four years and supported over 80 families.",
+        "Contributed data and case summaries to two published case series on novel variant phenotype correlations in paediatric neurodevelopmental disorders."
+      ]
+    },
+    {
+      "employer": "Prenatal Genetics Unit, Royal Hospital for Women",
+      "role": "Genetic Counsellor",
+      "dates": {
+        "start": "February 2011",
+        "end": "June 2014"
+      },
+      "location": "Sydney, NSW",
+      "details": [
+        "Provided prenatal genetic counselling to a caseload of approximately 15-18 patients per week following abnormal first-trimester screening, NIPT and ultrasound findings.",
+        "Counselled patients on invasive testing options, including risk-benefit discussions and informed consent processes.",
+        "Supported patients and partners through decision-making following diagnosis of chromosomal abnormalities and structural anomalies, including options counselling and referral to termination of pregnancy services where relevant",
+        "Worked closely with maternal-fetal medicine specialists and sonographers in a weekly high-risk pregnancy MDT clinic, contributing to management plans for over 200 complex pregnancies annually.",
+        "Introduced a standardised NIPT pre-test counselling checklist that was adopted hospital-wide, improving consistency of informed consent documentation.",
+        "Participated in the NSW Genetics Education Program, delivering training sessions to midwives and obstetric registrars on genetic screening pathways."
+      ]
+    },
+    {
+      "employer": "SA Clinical Genetics Service, Women's and Children's Hospital",
+      "role": "Genetic Counsellor (Rotational)",
+      "dates": {
+        "start": "January 2013",
+        "end": "January 2014"
+      },
+      "location": "Adelaide, SA",
+      "details": [
+        "Completed a 12 month rotational secondment supporting general genetics, cardiac genetics and prenal clinics during a service capacity shortfall.",
+        "Managed a mixed caseload including adult-onset neurogenetic conditions and inherited cardiac conditions.",
+        "Delivered predictive testing counselling for Huntington disease in accordance with international predictive testing protocols, including multi-session pre-test counselling and long term follow-up planning."
+      ]
+    },
+    {
+      "employer": "General Genetics Services, Westmead Hospital",
+      "role": "Genetic Counsellor",
+      "dates": {
+        "start": "February 2011",
+        "end": "January 2013"
+      },
+      "location": "Sydney, NSW",
+      "details": [
+        "Provided general genetics counselling across adult and paediatric referrals, including skeletal dysplasia, connective tissue disorders and undiagonosed syndromic presentation.",
+        "Conducted detailed three-generational pedigree analyses and coordinated targeted single-gene and panel testing through VCGS and NSW Health Pathology."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Melbourne",
+      "qualification": "Master of Genetic Counselling",
+      "dates": {}
+    },
+    {
+      "institution": "University of Sydney",
+      "qualification": "Bachelor of Science (Honours) Genetics",
+      "dates": {},
+      "details": [
+        "Honours thesis: \"Variant penetrance in Hereditary Cardiomyopathy Cohorts: A Retrospective Analysis\""
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Prenatal, paediatric, adult-onset and cancer genetic counselling"
+    },
+    {
+      "name": "Pre and post-test genetic counselling"
+    },
+    {
+      "name": "Non-invasive prenatal testing (NIPT) counselling"
+    },
+    {
+      "name": "Multidisciplinary team (MDT) case management"
+    },
+    {
+      "name": "Genetic counselling student supervision and clinical placement monitoring"
+    },
+    {
+      "name": "Clinical documentation"
+    },
+    {
+      "name": "Patient psychosocial support and crisis counselling"
+    },
+    {
+      "name": "Pedigree construction and heredratary risk assessment"
+    }
+  ],
+  "languages": [
+    {
+      "name": "English"
+    },
+    {
+      "name": "Spanish"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Certified Genetic Counsellor",
+      "issuer": "Human Genetics Society of Australasia (HGSA)",
+      "date": "2011",
+      "details": [
+        "recertified 2016, 2021"
+      ]
+    },
+    {
+      "name": "full member",
+      "issuer": "Australasian Society of Genetic Counsellors (ASGC)"
+    },
+    {
+      "name": "Cardiopulmonary Resuscitation (CPR) Certification"
+    }
+  ],
+  "additional_sections": [
+    {
+      "heading": "PROFESSIONAL MEMBERSHIPS",
+      "text": "Australasian Society of Genetic Counsellors (ASGC)\nHuman Genetics Society of Australasia (HGSA)\nFamilial Cancer Special Interest Group, HGSA"
+    },
+    {
+      "heading": "REFEREES",
+      "text": "Available upon request."
+    }
+  ]
+}

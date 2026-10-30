@@ -1,0 +1,530 @@
+{
+  "document_id": "CV025",
+  "repetition": 1,
+  "overall": {
+    "correct": 120,
+    "missing": 1,
+    "incorrect": 14,
+    "unexpected": 1,
+    "expected_facts": 135,
+    "predicted_facts": 135,
+    "precision": 0.8888888888888888,
+    "recall": 0.8888888888888888,
+    "f1": 0.8888888888888888
+  },
+  "extraction_status": "completed",
+  "prediction_sha256": "3fb79c98a6696524ee3945f363d0c61eb720205cca4d8706e656250b604b4fea",
+  "json_valid": true,
+  "schema_valid": true,
+  "categories": {
+    "personal_information": {
+      "correct": 6,
+      "missing": 1,
+      "incorrect": 0,
+      "unexpected": 0,
+      "expected_facts": 7,
+      "predicted_facts": 6,
+      "precision": 1.0,
+      "recall": 0.8571428571428571,
+      "f1": 0.9230769230769231
+    },
+    "work_experience": {
+      "correct": 33,
+      "missing": 0,
+      "incorrect": 2,
+      "unexpected": 0,
+      "expected_facts": 35,
+      "predicted_facts": 35,
+      "precision": 0.9428571428571428,
+      "recall": 0.9428571428571428,
+      "f1": 0.9428571428571428
+    },
+    "projects": {
+      "correct": 0,
+      "missing": 0,
+      "incorrect": 0,
+      "unexpected": 0,
+      "expected_facts": 0,
+      "predicted_facts": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null
+    },
+    "education": {
+      "correct": 7,
+      "missing": 0,
+      "incorrect": 1,
+      "unexpected": 0,
+      "expected_facts": 8,
+      "predicted_facts": 8,
+      "precision": 0.875,
+      "recall": 0.875,
+      "f1": 0.875
+    },
+    "skills": {
+      "correct": 59,
+      "missing": 0,
+      "incorrect": 0,
+      "unexpected": 1,
+      "expected_facts": 59,
+      "predicted_facts": 60,
+      "precision": 0.9833333333333333,
+      "recall": 1.0,
+      "f1": 0.9915966386554622
+    },
+    "languages": {
+      "correct": 4,
+      "missing": 0,
+      "incorrect": 0,
+      "unexpected": 0,
+      "expected_facts": 4,
+      "predicted_facts": 4,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "certifications": {
+      "correct": 11,
+      "missing": 0,
+      "incorrect": 11,
+      "unexpected": 0,
+      "expected_facts": 22,
+      "predicted_facts": 22,
+      "precision": 0.5,
+      "recall": 0.5,
+      "f1": 0.5
+    },
+    "training": {
+      "correct": 0,
+      "missing": 0,
+      "incorrect": 0,
+      "unexpected": 0,
+      "expected_facts": 0,
+      "predicted_facts": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null
+    }
+  },
+  "differences": [
+    {
+      "path": "personal_information.weblinks[0->0].platform",
+      "result": "missing",
+      "expected": "LinkedIn",
+      "actual": null
+    },
+    {
+      "path": "work_experience[0->0].location",
+      "result": "incorrect",
+      "expected": "Adityapur",
+      "actual": "Adityapur, Jamshedpur"
+    },
+    {
+      "path": "work_experience[1->1].location",
+      "result": "incorrect",
+      "expected": "Adityapur",
+      "actual": "Adityapur, Jamshedpur"
+    },
+    {
+      "path": "education[1->1].qualification",
+      "result": "incorrect",
+      "expected": "B.Tech in Electrical Engineering",
+      "actual": "B.Tech in Electrical Engineering – CGPA 7.86/10"
+    },
+    {
+      "path": "skills[prediction:52].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Dispute resolution"
+    },
+    {
+      "path": "certifications[0->0].date",
+      "result": "incorrect",
+      "expected": "2007",
+      "actual": "Year: 2007"
+    },
+    {
+      "path": "certifications[1->1].date",
+      "result": "incorrect",
+      "expected": "2009",
+      "actual": "Year: 2009"
+    },
+    {
+      "path": "certifications[2->2].date",
+      "result": "incorrect",
+      "expected": "2012",
+      "actual": "Year: 2012"
+    },
+    {
+      "path": "certifications[3->3].date",
+      "result": "incorrect",
+      "expected": "2013",
+      "actual": "Year: 2013"
+    },
+    {
+      "path": "certifications[4->4].date",
+      "result": "incorrect",
+      "expected": "2021",
+      "actual": "Year: 2021"
+    },
+    {
+      "path": "certifications[5->5].date",
+      "result": "incorrect",
+      "expected": "2022",
+      "actual": "Year: 2022"
+    },
+    {
+      "path": "certifications[6->6].date",
+      "result": "incorrect",
+      "expected": "2023",
+      "actual": "Year: 2023"
+    },
+    {
+      "path": "certifications[7->7].date",
+      "result": "incorrect",
+      "expected": "2024",
+      "actual": "Year: 2024"
+    },
+    {
+      "path": "certifications[8->8].date",
+      "result": "incorrect",
+      "expected": "2024",
+      "actual": "Year: 2024"
+    },
+    {
+      "path": "certifications[9->9].date",
+      "result": "incorrect",
+      "expected": "2024",
+      "actual": "Year: 2024"
+    },
+    {
+      "path": "certifications[10->10].date",
+      "result": "incorrect",
+      "expected": "2024",
+      "actual": "Year: 2024"
+    }
+  ],
+  "matching_review_required": true,
+  "matching_warnings": [
+    {
+      "path": "education",
+      "reference_index": 1,
+      "prediction_index": 1,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    },
+    {
+      "path": "skills",
+      "reference_index": 11,
+      "prediction_index": 11,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    },
+    {
+      "path": "certifications",
+      "reference_index": 0,
+      "prediction_index": 0,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    },
+    {
+      "path": "certifications",
+      "reference_index": 1,
+      "prediction_index": 1,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    },
+    {
+      "path": "certifications",
+      "reference_index": 2,
+      "prediction_index": 2,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    },
+    {
+      "path": "certifications",
+      "reference_index": 3,
+      "prediction_index": 3,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    },
+    {
+      "path": "certifications",
+      "reference_index": 4,
+      "prediction_index": 4,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    },
+    {
+      "path": "certifications",
+      "reference_index": 5,
+      "prediction_index": 5,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    },
+    {
+      "path": "certifications",
+      "reference_index": 6,
+      "prediction_index": 6,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    },
+    {
+      "path": "certifications",
+      "reference_index": 7,
+      "prediction_index": 7,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    },
+    {
+      "path": "certifications",
+      "reference_index": 8,
+      "prediction_index": 8,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    },
+    {
+      "path": "certifications",
+      "reference_index": 9,
+      "prediction_index": 9,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    },
+    {
+      "path": "certifications",
+      "reference_index": 10,
+      "prediction_index": 10,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    }
+  ],
+  "provenance": {
+    "policy": "empty",
+    "correct": 0,
+    "missing": 0,
+    "incorrect": 0,
+    "unexpected": 10,
+    "expected_facts": 0,
+    "predicted_facts": 10,
+    "precision": 0.0,
+    "recall": null,
+    "f1": 0.0,
+    "differences": [
+      {
+        "path": "personal_information.source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "work_experience[0->0].source_pages",
+        "result": "unexpected",
+        "page": 2,
+        "count": 1
+      },
+      {
+        "path": "work_experience[1->1].source_pages",
+        "result": "unexpected",
+        "page": 2,
+        "count": 1
+      },
+      {
+        "path": "work_experience[2->2].source_pages",
+        "result": "unexpected",
+        "page": 2,
+        "count": 1
+      },
+      {
+        "path": "work_experience[3->3].source_pages",
+        "result": "unexpected",
+        "page": 2,
+        "count": 1
+      },
+      {
+        "path": "work_experience[4->4].source_pages",
+        "result": "unexpected",
+        "page": 2,
+        "count": 1
+      },
+      {
+        "path": "work_experience[5->5].source_pages",
+        "result": "unexpected",
+        "page": 2,
+        "count": 1
+      },
+      {
+        "path": "work_experience[6->6].source_pages",
+        "result": "unexpected",
+        "page": 2,
+        "count": 1
+      },
+      {
+        "path": "education[0->0].source_pages",
+        "result": "unexpected",
+        "page": 2,
+        "count": 1
+      },
+      {
+        "path": "education[1->1].source_pages",
+        "result": "unexpected",
+        "page": 2,
+        "count": 1
+      }
+    ]
+  },
+  "content_review": {
+    "status": "pending",
+    "reference": [
+      {
+        "path": "summary",
+        "content": "PRINCE2 with Six Sigma Black Belt; Project and Energy Lead; PGDPM; B.Tech Electrical; 18+ years across projects, maintenance, OpEx, plant upkeep, and energy saving. Experience spans steel, cement, and food manufacturing. Directed and supported multi-crore capex initiatives. Core principles: Integrity, Commitment, Passion, Teamwork, Speed."
+      },
+      {
+        "path": "work_experience[0].details",
+        "content": [
+          "Led design for 39kton food plant in Gamharia, Value: ₹ 265 Cr",
+          "Directed 4kton extrusion line at Adityapur, Value: ₹ 9 Cr",
+          "Managed Hammer Mill, Packer, roofing, fire alarm and more, Value: ₹ 650 lakh",
+          "Oversaw LPG system (75T, 468kg/hr.) for boiler, civil works (₹ 4.8 Cr), rooftop solar design (₹ 8.2 Cr), and atta line (₹ 4.9 Cr)",
+          "Ran pavement jobs, fuel automation and more (₹ 4.9 Cr), PFD line design, and madua (ragi) flour line",
+          "Delivered 1,36,735 litres soya oil tank and transfer system, plus plant upgrades (₹ 4.9 Cr)",
+          "Steered cross-team delivery end-to-end, meeting quality, budget, and timeline in a matrix setup."
+        ]
+      },
+      {
+        "path": "work_experience[1].details",
+        "content": [
+          "Raised plant availability from 84% to 92%",
+          "Cut downtime by 8%.",
+          "Boosted capacity 30% in 2 years with zero CAPEX via OpEx.",
+          "Lowered energy spend 74% and saved ₹ 36 crore in 2 years through efficiency, OpEx, kaizen, and select investments"
+        ]
+      },
+      {
+        "path": "work_experience[2].details",
+        "content": [
+          "Headed E&I for install and start-up of 2.7 MTPA integrated cement plant from mine, crusher, raw mill, kiln, cement mill, packing, utilities (Substation 132Kv, compressor, chilled water/management, coal handling), E&I scope: ₹ 210 Cr.",
+          "Completed plant ramp-up successfully.",
+          "Created WIs, JHAs, and maintenance plans for I&C.",
+          "Launched safety programs, JSA, LOTO, and electrical standards."
+        ]
+      },
+      {
+        "path": "work_experience[3].details",
+        "content": [
+          "Built WIs, JHAs, and I&C maintenance plans.",
+          "Streamlined spares inventory.",
+          "Cut breakdowns by 19%",
+          "Conducted a successful BEE energy audit."
+        ]
+      },
+      {
+        "path": "work_experience[4].details",
+        "content": [
+          "Directed E&I install and start-up of 9 cement rail wagon loaders, truck loaders, and packers.",
+          "Led E&I installation in 31MW CPP, switchgear (160KV/6.6KV, 24.2 MVA & 7.5Kv/415V, 13MVA)",
+          "Implemented WCM, IEC, EHS, NFPA 70Es and administered SAP- PM/PS.",
+          "Reduced SEC from 2.0kwh/ton to 0.9kwh/ton over 3 years.",
+          "Shrank section downtime from 1722 to 166 hours in 3 years."
+        ]
+      },
+      {
+        "path": "work_experience[5].details",
+        "content": [
+          "Launched focused improvement",
+          "Deployed a maintenance system for EOT cranes, motors, panels, and cold-drawn ACSR equipment"
+        ]
+      },
+      {
+        "path": "work_experience[6].details",
+        "content": [
+          "Helped cut breakdowns by 2% in 11 months by improving care of motors, panels, VFDs, and PLCs",
+          "Supported E&I install and start-up of the CRM pickling line and 33kV grid feeders",
+          "Started continual improvement projects in the domain."
+        ]
+      },
+      {
+        "path": "education[1].details",
+        "content": [
+          "CGPA 7.86/10"
+        ]
+      }
+    ],
+    "prediction": [
+      {
+        "path": "summary",
+        "content": "PRINCE2 with Six Sigma Black Belt; Project and Energy Lead; PGDPM; B.Tech Electrical; 18+ years across projects, maintenance, OpEx, plant upkeep, and energy saving. Experience spans steel, cement, and food manufacturing. Directed and supported multi-crore capex initiatives. Core principles: Integrity, Commitment, Passion, Teamwork, Speed."
+      },
+      {
+        "path": "work_experience[0].details",
+        "content": [
+          "Led design for 39kton food plant in Gamharia, Value: ₹ 265 Cr",
+          "Directed 4kton extrusion line at Adityapur, Value: ₹ 9 Cr",
+          "Managed Hammer Mill, Packer, roofing, fire alarm and more, Value: ₹ 650 lakh",
+          "Oversaw LPG system (75T, 468kg/hr.) for boiler, civil works ( ₹ 4.8 Cr), rooftop solar design ( ₹ 8.2 Cr), and atta line ( ₹ 4.9 Cr)",
+          "Ran pavement jobs, fuel automation and more ( ₹ 4.9 Cr), PFD line design, and madua (ragi) flour line",
+          "Delivered 1,36,735 litres soya oil tank and transfer system, plus plant upgrades ( ₹ 4.9 Cr)",
+          "Steered cross-team delivery end-to-end, meeting quality, budget, and timeline in a matrix setup."
+        ]
+      },
+      {
+        "path": "work_experience[1].details",
+        "content": [
+          "Raised plant availability from 84% to 92%",
+          "Cut downtime by 8%.",
+          "Boosted capacity 30% in 2 years with zero CAPEX via OpEx.",
+          "Lowered energy spend 74% and saved ₹ 36 crore in 2 years through efficiency, OpEx, kaizen, and select investments"
+        ]
+      },
+      {
+        "path": "work_experience[2].details",
+        "content": [
+          "Headed E&I for install and start-up of 2.7 MTPA integrated cement plant from mine, crusher, raw mill, kiln, cement mill, packing, utilities (Substation 132Kv, compressor, chilled water/management, coal handling), E&I scope: ₹ 210 Cr.",
+          "Completed plant ramp-up successfully.",
+          "Created WIs, JHAs, and maintenance plans for I&C.",
+          "Launched safety programs, JSA, LOTO, and electrical standards."
+        ]
+      },
+      {
+        "path": "work_experience[3].details",
+        "content": [
+          "Built WIs, JHAs, and I&C maintenance plans.",
+          "Streamlined spares inventory.",
+          "Cut breakdowns by 19%",
+          "Conducted a successful BEE energy audit."
+        ]
+      },
+      {
+        "path": "work_experience[4].details",
+        "content": [
+          "Directed E&I install and start-up of 9 cement rail wagon loaders, truck loaders, and packers.",
+          "Led E&I installation in 31MW CPP, switchgear (160KV/6.6KV, 24.2 MVA & 7.5Kv/415V, 13MVA)",
+          "Implemented WCM, IEC, EHS, NFPA 70Es and administered SAP- PM/PS.",
+          "Reduced SEC from 2.0kwh/ton to 0.9kwh/ton over 3 years.",
+          "Shrank section downtime from 1722 to 166 hours in 3 years."
+        ]
+      },
+      {
+        "path": "work_experience[5].details",
+        "content": [
+          "Launched focused improvement",
+          "Deployed a maintenance system for EOT cranes, motors, panels, and cold-drawn ACSR equipment"
+        ]
+      },
+      {
+        "path": "work_experience[6].details",
+        "content": [
+          "Helped cut breakdowns by 2% in 11 months by improving care of motors, panels, VFDs, and PLCs",
+          "Supported E&I install and start-up of the CRM pickling line and 33kV grid feeders",
+          "Started continual improvement projects in the domain."
+        ]
+      }
+    ],
+    "checklist": {
+      "preservation": {
+        "passed": null,
+        "notes": ""
+      },
+      "faithfulness": {
+        "passed": null,
+        "notes": ""
+      },
+      "placement": {
+        "passed": null,
+        "notes": ""
+      },
+      "duplication": {
+        "passed": null,
+        "notes": ""
+      }
+    }
+  },
+  "status": "evaluated"
+}

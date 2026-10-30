@@ -1,0 +1,116 @@
+{
+  "personal_information": {
+    "full_name": "Katja Stapel",
+    "headline": "HEFTRUCKBESTUURDER",
+    "emails": [
+      "k.stapel@mail.com"
+    ],
+    "phones": [
+      "0412 345 678"
+    ],
+    "location": "Schapstraat 15/B, 2600 Kranegem",
+    "details": [
+      "Rijbewijs B"
+    ]
+  },
+  "summary": "Ik ben een ervaren en veilige heftruckbestuurder. Ik heb een geldig attest en werk altijd zorgvuldig, met oog voor de veiligheid van iedereen. Doordat ik snel en netjes werk, verloopt alles vlot. Ik zorg goed voor mijn heftruck en pak mijn werk zelfstandig aan.",
+  "work_experience": [
+    {
+      "employer": "Warehouse Inc",
+      "role": "Magazijnier en heftruckchauffeur",
+      "dates": {
+        "start": "2020",
+        "end": "2025"
+      },
+      "details": [
+        "Goederen en pallets verplaatsen",
+        "Pallets veilig en correct naar de juiste opslaglocaties brengen en opstapelen",
+        "Orderpicking",
+        "Controleren of de goederen onbeschadigd zijn en de documenten kloppen",
+        "De heftruck en de werkomgeving dagelijks controleren op veiligheid"
+      ]
+    },
+    {
+      "employer": "Diverse Interimjobs",
+      "role": "Magazijnier",
+      "dates": {
+        "start": "2018",
+        "end": "2020"
+      },
+      "details": [
+        "Ontvangst, controle en verdeling in het magazijn",
+        "Orderpicking",
+        "Orders verpakken, etiketteren en klaarmaken voor transport",
+        "Voorraadbeheer"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "VTI Kranegem",
+      "qualification": "A2 elektrotechnieken",
+      "dates": {
+        "end": "2015"
+      }
+    }
+  ],
+  "skills": [
+    {
+      "name": "WMSystems"
+    },
+    {
+      "name": "Office-programma’s"
+    },
+    {
+      "name": "ERP raadplegen"
+    },
+    {
+      "name": "Data-invoer"
+    },
+    {
+      "name": "Internet en e-mail"
+    },
+    {
+      "name": "Flexibel in taken en uren"
+    },
+    {
+      "name": "Verantwoordelijke, betrokken werknemer"
+    },
+    {
+      "name": "Zorgvuldig, ordelijk en met goede focus"
+    },
+    {
+      "name": "Denk vooruit en kan anticiperen"
+    },
+    {
+      "name": "Vlot in omgang met leveranciers en collega’s"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Nederlands"
+    },
+    {
+      "name": "Engels"
+    },
+    {
+      "name": "Frans"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Heftruckattest",
+      "issuer": "VDAB",
+      "date": "2016"
+    }
+  ],
+  "training": [
+    {
+      "name": "Magazijnmedewerker",
+      "provider": "VDAB",
+      "dates": {
+        "end": "2016"
+      }
+    }
+  ]
+}

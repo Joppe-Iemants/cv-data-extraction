@@ -1,0 +1,1399 @@
+{
+  "document_id": "CV038",
+  "repetition": 5,
+  "overall": {
+    "correct": 31,
+    "missing": 112,
+    "incorrect": 20,
+    "unexpected": 32,
+    "expected_facts": 163,
+    "predicted_facts": 83,
+    "precision": 0.37349397590361444,
+    "recall": 0.1901840490797546,
+    "f1": 0.25203252032520324
+  },
+  "extraction_status": "completed",
+  "prediction_sha256": "00b66ce0be73f59e7f2bbcbc4bb8bbf4a26aa15f984f5c789c2c98d6498efc0b",
+  "json_valid": true,
+  "schema_valid": true,
+  "categories": {
+    "personal_information": {
+      "correct": 0,
+      "missing": 0,
+      "incorrect": 1,
+      "unexpected": 0,
+      "expected_facts": 1,
+      "predicted_facts": 1,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "work_experience": {
+      "correct": 31,
+      "missing": 72,
+      "incorrect": 19,
+      "unexpected": 0,
+      "expected_facts": 122,
+      "predicted_facts": 50,
+      "precision": 0.62,
+      "recall": 0.2540983606557377,
+      "f1": 0.36046511627906974
+    },
+    "projects": {
+      "correct": 0,
+      "missing": 0,
+      "incorrect": 0,
+      "unexpected": 0,
+      "expected_facts": 0,
+      "predicted_facts": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null
+    },
+    "education": {
+      "correct": 0,
+      "missing": 12,
+      "incorrect": 0,
+      "unexpected": 28,
+      "expected_facts": 12,
+      "predicted_facts": 28,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "skills": {
+      "correct": 0,
+      "missing": 0,
+      "incorrect": 0,
+      "unexpected": 0,
+      "expected_facts": 0,
+      "predicted_facts": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null
+    },
+    "languages": {
+      "correct": 0,
+      "missing": 0,
+      "incorrect": 0,
+      "unexpected": 0,
+      "expected_facts": 0,
+      "predicted_facts": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null
+    },
+    "certifications": {
+      "correct": 0,
+      "missing": 12,
+      "incorrect": 0,
+      "unexpected": 4,
+      "expected_facts": 12,
+      "predicted_facts": 4,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "training": {
+      "correct": 0,
+      "missing": 16,
+      "incorrect": 0,
+      "unexpected": 0,
+      "expected_facts": 16,
+      "predicted_facts": 0,
+      "precision": null,
+      "recall": 0.0,
+      "f1": 0.0
+    }
+  },
+  "differences": [
+    {
+      "path": "personal_information.full_name",
+      "result": "incorrect",
+      "expected": "QUINTOUS EARL CREWS, JR., M. D.",
+      "actual": "QUIN1DUS EARL CREWS, JR., M. D."
+    },
+    {
+      "path": "work_experience[0->0].employer",
+      "result": "incorrect",
+      "expected": "Naval Dispensary",
+      "actual": "Naval Dispensary, Long Beach, California"
+    },
+    {
+      "path": "work_experience[0->0].location",
+      "result": "incorrect",
+      "expected": "Long Beach, California",
+      "actual": "California"
+    },
+    {
+      "path": "work_experience[1->1].employer",
+      "result": "incorrect",
+      "expected": "Naval Hospital",
+      "actual": "Naval Hospital, Oakland, California"
+    },
+    {
+      "path": "work_experience[1->1].location",
+      "result": "incorrect",
+      "expected": "Oakland, California",
+      "actual": "California"
+    },
+    {
+      "path": "work_experience[2->2].employer",
+      "result": "incorrect",
+      "expected": "Los Angeles Tumor Institute",
+      "actual": "Los Angeles Tumor Institute, Los Angeles, California"
+    },
+    {
+      "path": "work_experience[2->2].location",
+      "result": "incorrect",
+      "expected": "Los Angeles, California",
+      "actual": "California"
+    },
+    {
+      "path": "work_experience[3->3].employer",
+      "result": "incorrect",
+      "expected": "Naval Hospital",
+      "actual": "Naval Hospital, Great Lakes, Illinois"
+    },
+    {
+      "path": "work_experience[3->3].location",
+      "result": "incorrect",
+      "expected": "Great Lakes, Illinois",
+      "actual": "Illinois"
+    },
+    {
+      "path": "work_experience[4->4].employer",
+      "result": "incorrect",
+      "expected": "Naval Hospital",
+      "actual": "Naval Hospital, Guam, Marianas Islands"
+    },
+    {
+      "path": "work_experience[5->5].employer",
+      "result": "incorrect",
+      "expected": "M. D. Anderson Hospital",
+      "actual": "M. D. Anderson Hospital, Houston, Texas"
+    },
+    {
+      "path": "work_experience[5->5].location",
+      "result": "incorrect",
+      "expected": "Houston, Texas",
+      "actual": "Texas"
+    },
+    {
+      "path": "work_experience[6->6].employer",
+      "result": "incorrect",
+      "expected": "Naval Hospital",
+      "actual": "Naval Hospital, San Diego, California"
+    },
+    {
+      "path": "work_experience[6->6].location",
+      "result": "incorrect",
+      "expected": "San Diego, California",
+      "actual": "California"
+    },
+    {
+      "path": "work_experience[7->7].employer",
+      "result": "incorrect",
+      "expected": "Naval Regional Medical Center",
+      "actual": "Naval Regional Medical Center, San Diego, California"
+    },
+    {
+      "path": "work_experience[7->7].location",
+      "result": "incorrect",
+      "expected": "San Diego, California",
+      "actual": "California"
+    },
+    {
+      "path": "work_experience[8->8].employer",
+      "result": "incorrect",
+      "expected": "National Naval Medical Center",
+      "actual": "National Naval Medical Center, Bethesda, Maryland"
+    },
+    {
+      "path": "work_experience[8->8].location",
+      "result": "incorrect",
+      "expected": "Bethesda, Maryland",
+      "actual": "Maryland"
+    },
+    {
+      "path": "work_experience[9->9].employer",
+      "result": "incorrect",
+      "expected": "Naval Regional Medical Center",
+      "actual": "Naval Regional Medical Center, Long Beach, California"
+    },
+    {
+      "path": "work_experience[9->9].location",
+      "result": "incorrect",
+      "expected": "Long Beach, California",
+      "actual": "California"
+    },
+    {
+      "path": "work_experience[reference:10].dates.end",
+      "result": "missing",
+      "expected": "1968",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:10].dates.start",
+      "result": "missing",
+      "expected": "1964",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:10].employer",
+      "result": "missing",
+      "expected": "Guam Memorial Hospital",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:10].location",
+      "result": "missing",
+      "expected": "Guam, Marianas Islands",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:10].role",
+      "result": "missing",
+      "expected": "Consultant Radiologist",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:11].dates.end",
+      "result": "missing",
+      "expected": "1968",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:11].dates.start",
+      "result": "missing",
+      "expected": "1964",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:11].employer",
+      "result": "missing",
+      "expected": "U. S. Trust Territories of Pacific",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:11].location",
+      "result": "missing",
+      "expected": "HQ Saipan, Marianas Islands",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:11].role",
+      "result": "missing",
+      "expected": "Consultant Radiologist",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:12].dates.end",
+      "result": "missing",
+      "expected": "1968",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:12].dates.start",
+      "result": "missing",
+      "expected": "1964",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:12].employer",
+      "result": "missing",
+      "expected": "Andersen Air Force Base",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:12].location",
+      "result": "missing",
+      "expected": "Guam, Marianas Islands",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:12].role",
+      "result": "missing",
+      "expected": "Consultant Radiologist",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:13].dates.end",
+      "result": "missing",
+      "expected": "1976",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:13].dates.start",
+      "result": "missing",
+      "expected": "1969",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:13].employer",
+      "result": "missing",
+      "expected": "Hospital Corps School",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:13].location",
+      "result": "missing",
+      "expected": "San Diego, California",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:13].role",
+      "result": "missing",
+      "expected": "Professional Director of X-Ray Technique School",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:14].dates.end",
+      "result": "missing",
+      "expected": "1976",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:14].dates.start",
+      "result": "missing",
+      "expected": "1970",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:14].employer",
+      "result": "missing",
+      "expected": "University of California",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:14].location",
+      "result": "missing",
+      "expected": "San Diego, California",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:14].role",
+      "result": "missing",
+      "expected": "Associate Clinical Professor, Department of Radiology",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:15].dates.end",
+      "result": "missing",
+      "expected": "1976",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:15].dates.start",
+      "result": "missing",
+      "expected": "1970",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:15].employer",
+      "result": "missing",
+      "expected": "University of Southern California School of Medicine",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:15].location",
+      "result": "missing",
+      "expected": "Los Angeles, California",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:15].role",
+      "result": "missing",
+      "expected": "Assistant Clinical Professor of Radiology",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:16].dates.end",
+      "result": "missing",
+      "expected": "1973",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:16].dates.start",
+      "result": "missing",
+      "expected": "1971",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:16].employer",
+      "result": "missing",
+      "expected": "American College of Radiology",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:16].role",
+      "result": "missing",
+      "expected": "Navy Alternate Counselor",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:17].dates.end",
+      "result": "missing",
+      "expected": "1976",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:17].dates.start",
+      "result": "missing",
+      "expected": "1973",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:17].employer",
+      "result": "missing",
+      "expected": "Joint Review Committee on Education in Radiologic Technology",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:17].role",
+      "result": "missing",
+      "expected": "Surveyor",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:18].dates.end",
+      "result": "missing",
+      "expected": "1976",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:18].dates.start",
+      "result": "missing",
+      "expected": "1973",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:18].employer",
+      "result": "missing",
+      "expected": "George Washington University",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:18].location",
+      "result": "missing",
+      "expected": "Washington, D. C.",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:18].role",
+      "result": "missing",
+      "expected": "Clinical Professor of Radiology",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:19].dates.end",
+      "result": "missing",
+      "expected": "1978",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:19].dates.start",
+      "result": "missing",
+      "expected": "1973",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:19].employer",
+      "result": "missing",
+      "expected": "Bureau of Medicine and Surgery, Department of the Navy",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:19].role",
+      "result": "missing",
+      "expected": "Radiological Advisor to the Surgeon General",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:20].dates.end",
+      "result": "missing",
+      "expected": "Present",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:20].dates.start",
+      "result": "missing",
+      "expected": "1974",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:20].employer",
+      "result": "missing",
+      "expected": "American College of Radiology",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:20].role",
+      "result": "missing",
+      "expected": "Navy Counselor",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:21].dates.end",
+      "result": "missing",
+      "expected": "1980",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:21].dates.start",
+      "result": "missing",
+      "expected": "1975",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:21].employer",
+      "result": "missing",
+      "expected": "Joint Review Committee on Education in Radiologic Technology",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:21].role",
+      "result": "missing",
+      "expected": "Member",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:22].dates.end",
+      "result": "missing",
+      "expected": "1978",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:22].dates.start",
+      "result": "missing",
+      "expected": "1977",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:22].employer",
+      "result": "missing",
+      "expected": "Uniformed Services University of the Health Sciences",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:22].role",
+      "result": "missing",
+      "expected": "Associate Dean for Academic Affairs",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:23].dates.end",
+      "result": "missing",
+      "expected": "Present",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:23].dates.start",
+      "result": "missing",
+      "expected": "1977",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:23].employer",
+      "result": "missing",
+      "expected": "Radiological Society of North America",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:23].role",
+      "result": "missing",
+      "expected": "Navy Counselor",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:24].dates.end",
+      "result": "missing",
+      "expected": "Present",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:24].dates.start",
+      "result": "missing",
+      "expected": "1979",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:24].employer",
+      "result": "missing",
+      "expected": "University of Southern California School of Medicine",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:24].location",
+      "result": "missing",
+      "expected": "Los Angeles, California",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:24].role",
+      "result": "missing",
+      "expected": "Associate Clinical Professor of Radiology",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:25].dates.end",
+      "result": "missing",
+      "expected": "Present",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:25].dates.start",
+      "result": "missing",
+      "expected": "1979",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:25].employer",
+      "result": "missing",
+      "expected": "Department of Health Services, Memorial Hospital Medical Center/UC, Irvine",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:25].role",
+      "result": "missing",
+      "expected": "Attending Physician",
+      "actual": null
+    },
+    {
+      "path": "education[reference:0].dates.end",
+      "result": "missing",
+      "expected": "1950",
+      "actual": null
+    },
+    {
+      "path": "education[reference:0].dates.start",
+      "result": "missing",
+      "expected": "1948",
+      "actual": null
+    },
+    {
+      "path": "education[reference:0].institution",
+      "result": "missing",
+      "expected": "Lamar Junior College",
+      "actual": null
+    },
+    {
+      "path": "education[reference:0].qualification",
+      "result": "missing",
+      "expected": "College",
+      "actual": null
+    },
+    {
+      "path": "education[reference:1].dates.end",
+      "result": "missing",
+      "expected": "1951",
+      "actual": null
+    },
+    {
+      "path": "education[reference:1].dates.start",
+      "result": "missing",
+      "expected": "1950",
+      "actual": null
+    },
+    {
+      "path": "education[reference:1].institution",
+      "result": "missing",
+      "expected": "University of Texas",
+      "actual": null
+    },
+    {
+      "path": "education[reference:1].qualification",
+      "result": "missing",
+      "expected": "College",
+      "actual": null
+    },
+    {
+      "path": "education[reference:2].dates.end",
+      "result": "missing",
+      "expected": "1955",
+      "actual": null
+    },
+    {
+      "path": "education[reference:2].dates.start",
+      "result": "missing",
+      "expected": "1951",
+      "actual": null
+    },
+    {
+      "path": "education[reference:2].institution",
+      "result": "missing",
+      "expected": "University of Texas School of Medicine",
+      "actual": null
+    },
+    {
+      "path": "education[reference:2].qualification",
+      "result": "missing",
+      "expected": "M. D.",
+      "actual": null
+    },
+    {
+      "path": "education[prediction:0].dates.end",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "19SO"
+    },
+    {
+      "path": "education[prediction:0].dates.start",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "1948"
+    },
+    {
+      "path": "education[prediction:0].institution",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Lamar Junior College, Beaumont, Texas"
+    },
+    {
+      "path": "education[prediction:0].qualification",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "1948-19SO"
+    },
+    {
+      "path": "education[prediction:1].dates.end",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "19Sl"
+    },
+    {
+      "path": "education[prediction:1].dates.start",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "19S0"
+    },
+    {
+      "path": "education[prediction:1].institution",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "University of Texas, Austin, Texas"
+    },
+    {
+      "path": "education[prediction:1].qualification",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "19S0-19Sl"
+    },
+    {
+      "path": "education[prediction:2].dates.end",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "19SS"
+    },
+    {
+      "path": "education[prediction:2].dates.start",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "19Sl"
+    },
+    {
+      "path": "education[prediction:2].institution",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "University of Texas School of Medicine, Galveston, Texas"
+    },
+    {
+      "path": "education[prediction:2].qualification",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Medical School, 19Sl-19SS, M. D. Degree 3 June 19SS"
+    },
+    {
+      "path": "education[prediction:3].dates.end",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "19S6"
+    },
+    {
+      "path": "education[prediction:3].dates.start",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "19SS"
+    },
+    {
+      "path": "education[prediction:3].institution",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Good Samaritan Hospital, Phoenix, Arizona"
+    },
+    {
+      "path": "education[prediction:3].qualification",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Internship, Rotating 19SS-19S6"
+    },
+    {
+      "path": "education[prediction:4].dates.end",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "1960"
+    },
+    {
+      "path": "education[prediction:4].dates.start",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "19S8"
+    },
+    {
+      "path": "education[prediction:4].institution",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Naval Hospital, Oakland, California"
+    },
+    {
+      "path": "education[prediction:4].qualification",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Residency, Radiology Residency 19S8-1960"
+    },
+    {
+      "path": "education[prediction:5].dates.end",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "1961"
+    },
+    {
+      "path": "education[prediction:5].dates.start",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "1960"
+    },
+    {
+      "path": "education[prediction:5].institution",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Los Angeles Tumor Institute, Los Angeles, California"
+    },
+    {
+      "path": "education[prediction:5].qualification",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Fellow Therapeutic Radiology 1960-1961"
+    },
+    {
+      "path": "education[prediction:6].dates.end",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "1969"
+    },
+    {
+      "path": "education[prediction:6].dates.start",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "1968"
+    },
+    {
+      "path": "education[prediction:6].institution",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "M. D. Anderson Hospital, Houston, Texas"
+    },
+    {
+      "path": "education[prediction:6].qualification",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Fellow Therapeutic Radiology 1968-1969"
+    },
+    {
+      "path": "certifications[reference:0].date",
+      "result": "missing",
+      "expected": "1963",
+      "actual": null
+    },
+    {
+      "path": "certifications[reference:0].issuer",
+      "result": "missing",
+      "expected": "American Board of Radiology",
+      "actual": null
+    },
+    {
+      "path": "certifications[reference:0].name",
+      "result": "missing",
+      "expected": "Diplomate",
+      "actual": null
+    },
+    {
+      "path": "certifications[reference:1].date",
+      "result": "missing",
+      "expected": "1973",
+      "actual": null
+    },
+    {
+      "path": "certifications[reference:1].issuer",
+      "result": "missing",
+      "expected": "American College of Radiology",
+      "actual": null
+    },
+    {
+      "path": "certifications[reference:1].name",
+      "result": "missing",
+      "expected": "Fellow",
+      "actual": null
+    },
+    {
+      "path": "certifications[reference:2].date",
+      "result": "missing",
+      "expected": "20 Aug 55",
+      "actual": null
+    },
+    {
+      "path": "certifications[reference:2].name",
+      "result": "missing",
+      "expected": "Professional License Texas #C-5017",
+      "actual": null
+    },
+    {
+      "path": "certifications[reference:3].date",
+      "result": "missing",
+      "expected": "8 Apr 57",
+      "actual": null
+    },
+    {
+      "path": "certifications[reference:3].name",
+      "result": "missing",
+      "expected": "Professional License California #18479",
+      "actual": null
+    },
+    {
+      "path": "certifications[reference:4].date",
+      "result": "missing",
+      "expected": "7 May 67",
+      "actual": null
+    },
+    {
+      "path": "certifications[reference:4].name",
+      "result": "missing",
+      "expected": "Professional License Guam, Marianas Islands #0000111",
+      "actual": null
+    },
+    {
+      "path": "certifications[prediction:0].date",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "1963"
+    },
+    {
+      "path": "certifications[prediction:0].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Diplomate, American fuard of Radiology"
+    },
+    {
+      "path": "certifications[prediction:1].date",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "1973"
+    },
+    {
+      "path": "certifications[prediction:1].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Fellow, American College of Radiology"
+    },
+    {
+      "path": "training[reference:0].dates.end",
+      "result": "missing",
+      "expected": "1956",
+      "actual": null
+    },
+    {
+      "path": "training[reference:0].dates.start",
+      "result": "missing",
+      "expected": "1955",
+      "actual": null
+    },
+    {
+      "path": "training[reference:0].name",
+      "result": "missing",
+      "expected": "Internship (Rotating)",
+      "actual": null
+    },
+    {
+      "path": "training[reference:0].provider",
+      "result": "missing",
+      "expected": "Good Samaritan Hospital",
+      "actual": null
+    },
+    {
+      "path": "training[reference:1].dates.end",
+      "result": "missing",
+      "expected": "1960",
+      "actual": null
+    },
+    {
+      "path": "training[reference:1].dates.start",
+      "result": "missing",
+      "expected": "1958",
+      "actual": null
+    },
+    {
+      "path": "training[reference:1].name",
+      "result": "missing",
+      "expected": "Radiology Residency",
+      "actual": null
+    },
+    {
+      "path": "training[reference:1].provider",
+      "result": "missing",
+      "expected": "Naval Hospital",
+      "actual": null
+    },
+    {
+      "path": "training[reference:2].dates.end",
+      "result": "missing",
+      "expected": "1961",
+      "actual": null
+    },
+    {
+      "path": "training[reference:2].dates.start",
+      "result": "missing",
+      "expected": "1960",
+      "actual": null
+    },
+    {
+      "path": "training[reference:2].name",
+      "result": "missing",
+      "expected": "Fellow Therapeutic Radiology",
+      "actual": null
+    },
+    {
+      "path": "training[reference:2].provider",
+      "result": "missing",
+      "expected": "Los Angeles Tumor Institute",
+      "actual": null
+    },
+    {
+      "path": "training[reference:3].dates.end",
+      "result": "missing",
+      "expected": "1969",
+      "actual": null
+    },
+    {
+      "path": "training[reference:3].dates.start",
+      "result": "missing",
+      "expected": "1968",
+      "actual": null
+    },
+    {
+      "path": "training[reference:3].name",
+      "result": "missing",
+      "expected": "Fellow Therapeutic Radiology",
+      "actual": null
+    },
+    {
+      "path": "training[reference:3].provider",
+      "result": "missing",
+      "expected": "M. D. Anderson Hospital",
+      "actual": null
+    }
+  ],
+  "matching_review_required": true,
+  "matching_warnings": [
+    {
+      "path": "work_experience",
+      "reference_index": 0,
+      "prediction_index": 0,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    },
+    {
+      "path": "work_experience",
+      "reference_index": 1,
+      "prediction_index": 1,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    },
+    {
+      "path": "work_experience",
+      "reference_index": 2,
+      "prediction_index": 2,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    },
+    {
+      "path": "work_experience",
+      "reference_index": 3,
+      "prediction_index": 3,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    },
+    {
+      "path": "work_experience",
+      "reference_index": 4,
+      "prediction_index": 4,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    },
+    {
+      "path": "work_experience",
+      "reference_index": 5,
+      "prediction_index": 5,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    },
+    {
+      "path": "work_experience",
+      "reference_index": 6,
+      "prediction_index": 6,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    },
+    {
+      "path": "work_experience",
+      "reference_index": 7,
+      "prediction_index": 7,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    },
+    {
+      "path": "work_experience",
+      "reference_index": 8,
+      "prediction_index": 8,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    },
+    {
+      "path": "work_experience",
+      "reference_index": 9,
+      "prediction_index": 9,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    }
+  ],
+  "provenance": {
+    "policy": "empty",
+    "correct": 0,
+    "missing": 0,
+    "incorrect": 0,
+    "unexpected": 18,
+    "expected_facts": 0,
+    "predicted_facts": 18,
+    "precision": 0.0,
+    "recall": null,
+    "f1": 0.0,
+    "differences": [
+      {
+        "path": "personal_information.source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "work_experience[0->0].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "work_experience[1->1].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "work_experience[2->2].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "work_experience[3->3].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "work_experience[4->4].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "work_experience[5->5].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "work_experience[6->6].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "work_experience[7->7].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "work_experience[8->8].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "work_experience[9->9].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "education[prediction:0].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "education[prediction:1].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "education[prediction:2].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "education[prediction:3].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "education[prediction:4].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "education[prediction:5].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "education[prediction:6].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      }
+    ]
+  },
+  "content_review": {
+    "status": "pending",
+    "reference": [
+      {
+        "path": "personal_information.details",
+        "content": [
+          "Date of Birth: 19 September 1929",
+          "Place of Birth: Port Arthur, Texas",
+          "Marital Status: Married 19 December 1954",
+          "Wife: Maybelle",
+          "Children: Quintous, III (3 Oct 55); Cynthia (6 Nov 57); Patricia (17 Mar 60); Victoria (2 Dec 68)"
+        ]
+      },
+      {
+        "path": "education[0].details",
+        "content": [
+          "Beaumont, Texas"
+        ]
+      },
+      {
+        "path": "education[1].details",
+        "content": [
+          "Austin, Texas"
+        ]
+      },
+      {
+        "path": "education[2].details",
+        "content": [
+          "Galveston, Texas",
+          "M. D. Degree 3 June 1955"
+        ]
+      },
+      {
+        "path": "training[0].details",
+        "content": [
+          "Phoenix, Arizona"
+        ]
+      },
+      {
+        "path": "training[1].details",
+        "content": [
+          "Oakland, California"
+        ]
+      },
+      {
+        "path": "training[2].details",
+        "content": [
+          "Los Angeles, California"
+        ]
+      },
+      {
+        "path": "training[3].details",
+        "content": [
+          "Houston, Texas"
+        ]
+      },
+      {
+        "path": "additional_sections",
+        "content": [
+          {
+            "source_pages": [],
+            "heading": "Professional Societies",
+            "text": "The American College of Radiology\nThe Radiological Society of North America\nThe Society of Nuclear Medicine\nAmerican Medical Association (Military)\nAmerican Society of Therapeutic Radiologists\nCalifornia Radiation Therapy Association\nSan Diego Radiological Society\nAssociation of Military Surgeons of the United States"
+          },
+          {
+            "source_pages": [],
+            "heading": "Bibliography",
+            "text": "1. Crews, Q.E.: Observations on the Combined Use of 5-Fluorouracil and 2 MEV\nRadiation in Advanced Solid Tumors in Man. Cancer Chemotherapy Reports, No.\n14, October 1961.\n2. Hare, H.F., and Crews, Q.E.: Nasopharyngeal Tumors: Three to Five Year\nSurvivals. The American Journal of Roentgenology, Radium Therapy and Nuclear\nMedicine. Vol. 89, No. 1, January 1963.\n3. Rosenzweig, A. L., Crews, Q. E., and Hopwood, H. G.: Vinblastine Sulfate\nin Hodgkins' Disease in Pregnancy. Annals of Internal Medicine, Vol. 61, No. 1\n1964.\n4. Crews, Q. E., and Fletcher, G. H.: Comparative Evaluation of the Sequential\nUse of Radiation and Surgery in Primary Tumors of the Oral Cavity, Oropharynx,\nLarynx and HyPopharynx. The American Journal of Roentgenology, Radium Therapy\nand Nuclear Medicine. Vol. III:73, No. 1, January 1971.\n5. Schroeder, A.F., Crews, Q.E., and Rotner, M.B.: Combined Treatment of Non-\nSeminoma Testicular Cancer. Frontiers of Radiation Therapy and Oncology. Vol. 5,\npp 240-250, 1970.\n6. Asher, W. M .• and Crews, Q. E.: Radiation Therapy Applications of Diagnostic\nUltrasound. Abstract published in the proceedings of the Third international Con-\nference on Medical Physics, Goteborg, Sweden, 1972.\n7. Hill, D.R., Crews, Q. E., and Walsh, P.D.: Prostate Carcinoma: Radiation\nTherapy of Primary and Regional Lymphatics. Cancer, 34-156-60, July 1974.\n8. Safer, M.L., Green, J.P., Crews, Q.E., and Hill, D.R.: Lymphangiogram\nAccuracy in the Staging of Testicular Tumors. Cancer Journal, Vol. 35, pp _160-163,\nJune 1975.\n9. Williams, D. M., Wilcox, J. R., Asher, W. M., Crews, Q. E.: A Non-Invasive\nTechnique for Estimating Renal Volume in Vivo. \"Work in Progress,\" RSNA, Dec 1975.\nBibliography (Continued):\n10. Green, N., Kurohara, S.S., George, F. W., Crews, Q. E.: Postresection\nIrradiation for Primary Lung Cancer. Radiology. Vol. 116, No. 2, pp 405-407,\nAugust 1975.\n11. Green, J.P., Marriott, J.D., Halpern, S.E., Crews, Q.E.: Thyroid Uptake\nof 131 - I: Further Comparisons of Capsules and Liquid Preparation. Journal of\nNuclear Medicine. Vol, 17, No. 4, pp 310-312, April 1976.\n12. Stolz, Jonathan L., Rominger, C. Jules, Crews, Q. E.: Radiologic Technology\nand Education: The Role of the Radiologist. Radiology. Vol. 134, No. 3, pp 787-\n788, March, 1980.\n"
+          },
+          {
+            "source_pages": [],
+            "heading": "Lectures",
+            "text": "1. \"Radium and Interstial Therapy Techniques. \" Radiation Oncology Lecture\n\\ Series - Naval Re.gional Medical Center, San Diego, California, 1973-1976.\n2. \"Early Detection of Breast Cancer.\" Ambulatory Heal.th Care Symposium,\n1975, Hilton Hotel, San Diego, California.\n3. \"History of Radioactivity - How, When and Why It All Began.\" Nuclear\nAccident Symposium, 7 April 1979, Naval Support Activity, Long Beach,\nCalifornia.\n4. \"Overview Radiation Oncology.\" 28 April 1980, Lorna Linda University\nSchool of Medicine, Lorna Linda, California.."
+          }
+        ]
+      }
+    ],
+    "prediction": [
+      {
+        "path": "additional_sections",
+        "content": [
+          {
+            "source_pages": [],
+            "heading": "Professional Licenses",
+            "text": "Professional Licenses:  Texas #C-5017 (20 Aug S5)\n                                        California #18479 (8 Apr 57)\n                                Guam, Marianas Islands #oOOOlll (7 May 67)"
+          },
+          {
+            "source_pages": [],
+            "heading": "Professional Societies",
+            "text": "Professional Societies:  The American College of Radiology\n                                  The Radiological Society of North America\n                                  The Society of C-ilclear Medicine\n                                 American Medical Association (Military)\n                                 American Society of Therapeutic Radiologists\n                                       California Radiation Therapy Association\n                                   San Diego Radiological Society\n                                      Association of Military Surgeons of the United States"
+          },
+          {
+            "source_pages": [],
+            "heading": "Bibliograp.!!Y_",
+            "text": "Bibliograp.!!Y_: \n\n1.  Crews, Q.E.: Observations on the Combined Use of 5-Fluorouracil and 2 MEV\nRadiation in Advanced Solid Tumors in Man.  Cancer Chemotherapy Reports, No.\n14, October 1961.\n\n2.  Hare, H.F., and Crews, Q.E.: Nasopharyngeal Tumors: Three to Five Year\nSurvivals.  The American Journal of Roentgenology, Radium Therapy and Nuclear\nMedicine.  Vol. 89, No.  1, January 1963.\n\n3.   Rosenzweig, A. L., Crews, Q. E., and Hopwood, H. G.:  Vinbalstine Sulfate\nin Hodgkins' Disease in Pregnancy.  Annals of Internal Medicine, Vol. 61, No. 1\n1964.\n\n4.  Crews, Q. E., and Fletcher, G. H.: Comparative Evaluation of the Sequential\nUse of Radiation and Surgery in Primary Tumors of the Oral Cavity, Oropharynx,\nLarynx and HyPopharynx.  The American Journal of Roentgenology, Radium Therapy\nand Nuclear Medicine.  Vol.  III:73, No.  1, January 1971.\n\n5.   Schroeder, A.F., Crews, Q.E., and Rotner, M.B.: CornbinedTreatmentofNon-\nSeminoma Testicular Cancer.  Frontiers of Radiation Therapy and Oncology. Vol.  5,\npp 240-250, 1970.\n\n6.  Asher, W. M .• and Crews, Q. E.:  Radiation Therapy Applications of Diagnostic\nUltrasound.  Abstract published in the proceedings of the Third international Con-\nference on Medical Physics, Goteborg, Sweden, 1972.\n\n7.   Hill, D.R., Crews, Q. E., and Walsh, P.D.:  Prostate Carcinoma:  Radiation\nTherapy of Primary and Regional Lymphatics.  Cancer, 34-156-60, July 1974.\n\n8.   Safer, M.L., Green, J.P., Crews, Q.E., and Hill, D.R.: Lymphangiogram\nAccuracy in the Staging of Testicular Tumors.  Cancer Journal, Vol. 35, pp _160-163,\nJune 1975.\n\n9.   Williams, D. M., Wilcox,  J. R., Asher, W. M., Crews, Q. E.: A Non-Invasive\n Tec.:hnlque for Estimating Renal Volume in Vivo.  \"Work in Progress,\" RSNA, Dec  197.S.\n                                        3\n\n            QUINTOUS EARL CREWS, Jr., M.D. (Continued)\n\n                 Bibliography (Continued):\n\n                   10.  Green, N., Kurohara, S.S., George, F. W., Crews, Q. E.: Postresection\n                  Irradiation for Primary Lung Cancer.  Radiology.  Vol. 116, No.  2, pp 405-407,\n               August 1975.\n\n                   11.  Green, J.P., Marriott, J.D., Halpern, S.E., Crews, Q.E.:  Thyroid Uptake\n                of 131  - I:  Furtger Comparisons of Capsules and Liquid Preparation.  Journal of\n               Nuclear Medicine.  Vol,  17, No.  4, pp 310-312, April 1976.\n\n                   12.  Stolz, Jonathan L., Rominger, C. Jules, Crews, Q. E.:  Radiologic Technology\n               and Education: The Role of the Radiologist.  Radiology.  Vol. 134, No.  3, pp 787-\n                  788, March, 1980.\n\n                Lectures:\n\n                      1.  \"Radium and Interstial Therapy Techniques. \"  Radiation Oncology Lecture\n\backup:  Series  - Naval Re.gional Medical Center, San Diego, California, 1973-1976.\n\n                     2.   \"Early Detection of Breast Cancer.\" Ambulatory Heal.th Care Symposium,\n                  1975, Hilton Hotel, San Diego, California.\n\n                    3.   \"History of Radioactivity  - How, When and Why It All Began.\" Nuclear\n                Accident Symposium, 7 April 1979, Naval Support Activity, Long Beach,\n                  California.\n\n                    4.  \"Overview Radiation Oncology.\"  28 April 1980, Lorna Linda University\n                School of Medicine, Lorna Linda,  California."
+          }
+        ]
+      }
+    ],
+    "checklist": {
+      "preservation": {
+        "passed": null,
+        "notes": ""
+      },
+      "faithfulness": {
+        "passed": null,
+        "notes": ""
+      },
+      "placement": {
+        "passed": null,
+        "notes": ""
+      },
+      "duplication": {
+        "passed": null,
+        "notes": ""
+      }
+    }
+  },
+  "status": "evaluated"
+}

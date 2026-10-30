@@ -1,0 +1,271 @@
+{
+  "personal_information": {
+    "full_name": "Mia Evans",
+    "headline": "ICT SECURITY SPECIALIST",
+    "emails": [
+      "evansmia279@hotmail.com"
+    ],
+    "phones": [
+      "+61 8 5550 2376"
+    ],
+    "weblinks": [
+      {
+        "url": "linkedin.com/in/evansmia279",
+        "platform": "LinkedIn"
+      }
+    ]
+  },
+  "summary": "Cybersecurity professional with 10+ years across enterprises, MSPs, and outsourced operations. Focused on audits, vuln testing, secure design, and systems design.",
+  "work_experience": [
+    {
+      "employer": "CyberCX",
+      "role": "Senior Security Engineer",
+      "dates": {
+        "start": "2019",
+        "end": "2023"
+      },
+      "details": [
+        "Created and launched an enterprise security program, lowering potential vulnerabilities by 29% in year one.",
+        "Directed UEBA rollout, boosting enterprise detection coverage.",
+        "Launched org-wide cyber training, lifting staff awareness by 45%.",
+        "Contained a severe breach rapidly, limiting impact and stopping data theft.",
+        "Worked with counsel to align to new privacy laws, averting possible fines.",
+        "Built a strong IR plan, cutting MTTR by 37%."
+      ]
+    },
+    {
+      "employer": "Sense of Security",
+      "role": "Security Team Lead",
+      "dates": {
+        "start": "2016",
+        "end": "2019"
+      },
+      "details": [
+        "Directed migration of core systems to cloud, boosting scale and trimming run costs.",
+        "Refined IR playbooks, cutting MTTR by 25%.",
+        "Identified and blocked an advanced intrusion, stopping access to sensitive client data.",
+        "Contributed materially to ISO 27001 attainment, strengthening the organisation’s standing for strong security practices.",
+        "Designed and executed a full DR plan, sustaining operations through cyber events."
+      ]
+    },
+    {
+      "employer": "Brennan IT",
+      "role": "Security Advisor",
+      "dates": {
+        "start": "2014",
+        "end": "2016"
+      },
+      "details": [
+        "Guided transition of security stack to a hybrid cloud setup, increasing flexibility and resource use.",
+        "Built and adopted a standard vuln assessment method, yielding more precise threat discovery.",
+        "Partnered with agencies to align to new cyber rules, avoiding possible liability.",
+        "Restored service from a major outage in 2 hours, curbing disruption and losses.",
+        "Performed deep security reviews for marquee clients, finding and fixing critical flaws.",
+        "Modernised firewalls for IPv6, future-proofing the network and enabling smooth adoption of new tech."
+      ]
+    },
+    {
+      "employer": "Transurban",
+      "role": "Systems Security Analyst",
+      "dates": {
+        "start": "2011",
+        "end": "2013"
+      },
+      "details": [
+        "Delivered an effective awareness program, cutting staff-related incidents by 45%.",
+        "Helped deliver SSO, simplifying access management and strengthening security.",
+        "Ran a detailed policy gap analysis, finding and fixing weaknesses in the security program.",
+        "Worked across functions to design and roll out a strong security system design, uplifting posture.",
+        "Assessed and chose a managed firewall vendor, delivering improved threat detection and real-time monitoring.",
+        "Produced UAM and SSO specs, materially improving policy compliance and access control.",
+        "Reduced risk through detailed threat assessments and reviews of security tools and services."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Edith Cowan University",
+      "qualification": "Bachelor of Science (Computer & Security) (HON)",
+      "dates": {}
+    }
+  ],
+  "skills": [
+    {
+      "name": "Palo Alto"
+    },
+    {
+      "name": "pfSense"
+    },
+    {
+      "name": "Fortinet"
+    },
+    {
+      "name": "Juniper"
+    },
+    {
+      "name": "SonicWall"
+    },
+    {
+      "name": "Check Point"
+    },
+    {
+      "name": "iptables"
+    },
+    {
+      "name": "nftables"
+    },
+    {
+      "name": "ipfw"
+    },
+    {
+      "name": "pf"
+    },
+    {
+      "name": "UEBA"
+    },
+    {
+      "name": "IDS"
+    },
+    {
+      "name": "Suricata"
+    },
+    {
+      "name": "Zeek"
+    },
+    {
+      "name": "Tripwire"
+    },
+    {
+      "name": "IPv6"
+    },
+    {
+      "name": "802.1X"
+    },
+    {
+      "name": "BGP"
+    },
+    {
+      "name": "OSPF"
+    },
+    {
+      "name": "IKEv2"
+    },
+    {
+      "name": "TLS"
+    },
+    {
+      "name": "GRE"
+    },
+    {
+      "name": "IPsec"
+    },
+    {
+      "name": "PSK"
+    },
+    {
+      "name": "EAP"
+    },
+    {
+      "name": "Wi-Fi LAN"
+    },
+    {
+      "name": "Windows Server"
+    },
+    {
+      "name": "Linux"
+    },
+    {
+      "name": "AIX"
+    },
+    {
+      "name": "macOS"
+    },
+    {
+      "name": "NMS"
+    },
+    {
+      "name": "Icinga"
+    },
+    {
+      "name": "Cacti"
+    },
+    {
+      "name": "Duo MFA"
+    },
+    {
+      "name": "YubiKey"
+    },
+    {
+      "name": "SAML"
+    },
+    {
+      "name": "SSO"
+    },
+    {
+      "name": "Python"
+    },
+    {
+      "name": "PowerShell"
+    },
+    {
+      "name": "PHP"
+    },
+    {
+      "name": "Perl"
+    },
+    {
+      "name": "KQL"
+    },
+    {
+      "name": "SQL"
+    },
+    {
+      "name": "C"
+    },
+    {
+      "name": "Bash"
+    },
+    {
+      "name": "HP"
+    },
+    {
+      "name": "HPE blades"
+    },
+    {
+      "name": "Cisco NX-OS"
+    },
+    {
+      "name": "F5 BIG-IP"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Spanish",
+      "proficiency": {
+        "text": "Conversant"
+      }
+    }
+  ],
+  "certifications": [
+    {
+      "name": "GIAC Certified Incident Handler (GCIH)"
+    },
+    {
+      "name": "COBIT 5 Foundation"
+    }
+  ],
+  "additional_sections": [
+    {
+      "heading": "KEY ACHIEVEMENTS",
+      "text": "Built an end-to-end security program at CyberCX, cutting risk exposure ~29% and deploying a UEBA platform.\nReduced exposure at Transurban by rolling out an IR playbook and training, protecting IP and privacy at multi-billion scale.\nCut audit scope at Transurban, improving risk ratings and contributing to share price gains.\nSecured provider terms and deployed caching proxies, yielding as much as 37% lower bandwidth spend."
+    },
+    {
+      "heading": "AREAS OF EXPERTISE",
+      "text": "Strong background in varied technical aspects of Cybersecurity, including Firewalls, IDS/IPS, Routing, OS, and dedicated cyber tools.\nExpertise in security review and vulnerability scan, secure design, and system design.\nProven track record of stakeholder influence and progressing Cybersecurity initiatives.\nOutstanding presentation skills.\nConversant in Spanish."
+    },
+    {
+      "heading": "CAREER SUMMARY",
+      "text": "CyberCX Senior Security Engineer 2019 – 2023\nSense of Security Security Team Lead 2016 – 2019\nBrennan IT Pty Ltd Security Advisor 2014 – 2016\nTransurban Systems Security Analyst 2011– 2013"
+    }
+  ]
+}

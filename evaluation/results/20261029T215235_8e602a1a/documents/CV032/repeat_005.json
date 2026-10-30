@@ -1,0 +1,1643 @@
+{
+  "document_id": "CV032",
+  "repetition": 5,
+  "overall": {
+    "correct": 97,
+    "missing": 9,
+    "incorrect": 8,
+    "unexpected": 169,
+    "expected_facts": 114,
+    "predicted_facts": 274,
+    "precision": 0.354014598540146,
+    "recall": 0.8508771929824561,
+    "f1": 0.5
+  },
+  "extraction_status": "completed",
+  "prediction_sha256": "288aa8ec0f438ee6b4b0f457829771a6acd357905604bf9b87b95470626ffe90",
+  "json_valid": true,
+  "schema_valid": true,
+  "categories": {
+    "personal_information": {
+      "correct": 4,
+      "missing": 0,
+      "incorrect": 1,
+      "unexpected": 0,
+      "expected_facts": 5,
+      "predicted_facts": 5,
+      "precision": 0.8,
+      "recall": 0.8,
+      "f1": 0.8
+    },
+    "work_experience": {
+      "correct": 16,
+      "missing": 0,
+      "incorrect": 4,
+      "unexpected": 4,
+      "expected_facts": 20,
+      "predicted_facts": 24,
+      "precision": 0.6666666666666666,
+      "recall": 0.8,
+      "f1": 0.7272727272727273
+    },
+    "projects": {
+      "correct": 0,
+      "missing": 0,
+      "incorrect": 0,
+      "unexpected": 0,
+      "expected_facts": 0,
+      "predicted_facts": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null
+    },
+    "education": {
+      "correct": 3,
+      "missing": 3,
+      "incorrect": 3,
+      "unexpected": 3,
+      "expected_facts": 9,
+      "predicted_facts": 9,
+      "precision": 0.3333333333333333,
+      "recall": 0.3333333333333333,
+      "f1": 0.3333333333333333
+    },
+    "skills": {
+      "correct": 44,
+      "missing": 6,
+      "incorrect": 0,
+      "unexpected": 162,
+      "expected_facts": 50,
+      "predicted_facts": 206,
+      "precision": 0.21359223300970873,
+      "recall": 0.88,
+      "f1": 0.34375
+    },
+    "languages": {
+      "correct": 0,
+      "missing": 0,
+      "incorrect": 0,
+      "unexpected": 0,
+      "expected_facts": 0,
+      "predicted_facts": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null
+    },
+    "certifications": {
+      "correct": 30,
+      "missing": 0,
+      "incorrect": 0,
+      "unexpected": 0,
+      "expected_facts": 30,
+      "predicted_facts": 30,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "training": {
+      "correct": 0,
+      "missing": 0,
+      "incorrect": 0,
+      "unexpected": 0,
+      "expected_facts": 0,
+      "predicted_facts": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null
+    }
+  },
+  "differences": [
+    {
+      "path": "personal_information.location",
+      "result": "incorrect",
+      "expected": "Arlington, VA, United States",
+      "actual": "Arlington, VA 22204"
+    },
+    {
+      "path": "work_experience[0->0].client",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Department of Homeland Security"
+    },
+    {
+      "path": "work_experience[0->0].location",
+      "result": "incorrect",
+      "expected": "Washington",
+      "actual": "Washington, DC 20528"
+    },
+    {
+      "path": "work_experience[1->1].client",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "National Security Agency"
+    },
+    {
+      "path": "work_experience[1->1].location",
+      "result": "incorrect",
+      "expected": "Fort Meade",
+      "actual": "Fort Meade, MD 20755"
+    },
+    {
+      "path": "work_experience[2->2].client",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "U.S. Census Bureau"
+    },
+    {
+      "path": "work_experience[2->2].location",
+      "result": "incorrect",
+      "expected": "Suitland",
+      "actual": "Suitland, MD 20746"
+    },
+    {
+      "path": "work_experience[3->3].client",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Department of Homeland Security"
+    },
+    {
+      "path": "work_experience[3->3].location",
+      "result": "incorrect",
+      "expected": "Washington",
+      "actual": "Washington, DC 20528"
+    },
+    {
+      "path": "education[0->0].dates.end",
+      "result": "missing",
+      "expected": "May 2012",
+      "actual": null
+    },
+    {
+      "path": "education[0->0].dates.start",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "May 2012"
+    },
+    {
+      "path": "education[0->0].institution",
+      "result": "incorrect",
+      "expected": "University of Michigan",
+      "actual": "University of Michigan, Ann Arbor, MI"
+    },
+    {
+      "path": "education[1->1].dates.end",
+      "result": "missing",
+      "expected": "May 2008",
+      "actual": null
+    },
+    {
+      "path": "education[1->1].dates.start",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "May 2008"
+    },
+    {
+      "path": "education[1->1].institution",
+      "result": "incorrect",
+      "expected": "Georgia Institute of Technology",
+      "actual": "Georgia Institute of Technology, Atlanta, GA"
+    },
+    {
+      "path": "education[2->2].dates.end",
+      "result": "missing",
+      "expected": "May 2006",
+      "actual": null
+    },
+    {
+      "path": "education[2->2].dates.start",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "May 2006"
+    },
+    {
+      "path": "education[2->2].institution",
+      "result": "incorrect",
+      "expected": "Howard University",
+      "actual": "Howard University, Washington, DC"
+    },
+    {
+      "path": "skills[2->2].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[2->2].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[2->2].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[3->3].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[3->3].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[3->3].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[4->4].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[4->4].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[4->4].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[5->5].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[5->5].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[5->5].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[6->6].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[6->6].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[6->6].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[9->9].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[9->9].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[9->9].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[10->10].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[10->10].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[10->10].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[11->11].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[11->11].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[11->11].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[12->12].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[12->12].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[12->12].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[13->13].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[13->13].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[13->13].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[14->14].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[14->14].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[14->14].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[15->15].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[15->15].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[15->15].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[16->16].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[16->16].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[16->16].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[17->17].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[17->17].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[17->17].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[18->18].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[18->18].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[18->18].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[19->19].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[19->19].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[19->19].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[21->21].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[21->21].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[21->21].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[22->22].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[22->22].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[22->22].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[23->23].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[23->23].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[23->23].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[24->24].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[24->24].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[24->24].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[25->25].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[25->25].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[25->25].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[26->26].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[26->26].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[26->26].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[27->27].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[27->27].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[27->27].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[28->28].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[28->28].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[28->28].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[29->29].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[29->29].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[29->29].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[30->30].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[30->30].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[30->30].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[31->31].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[31->31].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[31->31].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[32->32].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[32->32].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[32->32].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[33->33].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[33->33].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[33->33].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[34->34].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[34->34].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[34->34].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[35->35].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[35->35].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[35->35].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[36->36].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[36->36].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[36->36].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[37->37].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[37->37].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[37->37].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[38->38].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[38->38].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[38->38].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[39->39].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[39->39].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[39->39].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[40->40].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[40->40].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[40->40].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[41->41].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[41->41].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[41->41].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[42->42].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[42->42].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[42->42].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[43->43].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[43->43].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[43->43].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[44->44].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[44->44].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[44->44].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[45->45].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[45->45].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[45->45].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[46->46].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[46->46].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[46->46].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[47->47].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[47->47].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[47->47].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[48->48].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[48->48].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[48->48].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[reference:0].name",
+      "result": "missing",
+      "expected": "Python (NumPy, pandas, scikit-learn, PyTorch, TensorFlow)",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:1].name",
+      "result": "missing",
+      "expected": "R (tidyverse, Stan, caret)",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:7].name",
+      "result": "missing",
+      "expected": "Deep Learning (CNNs, RNNs, Transformers, GANs, Autoencoders)",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:8].name",
+      "result": "missing",
+      "expected": "NLP (BERT, GPT fine-tuning)",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:20].name",
+      "result": "missing",
+      "expected": "AWS GovCloud (SageMaker, EMR, Glue, Redshift)",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:49].name",
+      "result": "missing",
+      "expected": "Xkeyscore (read-only analytical access)",
+      "actual": null
+    },
+    {
+      "path": "skills[prediction:0].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Python"
+    },
+    {
+      "path": "skills[prediction:0].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[prediction:0].proficiency.text",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "NumPy, pandas, scikit-learn, PyTorch, TensorFlow"
+    },
+    {
+      "path": "skills[prediction:0].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[prediction:0].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[prediction:1].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "R"
+    },
+    {
+      "path": "skills[prediction:1].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[prediction:1].proficiency.text",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "tidyverse, Stan, caret"
+    },
+    {
+      "path": "skills[prediction:1].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[prediction:1].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[prediction:7].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Deep Learning"
+    },
+    {
+      "path": "skills[prediction:7].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[prediction:7].proficiency.text",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "CNNs, RNNs, Transformers, GANs, Autoencoders"
+    },
+    {
+      "path": "skills[prediction:7].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[prediction:7].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[prediction:8].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "NLP"
+    },
+    {
+      "path": "skills[prediction:8].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[prediction:8].proficiency.text",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "BERT, GPT fine-tuning"
+    },
+    {
+      "path": "skills[prediction:8].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[prediction:8].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[prediction:20].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "AWS GovCloud"
+    },
+    {
+      "path": "skills[prediction:20].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[prediction:20].proficiency.text",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "SageMaker, EMR, Glue, Redshift"
+    },
+    {
+      "path": "skills[prediction:20].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[prediction:20].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[prediction:49].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Xkeyscore"
+    },
+    {
+      "path": "skills[prediction:49].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[prediction:49].proficiency.text",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "read-only analytical access"
+    },
+    {
+      "path": "skills[prediction:49].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[prediction:49].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    }
+  ],
+  "matching_review_required": true,
+  "matching_warnings": [
+    {
+      "path": "education",
+      "reference_index": 0,
+      "prediction_index": 0,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    },
+    {
+      "path": "education",
+      "reference_index": 1,
+      "prediction_index": 1,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    },
+    {
+      "path": "education",
+      "reference_index": 2,
+      "prediction_index": 2,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    }
+  ],
+  "provenance": {
+    "policy": "empty",
+    "correct": 0,
+    "missing": 0,
+    "incorrect": 0,
+    "unexpected": 20,
+    "expected_facts": 0,
+    "predicted_facts": 20,
+    "precision": 0.0,
+    "recall": null,
+    "f1": 0.0,
+    "differences": [
+      {
+        "path": "personal_information.source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "work_experience[0->0].source_pages",
+        "result": "unexpected",
+        "page": 2,
+        "count": 1
+      },
+      {
+        "path": "work_experience[0->0].source_pages",
+        "result": "unexpected",
+        "page": 3,
+        "count": 1
+      },
+      {
+        "path": "work_experience[0->0].source_pages",
+        "result": "unexpected",
+        "page": 4,
+        "count": 1
+      },
+      {
+        "path": "work_experience[0->0].source_pages",
+        "result": "unexpected",
+        "page": 5,
+        "count": 1
+      },
+      {
+        "path": "work_experience[1->1].source_pages",
+        "result": "unexpected",
+        "page": 2,
+        "count": 1
+      },
+      {
+        "path": "work_experience[1->1].source_pages",
+        "result": "unexpected",
+        "page": 3,
+        "count": 1
+      },
+      {
+        "path": "work_experience[1->1].source_pages",
+        "result": "unexpected",
+        "page": 4,
+        "count": 1
+      },
+      {
+        "path": "work_experience[1->1].source_pages",
+        "result": "unexpected",
+        "page": 5,
+        "count": 1
+      },
+      {
+        "path": "work_experience[2->2].source_pages",
+        "result": "unexpected",
+        "page": 2,
+        "count": 1
+      },
+      {
+        "path": "work_experience[2->2].source_pages",
+        "result": "unexpected",
+        "page": 3,
+        "count": 1
+      },
+      {
+        "path": "work_experience[2->2].source_pages",
+        "result": "unexpected",
+        "page": 4,
+        "count": 1
+      },
+      {
+        "path": "work_experience[2->2].source_pages",
+        "result": "unexpected",
+        "page": 5,
+        "count": 1
+      },
+      {
+        "path": "work_experience[3->3].source_pages",
+        "result": "unexpected",
+        "page": 2,
+        "count": 1
+      },
+      {
+        "path": "work_experience[3->3].source_pages",
+        "result": "unexpected",
+        "page": 3,
+        "count": 1
+      },
+      {
+        "path": "work_experience[3->3].source_pages",
+        "result": "unexpected",
+        "page": 4,
+        "count": 1
+      },
+      {
+        "path": "work_experience[3->3].source_pages",
+        "result": "unexpected",
+        "page": 5,
+        "count": 1
+      },
+      {
+        "path": "education[0->0].source_pages",
+        "result": "unexpected",
+        "page": 5,
+        "count": 1
+      },
+      {
+        "path": "education[1->1].source_pages",
+        "result": "unexpected",
+        "page": 5,
+        "count": 1
+      },
+      {
+        "path": "education[2->2].source_pages",
+        "result": "unexpected",
+        "page": 5,
+        "count": 1
+      }
+    ]
+  },
+  "content_review": {
+    "status": "pending",
+    "reference": [
+      {
+        "path": "summary",
+        "content": "Senior Data Scientist with 12 years of progressive federal experience in statistical modeling, machine learning, and cybersecurity analytics. Demonstrated expertise in designing and deploying large-scale data infrastructure supporting national security missions. Proven track record of leading cross-agency analytical initiatives, mentoring junior data scientists, and translating complex analytical findings into actionable intelligence for senior leadership. Skilled in Python, R, Spark, and cloud-based ML platforms with extensive experience processing classified datasets at scale. Holds active Top Secret/SCI clearance with CI polygraph."
+      },
+      {
+        "path": "work_experience[0].details",
+        "content": [
+          "Serve as technical lead for the Threat Analytics Division, directing a team of 8 data scientists and 4 data engineers in developing machine learning models that process 2.3 billion network events daily from federal civilian agency (.gov) networks",
+          "Architected and deployed the Automated Indicator Sharing (AIS) anomaly detection platform using ensemble methods (Random Forest, XGBoost, deep autoencoders), reducing mean time to detect advanced persistent threats from 78 days to 11 days across 102 federal agencies",
+          "Designed and implemented a graph neural network (GNN) pipeline for lateral movement detection, achieving 94.2% precision and 91.7% recall on classified validation datasets, directly contributing to the identification of 3 nation-state intrusion campaigns in FY2023",
+          "Led the migration of legacy analytics infrastructure from on-premises Hadoop clusters to AWS GovCloud (IL-5), reducing compute costs by 34% ($2.1M annual savings) while increasing processing throughput by 4.7x",
+          "Developed Natural Language Processing models for automated analysis of 450,000+ vulnerability disclosures annually, enabling prioritized patch guidance to critical infrastructure sectors within 48 hours of disclosure",
+          "Authored 14 technical white papers and Intelligence Community Directives (ICDs) establishing data science standards and best practices for cyber threat intelligence analytics across DHS component agencies",
+          "Represented CISA at the National Security Council’s Cyber Directorate, providing technical briefings on AI/ML capabilities for national cyber defense to senior government officials including the National Cyber Director",
+          "Established and chair the DHS Data Science Working Group (47 members across 6 component agencies), driving standardization of ML model governance, bias testing, and deployment protocols",
+          "Mentored 6 junior data scientists (GS-9 through GS-12) through the CISA Data Science Development Program, with 4 achieving promotion within 18 months",
+          "Developed an insider threat behavioral analytics model integrating 23 data sources (badge access, network logs, email metadata, financial disclosures) achieving AUC of 0.96, adopted by 3 additional federal agencies",
+          "Coordinated with NSA, FBI Cyber Division, and US-CERT on joint analytical products, authoring 8 Joint Analysis Reports (JARs) disseminated to critical infrastructure owners and operators",
+          "Implemented MLOps pipelines using Kubeflow on classified infrastructure, reducing model deployment time from 6 weeks to 3 days and enabling continuous model retraining on streaming threat data",
+          "Presented research findings at classified and unclassified venues including the NSA Cybersecurity Symposium, the DHS Science and Technology Conference, and the Intelligence Community Data Science Summit"
+        ]
+      },
+      {
+        "path": "work_experience[1].details",
+        "content": [
+          "Developed and deployed deep learning models for encrypted traffic classification, enabling identification of malicious command-and-control communications with 97.3% accuracy without decryption, processing 800TB of network metadata daily",
+          "Built scalable feature engineering pipelines using Apache Spark and custom Python libraries, transforming raw SIGINT data into structured analytical products consumed by 200+ intelligence analysts across the IC",
+          "Designed Bayesian network models for attribution analysis, providing probabilistic assessments of threat actor identity that directly supported 5 National Intelligence Estimates (NIEs) presented to the President’s Daily Brief",
+          "Led a 4-person team in developing time-series anomaly detection algorithms for monitoring critical infrastructure SCADA/ICS networks, identifying 12 previously undetected probing campaigns against energy sector assets",
+          "Created interactive dashboards and visualization tools using D3.js and Kibana for real-time monitoring of global cyber threat landscape, adopted as standard analytical tooling by the NSA Threat Operations Center",
+          "Implemented differential privacy mechanisms for cross-agency data sharing initiatives, enabling collaborative analytics on sensitive datasets while maintaining compliance with EO 12333 and PPD-28 privacy protections",
+          "Authored the NSA Data Science Tradecraft Manual (112 pages), establishing standards for reproducibility, peer review, and model validation in intelligence production, now mandated for all NSA data science products",
+          "Conducted peer review and technical validation of 40+ analytical products per quarter, ensuring statistical rigor and methodological soundness prior to dissemination to intelligence consumers",
+          "Developed transfer learning approaches for malware classification that reduced labeled training data requirements by 75% while maintaining F1 scores above 0.92 across 14 malware families",
+          "Collaborated with DARPA program managers on the Cyber Grand Challenge follow-on research, contributing novel reinforcement learning approaches to automated vulnerability discovery",
+          "Maintained and operated analytical tools on TS/SCI networks (JWICS, NSANet), ensuring compliance with security protocols and obtaining Authority to Operate (ATO) for 3 custom analytical platforms",
+          "Received commendation from the Director of NSA for contributions to Operation GLOWING SYMPHONY analysis (specific details classified)"
+        ]
+      },
+      {
+        "path": "work_experience[2].details",
+        "content": [
+          "Developed small area estimation models for the American Community Survey (ACS), improving poverty rate estimates for 650+ counties with populations under 20,000 by reducing coefficient of variation from 28% to 14%",
+          "Implemented record linkage algorithms using probabilistic matching (Fellegi-Sunter framework) to integrate administrative records from IRS, SSA, and HUD with Census survey data, achieving 99.2% match accuracy on a corpus of 140M records",
+          "Designed and conducted Monte Carlo simulation studies evaluating the statistical properties of proposed disclosure avoidance methods for the 2020 Census, contributing to the selection of differential privacy as the primary protection mechanism",
+          "Built automated data quality assessment pipelines processing 3.2M survey responses monthly, flagging anomalies and potential fabrication with 96% sensitivity, reducing field verification costs by $4.8M annually",
+          "Authored 3 peer-reviewed publications in the Journal of the American Statistical Association and Survey Methodology on hierarchical Bayesian methods for multi-level survey estimation",
+          "Contributed to the development of the Census Bureau’s Disclosure Avoidance System (DAS) based on zero-concentrated differential privacy, performing utility-privacy tradeoff analyses for 47 data products",
+          "Presented research at the Joint Statistical Meetings (JSM), Federal Committee on Statistical Methodology (FCSM), and the Census Scientific Advisory Committee",
+          "Developed R packages for internal use by 45+ statisticians: ceslink for entity resolution and saepy for small area estimation, reducing analyst setup time from days to hours",
+          "Served on the Technical Review Panel for the Supplemental Poverty Measure, evaluating methodological proposals from academic researchers and providing recommendations to the Chief Statistician",
+          "Trained 12 new Mathematical Statisticians (GS-9/11) in Bayesian methods, R programming, and Census Bureau disclosure review procedures through a structured 8-week onboarding curriculum"
+        ]
+      },
+      {
+        "path": "work_experience[3].details",
+        "content": [
+          "Performed quantitative analysis of suspicious activity reports (SARs) and intelligence information reports (IIRs) from state and local fusion centers, identifying statistical patterns indicative of pre-operational terrorist planning",
+          "Developed SQL queries and Python scripts to extract, transform, and analyze data from the Homeland Security Information Network (HSIN), Guardian database, and eGuardian system, processing 150,000+ reports annually",
+          "Created geospatial visualizations and heat maps of threat indicators using ArcGIS and Python (geopandas), supporting the production of 24 Homeland Intelligence Today briefings for DHS senior leadership",
+          "Built predictive models for border crossing volume forecasting using ARIMA and Prophet time series methods, improving CBP staffing allocation accuracy by 18% at 12 ports of entry",
+          "Supported the Homeland Threat Assessment production cycle by providing statistical analysis of threat trends, contributing data-driven assessments to the DHS Secretary’s morning intelligence briefing",
+          "Conducted link analysis on financial transaction networks to identify potential terrorism financing pathways, resulting in 3 referrals to the FBI Joint Terrorism Task Force",
+          "Maintained databases and analytical tools on the SIPR and JWICS networks, ensuring data integrity and compliance with Intelligence Community standards for information handling",
+          "Completed the DHS Intelligence Enterprise Analyst Development Program (18 months), receiving certification in all-source intelligence analysis and structured analytic techniques",
+          "Collaborated with analysts from CBP, ICE HSI, and USCG Intelligence on multi-agency threat products, contributing statistical rigor to qualitative assessments",
+          "Received the DHS Secretary’s Award for Excellence for contributions to the Southwest Border Intelligence Campaign analytics initiative"
+        ]
+      },
+      {
+        "path": "education[0].details",
+        "content": [
+          "Dissertation: “Bayesian Nonparametric Methods for Large-Scale Record Linkage with Applications to National Security Databases”",
+          "Advisor: Dr. Susan T. Rothwell",
+          "Relevant Coursework: Advanced Bayesian Inference, Machine Learning, High-Dimensional Statistics, Causal Inference, Computational Statistics, Time Series Analysis, Network Analysis, Statistical Computing",
+          "Honors: Rackham Merit Fellowship (2008–2012), NSF Graduate Research Fellowship Honorable Mention, Best Student Paper Award at ISBA 2011"
+        ]
+      },
+      {
+        "path": "education[1].details",
+        "content": [
+          "Thesis: “Scalable Graph Partitioning for Community Detection in Social Networks”",
+          "Relevant Coursework: Numerical Linear Algebra, High-Performance Computing, Data Mining, Optimization, Parallel Algorithms, Database Systems"
+        ]
+      },
+      {
+        "path": "education[2].details",
+        "content": [
+          "Magna Cum Laude",
+          "Minor: Computer Science",
+          "Honors: Dean’s List (all semesters), Pi Mu Epsilon Mathematics Honor Society, Ronald E. McNair Scholar"
+        ]
+      },
+      {
+        "path": "additional_sections",
+        "content": [
+          {
+            "source_pages": [],
+            "heading": "AWARDS AND RECOGNITION",
+            "text": "DHS Secretary’s Award for Excellence in Cybersecurity\nPresidential Rank Award – Meritorious Service (Nominated)\nNSA Director’s Distinguished Service Medal\nDHS Under Secretary’s Special Act Award ($5,000)\nFederal Employee of the Year – Data Science Category\nCensus Bureau Bronze Medal"
+          },
+          {
+            "source_pages": [],
+            "heading": "PUBLICATIONS",
+            "text": "Graph Neural Networks for Lateral Movement Detection in Enterprise Networks.\nDeep Learning Approaches to Encrypted Traffic Classification for Cyber Threat Detection.\nBayesian Hierarchical Models for Small Area Estimation in the American Community Survey.\nScalable Entity Resolution Using Locality-Sensitive Hashing with Applications to Administrative Records.\nStatistical Methods for Detecting Anomalous Patterns in Suspicious Activity Reporting.\nBayesian Nonparametric Methods for Large-Scale Record Linkage with Applications to National Security Databases."
+          },
+          {
+            "source_pages": [],
+            "heading": "PROFESSIONAL AFFILIATIONS",
+            "text": "American Statistical Association (ASA) – Member, Section on National Defense and Homeland Security (2012–Present); Program Committee, JSM Government Statistics Section (2019–2021)\nInstitute for Operations Research and Management Sciences (INFORMS) – Member, Analytics Society (2014–Present)\nAssociation for Computing Machinery (ACM) – Member, Special Interest Group on Security, Audit and Control (SIGSAC) (2017–Present)\nIntelligence and National Security Alliance (INSA) – Member, Cyber Council (2021–Present)\nNational Society of Black Engineers (NSBE) – Member; Mentor, NSBE Jr. Data Science Pipeline Program (2015–Present)\nFederal Data Science Community of Practice – Co-Chair (2022–Present); Founding member (2019)"
+          }
+        ]
+      }
+    ],
+    "prediction": [
+      {
+        "path": "summary",
+        "content": "Senior Data Scientist with 12 years of progressive federal experience in statistical modeling, machine learning, and cybersecurity analytics. Demonstrated expertise in designing and deploying large-scale data infrastructure supporting national security missions. Proven track record of leading cross-agency analytical initiatives, mentoring junior data scientists, and translating complex analytical findings into actionable intelligence for senior leadership. Skilled in Python, R, Spark, and cloud-based ML platforms with extensive experience processing classified datasets at scale. Holds active Top Secret/SCI clearance with CI polygraph."
+      },
+      {
+        "path": "work_experience[0].details",
+        "content": [
+          "Serve as technical lead for the Threat Analytics Division, directing a team of 8 data scientists and 4 data engineers in developing machine learning models that process 2.3 billion network events daily from federal civilian agency (.gov) networks",
+          "Architected and deployed the Automated Indicator Sharing (AIS) anomaly detection platform using ensemble methods (Random Forest, XGBoost, deep autoencoders), reducing mean time to detect advanced persistent threats from 78 days to 11 days across 102 federal agencies",
+          "Designed and implemented a graph neural network (GNN) pipeline for lateral movement detection, achieving 94.2% precision and 91.7% recall on classified validation datasets, directly contributing to the identification of 3 nation-state intrusion campaigns in FY2023",
+          "Led the migration of legacy analytics infrastructure from on-premises Hadoop clusters to AWS GovCloud (IL-5), reducing compute costs by 34% ($2.1M annual savings) while increasing processing throughput by 4.7x",
+          "Developed Natural Language Processing models for automated analysis of 450,000+ vulnerability disclosures annually, enabling prioritized patch guidance to critical infrastructure sectors within 48 hours of disclosure",
+          "Authored 14 technical white papers and Intelligence Community Directives (ICDs) establishing data science standards and best practices for cyber threat intelligence analytics across DHS component agencies",
+          "Represented CISA at the National Security Council’s Cyber Directorate, providing technical briefings on AI/ML capabilities for national cyber defense to senior government officials including the National Cyber Director",
+          "Established and chair the DHS Data Science Working Group (47 members across 6 component agencies), driving standardization of ML model governance, bias testing, and deployment protocols",
+          "Mentored 6 junior data scientists (GS-9 through GS-12) through the CISA Data Science Development Program, with 4 achieving promotion within 18 months",
+          "Developed an insider threat behavioral analytics model integrating 23 data sources (badge access, network logs, email metadata, financial disclosures) achieving AUC of 0.96, adopted by 3 additional federal agencies",
+          "Coordinated with NSA, FBI Cyber Division, and US-CERT on joint analytical products, authoring 8 Joint Analysis Reports (JARs) disseminated to critical infrastructure owners and operators",
+          "Implemented MLOps pipelines using Kubeﬂow on classified infrastructure, reducing model deployment time from 6 weeks to 3 days and enabling continuous model retraining on streaming threat data",
+          "Presented research findings at classified and unclassified venues including the NSA Cybersecurity Symposium, the DHS Science and Technology Conference, and the Intelligence Community Data Science Summit"
+        ]
+      },
+      {
+        "path": "work_experience[1].details",
+        "content": [
+          "Developed and deployed deep learning models for encrypted traffic classification, enabling identification of malicious command-and-control communications with 97.3% accuracy without decryption, processing 800TB of network metadata daily",
+          "Built scalable feature engineering pipelines using Apache Spark and custom Python libraries, transforming raw SIGINT data into structured analytical products consumed by 200+ intelligence analysts across the IC",
+          "Designed Bayesian network models for attribution analysis, providing probabilistic assessments of threat actor identity that directly supported 5 National Intelligence Estimates (NIEs) presented to the President’s Daily Brief",
+          "Led a 4-person team in developing time-series anomaly detection algorithms for monitoring critical infrastructure SCADA/ICS networks, identifying 12 previously undetected probing campaigns against energy sector assets",
+          "Created interactive dashboards and visualization tools using D3.js and Kibana for real-time monitoring of global cyber threat landscape, adopted as standard analytical tooling by the NSA Threat Operations Center",
+          "Implemented differential privacy mechanisms for cross-agency data sharing initiatives, enabling collaborative analytics on sensitive datasets while maintaining compliance with EO 12333 and PPD-28 privacy protections",
+          "Authored the NSA Data Science Tradecraft Manual (112 pages), establishing standards for reproducibility, peer review, and model validation in intelligence production, now mandated for all NSA data science products",
+          "Conducted peer review and technical validation of 40+ analytical products per quarter, ensuring statistical rigor and methodological soundness prior to dissemination to intelligence consumers",
+          "Developed transfer learning approaches for malware classification that reduced labeled training data requirements by 75% while maintaining F1 scores above 0.92 across 14 malware families",
+          "Collaborated with DARPA program managers on the Cyber Grand Challenge follow-on research, contributing novel reinforcement learning approaches to automated vulnerability discovery",
+          "Maintained and operated analytical tools on TS/SCI networks (JWICS, NSANet), ensuring compliance with security protocols and obtaining Authority to Operate (ATO) for 3 custom analytical platforms",
+          "Received commendation from the Director of NSA for contributions to Operation GLOWING SYMPHONY analysis (specific details classified)"
+        ]
+      },
+      {
+        "path": "work_experience[2].details",
+        "content": [
+          "Developed small area estimation models for the American Community Survey (ACS), improving poverty rate estimates for 650+ counties with populations under 20,000 by reducing coefficient of variation from 28% to 14%",
+          "Implemented record linkage algorithms using probabilistic matching (Fellegi-Sunter framework) to integrate administrative records from IRS, SSA, and HUD with Census survey data, achieving 99.2% match accuracy on a corpus of 140M records",
+          "Designed and conducted Monte Carlo simulation studies evaluating the statistical properties of proposed disclosure avoidance methods for the 2020 Census, contributing to the selection of differential privacy as the primary protection mechanism",
+          "Built automated data quality assessment pipelines processing 3.2M survey responses monthly, flagging anomalies and potential fabrication with 96% sensitivity, reducing field verification costs by $4.8M annually",
+          "Authored 3 peer-reviewed publications in the Journal of the American Statistical Association and Survey Methodology on hierarchical Bayesian methods for multi-level survey estimation",
+          "Contributed to the development of the Census Bureau’s Disclosure Avoidance System (DAS) based on zero-concentrated differential privacy, performing utility-privacy tradeoff analyses for 47 data products",
+          "Presented research at the Joint Statistical Meetings (JSM), Federal Committee on Statistical Methodology (FCSM), and the Census Scientific Advisory Committee",
+          "Developed R packages for internal use by 45+ statisticians: ceslink for entity resolution and saepy for small area estimation, reducing analyst setup time from days to hours",
+          "Served on the Technical Review Panel for the Supplemental Poverty Measure, evaluating methodological proposals from academic researchers and providing recommendations to the Chief Statistician",
+          "Trained 12 new Mathematical Statisticians (GS-9/11) in Bayesian methods, R programming, and Census Bureau disclosure review procedures through a structured 8-week onboarding curriculum"
+        ]
+      },
+      {
+        "path": "work_experience[3].details",
+        "content": [
+          "Performed quantitative analysis of suspicious activity reports (SARs) and intelligence information reports (IIRs) from state and local fusion centers, identifying statistical patterns indicative of pre-operational terrorist planning",
+          "Developed SQL queries and Python scripts to extract, transform, and analyze data from the Homeland Security Information Network (HSIN), Guardian database, and eGuardian system, processing 150,000+ reports annually",
+          "Created geospatial visualizations and heat maps of threat indicators using ArcGIS and Python (geopandas), supporting the production of 24 Homeland Intelligence Today briefings for DHS senior leadership",
+          "Built predictive models for border crossing volume forecasting using ARIMA and Prophet time series methods, improving CBP staffing allocation accuracy by 18% at 12 ports of entry",
+          "Supported the Homeland Threat Assessment production cycle by providing statistical analysis of threat trends, contributing data-driven assessments to the DHS Secretary’s morning intelligence briefing",
+          "Conducted link analysis on financial transaction networks to identify potential terrorism financing pathways, resulting in 3 referrals to the FBI Joint Terrorism Task Force",
+          "Maintained databases and analytical tools on the SIPR and JWICS networks, ensuring data integrity and compliance with Intelligence Community standards for information handling",
+          "Completed the DHS Intelligence Enterprise Analyst Development Program (18 months), receiving certification in all-source intelligence analysis and structured analytic techniques",
+          "Collaborated with analysts from CBP, ICE HSI, and USCG Intelligence on multi-agency threat products, contributing statistical rigor to qualitative assessments",
+          "Received the DHS Secretary’s Award for Excellence for contributions to the Southwest Border Intelligence Campaign analytics initiative"
+        ]
+      },
+      {
+        "path": "education[0].details",
+        "content": [
+          "Dissertation: “Bayesian Nonparametric Methods for Large-Scale Record Linkage with Applications to National Security Databases”",
+          "Advisor: Dr. Susan T. Rothwell",
+          "Relevant Coursework: Advanced Bayesian Inference, Machine Learning, High-Dimensional Statistics, Causal Inference, Computational Statistics, Time Series Analysis, Network Analysis, Statistical Computing",
+          "Honors: Rackham Merit Fellowship (2008–2012), NSF Graduate Research Fellowship Honorable Mention, Best Student Paper Award at ISBA 2011"
+        ]
+      },
+      {
+        "path": "education[1].details",
+        "content": [
+          "Thesis: “Scalable Graph Partitioning for Community Detection in Social Networks”",
+          "Relevant Coursework: Numerical Linear Algebra, High-Performance Computing, Data Mining, Optimization, Parallel Algorithms, Database Systems"
+        ]
+      },
+      {
+        "path": "education[2].details",
+        "content": [
+          "Minor: Computer Science",
+          "Honors: Dean’s List (all semesters), Pi Mu Epsilon Mathematics Honor Society, Ronald E. McNair Scholar"
+        ]
+      },
+      {
+        "path": "additional_sections",
+        "content": [
+          {
+            "source_pages": [],
+            "heading": "PUBLICATIONS",
+            "text": "PUBLICATIONS\n\n   1. Williams, M.T., Richardson, A.L., & Park, S. (2023).  “Graph Neural Networks for Lateral Movement Detection in Enterprise Networks.” Proceedings of the ACM Conference on Computer and Communications Security (CCS), pp. 1847–1862.\n\n   2. Williams, M.T. & Okonkwo, J.K. (2020). “Deep Learning Approaches to Encrypted Traffic Classification for Cyber Threat Detection.” IEEE Transactions on Information Forensics and Security, 15(4), pp. 2891–2904.\n\n   3. Williams, M.T., Huang, P., & Torres, R. (2017). “Bayesian Hierarchical Models for Small Area Estimation in the American Community Survey.” Journal of the American Statistical Association, 112(518), pp. 564–578.\n\n   4. Williams, M.T., Huang, P., & Torres, R. (2017). “Bayesian Hierarchical Models for Small Area Estimation in the American Community Survey.” Journal of the American Statistical Association, 112(518), pp. 564–578.\n\n   5. Williams, M.T., Chen, R.M., & Foster, K. (2015). “Statistical Methods for Detecting Anomalous Patterns in Suspicious Activity Reporting.” Journal of Homeland Security and Emergency Management, 12(3), pp. 445–468.\n\n   6. Williams, M.T. (2012).  “Bayesian Nonparametric Methods for Large-Scale Record Linkage with Applications to National Security Databases.” Doctoral Dissertation, University of Michigan."
+          },
+          {
+            "source_pages": [],
+            "heading": "AWARDS AND RECOGNITION",
+            "text": "AWARDS AND RECOGNITION\n\n• DHS Secretary’s Award for Excellence in Cybersecurity | 2023\n   Recognized for leadership in developing the CISA Automated Threat Detection platform, credited with preventing 3 major cyber intrusions against federal civilian networks.\n\n• Presidential Rank Award – Meritorious Service (Nominated) | 2023\n   Nominated by CISA Director for sustained exceptional performance in advancing national cybersecurity analytics capabilities.\n\n• NSA Director’s Distinguished Service Medal | 2020\n   Awarded for exceptional contributions to signals intelligence analytics and development of novel machine learning approaches for cyber operations support.\n\n• DHS Under Secretary’s Special Act Award ($5,000) | 2022\n   For developing the cross-agency insider threat detection framework adopted by DHS, DOD, and DOE.\n\n• Federal Employee of the Year – Data Science Category | 2019\n   Awarded by the Partnership for Public Service in recognition of innovative applications of AI/ML to national security challenges.\n\n• Census Bureau Bronze Medal | 2016\n   For contributions to the development of differential privacy methods for the 2020 Census Disclosure Avoidance System."
+          },
+          {
+            "source_pages": [],
+            "heading": "TECHNICAL PROFICIENCIES",
+            "text": "TECHNICAL PROFICIENCIES\n\nProgramming:           Python (NumPy, pandas,  scikit-learn, PyTorch, TensorFlow), R\n                               (tidyverse, Stan, caret), SQL, Scala, Java, Bash/Shell scripting, C++\nML/AI:                 Deep Learning (CNNs, RNNs, Transformers, GANs, Autoencoders),\n                   NLP (BERT, GPT fine-tuning), Graph Neural Networks, Reinforcement Learning, Bayesian Methods, Ensemble Methods\nBig Data:               Apache Spark, Kafka, Hadoop/HDFS, Elasticsearch,  Databricks,\n                           Dask, Ray\nCloud/DevOps:       AWS GovCloud (SageMaker, EMR, Glue, Redshift), Kubernetes,\n                            Docker, Terraform, GitLab CI/CD, MLflow, Kubeﬂow\nDatabases:               PostgreSQL, MongoDB, Neo4j, Apache Cassandra, Amazon Redshift,\n                        Snowflake\nVisualization:             Tableau, Kibana, D3.js, Matplotlib, Plotly, ArcGIS Pro\n\nSecurity Tools:            Splunk, Elastic SIEM, MITRE ATT&CK framework, Wireshark,\n                     YARA, Snort/Suricata\nClassiﬁed Systems:      JWICS, SIPRNet, NSANet, IC Cloud (C2S), Xkeyscore (read-only\n                               analytical access)"
+          },
+          {
+            "source_pages": [],
+            "heading": "PROFESSIONAL AFFILIATIONS",
+            "text": "PROFESSIONAL AFFILIATIONS\n\n• American Statistical Association (ASA) – Member, Section on National Defense and\n   Homeland Security (2012–Present); Program Committee, JSM Government Statistics Section\n   (2019–2021)\n\n• Institute for Operations Research and Management Sciences (INFORMS) – Member,\n   Analytics Society (2014–Present)\n\n• Association for Computing Machinery (ACM) – Member, Special Interest Group on\n    Security, Audit and Control (SIGSAC) (2017–Present)\n\n• Intelligence and National Security Alliance (INSA) – Member, Cyber Council (2021–\n   Present)\n\n• National Society of Black Engineers (NSBE) – Member; Mentor, NSBE Jr. Data Science\n   Pipeline Program (2015–Present)\n\n• Federal Data Science Community of Practice – Co-Chair (2022–Present); Founding mem-\n   ber (2019)"
+          },
+          {
+            "source_pages": [],
+            "heading": "REFERENCES",
+            "text": "REFERENCES\n\nAvailable upon request. Federal supervisor references can be veriﬁed through the DHS Office of\nHuman Capital, (202) 555-0100."
+          }
+        ]
+      }
+    ],
+    "checklist": {
+      "preservation": {
+        "passed": null,
+        "notes": ""
+      },
+      "faithfulness": {
+        "passed": null,
+        "notes": ""
+      },
+      "placement": {
+        "passed": null,
+        "notes": ""
+      },
+      "duplication": {
+        "passed": null,
+        "notes": ""
+      }
+    }
+  },
+  "status": "evaluated"
+}

@@ -1,0 +1,777 @@
+{
+  "document_id": "CV010",
+  "repetition": 1,
+  "overall": {
+    "correct": 16,
+    "missing": 32,
+    "incorrect": 3,
+    "unexpected": 29,
+    "expected_facts": 51,
+    "predicted_facts": 48,
+    "precision": 0.3333333333333333,
+    "recall": 0.3137254901960784,
+    "f1": 0.32323232323232326
+  },
+  "extraction_status": "completed",
+  "prediction_sha256": "cbc487a45d9ad7ea0ad9fb3675c9a322f2af96d6db8ca9bb97d156087651976f",
+  "json_valid": true,
+  "schema_valid": true,
+  "categories": {
+    "personal_information": {
+      "correct": 9,
+      "missing": 1,
+      "incorrect": 1,
+      "unexpected": 0,
+      "expected_facts": 11,
+      "predicted_facts": 10,
+      "precision": 0.9,
+      "recall": 0.8181818181818182,
+      "f1": 0.8571428571428571
+    },
+    "work_experience": {
+      "correct": 0,
+      "missing": 0,
+      "incorrect": 0,
+      "unexpected": 0,
+      "expected_facts": 0,
+      "predicted_facts": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null
+    },
+    "projects": {
+      "correct": 0,
+      "missing": 6,
+      "incorrect": 0,
+      "unexpected": 15,
+      "expected_facts": 6,
+      "predicted_facts": 15,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "education": {
+      "correct": 1,
+      "missing": 1,
+      "incorrect": 1,
+      "unexpected": 1,
+      "expected_facts": 3,
+      "predicted_facts": 3,
+      "precision": 0.3333333333333333,
+      "recall": 0.3333333333333333,
+      "f1": 0.3333333333333333
+    },
+    "skills": {
+      "correct": 2,
+      "missing": 18,
+      "incorrect": 1,
+      "unexpected": 4,
+      "expected_facts": 21,
+      "predicted_facts": 7,
+      "precision": 0.2857142857142857,
+      "recall": 0.09523809523809523,
+      "f1": 0.14285714285714285
+    },
+    "languages": {
+      "correct": 4,
+      "missing": 0,
+      "incorrect": 0,
+      "unexpected": 6,
+      "expected_facts": 4,
+      "predicted_facts": 10,
+      "precision": 0.4,
+      "recall": 1.0,
+      "f1": 0.5714285714285714
+    },
+    "certifications": {
+      "correct": 0,
+      "missing": 2,
+      "incorrect": 0,
+      "unexpected": 3,
+      "expected_facts": 2,
+      "predicted_facts": 3,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "training": {
+      "correct": 0,
+      "missing": 4,
+      "incorrect": 0,
+      "unexpected": 0,
+      "expected_facts": 4,
+      "predicted_facts": 0,
+      "precision": null,
+      "recall": 0.0,
+      "f1": 0.0
+    }
+  },
+  "differences": [
+    {
+      "path": "personal_information.headline",
+      "result": "missing",
+      "expected": "ELECTRO INFO PHYSICIST",
+      "actual": null
+    },
+    {
+      "path": "personal_information.weblinks[1->1].platform",
+      "result": "incorrect",
+      "expected": "Stack Overflow",
+      "actual": "stackoverflow"
+    },
+    {
+      "path": "projects[reference:0].dates.start",
+      "result": "missing",
+      "expected": "2/2021",
+      "actual": null
+    },
+    {
+      "path": "projects[reference:0].name",
+      "result": "missing",
+      "expected": "Hydrogeology Project",
+      "actual": null
+    },
+    {
+      "path": "projects[reference:1].dates.start",
+      "result": "missing",
+      "expected": "9/2020",
+      "actual": null
+    },
+    {
+      "path": "projects[reference:1].name",
+      "result": "missing",
+      "expected": "Gmail Project",
+      "actual": null
+    },
+    {
+      "path": "projects[reference:2].dates.start",
+      "result": "missing",
+      "expected": "12/2019",
+      "actual": null
+    },
+    {
+      "path": "projects[reference:2].name",
+      "result": "missing",
+      "expected": "MathPy Project",
+      "actual": null
+    },
+    {
+      "path": "projects[prediction:0].dates.start",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "7/2021"
+    },
+    {
+      "path": "projects[prediction:0].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "1337_Piscine"
+    },
+    {
+      "path": "projects[prediction:0].organization",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "UM6P"
+    },
+    {
+      "path": "projects[prediction:1].dates.start",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "2/2021"
+    },
+    {
+      "path": "projects[prediction:1].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Hydrogeologie (PROJET PRIVÉ)"
+    },
+    {
+      "path": "projects[prediction:1].organization",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Private"
+    },
+    {
+      "path": "projects[prediction:2].dates.start",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "9/2020"
+    },
+    {
+      "path": "projects[prediction:2].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Gmail"
+    },
+    {
+      "path": "projects[prediction:2].organization",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Private"
+    },
+    {
+      "path": "projects[prediction:3].dates.start",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "12/2019"
+    },
+    {
+      "path": "projects[prediction:3].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "MathPy"
+    },
+    {
+      "path": "projects[prediction:3].organization",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Private"
+    },
+    {
+      "path": "projects[prediction:4].dates.start",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "9/2019"
+    },
+    {
+      "path": "projects[prediction:4].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "MathPy"
+    },
+    {
+      "path": "projects[prediction:4].organization",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Private"
+    },
+    {
+      "path": "education[0->0].dates.end",
+      "result": "missing",
+      "expected": "6/2019",
+      "actual": null
+    },
+    {
+      "path": "education[0->0].dates.start",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "6/2019"
+    },
+    {
+      "path": "education[0->0].institution",
+      "result": "incorrect",
+      "expected": "University Hassan II of Casablanca : Faculty of Science Ben M’sik.",
+      "actual": "University Hassan II of Casablanca"
+    },
+    {
+      "path": "skills[17->0].name",
+      "result": "incorrect",
+      "expected": "Development",
+      "actual": "IT Development"
+    },
+    {
+      "path": "skills[reference:0].name",
+      "result": "missing",
+      "expected": "PyCharm",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:1].name",
+      "result": "missing",
+      "expected": "MD",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:2].name",
+      "result": "missing",
+      "expected": "CLion",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:3].name",
+      "result": "missing",
+      "expected": "Terminal",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:4].name",
+      "result": "missing",
+      "expected": "Proteus",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:5].name",
+      "result": "missing",
+      "expected": "git",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:6].name",
+      "result": "missing",
+      "expected": "Windows",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:7].name",
+      "result": "missing",
+      "expected": "macOS",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:10].name",
+      "result": "missing",
+      "expected": "LATEX",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:11].name",
+      "result": "missing",
+      "expected": "pyinstaller",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:12].name",
+      "result": "missing",
+      "expected": "matplotlib",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:13].name",
+      "result": "missing",
+      "expected": "sympy",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:14].name",
+      "result": "missing",
+      "expected": "tkinter",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:15].name",
+      "result": "missing",
+      "expected": "numpy",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:16].name",
+      "result": "missing",
+      "expected": "pandas",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:18].name",
+      "result": "missing",
+      "expected": "Maintenance",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:19].name",
+      "result": "missing",
+      "expected": "Design",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:20].name",
+      "result": "missing",
+      "expected": "Schematization",
+      "actual": null
+    },
+    {
+      "path": "skills[prediction:3].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Data Science"
+    },
+    {
+      "path": "skills[prediction:4].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Data Analysis"
+    },
+    {
+      "path": "skills[prediction:5].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Python Libraries"
+    },
+    {
+      "path": "skills[prediction:6].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Software Programs"
+    },
+    {
+      "path": "languages[0->0].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 5.0
+    },
+    {
+      "path": "languages[0->0].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "languages[0->0].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 2.0
+    },
+    {
+      "path": "languages[1->1].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 5.0
+    },
+    {
+      "path": "languages[1->1].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "languages[1->1].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 2.0
+    },
+    {
+      "path": "certifications[reference:0].date",
+      "result": "missing",
+      "expected": "3/2021",
+      "actual": null
+    },
+    {
+      "path": "certifications[reference:0].name",
+      "result": "missing",
+      "expected": "Scientific Computing with Python Developer Certification",
+      "actual": null
+    },
+    {
+      "path": "certifications[prediction:0].date",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "2021"
+    },
+    {
+      "path": "certifications[prediction:0].issuer",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "freecodecamp.org"
+    },
+    {
+      "path": "certifications[prediction:0].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Developer Certification"
+    },
+    {
+      "path": "training[reference:0].dates.duration",
+      "result": "missing",
+      "expected": "One intensive month",
+      "actual": null
+    },
+    {
+      "path": "training[reference:0].dates.start",
+      "result": "missing",
+      "expected": "7/2021",
+      "actual": null
+    },
+    {
+      "path": "training[reference:0].name",
+      "result": "missing",
+      "expected": "Piscine of 1337 school 42 network",
+      "actual": null
+    },
+    {
+      "path": "training[reference:0].provider",
+      "result": "missing",
+      "expected": "UM6P",
+      "actual": null
+    }
+  ],
+  "matching_review_required": true,
+  "matching_warnings": [
+    {
+      "path": "personal_information.weblinks",
+      "reference_index": 1,
+      "prediction_index": 1,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    },
+    {
+      "path": "education",
+      "reference_index": 0,
+      "prediction_index": 0,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    },
+    {
+      "path": "skills",
+      "reference_index": 17,
+      "prediction_index": 0,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    }
+  ],
+  "provenance": {
+    "policy": "empty",
+    "correct": 0,
+    "missing": 0,
+    "incorrect": 0,
+    "unexpected": 7,
+    "expected_facts": 0,
+    "predicted_facts": 7,
+    "precision": 0.0,
+    "recall": null,
+    "f1": 0.0,
+    "differences": [
+      {
+        "path": "personal_information.source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "projects[prediction:0].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "projects[prediction:1].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "projects[prediction:2].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "projects[prediction:3].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "projects[prediction:4].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      },
+      {
+        "path": "education[0->0].source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      }
+    ]
+  },
+  "content_review": {
+    "status": "pending",
+    "reference": [
+      {
+        "path": "personal_information.details",
+        "content": [
+          "Born : 7/24/1994",
+          "Driver’s license : B"
+        ]
+      },
+      {
+        "path": "summary",
+        "content": "I am a graduate in Physics Electronic with working experience in research projects. I am always looking for exciting new interdisciplinary projects related to physics."
+      },
+      {
+        "path": "projects[0].details",
+        "content": [
+          "Groundwater Hydrology",
+          "github.com/NajmiAchraf/Hydrogeologie (PROJET PRIVÉ)"
+        ]
+      },
+      {
+        "path": "projects[1].details",
+        "content": [
+          "CSV Google-mail Sender",
+          "github.com/NajmiAchraf/Gmail"
+        ]
+      },
+      {
+        "path": "projects[2].details",
+        "content": [
+          "Modern Scientific Calculator",
+          "4/2020 Set MathPy Project in GitHub",
+          "github.com/NajmiAchraf/MathPy (PROJET PRIVÉ)",
+          "MathPy Project is constantly updating"
+        ]
+      },
+      {
+        "path": "education[0].details",
+        "content": [
+          "Series : Matter Science Physics",
+          "Course : Electronic"
+        ]
+      },
+      {
+        "path": "certifications[0].details",
+        "content": [
+          "freecodecamp.org/certification/najmiachraf/scientific-computing-with-python-v7"
+        ]
+      },
+      {
+        "path": "training[0].details",
+        "content": [
+          "github.com/NajmiAchraf/1337_Piscine"
+        ]
+      },
+      {
+        "path": "additional_sections",
+        "content": [
+          {
+            "source_pages": [],
+            "heading": "ACTIVITIES",
+            "text": "Tutorials\nTech News\nBrain Games\nSport\n8 public repos in my GitHub Account"
+          }
+        ]
+      }
+    ],
+    "prediction": [
+      {
+        "path": "personal_information.details",
+        "content": [
+          "ELECTRO INFO PHYSICIST"
+        ]
+      },
+      {
+        "path": "projects[0].details",
+        "content": [
+          "One intensive month in UM6P Piscine of 1337 school 42 network"
+        ]
+      },
+      {
+        "path": "projects[1].details",
+        "content": [
+          "Groundwater Hydrology"
+        ]
+      },
+      {
+        "path": "projects[2].details",
+        "content": [
+          "CSV Google-mail Sender"
+        ]
+      },
+      {
+        "path": "projects[3].details",
+        "content": [
+          "Modern Scientific Calculator GUI"
+        ]
+      },
+      {
+        "path": "projects[4].details",
+        "content": [
+          "Series: Matter Science Physics",
+          "Course: Electronic"
+        ]
+      },
+      {
+        "path": "education[0].details",
+        "content": [
+          "Physics Electronic",
+          "Electronic •  Electrical Engineering • < Digital",
+          "l Telecommunication • X Network"
+        ]
+      },
+      {
+        "path": "skills[0].details",
+        "content": [
+          "Development",
+          "Maintenance"
+        ]
+      },
+      {
+        "path": "skills[1].details",
+        "content": [
+          "Language"
+        ]
+      },
+      {
+        "path": "skills[2].details",
+        "content": [
+          "Language"
+        ]
+      },
+      {
+        "path": "skills[3].details",
+        "content": [
+          "Data Analysis"
+        ]
+      },
+      {
+        "path": "skills[4].details",
+        "content": [
+          "Data Analysis"
+        ]
+      },
+      {
+        "path": "skills[5].details",
+        "content": [
+          "sympy",
+          "numpy",
+          "matplotlib",
+          "pandas",
+          "tkinter",
+          "pyinstaller",
+          "auto py to exe"
+        ]
+      },
+      {
+        "path": "skills[6].details",
+        "content": [
+          "PyCharm",
+          "MD",
+          "CLion",
+          "Terminal",
+          "Proteus",
+          "OS: Windows",
+          "OS: macOS"
+        ]
+      },
+      {
+        "path": "certifications[0].details",
+        "content": [
+          "Scientific Computing with Python"
+        ]
+      },
+      {
+        "path": "additional_sections",
+        "content": [
+          {
+            "source_pages": [],
+            "heading": null,
+            "text": "I am a graduate in Physics Electronic with working experience in research projects. I am always looking for exciting new interdisciplinary projects related to physics.\n\nMost of my contribution to my work is in the field of IT development and maintenance.\n\nI regularly use for my development projects PyCharm and CLion as IDE, and I use for schematic capture and simulation Proteus CAD.\n\nCurrently, I am developing realtime applications with Python, and creating a GUI with tkinter, and extracting from the script ‘file.py‘ an executable file by pyinstaller using auto py to exe.\n\nAmong the dominant activities that I practice is to browse the internet in search of news on tech news, public repos, and trained on all the tutorials that interests me."
+          }
+        ]
+      }
+    ],
+    "checklist": {
+      "preservation": {
+        "passed": null,
+        "notes": ""
+      },
+      "faithfulness": {
+        "passed": null,
+        "notes": ""
+      },
+      "placement": {
+        "passed": null,
+        "notes": ""
+      },
+      "duplication": {
+        "passed": null,
+        "notes": ""
+      }
+    }
+  },
+  "status": "evaluated"
+}

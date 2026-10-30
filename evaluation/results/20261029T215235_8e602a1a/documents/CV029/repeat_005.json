@@ -1,0 +1,675 @@
+{
+  "document_id": "CV029",
+  "repetition": 5,
+  "overall": {
+    "correct": 5,
+    "missing": 71,
+    "incorrect": 1,
+    "unexpected": 1,
+    "expected_facts": 77,
+    "predicted_facts": 7,
+    "precision": 0.7142857142857143,
+    "recall": 0.06493506493506493,
+    "f1": 0.11904761904761904
+  },
+  "extraction_status": "completed",
+  "prediction_sha256": "a3b242c7ce3080012fd635c2ddb56d67142a410f3e37527c1427fd1453ad2ba1",
+  "json_valid": true,
+  "schema_valid": true,
+  "categories": {
+    "personal_information": {
+      "correct": 5,
+      "missing": 0,
+      "incorrect": 1,
+      "unexpected": 1,
+      "expected_facts": 6,
+      "predicted_facts": 7,
+      "precision": 0.7142857142857143,
+      "recall": 0.8333333333333334,
+      "f1": 0.7692307692307693
+    },
+    "work_experience": {
+      "correct": 0,
+      "missing": 16,
+      "incorrect": 0,
+      "unexpected": 0,
+      "expected_facts": 16,
+      "predicted_facts": 0,
+      "precision": null,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "projects": {
+      "correct": 0,
+      "missing": 0,
+      "incorrect": 0,
+      "unexpected": 0,
+      "expected_facts": 0,
+      "predicted_facts": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null
+    },
+    "education": {
+      "correct": 0,
+      "missing": 2,
+      "incorrect": 0,
+      "unexpected": 0,
+      "expected_facts": 2,
+      "predicted_facts": 0,
+      "precision": null,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "skills": {
+      "correct": 0,
+      "missing": 49,
+      "incorrect": 0,
+      "unexpected": 0,
+      "expected_facts": 49,
+      "predicted_facts": 0,
+      "precision": null,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "languages": {
+      "correct": 0,
+      "missing": 2,
+      "incorrect": 0,
+      "unexpected": 0,
+      "expected_facts": 2,
+      "predicted_facts": 0,
+      "precision": null,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "certifications": {
+      "correct": 0,
+      "missing": 2,
+      "incorrect": 0,
+      "unexpected": 0,
+      "expected_facts": 2,
+      "predicted_facts": 0,
+      "precision": null,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "training": {
+      "correct": 0,
+      "missing": 0,
+      "incorrect": 0,
+      "unexpected": 0,
+      "expected_facts": 0,
+      "predicted_facts": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null
+    }
+  },
+  "differences": [
+    {
+      "path": "personal_information.headline",
+      "result": "incorrect",
+      "expected": "ICT SECURITY SPECIALIST",
+      "actual": "Cybersecurity professional with 10+ years across enterprises, MSPs, and outsourced operations. Focused on audits, vuln testing, secure design, and systems design."
+    },
+    {
+      "path": "personal_information.location",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Melbourne, Sydney, Brisbane, Perth, and Canberra"
+    },
+    {
+      "path": "work_experience[reference:0].dates.end",
+      "result": "missing",
+      "expected": "2023",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:0].dates.start",
+      "result": "missing",
+      "expected": "2019",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:0].employer",
+      "result": "missing",
+      "expected": "CyberCX",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:0].role",
+      "result": "missing",
+      "expected": "Senior Security Engineer",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:1].dates.end",
+      "result": "missing",
+      "expected": "2019",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:1].dates.start",
+      "result": "missing",
+      "expected": "2016",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:1].employer",
+      "result": "missing",
+      "expected": "Sense of Security",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:1].role",
+      "result": "missing",
+      "expected": "Security Team Lead",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:2].dates.end",
+      "result": "missing",
+      "expected": "2016",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:2].dates.start",
+      "result": "missing",
+      "expected": "2014",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:2].employer",
+      "result": "missing",
+      "expected": "Brennan IT",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:2].role",
+      "result": "missing",
+      "expected": "Security Advisor",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:3].dates.end",
+      "result": "missing",
+      "expected": "2013",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:3].dates.start",
+      "result": "missing",
+      "expected": "2011",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:3].employer",
+      "result": "missing",
+      "expected": "Transurban",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:3].role",
+      "result": "missing",
+      "expected": "Systems Security Analyst",
+      "actual": null
+    },
+    {
+      "path": "education[reference:0].institution",
+      "result": "missing",
+      "expected": "Edith Cowan University",
+      "actual": null
+    },
+    {
+      "path": "education[reference:0].qualification",
+      "result": "missing",
+      "expected": "Bachelor of Science (Computer & Security) (HON)",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:0].name",
+      "result": "missing",
+      "expected": "Palo Alto",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:1].name",
+      "result": "missing",
+      "expected": "pfSense",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:2].name",
+      "result": "missing",
+      "expected": "Fortinet",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:3].name",
+      "result": "missing",
+      "expected": "Juniper",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:4].name",
+      "result": "missing",
+      "expected": "SonicWall",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:5].name",
+      "result": "missing",
+      "expected": "Check Point",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:6].name",
+      "result": "missing",
+      "expected": "iptables",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:7].name",
+      "result": "missing",
+      "expected": "nftables",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:8].name",
+      "result": "missing",
+      "expected": "ipfw",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:9].name",
+      "result": "missing",
+      "expected": "pf",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:10].name",
+      "result": "missing",
+      "expected": "UEBA",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:11].name",
+      "result": "missing",
+      "expected": "IDS",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:12].name",
+      "result": "missing",
+      "expected": "Suricata",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:13].name",
+      "result": "missing",
+      "expected": "Zeek",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:14].name",
+      "result": "missing",
+      "expected": "Tripwire",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:15].name",
+      "result": "missing",
+      "expected": "IPv6",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:16].name",
+      "result": "missing",
+      "expected": "802.1X",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:17].name",
+      "result": "missing",
+      "expected": "BGP",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:18].name",
+      "result": "missing",
+      "expected": "OSPF",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:19].name",
+      "result": "missing",
+      "expected": "IKEv2",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:20].name",
+      "result": "missing",
+      "expected": "TLS",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:21].name",
+      "result": "missing",
+      "expected": "GRE",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:22].name",
+      "result": "missing",
+      "expected": "IPsec",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:23].name",
+      "result": "missing",
+      "expected": "PSK",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:24].name",
+      "result": "missing",
+      "expected": "EAP",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:25].name",
+      "result": "missing",
+      "expected": "Wi-Fi LAN",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:26].name",
+      "result": "missing",
+      "expected": "Windows Server",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:27].name",
+      "result": "missing",
+      "expected": "Linux",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:28].name",
+      "result": "missing",
+      "expected": "AIX",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:29].name",
+      "result": "missing",
+      "expected": "macOS",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:30].name",
+      "result": "missing",
+      "expected": "NMS",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:31].name",
+      "result": "missing",
+      "expected": "Icinga",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:32].name",
+      "result": "missing",
+      "expected": "Cacti",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:33].name",
+      "result": "missing",
+      "expected": "Duo MFA",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:34].name",
+      "result": "missing",
+      "expected": "YubiKey",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:35].name",
+      "result": "missing",
+      "expected": "SAML",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:36].name",
+      "result": "missing",
+      "expected": "SSO",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:37].name",
+      "result": "missing",
+      "expected": "Python",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:38].name",
+      "result": "missing",
+      "expected": "PowerShell",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:39].name",
+      "result": "missing",
+      "expected": "PHP",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:40].name",
+      "result": "missing",
+      "expected": "Perl",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:41].name",
+      "result": "missing",
+      "expected": "KQL",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:42].name",
+      "result": "missing",
+      "expected": "SQL",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:43].name",
+      "result": "missing",
+      "expected": "C",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:44].name",
+      "result": "missing",
+      "expected": "Bash",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:45].name",
+      "result": "missing",
+      "expected": "HP",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:46].name",
+      "result": "missing",
+      "expected": "HPE blades",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:47].name",
+      "result": "missing",
+      "expected": "Cisco NX-OS",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:48].name",
+      "result": "missing",
+      "expected": "F5 BIG-IP",
+      "actual": null
+    },
+    {
+      "path": "languages[reference:0].name",
+      "result": "missing",
+      "expected": "Spanish",
+      "actual": null
+    },
+    {
+      "path": "languages[reference:0].proficiency.text",
+      "result": "missing",
+      "expected": "Conversant",
+      "actual": null
+    },
+    {
+      "path": "certifications[reference:0].name",
+      "result": "missing",
+      "expected": "GIAC Certified Incident Handler (GCIH)",
+      "actual": null
+    },
+    {
+      "path": "certifications[reference:1].name",
+      "result": "missing",
+      "expected": "COBIT 5 Foundation",
+      "actual": null
+    }
+  ],
+  "matching_review_required": false,
+  "matching_warnings": [],
+  "provenance": {
+    "policy": "empty",
+    "correct": 0,
+    "missing": 0,
+    "incorrect": 0,
+    "unexpected": 1,
+    "expected_facts": 0,
+    "predicted_facts": 1,
+    "precision": 0.0,
+    "recall": null,
+    "f1": 0.0,
+    "differences": [
+      {
+        "path": "personal_information.source_pages",
+        "result": "unexpected",
+        "page": 1,
+        "count": 1
+      }
+    ]
+  },
+  "content_review": {
+    "status": "pending",
+    "reference": [
+      {
+        "path": "summary",
+        "content": "Cybersecurity professional with 10+ years across enterprises, MSPs, and outsourced operations. Focused on audits, vuln testing, secure design, and systems design."
+      },
+      {
+        "path": "work_experience[0].details",
+        "content": [
+          "Created and launched an enterprise security program, lowering potential vulnerabilities by 29% in year one.",
+          "Directed UEBA rollout, boosting enterprise detection coverage.",
+          "Launched org-wide cyber training, lifting staff awareness by 45%.",
+          "Contained a severe breach rapidly, limiting impact and stopping data theft.",
+          "Worked with counsel to align to new privacy laws, averting possible fines.",
+          "Built a strong IR plan, cutting MTTR by 37%."
+        ]
+      },
+      {
+        "path": "work_experience[1].details",
+        "content": [
+          "Directed migration of core systems to cloud, boosting scale and trimming run costs.",
+          "Refined IR playbooks, cutting MTTR by 25%.",
+          "Identified and blocked an advanced intrusion, stopping access to sensitive client data.",
+          "Contributed materially to ISO 27001 attainment, strengthening the organisation’s standing for strong security practices.",
+          "Designed and executed a full DR plan, sustaining operations through cyber events."
+        ]
+      },
+      {
+        "path": "work_experience[2].details",
+        "content": [
+          "Guided transition of security stack to a hybrid cloud setup, increasing flexibility and resource use.",
+          "Built and adopted a standard vuln assessment method, yielding more precise threat discovery.",
+          "Partnered with agencies to align to new cyber rules, avoiding possible liability.",
+          "Restored service from a major outage in 2 hours, curbing disruption and losses.",
+          "Performed deep security reviews for marquee clients, finding and fixing critical flaws.",
+          "Modernised firewalls for IPv6, future-proofing the network and enabling smooth adoption of new tech."
+        ]
+      },
+      {
+        "path": "work_experience[3].details",
+        "content": [
+          "Delivered an effective awareness program, cutting staff-related incidents by 45%.",
+          "Helped deliver SSO, simplifying access management and strengthening security.",
+          "Ran a detailed policy gap analysis, finding and fixing weaknesses in the security program.",
+          "Worked across functions to design and roll out a strong security system design, uplifting posture.",
+          "Assessed and chose a managed firewall vendor, delivering improved threat detection and real-time monitoring.",
+          "Produced UAM and SSO specs, materially improving policy compliance and access control.",
+          "Reduced risk through detailed threat assessments and reviews of security tools and services."
+        ]
+      },
+      {
+        "path": "additional_sections",
+        "content": [
+          {
+            "source_pages": [],
+            "heading": "KEY ACHIEVEMENTS",
+            "text": "Built an end-to-end security program at CyberCX, cutting risk exposure ~29% and deploying a UEBA platform.\nReduced exposure at Transurban by rolling out an IR playbook and training, protecting IP and privacy at multi-billion scale.\nCut audit scope at Transurban, improving risk ratings and contributing to share price gains.\nSecured provider terms and deployed caching proxies, yielding as much as 37% lower bandwidth spend."
+          },
+          {
+            "source_pages": [],
+            "heading": "AREAS OF EXPERTISE",
+            "text": "Strong background in varied technical aspects of Cybersecurity, including Firewalls, IDS/IPS, Routing, OS, and dedicated cyber tools.\nExpertise in security review and vulnerability scan, secure design, and system design.\nProven track record of stakeholder influence and progressing Cybersecurity initiatives.\nOutstanding presentation skills.\nConversant in Spanish."
+          },
+          {
+            "source_pages": [],
+            "heading": "CAREER SUMMARY",
+            "text": "CyberCX Senior Security Engineer 2019 – 2023\nSense of Security Security Team Lead 2016 – 2019\nBrennan IT Pty Ltd Security Advisor 2014 – 2016\nTransurban Systems Security Analyst 2011– 2013"
+          }
+        ]
+      }
+    ],
+    "prediction": [
+      {
+        "path": "personal_information.details",
+        "content": [
+          "Cybersecurity professional with 10+ years across enterprises, MSPs, and outsourced operations. Focused on audits, vuln testing, secure design, and systems design."
+        ]
+      },
+      {
+        "path": "summary",
+        "content": "CyberCX                                 2019 – 2023\n                                         Senior Security Engineer     vulnerability scan, secure design,\n   and system design.\n                                    Sense of Security                           2016 – 2019\n                                         Security Team Lead\n                                    Brennan IT Pty Ltd                         2014 – 2016\n                                         Security Advisor\n                                    Transurban                               2011– 2013\n                                         Systems Security Analyst"
+      }
+    ],
+    "checklist": {
+      "preservation": {
+        "passed": null,
+        "notes": ""
+      },
+      "faithfulness": {
+        "passed": null,
+        "notes": ""
+      },
+      "placement": {
+        "passed": null,
+        "notes": ""
+      },
+      "duplication": {
+        "passed": null,
+        "notes": ""
+      }
+    }
+  },
+  "status": "evaluated"
+}

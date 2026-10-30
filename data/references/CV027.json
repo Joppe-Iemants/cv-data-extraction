@@ -1,0 +1,165 @@
+{
+  "personal_information": {
+    "full_name": "Raghav Chowdary",
+    "headline": "Process leader | DPA, Case Handling, BRMS & ML",
+    "emails": [
+      "chowdaryraghav922@rediffmail.com"
+    ],
+    "phones": [
+      "+91 99016 4480"
+    ],
+    "location": "Hyderabad",
+    "weblinks": [
+      {
+        "url": "linkedin.com/in/chowdaryraghav922",
+        "platform": "LinkedIn"
+      }
+    ]
+  },
+  "summary": "Pega Lead Business Architect bringing 15+ yrs rolling out large-scale solutions for US public-sector, healthcare and BFSI clients from Indian delivery centres. Adept at converting policy plus market goals toward robust Pegasystems workflows, record handling, and rules engines to raise intake pace, adherence, and productivity.\n\nDeep hands-on knowledge of Pegasystems design tooling, Direct Capture practices, envisioning, process automation, decision engines, plus responsible machine intelligence with human review gates. Seasoned at executive partner management, coaching analyst groups, change control, plus bid-phase solutioning.",
+  "work_experience": [
+    {
+      "employer": "Cognizant Technology Solutions India Pvt. Ltd.",
+      "role": "Senior Manager (Pega Lead Business Architect)",
+      "dates": {
+        "start": "May 2018",
+        "end": "Till date"
+      },
+      "location": "Hyderabad",
+      "details": [
+        "Owned full lifecycle results on Pegasystems solutions for a US state health-agency client under strict compliance norms.",
+        "Directed rollout of intake and vetting processes onto unified Pegasystems records and rules hubs, cutting turnaround by 27–40% with complete audit trails.",
+        "Facilitated Pegasystems envisioning and Direct Capture sessions with partners from operations, risk, compliance, and line units.",
+        "Established performance measures covering throughput, compliance conformance, and defect rework minimisation.",
+        "Implemented priority queuing and role-tailored process flows.",
+        "Leveraged Pegasystems design maps to secure upfront partner consensus.",
+        "Enabled responsible ML and Pega GenAI usage with governance controls.",
+        "Framed product objectives, theme groups, capabilities, and narratives mapped to compliance and rollout priorities.",
+        "Coached BA squads in Hyderabad and Bengaluru; supported RFP/bid-stage work."
+      ]
+    },
+    {
+      "employer": "Infosys Limited",
+      "role": "Lead Consultant (Pega BA / Scrum Lead)",
+      "dates": {
+        "start": "Oct'14",
+        "end": "Apr'18"
+      },
+      "location": "Bangalore",
+      "details": [
+        "Facilitated Direct Capture workshops and refined scope details.",
+        "Managed product queue ordering and effort sizing.",
+        "Ran scrum events and served as domain expert.",
+        "Assisted user acceptance testing and QA.",
+        "Developed strong familiarity with Pegasystems methods, release norms, and large-scale solution patterns."
+      ]
+    },
+    {
+      "employer": "Kakatiya Infosolutions Pvt. Ltd.",
+      "role": "Associate Product Analyst",
+      "dates": {
+        "start": "Sept 2011",
+        "end": "Oct 2014"
+      },
+      "location": "Secunderabad",
+      "details": [
+        "Collected and assessed functional needs of co-operative bank users.",
+        "Converted needs into backlog narratives.",
+        "Assisted releases and QA for co-op bank clients (₹2,400 crore deposits)."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "VNR VJIET, affiliated to JNTU Hyderabad",
+      "qualification": "B.Tech (Mechanical)",
+      "dates": {
+        "end": "2011"
+      },
+      "details": [
+        "74.2%"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Digital Ops & Case Handling"
+    },
+    {
+      "name": "Process Automation"
+    },
+    {
+      "name": "Compliance Systems"
+    },
+    {
+      "name": "Business Architecture & Ops Models"
+    },
+    {
+      "name": "next-best-action design"
+    },
+    {
+      "name": "Priority Queuing"
+    },
+    {
+      "name": "Oracle RTD"
+    },
+    {
+      "name": "Pega GenAI"
+    },
+    {
+      "name": "Pega Platform"
+    },
+    {
+      "name": "IBM BPM"
+    },
+    {
+      "name": "Pega App Studio"
+    },
+    {
+      "name": "Visio, Confluence, Jira Align"
+    },
+    {
+      "name": "Executive stakeholder liaison"
+    },
+    {
+      "name": "Lean / XP, JAD"
+    },
+    {
+      "name": "Bids, RFX, MVPs"
+    },
+    {
+      "name": "Coaching & BA Maturity"
+    }
+  ],
+  "languages": [
+    {
+      "name": "English"
+    },
+    {
+      "name": "Telugu"
+    },
+    {
+      "name": "Hindi"
+    },
+    {
+      "name": "Kannada"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Certified Pega Business Architect"
+    },
+    {
+      "name": "TOGAF 9 Certified"
+    },
+    {
+      "name": "SAFe Scrum Master"
+    }
+  ],
+  "additional_sections": [
+    {
+      "heading": "AWARDS & RECOGNITION",
+      "text": "Rising Star Recognition\nKey Contributor"
+    }
+  ]
+}

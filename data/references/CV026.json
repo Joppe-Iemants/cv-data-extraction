@@ -1,0 +1,189 @@
+{
+  "personal_information": {
+    "full_name": "John King",
+    "emails": [
+      "kingjohn315@gmail.com"
+    ],
+    "phones": [
+      "+1 (719) 555-0180"
+    ],
+    "location": "Colorado Springs, Colorado"
+  },
+  "summary": "Supply chain leader with 23 years across strategy, operations planning, sourcing, budgeting, and program/project delivery. Served in the U.S. Army as a Logistics Officer. Proven people manager driving admin and org change, meeting targets, applying best practice, and improving processes. Skilled communicator with strong organization and presenting skills, focused on client experience. Background includes an MS in Supply Chain Management and a PMI-ACP, now working toward the PMP. Holds active Top Secret clearance.",
+  "work_experience": [
+    {
+      "employer": "U.S. Army, 10th Special Forces Group",
+      "role": "S4 Logistics Director/Lead Supply Chain Manager/Major (O-4)",
+      "dates": {
+        "start": "2020",
+        "end": "2023"
+      },
+      "location": "Fort Carson, CO",
+      "details": [
+        "Directed end-to-end logistics for a Special Operations unit of 2,260 across five elements, sustaining global readiness without supply-driven delays.",
+        "Ran day-to-day logistics with 7 program leads overseeing compliance (ITAR/EAR), sourcing and purchasing, logistics moves, vehicle upkeep, inventory control, and asset management. Oversaw reviews that assigned financial liability for more than $4.4M in lost or damaged government assets over two years.",
+        "Orchestrated multimode freight using internal, strategic, and 3PL providers across road, maritime, and air networks. Used TMS tools (GATES, ICODES) and an SAP-backed logistics ERP (GCSS).",
+        "Reviewed OKRs each day to steer operations, ensure regulatory compliance, and deliver reliable, agile logistics support. Drove operational excellence that cut overhead, raised customer satisfaction, and simplified workflows, boosting scores 17% and saving $1M+ per year.",
+        "Engaged partners and vendors every day to meet targets and uphold customer satisfaction. Worked with the comptroller on deploying the $13.0M annual budget, aligning funding sources, methods, and controls.",
+        "Served as a direct report to the Commander. Cultivated strong stakeholder ties to advance the Commander’s vision, rolling out systems that aligned teams to enterprise goals. Also led Commander-sponsored initiatives and handled leadership communications.",
+        "Lead Program Manager for a 20-program portfolio advancing strategic goals with a $2.0M annual budget.",
+        "Coached, evaluated, and guided 9 cross-functional PMs, with all advancing to higher-responsibility roles. Advised eight units that went on to win multiple enterprise and defense logistics awards in recent fiscal years.",
+        "Planned and ran joint training across six directorates and 444+ staff over 580 square miles, stress-testing systems in conflict scenarios and raising critical task proficiency by 27% with zero injuries or losses."
+      ]
+    },
+    {
+      "employer": "U.S. Army, Syracuse University",
+      "role": "Graduate Student/Major (O-4)",
+      "dates": {
+        "start": "2019",
+        "end": "2020"
+      },
+      "location": "Syracuse, NY"
+    },
+    {
+      "employer": "U.S. Army, University of Virginia",
+      "role": "Graduate Student/Captain (O-3)",
+      "dates": {
+        "start": "2017",
+        "end": "2019"
+      },
+      "location": "Charlottesville, VA"
+    },
+    {
+      "employer": "U.S. Army, 82nd Sustainment Brigade",
+      "role": "Company Staff/Logistics Manager/Captain (O-3)",
+      "dates": {
+        "start": "2015",
+        "end": "2017"
+      },
+      "location": "Fort Bragg, NC",
+      "details": [
+        "Directed a 172-person, five-specialty team delivering parachutes to six organizations serving 7,504+ personnel within the 82nd Airborne Division. Accountable for workforce discipline, well-being, morale, and professional growth.",
+        "Counseled senior leaders on $1.1M in parachute ops, innovation, safety, output, and use while sustaining 97% readiness, 79% safety, and delivering 20,042+ defect-free canopies.",
+        "Converted stakeholder feedback into programs that met goals, lifted morale, boosted output by 27%, and cut misconduct by 38% over 15 months.",
+        "Drove org redesign to minimize customer impact over six months and advised executives on disposing $667,236+ in excess assets, avoiding large recurring maintenance costs."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Syracuse University",
+      "qualification": "MS, Supply Chain Management",
+      "dates": {
+        "end": "2020"
+      }
+    },
+    {
+      "institution": "University of Virginia",
+      "qualification": "MA, English",
+      "dates": {
+        "end": "2019"
+      }
+    },
+    {
+      "institution": "Colorado State University",
+      "qualification": "BA, English",
+      "dates": {
+        "end": "2010"
+      }
+    }
+  ],
+  "skills": [
+    {
+      "name": "Program Delivery"
+    },
+    {
+      "name": "Operations Leadership"
+    },
+    {
+      "name": "Resilience Planning"
+    },
+    {
+      "name": "Strategic Roadmapping"
+    },
+    {
+      "name": "Vendor Negotiations"
+    },
+    {
+      "name": "budget control"
+    },
+    {
+      "name": "Risk Reduction"
+    },
+    {
+      "name": "Materials Planning"
+    },
+    {
+      "name": "Quality Assurance"
+    },
+    {
+      "name": "People Leadership"
+    },
+    {
+      "name": "Supply Chain Operations"
+    },
+    {
+      "name": "Cross-team Coordination"
+    },
+    {
+      "name": "Team Relationship Building"
+    },
+    {
+      "name": "Learning & Development"
+    },
+    {
+      "name": "Account Management & Client Relations"
+    },
+    {
+      "name": "Business Software"
+    },
+    {
+      "name": "Interpersonal & Communication"
+    },
+    {
+      "name": "Critical & Analytical Skills"
+    },
+    {
+      "name": "Problem Solving & Decisions"
+    },
+    {
+      "name": "Presentations & Proposals"
+    },
+    {
+      "name": "Google Workspace"
+    },
+    {
+      "name": "Confluence"
+    },
+    {
+      "name": "SAP ERP"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "LSSGB, Lean Six Sigma Green Belt",
+      "issuer": "ASQ"
+    },
+    {
+      "name": "PMI-ACP, Agile Certified Practitioner",
+      "issuer": "PMI"
+    },
+    {
+      "name": "PMP Candidate",
+      "issuer": "Project Management Institute"
+    },
+    {
+      "name": "Top Secret (SCI)"
+    }
+  ],
+  "additional_sections": [
+    {
+      "heading": "HONORS & RECOGNITIONS",
+      "text": "Bronze Star Medal\nMeritorious Service Medal\nArmy Commendation Medal\nArmy Achievement Medal"
+    },
+    {
+      "heading": "TECHNICAL STRENGTHS",
+      "text": "Google Workspace\nConfluence\nSAP ERP"
+    }
+  ]
+}

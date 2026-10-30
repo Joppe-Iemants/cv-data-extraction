@@ -1,0 +1,145 @@
+{
+  "personal_information": {
+    "full_name": "Flora Kennis",
+    "headline": "LEERKRACHT BIOLOGIE & FYSICA",
+    "emails": [
+      "flora.kennis@mail.com"
+    ],
+    "phones": [
+      "0412 346 678"
+    ],
+    "location": "Schoolstraat 67/C, 3001 Lessegem",
+    "details": [
+      "16-04-1998"
+    ]
+  },
+  "summary": "Gepassioneerde leerkracht biologie en fysica, klaar om wetenschap tot leven te brengen. Met mijn diepgaande kennis van beide vakgebieden, bied ik boeiende en interactieve lessen aan die de natuurlijke nieuwsgierigheid van leerlingen prikkelen. Ik wil studenten niet alleen feiten bijbrengen, maar hen ook inspireren om kritisch te denken en verbanden te leggen.",
+  "work_experience": [
+    {
+      "employer": "STEM Instituut Leuven",
+      "role": "Leerkracht fysica en biologie",
+      "dates": {
+        "start": "2020",
+        "end": "2025"
+      },
+      "details": [
+        "Voorbereiden en geven van lessen fysica en biologie, in overeenstemming met de leerplannen van de school.",
+        "Begeleiden van leerlingen bij experimenten in het labo en het beantwoorden van hun vragen.",
+        "Maken en evalueren van toetsen, taken en examens.",
+        "Bijhouden en registreren van de resultaten, afwezigheden en het invullen van rapporten.",
+        "Samenwerken met collega's, mentoren en ouders om de ontwikkeling van de leerlingen te bespreken."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Vrije universiteit Vlaanderen",
+      "qualification": "Educatieve master fysica en biologie",
+      "dates": {
+        "start": "2016",
+        "end": "2020"
+      }
+    }
+  ],
+  "skills": [
+    {
+      "name": "Communicatief"
+    },
+    {
+      "name": "Empathisch"
+    },
+    {
+      "name": "Kritisch denkvermogen"
+    },
+    {
+      "name": "Probleemoplossend"
+    },
+    {
+      "name": "Organisatorisch sterk"
+    },
+    {
+      "name": "Samenwerken"
+    },
+    {
+      "name": "Didactisch"
+    },
+    {
+      "name": "Verantwoordelijk"
+    },
+    {
+      "name": "Flexibel"
+    },
+    {
+      "name": "MS Office",
+      "proficiency": {
+        "type": "stars",
+        "value": 5.0
+      }
+    },
+    {
+      "name": "Smartschool",
+      "proficiency": {
+        "type": "stars",
+        "value": 5.0
+      }
+    },
+    {
+      "name": "Kahoot!",
+      "proficiency": {
+        "type": "stars",
+        "value": 4.0
+      }
+    },
+    {
+      "name": "PhET IS",
+      "proficiency": {
+        "type": "stars",
+        "value": 4.0
+      }
+    },
+    {
+      "name": "GeoGebra",
+      "proficiency": {
+        "type": "stars",
+        "value": 4.0
+      }
+    },
+    {
+      "name": "Internet",
+      "proficiency": {
+        "type": "stars",
+        "value": 4.0
+      }
+    }
+  ],
+  "languages": [
+    {
+      "name": "Nederlands",
+      "proficiency": {
+        "type": "stars",
+        "value": 5.0
+      }
+    },
+    {
+      "name": "Engels",
+      "proficiency": {
+        "type": "stars",
+        "value": 4.0
+      }
+    },
+    {
+      "name": "Frans",
+      "proficiency": {
+        "type": "stars",
+        "value": 3.0
+      }
+    },
+    {
+      "name": "Duits",
+      "proficiency": {
+        "type": "stars",
+        "value": 2.0
+      }
+    }
+  ]
+}

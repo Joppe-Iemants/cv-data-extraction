@@ -1,0 +1,141 @@
+{
+  "personal_information": {
+    "full_name": "Pixie Diegetaels",
+    "headline": "WEBDESIGNER",
+    "emails": [
+      "pixie.diegetaels@mail.be"
+    ],
+    "phones": [
+      "0412 345678"
+    ],
+    "location": "Webbekom",
+    "details": [
+      "12 juni 1992",
+      "Rijbewijs B"
+    ]
+  },
+  "work_experience": [
+    {
+      "employer": "ByteForge Digital",
+      "role": "Webdesigner",
+      "dates": {
+        "start": "11.2018",
+        "end": "heden"
+      },
+      "location": "Webbekom",
+      "details": [
+        "Ontwikkelen van nieuwe applicaties",
+        "Toepassen van illustratietechnieken en digitale beeldmanipulaties",
+        "Ontwikkelen van creatieve concepten (visueel, geluid, tekst...)",
+        "Selecteren en bewerken van beelden",
+        "Reclame en animatiefilmpjes maken"
+      ]
+    },
+    {
+      "employer": "@boutdigital",
+      "role": "Graphic designer",
+      "dates": {
+        "start": "02.2016",
+        "end": "10.2018"
+      },
+      "location": "Appels",
+      "details": [
+        "Grafisch uitwerken van folders, brochures en flyers volgens behoeften van klant",
+        "Belettering van bedrijfsvoertuigen en beurspanelen",
+        "Bedenken en uitwerken van volledige grafische concepten"
+      ]
+    },
+    {
+      "employer": "Supermarkt",
+      "role": "Marketing assistent",
+      "dates": {
+        "start": "09.2014",
+        "end": "12.2015"
+      },
+      "location": "Webbekom",
+      "details": [
+        "Nieuwsbrief en e-nieuwsbrief opstellen",
+        "Communicatie voorbereiden (verzamelen, evalueren, selecteren...)",
+        "Visuele en audiovisuele communicatie uitwerken",
+        "Inhoud website beheren"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Hogeschool",
+      "qualification": "Bachelor audiovisuele kunsten",
+      "dates": {
+        "start": "2011",
+        "end": "2014"
+      },
+      "details": [
+        "Antwerpen"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "InDesign"
+    },
+    {
+      "name": "Photoshop"
+    },
+    {
+      "name": "Illustrator"
+    },
+    {
+      "name": "HTML5"
+    },
+    {
+      "name": "CSS3"
+    },
+    {
+      "name": "WordPress"
+    },
+    {
+      "name": "Organisatorisch"
+    },
+    {
+      "name": "Samenwerken"
+    },
+    {
+      "name": "Flexibel"
+    },
+    {
+      "name": "Stressbestendig"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Nederlands",
+      "proficiency": {
+        "type": "dots",
+        "value": 5.0,
+        "maximum": 5.0
+      }
+    },
+    {
+      "name": "Engels",
+      "proficiency": {
+        "type": "dots",
+        "value": 4.0,
+        "maximum": 5.0
+      }
+    },
+    {
+      "name": "Frans",
+      "proficiency": {
+        "type": "dots",
+        "value": 2.0,
+        "maximum": 5.0
+      }
+    }
+  ],
+  "additional_sections": [
+    {
+      "heading": "Competenties",
+      "text": "Organisatorisch: efficiënt omgaan met tijd en middelen is mijn 2de natuur\nSamenwerken: overleggen en bemiddelen is helemaal mijn ding\nFlexibel: ik heb geen 9-tot-5-mentaliteit en inspringen voor collega’s doe ik met plezier\nStressbestendig: ik hou van een strakke deadline, dat geeft mij focus!"
+    }
+  ]
+}

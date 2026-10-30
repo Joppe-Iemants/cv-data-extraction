@@ -1,0 +1,138 @@
+{
+  "personal_information": {
+    "full_name": "Jane Doe",
+    "headline": "MASTER BELLFOUNDER / CAMPANOLOGIST / TOWER RESTORATION CONSULTANT",
+    "emails": [
+      "jane.doe@bellcraft.co.uk"
+    ],
+    "phones": [
+      "+44 20 7555 0166"
+    ],
+    "location": "London, UK"
+  },
+  "summary": "I did not choose bells. My grandfather cast them, my father turned them, and by the time I was seventeen I understood that I would spend my life listening for the note hidden inside raw bronze. What follows is the record of that listening.",
+  "work_experience": [
+    {
+      "employer": "Ashcombe Bell Foundry",
+      "role": "Senior Founder and Tuner",
+      "dates": {
+        "start": "2011",
+        "end": "to date"
+      },
+      "location": "London, UK"
+    },
+    {
+      "employer": "Meredith & Sons Bellfoundry",
+      "role": "Founder",
+      "dates": {
+        "start": "2003",
+        "end": "2011"
+      },
+      "location": "Loughborough, UK"
+    },
+    {
+      "employer": "Meredith & Sons Bellfoundry",
+      "role": "Apprentice Founder",
+      "dates": {
+        "start": "1999",
+        "end": "2003"
+      },
+      "location": "Loughborough, UK"
+    },
+    {
+      "employer": "My grandfather's small casting workshop (a village outside)",
+      "role": "Foundry Yard Assistant",
+      "dates": {
+        "start": "1991",
+        "end": "1995"
+      },
+      "location": "Loughborough",
+      "details": [
+        "A village outside Loughborough, weekends and school holidays, 1991–1999. My grandfather ran a much smaller casting operation than either employer listed above, largely repair and small agricultural bell work, and I spent most weekends from age eleven sweeping the yard, mixing loam for moulds, and eventually being allowed to help pour small bells under close supervision. This is not formal employment and predates my apprenticeship by nearly a decade, but it is, in every way that matters, where this career actually began."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Full 8-bell rehang and retune, a Grade I listed parish church",
+      "dates": {
+        "start": "2017"
+      },
+      "details": [
+        "Completed 2017, referenced above Tuning and Harmonic Analysis."
+      ]
+    },
+    {
+      "name": "Structural assessment and partial rehang, a cathedral ring",
+      "dates": {
+        "start": "2019",
+        "end": "2020"
+      },
+      "details": [
+        "Consulting role only, 2019 2020"
+      ]
+    },
+    {
+      "name": "Casting of 2 replacement bells for a municipal clock tower following wartime damage",
+      "dates": {
+        "start": "2013"
+      },
+      "details": [
+        "Completed as part of a heritage restoration grant project"
+      ]
+    },
+    {
+      "name": "Diocesan archive cataloguing project",
+      "dates": {
+        "start": "2015",
+        "end": "2016"
+      },
+      "details": [
+        "60+ bells surveyed across 14 individual towers"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Sheffield",
+      "qualification": "B.Eng. Materials Science",
+      "dates": {
+        "end": "1999"
+      }
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Advanced Foundry Practice",
+      "issuer": "City & Guilds",
+      "date": "2001"
+    },
+    {
+      "name": "Full liveryman",
+      "issuer": "Worshipful Company of Founders",
+      "date": "2014"
+    }
+  ],
+  "additional_sections": [
+    {
+      "heading": "AWARDS AND RECOGNITION",
+      "text": "Craft Excellence Commendation\nRed List of Endangered Crafts advocacy award"
+    },
+    {
+      "heading": "PUBLICATION AND PRESS",
+      "text": "Church Bells of the Eastern Counties\ntechnical notes column"
+    },
+    {
+      "heading": "FOUNDRY AND RESTORATION WORK (BY DISCIPLINE)",
+      "text": "Bronze Casting and Metallurgy\nCast and turned 40+ church and civic bells ranging from 2 cwt to 34 cwt, 2003-present, across three employers below.\nDeveloped a revised copper-tin ratio for the foundry's small-bell range, reducing post-cast tuning corrections by an estimated one-third.\nPersonally supervised 60+ individual pours over the course of my career, including 4 large civic bells cast for municipal clock towers.\nTuning and Harmonic Analysis\nReturned the 8-bell ring at a Grade I listed parish church (nominal note sequence restored to concert pitch after 140 years of drift).\nTrained 3 apprentice tuners in five-tone harmonic analysis (hum, prime, tierce, quint, nominal).\nTower and Frame Engineering\nDiagnosed and corrected a persistent \"wolf\" tone in a 6-bell ring that three previous tuning attempts by other foundries had failed to resolve.\nAssessed and specified replacement headstocks and bearings for 12 towers.\nConsulted on the structural loading assessment for a cathedral ring prior to a full rehang.\nAdvised a diocesan surveyor's office on 5 separate tower stability assessments following unrelated roof restoration work that had raised concerns about bell-frame loading.\nHistorical and Archival Research\nCatalogued foundry marks and inscriptions on 60+ historic bells for a regional diocesan archive.\nContributing researcher, Church Bells of the Eastern Counties (Privately published survey, 2015).\nIdentified and correctly attributed a previously unmarked 17th-Century bell to a historic Whitechapel-area foundry lineage, based on alloy composition and inscription style, a finding accepted by the diocesan."
+    },
+    {
+      "heading": "AFFILIATIONS",
+      "text": "Central Council of Church Bell Ringers, Technical Advisory Panel, 2016 to present; Full liveryman, Worshipful Company of Founders, admitted 2014."
+    },
+    {
+      "heading": "REFERENCES",
+      "text": "Available on request through Ashcombe Bell Foundry’s office. Several referees are diocesan surveyors bound by their own institutional contact protocols."
+    }
+  ]
+}

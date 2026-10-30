@@ -1,0 +1,178 @@
+{
+  "personal_information": {
+    "full_name": "JAN KÜSTER",
+    "headline": "CONSULTANT/ SOFTWARE ENG.",
+    "emails": [
+      "info@jankuester.com"
+    ],
+    "phones": [
+      "+49 176 *** *** **"
+    ],
+    "location": "Bremen, Germany",
+    "weblinks": [
+      {
+        "url": "www.jankuester.com"
+      },
+      {
+        "url": "github.com/jankapunkt",
+        "platform": "GitHub"
+      },
+      {
+        "url": "@Kuester_Jan",
+        "platform": "Twitter"
+      }
+    ]
+  },
+  "summary": "I am a digital media graduate with working experience in research projects as well as in the private sector. And I am always looking for new exciting and interdisciplinary projects worldwide.",
+  "work_experience": [
+    {
+      "employer": "University of Bremen",
+      "role": "Software Engineer",
+      "dates": {
+        "start": "10/2018"
+      }
+    },
+    {
+      "employer": "University of Bremen",
+      "role": "Software Engineer",
+      "dates": {
+        "start": "9/2016"
+      }
+    },
+    {
+      "employer": "We4IT",
+      "role": "IT Consultant",
+      "dates": {
+        "start": "11/2014"
+      }
+    },
+    {
+      "employer": "University of Bremen",
+      "role": "Scientific Employee",
+      "dates": {
+        "start": "1/2012"
+      }
+    },
+    {
+      "employer": "University of Bremen",
+      "role": "Student Assistant",
+      "dates": {
+        "start": "6/2010"
+      }
+    }
+  ],
+  "projects": [
+    {
+      "name": "Master Project - PrIMA",
+      "dates": {
+        "start": "11/2012"
+      }
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Bremen",
+      "qualification": "M.Sc. Digital Media",
+      "dates": {
+        "end": "7/2015"
+      }
+    },
+    {
+      "qualification": "Semester Abroad",
+      "dates": {
+        "start": "5/2009"
+      }
+    },
+    {
+      "qualification": "Bachelor Studies",
+      "dates": {
+        "start": "10/2007"
+      }
+    }
+  ],
+  "skills": [
+    {
+      "name": "Research"
+    },
+    {
+      "name": "Consulting"
+    },
+    {
+      "name": "Projects"
+    },
+    {
+      "name": "Design"
+    },
+    {
+      "name": "Software Engineering"
+    },
+    {
+      "name": "Javascript"
+    },
+    {
+      "name": "Blaze"
+    },
+    {
+      "name": "Metor"
+    },
+    {
+      "name": "Bootstrap"
+    },
+    {
+      "name": "MongoDB"
+    },
+    {
+      "name": "HTML/CSS"
+    },
+    {
+      "name": "LaTex"
+    },
+    {
+      "name": "Webstorm"
+    },
+    {
+      "name": "Git"
+    },
+    {
+      "name": "Sourcetree"
+    },
+    {
+      "name": "Linux"
+    },
+    {
+      "name": "Office"
+    }
+  ],
+  "languages": [
+    {
+      "name": "German",
+      "proficiency": {
+        "text": "native"
+      }
+    },
+    {
+      "name": "English",
+      "proficiency": {
+        "text": "c1"
+      }
+    }
+  ],
+  "training": [
+    {
+      "name": "PM Training",
+      "dates": {
+        "start": "6/2011"
+      }
+    }
+  ],
+  "additional_sections": [
+    {
+      "heading": "EXPERIENCE AND EDUCATION",
+      "text": "10/2020 Meteor Impact Conference\n5/2016 Startup Weekend\n9/2013 DELFI Conference"
+    },
+    {
+      "heading": "ACTVITIES",
+      "text": "7 years of participation at Global Game Jam\nIn my freetime I read lots of news and help others on Stackoverflow. Via bodyweight training I keep my body and mind in balance.\nStackoverflow\nNews\nFitness\nGame Dev"
+    }
+  ]
+}

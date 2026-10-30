@@ -1,0 +1,142 @@
+{
+  "personal_information": {
+    "full_name": "Penny Balans",
+    "headline": "BOEKHOUDER",
+    "emails": [
+      "Penny.Balans@mail.be"
+    ],
+    "phones": [
+      "0412 34 56 78"
+    ],
+    "location": "Debetlaan 5, 2530 Boechout",
+    "details": [
+      "01.09.1985",
+      "Rijbewijs B",
+      "Eigen wagen"
+    ]
+  },
+  "summary": "Ik ben een gediplomeerde boekhoudster met meer dan 15 jaar ervaring. Ik werk graag systematisch en heb een scherp oog voor cijfers en structuur. Nauwkeurigheid en efficiëntie zijn voor mij vanzelfsprekend, net als voortdurend bijleren. Ik zorg ervoor dat de balans altijd klopt.",
+  "work_experience": [
+    {
+      "employer": "Eekhout & Partners",
+      "role": "Boekhouder",
+      "dates": {
+        "start": "12.2019",
+        "end": "heden"
+      },
+      "location": "Boechout",
+      "details": [
+        "Jaarrekeningen opstellen en controleren",
+        "Verzorgen van fiscale aangiften",
+        "Financiële audits",
+        "Strategisch financieel advies opstellen voor klanten"
+      ]
+    },
+    {
+      "employer": "Creditum Boekhouding",
+      "role": "Boekhouder",
+      "dates": {
+        "start": "05.2010",
+        "end": "11.2019"
+      },
+      "location": "Boechout",
+      "details": [
+        "BTW-aangifte",
+        "Klantendossiers beheren",
+        "Verwerken van inkomende + uitgaande facturen en bankafschriften",
+        "Opmaken van jaarrekening"
+      ]
+    },
+    {
+      "employer": "Kantoor Exacta",
+      "role": "Medewerker boekhouding",
+      "dates": {
+        "start": "10.2007",
+        "end": "04.2010"
+      },
+      "location": "Boechout",
+      "details": [
+        "Boeken van aan- en verkoopfacturen",
+        "Voorbereiden van maand- en jaarafsluitingen",
+        "Klanten- en leveranciersopvolging",
+        "Debiteuren- en crediteurenbeheer"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Thomas More, Mechelen",
+      "qualification": "Bachelor boekhouding & fiscaliteit",
+      "dates": {
+        "end": "2006"
+      }
+    }
+  ],
+  "skills": [
+    {
+      "name": "Navision",
+      "proficiency": {
+        "type": "bars",
+        "value": 5.0,
+        "maximum": 5.0
+      }
+    },
+    {
+      "name": "ProAcc",
+      "proficiency": {
+        "type": "bars",
+        "value": 4.0,
+        "maximum": 5.0
+      }
+    },
+    {
+      "name": "MS Office",
+      "proficiency": {
+        "type": "bars",
+        "value": 5.0,
+        "maximum": 5.0
+      }
+    }
+  ],
+  "languages": [
+    {
+      "name": "Nederlands",
+      "proficiency": {
+        "type": "bars",
+        "value": 5.0,
+        "maximum": 5.0
+      }
+    },
+    {
+      "name": "Frans",
+      "proficiency": {
+        "type": "bars",
+        "value": 4.0,
+        "maximum": 5.0
+      }
+    },
+    {
+      "name": "Engels",
+      "proficiency": {
+        "type": "bars",
+        "value": 3.0,
+        "maximum": 5.0
+      }
+    }
+  ],
+  "training": [
+    {
+      "name": "Kostprijsberekening",
+      "provider": "Vlerick Business School, Leuven",
+      "dates": {
+        "end": "2007"
+      }
+    }
+  ],
+  "additional_sections": [
+    {
+      "heading": "Soft skills",
+      "text": "Ik ben erg nauwkeurig en respecteer deadlines en afspraken.\nDoor mijn verantwoordelijkheidsgevoel volg ik toegewezen dossiers nauwgezet op.\nMet mijn analytische geest kan ik snel inefficiënties identificeren om werkstromen te optimaliseren."
+    }
+  ]
+}
