@@ -1,0 +1,310 @@
+{
+  "personal_information": {
+    "source_pages": [
+      1
+    ],
+    "full_name": "ACHRAF NAJMI",
+    "headline": null,
+    "emails": [
+      "najmi.achraf@gmail.com"
+    ],
+    "phones": [
+      "+212 6 22 90 22 21"
+    ],
+    "location": "Casablanca, Maroc",
+    "weblinks": [
+      {
+        "url": "github.com/NajmiAchraf",
+        "platform": "github.com"
+      },
+      {
+        "url": "stackoverflow.com/users/12854948",
+        "platform": "stackoverflow.com"
+      },
+      {
+        "url": "linkedin.com/in/najmiachraf",
+        "platform": "linkedin.com"
+      }
+    ],
+    "details": [
+      "ÉLECTRO INFO PHYSICIEN",
+      "F"
+    ]
+  },
+  "summary": null,
+  "work_experience": [],
+  "projects": [
+    {
+      "source_pages": [
+        1
+      ],
+      "name": "1337_Piscine",
+      "organization": null,
+      "client": null,
+      "role": null,
+      "dates": {
+        "start": "7/2021",
+        "end": null,
+        "duration": null
+      },
+      "details": [
+        "Un mois intensif dans UM6P",
+        "Piscine d’école 1337 42 network"
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "name": "Hydrogeologie",
+      "organization": null,
+      "client": null,
+      "role": null,
+      "dates": {
+        "start": "2/2021",
+        "end": null,
+        "duration": null
+      },
+      "details": [
+        "Début du Projet Hydrogéologie",
+        "• Hydrologie des eaux souterraines",
+        "• Expéditeur CSV de Google messagerie"
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "name": "Gmail",
+      "organization": null,
+      "client": null,
+      "role": null,
+      "dates": {
+        "start": "9/2020",
+        "end": null,
+        "duration": null
+      },
+      "details": [
+        "Début du Projet Gmail"
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "name": "MathPy",
+      "organization": null,
+      "client": null,
+      "role": null,
+      "dates": {
+        "start": "12/2019",
+        "end": null,
+        "duration": null
+      },
+      "details": [
+        "Mis le projet MathPy dans GitHub",
+        "• Calculatrice Scientifique Moderne",
+        "• Projet MathPy est constamment mis à jour"
+      ],
+      "skills": []
+    }
+  ],
+  "education": [
+    {
+      "source_pages": [
+        1
+      ],
+      "institution": "Université Hassan II de Casablanca : Faculté des Sciences Ben M’sik",
+      "qualification": "Licence d’Études Fondamentales (LEF) - Filière : Science Matière Physique - Parcours : Électronique",
+      "dates": {
+        "start": "6/2019",
+        "end": null,
+        "duration": null
+      },
+      "details": []
+    }
+  ],
+  "skills": [
+    {
+      "source_pages": [],
+      "name": "Développement",
+      "proficiency": null,
+      "details": [
+        "La plus grande partie de ma contribution à mon travail se situe dans le domaine du développement et maintenance informatique."
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "Maintenance",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Python 3",
+      "proficiency": null,
+      "details": [
+        "Actuellement, je développe des applications en temps réel avec Python, et crée une interface graphique avec tkinter, et extrait du script ‘file.py‘ un fichier exécutable par pyinstaller en utilisant auto py to exe."
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "C",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "GUI",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "matplotlib",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "sympy",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "numpy",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "pandas",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "tkinter",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "pyinstaller",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "LATEX",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Data Science",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Data Analyse",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Bibliothèques",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Syntaxe",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Intégré",
+      "proficiency": null,
+      "details": []
+    }
+  ],
+  "languages": [
+    {
+      "source_pages": [],
+      "name": "Français",
+      "proficiency": {
+        "text": "B2",
+        "type": "numeric",
+        "value": 2.0,
+        "maximum": 10.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Anglais",
+      "proficiency": {
+        "text": "A2",
+        "type": "numeric",
+        "value": 2.0,
+        "maximum": 10.0
+      },
+      "details": []
+    }
+  ],
+  "certifications": [
+    {
+      "source_pages": [],
+      "name": "Developer Certification",
+      "issuer": "freecodecamp.org",
+      "date": "certification/1337_Piscine",
+      "details": [
+        "github.com/NajmiAchraf/1337_Piscine"
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "Scientific Computing with Python",
+      "issuer": "freecodecamp.org",
+      "date": "certification/najmiachraf/scientific-computing-with-python-v7",
+      "details": [
+        "github.com/NajmiAchraf/scientific-computing-with-python-v7"
+      ]
+    }
+  ],
+  "training": [],
+  "additional_sections": [
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "Je suis diplômé en Physique, Électronique avec une expérience de travail dans des projets de recherche. comme dernier diplôme de Physique."
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "Je suis toujours à la recherche de nouveaux projets interdisciplinaires passionnants liés à la physique."
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "SOFTWARE PROGRAMS\n      PyCharm  MD     CLion   Terminal  Proteus  £             ¥ github.com/NajmiAchraf\n                                                                                /Hydrogeologie (PROJET PRIVÉ)\n\n       B   ð     B   \\\n      û     Ï\n\n                                                                     9/2020 Début du Projet Gmail\n                                                                                                                          • Expéditeur CSV de Google messagerie\n OS                                 J’utilise régulièrement pour mes projets de        ¥ github.com/NajmiAchraf/Gmail\n                          développement PyCharm et CLion comme\n ü  Windows                                IDE, et j’utilise pour la capture schématique et\n                                              la simulation Proteus CAD.\n   macOS"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "DEVELOPPEMENT INFORMATIQUE                                         4/2020 Mis le projet MathPy dans GitHub\n                                            ¥ github.com/NajmiAchraf/MathPy\n *  Python 3  ]  C                                                        (PROJET PRIVÉ)\n                         Langage  Front End Back End                               Projet MathPy est constamment mis à jour\n\n  Î Syntaxe                       * & ] & LATEX\n d Bibliothèques                       â  intégré\n Ñ Data Science                           B  pyinstaller              12/2019 Début du Projet MathPy\n                                                                                                                          • Calculatrice Scientifique Moderne\n           GUI                      matplotlib\n ¡ Data Analyse                  & sympy\n\n                            ;  tkinter\n Actuellement, je développe des applications en temps                              9/2019 Débuter à apprendre Python\n                                              numpy\n réel avec Python, et crée une interface graphique avec\n tkinter, et extrait du script ‘file.py‘ un fichier exécutable   L  pandas\n       par pyinstaller en utilisant auto py to exe.                                                                          6/2019 Licence d’Études Fondamentales\n                                                                                            (LEF)"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "ACTIVITES                                                                                                         • Filière : Science Matière Physique\n                                                Parmis les dominantes        Tutoriels\n                                                           activités que je pratique\n                                                       est de naviguer sur         8\n                                                         internet à la recherche      Z Actualités Tech      repos\n                                 publique       de nouvelles sur le\n       § Jeux Cérébrale               monde d’informatique\n                                                       et entraîné sur tous les\n                               dans mon\n        Î Sport                                         tutoriels qui\n                         Compte GitHub                                                             m’intéresse.         2019"
+    }
+  ]
+}

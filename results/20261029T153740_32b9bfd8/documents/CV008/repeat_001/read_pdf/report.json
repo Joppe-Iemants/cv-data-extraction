@@ -1,0 +1,16 @@
+{
+  "name": "read_pdf",
+  "method": "pdf_text",
+  "execution_status": "completed",
+  "outcome": "success",
+  "metrics": {
+    "duration_seconds": 0.036639000001741806,
+    "memory": {
+      "enabled": false
+    },
+    "page_count": 4,
+    "character_count": 12189,
+    "pages_without_text": []
+  },
+  "error": null
+}

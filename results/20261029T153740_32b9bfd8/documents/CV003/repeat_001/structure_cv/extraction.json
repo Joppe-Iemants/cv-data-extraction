@@ -1,0 +1,446 @@
+{
+  "personal_information": {
+    "source_pages": [
+      1
+    ],
+    "full_name": "JAN KÜSTER M.SC.",
+    "headline": "RESEARCH SOFTWARE ENGINEER",
+    "emails": [
+      "info@jankuester.com"
+    ],
+    "phones": [
+      "+49 170 123 456 789"
+    ],
+    "location": "Bremen, Germany",
+    "weblinks": [
+      {
+        "url": "https://jankuester.com",
+        "platform": "website"
+      },
+      {
+        "url": "https://github.com/jankapunkt",
+        "platform": "github"
+      }
+    ],
+    "details": [
+      "0009-0008-8088-9837"
+    ]
+  },
+  "summary": "I am a Digital Media graduate with 10+ years of experience as research software engineer. My main focus is on production-grade web applications, involving real world users for long-term evaluations in the ﬁeld. For this I leverage primarily web standards, as well as available modern web-technologies.",
+  "work_experience": [
+    {
+      "source_pages": [
+        2
+      ],
+      "employer": "ZeMKI, University of Bremen",
+      "role": "Research Software Engineer",
+      "client": null,
+      "dates": {
+        "start": "2023",
+        "end": "Today",
+        "duration": null
+      },
+      "location": "Bremen, Germany",
+      "details": [
+        "Goal: Develop a free and alternative to commercial QDA software",
+        "Key responsibilities: System architecture, software design, (web-) client architecture and dependencies management.",
+        "Major activity: Frontend implementation of rich interactive UI for qualitative data analysis using Vue3, Vite and TailwindCss.",
+        "Secondary activities: Managing Github repositories, documentation, CI, code quality assurance."
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        2
+      ],
+      "employer": "University of Bremen",
+      "role": "Research Software Engineer",
+      "client": null,
+      "dates": {
+        "start": "2023",
+        "end": "2025",
+        "duration": null
+      },
+      "location": "Bremen, Germany",
+      "details": [
+        "Goal: Implement AI-based services as key tools in formative and summative assessment activities at the University of Bremen",
+        "Key responsibilities: System architecture, software design, infrastructure, legal implications, GDPR, ethical considerations, requirements engineering",
+        "Major activities: Requirements engineering and consulting",
+        "Secondary activities: AI tool development using Python and respective libraries"
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        2
+      ],
+      "employer": "University of Bremen",
+      "role": "Research Software Engineer",
+      "client": null,
+      "dates": {
+        "start": "2019",
+        "end": "2023",
+        "duration": null
+      },
+      "location": "Bremen, Germany",
+      "details": [
+        "Goals: Develop a multi-application system to allow diagnostics and learning of adults with low literacy",
+        "Key responsibilities: System architecture, software design, infrastructure, legal implications, GDPR, ethical considerations, outsourcing development, requirements engineering",
+        "Major activities: web-app development, mobile app development (react native + expo)",
+        "Secondary activities: GitHub repository management and maintenance",
+        "Publications: Meyer, I. A. M., Wolf, K. D., Windler, M., & Küster, J. (2024). Digitale berufsfeldbezogene Förderung von Literalität und Numeralität in der arbeitsorientierten Grundbildung mit der lea.App. In K.-H. Gerholz, S. Annen, R. Braches-Chyrek, J. Hufnagl, & A. Wagner (Eds.), bwp@ Spezial HT2023 Fachkräftesicherung – Zukunftsweisende Qualiﬁerziung, gesellschaftliche Teilhabe und Integration durch beruﬂiche Bildung."
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        2
+      ],
+      "employer": "University of Bremen",
+      "role": "Research Software Engineer",
+      "client": null,
+      "dates": {
+        "start": "2016",
+        "end": "2019",
+        "duration": null
+      },
+      "location": "Bremen, Germany",
+      "details": [
+        "Goals: Develop and evaluate a interactionistic classroom management system for German nursing education using MeteorJS.",
+        "Key responsibilities: System architecture, software Design, (web-) client architecture and dependencies management.",
+        "Major activity: Fullstack implementation of entire software",
+        "Secondary activities: Managing Github repositories, documentation, CI, code quality assurance.",
+        "Publications: Darmann-Finck, I., Wolf, K. D., Schepers, C., & Küster, J. (2021). Digital unterstütztes Lernen in der Pﬂegeausbildung: Die Care Reﬂection Online (CARO) – Lernumgebung. MedienPädagogik: Zeitschrift Für Theorie Und Praxis Der Medienbildung, 317–345. https://doi.org/10.21240/mpaed/jb16/2021.04.30.X",
+        "Publications: Schepers, C., & Küster, J. (2020). Sind Pﬂegeschulen bereit für den Einsatz digitaler Lehr-Lernformate? Berufsbildung, 181. https://www.zeitschrift-berufsbildung.de/archiv/74-care-work-4-0",
+        "Project blog: https://blogs.uni-bremen.de/caroprojekt/ (German)"
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        2
+      ],
+      "employer": "University of Bremen, part time",
+      "role": "Research Software Engineer",
+      "client": null,
+      "dates": {
+        "start": "2012",
+        "end": "2014",
+        "duration": null
+      },
+      "location": "Bremen, Germany",
+      "details": [
+        "Invented a ﬂexible assessment framework, targeting industrial trainees",
+        "Supervised software development lifecycle, Recruited team members",
+        "Publications: Seifried,J., Rausch,A., Kögler,K., Brandt,S., Eigenmann,R., Schley,T., Siegfried,C., Egloffstein, M., Küster,J., Wuttke,E., Sembill,D., Martens,T., Wolf,K.D. (2016). Problemlösekompetenz angehender Industriekauﬂeute – Konzeption des Messinstruments und ausgewählte empirische Befunde (DomPL-IK). In K. Beck/M. Landenberger/F. Oser (Hrsg.): Technologiebasierte Kompetenzmessung in der beruﬂichen Bildung – Ergebnisse aus der BMBF-Förderinitiative ASCOT. Bielefeld:WBV, 119-138"
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        2
+      ],
+      "employer": "Getoq Consulting",
+      "role": "Project Management Simulation Training",
+      "client": null,
+      "dates": {
+        "start": "2011 / 11",
+        "end": null,
+        "duration": null
+      },
+      "location": "Bremen, Germany",
+      "details": [
+        "Performed a two-day project simulation from management perspective",
+        "Topics included customer contracts, change management, controlling, operational tasks"
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        2
+      ],
+      "employer": "University of Bremen",
+      "role": "Student Assistant / Programmer",
+      "client": null,
+      "dates": {
+        "start": "2010",
+        "end": "2011",
+        "duration": null
+      },
+      "location": "Bremen, Germany",
+      "details": [
+        "Realized an online diagnosis platform for workforce literacy development (Flex)",
+        "Modeled software design, implemented various prototypes, conducted usability tests",
+        "Publications: Koppel, I., Küster, J., & Wolf, K. D. (2013). Usability testing with female functional illiterates, Usability-testing mit funktionalen analphabetinnen. Lecture Notes in Informatics (LNI), DEFLI Proceedings - Series of the Gesellschaft Für Informatik (GI), P-218, 293–296."
+      ],
+      "skills": []
+    }
+  ],
+  "projects": [
+    {
+      "source_pages": [
+        2
+      ],
+      "name": "OpenQDA",
+      "organization": "ZeMKI, University of Bremen",
+      "client": null,
+      "role": null,
+      "dates": {
+        "start": "2023",
+        "end": "Today",
+        "duration": null
+      },
+      "details": [
+        "A Free Sustainable Qualitative Research Software"
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        2
+      ],
+      "name": "lea.online",
+      "organization": "University of Bremen",
+      "client": null,
+      "role": null,
+      "dates": {
+        "start": "2019",
+        "end": "2023",
+        "duration": null
+      },
+      "details": [
+        "Developed a multi-application system to allow diagnostics and learning of adults with low literacy"
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        2
+      ],
+      "name": "CARO - Care Reﬂexion Online",
+      "organization": "University of Bremen",
+      "client": null,
+      "role": null,
+      "dates": {
+        "start": "2016",
+        "end": "2019",
+        "duration": null
+      },
+      "details": [
+        "Develop and evaluate a interactionistic classroom management system for German nursing education using MeteorJS."
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        2
+      ],
+      "name": "DomPL-IK",
+      "organization": "University of Bremen",
+      "client": null,
+      "role": null,
+      "dates": {
+        "start": "2012",
+        "end": "2014",
+        "duration": null
+      },
+      "details": [
+        "Invented a ﬂexible assessment framework, targeting industrial trainees"
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        2
+      ],
+      "name": "Project Management Simulation Training",
+      "organization": "Getoq Consulting",
+      "client": null,
+      "role": null,
+      "dates": {
+        "start": "2011 / 11",
+        "end": null,
+        "duration": null
+      },
+      "details": [
+        "Performed a two-day project simulation from management perspective"
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        2
+      ],
+      "name": "Student Assistant / Programmer",
+      "organization": "University of Bremen",
+      "client": null,
+      "role": null,
+      "dates": {
+        "start": "2010",
+        "end": "2011",
+        "duration": null
+      },
+      "details": [
+        "Realized an online diagnosis platform for workforce literacy development (Flex)"
+      ],
+      "skills": []
+    }
+  ],
+  "education": [
+    {
+      "source_pages": [
+        2
+      ],
+      "institution": "University of Bremen",
+      "qualification": "Graduated as M.Sc. Digital Media",
+      "dates": {
+        "start": "2015 / 07",
+        "end": null,
+        "duration": null
+      },
+      "details": [
+        "Master Thesis: Semi Automated Scoring in Technology Based Assessment",
+        "Developed and evaluated an algorithm for semi automated scoring of spreadsheet data"
+      ]
+    },
+    {
+      "source_pages": [
+        2
+      ],
+      "institution": "University of Bremen",
+      "qualification": "Master Project - PrIMA",
+      "dates": {
+        "start": "2012",
+        "end": "2013",
+        "duration": null
+      },
+      "details": [
+        "Co-Invented a touch table application for medical support, co-developed software (Java)",
+        "Formed a scrum team, maintained project dev server (Debian), surveyed target audience"
+      ]
+    },
+    {
+      "source_pages": [
+        2
+      ],
+      "institution": "University of Bremen",
+      "qualification": "Master Studies Digital Media",
+      "dates": {
+        "start": "2012",
+        "end": "2015",
+        "duration": null
+      },
+      "details": [
+        "Inter-cultural classes in English, covering special topics in computer science and design",
+        "Professionalized in research methods, software development and e-assessment"
+      ]
+    },
+    {
+      "source_pages": [
+        2
+      ],
+      "institution": "University of Melbourne",
+      "qualification": "Semester Abroad",
+      "dates": {
+        "start": "2009",
+        "end": "2010",
+        "duration": null
+      },
+      "details": [
+        "Mastered six months of study and trans-cultural experience in Melbourne, Australia",
+        "Finished machine programming, information visualization, professional essay writing"
+      ]
+    },
+    {
+      "source_pages": [
+        2
+      ],
+      "institution": "University of Bremen",
+      "qualification": "Bachelor Studies Digital Media",
+      "dates": {
+        "start": "2007",
+        "end": "2011",
+        "duration": null
+      },
+      "details": [
+        "Foundations of Digial Media, Computer Science and Software Engineering"
+      ]
+    }
+  ],
+  "skills": [],
+  "languages": [],
+  "certifications": [],
+  "training": [],
+  "additional_sections": [
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "PUBLICATIONS\n\nBelli, A., Küster, J., Matayeva, L., Hohmann, F., Sinner, P., Krüger, G., Wolf, K., & Hepp, A. (2025). OpenQDA (1.0.0). Zenodo.\nhttps://doi.org/10.5281/zenodo.14772936\n\nKüster, J. (2024, March 6). Software Applications for Individuals with Low Lit-\neracy - Key Insights and Takeaways in Research Software Engineering from an\nInterdisciplinary Project. 4th conference for Research Software Engineering in\nGermany (deRSE24), Julius-Maximilians-Universität Würzburg. Zenodo.\nhttps://doi.org/10.5281/zenodo.10810074\n\nKüster, J., Meyer,  I. A. M., Windler, M., Karsten D. Wolf, & Koppel,  I. (2023).\nleaonline/leaonline-app: 1.1.0 (v1.1.0). Zenodo.\nhttps://doi.org/10.5281/zenodo.10816689"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "RELEVANT REPOSITORIES\n\nOpenQDA - https://github.com/openqda\n\nlea.Online - https://github.com/leaonline\n\nNode OAuth - https://github.com/node-oauth"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "RESEARCH PROJECTS\n\nOpenQDA - A Free Sustainable Qualitative Research Software\n\nZeMKI, University of Bremen | 2023 - Today\n\nGoal: Develop a free and alternative to commercial QDA software\n\nKey responsibilities: System architecture, software design, (web-) client\narchitecture and dependencies management.\n\nMajor activity: Frontend implementation of rich interactive UI for qualitative\ndata analysis using Vue3, Vite and TailwindCss.\n\nSecondary activities: Managing Github repositories, documentation, CI, code\nquality assurance.\n\nAvailable via https://openqda.org"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "IMPACT\n\nUniversity of Bremen | 2023 - 2025\n\nGoal: Implement AI-based services as key tools in formative and summative\nassessment activities at the University of Bremen\n\nKey responsibilities: System architecture, software design, infrastructure, legal\nimplications, GDPR, ethical considerations, requirements engineering\n\nMajor activities: Requirements engineering and consulting\n\nSecondary activities: AI tool development using Python and respective\nlibraries"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "lea.online\n\nUniversity of Bremen | 2019 - 2023\n\nGoals: Develop a multi-application system to allow diagnostics and learning of\nadults with low literacy\n\nKey responsibilities: System architecture, software design, infrastructure, legal\nimplications, GDPR, ethical considerations, outsourcing development,\nrequirements engineering\n\nMajor activities: web-app development, mobile app development (react native\n+ expo)\n\nSecondary activities: GitHub repository management and maintenance\n\nPublications:\n\nMeyer, I. A. M., Wolf, K. D., Windler, M., & Küster, J. (2024). Digitale\nberufsfeldbezogene Förderung von Literalität und Numeralität in der\narbeitsorientierten Grundbildung mit der lea.App. In K.-H. Gerholz, S. Annen, R.\nBraches-Chyrek, J. Hufnagl, & A. Wagner (Eds.), bwp@ Spezial HT2023\nFachkräftesicherung – Zukunftsweisende Qualiﬁerziung, gesellschaftliche\nTeilhabe und Integration durch beruﬂiche Bildung.\n\nhttps://www.bwpat.de/ausgabe/spezial-ht2023/meyer-etal"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "CARO - Care Reﬂexion Online\n\nUniversity of Bremen | 2016 - 2019\n\nGoals: Develop and evaluate a interactionistic classroom management\nsystem for German nursing education using MeteorJS.\n\nKey responsibilities: System architecture, software Design, (web-) client\narchitecture and dependencies management.\n\nMajor activity: Fullstack implementation of entire software\n\nSecondary activities: Managing Github repositories, documentation, CI, code\nquality assurance.\n\nPublications:\n\nDarmann-Finck, I., Wolf, K. D., Schepers, C., & Küster, J. (2021). Digital\nunterstütztes Lernen in der Pﬂegeausbildung: Die Care Reﬂection Online\n(CARO) – Lernumgebung. MedienPädagogik: Zeitschrift Für Theorie Und\nPraxis Der Medienbildung, 317–345.\n\nhttps://doi.org/10.21240/mpaed/jb16/2021.04.30.X\n\nSchepers, C., & Küster, J. (2020). Sind Pﬂegeschulen bereit für den Einsatz\ndigitaler Lehr-Lernformate? Berufsbildung, 181.\n\nhttps://www.zeitschrift-berufsbildung.de/archiv/74-care-work-4-0\n\nProject blog: https://blogs.uni-bremen.de/caroprojekt/ (German)"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "DomPL-IK\n\nUniversity of Bremen, part time | 2012 - 2014\n\nInvented a ﬂexible assessment framework, targeting industrial trainees\n\nSupervised software development lifecycle, Recruited team members\n\nPublications:\n\nSeifried,J., Rausch,A., Kögler,K., Brandt,S., Eigenmann,R., Schley,T., Siegfried,C.,\nEgloffstein, M., Küster,J., Wuttke,E., Sembill,D., Martens,T., Wolf,K.D. (2016).\nProblemlösekompetenz angehender Industriekauﬂeute – Konzeption des\nMessinstruments und ausgewählte empirische Befunde (DomPL-IK). In K.\nBeck/M. Landenberger/F. Oser (Hrsg.): Technologiebasierte\nKompetenzmessung in der beruﬂichen Bildung – Ergebnisse aus der\nBMBF-Förderinitiative ASCOT. Bielefeld:WBV, 119-138"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "Project Management Simulation Training\n\nGetoq Consulting | 2011 / 11\n\nPerformed a two-day project simulation from management perspective\n\nTopics included customer contracts, change management, controlling,\noperational tasks"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "Student Assistant / Programmer\n\nUniversity of Bremen | 2010 - 2011\n\nRealized an online diagnosis platform for workforce literacy development\n(Flex)\n\nModeled software design, implemented various prototypes, conducted\nusability tests\n\nPublications:\n\nKoppel, I., Küster, J., & Wolf, K. D. (2013). Usability testing with female\nfunctional illiterates,Usability-testing mit funktionalen analphabetinnen.\nLecture Notes in Informatics (LNI), DEFLI Proceedings - Series of the\nGesellschaft Für Informatik (GI), P-218, 293–296."
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "EDUCATION\n\nGraduated as M.Sc. Digital Media\n\nUniversity of Bremen | 2015 / 07\n\nMaster Thesis: Semi Automated Scoring in Technology Based Assessment\n\nDeveloped and evaluated an algorithm for semi automated scoring of\nspreadsheet data"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "Master Project - PrIMA\n\nUniversity of Bremen | 2012 - 2013\n\nCo-Invented a touch table application for medical support, co-developed\nsoftware (Java)\n\nFormed a scrum team, mainted project dev server (Debian), surveyed target\naudience"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "Master Studies Digital Media\n\nUniversity of Bremen | 2012 - 2015\n\nInter-cultural classes in English, covering special topics in computer science\nand design\n\nProfessionalized in research methods, software development and\ne-assessment"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "Semester Abroad\n\nUniversity of Melbourne | 2009 - 2010\n\nMastered six months of study and trans-cultural experience in Melbourne,\nAustralia\n\nFinished machine programming, information visualization, professional essay\nwriting"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "Bachelor Studies Digital Media\n\nUniversity of Bremen | 2007 - 2011\n\nFoundations of Digial Media, Computer Science and Software Engineering"
+    }
+  ]
+}
