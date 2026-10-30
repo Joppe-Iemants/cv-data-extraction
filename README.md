@@ -45,6 +45,6 @@ Bachelor’s thesis comparing methods for extracting structured data from CVs, w
 
 ```powershell
 pipenv run experiment --config experiments/configs/text_baseline.json
-pipenv run evaluate --run-ids RUN_ID --allow-draft
+pipenv run evaluate --run-ids RUN_ID
 ```
 
