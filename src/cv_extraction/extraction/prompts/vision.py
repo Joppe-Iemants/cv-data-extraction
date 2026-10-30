@@ -72,6 +72,10 @@ Return only the JSON object, without Markdown or explanations.
 
 
 def build_vision_prompt() -> str:
-    schema = json.dumps(RawCV.model_json_schema(), ensure_ascii=False, indent=2)
+    schema = json.dumps(
+        RawCV.model_json_schema(),
+        ensure_ascii=False,
+        separators=(",", ":"),
+    )
 
     return f"{SYSTEM_PROMPT}\n\nJSON schema:\n{schema}"
