@@ -13,7 +13,10 @@ class VisionStructuringError(RuntimeError):
         self.artifacts = artifacts
 
 
-def structure_cv_images(data: dict, model_id: str, load_in_4bit: bool, max_new_tokens: int) -> dict:
+def structure_cv_images(
+    data: dict, model_id: str, load_in_4bit: bool, max_new_tokens: int,
+    allow_cpu_offload: bool = False
+) -> dict:
     if max_new_tokens <= 0:
         raise ValueError("max_new_tokens must be positive.")
 
@@ -33,6 +36,7 @@ def structure_cv_images(data: dict, model_id: str, load_in_4bit: bool, max_new_t
         "request": {
             "model_id": model_id,
             "load_in_4bit": load_in_4bit,
+            "allow_cpu_offload": allow_cpu_offload,
             "max_new_tokens": max_new_tokens,
             "do_sample": False,
             "dpi": data["dpi"],
@@ -47,7 +51,7 @@ def structure_cv_images(data: dict, model_id: str, load_in_4bit: bool, max_new_t
         import torch
         from PIL import Image
 
-        runtime = get_vlm_runtime(model_id, load_in_4bit)
+        runtime = get_vlm_runtime(model_id, load_in_4bit, allow_cpu_offload)
         processor = runtime["processor"]
         model = runtime["model"]
 
@@ -55,11 +59,15 @@ def structure_cv_images(data: dict, model_id: str, load_in_4bit: bool, max_new_t
             "model": model_id,
             "model_load_seconds": runtime["model_load_seconds"],
             "model_reused": runtime["model_reused"],
+            "input_device": runtime["input_device"],
+            "device_map": runtime["device_map"],
+            "cpu_offload_used": runtime["cpu_offload_used"],
+            "max_memory": runtime["max_memory"],
             "page_count": len(pages)
         }
         artifacts["metrics"] = metrics
 
-        torch.cuda.synchronize()
+        torch.cuda.synchronize(0)
         preprocessing_start = perf_counter()
 
         with ExitStack() as stack:
@@ -93,15 +101,15 @@ def structure_cv_images(data: dict, model_id: str, load_in_4bit: bool, max_new_t
             )
 
             inputs.pop("token_type_ids", None)
-            inputs = inputs.to(model.device)
+            inputs = inputs.to(runtime["input_device"])
 
-        torch.cuda.synchronize()
+        torch.cuda.synchronize(0)
 
         metrics["preprocessing_seconds"] = perf_counter() - preprocessing_start
         metrics["input_tokens"] = int(inputs["input_ids"].shape[1])
 
-        torch.cuda.reset_peak_memory_stats()
-        metrics["gpu_allocated_before_generation_bytes"] = int(torch.cuda.memory_allocated())
+        torch.cuda.reset_peak_memory_stats(0)
+        metrics["gpu_allocated_before_generation_bytes"] = int(torch.cuda.memory_allocated(0))
 
         generation_start = perf_counter()
 
@@ -113,7 +121,7 @@ def structure_cv_images(data: dict, model_id: str, load_in_4bit: bool, max_new_t
                 use_cache=True
             )
 
-        torch.cuda.synchronize()
+        torch.cuda.synchronize(0)
         generation_seconds = perf_counter() - generation_start
 
         generated_tokens = output[:, metrics["input_tokens"]:]
@@ -131,8 +139,8 @@ def structure_cv_images(data: dict, model_id: str, load_in_4bit: bool, max_new_t
             "generation_seconds": generation_seconds,
             "output_tokens": output_tokens,
             "output_tokens_per_second": output_tokens / generation_seconds if generation_seconds else None,
-            "generation_peak_gpu_allocated_bytes": int(torch.cuda.max_memory_allocated()),
-            "generation_peak_gpu_reserved_bytes": int(torch.cuda.max_memory_reserved()),
+            "generation_peak_gpu_allocated_bytes": int(torch.cuda.max_memory_allocated(0)),
+            "generation_peak_gpu_reserved_bytes": int(torch.cuda.max_memory_reserved(0)),
             "token_limit_reached": output_tokens >= max_new_tokens
         })
 

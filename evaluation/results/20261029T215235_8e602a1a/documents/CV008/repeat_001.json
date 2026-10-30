@@ -2,15 +2,15 @@
   "document_id": "CV008",
   "repetition": 1,
   "overall": {
-    "correct": 36,
-    "missing": 7,
+    "correct": 48,
+    "missing": 43,
     "incorrect": 8,
-    "unexpected": 52,
-    "expected_facts": 51,
+    "unexpected": 40,
+    "expected_facts": 99,
     "predicted_facts": 96,
-    "precision": 0.375,
-    "recall": 0.7058823529411765,
-    "f1": 0.4897959183673469
+    "precision": 0.5,
+    "recall": 0.48484848484848486,
+    "f1": 0.49230769230769234
   },
   "extraction_status": "completed",
   "prediction_sha256": "1f51909f987908a4c95a6599162e07c142e37b90ed37e3ecae34a995f68043c3",
@@ -29,15 +29,15 @@
       "f1": 0.8
     },
     "work_experience": {
-      "correct": 18,
-      "missing": 4,
+      "correct": 31,
+      "missing": 38,
       "incorrect": 2,
-      "unexpected": 45,
-      "expected_facts": 24,
+      "unexpected": 32,
+      "expected_facts": 71,
       "predicted_facts": 65,
-      "precision": 0.27692307692307694,
-      "recall": 0.75,
-      "f1": 0.4044943820224719
+      "precision": 0.47692307692307695,
+      "recall": 0.43661971830985913,
+      "f1": 0.45588235294117646
     },
     "projects": {
       "correct": 0,
@@ -62,15 +62,15 @@
       "f1": 0.5
     },
     "skills": {
-      "correct": 8,
-      "missing": 0,
+      "correct": 7,
+      "missing": 2,
       "incorrect": 0,
-      "unexpected": 1,
-      "expected_facts": 8,
+      "unexpected": 2,
+      "expected_facts": 9,
       "predicted_facts": 9,
-      "precision": 0.8888888888888888,
-      "recall": 1.0,
-      "f1": 0.9411764705882353
+      "precision": 0.7777777777777778,
+      "recall": 0.7777777777777778,
+      "f1": 0.7777777777777778
     },
     "languages": {
       "correct": 0,
@@ -114,6 +114,36 @@
       "actual": "12345 Somewhere"
     },
     {
+      "path": "work_experience[0->0].skills[reference:1]",
+      "result": "missing",
+      "expected": "Angular",
+      "actual": null
+    },
+    {
+      "path": "work_experience[0->0].skills[reference:2]",
+      "result": "missing",
+      "expected": "HTML5",
+      "actual": null
+    },
+    {
+      "path": "work_experience[0->0].skills[reference:3]",
+      "result": "missing",
+      "expected": "CSS3",
+      "actual": null
+    },
+    {
+      "path": "work_experience[0->0].skills[reference:4]",
+      "result": "missing",
+      "expected": "Bootstrap3",
+      "actual": null
+    },
+    {
+      "path": "work_experience[0->0].skills[reference:6]",
+      "result": "missing",
+      "expected": "Docker",
+      "actual": null
+    },
+    {
       "path": "work_experience[0->0].skills[prediction:0]",
       "result": "unexpected",
       "expected": null,
@@ -129,43 +159,79 @@
       "path": "work_experience[0->0].skills[prediction:2]",
       "result": "unexpected",
       "expected": null,
-      "actual": "Ansible"
+      "actual": "Linux"
     },
     {
       "path": "work_experience[0->0].skills[prediction:3]",
       "result": "unexpected",
       "expected": null,
-      "actual": "Linux"
+      "actual": "Open Source Tools"
     },
     {
       "path": "work_experience[0->0].skills[prediction:4]",
       "result": "unexpected",
       "expected": null,
-      "actual": "Open Source Tools"
+      "actual": "Html/CSS"
     },
     {
       "path": "work_experience[0->0].skills[prediction:5]",
       "result": "unexpected",
       "expected": null,
-      "actual": "Django"
+      "actual": "Javascript"
     },
     {
       "path": "work_experience[0->0].skills[prediction:6]",
       "result": "unexpected",
       "expected": null,
-      "actual": "Html/CSS"
-    },
-    {
-      "path": "work_experience[0->0].skills[prediction:7]",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "Javascript"
-    },
-    {
-      "path": "work_experience[0->0].skills[prediction:8]",
-      "result": "unexpected",
-      "expected": null,
       "actual": "GIT"
+    },
+    {
+      "path": "work_experience[2->1].skills[reference:2]",
+      "result": "missing",
+      "expected": "nxLog",
+      "actual": null
+    },
+    {
+      "path": "work_experience[2->1].skills[reference:3]",
+      "result": "missing",
+      "expected": "rsyslog",
+      "actual": null
+    },
+    {
+      "path": "work_experience[2->1].skills[reference:4]",
+      "result": "missing",
+      "expected": "graylog",
+      "actual": null
+    },
+    {
+      "path": "work_experience[2->1].skills[reference:5]",
+      "result": "missing",
+      "expected": "NOVELL eDirectory",
+      "actual": null
+    },
+    {
+      "path": "work_experience[2->1].skills[reference:6]",
+      "result": "missing",
+      "expected": "Shibboleth",
+      "actual": null
+    },
+    {
+      "path": "work_experience[2->1].skills[reference:7]",
+      "result": "missing",
+      "expected": "ldap",
+      "actual": null
+    },
+    {
+      "path": "work_experience[2->1].skills[reference:8]",
+      "result": "missing",
+      "expected": "SLES11",
+      "actual": null
+    },
+    {
+      "path": "work_experience[2->1].skills[reference:10]",
+      "result": "missing",
+      "expected": "python-ldap",
+      "actual": null
     },
     {
       "path": "work_experience[2->1].skills[prediction:0]",
@@ -177,55 +243,61 @@
       "path": "work_experience[2->1].skills[prediction:1]",
       "result": "unexpected",
       "expected": null,
-      "actual": "Python"
+      "actual": "Linux"
     },
     {
       "path": "work_experience[2->1].skills[prediction:2]",
       "result": "unexpected",
       "expected": null,
-      "actual": "Ansible"
+      "actual": "Open Source Tools"
     },
     {
       "path": "work_experience[2->1].skills[prediction:3]",
       "result": "unexpected",
       "expected": null,
-      "actual": "Linux"
+      "actual": "Django"
     },
     {
       "path": "work_experience[2->1].skills[prediction:4]",
       "result": "unexpected",
       "expected": null,
-      "actual": "Open Source Tools"
+      "actual": "Html/CSS"
     },
     {
       "path": "work_experience[2->1].skills[prediction:5]",
       "result": "unexpected",
       "expected": null,
-      "actual": "Django"
-    },
-    {
-      "path": "work_experience[2->1].skills[prediction:6]",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "Html/CSS"
-    },
-    {
-      "path": "work_experience[2->1].skills[prediction:7]",
-      "result": "unexpected",
-      "expected": null,
       "actual": "Javascript"
-    },
-    {
-      "path": "work_experience[2->1].skills[prediction:8]",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "GIT"
     },
     {
       "path": "work_experience[3->2].employer",
       "result": "incorrect",
       "expected": "Tourism industry",
       "actual": "Research and Development"
+    },
+    {
+      "path": "work_experience[3->2].skills[reference:0]",
+      "result": "missing",
+      "expected": "c++",
+      "actual": null
+    },
+    {
+      "path": "work_experience[3->2].skills[reference:1]",
+      "result": "missing",
+      "expected": "Solaris",
+      "actual": null
+    },
+    {
+      "path": "work_experience[3->2].skills[reference:5]",
+      "result": "missing",
+      "expected": "Debian",
+      "actual": null
+    },
+    {
+      "path": "work_experience[3->2].skills[reference:6]",
+      "result": "missing",
+      "expected": "gcov",
+      "actual": null
     },
     {
       "path": "work_experience[3->2].skills[prediction:0]",
@@ -237,55 +309,79 @@
       "path": "work_experience[3->2].skills[prediction:1]",
       "result": "unexpected",
       "expected": null,
-      "actual": "Python"
+      "actual": "Ansible"
     },
     {
       "path": "work_experience[3->2].skills[prediction:2]",
       "result": "unexpected",
       "expected": null,
-      "actual": "Ansible"
+      "actual": "Open Source Tools"
     },
     {
       "path": "work_experience[3->2].skills[prediction:3]",
       "result": "unexpected",
       "expected": null,
-      "actual": "Linux"
+      "actual": "Django"
     },
     {
       "path": "work_experience[3->2].skills[prediction:4]",
       "result": "unexpected",
       "expected": null,
-      "actual": "Open Source Tools"
+      "actual": "Html/CSS"
     },
     {
       "path": "work_experience[3->2].skills[prediction:5]",
       "result": "unexpected",
       "expected": null,
-      "actual": "Django"
-    },
-    {
-      "path": "work_experience[3->2].skills[prediction:6]",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "Html/CSS"
-    },
-    {
-      "path": "work_experience[3->2].skills[prediction:7]",
-      "result": "unexpected",
-      "expected": null,
       "actual": "Javascript"
-    },
-    {
-      "path": "work_experience[3->2].skills[prediction:8]",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "GIT"
     },
     {
       "path": "work_experience[4->3].employer",
       "result": "incorrect",
       "expected": "Tourism industry",
       "actual": "Research and Development"
+    },
+    {
+      "path": "work_experience[4->3].skills[reference:2]",
+      "result": "missing",
+      "expected": "Sonar",
+      "actual": null
+    },
+    {
+      "path": "work_experience[4->3].skills[reference:3]",
+      "result": "missing",
+      "expected": "OpenLDAP",
+      "actual": null
+    },
+    {
+      "path": "work_experience[4->3].skills[reference:4]",
+      "result": "missing",
+      "expected": "JIRA",
+      "actual": null
+    },
+    {
+      "path": "work_experience[4->3].skills[reference:6]",
+      "result": "missing",
+      "expected": "selenium",
+      "actual": null
+    },
+    {
+      "path": "work_experience[4->3].skills[reference:7]",
+      "result": "missing",
+      "expected": "jqPlot",
+      "actual": null
+    },
+    {
+      "path": "work_experience[4->3].skills[reference:8]",
+      "result": "missing",
+      "expected": "jQuery",
+      "actual": null
+    },
+    {
+      "path": "work_experience[4->3].skills[reference:9]",
+      "result": "missing",
+      "expected": "Debian",
+      "actual": null
     },
     {
       "path": "work_experience[4->3].skills[prediction:0]",
@@ -297,49 +393,61 @@
       "path": "work_experience[4->3].skills[prediction:1]",
       "result": "unexpected",
       "expected": null,
-      "actual": "Python"
+      "actual": "Ansible"
     },
     {
       "path": "work_experience[4->3].skills[prediction:2]",
       "result": "unexpected",
       "expected": null,
-      "actual": "Ansible"
+      "actual": "Linux"
     },
     {
       "path": "work_experience[4->3].skills[prediction:3]",
       "result": "unexpected",
       "expected": null,
-      "actual": "Linux"
+      "actual": "Open Source Tools"
     },
     {
       "path": "work_experience[4->3].skills[prediction:4]",
       "result": "unexpected",
       "expected": null,
-      "actual": "Open Source Tools"
+      "actual": "Html/CSS"
     },
     {
       "path": "work_experience[4->3].skills[prediction:5]",
       "result": "unexpected",
       "expected": null,
-      "actual": "Django"
-    },
-    {
-      "path": "work_experience[4->3].skills[prediction:6]",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "Html/CSS"
-    },
-    {
-      "path": "work_experience[4->3].skills[prediction:7]",
-      "result": "unexpected",
-      "expected": null,
       "actual": "Javascript"
     },
     {
-      "path": "work_experience[4->3].skills[prediction:8]",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "GIT"
+      "path": "work_experience[5->4].skills[reference:1]",
+      "result": "missing",
+      "expected": "awk",
+      "actual": null
+    },
+    {
+      "path": "work_experience[5->4].skills[reference:2]",
+      "result": "missing",
+      "expected": "sed",
+      "actual": null
+    },
+    {
+      "path": "work_experience[5->4].skills[reference:3]",
+      "result": "missing",
+      "expected": "grep",
+      "actual": null
+    },
+    {
+      "path": "work_experience[5->4].skills[reference:5]",
+      "result": "missing",
+      "expected": "Java",
+      "actual": null
+    },
+    {
+      "path": "work_experience[5->4].skills[reference:6]",
+      "result": "missing",
+      "expected": "IBM DataStage",
+      "actual": null
     },
     {
       "path": "work_experience[5->4].skills[prediction:0]",
@@ -351,46 +459,34 @@
       "path": "work_experience[5->4].skills[prediction:1]",
       "result": "unexpected",
       "expected": null,
-      "actual": "Python"
+      "actual": "Ansible"
     },
     {
       "path": "work_experience[5->4].skills[prediction:2]",
       "result": "unexpected",
       "expected": null,
-      "actual": "Ansible"
+      "actual": "Open Source Tools"
     },
     {
       "path": "work_experience[5->4].skills[prediction:3]",
       "result": "unexpected",
       "expected": null,
-      "actual": "Linux"
+      "actual": "Django"
     },
     {
       "path": "work_experience[5->4].skills[prediction:4]",
       "result": "unexpected",
       "expected": null,
-      "actual": "Open Source Tools"
+      "actual": "Html/CSS"
     },
     {
       "path": "work_experience[5->4].skills[prediction:5]",
       "result": "unexpected",
       "expected": null,
-      "actual": "Django"
-    },
-    {
-      "path": "work_experience[5->4].skills[prediction:6]",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "Html/CSS"
-    },
-    {
-      "path": "work_experience[5->4].skills[prediction:7]",
-      "result": "unexpected",
-      "expected": null,
       "actual": "Javascript"
     },
     {
-      "path": "work_experience[5->4].skills[prediction:8]",
+      "path": "work_experience[5->4].skills[prediction:6]",
       "result": "unexpected",
       "expected": null,
       "actual": "GIT"
@@ -420,6 +516,36 @@
       "actual": null
     },
     {
+      "path": "work_experience[reference:1].skills[reference:0]",
+      "result": "missing",
+      "expected": "Python",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:1].skills[reference:1]",
+      "result": "missing",
+      "expected": "Ansible",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:1].skills[reference:2]",
+      "result": "missing",
+      "expected": "SLES12",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:1].skills[reference:3]",
+      "result": "missing",
+      "expected": "Django",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:1].skills[reference:4]",
+      "result": "missing",
+      "expected": "cloudstack",
+      "actual": null
+    },
+    {
       "path": "education[0->0].dates.end",
       "result": "incorrect",
       "expected": "2011",
@@ -444,10 +570,28 @@
       "actual": "B. Sc. Physics"
     },
     {
+      "path": "skills[reference:5].name",
+      "result": "missing",
+      "expected": "Html",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:6].name",
+      "result": "missing",
+      "expected": "CSS",
+      "actual": null
+    },
+    {
       "path": "skills[prediction:0].name",
       "result": "unexpected",
       "expected": null,
       "actual": "DevOps Engineer"
+    },
+    {
+      "path": "skills[prediction:6].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Html/CSS"
     },
     {
       "path": "certifications[0->0].issuer",
@@ -704,6 +848,12 @@
       },
       {
         "path": "skills[7].details",
+        "content": [
+          "3+ yrs"
+        ]
+      },
+      {
+        "path": "skills[8].details",
         "content": [
           "3+ yrs"
         ]

@@ -2,15 +2,15 @@
   "document_id": "CV005",
   "repetition": 5,
   "overall": {
-    "correct": 49,
-    "missing": 8,
+    "correct": 53,
+    "missing": 13,
     "incorrect": 1,
-    "unexpected": 69,
-    "expected_facts": 58,
+    "unexpected": 65,
+    "expected_facts": 67,
     "predicted_facts": 119,
-    "precision": 0.4117647058823529,
-    "recall": 0.8448275862068966,
-    "f1": 0.5536723163841808
+    "precision": 0.44537815126050423,
+    "recall": 0.7910447761194029,
+    "f1": 0.5698924731182796
   },
   "extraction_status": "completed",
   "prediction_sha256": "662960a2dd6ac0c45f9238d5ac3394ff9adecab93544ebe28e4761c57854d36f",
@@ -29,26 +29,26 @@
       "f1": 0.8421052631578947
     },
     "work_experience": {
-      "correct": 19,
-      "missing": 0,
+      "correct": 21,
+      "missing": 5,
       "incorrect": 0,
-      "unexpected": 56,
-      "expected_facts": 19,
+      "unexpected": 54,
+      "expected_facts": 26,
       "predicted_facts": 75,
-      "precision": 0.25333333333333335,
-      "recall": 1.0,
-      "f1": 0.40425531914893614
+      "precision": 0.28,
+      "recall": 0.8076923076923077,
+      "f1": 0.4158415841584158
     },
     "projects": {
-      "correct": 4,
+      "correct": 6,
       "missing": 0,
       "incorrect": 0,
-      "unexpected": 8,
-      "expected_facts": 4,
+      "unexpected": 6,
+      "expected_facts": 6,
       "predicted_facts": 12,
-      "precision": 0.3333333333333333,
+      "precision": 0.5,
       "recall": 1.0,
-      "f1": 0.5
+      "f1": 0.6666666666666666
     },
     "education": {
       "correct": 7,
@@ -129,67 +129,85 @@
       "path": "work_experience[0->0].skills[prediction:0]",
       "result": "unexpected",
       "expected": null,
-      "actual": "Meteor"
+      "actual": "Mongo"
     },
     {
       "path": "work_experience[0->0].skills[prediction:1]",
       "result": "unexpected",
       "expected": null,
-      "actual": "Mongo"
+      "actual": "Bootstrap"
     },
     {
       "path": "work_experience[0->0].skills[prediction:2]",
       "result": "unexpected",
       "expected": null,
-      "actual": "React"
+      "actual": "Fontawesome"
     },
     {
       "path": "work_experience[0->0].skills[prediction:3]",
       "result": "unexpected",
       "expected": null,
-      "actual": "Bootstrap"
+      "actual": "Mocha"
     },
     {
       "path": "work_experience[0->0].skills[prediction:4]",
       "result": "unexpected",
       "expected": null,
-      "actual": "Fontawesome"
+      "actual": "Git"
     },
     {
       "path": "work_experience[0->0].skills[prediction:5]",
       "result": "unexpected",
       "expected": null,
-      "actual": "Mocha"
+      "actual": "Sourcetree"
     },
     {
       "path": "work_experience[0->0].skills[prediction:6]",
       "result": "unexpected",
       "expected": null,
-      "actual": "Git"
+      "actual": "Travis"
     },
     {
       "path": "work_experience[0->0].skills[prediction:7]",
       "result": "unexpected",
       "expected": null,
-      "actual": "Sourcetree"
+      "actual": "Webstorm"
     },
     {
       "path": "work_experience[0->0].skills[prediction:8]",
       "result": "unexpected",
       "expected": null,
-      "actual": "Travis"
-    },
-    {
-      "path": "work_experience[0->0].skills[prediction:9]",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "Webstorm"
-    },
-    {
-      "path": "work_experience[0->0].skills[prediction:10]",
-      "result": "unexpected",
-      "expected": null,
       "actual": "Terminal"
+    },
+    {
+      "path": "work_experience[1->1].skills[reference:0]",
+      "result": "missing",
+      "expected": "IBM XPages",
+      "actual": null
+    },
+    {
+      "path": "work_experience[1->1].skills[reference:1]",
+      "result": "missing",
+      "expected": "Notes Domino",
+      "actual": null
+    },
+    {
+      "path": "work_experience[1->1].skills[reference:2]",
+      "result": "missing",
+      "expected": "We4IT Aveedo",
+      "actual": null
+    },
+    {
+      "path": "work_experience[1->1].skills[reference:3]",
+      "result": "missing",
+      "expected": "Camunda BPMN",
+      "actual": null
+    },
+    {
+      "path": "work_experience[1->1].skills[reference:4]",
+      "result": "missing",
+      "expected": "BPMN.IO",
+      "actual": null
     },
     {
       "path": "work_experience[1->1].skills[prediction:0]",
@@ -460,18 +478,6 @@
       "result": "unexpected",
       "expected": null,
       "actual": "Terminal"
-    },
-    {
-      "path": "projects[0->0].skills[prediction:0]",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "Java"
-    },
-    {
-      "path": "projects[0->0].skills[prediction:1]",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "Debian"
     },
     {
       "path": "projects[prediction:1].dates.end",

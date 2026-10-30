@@ -2,15 +2,15 @@
   "document_id": "CV011",
   "repetition": 1,
   "overall": {
-    "correct": 22,
-    "missing": 24,
+    "correct": 27,
+    "missing": 25,
     "incorrect": 5,
-    "unexpected": 27,
-    "expected_facts": 51,
+    "unexpected": 22,
+    "expected_facts": 57,
     "predicted_facts": 54,
-    "precision": 0.4074074074074074,
-    "recall": 0.43137254901960786,
-    "f1": 0.41904761904761906
+    "precision": 0.5,
+    "recall": 0.47368421052631576,
+    "f1": 0.4864864864864865
   },
   "extraction_status": "completed",
   "prediction_sha256": "5995cdbefbd3071be5b20770fa873c0df2d8b6d90ddf8b69a869e0ed13a38883",
@@ -62,15 +62,15 @@
       "f1": 0.0
     },
     "skills": {
-      "correct": 11,
-      "missing": 10,
+      "correct": 16,
+      "missing": 11,
       "incorrect": 0,
-      "unexpected": 6,
-      "expected_facts": 21,
+      "unexpected": 1,
+      "expected_facts": 27,
       "predicted_facts": 17,
-      "precision": 0.6470588235294118,
-      "recall": 0.5238095238095238,
-      "f1": 0.5789473684210527
+      "precision": 0.9411764705882353,
+      "recall": 0.5925925925925926,
+      "f1": 0.7272727272727273
     },
     "languages": {
       "correct": 4,
@@ -300,34 +300,10 @@
       "actual": null
     },
     {
-      "path": "skills[prediction:4].name",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "GUI"
-    },
-    {
-      "path": "skills[prediction:12].name",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "Data Science"
-    },
-    {
-      "path": "skills[prediction:13].name",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "Data Analyse"
-    },
-    {
-      "path": "skills[prediction:14].name",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "Bibliothèques"
-    },
-    {
-      "path": "skills[prediction:15].name",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "Syntaxe"
+      "path": "skills[reference:26].name",
+      "result": "missing",
+      "expected": "auto py to exe",
+      "actual": null
     },
     {
       "path": "skills[prediction:16].name",

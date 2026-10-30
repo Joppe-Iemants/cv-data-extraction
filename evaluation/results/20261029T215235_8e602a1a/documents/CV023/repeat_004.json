@@ -3,14 +3,14 @@
   "repetition": 4,
   "overall": {
     "correct": 3,
-    "missing": 62,
+    "missing": 66,
     "incorrect": 0,
     "unexpected": 3,
-    "expected_facts": 65,
+    "expected_facts": 69,
     "predicted_facts": 6,
     "precision": 0.5,
-    "recall": 0.046153846153846156,
-    "f1": 0.08450704225352113
+    "recall": 0.043478260869565216,
+    "f1": 0.08
   },
   "extraction_status": "completed",
   "prediction_sha256": "f87a9a92af17b1eea19b0af3b769a470fa9105f1b96783cba6c707fbd06a6280",
@@ -30,10 +30,10 @@
     },
     "work_experience": {
       "correct": 0,
-      "missing": 25,
+      "missing": 26,
       "incorrect": 0,
       "unexpected": 0,
-      "expected_facts": 25,
+      "expected_facts": 26,
       "predicted_facts": 0,
       "precision": null,
       "recall": 0.0,
@@ -41,10 +41,10 @@
     },
     "projects": {
       "correct": 0,
-      "missing": 5,
+      "missing": 8,
       "incorrect": 0,
       "unexpected": 0,
-      "expected_facts": 5,
+      "expected_facts": 8,
       "predicted_facts": 0,
       "precision": null,
       "recall": 0.0,
@@ -306,6 +306,12 @@
       "actual": null
     },
     {
+      "path": "work_experience[reference:4].skills[reference:0]",
+      "result": "missing",
+      "expected": "Azure Cognitive Services",
+      "actual": null
+    },
+    {
       "path": "projects[reference:0].dates.end",
       "result": "missing",
       "expected": "present",
@@ -324,6 +330,12 @@
       "actual": null
     },
     {
+      "path": "projects[reference:0].skills[reference:0]",
+      "result": "missing",
+      "expected": "A100 GPUs",
+      "actual": null
+    },
+    {
       "path": "projects[reference:1].dates.start",
       "result": "missing",
       "expected": "Jan 2021",
@@ -333,6 +345,18 @@
       "path": "projects[reference:1].name",
       "result": "missing",
       "expected": "NeuralPrune",
+      "actual": null
+    },
+    {
+      "path": "projects[reference:1].skills[reference:0]",
+      "result": "missing",
+      "expected": "ImageNet",
+      "actual": null
+    },
+    {
+      "path": "projects[reference:1].skills[reference:1]",
+      "result": "missing",
+      "expected": "PyTorch",
       "actual": null
     },
     {

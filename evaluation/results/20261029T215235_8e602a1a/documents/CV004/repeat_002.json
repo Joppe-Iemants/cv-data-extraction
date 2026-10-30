@@ -3,14 +3,14 @@
   "repetition": 2,
   "overall": {
     "correct": 33,
-    "missing": 12,
+    "missing": 21,
     "incorrect": 5,
     "unexpected": 4,
-    "expected_facts": 50,
+    "expected_facts": 59,
     "predicted_facts": 42,
     "precision": 0.7857142857142857,
-    "recall": 0.66,
-    "f1": 0.717391304347826
+    "recall": 0.559322033898305,
+    "f1": 0.6534653465346535
   },
   "extraction_status": "completed",
   "prediction_sha256": "c3ec9a4dfaabbf91e6c918e0a9f3f8aa3ad6641c9832aa2b1301f6417c16f511",
@@ -30,21 +30,21 @@
     },
     "work_experience": {
       "correct": 12,
-      "missing": 3,
+      "missing": 10,
       "incorrect": 3,
       "unexpected": 0,
-      "expected_facts": 18,
+      "expected_facts": 25,
       "predicted_facts": 15,
       "precision": 0.8,
-      "recall": 0.6666666666666666,
-      "f1": 0.7272727272727273
+      "recall": 0.48,
+      "f1": 0.6
     },
     "projects": {
       "correct": 0,
-      "missing": 4,
+      "missing": 6,
       "incorrect": 0,
       "unexpected": 0,
-      "expected_facts": 4,
+      "expected_facts": 6,
       "predicted_facts": 0,
       "precision": null,
       "recall": 0.0,
@@ -120,6 +120,18 @@
       "actual": null
     },
     {
+      "path": "work_experience[0->0].skills[reference:0]",
+      "result": "missing",
+      "expected": "Meteor",
+      "actual": null
+    },
+    {
+      "path": "work_experience[0->0].skills[reference:1]",
+      "result": "missing",
+      "expected": "React",
+      "actual": null
+    },
+    {
       "path": "work_experience[1->1].dates.end",
       "result": "missing",
       "expected": "2016",
@@ -130,6 +142,36 @@
       "result": "incorrect",
       "expected": "2014",
       "actual": "2014 - 2016"
+    },
+    {
+      "path": "work_experience[1->1].skills[reference:0]",
+      "result": "missing",
+      "expected": "IBM XPages",
+      "actual": null
+    },
+    {
+      "path": "work_experience[1->1].skills[reference:1]",
+      "result": "missing",
+      "expected": "Notes Domino",
+      "actual": null
+    },
+    {
+      "path": "work_experience[1->1].skills[reference:2]",
+      "result": "missing",
+      "expected": "We4IT Aveedo",
+      "actual": null
+    },
+    {
+      "path": "work_experience[1->1].skills[reference:3]",
+      "result": "missing",
+      "expected": "Camunda BPMN",
+      "actual": null
+    },
+    {
+      "path": "work_experience[1->1].skills[reference:4]",
+      "result": "missing",
+      "expected": "BPMN.IO",
+      "actual": null
     },
     {
       "path": "work_experience[2->2].dates.end",
@@ -177,6 +219,18 @@
       "path": "projects[reference:0].organization",
       "result": "missing",
       "expected": "University of Bremen",
+      "actual": null
+    },
+    {
+      "path": "projects[reference:0].skills[reference:0]",
+      "result": "missing",
+      "expected": "Java",
+      "actual": null
+    },
+    {
+      "path": "projects[reference:0].skills[reference:1]",
+      "result": "missing",
+      "expected": "Debian",
       "actual": null
     },
     {

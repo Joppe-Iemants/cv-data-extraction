@@ -2,15 +2,15 @@
   "document_id": "CV011",
   "repetition": 5,
   "overall": {
-    "correct": 23,
-    "missing": 24,
+    "correct": 24,
+    "missing": 29,
     "incorrect": 4,
-    "unexpected": 19,
-    "expected_facts": 51,
+    "unexpected": 18,
+    "expected_facts": 57,
     "predicted_facts": 46,
-    "precision": 0.5,
-    "recall": 0.45098039215686275,
-    "f1": 0.4742268041237113
+    "precision": 0.5217391304347826,
+    "recall": 0.42105263157894735,
+    "f1": 0.46601941747572817
   },
   "extraction_status": "completed",
   "prediction_sha256": "b1846d80633e793e331793733d86403b48f15097766d54a7fc259c23db6969c3",
@@ -62,15 +62,15 @@
       "f1": 0.3333333333333333
     },
     "skills": {
-      "correct": 11,
-      "missing": 10,
+      "correct": 12,
+      "missing": 15,
       "incorrect": 0,
-      "unexpected": 1,
-      "expected_facts": 21,
+      "unexpected": 0,
+      "expected_facts": 27,
       "predicted_facts": 12,
-      "precision": 0.9166666666666666,
-      "recall": 0.5238095238095238,
-      "f1": 0.6666666666666666
+      "precision": 1.0,
+      "recall": 0.4444444444444444,
+      "f1": 0.6153846153846154
     },
     "languages": {
       "correct": 4,
@@ -294,10 +294,34 @@
       "actual": null
     },
     {
-      "path": "skills[prediction:4].name",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "GUI"
+      "path": "skills[reference:21].name",
+      "result": "missing",
+      "expected": "Syntaxe",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:22].name",
+      "result": "missing",
+      "expected": "Bibliothèques",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:23].name",
+      "result": "missing",
+      "expected": "Data Science",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:25].name",
+      "result": "missing",
+      "expected": "Data Analyse",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:26].name",
+      "result": "missing",
+      "expected": "auto py to exe",
+      "actual": null
     },
     {
       "path": "languages[0->0].proficiency.maximum",

@@ -3,14 +3,14 @@
   "repetition": 5,
   "overall": {
     "correct": 31,
-    "missing": 112,
+    "missing": 110,
     "incorrect": 20,
     "unexpected": 32,
-    "expected_facts": 163,
+    "expected_facts": 161,
     "predicted_facts": 83,
     "precision": 0.37349397590361444,
-    "recall": 0.1901840490797546,
-    "f1": 0.25203252032520324
+    "recall": 0.19254658385093168,
+    "f1": 0.2540983606557377
   },
   "extraction_status": "completed",
   "prediction_sha256": "00b66ce0be73f59e7f2bbcbc4bb8bbf4a26aa15f984f5c789c2c98d6498efc0b",
@@ -52,10 +52,10 @@
     },
     "education": {
       "correct": 0,
-      "missing": 12,
+      "missing": 10,
       "incorrect": 0,
       "unexpected": 28,
-      "expected_facts": 12,
+      "expected_facts": 10,
       "predicted_facts": 28,
       "precision": 0.0,
       "recall": 0.0,
@@ -678,12 +678,6 @@
       "actual": null
     },
     {
-      "path": "education[reference:0].qualification",
-      "result": "missing",
-      "expected": "College",
-      "actual": null
-    },
-    {
       "path": "education[reference:1].dates.end",
       "result": "missing",
       "expected": "1951",
@@ -699,12 +693,6 @@
       "path": "education[reference:1].institution",
       "result": "missing",
       "expected": "University of Texas",
-      "actual": null
-    },
-    {
-      "path": "education[reference:1].qualification",
-      "result": "missing",
-      "expected": "College",
       "actual": null
     },
     {

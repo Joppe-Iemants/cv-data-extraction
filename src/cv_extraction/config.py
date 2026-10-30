@@ -70,17 +70,20 @@ def validate_stages(stages: list[dict]) -> None:
             )
 
         expected_settings = definition["settings"]
+        optional_settings = definition.get("optional_settings", {})
 
         if not isinstance(settings, dict):
             raise ValueError(f"Settings for {name} must be an object.")
 
-        if set(settings) != set(expected_settings):
+        if not set(expected_settings).issubset(settings) or set(settings) - (set(expected_settings) | set(optional_settings)):
             raise ValueError(
                 f"Stage {name} requires these settings: "
                 f"{sorted(expected_settings)}"
             )
 
-        for key, expected_type in expected_settings.items():
+        for key, expected_type in (expected_settings | optional_settings).items():
+            if key not in settings:
+                continue
             if type(settings[key]) is not expected_type:
                 raise ValueError(
                     f"Invalid type for {name}.{key}; "

@@ -2,15 +2,15 @@
   "document_id": "CV025",
   "repetition": 5,
   "overall": {
-    "correct": 120,
-    "missing": 1,
-    "incorrect": 14,
-    "unexpected": 1,
-    "expected_facts": 135,
+    "correct": 118,
+    "missing": 14,
+    "incorrect": 12,
+    "unexpected": 5,
+    "expected_facts": 144,
     "predicted_facts": 135,
-    "precision": 0.8888888888888888,
-    "recall": 0.8888888888888888,
-    "f1": 0.8888888888888888
+    "precision": 0.8740740740740741,
+    "recall": 0.8194444444444444,
+    "f1": 0.8458781362007168
   },
   "extraction_status": "completed",
   "prediction_sha256": "49842433dba7d2f8afadf3f3288307beca8cfa5506862651812702ebd5afa1b5",
@@ -29,15 +29,15 @@
       "f1": 0.9230769230769231
     },
     "work_experience": {
-      "correct": 33,
-      "missing": 0,
-      "incorrect": 2,
+      "correct": 35,
+      "missing": 3,
+      "incorrect": 0,
       "unexpected": 0,
-      "expected_facts": 35,
+      "expected_facts": 38,
       "predicted_facts": 35,
-      "precision": 0.9428571428571428,
-      "recall": 0.9428571428571428,
-      "f1": 0.9428571428571428
+      "precision": 1.0,
+      "recall": 0.9210526315789473,
+      "f1": 0.958904109589041
     },
     "projects": {
       "correct": 0,
@@ -62,15 +62,15 @@
       "f1": 0.875
     },
     "skills": {
-      "correct": 59,
-      "missing": 0,
+      "correct": 55,
+      "missing": 10,
       "incorrect": 0,
-      "unexpected": 1,
-      "expected_facts": 59,
+      "unexpected": 5,
+      "expected_facts": 65,
       "predicted_facts": 60,
-      "precision": 0.9833333333333333,
-      "recall": 1.0,
-      "f1": 0.9915966386554622
+      "precision": 0.9166666666666666,
+      "recall": 0.8461538461538461,
+      "f1": 0.88
     },
     "languages": {
       "correct": 4,
@@ -114,22 +114,112 @@
       "actual": null
     },
     {
-      "path": "work_experience[0->0].location",
-      "result": "incorrect",
-      "expected": "Adityapur",
-      "actual": "Adityapur, Jamshedpur"
+      "path": "work_experience[4->4].skills[reference:0]",
+      "result": "missing",
+      "expected": "SAP- PM/PS",
+      "actual": null
     },
     {
-      "path": "work_experience[1->1].location",
-      "result": "incorrect",
-      "expected": "Adityapur",
-      "actual": "Adityapur, Jamshedpur"
+      "path": "work_experience[6->6].skills[reference:0]",
+      "result": "missing",
+      "expected": "VFDs",
+      "actual": null
+    },
+    {
+      "path": "work_experience[6->6].skills[reference:1]",
+      "result": "missing",
+      "expected": "PLCs",
+      "actual": null
     },
     {
       "path": "education[1->1].qualification",
       "result": "incorrect",
       "expected": "B.Tech in Electrical Engineering",
       "actual": "B.Tech in Electrical Engineering – CGPA 7.86/10"
+    },
+    {
+      "path": "skills[reference:1].name",
+      "result": "missing",
+      "expected": "Waterfall",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:2].name",
+      "result": "missing",
+      "expected": "Spiral",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:3].name",
+      "result": "missing",
+      "expected": "Evolutionary",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:4].name",
+      "result": "missing",
+      "expected": "Agile",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:5].name",
+      "result": "missing",
+      "expected": "Hybrid",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:9].name",
+      "result": "missing",
+      "expected": "Office 365",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:10].name",
+      "result": "missing",
+      "expected": "AutoCAD",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:11].name",
+      "result": "missing",
+      "expected": "Revit",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:12].name",
+      "result": "missing",
+      "expected": "BIM",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:20].name",
+      "result": "missing",
+      "expected": "Spend control",
+      "actual": null
+    },
+    {
+      "path": "skills[prediction:1].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Delivery frameworks ( Waterfall, Spiral, Evolutionary, Agile, Hybrid)"
+    },
+    {
+      "path": "skills[prediction:5].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Tool proficiency ( Office 365 etc. )"
+    },
+    {
+      "path": "skills[prediction:6].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Knowledge and understanding of use of AutoCAD and Revit software, BIM"
+    },
+    {
+      "path": "skills[prediction:13].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Analytics, Spend control"
     },
     {
       "path": "skills[prediction:52].name",
@@ -214,7 +304,7 @@
     },
     {
       "path": "skills",
-      "reference_index": 11,
+      "reference_index": 17,
       "prediction_index": 11,
       "reason": "Ambiguous or non-exact identity alignment; review this pair."
     },

@@ -8,71 +8,71 @@
   "evaluated_attempts": 122,
   "scope": "structured_facts_only; free text requires manual review",
   "overall": {
-    "correct": 4633,
-    "missing": 3595,
-    "incorrect": 574,
-    "unexpected": 4189,
-    "expected_facts": 8802,
+    "correct": 4794,
+    "missing": 4553,
+    "incorrect": 569,
+    "unexpected": 4033,
+    "expected_facts": 9916,
     "predicted_facts": 9396,
-    "precision": 0.4930821626223925,
-    "recall": 0.5263576459895478,
-    "f1": 0.5091768326189691
+    "precision": 0.5102171136653896,
+    "recall": 0.4834610730133118,
+    "f1": 0.4964788732394366
   },
   "categories": {
     "personal_information": {
-      "correct": 613,
+      "correct": 618,
       "missing": 291,
-      "incorrect": 72,
+      "incorrect": 67,
       "unexpected": 170,
       "expected_facts": 976,
       "predicted_facts": 855,
-      "precision": 0.7169590643274854,
-      "recall": 0.6280737704918032,
-      "f1": 0.6695794647733478
+      "precision": 0.7228070175438597,
+      "recall": 0.6331967213114754,
+      "f1": 0.6750409612233752
     },
     "work_experience": {
-      "correct": 1414,
-      "missing": 1252,
-      "incorrect": 258,
-      "unexpected": 878,
-      "expected_facts": 2924,
+      "correct": 1452,
+      "missing": 1751,
+      "incorrect": 248,
+      "unexpected": 850,
+      "expected_facts": 3451,
       "predicted_facts": 2550,
-      "precision": 0.5545098039215687,
-      "recall": 0.4835841313269494,
-      "f1": 0.5166240409207161
+      "precision": 0.5694117647058824,
+      "recall": 0.420747609388583,
+      "f1": 0.4839193467755374
     },
     "projects": {
-      "correct": 255,
-      "missing": 236,
+      "correct": 345,
+      "missing": 436,
       "incorrect": 25,
-      "unexpected": 320,
-      "expected_facts": 516,
+      "unexpected": 230,
+      "expected_facts": 806,
       "predicted_facts": 600,
-      "precision": 0.425,
-      "recall": 0.4941860465116279,
-      "f1": 0.45698924731182794
+      "precision": 0.575,
+      "recall": 0.4280397022332506,
+      "f1": 0.4907539118065434
     },
     "education": {
       "correct": 641,
-      "missing": 317,
+      "missing": 307,
       "incorrect": 118,
       "unexpected": 284,
-      "expected_facts": 1076,
+      "expected_facts": 1066,
       "predicted_facts": 1043,
       "precision": 0.6145733461169702,
-      "recall": 0.595724907063197,
-      "f1": 0.6050023596035866
+      "recall": 0.6013133208255159,
+      "f1": 0.6078710289236605
     },
     "skills": {
-      "correct": 1175,
-      "missing": 1274,
+      "correct": 1173,
+      "missing": 1543,
       "incorrect": 10,
-      "unexpected": 2107,
-      "expected_facts": 2459,
+      "unexpected": 2109,
+      "expected_facts": 2726,
       "predicted_facts": 3292,
-      "precision": 0.3569258809234508,
-      "recall": 0.4778365189101261,
-      "f1": 0.4086245870283429
+      "precision": 0.356318347509113,
+      "recall": 0.4303008070432869,
+      "f1": 0.3898305084745763
     },
     "languages": {
       "correct": 211,
@@ -86,15 +86,15 @@
       "f1": 0.5417201540436457
     },
     "certifications": {
-      "correct": 323,
+      "correct": 353,
       "missing": 110,
-      "incorrect": 66,
-      "unexpected": 99,
-      "expected_facts": 499,
+      "incorrect": 76,
+      "unexpected": 59,
+      "expected_facts": 539,
       "predicted_facts": 488,
-      "precision": 0.6618852459016393,
-      "recall": 0.6472945891783567,
-      "f1": 0.6545086119554204
+      "precision": 0.7233606557377049,
+      "recall": 0.6549165120593692,
+      "f1": 0.6874391431353457
     },
     "training": {
       "correct": 1,

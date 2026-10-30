@@ -3,14 +3,14 @@
   "repetition": 5,
   "overall": {
     "correct": 37,
-    "missing": 22,
+    "missing": 39,
     "incorrect": 10,
     "unexpected": 19,
-    "expected_facts": 69,
+    "expected_facts": 86,
     "predicted_facts": 66,
     "precision": 0.5606060606060606,
-    "recall": 0.5362318840579711,
-    "f1": 0.5481481481481482
+    "recall": 0.43023255813953487,
+    "f1": 0.4868421052631579
   },
   "extraction_status": "completed",
   "prediction_sha256": "144631d2f655fd1c775924e7b53992b9acb56b0b67fcef146e24bbcf30f1bda0",
@@ -30,14 +30,14 @@
     },
     "work_experience": {
       "correct": 13,
-      "missing": 9,
+      "missing": 19,
       "incorrect": 6,
       "unexpected": 5,
-      "expected_facts": 28,
+      "expected_facts": 38,
       "predicted_facts": 24,
       "precision": 0.5416666666666666,
-      "recall": 0.4642857142857143,
-      "f1": 0.5
+      "recall": 0.34210526315789475,
+      "f1": 0.41935483870967744
     },
     "projects": {
       "correct": 0,
@@ -63,14 +63,14 @@
     },
     "skills": {
       "correct": 5,
-      "missing": 7,
+      "missing": 14,
       "incorrect": 2,
       "unexpected": 0,
-      "expected_facts": 14,
+      "expected_facts": 21,
       "predicted_facts": 7,
       "precision": 0.7142857142857143,
-      "recall": 0.35714285714285715,
-      "f1": 0.47619047619047616
+      "recall": 0.23809523809523808,
+      "f1": 0.35714285714285715
     },
     "languages": {
       "correct": 4,
@@ -132,6 +132,24 @@
       "actual": "ASSISTANT HEAD OF ICT AND LMS LEAD"
     },
     {
+      "path": "work_experience[1->1].skills[reference:0]",
+      "result": "missing",
+      "expected": "Canvas",
+      "actual": null
+    },
+    {
+      "path": "work_experience[1->1].skills[reference:1]",
+      "result": "missing",
+      "expected": "IMAP",
+      "actual": null
+    },
+    {
+      "path": "work_experience[1->1].skills[reference:2]",
+      "result": "missing",
+      "expected": "ORCID",
+      "actual": null
+    },
+    {
       "path": "work_experience[2->2].dates.end",
       "result": "unexpected",
       "expected": null,
@@ -150,6 +168,18 @@
       "actual": null
     },
     {
+      "path": "work_experience[2->2].skills[reference:0]",
+      "result": "missing",
+      "expected": "Canvas",
+      "actual": null
+    },
+    {
+      "path": "work_experience[2->2].skills[reference:1]",
+      "result": "missing",
+      "expected": "ORCID",
+      "actual": null
+    },
+    {
       "path": "work_experience[3->3].employer",
       "result": "incorrect",
       "expected": "Skyline University College",
@@ -159,6 +189,24 @@
       "path": "work_experience[3->3].location",
       "result": "missing",
       "expected": "UAE",
+      "actual": null
+    },
+    {
+      "path": "work_experience[3->3].skills[reference:0]",
+      "result": "missing",
+      "expected": "Canvas",
+      "actual": null
+    },
+    {
+      "path": "work_experience[3->3].skills[reference:1]",
+      "result": "missing",
+      "expected": "IMAP",
+      "actual": null
+    },
+    {
+      "path": "work_experience[3->3].skills[reference:2]",
+      "result": "missing",
+      "expected": "ERP",
       "actual": null
     },
     {
@@ -207,6 +255,18 @@
       "path": "work_experience[reference:0].location",
       "result": "missing",
       "expected": "UAE",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:0].skills[reference:0]",
+      "result": "missing",
+      "expected": "Drupal",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:0].skills[reference:1]",
+      "result": "missing",
+      "expected": "Canvas",
       "actual": null
     },
     {
@@ -284,19 +344,61 @@
     {
       "path": "skills[reference:11].name",
       "result": "missing",
-      "expected": "Windows 7, 8, 10, 11, and Fedora.",
+      "expected": "Windows 7",
       "actual": null
     },
     {
       "path": "skills[reference:12].name",
       "result": "missing",
-      "expected": "Google Workspace",
+      "expected": "Windows 8",
       "actual": null
     },
     {
       "path": "skills[reference:13].name",
       "result": "missing",
+      "expected": "Windows 10",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:14].name",
+      "result": "missing",
+      "expected": "Windows 11",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:15].name",
+      "result": "missing",
+      "expected": "Fedora",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:16].name",
+      "result": "missing",
+      "expected": "Google Workspace",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:17].name",
+      "result": "missing",
       "expected": "Drupal.",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:18].name",
+      "result": "missing",
+      "expected": "PHP",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:19].name",
+      "result": "missing",
+      "expected": "XSL",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:20].name",
+      "result": "missing",
+      "expected": "XML",
       "actual": null
     },
     {

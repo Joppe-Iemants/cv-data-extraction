@@ -3,14 +3,14 @@
   "repetition": 4,
   "overall": {
     "correct": 58,
-    "missing": 5,
+    "missing": 9,
     "incorrect": 2,
     "unexpected": 11,
-    "expected_facts": 65,
+    "expected_facts": 69,
     "predicted_facts": 71,
     "precision": 0.8169014084507042,
-    "recall": 0.8923076923076924,
-    "f1": 0.8529411764705882
+    "recall": 0.8405797101449275,
+    "f1": 0.8285714285714286
   },
   "extraction_status": "completed",
   "prediction_sha256": "21180031853af46369b4d2e8d746ee74d480b0801ea94e19371b65126e4d5a2f",
@@ -30,25 +30,25 @@
     },
     "work_experience": {
       "correct": 25,
-      "missing": 0,
+      "missing": 1,
       "incorrect": 0,
       "unexpected": 0,
-      "expected_facts": 25,
+      "expected_facts": 26,
       "predicted_facts": 25,
       "precision": 1.0,
-      "recall": 1.0,
-      "f1": 1.0
+      "recall": 0.9615384615384616,
+      "f1": 0.9803921568627451
     },
     "projects": {
       "correct": 5,
-      "missing": 0,
+      "missing": 3,
       "incorrect": 0,
       "unexpected": 1,
-      "expected_facts": 5,
+      "expected_facts": 8,
       "predicted_facts": 6,
       "precision": 0.8333333333333334,
-      "recall": 1.0,
-      "f1": 0.9090909090909091
+      "recall": 0.625,
+      "f1": 0.7142857142857143
     },
     "education": {
       "correct": 6,
@@ -168,10 +168,34 @@
       "actual": "rendercv"
     },
     {
+      "path": "work_experience[4->4].skills[reference:0]",
+      "result": "missing",
+      "expected": "Azure Cognitive Services",
+      "actual": null
+    },
+    {
+      "path": "projects[0->0].skills[reference:0]",
+      "result": "missing",
+      "expected": "A100 GPUs",
+      "actual": null
+    },
+    {
       "path": "projects[1->1].dates.end",
       "result": "unexpected",
       "expected": null,
       "actual": "Jan 2021"
+    },
+    {
+      "path": "projects[1->1].skills[reference:0]",
+      "result": "missing",
+      "expected": "ImageNet",
+      "actual": null
+    },
+    {
+      "path": "projects[1->1].skills[reference:1]",
+      "result": "missing",
+      "expected": "PyTorch",
+      "actual": null
     },
     {
       "path": "education[0->0].qualification",

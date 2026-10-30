@@ -3,14 +3,14 @@
   "repetition": 4,
   "overall": {
     "correct": 44,
-    "missing": 7,
+    "missing": 21,
     "incorrect": 5,
     "unexpected": 249,
-    "expected_facts": 56,
+    "expected_facts": 70,
     "predicted_facts": 298,
     "precision": 0.1476510067114094,
-    "recall": 0.7857142857142857,
-    "f1": 0.24858757062146894
+    "recall": 0.6285714285714286,
+    "f1": 0.2391304347826087
   },
   "extraction_status": "completed",
   "prediction_sha256": "366823c785906948b366cbbc4b020bb354256a7282338d3d5182f000581b3f55",
@@ -41,14 +41,14 @@
     },
     "projects": {
       "correct": 16,
-      "missing": 4,
+      "missing": 18,
       "incorrect": 4,
       "unexpected": 4,
-      "expected_facts": 24,
+      "expected_facts": 38,
       "predicted_facts": 24,
       "precision": 0.6666666666666666,
-      "recall": 0.6666666666666666,
-      "f1": 0.6666666666666666
+      "recall": 0.42105263157894735,
+      "f1": 0.5161290322580645
     },
     "education": {
       "correct": 15,
@@ -318,6 +318,72 @@
       "actual": "OpenQDA"
     },
     {
+      "path": "projects[0->0].skills[reference:0]",
+      "result": "missing",
+      "expected": "Vue3",
+      "actual": null
+    },
+    {
+      "path": "projects[0->0].skills[reference:1]",
+      "result": "missing",
+      "expected": "Vite",
+      "actual": null
+    },
+    {
+      "path": "projects[0->0].skills[reference:2]",
+      "result": "missing",
+      "expected": "TailwindCss",
+      "actual": null
+    },
+    {
+      "path": "projects[0->0].skills[reference:3]",
+      "result": "missing",
+      "expected": "Github",
+      "actual": null
+    },
+    {
+      "path": "projects[0->0].skills[reference:4]",
+      "result": "missing",
+      "expected": "CI",
+      "actual": null
+    },
+    {
+      "path": "projects[2->1].skills[reference:0]",
+      "result": "missing",
+      "expected": "react native",
+      "actual": null
+    },
+    {
+      "path": "projects[2->1].skills[reference:1]",
+      "result": "missing",
+      "expected": "expo",
+      "actual": null
+    },
+    {
+      "path": "projects[2->1].skills[reference:2]",
+      "result": "missing",
+      "expected": "GitHub",
+      "actual": null
+    },
+    {
+      "path": "projects[3->2].skills[reference:0]",
+      "result": "missing",
+      "expected": "MeteorJS",
+      "actual": null
+    },
+    {
+      "path": "projects[3->2].skills[reference:1]",
+      "result": "missing",
+      "expected": "Github",
+      "actual": null
+    },
+    {
+      "path": "projects[3->2].skills[reference:2]",
+      "result": "missing",
+      "expected": "CI",
+      "actual": null
+    },
+    {
       "path": "projects[1->5].dates.end",
       "result": "incorrect",
       "expected": "2025",
@@ -334,6 +400,12 @@
       "result": "incorrect",
       "expected": "IMPACT",
       "actual": "Flex"
+    },
+    {
+      "path": "projects[1->5].skills[reference:0]",
+      "result": "missing",
+      "expected": "Python",
+      "actual": null
     },
     {
       "path": "projects[reference:5].dates.end",
@@ -357,6 +429,18 @@
       "path": "projects[reference:5].organization",
       "result": "missing",
       "expected": "University of Bremen",
+      "actual": null
+    },
+    {
+      "path": "projects[reference:5].skills[reference:0]",
+      "result": "missing",
+      "expected": "Java",
+      "actual": null
+    },
+    {
+      "path": "projects[reference:5].skills[reference:1]",
+      "result": "missing",
+      "expected": "Debian",
       "actual": null
     },
     {

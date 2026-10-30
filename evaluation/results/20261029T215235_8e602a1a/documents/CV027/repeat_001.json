@@ -2,15 +2,15 @@
   "document_id": "CV027",
   "repetition": 1,
   "overall": {
-    "correct": 38,
-    "missing": 5,
-    "incorrect": 5,
-    "unexpected": 0,
-    "expected_facts": 48,
+    "correct": 36,
+    "missing": 16,
+    "incorrect": 4,
+    "unexpected": 3,
+    "expected_facts": 56,
     "predicted_facts": 43,
-    "precision": 0.8837209302325582,
-    "recall": 0.7916666666666666,
-    "f1": 0.8351648351648352
+    "precision": 0.8372093023255814,
+    "recall": 0.6428571428571429,
+    "f1": 0.7272727272727273
   },
   "extraction_status": "completed",
   "prediction_sha256": "056ace6857c89dbe3787d9a6310dfc7a4f4eea84e31c9f32c370f4d027b5f583",
@@ -18,26 +18,26 @@
   "schema_valid": true,
   "categories": {
     "personal_information": {
-      "correct": 5,
+      "correct": 6,
       "missing": 1,
-      "incorrect": 1,
+      "incorrect": 0,
       "unexpected": 0,
       "expected_facts": 7,
       "predicted_facts": 6,
-      "precision": 0.8333333333333334,
-      "recall": 0.7142857142857143,
-      "f1": 0.7692307692307693
+      "precision": 1.0,
+      "recall": 0.8571428571428571,
+      "f1": 0.9230769230769231
     },
     "work_experience": {
       "correct": 9,
-      "missing": 3,
+      "missing": 5,
       "incorrect": 3,
       "unexpected": 0,
-      "expected_facts": 15,
+      "expected_facts": 17,
       "predicted_facts": 12,
       "precision": 0.75,
-      "recall": 0.6,
-      "f1": 0.6666666666666666
+      "recall": 0.5294117647058824,
+      "f1": 0.6206896551724138
     },
     "projects": {
       "correct": 0,
@@ -62,15 +62,15 @@
       "f1": 0.4
     },
     "skills": {
-      "correct": 16,
-      "missing": 0,
+      "correct": 13,
+      "missing": 9,
       "incorrect": 0,
-      "unexpected": 0,
-      "expected_facts": 16,
+      "unexpected": 3,
+      "expected_facts": 22,
       "predicted_facts": 16,
-      "precision": 1.0,
-      "recall": 1.0,
-      "f1": 1.0
+      "precision": 0.8125,
+      "recall": 0.5909090909090909,
+      "f1": 0.6842105263157895
     },
     "languages": {
       "correct": 4,
@@ -108,12 +108,6 @@
   },
   "differences": [
     {
-      "path": "personal_information.location",
-      "result": "incorrect",
-      "expected": "Hyderabad",
-      "actual": "Hyderabad – 500084"
-    },
-    {
       "path": "personal_information.weblinks[0->0].platform",
       "result": "missing",
       "expected": "LinkedIn",
@@ -129,6 +123,18 @@
       "path": "work_experience[0->0].location",
       "result": "missing",
       "expected": "Hyderabad",
+      "actual": null
+    },
+    {
+      "path": "work_experience[0->0].skills[reference:0]",
+      "result": "missing",
+      "expected": "Pegasystems",
+      "actual": null
+    },
+    {
+      "path": "work_experience[0->0].skills[reference:1]",
+      "result": "missing",
+      "expected": "Pega GenAI",
       "actual": null
     },
     {
@@ -166,6 +172,78 @@
       "result": "incorrect",
       "expected": "B.Tech (Mechanical)",
       "actual": "B.Tech (Mechanical), 2011, 74.2%"
+    },
+    {
+      "path": "skills[reference:11].name",
+      "result": "missing",
+      "expected": "Visio",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:12].name",
+      "result": "missing",
+      "expected": "Confluence",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:13].name",
+      "result": "missing",
+      "expected": "Jira Align",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:15].name",
+      "result": "missing",
+      "expected": "Lean",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:16].name",
+      "result": "missing",
+      "expected": "XP",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:17].name",
+      "result": "missing",
+      "expected": "JAD",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:18].name",
+      "result": "missing",
+      "expected": "Bids",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:19].name",
+      "result": "missing",
+      "expected": "RFX",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:20].name",
+      "result": "missing",
+      "expected": "MVPs",
+      "actual": null
+    },
+    {
+      "path": "skills[prediction:11].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Visio, Confluence, Jira Align"
+    },
+    {
+      "path": "skills[prediction:13].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Lean / XP, JAD"
+    },
+    {
+      "path": "skills[prediction:14].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Bids, RFX, MVPs"
     }
   ],
   "matching_review_required": true,

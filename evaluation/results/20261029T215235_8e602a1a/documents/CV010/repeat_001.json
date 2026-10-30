@@ -2,15 +2,15 @@
   "document_id": "CV010",
   "repetition": 1,
   "overall": {
-    "correct": 16,
-    "missing": 32,
+    "correct": 18,
+    "missing": 36,
     "incorrect": 3,
-    "unexpected": 29,
-    "expected_facts": 51,
+    "unexpected": 27,
+    "expected_facts": 57,
     "predicted_facts": 48,
-    "precision": 0.3333333333333333,
-    "recall": 0.3137254901960784,
-    "f1": 0.32323232323232326
+    "precision": 0.375,
+    "recall": 0.3157894736842105,
+    "f1": 0.34285714285714286
   },
   "extraction_status": "completed",
   "prediction_sha256": "cbc487a45d9ad7ea0ad9fb3675c9a322f2af96d6db8ca9bb97d156087651976f",
@@ -62,15 +62,15 @@
       "f1": 0.3333333333333333
     },
     "skills": {
-      "correct": 2,
-      "missing": 18,
+      "correct": 4,
+      "missing": 22,
       "incorrect": 1,
-      "unexpected": 4,
-      "expected_facts": 21,
+      "unexpected": 2,
+      "expected_facts": 27,
       "predicted_facts": 7,
-      "precision": 0.2857142857142857,
-      "recall": 0.09523809523809523,
-      "f1": 0.14285714285714285
+      "precision": 0.5714285714285714,
+      "recall": 0.14814814814814814,
+      "f1": 0.23529411764705882
     },
     "languages": {
       "correct": 4,
@@ -378,16 +378,28 @@
       "actual": null
     },
     {
-      "path": "skills[prediction:3].name",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "Data Science"
+      "path": "skills[reference:21].name",
+      "result": "missing",
+      "expected": "Syntax",
+      "actual": null
     },
     {
-      "path": "skills[prediction:4].name",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "Data Analysis"
+      "path": "skills[reference:22].name",
+      "result": "missing",
+      "expected": "Libraries",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:24].name",
+      "result": "missing",
+      "expected": "GUI",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:26].name",
+      "result": "missing",
+      "expected": "auto py to exe",
+      "actual": null
     },
     {
       "path": "skills[prediction:5].name",

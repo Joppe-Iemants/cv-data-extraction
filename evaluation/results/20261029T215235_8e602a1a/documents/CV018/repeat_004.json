@@ -3,14 +3,14 @@
   "repetition": 4,
   "overall": {
     "correct": 15,
-    "missing": 39,
+    "missing": 43,
     "incorrect": 3,
     "unexpected": 4,
-    "expected_facts": 57,
+    "expected_facts": 61,
     "predicted_facts": 22,
     "precision": 0.6818181818181818,
-    "recall": 0.2631578947368421,
-    "f1": 0.379746835443038
+    "recall": 0.2459016393442623,
+    "f1": 0.3614457831325301
   },
   "extraction_status": "completed",
   "prediction_sha256": "6d9b3456f938240955171904e3db3587898087e278c34697d422c978b1be5523",
@@ -41,10 +41,10 @@
     },
     "projects": {
       "correct": 0,
-      "missing": 6,
+      "missing": 8,
       "incorrect": 0,
       "unexpected": 0,
-      "expected_facts": 6,
+      "expected_facts": 8,
       "predicted_facts": 0,
       "precision": null,
       "recall": 0.0,
@@ -63,10 +63,10 @@
     },
     "skills": {
       "correct": 0,
-      "missing": 14,
+      "missing": 16,
       "incorrect": 0,
       "unexpected": 4,
-      "expected_facts": 14,
+      "expected_facts": 16,
       "predicted_facts": 4,
       "precision": 0.0,
       "recall": 0.0,
@@ -236,7 +236,13 @@
     {
       "path": "projects[reference:0].skills[reference:0]",
       "result": "missing",
-      "expected": "LaTeX/Markdown",
+      "expected": "LaTeX",
+      "actual": null
+    },
+    {
+      "path": "projects[reference:0].skills[reference:1]",
+      "result": "missing",
+      "expected": "Markdown",
       "actual": null
     },
     {
@@ -254,7 +260,13 @@
     {
       "path": "projects[reference:1].skills[reference:0]",
       "result": "missing",
-      "expected": "Python/Chainer",
+      "expected": "Python",
+      "actual": null
+    },
+    {
+      "path": "projects[reference:1].skills[reference:1]",
+      "result": "missing",
+      "expected": "Chainer",
       "actual": null
     },
     {
@@ -284,71 +296,83 @@
     {
       "path": "skills[reference:2].name",
       "result": "missing",
-      "expected": "C/C++",
+      "expected": "C",
       "actual": null
     },
     {
       "path": "skills[reference:3].name",
       "result": "missing",
-      "expected": "Java",
+      "expected": "C++",
       "actual": null
     },
     {
       "path": "skills[reference:4].name",
       "result": "missing",
-      "expected": "PyTorch",
+      "expected": "Java",
       "actual": null
     },
     {
       "path": "skills[reference:5].name",
       "result": "missing",
-      "expected": "TensorFlow",
+      "expected": "PyTorch",
       "actual": null
     },
     {
       "path": "skills[reference:6].name",
       "result": "missing",
-      "expected": "Keras",
+      "expected": "TensorFlow",
       "actual": null
     },
     {
       "path": "skills[reference:7].name",
       "result": "missing",
-      "expected": "Chainer",
+      "expected": "Keras",
       "actual": null
     },
     {
       "path": "skills[reference:8].name",
       "result": "missing",
-      "expected": "LaTeX",
+      "expected": "Chainer",
       "actual": null
     },
     {
       "path": "skills[reference:9].name",
       "result": "missing",
-      "expected": "Git",
+      "expected": "LaTeX",
       "actual": null
     },
     {
       "path": "skills[reference:10].name",
       "result": "missing",
-      "expected": "SQL",
+      "expected": "Git",
       "actual": null
     },
     {
       "path": "skills[reference:11].name",
       "result": "missing",
-      "expected": "HTML/CSS",
+      "expected": "SQL",
       "actual": null
     },
     {
       "path": "skills[reference:12].name",
       "result": "missing",
-      "expected": "Jekyll",
+      "expected": "HTML",
       "actual": null
     },
     {
       "path": "skills[reference:13].name",
+      "result": "missing",
+      "expected": "CSS",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:14].name",
+      "result": "missing",
+      "expected": "Jekyll",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:15].name",
       "result": "missing",
       "expected": "JavaScript",
       "actual": null

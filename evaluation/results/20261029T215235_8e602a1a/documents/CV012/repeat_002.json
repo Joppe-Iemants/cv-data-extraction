@@ -3,14 +3,14 @@
   "repetition": 2,
   "overall": {
     "correct": 32,
-    "missing": 57,
+    "missing": 69,
     "incorrect": 1,
     "unexpected": 12,
-    "expected_facts": 90,
+    "expected_facts": 102,
     "predicted_facts": 45,
     "precision": 0.7111111111111111,
-    "recall": 0.35555555555555557,
-    "f1": 0.4740740740740741
+    "recall": 0.3137254901960784,
+    "f1": 0.43537414965986393
   },
   "extraction_status": "completed",
   "prediction_sha256": "6a36b415225baab216f933438697f5b683a2975716d243829c183cbf07b5e3f2",
@@ -30,14 +30,14 @@
     },
     "work_experience": {
       "correct": 20,
-      "missing": 10,
+      "missing": 22,
       "incorrect": 0,
       "unexpected": 0,
-      "expected_facts": 30,
+      "expected_facts": 42,
       "predicted_facts": 20,
       "precision": 1.0,
-      "recall": 0.6666666666666666,
-      "f1": 0.8
+      "recall": 0.47619047619047616,
+      "f1": 0.6451612903225806
     },
     "projects": {
       "correct": 0,
@@ -226,6 +226,78 @@
       "result": "unexpected",
       "expected": null,
       "actual": "Quora:// Debarghya-Das"
+    },
+    {
+      "path": "work_experience[1->1].skills[reference:0]",
+      "result": "missing",
+      "expected": "JS",
+      "actual": null
+    },
+    {
+      "path": "work_experience[1->1].skills[reference:1]",
+      "result": "missing",
+      "expected": "Backbone",
+      "actual": null
+    },
+    {
+      "path": "work_experience[1->1].skills[reference:2]",
+      "result": "missing",
+      "expected": "Jade",
+      "actual": null
+    },
+    {
+      "path": "work_experience[1->1].skills[reference:3]",
+      "result": "missing",
+      "expected": "Stylus",
+      "actual": null
+    },
+    {
+      "path": "work_experience[1->1].skills[reference:4]",
+      "result": "missing",
+      "expected": "Require",
+      "actual": null
+    },
+    {
+      "path": "work_experience[1->1].skills[reference:5]",
+      "result": "missing",
+      "expected": "Scala",
+      "actual": null
+    },
+    {
+      "path": "work_experience[1->1].skills[reference:6]",
+      "result": "missing",
+      "expected": "Play",
+      "actual": null
+    },
+    {
+      "path": "work_experience[2->2].skills[reference:0]",
+      "result": "missing",
+      "expected": "Javascript",
+      "actual": null
+    },
+    {
+      "path": "work_experience[2->2].skills[reference:1]",
+      "result": "missing",
+      "expected": "Python",
+      "actual": null
+    },
+    {
+      "path": "work_experience[2->2].skills[reference:2]",
+      "result": "missing",
+      "expected": "backbone.js",
+      "actual": null
+    },
+    {
+      "path": "work_experience[3->3].skills[reference:0]",
+      "result": "missing",
+      "expected": "PHP",
+      "actual": null
+    },
+    {
+      "path": "work_experience[3->3].skills[reference:1]",
+      "result": "missing",
+      "expected": "Shell",
+      "actual": null
     },
     {
       "path": "work_experience[reference:4].dates.end",

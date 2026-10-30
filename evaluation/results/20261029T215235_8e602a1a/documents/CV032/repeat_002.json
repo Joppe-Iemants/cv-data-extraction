@@ -2,15 +2,15 @@
   "document_id": "CV032",
   "repetition": 2,
   "overall": {
-    "correct": 97,
-    "missing": 9,
+    "correct": 101,
+    "missing": 52,
     "incorrect": 8,
-    "unexpected": 169,
-    "expected_facts": 114,
+    "unexpected": 165,
+    "expected_facts": 161,
     "predicted_facts": 274,
-    "precision": 0.354014598540146,
-    "recall": 0.8508771929824561,
-    "f1": 0.5
+    "precision": 0.3686131386861314,
+    "recall": 0.6273291925465838,
+    "f1": 0.46436781609195404
   },
   "extraction_status": "completed",
   "prediction_sha256": "288aa8ec0f438ee6b4b0f457829771a6acd357905604bf9b87b95470626ffe90",
@@ -30,14 +30,14 @@
     },
     "work_experience": {
       "correct": 16,
-      "missing": 0,
+      "missing": 27,
       "incorrect": 4,
       "unexpected": 4,
-      "expected_facts": 20,
+      "expected_facts": 47,
       "predicted_facts": 24,
       "precision": 0.6666666666666666,
-      "recall": 0.8,
-      "f1": 0.7272727272727273
+      "recall": 0.3404255319148936,
+      "f1": 0.4507042253521127
     },
     "projects": {
       "correct": 0,
@@ -62,15 +62,15 @@
       "f1": 0.3333333333333333
     },
     "skills": {
-      "correct": 44,
-      "missing": 6,
+      "correct": 48,
+      "missing": 22,
       "incorrect": 0,
-      "unexpected": 162,
-      "expected_facts": 50,
+      "unexpected": 158,
+      "expected_facts": 70,
       "predicted_facts": 206,
-      "precision": 0.21359223300970873,
-      "recall": 0.88,
-      "f1": 0.34375
+      "precision": 0.23300970873786409,
+      "recall": 0.6857142857142857,
+      "f1": 0.34782608695652173
     },
     "languages": {
       "correct": 0,
@@ -110,7 +110,7 @@
     {
       "path": "personal_information.location",
       "result": "incorrect",
-      "expected": "Arlington, VA, United States",
+      "expected": "2847 Columbia Pike, Apt 412, Arlington, VA 22204",
       "actual": "Arlington, VA 22204"
     },
     {
@@ -122,8 +122,50 @@
     {
       "path": "work_experience[0->0].location",
       "result": "incorrect",
-      "expected": "Washington",
+      "expected": "245 Murray Lane SW, Washington, DC 20528",
       "actual": "Washington, DC 20528"
+    },
+    {
+      "path": "work_experience[0->0].skills[reference:0]",
+      "result": "missing",
+      "expected": "Random Forest",
+      "actual": null
+    },
+    {
+      "path": "work_experience[0->0].skills[reference:1]",
+      "result": "missing",
+      "expected": "XGBoost",
+      "actual": null
+    },
+    {
+      "path": "work_experience[0->0].skills[reference:2]",
+      "result": "missing",
+      "expected": "deep autoencoders",
+      "actual": null
+    },
+    {
+      "path": "work_experience[0->0].skills[reference:3]",
+      "result": "missing",
+      "expected": "graph neural network",
+      "actual": null
+    },
+    {
+      "path": "work_experience[0->0].skills[reference:4]",
+      "result": "missing",
+      "expected": "Hadoop",
+      "actual": null
+    },
+    {
+      "path": "work_experience[0->0].skills[reference:5]",
+      "result": "missing",
+      "expected": "AWS GovCloud",
+      "actual": null
+    },
+    {
+      "path": "work_experience[0->0].skills[reference:6]",
+      "result": "missing",
+      "expected": "Kubeflow",
+      "actual": null
     },
     {
       "path": "work_experience[1->1].client",
@@ -134,8 +176,44 @@
     {
       "path": "work_experience[1->1].location",
       "result": "incorrect",
-      "expected": "Fort Meade",
+      "expected": "9800 Savage Road, Fort Meade, MD 20755",
       "actual": "Fort Meade, MD 20755"
+    },
+    {
+      "path": "work_experience[1->1].skills[reference:0]",
+      "result": "missing",
+      "expected": "Apache Spark",
+      "actual": null
+    },
+    {
+      "path": "work_experience[1->1].skills[reference:1]",
+      "result": "missing",
+      "expected": "Python",
+      "actual": null
+    },
+    {
+      "path": "work_experience[1->1].skills[reference:2]",
+      "result": "missing",
+      "expected": "D3.js",
+      "actual": null
+    },
+    {
+      "path": "work_experience[1->1].skills[reference:3]",
+      "result": "missing",
+      "expected": "Kibana",
+      "actual": null
+    },
+    {
+      "path": "work_experience[1->1].skills[reference:4]",
+      "result": "missing",
+      "expected": "JWICS",
+      "actual": null
+    },
+    {
+      "path": "work_experience[1->1].skills[reference:5]",
+      "result": "missing",
+      "expected": "NSANet",
+      "actual": null
     },
     {
       "path": "work_experience[2->2].client",
@@ -146,8 +224,26 @@
     {
       "path": "work_experience[2->2].location",
       "result": "incorrect",
-      "expected": "Suitland",
+      "expected": "4600 Silver Hill Road, Suitland, MD 20746",
       "actual": "Suitland, MD 20746"
+    },
+    {
+      "path": "work_experience[2->2].skills[reference:0]",
+      "result": "missing",
+      "expected": "R",
+      "actual": null
+    },
+    {
+      "path": "work_experience[2->2].skills[reference:1]",
+      "result": "missing",
+      "expected": "ceslink",
+      "actual": null
+    },
+    {
+      "path": "work_experience[2->2].skills[reference:2]",
+      "result": "missing",
+      "expected": "saepy",
+      "actual": null
     },
     {
       "path": "work_experience[3->3].client",
@@ -158,8 +254,74 @@
     {
       "path": "work_experience[3->3].location",
       "result": "incorrect",
-      "expected": "Washington",
+      "expected": "Nebraska Avenue Complex, Washington, DC 20528",
       "actual": "Washington, DC 20528"
+    },
+    {
+      "path": "work_experience[3->3].skills[reference:0]",
+      "result": "missing",
+      "expected": "SQL",
+      "actual": null
+    },
+    {
+      "path": "work_experience[3->3].skills[reference:1]",
+      "result": "missing",
+      "expected": "Python",
+      "actual": null
+    },
+    {
+      "path": "work_experience[3->3].skills[reference:2]",
+      "result": "missing",
+      "expected": "HSIN",
+      "actual": null
+    },
+    {
+      "path": "work_experience[3->3].skills[reference:3]",
+      "result": "missing",
+      "expected": "Guardian",
+      "actual": null
+    },
+    {
+      "path": "work_experience[3->3].skills[reference:4]",
+      "result": "missing",
+      "expected": "eGuardian",
+      "actual": null
+    },
+    {
+      "path": "work_experience[3->3].skills[reference:5]",
+      "result": "missing",
+      "expected": "ArcGIS",
+      "actual": null
+    },
+    {
+      "path": "work_experience[3->3].skills[reference:6]",
+      "result": "missing",
+      "expected": "geopandas",
+      "actual": null
+    },
+    {
+      "path": "work_experience[3->3].skills[reference:7]",
+      "result": "missing",
+      "expected": "ARIMA",
+      "actual": null
+    },
+    {
+      "path": "work_experience[3->3].skills[reference:8]",
+      "result": "missing",
+      "expected": "Prophet",
+      "actual": null
+    },
+    {
+      "path": "work_experience[3->3].skills[reference:9]",
+      "result": "missing",
+      "expected": "SIPR",
+      "actual": null
+    },
+    {
+      "path": "work_experience[3->3].skills[reference:10]",
+      "result": "missing",
+      "expected": "JWICS",
+      "actual": null
     },
     {
       "path": "education[0->0].dates.end",
@@ -216,1009 +378,1081 @@
       "actual": "Howard University, Washington, DC"
     },
     {
-      "path": "skills[2->2].proficiency.maximum",
+      "path": "skills[0->0].proficiency.maximum",
       "result": "unexpected",
       "expected": null,
       "actual": 1.0
     },
     {
-      "path": "skills[2->2].proficiency.type",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "numeric"
-    },
-    {
-      "path": "skills[2->2].proficiency.value",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[3->3].proficiency.maximum",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[3->3].proficiency.type",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "numeric"
-    },
-    {
-      "path": "skills[3->3].proficiency.value",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[4->4].proficiency.maximum",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[4->4].proficiency.type",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "numeric"
-    },
-    {
-      "path": "skills[4->4].proficiency.value",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[5->5].proficiency.maximum",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[5->5].proficiency.type",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "numeric"
-    },
-    {
-      "path": "skills[5->5].proficiency.value",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[6->6].proficiency.maximum",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[6->6].proficiency.type",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "numeric"
-    },
-    {
-      "path": "skills[6->6].proficiency.value",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[9->9].proficiency.maximum",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[9->9].proficiency.type",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "numeric"
-    },
-    {
-      "path": "skills[9->9].proficiency.value",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[10->10].proficiency.maximum",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[10->10].proficiency.type",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "numeric"
-    },
-    {
-      "path": "skills[10->10].proficiency.value",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[11->11].proficiency.maximum",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[11->11].proficiency.type",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "numeric"
-    },
-    {
-      "path": "skills[11->11].proficiency.value",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[12->12].proficiency.maximum",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[12->12].proficiency.type",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "numeric"
-    },
-    {
-      "path": "skills[12->12].proficiency.value",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[13->13].proficiency.maximum",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[13->13].proficiency.type",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "numeric"
-    },
-    {
-      "path": "skills[13->13].proficiency.value",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[14->14].proficiency.maximum",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[14->14].proficiency.type",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "numeric"
-    },
-    {
-      "path": "skills[14->14].proficiency.value",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[15->15].proficiency.maximum",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[15->15].proficiency.type",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "numeric"
-    },
-    {
-      "path": "skills[15->15].proficiency.value",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[16->16].proficiency.maximum",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[16->16].proficiency.type",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "numeric"
-    },
-    {
-      "path": "skills[16->16].proficiency.value",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[17->17].proficiency.maximum",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[17->17].proficiency.type",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "numeric"
-    },
-    {
-      "path": "skills[17->17].proficiency.value",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[18->18].proficiency.maximum",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[18->18].proficiency.type",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "numeric"
-    },
-    {
-      "path": "skills[18->18].proficiency.value",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[19->19].proficiency.maximum",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[19->19].proficiency.type",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "numeric"
-    },
-    {
-      "path": "skills[19->19].proficiency.value",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[21->21].proficiency.maximum",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[21->21].proficiency.type",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "numeric"
-    },
-    {
-      "path": "skills[21->21].proficiency.value",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[22->22].proficiency.maximum",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[22->22].proficiency.type",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "numeric"
-    },
-    {
-      "path": "skills[22->22].proficiency.value",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[23->23].proficiency.maximum",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[23->23].proficiency.type",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "numeric"
-    },
-    {
-      "path": "skills[23->23].proficiency.value",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[24->24].proficiency.maximum",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[24->24].proficiency.type",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "numeric"
-    },
-    {
-      "path": "skills[24->24].proficiency.value",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[25->25].proficiency.maximum",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[25->25].proficiency.type",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "numeric"
-    },
-    {
-      "path": "skills[25->25].proficiency.value",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[26->26].proficiency.maximum",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[26->26].proficiency.type",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "numeric"
-    },
-    {
-      "path": "skills[26->26].proficiency.value",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[27->27].proficiency.maximum",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[27->27].proficiency.type",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "numeric"
-    },
-    {
-      "path": "skills[27->27].proficiency.value",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[28->28].proficiency.maximum",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[28->28].proficiency.type",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "numeric"
-    },
-    {
-      "path": "skills[28->28].proficiency.value",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[29->29].proficiency.maximum",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[29->29].proficiency.type",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "numeric"
-    },
-    {
-      "path": "skills[29->29].proficiency.value",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[30->30].proficiency.maximum",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[30->30].proficiency.type",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "numeric"
-    },
-    {
-      "path": "skills[30->30].proficiency.value",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[31->31].proficiency.maximum",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[31->31].proficiency.type",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "numeric"
-    },
-    {
-      "path": "skills[31->31].proficiency.value",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[32->32].proficiency.maximum",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[32->32].proficiency.type",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "numeric"
-    },
-    {
-      "path": "skills[32->32].proficiency.value",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[33->33].proficiency.maximum",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[33->33].proficiency.type",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "numeric"
-    },
-    {
-      "path": "skills[33->33].proficiency.value",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[34->34].proficiency.maximum",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[34->34].proficiency.type",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "numeric"
-    },
-    {
-      "path": "skills[34->34].proficiency.value",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[35->35].proficiency.maximum",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[35->35].proficiency.type",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "numeric"
-    },
-    {
-      "path": "skills[35->35].proficiency.value",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[36->36].proficiency.maximum",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[36->36].proficiency.type",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "numeric"
-    },
-    {
-      "path": "skills[36->36].proficiency.value",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[37->37].proficiency.maximum",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[37->37].proficiency.type",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "numeric"
-    },
-    {
-      "path": "skills[37->37].proficiency.value",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[38->38].proficiency.maximum",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[38->38].proficiency.type",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "numeric"
-    },
-    {
-      "path": "skills[38->38].proficiency.value",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[39->39].proficiency.maximum",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[39->39].proficiency.type",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "numeric"
-    },
-    {
-      "path": "skills[39->39].proficiency.value",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[40->40].proficiency.maximum",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[40->40].proficiency.type",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "numeric"
-    },
-    {
-      "path": "skills[40->40].proficiency.value",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[41->41].proficiency.maximum",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[41->41].proficiency.type",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "numeric"
-    },
-    {
-      "path": "skills[41->41].proficiency.value",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[42->42].proficiency.maximum",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[42->42].proficiency.type",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "numeric"
-    },
-    {
-      "path": "skills[42->42].proficiency.value",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[43->43].proficiency.maximum",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[43->43].proficiency.type",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "numeric"
-    },
-    {
-      "path": "skills[43->43].proficiency.value",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[44->44].proficiency.maximum",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[44->44].proficiency.type",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "numeric"
-    },
-    {
-      "path": "skills[44->44].proficiency.value",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[45->45].proficiency.maximum",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[45->45].proficiency.type",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "numeric"
-    },
-    {
-      "path": "skills[45->45].proficiency.value",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[46->46].proficiency.maximum",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[46->46].proficiency.type",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "numeric"
-    },
-    {
-      "path": "skills[46->46].proficiency.value",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[47->47].proficiency.maximum",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[47->47].proficiency.type",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "numeric"
-    },
-    {
-      "path": "skills[47->47].proficiency.value",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[48->48].proficiency.maximum",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[48->48].proficiency.type",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "numeric"
-    },
-    {
-      "path": "skills[48->48].proficiency.value",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[reference:0].name",
-      "result": "missing",
-      "expected": "Python (NumPy, pandas, scikit-learn, PyTorch, TensorFlow)",
-      "actual": null
-    },
-    {
-      "path": "skills[reference:1].name",
-      "result": "missing",
-      "expected": "R (tidyverse, Stan, caret)",
-      "actual": null
-    },
-    {
-      "path": "skills[reference:7].name",
-      "result": "missing",
-      "expected": "Deep Learning (CNNs, RNNs, Transformers, GANs, Autoencoders)",
-      "actual": null
-    },
-    {
-      "path": "skills[reference:8].name",
-      "result": "missing",
-      "expected": "NLP (BERT, GPT fine-tuning)",
-      "actual": null
-    },
-    {
-      "path": "skills[reference:20].name",
-      "result": "missing",
-      "expected": "AWS GovCloud (SageMaker, EMR, Glue, Redshift)",
-      "actual": null
-    },
-    {
-      "path": "skills[reference:49].name",
-      "result": "missing",
-      "expected": "Xkeyscore (read-only analytical access)",
-      "actual": null
-    },
-    {
-      "path": "skills[prediction:0].name",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "Python"
-    },
-    {
-      "path": "skills[prediction:0].proficiency.maximum",
-      "result": "unexpected",
-      "expected": null,
-      "actual": 1.0
-    },
-    {
-      "path": "skills[prediction:0].proficiency.text",
+      "path": "skills[0->0].proficiency.text",
       "result": "unexpected",
       "expected": null,
       "actual": "NumPy, pandas, scikit-learn, PyTorch, TensorFlow"
     },
     {
-      "path": "skills[prediction:0].proficiency.type",
+      "path": "skills[0->0].proficiency.type",
       "result": "unexpected",
       "expected": null,
       "actual": "numeric"
     },
     {
-      "path": "skills[prediction:0].proficiency.value",
+      "path": "skills[0->0].proficiency.value",
       "result": "unexpected",
       "expected": null,
       "actual": 1.0
     },
     {
-      "path": "skills[prediction:1].name",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "R"
-    },
-    {
-      "path": "skills[prediction:1].proficiency.maximum",
+      "path": "skills[6->1].proficiency.maximum",
       "result": "unexpected",
       "expected": null,
       "actual": 1.0
     },
     {
-      "path": "skills[prediction:1].proficiency.text",
+      "path": "skills[6->1].proficiency.text",
       "result": "unexpected",
       "expected": null,
       "actual": "tidyverse, Stan, caret"
     },
     {
-      "path": "skills[prediction:1].proficiency.type",
+      "path": "skills[6->1].proficiency.type",
       "result": "unexpected",
       "expected": null,
       "actual": "numeric"
     },
     {
-      "path": "skills[prediction:1].proficiency.value",
+      "path": "skills[6->1].proficiency.value",
       "result": "unexpected",
       "expected": null,
       "actual": 1.0
     },
     {
-      "path": "skills[prediction:7].name",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "Deep Learning"
-    },
-    {
-      "path": "skills[prediction:7].proficiency.maximum",
+      "path": "skills[10->2].proficiency.maximum",
       "result": "unexpected",
       "expected": null,
       "actual": 1.0
     },
     {
-      "path": "skills[prediction:7].proficiency.text",
+      "path": "skills[10->2].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[10->2].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[11->3].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[11->3].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[11->3].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[12->4].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[12->4].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[12->4].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[13->5].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[13->5].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[13->5].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[14->6].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[14->6].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[14->6].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[15->7].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[15->7].proficiency.text",
       "result": "unexpected",
       "expected": null,
       "actual": "CNNs, RNNs, Transformers, GANs, Autoencoders"
     },
     {
-      "path": "skills[prediction:7].proficiency.type",
+      "path": "skills[15->7].proficiency.type",
       "result": "unexpected",
       "expected": null,
       "actual": "numeric"
     },
     {
-      "path": "skills[prediction:7].proficiency.value",
+      "path": "skills[15->7].proficiency.value",
       "result": "unexpected",
       "expected": null,
       "actual": 1.0
     },
     {
-      "path": "skills[prediction:8].name",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "NLP"
-    },
-    {
-      "path": "skills[prediction:8].proficiency.maximum",
+      "path": "skills[21->8].proficiency.maximum",
       "result": "unexpected",
       "expected": null,
       "actual": 1.0
     },
     {
-      "path": "skills[prediction:8].proficiency.text",
+      "path": "skills[21->8].proficiency.text",
       "result": "unexpected",
       "expected": null,
       "actual": "BERT, GPT fine-tuning"
     },
     {
-      "path": "skills[prediction:8].proficiency.type",
+      "path": "skills[21->8].proficiency.type",
       "result": "unexpected",
       "expected": null,
       "actual": "numeric"
     },
     {
-      "path": "skills[prediction:8].proficiency.value",
+      "path": "skills[21->8].proficiency.value",
       "result": "unexpected",
       "expected": null,
       "actual": 1.0
     },
     {
-      "path": "skills[prediction:20].name",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "AWS GovCloud"
-    },
-    {
-      "path": "skills[prediction:20].proficiency.maximum",
+      "path": "skills[24->9].proficiency.maximum",
       "result": "unexpected",
       "expected": null,
       "actual": 1.0
     },
     {
-      "path": "skills[prediction:20].proficiency.text",
+      "path": "skills[24->9].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[24->9].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[25->10].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[25->10].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[25->10].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[26->11].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[26->11].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[26->11].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[27->12].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[27->12].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[27->12].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[28->13].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[28->13].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[28->13].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[29->14].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[29->14].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[29->14].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[32->16].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[32->16].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[32->16].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[33->17].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[33->17].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[33->17].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[34->18].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[34->18].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[34->18].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[35->19].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[35->19].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[35->19].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[36->20].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[36->20].proficiency.text",
       "result": "unexpected",
       "expected": null,
       "actual": "SageMaker, EMR, Glue, Redshift"
     },
     {
-      "path": "skills[prediction:20].proficiency.type",
+      "path": "skills[36->20].proficiency.type",
       "result": "unexpected",
       "expected": null,
       "actual": "numeric"
     },
     {
-      "path": "skills[prediction:20].proficiency.value",
+      "path": "skills[36->20].proficiency.value",
       "result": "unexpected",
       "expected": null,
       "actual": 1.0
     },
     {
-      "path": "skills[prediction:49].name",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "Xkeyscore"
-    },
-    {
-      "path": "skills[prediction:49].proficiency.maximum",
+      "path": "skills[40->21].proficiency.maximum",
       "result": "unexpected",
       "expected": null,
       "actual": 1.0
     },
     {
-      "path": "skills[prediction:49].proficiency.text",
+      "path": "skills[40->21].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[40->21].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[41->22].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[41->22].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[41->22].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[42->23].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[42->23].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[42->23].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[43->24].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[43->24].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[43->24].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[44->25].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[44->25].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[44->25].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[45->26].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[45->26].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[45->26].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[46->27].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[46->27].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[46->27].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[47->28].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[47->28].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[47->28].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[48->29].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[48->29].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[48->29].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[49->30].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[49->30].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[49->30].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[50->31].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[50->31].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[50->31].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[51->32].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[51->32].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[51->32].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[52->33].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[52->33].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[52->33].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[53->34].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[53->34].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[53->34].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[54->35].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[54->35].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[54->35].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[55->36].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[55->36].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[55->36].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[56->37].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[56->37].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[56->37].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[57->38].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[57->38].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[57->38].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[58->39].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[58->39].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[58->39].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[59->40].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[59->40].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[59->40].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[60->41].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[60->41].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[60->41].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[61->42].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[61->42].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[61->42].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[62->43].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[62->43].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[62->43].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[65->45].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[65->45].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[65->45].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[66->46].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[66->46].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[66->46].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[67->47].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[67->47].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[67->47].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[68->48].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[68->48].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[68->48].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[69->49].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[69->49].proficiency.text",
       "result": "unexpected",
       "expected": null,
       "actual": "read-only analytical access"
     },
     {
-      "path": "skills[prediction:49].proficiency.type",
+      "path": "skills[69->49].proficiency.type",
       "result": "unexpected",
       "expected": null,
       "actual": "numeric"
     },
     {
-      "path": "skills[prediction:49].proficiency.value",
+      "path": "skills[69->49].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[reference:1].name",
+      "result": "missing",
+      "expected": "NumPy",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:2].name",
+      "result": "missing",
+      "expected": "pandas",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:3].name",
+      "result": "missing",
+      "expected": "scikit-learn",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:4].name",
+      "result": "missing",
+      "expected": "PyTorch",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:5].name",
+      "result": "missing",
+      "expected": "TensorFlow",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:7].name",
+      "result": "missing",
+      "expected": "tidyverse",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:8].name",
+      "result": "missing",
+      "expected": "Stan",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:9].name",
+      "result": "missing",
+      "expected": "caret",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:16].name",
+      "result": "missing",
+      "expected": "CNNs",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:17].name",
+      "result": "missing",
+      "expected": "RNNs",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:18].name",
+      "result": "missing",
+      "expected": "Transformers",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:19].name",
+      "result": "missing",
+      "expected": "GANs",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:20].name",
+      "result": "missing",
+      "expected": "Autoencoders",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:22].name",
+      "result": "missing",
+      "expected": "BERT",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:23].name",
+      "result": "missing",
+      "expected": "GPT fine-tuning",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:30].name",
+      "result": "missing",
+      "expected": "Hadoop",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:31].name",
+      "result": "missing",
+      "expected": "HDFS",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:37].name",
+      "result": "missing",
+      "expected": "SageMaker",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:38].name",
+      "result": "missing",
+      "expected": "EMR",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:39].name",
+      "result": "missing",
+      "expected": "Glue",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:63].name",
+      "result": "missing",
+      "expected": "Snort",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:64].name",
+      "result": "missing",
+      "expected": "Suricata",
+      "actual": null
+    },
+    {
+      "path": "skills[prediction:15].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Hadoop/HDFS"
+    },
+    {
+      "path": "skills[prediction:15].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[prediction:15].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[prediction:15].proficiency.value",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[prediction:44].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Snort/Suricata"
+    },
+    {
+      "path": "skills[prediction:44].proficiency.maximum",
+      "result": "unexpected",
+      "expected": null,
+      "actual": 1.0
+    },
+    {
+      "path": "skills[prediction:44].proficiency.type",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "numeric"
+    },
+    {
+      "path": "skills[prediction:44].proficiency.value",
       "result": "unexpected",
       "expected": null,
       "actual": 1.0
@@ -1383,6 +1617,12 @@
     "status": "pending",
     "reference": [
       {
+        "path": "personal_information.details",
+        "content": [
+          "Citizenship: United States"
+        ]
+      },
+      {
         "path": "summary",
         "content": "Senior Data Scientist with 12 years of progressive federal experience in statistical modeling, machine learning, and cybersecurity analytics. Demonstrated expertise in designing and deploying large-scale data infrastructure supporting national security missions. Proven track record of leading cross-agency analytical initiatives, mentoring junior data scientists, and translating complex analytical findings into actionable intelligence for senior leadership. Skilled in Python, R, Spark, and cloud-based ML platforms with extensive experience processing classified datasets at scale. Holds active Top Secret/SCI clearance with CI polygraph."
       },
@@ -1473,6 +1713,18 @@
           "Magna Cum Laude",
           "Minor: Computer Science",
           "Honors: Dean’s List (all semesters), Pi Mu Epsilon Mathematics Honor Society, Ronald E. McNair Scholar"
+        ]
+      },
+      {
+        "path": "skills[50].details",
+        "content": [
+          "Also listed as Redshift under AWS GovCloud."
+        ]
+      },
+      {
+        "path": "skills[69].details",
+        "content": [
+          "read-only analytical access"
         ]
       },
       {

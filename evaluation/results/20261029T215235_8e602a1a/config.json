@@ -10,7 +10,7 @@
     "normalization.py": "c58862db38b4abae6018feeecd9a8479f98ca7471bc2c6591434ad04051e60e3"
   },
   "schema_sha256": "c2bb745a0573163776c170a258c2b3d6cf3ab352f6dbaeeb99c6991d15a1d2b3",
-  "evaluated_at_utc": "2026-10-30T18:47:50.310792+00:00",
+  "evaluated_at_utc": "2026-10-30T19:24:15.616477+00:00",
   "provenance_policy": "empty",
   "references": {
     "CV001": {
@@ -19,99 +19,99 @@
     },
     "CV002": {
       "path": "data\\references\\CV002.json",
-      "sha256": "765bb7a786db39d7ac881e35dfc7ef822cc7736df79736da6a9e331ff606d483"
+      "sha256": "75da1aa0be8c8d4a29633c087532caa12a9f0f9a1d5d8a9c8fc54bbb721b78af"
     },
     "CV003": {
       "path": "data\\references\\CV003.json",
-      "sha256": "d22a9ede92ab9e87aa068a11ce4460371161e6f598367e9e2e6f4703a6cac08e"
+      "sha256": "b81529890f4dd7e84a3b0af9251aa86127f3755b6a09365f770e78af49151a59"
     },
     "CV004": {
       "path": "data\\references\\CV004.json",
-      "sha256": "4a165161440b8e834efbcdfda7bfc38c72029c685d013ce83728009c0688528d"
+      "sha256": "c2a2cf8a1fe9ebe745a4f27cc431fce452188ea43fa848c1d21a3d5fd92dd4ff"
     },
     "CV005": {
       "path": "data\\references\\CV005.json",
-      "sha256": "be3de56b012d516ff3ba94e9cb8946728897ada7328273d5d27b3f6164b435c6"
+      "sha256": "b93a83bfdfae8f40f76d59be36860ef3dae688cd7856522a9714cb804e0547bb"
     },
     "CV006": {
       "path": "data\\references\\CV006.json",
-      "sha256": "d1b6737cd9692c1925cc61366c208c7fff9a450d66b64859e7dc48a78f7f02ea"
+      "sha256": "d22d2a8038e86a5ef1b06f73ed28e0e8871294bd8a2f7c53a04c2ab515822b93"
     },
     "CV007": {
       "path": "data\\references\\CV007.json",
-      "sha256": "77e4374cb91c66a95ded27aa27647c585a8f5e43189d35d1693b083d1c95b5c4"
+      "sha256": "5dd5451f87cab1e559293adc90a4dd9b601ecf57478f41a5cfb7d422fe795e07"
     },
     "CV008": {
       "path": "data\\references\\CV008.json",
-      "sha256": "40e50a82c2c8453ec7ab9c72b907f5134cc56d6cedd6dd5c845c8f2d7a58e873"
+      "sha256": "b6841f63c9936702ac0a87d29540b0fcb6ac136f5ed9520b646d0bd4c102af98"
     },
     "CV009": {
       "path": "data\\references\\CV009.json",
-      "sha256": "d98ccec93fe5c93a551cea760cc9903fe56920928f3c03bd429413940bd5dd5c"
+      "sha256": "8936b929ba754342c96b32d5c19bdf46fc620518b576fb05f6fa10a5b65b78af"
     },
     "CV010": {
       "path": "data\\references\\CV010.json",
-      "sha256": "e4494a4e58ec758ceb9026cd4f62b1b539cca5c94a33ee83c2080b386e95ea3a"
+      "sha256": "1c2d9443616896bc599af0820201e61d0c97a87ba1ab20484a4aa50d60cfd945"
     },
     "CV011": {
       "path": "data\\references\\CV011.json",
-      "sha256": "16204d4e5bcfebe8427fed643f37defde863479c50538fb4fa35dbf010e5401b"
+      "sha256": "b15db35b605242e963c8ff0d20f7ab03e853cd3076d0db6afd4a79e88939f17e"
     },
     "CV012": {
       "path": "data\\references\\CV012.json",
-      "sha256": "9e80844367c84a778b07309036f957d41e05d3e79c192fd0880acf7c7cbf0739"
+      "sha256": "fa38ca6a4e9e7478109f6eae841c4d187f7689df6b1ce523cdd7a1598493b0e6"
     },
     "CV017": {
       "path": "data\\references\\CV017.json",
-      "sha256": "3dab3852e90b4c28c477cb43bf707516b1c518ef9f861309634393c4dc42c091"
+      "sha256": "49453a549d7c63e79dfd61f30390a227cefd52960443af2e4c96e594260e6279"
     },
     "CV018": {
       "path": "data\\references\\CV018.json",
-      "sha256": "3dab3852e90b4c28c477cb43bf707516b1c518ef9f861309634393c4dc42c091"
+      "sha256": "49453a549d7c63e79dfd61f30390a227cefd52960443af2e4c96e594260e6279"
     },
     "CV019": {
       "path": "data\\references\\CV019.json",
-      "sha256": "1ec7ffd08287be73e6df6877833c0ccdb33a382146f178c9061818d7ff5a0157"
+      "sha256": "a4b9e155d3746c98dacdf537b601ca9fba5dfb18d53fb84a5108d2059549dc6f"
     },
     "CV020": {
       "path": "data\\references\\CV020.json",
-      "sha256": "4e3cd602138c6538870f8d63afdccfeac63837d858f188bbc611804056e5b7d1"
+      "sha256": "dcd428ff4309f71fab96fa6f48e3409ab5a34e9e0e8316eef3e321caca04f699"
     },
     "CV021": {
       "path": "data\\references\\CV021.json",
-      "sha256": "4e3cd602138c6538870f8d63afdccfeac63837d858f188bbc611804056e5b7d1"
+      "sha256": "dcd428ff4309f71fab96fa6f48e3409ab5a34e9e0e8316eef3e321caca04f699"
     },
     "CV022": {
       "path": "data\\references\\CV022.json",
-      "sha256": "4e3cd602138c6538870f8d63afdccfeac63837d858f188bbc611804056e5b7d1"
+      "sha256": "dcd428ff4309f71fab96fa6f48e3409ab5a34e9e0e8316eef3e321caca04f699"
     },
     "CV023": {
       "path": "data\\references\\CV023.json",
-      "sha256": "4e3cd602138c6538870f8d63afdccfeac63837d858f188bbc611804056e5b7d1"
+      "sha256": "dcd428ff4309f71fab96fa6f48e3409ab5a34e9e0e8316eef3e321caca04f699"
     },
     "CV024": {
       "path": "data\\references\\CV024.json",
-      "sha256": "4e3cd602138c6538870f8d63afdccfeac63837d858f188bbc611804056e5b7d1"
+      "sha256": "dcd428ff4309f71fab96fa6f48e3409ab5a34e9e0e8316eef3e321caca04f699"
     },
     "CV025": {
       "path": "data\\references\\CV025.json",
-      "sha256": "bbc83428a769512d03708e92c023d53d9c4d2ae576ebfc97eb3f8ad00f85ff37"
+      "sha256": "7d8dae18cb31e83ca2d2fb776df0e50f50aa13f39ca801226362a114be3797a3"
     },
     "CV026": {
       "path": "data\\references\\CV026.json",
-      "sha256": "cccfe775ad2fc0cacc5ee6284bf69151094d20b4aa51fc7e2f186d6445bc9eac"
+      "sha256": "7b6f5905c80ad73de523d21463dd4bafe139a0d9b28e2810744dd78489a15490"
     },
     "CV027": {
       "path": "data\\references\\CV027.json",
-      "sha256": "7040d6594e6d10e74ddca4bb61c0d5beb34b7b0305abe8e52aedf58dcbe14244"
+      "sha256": "e247f5ae44596555399e62cdb0dfb0231ad5e1097e35f3a193ad11e55ec4bcb3"
     },
     "CV028": {
       "path": "data\\references\\CV028.json",
-      "sha256": "e33b8d773bf5fdccc86981d092d4d162852122101f74dbcb111f8a14e1648bd7"
+      "sha256": "cbc1ded9d109d929551e08f7765c87005a57e97b8ab782b2c60f6d4e66435bd4"
     },
     "CV029": {
       "path": "data\\references\\CV029.json",
-      "sha256": "877c724001536dccde89b90f5dc68d0049995b21d23be1d194ca8bff97e2564e"
+      "sha256": "8909b96d15700d799652111be0bb09b21f4134341dbb7c2bf1c2b8595d2e26e0"
     },
     "CV030": {
       "path": "data\\references\\CV030.json",
@@ -119,11 +119,11 @@
     },
     "CV031": {
       "path": "data\\references\\CV031.json",
-      "sha256": "372f043bf14b1e9e20085a33aaa7c304fd75cc6d83c051fda7fbc454f292cbbb"
+      "sha256": "a87162ea4dabad67773a6df5dbea234eec56ff079bcfd78678d9a1dddf1e1176"
     },
     "CV032": {
       "path": "data\\references\\CV032.json",
-      "sha256": "5f63fdd12d6c7b16f924212c924139d689a22f54010d0af4d4fd29c68782c44c"
+      "sha256": "ed5643e3cb7d4dac0261755eed8890dc6c58666b960cb94aa0913f2175e0cd5c"
     },
     "CV033": {
       "path": "data\\references\\CV033.json",
@@ -147,7 +147,7 @@
     },
     "CV038": {
       "path": "data\\references\\CV038.json",
-      "sha256": "f1650c66122ca16165840229db16d0a4d42aa75fe53feb81a8dde6b0a2c334d2"
+      "sha256": "5212a2cf5d7475d36abc2aeb0c053a9546c32a7e719585a1134297acd6304e91"
     }
   },
   "run_description": {

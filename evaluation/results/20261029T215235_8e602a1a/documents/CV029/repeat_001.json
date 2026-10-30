@@ -3,14 +3,14 @@
   "repetition": 1,
   "overall": {
     "correct": 26,
-    "missing": 49,
+    "missing": 54,
     "incorrect": 2,
     "unexpected": 97,
-    "expected_facts": 77,
+    "expected_facts": 82,
     "predicted_facts": 125,
     "precision": 0.208,
-    "recall": 0.33766233766233766,
-    "f1": 0.25742574257425743
+    "recall": 0.3170731707317073,
+    "f1": 0.25120772946859904
   },
   "extraction_status": "completed",
   "prediction_sha256": "1153c1f853f3181a9f57a4f994ec5d4373c8f0a21af773f41fcb4fff05d17ff5",
@@ -30,14 +30,14 @@
     },
     "work_experience": {
       "correct": 15,
-      "missing": 0,
+      "missing": 5,
       "incorrect": 1,
       "unexpected": 46,
-      "expected_facts": 16,
+      "expected_facts": 21,
       "predicted_facts": 62,
       "precision": 0.24193548387096775,
-      "recall": 0.9375,
-      "f1": 0.38461538461538464
+      "recall": 0.7142857142857143,
+      "f1": 0.3614457831325301
     },
     "projects": {
       "correct": 0,
@@ -132,6 +132,12 @@
       "actual": "Melbourne, Sydney, Brisbane, Perth, and Canberra"
     },
     {
+      "path": "work_experience[0->0].skills[reference:0]",
+      "result": "missing",
+      "expected": "UEBA",
+      "actual": null
+    },
+    {
       "path": "work_experience[0->0].skills[prediction:0]",
       "result": "unexpected",
       "expected": null,
@@ -184,6 +190,12 @@
       "result": "unexpected",
       "expected": null,
       "actual": "Melbourne, Sydney, Brisbane, Perth, and Canberra"
+    },
+    {
+      "path": "work_experience[1->1].skills[reference:0]",
+      "result": "missing",
+      "expected": "ISO 27001",
+      "actual": null
     },
     {
       "path": "work_experience[1->1].skills[prediction:0]",
@@ -250,6 +262,12 @@
       "result": "unexpected",
       "expected": null,
       "actual": "NSW and VIC"
+    },
+    {
+      "path": "work_experience[2->2].skills[reference:0]",
+      "result": "missing",
+      "expected": "IPv6",
+      "actual": null
     },
     {
       "path": "work_experience[2->2].skills[prediction:0]",
@@ -334,6 +352,18 @@
       "result": "unexpected",
       "expected": null,
       "actual": "Australia, the US, and Canada"
+    },
+    {
+      "path": "work_experience[3->3].skills[reference:0]",
+      "result": "missing",
+      "expected": "SSO",
+      "actual": null
+    },
+    {
+      "path": "work_experience[3->3].skills[reference:1]",
+      "result": "missing",
+      "expected": "UAM",
+      "actual": null
     },
     {
       "path": "work_experience[3->3].skills[prediction:0]",

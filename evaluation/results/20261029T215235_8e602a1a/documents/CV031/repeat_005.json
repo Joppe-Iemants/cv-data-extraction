@@ -2,15 +2,15 @@
   "document_id": "CV031",
   "repetition": 5,
   "overall": {
-    "correct": 79,
-    "missing": 0,
-    "incorrect": 7,
-    "unexpected": 79,
-    "expected_facts": 86,
+    "correct": 96,
+    "missing": 4,
+    "incorrect": 9,
+    "unexpected": 60,
+    "expected_facts": 109,
     "predicted_facts": 165,
-    "precision": 0.47878787878787876,
-    "recall": 0.9186046511627907,
-    "f1": 0.6294820717131474
+    "precision": 0.5818181818181818,
+    "recall": 0.8807339449541285,
+    "f1": 0.7007299270072993
   },
   "extraction_status": "completed",
   "prediction_sha256": "2adab108cc70f733c791178cd4ef6a45d8a6f931957a8da39ae135151d8913c6",
@@ -30,25 +30,25 @@
     },
     "work_experience": {
       "correct": 9,
-      "missing": 0,
+      "missing": 2,
       "incorrect": 3,
       "unexpected": 3,
-      "expected_facts": 12,
+      "expected_facts": 14,
       "predicted_facts": 15,
       "precision": 0.6,
-      "recall": 0.75,
-      "f1": 0.6666666666666666
+      "recall": 0.6428571428571429,
+      "f1": 0.6206896551724138
     },
     "projects": {
-      "correct": 13,
+      "correct": 29,
       "missing": 0,
       "incorrect": 0,
-      "unexpected": 16,
-      "expected_facts": 13,
+      "unexpected": 0,
+      "expected_facts": 29,
       "predicted_facts": 29,
-      "precision": 0.4482758620689655,
+      "precision": 1.0,
       "recall": 1.0,
-      "f1": 0.6190476190476191
+      "f1": 1.0
     },
     "education": {
       "correct": 8,
@@ -62,15 +62,15 @@
       "f1": 1.0
     },
     "skills": {
-      "correct": 26,
-      "missing": 0,
+      "correct": 25,
+      "missing": 2,
       "incorrect": 0,
-      "unexpected": 52,
-      "expected_facts": 26,
+      "unexpected": 53,
+      "expected_facts": 27,
       "predicted_facts": 78,
-      "precision": 0.3333333333333333,
-      "recall": 1.0,
-      "f1": 0.5
+      "precision": 0.32051282051282054,
+      "recall": 0.9259259259259259,
+      "f1": 0.47619047619047616
     },
     "languages": {
       "correct": 6,
@@ -84,15 +84,15 @@
       "f1": 0.8
     },
     "certifications": {
-      "correct": 10,
+      "correct": 12,
       "missing": 0,
-      "incorrect": 0,
-      "unexpected": 5,
-      "expected_facts": 10,
+      "incorrect": 2,
+      "unexpected": 1,
+      "expected_facts": 14,
       "predicted_facts": 15,
-      "precision": 0.6666666666666666,
-      "recall": 1.0,
-      "f1": 0.8
+      "precision": 0.8,
+      "recall": 0.8571428571428571,
+      "f1": 0.8275862068965517
     },
     "training": {
       "correct": 0,
@@ -150,6 +150,18 @@
       "actual": "Full-time, Senior Full-Stack Engineer"
     },
     {
+      "path": "work_experience[0->0].skills[reference:0]",
+      "result": "missing",
+      "expected": "Kafka",
+      "actual": null
+    },
+    {
+      "path": "work_experience[0->0].skills[reference:1]",
+      "result": "missing",
+      "expected": "Go",
+      "actual": null
+    },
+    {
       "path": "work_experience[1->1].location",
       "result": "unexpected",
       "expected": null,
@@ -166,102 +178,6 @@
       "result": "incorrect",
       "expected": "Web Developer",
       "actual": "Contract, Web Developer"
-    },
-    {
-      "path": "projects[0->0].skills[prediction:0]",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "Go"
-    },
-    {
-      "path": "projects[0->0].skills[prediction:1]",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "WebSocket"
-    },
-    {
-      "path": "projects[0->0].skills[prediction:2]",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "Redis"
-    },
-    {
-      "path": "projects[0->0].skills[prediction:3]",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "CRDTs"
-    },
-    {
-      "path": "projects[1->1].skills[prediction:0]",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "Python"
-    },
-    {
-      "path": "projects[1->1].skills[prediction:1]",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "AWS SDK"
-    },
-    {
-      "path": "projects[1->1].skills[prediction:2]",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "Grafana"
-    },
-    {
-      "path": "projects[1->1].skills[prediction:3]",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "Terraform"
-    },
-    {
-      "path": "projects[2->2].skills[prediction:0]",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "React"
-    },
-    {
-      "path": "projects[2->2].skills[prediction:1]",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "TypeScript"
-    },
-    {
-      "path": "projects[2->2].skills[prediction:2]",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "Storybook"
-    },
-    {
-      "path": "projects[2->2].skills[prediction:3]",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "Rollup"
-    },
-    {
-      "path": "projects[3->3].skills[prediction:0]",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "Next.js"
-    },
-    {
-      "path": "projects[3->3].skills[prediction:1]",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "PostgreSQL"
-    },
-    {
-      "path": "projects[3->3].skills[prediction:2]",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "Stripe"
-    },
-    {
-      "path": "projects[3->3].skills[prediction:3]",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "Vercel"
     },
     {
       "path": "skills[0->0].proficiency.text",
@@ -552,25 +468,43 @@
       "actual": "dots"
     },
     {
-      "path": "skills[25->24].proficiency.text",
+      "path": "skills[26->24].proficiency.text",
       "result": "unexpected",
       "expected": null,
       "actual": "Fluent"
     },
     {
-      "path": "skills[25->24].proficiency.type",
+      "path": "skills[26->24].proficiency.type",
       "result": "unexpected",
       "expected": null,
       "actual": "dots"
     },
     {
-      "path": "skills[24->25].proficiency.text",
+      "path": "skills[reference:24].name",
+      "result": "missing",
+      "expected": "Agile",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:25].name",
+      "result": "missing",
+      "expected": "Scrum",
+      "actual": null
+    },
+    {
+      "path": "skills[prediction:25].name",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Agile/Scrum"
+    },
+    {
+      "path": "skills[prediction:25].proficiency.text",
       "result": "unexpected",
       "expected": null,
       "actual": "Fluent"
     },
     {
-      "path": "skills[24->25].proficiency.type",
+      "path": "skills[prediction:25].proficiency.type",
       "result": "unexpected",
       "expected": null,
       "actual": "dots"
@@ -594,33 +528,21 @@
       "actual": "dots"
     },
     {
-      "path": "certifications[0->0].issuer",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "AWS"
-    },
-    {
       "path": "certifications[1->1].issuer",
       "result": "unexpected",
       "expected": null,
       "actual": "2023"
     },
     {
-      "path": "certifications[2->2].issuer",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "Google Cloud"
-    },
-    {
       "path": "certifications[3->3].issuer",
-      "result": "unexpected",
-      "expected": null,
+      "result": "incorrect",
+      "expected": "HashiCorp",
       "actual": "2020"
     },
     {
       "path": "certifications[4->4].issuer",
-      "result": "unexpected",
-      "expected": null,
+      "result": "incorrect",
+      "expected": "MongoDB",
       "actual": "2019"
     }
   ],
@@ -660,6 +582,18 @@
       "path": "work_experience",
       "reference_index": 2,
       "prediction_index": 2,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    },
+    {
+      "path": "certifications",
+      "reference_index": 3,
+      "prediction_index": 3,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    },
+    {
+      "path": "certifications",
+      "reference_index": 4,
+      "prediction_index": 4,
       "reason": "Ambiguous or non-exact identity alignment; review this pair."
     }
   ],
@@ -774,29 +708,25 @@
       {
         "path": "projects[0].details",
         "content": [
-          "Built a CRDT-based collaborative editing system enabling multiple users to simultaneously edit product descriptions. Handles 10K concurrent sessions with sub-50ms sync latency.",
-          "Go, WebSocket, Redis, CRDTs"
+          "Built a CRDT-based collaborative editing system enabling multiple users to simultaneously edit product descriptions. Handles 10K concurrent sessions with sub-50ms sync latency."
         ]
       },
       {
         "path": "projects[1].details",
         "content": [
-          "Developed an internal tool that analyzes AWS resource usage patterns and recommends right-sizing. Saved the team EUR 180K annually in cloud spend.",
-          "Python, AWS SDK, Grafana, Terraform"
+          "Developed an internal tool that analyzes AWS resource usage patterns and recommends right-sizing. Saved the team EUR 180K annually in cloud spend."
         ]
       },
       {
         "path": "projects[2].details",
         "content": [
-          "Created and maintained a React/TypeScript design system with 60+ components, used by 12 teams. Published on npm with 2K+ weekly downloads.",
-          "React, TypeScript, Storybook, Rollup"
+          "Created and maintained a React/TypeScript design system with 60+ components, used by 12 teams. Published on npm with 2K+ weekly downloads."
         ]
       },
       {
         "path": "projects[3].details",
         "content": [
-          "Led technical redesign of a fashion retailer’s online store, improving page load from 4.2s to 1.1s and boosting conversion by 23%.",
-          "Next.js, PostgreSQL, Stripe, Vercel"
+          "Led technical redesign of a fashion retailer’s online store, improving page load from 4.2s to 1.1s and boosting conversion by 23%."
         ]
       },
       {

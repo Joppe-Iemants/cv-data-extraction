@@ -101,6 +101,9 @@ STAGE_METHODS = {
             "model_id": str,
             "load_in_4bit": bool,
             "max_new_tokens": int
+        },
+        "optional_settings": {
+            "allow_cpu_offload": bool
         }
     }
 }

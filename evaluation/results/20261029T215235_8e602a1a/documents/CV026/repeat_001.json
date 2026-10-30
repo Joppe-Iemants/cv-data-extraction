@@ -2,15 +2,15 @@
   "document_id": "CV026",
   "repetition": 1,
   "overall": {
-    "correct": 29,
-    "missing": 25,
+    "correct": 33,
+    "missing": 31,
     "incorrect": 9,
-    "unexpected": 24,
-    "expected_facts": 63,
+    "unexpected": 20,
+    "expected_facts": 73,
     "predicted_facts": 62,
-    "precision": 0.46774193548387094,
-    "recall": 0.4603174603174603,
-    "f1": 0.464
+    "precision": 0.532258064516129,
+    "recall": 0.4520547945205479,
+    "f1": 0.4888888888888889
   },
   "extraction_status": "completed",
   "prediction_sha256": "292ec38fbd523ac755942388c8d72e66a63b5ca0eb98ee3f604baab346745080",
@@ -30,14 +30,14 @@
     },
     "work_experience": {
       "correct": 13,
-      "missing": 0,
+      "missing": 4,
       "incorrect": 7,
       "unexpected": 16,
-      "expected_facts": 20,
+      "expected_facts": 24,
       "predicted_facts": 36,
       "precision": 0.3611111111111111,
-      "recall": 0.65,
-      "f1": 0.4642857142857143
+      "recall": 0.5416666666666666,
+      "f1": 0.43333333333333335
     },
     "projects": {
       "correct": 0,
@@ -63,14 +63,14 @@
     },
     "skills": {
       "correct": 3,
-      "missing": 20,
+      "missing": 22,
       "incorrect": 0,
       "unexpected": 0,
-      "expected_facts": 23,
+      "expected_facts": 25,
       "predicted_facts": 3,
       "precision": 1.0,
-      "recall": 0.13043478260869565,
-      "f1": 0.23076923076923078
+      "recall": 0.12,
+      "f1": 0.21428571428571427
     },
     "languages": {
       "correct": 0,
@@ -84,15 +84,15 @@
       "f1": null
     },
     "certifications": {
-      "correct": 5,
+      "correct": 9,
       "missing": 0,
       "incorrect": 2,
-      "unexpected": 4,
-      "expected_facts": 7,
+      "unexpected": 0,
+      "expected_facts": 11,
       "predicted_facts": 11,
-      "precision": 0.45454545454545453,
-      "recall": 0.7142857142857143,
-      "f1": 0.5555555555555556
+      "precision": 0.8181818181818182,
+      "recall": 0.8181818181818182,
+      "f1": 0.8181818181818182
     },
     "training": {
       "correct": 0,
@@ -130,6 +130,30 @@
       "result": "incorrect",
       "expected": "U.S. Army, 10th Special Forces Group",
       "actual": "U.S. Army"
+    },
+    {
+      "path": "work_experience[0->0].skills[reference:0]",
+      "result": "missing",
+      "expected": "GATES",
+      "actual": null
+    },
+    {
+      "path": "work_experience[0->0].skills[reference:1]",
+      "result": "missing",
+      "expected": "ICODES",
+      "actual": null
+    },
+    {
+      "path": "work_experience[0->0].skills[reference:2]",
+      "result": "missing",
+      "expected": "SAP",
+      "actual": null
+    },
+    {
+      "path": "work_experience[0->0].skills[reference:3]",
+      "result": "missing",
+      "expected": "GCSS",
+      "actual": null
     },
     {
       "path": "work_experience[0->0].skills[prediction:0]",
@@ -420,10 +444,16 @@
       "actual": null
     },
     {
-      "path": "certifications[0->0].date",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "2023"
+      "path": "skills[reference:23].name",
+      "result": "missing",
+      "expected": "Cross-cultural skills",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:24].name",
+      "result": "missing",
+      "expected": "Inclusion Leadership",
+      "actual": null
     },
     {
       "path": "certifications[0->0].name",
@@ -432,28 +462,10 @@
       "actual": "LSSGB"
     },
     {
-      "path": "certifications[1->1].date",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "2023"
-    },
-    {
       "path": "certifications[1->1].name",
       "result": "incorrect",
       "expected": "PMI-ACP, Agile Certified Practitioner",
       "actual": "PMI-ACP"
-    },
-    {
-      "path": "certifications[2->2].date",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "estimated completion October 2024"
-    },
-    {
-      "path": "certifications[3->3].date",
-      "result": "unexpected",
-      "expected": null,
-      "actual": "Valid expires 2025"
     }
   ],
   "matching_review_required": true,

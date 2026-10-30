@@ -3,14 +3,14 @@
   "repetition": 2,
   "overall": {
     "correct": 5,
-    "missing": 71,
+    "missing": 76,
     "incorrect": 1,
     "unexpected": 1,
-    "expected_facts": 77,
+    "expected_facts": 82,
     "predicted_facts": 7,
     "precision": 0.7142857142857143,
-    "recall": 0.06493506493506493,
-    "f1": 0.11904761904761904
+    "recall": 0.06097560975609756,
+    "f1": 0.11235955056179775
   },
   "extraction_status": "completed",
   "prediction_sha256": "a3b242c7ce3080012fd635c2ddb56d67142a410f3e37527c1427fd1453ad2ba1",
@@ -30,10 +30,10 @@
     },
     "work_experience": {
       "correct": 0,
-      "missing": 16,
+      "missing": 21,
       "incorrect": 0,
       "unexpected": 0,
-      "expected_facts": 16,
+      "expected_facts": 21,
       "predicted_facts": 0,
       "precision": null,
       "recall": 0.0,
@@ -144,6 +144,12 @@
       "actual": null
     },
     {
+      "path": "work_experience[reference:0].skills[reference:0]",
+      "result": "missing",
+      "expected": "UEBA",
+      "actual": null
+    },
+    {
       "path": "work_experience[reference:1].dates.end",
       "result": "missing",
       "expected": "2019",
@@ -165,6 +171,12 @@
       "path": "work_experience[reference:1].role",
       "result": "missing",
       "expected": "Security Team Lead",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:1].skills[reference:0]",
+      "result": "missing",
+      "expected": "ISO 27001",
       "actual": null
     },
     {
@@ -192,6 +204,12 @@
       "actual": null
     },
     {
+      "path": "work_experience[reference:2].skills[reference:0]",
+      "result": "missing",
+      "expected": "IPv6",
+      "actual": null
+    },
+    {
       "path": "work_experience[reference:3].dates.end",
       "result": "missing",
       "expected": "2013",
@@ -213,6 +231,18 @@
       "path": "work_experience[reference:3].role",
       "result": "missing",
       "expected": "Systems Security Analyst",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:3].skills[reference:0]",
+      "result": "missing",
+      "expected": "SSO",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:3].skills[reference:1]",
+      "result": "missing",
+      "expected": "UAM",
       "actual": null
     },
     {
