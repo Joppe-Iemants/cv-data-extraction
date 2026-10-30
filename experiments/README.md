@@ -44,6 +44,8 @@ OR
 pipenv run experiment --config experiments/configs/pdf_text_sorted.json
 
 pipenv run experiment --config experiments/configs/text_baseline.json
+
+pipenv run experiment --config experiments/configs/vision_extraction.json
 ```
 
 ### 3) Evaluate the run
