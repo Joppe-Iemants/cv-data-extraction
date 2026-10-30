@@ -1,0 +1,332 @@
+{
+  "personal_information": {
+    "source_pages": [
+      1
+    ],
+    "full_name": "MAJID AL SUWAIDI",
+    "headline": null,
+    "emails": [
+      "alsuwaidimajid621@icloud.com"
+    ],
+    "phones": [
+      "+971 55 804 571"
+    ],
+    "location": "Dubai",
+    "weblinks": [
+      {
+        "url": "Majid Al Suwaidi | LinkedIn",
+        "platform": null
+      }
+    ],
+    "details": []
+  },
+  "summary": "IT professional with 7+ years in site administration, e-learning, and academic office roles. Duties cover publishing content, building and maintaining pages, and administering Plesk (mail, backups, etc.).  I also oversee the ERP and LMS, including virtual classes, e-exams, admin accounts, training, and exam uploads. I also instruct courses like Intro to CS, Modeling, and Simulation.",
+  "work_experience": [
+    {
+      "source_pages": [
+        1
+      ],
+      "employer": "EMIRCOM, UAE",
+      "role": "HYBRID CONTRACT",
+      "client": null,
+      "dates": {
+        "start": "2022",
+        "end": "Present",
+        "duration": null
+      },
+      "location": null,
+      "details": [
+        "Built a corporate site with Drupal.",
+        "Deployed Canvas and configured it on the firm’s server."
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "employer": "DUBAI POLICE ACADEMY, UAE",
+      "role": "ASSISTANT HEAD OF ICT AND LMS LEAD",
+      "client": null,
+      "dates": {
+        "start": "2022",
+        "end": "Present",
+        "duration": null
+      },
+      "location": null,
+      "details": [
+        "Monitor staff progress.",
+        "Oversight of Canvas and training platform",
+        "Site administration and training on IMAP use.",
+        "Guided faculty to use and connect their official email to ORCID."
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "employer": "DUBAI PHARMACY COLLEGE, UAE",
+      "role": "IT SUPPORT",
+      "client": null,
+      "dates": {
+        "start": "2022",
+        "end": "2022",
+        "duration": null
+      },
+      "location": null,
+      "details": [
+        "Administered the site and trained faculty on the instructor portal.",
+        "E-learning (managed Canvas platform).",
+        "Provided technical help for the college journal, its website, and editorial unit.",
+        "Taught CS courses to Pharmacy students",
+        "Trained faculty to use and connect official email with ORCID"
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "employer": "SKYLINE UNIVERSITY COLLEGE, UAE",
+      "role": "IT SUPPORT",
+      "client": null,
+      "dates": {
+        "start": "2019",
+        "end": "2021",
+        "duration": null
+      },
+      "location": null,
+      "details": [
+        "E-learning (trained staff and students on Canvas; managed platform)",
+        "Website admin (updates + site ops) managed IMAP.",
+        "Administered the ERP and trained staff on usage.",
+        "Taught computer apps and modeling and simulation classes"
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "employer": "SKYLINE UNIVERSITY COLLEGE, UAE",
+      "role": "OFFICE SECRETARY",
+      "client": null,
+      "dates": {
+        "start": "2019",
+        "end": "2021",
+        "duration": null
+      },
+      "location": null,
+      "details": [
+        "Handled office, student services, and admin processes."
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "employer": "AJMAN UNIVERSITY, UAE",
+      "role": "ACADEMIC SECRETARY",
+      "client": null,
+      "dates": {
+        "start": "2018",
+        "end": "2019",
+        "duration": null
+      },
+      "location": null,
+      "details": [
+        "Handled office, student services, and admin processes."
+      ],
+      "skills": []
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "source_pages": [
+        1
+      ],
+      "institution": "AJMAN UNIVERSITY",
+      "qualification": "MSC., INFORMATION SYSTEMS AJMAN UNIVERSITY MSC. IN INFORMATION SYSTEMS.",
+      "dates": {
+        "start": "2016",
+        "end": "2018",
+        "duration": null
+      },
+      "details": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "institution": "AJMAN UNIVERSITY",
+      "qualification": "BSC., COMPUTER SCIENCE AJMAN UNIVERSITY BSc. in Computer Science.",
+      "dates": {
+        "start": "2012",
+        "end": "2016",
+        "duration": null
+      },
+      "details": []
+    }
+  ],
+  "skills": [
+    {
+      "source_pages": [],
+      "name": "Robust analysis ability",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "workplace problem-solving skills",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Practical grasp of OS, software, and coding",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Outstanding troubleshooting and reasoning skills",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "High attention to detail",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Skilled in organizing, time, and prioritization",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Clear communication abilities, covering speaking, writing, and active listening",
+      "proficiency": null,
+      "details": []
+    }
+  ],
+  "languages": [
+    {
+      "source_pages": [],
+      "name": "Arabic",
+      "proficiency": {
+        "text": "native",
+        "type": "numeric",
+        "value": 10.0,
+        "maximum": 10.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "English",
+      "proficiency": {
+        "text": "fluent writing and speaking",
+        "type": "numeric",
+        "value": 10.0,
+        "maximum": 10.0
+      },
+      "details": []
+    }
+  ],
+  "certifications": [
+    {
+      "source_pages": [],
+      "name": "Cisco CCNA",
+      "issuer": null,
+      "date": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "SAP TERP10",
+      "issuer": null,
+      "date": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "CIW Web Design",
+      "issuer": null,
+      "date": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Office Management Certificate",
+      "issuer": null,
+      "date": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "QuickBooks ProAdvisor",
+      "issuer": null,
+      "date": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Online Teaching Certificate, Coursera",
+      "issuer": null,
+      "date": null,
+      "details": []
+    }
+  ],
+  "training": [
+    {
+      "source_pages": [],
+      "name": "training in the use of the Canvas system - Dubai Pharmacy College",
+      "provider": null,
+      "dates": {
+        "start": "2022",
+        "end": "2022",
+        "duration": null
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "training on the use of the Canvas system - Skyline University College",
+      "provider": null,
+      "dates": {
+        "start": "2019",
+        "end": "2021",
+        "duration": null
+      },
+      "details": []
+    }
+  ],
+  "additional_sections": [
+    {
+      "source_pages": [],
+      "heading": "PUBLICATIONS",
+      "text": "PUBLICATIONS\n\n   Distributed Systems Review ICCCEEE19"
+    },
+    {
+      "source_pages": [],
+      "heading": "WORKSHOPS AND CONFERENCES",
+      "text": "WORKSHOPS AND CONFERENCES\n\n   Modern Database Query Optimization at University of Sharjah.\n    Efficient Resource Allocation Methods\n   Novel Approaches to Network Security\n    Scalable Machine Learning Frameworks"
+    },
+    {
+      "source_pages": [],
+      "heading": "CERTIFICATES",
+      "text": "CERTIFICATES\n\n    Cisco CCNA\n   SAP TERP10\n   CIW Web Design\n    Office Management Certificate\n   QuickBooks ProAdvisor\n   Online Teaching Certificate, Coursera"
+    },
+    {
+      "source_pages": [],
+      "heading": "SOFTWARE",
+      "text": "SOFTWARE\n\n  Windows 7, 8, 10, 11, and Fedora.\n  Google Workspace\n  PHP, XSL, XML\n   Drupal."
+    }
+  ]
+}

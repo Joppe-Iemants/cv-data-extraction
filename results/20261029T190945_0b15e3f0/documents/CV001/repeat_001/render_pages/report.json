@@ -1,0 +1,16 @@
+{
+  "name": "render_pages",
+  "method": "render_pdf",
+  "execution_status": "completed",
+  "outcome": "success",
+  "metrics": {
+    "duration_seconds": 0.06625630000053206,
+    "memory": {
+      "enabled": false
+    },
+    "page_count": 2,
+    "dpi": 120,
+    "total_pixels": 2788344
+  },
+  "error": null
+}

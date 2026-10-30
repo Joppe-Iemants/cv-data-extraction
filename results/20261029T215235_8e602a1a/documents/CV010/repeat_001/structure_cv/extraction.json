@@ -1,0 +1,261 @@
+{
+  "personal_information": {
+    "source_pages": [
+      1
+    ],
+    "full_name": "ACHRAF NAJMI",
+    "headline": null,
+    "emails": [
+      "najmi.achraf@gmail.com"
+    ],
+    "phones": [
+      "+212 6 22 90 22 21"
+    ],
+    "location": "Casablanca, Morocco",
+    "weblinks": [
+      {
+        "url": "github.com/NajmiAchraf",
+        "platform": "github"
+      },
+      {
+        "url": "stackoverflow.com/users/12854948",
+        "platform": "stackoverflow"
+      },
+      {
+        "url": "linkedin.com/in/najmiachraf",
+        "platform": "linkedin"
+      }
+    ],
+    "details": [
+      "ELECTRO INFO PHYSICIST"
+    ]
+  },
+  "summary": null,
+  "work_experience": [],
+  "projects": [
+    {
+      "source_pages": [
+        1
+      ],
+      "name": "1337_Piscine",
+      "organization": "UM6P",
+      "client": null,
+      "role": null,
+      "dates": {
+        "start": "7/2021",
+        "end": null,
+        "duration": null
+      },
+      "details": [
+        "One intensive month in UM6P Piscine of 1337 school 42 network"
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "name": "Hydrogeologie (PROJET PRIVÉ)",
+      "organization": "Private",
+      "client": null,
+      "role": null,
+      "dates": {
+        "start": "2/2021",
+        "end": null,
+        "duration": null
+      },
+      "details": [
+        "Groundwater Hydrology"
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "name": "Gmail",
+      "organization": "Private",
+      "client": null,
+      "role": null,
+      "dates": {
+        "start": "9/2020",
+        "end": null,
+        "duration": null
+      },
+      "details": [
+        "CSV Google-mail Sender"
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "name": "MathPy",
+      "organization": "Private",
+      "client": null,
+      "role": null,
+      "dates": {
+        "start": "12/2019",
+        "end": null,
+        "duration": null
+      },
+      "details": [
+        "Modern Scientific Calculator GUI"
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "name": "MathPy",
+      "organization": "Private",
+      "client": null,
+      "role": null,
+      "dates": {
+        "start": "9/2019",
+        "end": null,
+        "duration": null
+      },
+      "details": [
+        "Series: Matter Science Physics",
+        "Course: Electronic"
+      ],
+      "skills": []
+    }
+  ],
+  "education": [
+    {
+      "source_pages": [
+        1
+      ],
+      "institution": "University Hassan II of Casablanca",
+      "qualification": "Bachelor of General Studies (BGS)",
+      "dates": {
+        "start": "6/2019",
+        "end": null,
+        "duration": null
+      },
+      "details": [
+        "Physics Electronic",
+        "Electronic •  Electrical Engineering • < Digital",
+        "l Telecommunication • X Network"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "source_pages": [],
+      "name": "IT Development",
+      "proficiency": null,
+      "details": [
+        "Development",
+        "Maintenance"
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "Python 3",
+      "proficiency": null,
+      "details": [
+        "Language"
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "C",
+      "proficiency": null,
+      "details": [
+        "Language"
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "Data Science",
+      "proficiency": null,
+      "details": [
+        "Data Analysis"
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "Data Analysis",
+      "proficiency": null,
+      "details": [
+        "Data Analysis"
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "Python Libraries",
+      "proficiency": null,
+      "details": [
+        "sympy",
+        "numpy",
+        "matplotlib",
+        "pandas",
+        "tkinter",
+        "pyinstaller",
+        "auto py to exe"
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "Software Programs",
+      "proficiency": null,
+      "details": [
+        "PyCharm",
+        "MD",
+        "CLion",
+        "Terminal",
+        "Proteus",
+        "OS: Windows",
+        "OS: macOS"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "source_pages": [],
+      "name": "French",
+      "proficiency": {
+        "text": "B2",
+        "type": "numeric",
+        "value": 2.0,
+        "maximum": 5.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "English",
+      "proficiency": {
+        "text": "A2",
+        "type": "numeric",
+        "value": 2.0,
+        "maximum": 5.0
+      },
+      "details": []
+    }
+  ],
+  "certifications": [
+    {
+      "source_pages": [],
+      "name": "Developer Certification",
+      "issuer": "freecodecamp.org",
+      "date": "2021",
+      "details": [
+        "Scientific Computing with Python"
+      ]
+    }
+  ],
+  "training": [],
+  "additional_sections": [
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "I am a graduate in Physics Electronic with working experience in research projects. I am always looking for exciting new interdisciplinary projects related to physics.\n\nMost of my contribution to my work is in the field of IT development and maintenance.\n\nI regularly use for my development projects PyCharm and CLion as IDE, and I use for schematic capture and simulation Proteus CAD.\n\nCurrently, I am developing realtime applications with Python, and creating a GUI with tkinter, and extracting from the script ‘file.py‘ an executable file by pyinstaller using auto py to exe.\n\nAmong the dominant activities that I practice is to browse the internet in search of news on tech news, public repos, and trained on all the tutorials that interests me."
+    }
+  ]
+}

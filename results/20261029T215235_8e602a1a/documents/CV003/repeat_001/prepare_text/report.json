@@ -1,0 +1,14 @@
+{
+  "name": "prepare_text",
+  "method": "join_page_text",
+  "execution_status": "completed",
+  "outcome": "success",
+  "metrics": {
+    "duration_seconds": 1.1099997209385037e-05,
+    "memory": {
+      "enabled": false
+    },
+    "character_count": 7033
+  },
+  "error": null
+}

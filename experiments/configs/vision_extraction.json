@@ -20,7 +20,7 @@
       "name": "structure_cv",
       "method": "vlm_structuring",
       "settings": {
-        "model_id": "Qwen/Qwen3-VL-8B-Instruct",
+        "model_id": "Qwen/Qwen3-VL-4B-Instruct",
         "load_in_4bit": true,
         "max_new_tokens": 8192
       }

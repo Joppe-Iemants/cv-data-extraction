@@ -1,0 +1,252 @@
+{
+  "personal_information": {
+    "source_pages": [
+      1
+    ],
+    "full_name": "Doruk Çetin",
+    "headline": null,
+    "emails": [
+      "dcetin@ethz.ch"
+    ],
+    "phones": [],
+    "location": null,
+    "weblinks": [
+      {
+        "url": "dcetin.me",
+        "platform": null
+      },
+      {
+        "url": "github.com/dcetin",
+        "platform": null
+      }
+    ],
+    "details": []
+  },
+  "summary": null,
+  "work_experience": [
+    {
+      "source_pages": [
+        1
+      ],
+      "employer": "ETH Zurich",
+      "role": "Student Research Assistant",
+      "client": null,
+      "dates": {
+        "start": "Summer 2019",
+        "end": null,
+        "duration": null
+      },
+      "location": "Zurich, CH",
+      "details": [
+        "Interpretability in adversarial word embeddings for text",
+        "Adapted the codebase for adversarial attacks on embeddings, conducted qualitative and quantitative analyses, worked on adversarial text generation via embedding projection"
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "employer": "Imperial College London",
+      "role": "Research Intern",
+      "client": null,
+      "dates": {
+        "start": "Summer 2017",
+        "end": null,
+        "duration": null
+      },
+      "location": "London, UK",
+      "details": [
+        "A novel audiovisual dataset for normal, whispered and silent speech",
+        "Created tools for data collection and analysis, analysed the collected data, implemented fixes, worked on the reimplementation of the existing network in a different library"
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "employer": "École Polytechnique Fédérale de Lausanne",
+      "role": "Research Intern",
+      "client": null,
+      "dates": {
+        "start": "Summer 2016",
+        "end": null,
+        "duration": null
+      },
+      "location": "Lausanne, CH",
+      "details": [
+        "Microarchitectural analysis of OLAP database systems",
+        "Examined the changes in microarchitectural utilization of different column-oriented database systems on distinct workloads"
+      ],
+      "skills": []
+    }
+  ],
+  "projects": [
+    {
+      "source_pages": [
+        2
+      ],
+      "name": "eth-cs-notes",
+      "organization": null,
+      "client": null,
+      "role": null,
+      "dates": {
+        "start": "2019",
+        "end": null,
+        "duration": null
+      },
+      "details": [
+        "Lecture notes/cheatsheets for Master’s in CS"
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        2
+      ],
+      "name": "bert-adv-embed",
+      "organization": null,
+      "client": null,
+      "role": null,
+      "dates": {
+        "start": "2019",
+        "end": null,
+        "duration": null
+      },
+      "details": [
+        "Adversarial perturbations on BERT word embeddings"
+      ],
+      "skills": []
+    }
+  ],
+  "education": [
+    {
+      "source_pages": [
+        1
+      ],
+      "institution": "ETH Zurich",
+      "qualification": "M.S. in Computer Science, GPA: 5.63/6.00",
+      "dates": {
+        "start": "2018",
+        "end": "2020",
+        "duration": null
+      },
+      "details": [
+        "Thesis: “Learning in-the-wild Temporal 3D Pose Estimation from MoCap Data”"
+      ]
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "institution": "Middle East Technical University",
+      "qualification": "B.S. in Computer Engineering, GPA: 3.96/4.00 (ranked 2nd/190 in the dept.)",
+      "dates": {
+        "start": "2013",
+        "end": "2018",
+        "duration": null
+      },
+      "details": [
+        "Thesis: “AlgoTrade: A web-based algorithmic trading and backtesting framework”"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "source_pages": [],
+      "name": "Programming",
+      "proficiency": null,
+      "details": [
+        "Python, Matlab, C/C++, Java"
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "M. Learning",
+      "proficiency": null,
+      "details": [
+        "PyTorch, TensorFlow, Keras, Chainer"
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "Tools/Techs",
+      "proficiency": null,
+      "details": [
+        "LaTeX, Git, SQL"
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "Web",
+      "proficiency": null,
+      "details": [
+        "HTML/CSS, Jekyll, JavaScript"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "source_pages": [],
+      "name": "English",
+      "proficiency": {
+        "text": "Proficient",
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 5.0
+      },
+      "details": [
+        "TOEFL iBT score: 112/120"
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "Turkish",
+      "proficiency": {
+        "text": "Mother tongue, native speaker",
+        "type": "numeric",
+        "value": 5.0,
+        "maximum": 5.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Spanish",
+      "proficiency": {
+        "text": "Conversational",
+        "type": "numeric",
+        "value": 2.0,
+        "maximum": 5.0
+      },
+      "details": [
+        "CEFR level: A1-A2"
+      ]
+    }
+  ],
+  "certifications": [],
+  "training": [],
+  "additional_sections": [
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "[1]  S. Petridis, J. Shen, D. Cetin, and M. Pantic, “Visual-Only Recognition of Normal, Whispered and\n     Silent Speech”, in 2018 IEEE International Conference on Acoustics, Speech and Signal Processing\n    (ICASSP), Apr. 2018, pp. 6219–6223."
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "• Student Teaching Assistant at Middle East Technical University                                  Spring 2018\n   Programming Language Concepts (CENG 242)\n\n• Student Teaching Assistant at Middle East Technical University                                           Fall 2016\n   Introduction to C Programming (CENG 230)"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "• ETH Zurich Direct Doctorate Scholarship                                                         2018–2020\n\n• 3rd place in METU Ceng Demo Day 2018, final year project exhibition of the department               2018\n\n• Erasmus+ Traineeship Scholarship                                                                2017\n\n• Summer@EPFL Scholarship                                                                     2016\n\n• METU Development Foundation Scholarship for Outstanding Success                                 2013–2018\n\n• Merit based Prime Ministry Scholarship                                                           2013–2018\n\n• Isbank Altın Gençler Award and mobility grant                                                    2013\n\n• Ranked 4th among 1.9 million participants nationwide in Undergraduate Placement Examination (LYS)   2013"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "• Career Mentor at Crossing Paths                                                              2017–Current\n   Helping undergraduate students on their career goals, also took part in their Career Chats program\n\n• Master Helper at ETH VIS Welcome Day 2019                                                                 Fall 2019\n   Mentored newcomer Master students, gave a campus tour and aided them in Study Planning Workshop\n\n• C Programming Language Tutor at IEEE METU Student Branch                                             Fall 2016\n  An introduction to programming and a tutorial for the school courses for non-CS students\n\n• Official Turkish localization of the video game Human Resource Machine                           Winter 2015\n  A puzzle game by Tomorrow Corporation, simulating a simple computer in an office environment"
+    }
+  ]
+}

@@ -1,0 +1,274 @@
+{
+  "personal_information": {
+    "source_pages": [
+      1
+    ],
+    "full_name": "ACHRAF NAJMI",
+    "headline": null,
+    "emails": [
+      "najmi.achraf@gmail.com"
+    ],
+    "phones": [
+      "+212 6 22 90 22 21"
+    ],
+    "location": "Casablanca, Maroc",
+    "weblinks": [
+      {
+        "url": "github.com/NajmiAchraf",
+        "platform": "github.com"
+      },
+      {
+        "url": "stackoverflow.com/users/12854948",
+        "platform": "stackoverflow.com"
+      },
+      {
+        "url": "linkedin.com/in/najmiachraf",
+        "platform": "linkedin.com"
+      }
+    ],
+    "details": [
+      "ÉLECTRO INFO PHYSICIEN"
+    ]
+  },
+  "summary": null,
+  "work_experience": [],
+  "projects": [
+    {
+      "source_pages": [
+        1
+      ],
+      "name": "1337_Piscine",
+      "organization": null,
+      "client": null,
+      "role": null,
+      "dates": {
+        "start": "7/2021",
+        "end": null,
+        "duration": null
+      },
+      "details": [
+        "Un mois intensif dans UM6P",
+        "Piscine d’école 1337 42 network"
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "name": "Hydrogeologie",
+      "organization": null,
+      "client": null,
+      "role": null,
+      "dates": {
+        "start": "2/2021",
+        "end": null,
+        "duration": null
+      },
+      "details": [
+        "Début du Projet Hydrogéologie",
+        "• Hydrologie des eaux souterraines",
+        "• Expéditeur CSV de Google messagerie"
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "name": "Gmail",
+      "organization": null,
+      "client": null,
+      "role": null,
+      "dates": {
+        "start": "9/2020",
+        "end": null,
+        "duration": null
+      },
+      "details": [
+        "Début du Projet Gmail",
+        "• Expéditeur CSV de Google messagerie"
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "name": "MathPy",
+      "organization": null,
+      "client": null,
+      "role": null,
+      "dates": {
+        "start": "12/2019",
+        "end": null,
+        "duration": null
+      },
+      "details": [
+        "Mis le projet MathPy dans GitHub",
+        "• Calculatrice Scientifique Moderne",
+        "• Projet MathPy est constamment mis à jour"
+      ],
+      "skills": []
+    }
+  ],
+  "education": [
+    {
+      "source_pages": [
+        1
+      ],
+      "institution": "Université Hassan II de Casablanca",
+      "qualification": "Licence d’Études Fondamentales (LEF)",
+      "dates": {
+        "start": "6/2019",
+        "end": null,
+        "duration": null
+      },
+      "details": [
+        "Filière : Science Matière Physique",
+        "Parcours : Électronique"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "source_pages": [],
+      "name": "Développement",
+      "proficiency": null,
+      "details": [
+        "La plus grande partie de ma contribution à mon travail se situe dans le domaine du développement et maintenance informatique."
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "Maintenance",
+      "proficiency": null,
+      "details": [
+        "La plus grande partie de ma contribution à mon travail se situe dans le domaine du développement et maintenance informatique."
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "Python 3",
+      "proficiency": null,
+      "details": [
+        "Actuellement, je développe des applications en temps réel avec Python, et crée une interface graphique avec tkinter, et extrait du script ‘file.py‘ un fichier exécutable par pyinstaller en utilisant auto py to exe."
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "C",
+      "proficiency": null,
+      "details": [
+        "Actuellement, je développe des applications en temps réel avec Python, et crée une interface graphique avec tkinter, et extrait du script ‘file.py‘ un fichier exécutable par pyinstaller en utilisant auto py to exe."
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "GUI",
+      "proficiency": null,
+      "details": [
+        "Actuellement, je développe des applications en temps réel avec Python, et crée une interface graphique avec tkinter, et extrait du script ‘file.py‘ un fichier exécutable par pyinstaller en utilisant auto py to exe."
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "matplotlib",
+      "proficiency": null,
+      "details": [
+        "Actuellement, je développe des applications en temps réel avec Python, et crée une interface graphique avec tkinter, et extrait du script ‘file.py‘ un fichier exécutable par pyinstaller en utilisant auto py to exe."
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "numpy",
+      "proficiency": null,
+      "details": [
+        "Actuellement, je développe des applications en temps réel avec Python, et crée une interface graphique avec tkinter, et extrait du script ‘file.py‘ un fichier exécutable par pyinstaller en utilisant auto py to exe."
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "pandas",
+      "proficiency": null,
+      "details": [
+        "Actuellement, je développe des applications en temps réel avec Python, et crée une interface graphique avec tkinter, et extrait du script ‘file.py‘ un fichier exécutable par pyinstaller en utilisant auto py to exe."
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "sympy",
+      "proficiency": null,
+      "details": [
+        "Actuellement, je développe des applications en temps réel avec Python, et crée une interface graphique avec tkinter, et extrait du script ‘file.py‘ un fichier exécutable par pyinstaller en utilisant auto py to exe."
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "tkinter",
+      "proficiency": null,
+      "details": [
+        "Actuellement, je développe des applications en temps réel avec Python, et crée une interface graphique avec tkinter, et extrait du script ‘file.py‘ un fichier exécutable par pyinstaller en utilisant auto py to exe."
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "pyinstaller",
+      "proficiency": null,
+      "details": [
+        "Actuellement, je développe des applications en temps réel avec Python, et crée une interface graphique avec tkinter, et extrait du script ‘file.py‘ un fichier exécutable par pyinstaller en utilisant auto py to exe."
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "LATEX",
+      "proficiency": null,
+      "details": [
+        "Actuellement, je développe des applications en temps réel avec Python, et crée une interface graphique avec tkinter, et extrait du script ‘file.py‘ un fichier exécutable par pyinstaller en utilisant auto py to exe."
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "source_pages": [],
+      "name": "Français",
+      "proficiency": {
+        "text": "B2",
+        "type": "numeric",
+        "value": 2.0,
+        "maximum": 5.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Anglais",
+      "proficiency": {
+        "text": "A2",
+        "type": "numeric",
+        "value": 2.0,
+        "maximum": 5.0
+      },
+      "details": []
+    }
+  ],
+  "certifications": [
+    {
+      "source_pages": [],
+      "name": "Developer Certification",
+      "issuer": "freecodecamp.org",
+      "date": "2021-03-01",
+      "details": [
+        "certification/ najmiachraf/scientific-computing-with-python-v7"
+      ]
+    }
+  ],
+  "training": [],
+  "additional_sections": [
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "Je suis diplômé en Physique, Électronique avec une expérience de travail dans des projets de recherche. comme dernier diplôme de Physique.\n\nJe suis toujours à la recherche de nouveaux projets interdisciplinaires passionnants liés à la physique.\n\nEDUCATION ET PROJET ET EXPERIENCE\n\nÉlectronique •  Électrotechnique • < Numérique\nl Télécommunication • X Réseau\n\n2022                         Université Hassan II de\n\nCasablanca : Faculté des\n\nSciences Ben M’sik.\n\nCOMPETENCES\n\nLa plus grande partie de\n\nma contribution à mon\n\ntravail se situe dans le\n\ndomaine du développement\n\net maintenance informatique.\n\nLANGUES\n\nþ  Français (B2)\n\nþ  Anglais (A2)\n\nSOFTWARE PROGRAMS\n\nPyCharm  MD     CLion   Terminal  Proteus  £\n\n¥ github.com/NajmiAchraf\n\nB   ð     B   \n\nû     Ï\n\nOS\n\nJ’utilise régulièrement pour mes projets de\n\ndéveloppement PyCharm et CLion comme\n\nIDE, et j’utilise pour la capture schématique et\n\nla simulation Proteus CAD.\n\n DEVELOPPEMENT INFORMATIQUE\n\n4/2020 Mis le projet MathPy dans GitHub\n\n¥ github.com/NajmiAchraf/MathPy\n\n*  Python 3  ]  C\n\nLangage  Front End Back End\n\nProjet MathPy est constamment mis à jour\n\nÎ Syntaxe                       * & ] & LATEX\n\nd Bibliothèques                       â  intégré\n\nÑ Data Science                           B  pyinstaller\n\n12/2019 Début du Projet MathPy\n\n• Calculatrice Scientifique Moderne\n\n9/2019 Débuter à apprendre Python\n\nL  pandas\n\nACTIVITES\n\nParmis les dominantes        Tutoriels\n\nactivités que je pratique\n\nest de naviguer sur         8\n\ninternet à la recherche      Z Actualités Tech      repos\n\npublique       de nouvelles sur le\n\nmonde d’informatique\n\net entraîné sur tous les\n\ntutoriels qui\n\nm’intéresse.         2019\n\n§ Jeux Cérébrale              \n\nÎ Sport\n\nCompte GitHub\n\n¥ /no_think"
+    }
+  ]
+}

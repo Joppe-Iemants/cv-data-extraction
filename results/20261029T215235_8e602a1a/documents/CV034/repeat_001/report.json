@@ -1,0 +1,49 @@
+{
+  "document_id": "CV034",
+  "repetition": 1,
+  "status": "empty_text",
+  "metrics": {
+    "processing_seconds": 0.010563599993474782
+  },
+  "stages": [
+    {
+      "name": "read_pdf",
+      "method": "pdf_text",
+      "execution_status": "completed",
+      "outcome": "empty_text",
+      "metrics": {
+        "duration_seconds": 0.010563599993474782,
+        "memory": {
+          "enabled": false
+        },
+        "page_count": 4,
+        "character_count": 0,
+        "pages_without_text": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "error": null
+    },
+    {
+      "name": "prepare_text",
+      "method": "join_page_text",
+      "execution_status": "skipped",
+      "outcome": null,
+      "metrics": {},
+      "error": null,
+      "skip_reason": "Previous stage returned no text: read_pdf"
+    },
+    {
+      "name": "structure_cv",
+      "method": "llm_structuring",
+      "execution_status": "skipped",
+      "outcome": null,
+      "metrics": {},
+      "error": null,
+      "skip_reason": "Previous stage returned no text: read_pdf"
+    }
+  ]
+}

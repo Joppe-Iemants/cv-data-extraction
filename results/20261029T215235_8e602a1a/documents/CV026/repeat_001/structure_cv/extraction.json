@@ -1,0 +1,233 @@
+{
+  "personal_information": {
+    "source_pages": [
+      1
+    ],
+    "full_name": "John King",
+    "headline": null,
+    "emails": [],
+    "phones": [],
+    "location": "Colorado Springs, Colorado",
+    "weblinks": [
+      {
+        "url": "LinkedIn Profile",
+        "platform": null
+      }
+    ],
+    "details": [
+      "+1 (719) 555-0180",
+      "kingjohn315@gmail.com"
+    ]
+  },
+  "summary": "Supply chain leader with 23 years across strategy, operations planning, sourcing, budgeting, and program/project delivery. Served in the U.S. Army as a Logistics Officer. Proven people manager driving admin and org change, meeting targets, applying best practice, and improving processes. Skilled communicator with strong organization and presenting skills, focused on client experience. Background includes an MS in Supply Chain Management and a PMI-ACP, now working toward the PMP. Holds active Top Secret clearance.",
+  "work_experience": [
+    {
+      "source_pages": [
+        2
+      ],
+      "employer": "U.S. Army",
+      "role": "S4 Logistics Director/Lead Supply Chain Manager/Major (O-4)",
+      "client": null,
+      "dates": {
+        "start": "2020",
+        "end": "2023",
+        "duration": null
+      },
+      "location": "Fort Carson, CO",
+      "details": [
+        "Directed end-to-end logistics for a Special Operations unit of 2,260 across five elements, sustaining global readiness without supply-driven delays.",
+        "Ran day-to-day logistics with 7 program leads overseeing compliance (ITAR/EAR), sourcing and purchasing, logistics moves, vehicle upkeep, inventory control, and asset management. Oversaw reviews that assigned financial liability for more than $4.4M in lost or damaged government assets over two years.",
+        "Orchestrated multimode freight using internal, strategic, and 3PL providers across road, maritime, and air networks. Used TMS tools (GATES, ICODES) and an SAP-backed logistics ERP (GCSS).",
+        "Reviewed OKRs each day to steer operations, ensure regulatory compliance, and deliver reliable, agile logistics support. Drove operational excellence that cut overhead, raised customer satisfaction, and simplified workflows, boosting scores 17% and saving $1M+ per year.",
+        "Engaged partners and vendors every day to meet targets and uphold customer satisfaction. Worked with the comptroller on deploying the $13.0M annual budget, aligning funding sources, methods, and controls.",
+        "Served as a direct report to the Commander. Cultivated strong stakeholder ties to advance the Commander’s vision, rolling out systems that aligned teams to enterprise goals. Also led Commander-sponsored initiatives and handled leadership communications.",
+        "Lead Program Manager for a 20-program portfolio advancing strategic goals with a $2.0M annual budget.",
+        "Coached, evaluated, and guided 9 cross-functional PMs, with all advancing to higher-responsibility roles. Advised eight units that went on to win multiple enterprise and defense logistics awards in recent fiscal years.",
+        "Planned and ran joint training across six directorates and 444+ staff over 580 square miles, stress-testing systems in conflict scenarios and raising critical task proficiency by 27% with zero injuries or losses."
+      ],
+      "skills": [
+        "Program Delivery",
+        "Operations Leadership",
+        "Resilience Planning",
+        "Strategic Roadmapping",
+        "Vendor Negotiations",
+        "Budget control",
+        "Risk Reduction",
+        "Quality Assurance"
+      ]
+    },
+    {
+      "source_pages": [
+        2
+      ],
+      "employer": "U.S. Army",
+      "role": "Graduate Student/Major (O-4)",
+      "client": null,
+      "dates": {
+        "start": "2019",
+        "end": "2020",
+        "duration": null
+      },
+      "location": "Syracuse University, Syracuse, NY",
+      "details": [],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        2
+      ],
+      "employer": "U.S. Army",
+      "role": "Graduate Student/Captain (O-3)",
+      "client": null,
+      "dates": {
+        "start": "2017",
+        "end": "2019",
+        "duration": null
+      },
+      "location": "University of Virginia, Charlottesville, VA",
+      "details": [],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        2
+      ],
+      "employer": "U.S. Army",
+      "role": "Company Staff/Logistics Manager/Captain (O-3)",
+      "client": null,
+      "dates": {
+        "start": "2015",
+        "end": "2017",
+        "duration": null
+      },
+      "location": "82nd Sustainment Brigade, Fort Bragg, NC",
+      "details": [
+        "Directed a 172-person, five-specialty team delivering parachutes to six organizations serving 7,504+ personnel within the 82nd Airborne Division. Accountable for workforce discipline, well-being, morale, and professional growth.",
+        "Counseled senior leaders on $1.1M in parachute ops, innovation, safety, output, and use while sustaining 97% readiness, 79% safety, and delivering 20,042+ defect-free canopies.",
+        "Converted stakeholder feedback into programs that met goals, lifted morale, boosted output by 27%, and cut misconduct by 38% over 15 months.",
+        "Drove org redesign to minimize customer impact over six months and advised executives on disposing $667,236+ in excess assets, avoiding large recurring maintenance costs."
+      ],
+      "skills": [
+        "People Leadership",
+        "Supply Chain Operations",
+        "Cross-team Coordination",
+        "Team Relationship Building",
+        "Critical & Analytical Skills",
+        "Problem Solving & Decisions",
+        "Cross-cultural skills",
+        "Inclusion Leadership"
+      ]
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "source_pages": [
+        3
+      ],
+      "institution": "Syracuse University",
+      "qualification": "MS, Supply Chain Management",
+      "dates": {
+        "start": "2020",
+        "end": null,
+        "duration": null
+      },
+      "details": []
+    },
+    {
+      "source_pages": [
+        3
+      ],
+      "institution": "University of Virginia",
+      "qualification": "MA, English",
+      "dates": {
+        "start": "2019",
+        "end": null,
+        "duration": null
+      },
+      "details": []
+    },
+    {
+      "source_pages": [
+        3
+      ],
+      "institution": "Colorado State University",
+      "qualification": "BA, English",
+      "dates": {
+        "start": "2010",
+        "end": null,
+        "duration": null
+      },
+      "details": []
+    }
+  ],
+  "skills": [
+    {
+      "source_pages": [],
+      "name": "Google Workspace",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Confluence",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "SAP ERP",
+      "proficiency": null,
+      "details": []
+    }
+  ],
+  "languages": [],
+  "certifications": [
+    {
+      "source_pages": [],
+      "name": "LSSGB",
+      "issuer": "ASQ",
+      "date": "2023",
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "PMI-ACP",
+      "issuer": "PMI",
+      "date": "2023",
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "PMP Candidate",
+      "issuer": "Project Management Institute",
+      "date": "estimated completion October 2024",
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Top Secret (SCI)",
+      "issuer": null,
+      "date": "Valid expires 2025",
+      "details": []
+    }
+  ],
+  "training": [],
+  "additional_sections": [
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "PROFESSIONAL SUMMARY\n\nSupply chain leader with 23 years across strategy, operations planning, sourcing, budgeting, and program/project delivery.\nServed in the U.S. Army as a Logistics Officer. Proven people manager driving admin and org change, meeting targets,\napplying best practice, and improving processes. Skilled communicator with strong organization and presenting skills,\nfocused on client experience. Background includes an MS in Supply Chain Management and a PMI-ACP, now working\n toward the PMP. Holds active Top Secret clearance.\n\n   Program Delivery                People Leadership               Interpersonal &\n   Operations Leadership           Supply Chain Operations          Communication\n    Resilience Planning               Cross-team Coordination          Critical & Analytical Skills\n    Strategic Roadmapping           Team Relationship Building                                                                     Problem Solving & Decisions\n   Vendor Negotiations             Learning & Development                                                                      Cross-cultural skills\n   budget control                  Account Management & Client                                                                               Inclusion Leadership\n    Risk Reduction                      Relations\n                                                                     Presentations & Proposals   Materials Planning               Business Software\n   Quality Assurance"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "TECHNICAL STRENGTHS\nGoogle Workspace | Confluence | SAP ERP"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "HONORS & RECOGNITIONS\nBronze Star Medal, 2004, 2009\nMeritorious Service Medal, 2017, 2019, 2023\nArmy Commendation Medal, 2005, 2007, 2008, 2009, 2014\nArmy Achievement Medal, 2001, 2002, 2003, 2004, 2005, 2006"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "structure_cv",
+  "method": "vlm_structuring",
+  "execution_status": "error",
+  "outcome": null,
+  "metrics": {
+    "duration_seconds": 0.014959299998736242,
+    "memory": {
+      "enabled": false
+    }
+  },
+  "error": {
+    "type": "VisionStructuringError",
+    "message": "Vision extraction failed: No module named 'torch'"
+  },
+  "artifacts_file": "artifacts.json"
+}

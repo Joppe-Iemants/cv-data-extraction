@@ -1,0 +1,59 @@
+{
+  "document_id": "CV030",
+  "repetition": 4,
+  "status": "error",
+  "metrics": {
+    "processing_seconds": 960.8346782000008
+  },
+  "stages": [
+    {
+      "name": "read_pdf",
+      "method": "pdf_text",
+      "execution_status": "completed",
+      "outcome": "partial_text",
+      "metrics": {
+        "duration_seconds": 0.0022338999988278374,
+        "memory": {
+          "enabled": false
+        },
+        "page_count": 2,
+        "character_count": 140,
+        "pages_without_text": [
+          2
+        ]
+      },
+      "error": null
+    },
+    {
+      "name": "prepare_text",
+      "method": "join_page_text",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 7.399998139590025e-06,
+        "memory": {
+          "enabled": false
+        },
+        "character_count": 140
+      },
+      "error": null
+    },
+    {
+      "name": "structure_cv",
+      "method": "llm_structuring",
+      "execution_status": "error",
+      "outcome": null,
+      "metrics": {
+        "duration_seconds": 960.8324369000038,
+        "memory": {
+          "enabled": false
+        }
+      },
+      "error": {
+        "type": "StructuringError",
+        "message": "ValueError: Generation did not finish normally: length"
+      },
+      "artifacts_file": "artifacts.json"
+    }
+  ]
+}

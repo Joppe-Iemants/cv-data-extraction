@@ -3,7 +3,7 @@
   "split": "development",
   "document_ids": null,
   "exclude_sources": ["vdab"],
-  "repetitions": 1,
+  "repetitions": 5,
   "monitoring": {
     "memory": false,
     "sample_interval_ms": 10
