@@ -1,7 +1,7 @@
 {
   "name": "vision_extraction",
   "split": "development",
-  "document_ids": ["CV001"],
+  "document_ids": ["CV002"],
   "exclude_sources": ["vdab"],
   "repetitions": 1,
   "monitoring": {

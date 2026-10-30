@@ -1,0 +1,33 @@
+{
+  "name": "structure_cv",
+  "method": "vlm_structuring",
+  "execution_status": "completed",
+  "outcome": "success",
+  "metrics": {
+    "duration_seconds": 3900.9889238999895,
+    "memory": {
+      "enabled": false
+    },
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_load_seconds": 12.284655299998121,
+    "model_reused": false,
+    "input_device": "cuda:0",
+    "device_map": {
+      "": "cuda:0"
+    },
+    "cpu_offload_used": false,
+    "max_memory": {},
+    "page_count": 1,
+    "preprocessing_seconds": 0.07697470000130124,
+    "input_tokens": 4207,
+    "gpu_allocated_before_generation_bytes": 2943774208,
+    "generation_seconds": 3884.069055800006,
+    "output_tokens": 1672,
+    "output_tokens_per_second": 0.430476383395716,
+    "generation_peak_gpu_allocated_bytes": 9223237120,
+    "generation_peak_gpu_reserved_bytes": 9944694784,
+    "token_limit_reached": false
+  },
+  "error": null,
+  "artifacts_file": "artifacts.json"
+}
