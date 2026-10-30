@@ -22,6 +22,10 @@
         "Built a corporate site with Drupal.",
         "Deployed Canvas and configured it on the firm’s server.",
         "HYBRID CONTRACT"
+      ],
+      "skills": [
+        "Drupal",
+        "Canvas"
       ]
     },
     {
@@ -37,6 +41,11 @@
         "Oversight of Canvas and training platform",
         "Site administration and training on IMAP use.",
         "Guided faculty to use and connect their official email to ORCID."
+      ],
+      "skills": [
+        "Canvas",
+        "IMAP",
+        "ORCID"
       ]
     },
     {
@@ -52,6 +61,10 @@
         "Provided technical help for the college journal, its website, and editorial unit.",
         "Taught CS courses to Pharmacy students",
         "Trained faculty to use and connect official email with ORCID"
+      ],
+      "skills": [
+        "Canvas",
+        "ORCID"
       ]
     },
     {
@@ -67,6 +80,11 @@
         "Website admin (updates + site ops) managed IMAP.",
         "Administered the ERP and trained staff on usage.",
         "Taught computer apps and modeling and simulation classes"
+      ],
+      "skills": [
+        "Canvas",
+        "IMAP",
+        "ERP"
       ]
     },
     {
@@ -153,13 +171,34 @@
       "name": "Inventive troubleshooting to create workarounds or short-term fixes when instant solutions are unavailable."
     },
     {
-      "name": "Windows 7, 8, 10, 11, and Fedora."
+      "name": "Windows 7"
+    },
+    {
+      "name": "Windows 8"
+    },
+    {
+      "name": "Windows 10"
+    },
+    {
+      "name": "Windows 11"
+    },
+    {
+      "name": "Fedora"
     },
     {
       "name": "Google Workspace"
     },
     {
       "name": "Drupal."
+    },
+    {
+      "name": "PHP"
+    },
+    {
+      "name": "XSL"
+    },
+    {
+      "name": "XML"
     }
   ],
   "languages": [

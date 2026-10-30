@@ -62,6 +62,13 @@
       },
       "details": [
         "Goal: Develop a free and alternative to commercial QDA software\n\nKey responsibilities: System architecture, software design, (web-) client\n\narchitecture and dependencies management.\n\nMajor activity: Frontend implementation of rich interactive UI for qualitative\n\ndata analysis using Vue3, Vite and TailwindCss.\n\nSecondary activities: Managing Github repositories, documentation, CI, code\n\nquality assurance.\n\nAvailable via https://openqda.org"
+      ],
+      "skills": [
+        "Vue3",
+        "Vite",
+        "TailwindCss",
+        "Github",
+        "CI"
       ]
     },
     {
@@ -73,6 +80,9 @@
       },
       "details": [
         "Goal: Implement AI-based services as key tools in formative and summative\n\nassessment activities at the University of Bremen\n\nKey responsibilities: System architecture, software design, infrastructure, legal\n\nimplications, GDPR, ethical considerations, requirements engineering\n\nMajor activities: Requirements engineering and consulting\n\nSecondary activities: AI tool development using Python and respective\n\nlibraries"
+      ],
+      "skills": [
+        "Python"
       ]
     },
     {
@@ -84,6 +94,11 @@
       },
       "details": [
         "Goals: Develop a multi-application system to allow diagnostics and learning of\n\nadults with low literacy\n\nKey responsibilities: System architecture, software design, infrastructure, legal\n\nimplications, GDPR, ethical considerations, outsourcing development,\n\nrequirements engineering\n\nMajor activities: web-app development, mobile app development (react native\n\n+ expo)\n\nSecondary activities: GitHub repository management and maintenance\n\nPublications:\n\nMeyer, I. A. M., Wolf, K. D., Windler, M., & Küster, J. (2024). Digitale\n\nberufsfeldbezogene Förderung von Literalität und Numeralität in der\n\narbeitsorientierten Grundbildung mit der lea.App. In K.-H. Gerholz, S. Annen, R.\n\nBraches-Chyrek, J. Hufnagl, & A. Wagner (Eds.), bwp@ Spezial HT2023\n\nFachkräftesicherung – Zukunftsweisende Qualifierziung, gesellschaftliche\n\nTeilhabe und Integration durch berufliche Bildung.\n\nhttps://www.bwpat.de/ausgabe/spezial-ht2023/meyer-etal"
+      ],
+      "skills": [
+        "react native",
+        "expo",
+        "GitHub"
       ]
     },
     {
@@ -95,6 +110,11 @@
       },
       "details": [
         "Goals: Develop and evaluate a interactionistic classroom management\n\nsystem for German nursing education using MeteorJS.\n\nKey responsibilities: System architecture, software Design, (web-) client\n\narchitecture and dependencies management.\n\nMajor activity: Fullstack implementation of entire software\n\nSecondary activities: Managing Github repositories, documentation, CI, code\n\nquality assurance.\n\nPublications:\n \nDarmann-Finck, I., Wolf, K. D., Schepers, C., & Küster, J. (2021). Digital\n\nunterstütztes Lernen in der Pflegeausbildung: Die Care Reflection Online\n\n(CARO) – Lernumgebung. MedienPädagogik: Zeitschrift Für Theorie Und\n\nPraxis Der Medienbildung, 317–345.\n\nhttps://doi.org/10.21240/mpaed/jb16/2021.04.30.X\n\n\nSchepers, C., & Küster, J. (2020). Sind Pflegeschulen bereit für den Einsatz\n\ndigitaler Lehr-Lernformate? Berufsbildung, 181.\n\nhttps://www.zeitschrift-berufsbildung.de/archiv/74-care-work-4-0\n\nProject blog: https://blogs.uni-bremen.de/caroprojekt/ (German)"
+      ],
+      "skills": [
+        "MeteorJS",
+        "Github",
+        "CI"
       ]
     },
     {
@@ -118,6 +138,10 @@
       "details": [
         "Co-Invented a touch table application for medical support, co-developed software (Java)",
         "Formed a scrum team, mainted project dev server (Debian), surveyed target audience"
+      ],
+      "skills": [
+        "Java",
+        "Debian"
       ]
     }
   ],

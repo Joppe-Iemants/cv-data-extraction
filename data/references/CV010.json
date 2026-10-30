@@ -139,6 +139,24 @@
     },
     {
       "name": "Schematization"
+    },
+    {
+      "name": "Syntax"
+    },
+    {
+      "name": "Libraries"
+    },
+    {
+      "name": "Data Science"
+    },
+    {
+      "name": "GUI"
+    },
+    {
+      "name": "Data Analysis"
+    },
+    {
+      "name": "auto py to exe"
     }
   ],
   "languages": [

@@ -8,7 +8,10 @@
     "phones": [
       "(703) 555-8294"
     ],
-    "location": "Arlington, VA, United States"
+    "location": "2847 Columbia Pike, Apt 412, Arlington, VA 22204",
+    "details": [
+      "Citizenship: United States"
+    ]
   },
   "summary": "Senior Data Scientist with 12 years of progressive federal experience in statistical modeling, machine learning, and cybersecurity analytics. Demonstrated expertise in designing and deploying large-scale data infrastructure supporting national security missions. Proven track record of leading cross-agency analytical initiatives, mentoring junior data scientists, and translating complex analytical findings into actionable intelligence for senior leadership. Skilled in Python, R, Spark, and cloud-based ML platforms with extensive experience processing classified datasets at scale. Holds active Top Secret/SCI clearance with CI polygraph.",
   "work_experience": [
@@ -19,7 +22,7 @@
         "start": "03/2021",
         "end": "Present"
       },
-      "location": "Washington",
+      "location": "245 Murray Lane SW, Washington, DC 20528",
       "details": [
         "Serve as technical lead for the Threat Analytics Division, directing a team of 8 data scientists and 4 data engineers in developing machine learning models that process 2.3 billion network events daily from federal civilian agency (.gov) networks",
         "Architected and deployed the Automated Indicator Sharing (AIS) anomaly detection platform using ensemble methods (Random Forest, XGBoost, deep autoencoders), reducing mean time to detect advanced persistent threats from 78 days to 11 days across 102 federal agencies",
@@ -34,6 +37,15 @@
         "Coordinated with NSA, FBI Cyber Division, and US-CERT on joint analytical products, authoring 8 Joint Analysis Reports (JARs) disseminated to critical infrastructure owners and operators",
         "Implemented MLOps pipelines using Kubeflow on classified infrastructure, reducing model deployment time from 6 weeks to 3 days and enabling continuous model retraining on streaming threat data",
         "Presented research findings at classified and unclassified venues including the NSA Cybersecurity Symposium, the DHS Science and Technology Conference, and the Intelligence Community Data Science Summit"
+      ],
+      "skills": [
+        "Random Forest",
+        "XGBoost",
+        "deep autoencoders",
+        "graph neural network",
+        "Hadoop",
+        "AWS GovCloud",
+        "Kubeflow"
       ]
     },
     {
@@ -43,7 +55,7 @@
         "start": "06/2017",
         "end": "02/2021"
       },
-      "location": "Fort Meade",
+      "location": "9800 Savage Road, Fort Meade, MD 20755",
       "details": [
         "Developed and deployed deep learning models for encrypted traffic classification, enabling identification of malicious command-and-control communications with 97.3% accuracy without decryption, processing 800TB of network metadata daily",
         "Built scalable feature engineering pipelines using Apache Spark and custom Python libraries, transforming raw SIGINT data into structured analytical products consumed by 200+ intelligence analysts across the IC",
@@ -57,6 +69,14 @@
         "Collaborated with DARPA program managers on the Cyber Grand Challenge follow-on research, contributing novel reinforcement learning approaches to automated vulnerability discovery",
         "Maintained and operated analytical tools on TS/SCI networks (JWICS, NSANet), ensuring compliance with security protocols and obtaining Authority to Operate (ATO) for 3 custom analytical platforms",
         "Received commendation from the Director of NSA for contributions to Operation GLOWING SYMPHONY analysis (specific details classified)"
+      ],
+      "skills": [
+        "Apache Spark",
+        "Python",
+        "D3.js",
+        "Kibana",
+        "JWICS",
+        "NSANet"
       ]
     },
     {
@@ -66,7 +86,7 @@
         "start": "08/2014",
         "end": "05/2017"
       },
-      "location": "Suitland",
+      "location": "4600 Silver Hill Road, Suitland, MD 20746",
       "details": [
         "Developed small area estimation models for the American Community Survey (ACS), improving poverty rate estimates for 650+ counties with populations under 20,000 by reducing coefficient of variation from 28% to 14%",
         "Implemented record linkage algorithms using probabilistic matching (Fellegi-Sunter framework) to integrate administrative records from IRS, SSA, and HUD with Census survey data, achieving 99.2% match accuracy on a corpus of 140M records",
@@ -78,6 +98,11 @@
         "Developed R packages for internal use by 45+ statisticians: ceslink for entity resolution and saepy for small area estimation, reducing analyst setup time from days to hours",
         "Served on the Technical Review Panel for the Supplemental Poverty Measure, evaluating methodological proposals from academic researchers and providing recommendations to the Chief Statistician",
         "Trained 12 new Mathematical Statisticians (GS-9/11) in Bayesian methods, R programming, and Census Bureau disclosure review procedures through a structured 8-week onboarding curriculum"
+      ],
+      "skills": [
+        "R",
+        "ceslink",
+        "saepy"
       ]
     },
     {
@@ -87,7 +112,7 @@
         "start": "09/2012",
         "end": "07/2014"
       },
-      "location": "Washington",
+      "location": "Nebraska Avenue Complex, Washington, DC 20528",
       "details": [
         "Performed quantitative analysis of suspicious activity reports (SARs) and intelligence information reports (IIRs) from state and local fusion centers, identifying statistical patterns indicative of pre-operational terrorist planning",
         "Developed SQL queries and Python scripts to extract, transform, and analyze data from the Homeland Security Information Network (HSIN), Guardian database, and eGuardian system, processing 150,000+ reports annually",
@@ -99,6 +124,19 @@
         "Completed the DHS Intelligence Enterprise Analyst Development Program (18 months), receiving certification in all-source intelligence analysis and structured analytic techniques",
         "Collaborated with analysts from CBP, ICE HSI, and USCG Intelligence on multi-agency threat products, contributing statistical rigor to qualitative assessments",
         "Received the DHS Secretary’s Award for Excellence for contributions to the Southwest Border Intelligence Campaign analytics initiative"
+      ],
+      "skills": [
+        "SQL",
+        "Python",
+        "HSIN",
+        "Guardian",
+        "eGuardian",
+        "ArcGIS",
+        "geopandas",
+        "ARIMA",
+        "Prophet",
+        "SIPR",
+        "JWICS"
       ]
     }
   ],
@@ -142,10 +180,34 @@
   ],
   "skills": [
     {
-      "name": "Python (NumPy, pandas, scikit-learn, PyTorch, TensorFlow)"
+      "name": "Python"
     },
     {
-      "name": "R (tidyverse, Stan, caret)"
+      "name": "NumPy"
+    },
+    {
+      "name": "pandas"
+    },
+    {
+      "name": "scikit-learn"
+    },
+    {
+      "name": "PyTorch"
+    },
+    {
+      "name": "TensorFlow"
+    },
+    {
+      "name": "R"
+    },
+    {
+      "name": "tidyverse"
+    },
+    {
+      "name": "Stan"
+    },
+    {
+      "name": "caret"
     },
     {
       "name": "SQL"
@@ -163,10 +225,31 @@
       "name": "C++"
     },
     {
-      "name": "Deep Learning (CNNs, RNNs, Transformers, GANs, Autoencoders)"
+      "name": "Deep Learning"
     },
     {
-      "name": "NLP (BERT, GPT fine-tuning)"
+      "name": "CNNs"
+    },
+    {
+      "name": "RNNs"
+    },
+    {
+      "name": "Transformers"
+    },
+    {
+      "name": "GANs"
+    },
+    {
+      "name": "Autoencoders"
+    },
+    {
+      "name": "NLP"
+    },
+    {
+      "name": "BERT"
+    },
+    {
+      "name": "GPT fine-tuning"
     },
     {
       "name": "Graph Neural Networks"
@@ -187,7 +270,10 @@
       "name": "Kafka"
     },
     {
-      "name": "Hadoop/HDFS"
+      "name": "Hadoop"
+    },
+    {
+      "name": "HDFS"
     },
     {
       "name": "Elasticsearch"
@@ -202,7 +288,16 @@
       "name": "Ray"
     },
     {
-      "name": "AWS GovCloud (SageMaker, EMR, Glue, Redshift)"
+      "name": "AWS GovCloud"
+    },
+    {
+      "name": "SageMaker"
+    },
+    {
+      "name": "EMR"
+    },
+    {
+      "name": "Glue"
     },
     {
       "name": "Kubernetes"
@@ -235,7 +330,10 @@
       "name": "Apache Cassandra"
     },
     {
-      "name": "Amazon Redshift"
+      "name": "Amazon Redshift",
+      "details": [
+        "Also listed as Redshift under AWS GovCloud."
+      ]
     },
     {
       "name": "Snowflake"
@@ -274,7 +372,10 @@
       "name": "YARA"
     },
     {
-      "name": "Snort/Suricata"
+      "name": "Snort"
+    },
+    {
+      "name": "Suricata"
     },
     {
       "name": "JWICS"
@@ -289,7 +390,10 @@
       "name": "IC Cloud (C2S)"
     },
     {
-      "name": "Xkeyscore (read-only analytical access)"
+      "name": "Xkeyscore",
+      "details": [
+        "read-only analytical access"
+      ]
     }
   ],
   "certifications": [

@@ -8,7 +8,7 @@
     "phones": [
       "+91 99016 4480"
     ],
-    "location": "Hyderabad",
+    "location": "Hyderabad – 500084",
     "weblinks": [
       {
         "url": "linkedin.com/in/chowdaryraghav922",
@@ -36,6 +36,10 @@
         "Enabled responsible ML and Pega GenAI usage with governance controls.",
         "Framed product objectives, theme groups, capabilities, and narratives mapped to compliance and rollout priorities.",
         "Coached BA squads in Hyderabad and Bengaluru; supported RFP/bid-stage work."
+      ],
+      "skills": [
+        "Pegasystems",
+        "Pega GenAI"
       ]
     },
     {
@@ -116,16 +120,34 @@
       "name": "Pega App Studio"
     },
     {
-      "name": "Visio, Confluence, Jira Align"
+      "name": "Visio"
+    },
+    {
+      "name": "Confluence"
+    },
+    {
+      "name": "Jira Align"
     },
     {
       "name": "Executive stakeholder liaison"
     },
     {
-      "name": "Lean / XP, JAD"
+      "name": "Lean"
     },
     {
-      "name": "Bids, RFX, MVPs"
+      "name": "XP"
+    },
+    {
+      "name": "JAD"
+    },
+    {
+      "name": "Bids"
+    },
+    {
+      "name": "RFX"
+    },
+    {
+      "name": "MVPs"
     },
     {
       "name": "Coaching & BA Maturity"

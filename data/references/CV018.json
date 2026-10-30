@@ -82,7 +82,8 @@
         "Lecture notes/cheatsheets for Master’s in CS"
       ],
       "skills": [
-        "LaTeX/Markdown"
+        "LaTeX",
+        "Markdown"
       ]
     },
     {
@@ -94,7 +95,8 @@
         "Adversarial perturbations on BERT word embeddings"
       ],
       "skills": [
-        "Python/Chainer"
+        "Python",
+        "Chainer"
       ]
     }
   ],
@@ -134,7 +136,10 @@
       "name": "Matlab"
     },
     {
-      "name": "C/C++"
+      "name": "C"
+    },
+    {
+      "name": "C++"
     },
     {
       "name": "Java"
@@ -161,7 +166,10 @@
       "name": "SQL"
     },
     {
-      "name": "HTML/CSS"
+      "name": "HTML"
+    },
+    {
+      "name": "CSS"
     },
     {
       "name": "Jekyll"

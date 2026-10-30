@@ -34,6 +34,9 @@
       "details": [
         "Develop and evaluate the next generation learning management system with Meteor",
         "Define a new level of software for classroom management based on an extensive nursing curriculum."
+      ],
+      "skills": [
+        "Meteor"
       ]
     },
     {
@@ -46,6 +49,11 @@
       "details": [
         "Realize projects in XPages and We4IT Aveedo, monitor project status, conduct reports",
         "Implement the frontend for a BPMN compatible engine within We4IT Aveedo"
+      ],
+      "skills": [
+        "IBM XPages",
+        "Notes Domino",
+        "We4IT Aveedo"
       ]
     },
     {

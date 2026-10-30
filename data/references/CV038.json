@@ -240,7 +240,6 @@
   "education": [
     {
       "institution": "Lamar Junior College",
-      "qualification": "College",
       "dates": {
         "start": "1948",
         "end": "1950"
@@ -251,7 +250,6 @@
     },
     {
       "institution": "University of Texas",
-      "qualification": "College",
       "dates": {
         "start": "1950",
         "end": "1951"

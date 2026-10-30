@@ -31,6 +31,9 @@
         "Contained a severe breach rapidly, limiting impact and stopping data theft.",
         "Worked with counsel to align to new privacy laws, averting possible fines.",
         "Built a strong IR plan, cutting MTTR by 37%."
+      ],
+      "skills": [
+        "UEBA"
       ]
     },
     {
@@ -46,6 +49,9 @@
         "Identified and blocked an advanced intrusion, stopping access to sensitive client data.",
         "Contributed materially to ISO 27001 attainment, strengthening the organisation’s standing for strong security practices.",
         "Designed and executed a full DR plan, sustaining operations through cyber events."
+      ],
+      "skills": [
+        "ISO 27001"
       ]
     },
     {
@@ -62,6 +68,9 @@
         "Restored service from a major outage in 2 hours, curbing disruption and losses.",
         "Performed deep security reviews for marquee clients, finding and fixing critical flaws.",
         "Modernised firewalls for IPv6, future-proofing the network and enabling smooth adoption of new tech."
+      ],
+      "skills": [
+        "IPv6"
       ]
     },
     {
@@ -79,6 +88,10 @@
         "Assessed and chose a managed firewall vendor, delivering improved threat detection and real-time monitoring.",
         "Produced UAM and SSO specs, materially improving policy compliance and access control.",
         "Reduced risk through detailed threat assessments and reviews of security tools and services."
+      ],
+      "skills": [
+        "SSO",
+        "UAM"
       ]
     }
   ],

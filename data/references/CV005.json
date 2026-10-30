@@ -38,6 +38,10 @@
       "details": [
         "Invent a realtime classroom management using Meteor and React",
         "Design software architecture and leading development"
+      ],
+      "skills": [
+        "Meteor",
+        "React"
       ]
     },
     {
@@ -50,6 +54,13 @@
       "details": [
         "Realize projects in XPages and We4IT Aveedo, monitor project status, conduct reports",
         "Integrated Camunda BPMN engine and BPMN.IO modeler in We4IT Aveedo"
+      ],
+      "skills": [
+        "IBM XPages",
+        "Notes Domino",
+        "We4IT Aveedo",
+        "Camunda BPMN",
+        "BPMN.IO"
       ]
     },
     {
@@ -99,6 +110,10 @@
       "details": [
         "Co-Invented a touch table application for medical support, co-developed software (Java)",
         "Formed a scrum team, mainted project dev server (Debian), surveyed target audience"
+      ],
+      "skills": [
+        "Java",
+        "Debian"
       ]
     }
   ],

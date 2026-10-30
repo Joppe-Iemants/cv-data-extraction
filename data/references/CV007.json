@@ -37,6 +37,10 @@
       "details": [
         "Invent a realtime classroom management using Meteor and React",
         "Design software architecture and leading development"
+      ],
+      "skills": [
+        "Meteor",
+        "React"
       ]
     },
     {
@@ -86,6 +90,10 @@
       "details": [
         "Co-Invented a touch table application for medical support, co-developed software (Java)",
         "Formed a scrum team, mainted project dev server (Debian), surveyed target audience"
+      ],
+      "skills": [
+        "Java",
+        "Debian"
       ]
     }
   ],

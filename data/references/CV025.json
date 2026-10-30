@@ -25,7 +25,7 @@
         "start": "Sep'19",
         "end": "Till date"
       },
-      "location": "Adityapur",
+      "location": "Adityapur, Jamshedpur",
       "details": [
         "Led design for 39kton food plant in Gamharia, Value: ₹ 265 Cr",
         "Directed 4kton extrusion line at Adityapur, Value: ₹ 9 Cr",
@@ -43,7 +43,7 @@
         "start": "Jul'17",
         "end": "Sep'19"
       },
-      "location": "Adityapur",
+      "location": "Adityapur, Jamshedpur",
       "details": [
         "Raised plant availability from 84% to 92%",
         "Cut downtime by 8%.",
@@ -95,6 +95,9 @@
         "Implemented WCM, IEC, EHS, NFPA 70Es and administered SAP- PM/PS.",
         "Reduced SEC from 2.0kwh/ton to 0.9kwh/ton over 3 years.",
         "Shrank section downtime from 1722 to 166 hours in 3 years."
+      ],
+      "skills": [
+        "SAP- PM/PS"
       ]
     },
     {
@@ -122,6 +125,10 @@
         "Helped cut breakdowns by 2% in 11 months by improving care of motors, panels, VFDs, and PLCs",
         "Supported E&I install and start-up of the CRM pickling line and 33kV grid feeders",
         "Started continual improvement projects in the domain."
+      ],
+      "skills": [
+        "VFDs",
+        "PLCs"
       ]
     }
   ],
@@ -151,7 +158,19 @@
       "name": "Lean manufacturing"
     },
     {
-      "name": "Delivery frameworks ( Waterfall, Spiral, Evolutionary, Agile, Hybrid)"
+      "name": "Waterfall"
+    },
+    {
+      "name": "Spiral"
+    },
+    {
+      "name": "Evolutionary"
+    },
+    {
+      "name": "Agile"
+    },
+    {
+      "name": "Hybrid"
     },
     {
       "name": "End-to-end project lifecycle from concept, design, contracts, build, start-up and handover"
@@ -163,10 +182,16 @@
       "name": "Contract oversight, familiar with FIDIC contracts"
     },
     {
-      "name": "Tool proficiency ( Office 365 etc. )"
+      "name": "Office 365"
     },
     {
-      "name": "Knowledge and understanding of use of AutoCAD and Revit software, BIM"
+      "name": "AutoCAD"
+    },
+    {
+      "name": "Revit"
+    },
+    {
+      "name": "BIM"
     },
     {
       "name": "Mentor leadership"
@@ -187,7 +212,10 @@
       "name": "Matrix management"
     },
     {
-      "name": "Analytics, Spend control"
+      "name": "Analytics"
+    },
+    {
+      "name": "Spend control"
     },
     {
       "name": "Prioritising"
@@ -221,9 +249,6 @@
     },
     {
       "name": "Energy strategy & EHS"
-    },
-    {
-      "name": "Analytics"
     },
     {
       "name": "Process mapping"

@@ -93,6 +93,9 @@
       "details": [
         "Implemented novel self-supervised learning framework for low-resource language modeling",
         "Research integrated into Azure Cognitive Services, reducing training data requirements by 60%"
+      ],
+      "skills": [
+        "Azure Cognitive Services"
       ]
     }
   ],
@@ -107,6 +110,9 @@
         "Open-source library for high-performance LLM inference kernels",
         "Achieved 2.8x speedup over baseline attention implementations on A100 GPUs",
         "Adopted by 3 major AI labs, 8,500+ GitHub stars, 200+ contributors"
+      ],
+      "skills": [
+        "A100 GPUs"
       ]
     },
     {
@@ -118,6 +124,10 @@
         "Automated neural network pruning toolkit with differentiable masks",
         "Reduced model size by 90% with less than 1% accuracy degradation on ImageNet",
         "Featured in PyTorch ecosystem tools, 4,200+ GitHub stars"
+      ],
+      "skills": [
+        "ImageNet",
+        "PyTorch"
       ]
     }
   ],

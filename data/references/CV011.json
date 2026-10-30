@@ -139,6 +139,24 @@
     },
     {
       "name": "Schématisation"
+    },
+    {
+      "name": "Syntaxe"
+    },
+    {
+      "name": "Bibliothèques"
+    },
+    {
+      "name": "Data Science"
+    },
+    {
+      "name": "GUI"
+    },
+    {
+      "name": "Data Analyse"
+    },
+    {
+      "name": "auto py to exe"
     }
   ],
   "languages": [

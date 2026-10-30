@@ -29,6 +29,12 @@
         "Lead Program Manager for a 20-program portfolio advancing strategic goals with a $2.0M annual budget.",
         "Coached, evaluated, and guided 9 cross-functional PMs, with all advancing to higher-responsibility roles. Advised eight units that went on to win multiple enterprise and defense logistics awards in recent fiscal years.",
         "Planned and ran joint training across six directorates and 444+ staff over 580 square miles, stress-testing systems in conflict scenarios and raising critical task proficiency by 27% with zero injuries or losses."
+      ],
+      "skills": [
+        "GATES",
+        "ICODES",
+        "SAP",
+        "GCSS"
       ]
     },
     {
@@ -157,23 +163,33 @@
     },
     {
       "name": "SAP ERP"
+    },
+    {
+      "name": "Cross-cultural skills"
+    },
+    {
+      "name": "Inclusion Leadership"
     }
   ],
   "certifications": [
     {
       "name": "LSSGB, Lean Six Sigma Green Belt",
-      "issuer": "ASQ"
+      "issuer": "ASQ",
+      "date": "2023"
     },
     {
       "name": "PMI-ACP, Agile Certified Practitioner",
-      "issuer": "PMI"
+      "issuer": "PMI",
+      "date": "2023"
     },
     {
       "name": "PMP Candidate",
-      "issuer": "Project Management Institute"
+      "issuer": "Project Management Institute",
+      "date": "estimated completion October 2024"
     },
     {
-      "name": "Top Secret (SCI)"
+      "name": "Top Secret (SCI)",
+      "date": "Valid expires 2025"
     }
   ],
   "additional_sections": [
