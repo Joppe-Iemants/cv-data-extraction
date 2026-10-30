@@ -1,0 +1,17 @@
+{
+  "name": "structure_cv",
+  "method": "llm_structuring",
+  "execution_status": "error",
+  "outcome": null,
+  "metrics": {
+    "duration_seconds": 1016.4096951999963,
+    "memory": {
+      "enabled": false
+    }
+  },
+  "error": {
+    "type": "StructuringError",
+    "message": "ValueError: Generation did not finish normally: length"
+  },
+  "artifacts_file": "artifacts.json"
+}

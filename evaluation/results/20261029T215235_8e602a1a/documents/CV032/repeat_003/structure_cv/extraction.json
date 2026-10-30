@@ -1,0 +1,852 @@
+{
+  "personal_information": {
+    "source_pages": [
+      1
+    ],
+    "full_name": "MARCUS T. WILLIAMS",
+    "headline": "Senior Data Scientist",
+    "emails": [
+      "marcus.williams@email.com"
+    ],
+    "phones": [
+      "(703) 555-8294"
+    ],
+    "location": "Arlington, VA 22204",
+    "weblinks": [],
+    "details": []
+  },
+  "summary": "Senior Data Scientist with 12 years of progressive federal experience in statistical modeling, machine learning, and cybersecurity analytics. Demonstrated expertise in designing and deploying large-scale data infrastructure supporting national security missions. Proven track record of leading cross-agency analytical initiatives, mentoring junior data scientists, and translating complex analytical findings into actionable intelligence for senior leadership. Skilled in Python, R, Spark, and cloud-based ML platforms with extensive experience processing classified datasets at scale. Holds active Top Secret/SCI clearance with CI polygraph.",
+  "work_experience": [
+    {
+      "source_pages": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "employer": "Department of Homeland Security, Cybersecurity and Infrastructure Security Agency (CISA)",
+      "role": "Senior Data Scientist (Lead)",
+      "client": "Department of Homeland Security",
+      "dates": {
+        "start": "03/2021",
+        "end": "Present",
+        "duration": null
+      },
+      "location": "Washington, DC 20528",
+      "details": [
+        "Serve as technical lead for the Threat Analytics Division, directing a team of 8 data scientists and 4 data engineers in developing machine learning models that process 2.3 billion network events daily from federal civilian agency (.gov) networks",
+        "Architected and deployed the Automated Indicator Sharing (AIS) anomaly detection platform using ensemble methods (Random Forest, XGBoost, deep autoencoders), reducing mean time to detect advanced persistent threats from 78 days to 11 days across 102 federal agencies",
+        "Designed and implemented a graph neural network (GNN) pipeline for lateral movement detection, achieving 94.2% precision and 91.7% recall on classified validation datasets, directly contributing to the identification of 3 nation-state intrusion campaigns in FY2023",
+        "Led the migration of legacy analytics infrastructure from on-premises Hadoop clusters to AWS GovCloud (IL-5), reducing compute costs by 34% ($2.1M annual savings) while increasing processing throughput by 4.7x",
+        "Developed Natural Language Processing models for automated analysis of 450,000+ vulnerability disclosures annually, enabling prioritized patch guidance to critical infrastructure sectors within 48 hours of disclosure",
+        "Authored 14 technical white papers and Intelligence Community Directives (ICDs) establishing data science standards and best practices for cyber threat intelligence analytics across DHS component agencies",
+        "Represented CISA at the National Security Council’s Cyber Directorate, providing technical briefings on AI/ML capabilities for national cyber defense to senior government officials including the National Cyber Director",
+        "Established and chair the DHS Data Science Working Group (47 members across 6 component agencies), driving standardization of ML model governance, bias testing, and deployment protocols",
+        "Mentored 6 junior data scientists (GS-9 through GS-12) through the CISA Data Science Development Program, with 4 achieving promotion within 18 months",
+        "Developed an insider threat behavioral analytics model integrating 23 data sources (badge access, network logs, email metadata, financial disclosures) achieving AUC of 0.96, adopted by 3 additional federal agencies",
+        "Coordinated with NSA, FBI Cyber Division, and US-CERT on joint analytical products, authoring 8 Joint Analysis Reports (JARs) disseminated to critical infrastructure owners and operators",
+        "Implemented MLOps pipelines using Kubeﬂow on classified infrastructure, reducing model deployment time from 6 weeks to 3 days and enabling continuous model retraining on streaming threat data",
+        "Presented research findings at classified and unclassified venues including the NSA Cybersecurity Symposium, the DHS Science and Technology Conference, and the Intelligence Community Data Science Summit"
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "employer": "National Security Agency (NSA), Cybersecurity Directorate",
+      "role": "Data Scientist",
+      "client": "National Security Agency",
+      "dates": {
+        "start": "06/2017",
+        "end": "02/2021",
+        "duration": null
+      },
+      "location": "Fort Meade, MD 20755",
+      "details": [
+        "Developed and deployed deep learning models for encrypted traffic classification, enabling identification of malicious command-and-control communications with 97.3% accuracy without decryption, processing 800TB of network metadata daily",
+        "Built scalable feature engineering pipelines using Apache Spark and custom Python libraries, transforming raw SIGINT data into structured analytical products consumed by 200+ intelligence analysts across the IC",
+        "Designed Bayesian network models for attribution analysis, providing probabilistic assessments of threat actor identity that directly supported 5 National Intelligence Estimates (NIEs) presented to the President’s Daily Brief",
+        "Led a 4-person team in developing time-series anomaly detection algorithms for monitoring critical infrastructure SCADA/ICS networks, identifying 12 previously undetected probing campaigns against energy sector assets",
+        "Created interactive dashboards and visualization tools using D3.js and Kibana for real-time monitoring of global cyber threat landscape, adopted as standard analytical tooling by the NSA Threat Operations Center",
+        "Implemented differential privacy mechanisms for cross-agency data sharing initiatives, enabling collaborative analytics on sensitive datasets while maintaining compliance with EO 12333 and PPD-28 privacy protections",
+        "Authored the NSA Data Science Tradecraft Manual (112 pages), establishing standards for reproducibility, peer review, and model validation in intelligence production, now mandated for all NSA data science products",
+        "Conducted peer review and technical validation of 40+ analytical products per quarter, ensuring statistical rigor and methodological soundness prior to dissemination to intelligence consumers",
+        "Developed transfer learning approaches for malware classification that reduced labeled training data requirements by 75% while maintaining F1 scores above 0.92 across 14 malware families",
+        "Collaborated with DARPA program managers on the Cyber Grand Challenge follow-on research, contributing novel reinforcement learning approaches to automated vulnerability discovery",
+        "Maintained and operated analytical tools on TS/SCI networks (JWICS, NSANet), ensuring compliance with security protocols and obtaining Authority to Operate (ATO) for 3 custom analytical platforms",
+        "Received commendation from the Director of NSA for contributions to Operation GLOWING SYMPHONY analysis (specific details classified)"
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "employer": "U.S. Census Bureau, Center for Statistical Research and Methodology",
+      "role": "Mathematical Statistician",
+      "client": "U.S. Census Bureau",
+      "dates": {
+        "start": "08/2014",
+        "end": "05/2017",
+        "duration": null
+      },
+      "location": "Suitland, MD 20746",
+      "details": [
+        "Developed small area estimation models for the American Community Survey (ACS), improving poverty rate estimates for 650+ counties with populations under 20,000 by reducing coefficient of variation from 28% to 14%",
+        "Implemented record linkage algorithms using probabilistic matching (Fellegi-Sunter framework) to integrate administrative records from IRS, SSA, and HUD with Census survey data, achieving 99.2% match accuracy on a corpus of 140M records",
+        "Designed and conducted Monte Carlo simulation studies evaluating the statistical properties of proposed disclosure avoidance methods for the 2020 Census, contributing to the selection of differential privacy as the primary protection mechanism",
+        "Built automated data quality assessment pipelines processing 3.2M survey responses monthly, flagging anomalies and potential fabrication with 96% sensitivity, reducing field verification costs by $4.8M annually",
+        "Authored 3 peer-reviewed publications in the Journal of the American Statistical Association and Survey Methodology on hierarchical Bayesian methods for multi-level survey estimation",
+        "Contributed to the development of the Census Bureau’s Disclosure Avoidance System (DAS) based on zero-concentrated differential privacy, performing utility-privacy tradeoff analyses for 47 data products",
+        "Presented research at the Joint Statistical Meetings (JSM), Federal Committee on Statistical Methodology (FCSM), and the Census Scientific Advisory Committee",
+        "Developed R packages for internal use by 45+ statisticians: ceslink for entity resolution and saepy for small area estimation, reducing analyst setup time from days to hours",
+        "Served on the Technical Review Panel for the Supplemental Poverty Measure, evaluating methodological proposals from academic researchers and providing recommendations to the Chief Statistician",
+        "Trained 12 new Mathematical Statisticians (GS-9/11) in Bayesian methods, R programming, and Census Bureau disclosure review procedures through a structured 8-week onboarding curriculum"
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "employer": "Department of Homeland Security, Office of Intelligence and Analysis (I&A)",
+      "role": "Data Analyst (Pathways Recent Graduate)",
+      "client": "Department of Homeland Security",
+      "dates": {
+        "start": "09/2012",
+        "end": "07/2014",
+        "duration": null
+      },
+      "location": "Washington, DC 20528",
+      "details": [
+        "Performed quantitative analysis of suspicious activity reports (SARs) and intelligence information reports (IIRs) from state and local fusion centers, identifying statistical patterns indicative of pre-operational terrorist planning",
+        "Developed SQL queries and Python scripts to extract, transform, and analyze data from the Homeland Security Information Network (HSIN), Guardian database, and eGuardian system, processing 150,000+ reports annually",
+        "Created geospatial visualizations and heat maps of threat indicators using ArcGIS and Python (geopandas), supporting the production of 24 Homeland Intelligence Today briefings for DHS senior leadership",
+        "Built predictive models for border crossing volume forecasting using ARIMA and Prophet time series methods, improving CBP staffing allocation accuracy by 18% at 12 ports of entry",
+        "Supported the Homeland Threat Assessment production cycle by providing statistical analysis of threat trends, contributing data-driven assessments to the DHS Secretary’s morning intelligence briefing",
+        "Conducted link analysis on financial transaction networks to identify potential terrorism financing pathways, resulting in 3 referrals to the FBI Joint Terrorism Task Force",
+        "Maintained databases and analytical tools on the SIPR and JWICS networks, ensuring data integrity and compliance with Intelligence Community standards for information handling",
+        "Completed the DHS Intelligence Enterprise Analyst Development Program (18 months), receiving certification in all-source intelligence analysis and structured analytic techniques",
+        "Collaborated with analysts from CBP, ICE HSI, and USCG Intelligence on multi-agency threat products, contributing statistical rigor to qualitative assessments",
+        "Received the DHS Secretary’s Award for Excellence for contributions to the Southwest Border Intelligence Campaign analytics initiative"
+      ],
+      "skills": []
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "source_pages": [
+        5
+      ],
+      "institution": "University of Michigan, Ann Arbor, MI",
+      "qualification": "Doctor of Philosophy (Ph.D.) in Statistics",
+      "dates": {
+        "start": "May 2012",
+        "end": null,
+        "duration": null
+      },
+      "details": [
+        "Dissertation: “Bayesian Nonparametric Methods for Large-Scale Record Linkage with Applications to National Security Databases”",
+        "Advisor: Dr. Susan T. Rothwell",
+        "Relevant Coursework: Advanced Bayesian Inference, Machine Learning, High-Dimensional Statistics, Causal Inference, Computational Statistics, Time Series Analysis, Network Analysis, Statistical Computing",
+        "Honors: Rackham Merit Fellowship (2008–2012), NSF Graduate Research Fellowship Honorable Mention, Best Student Paper Award at ISBA 2011"
+      ]
+    },
+    {
+      "source_pages": [
+        5
+      ],
+      "institution": "Georgia Institute of Technology, Atlanta, GA",
+      "qualification": "Master of Science (M.S.) in Computational Science and Engineering",
+      "dates": {
+        "start": "May 2008",
+        "end": null,
+        "duration": null
+      },
+      "details": [
+        "Thesis: “Scalable Graph Partitioning for Community Detection in Social Networks”",
+        "Relevant Coursework: Numerical Linear Algebra, High-Performance Computing, Data Mining, Optimization, Parallel Algorithms, Database Systems"
+      ]
+    },
+    {
+      "source_pages": [
+        5
+      ],
+      "institution": "Howard University, Washington, DC",
+      "qualification": "Bachelor of Science (B.S.) in Mathematics, Magna Cum Laude",
+      "dates": {
+        "start": "May 2006",
+        "end": null,
+        "duration": null
+      },
+      "details": [
+        "Minor: Computer Science",
+        "Honors: Dean’s List (all semesters), Pi Mu Epsilon Mathematics Honor Society, Ronald E. McNair Scholar"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "source_pages": [],
+      "name": "Python",
+      "proficiency": {
+        "text": "NumPy, pandas, scikit-learn, PyTorch, TensorFlow",
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 1.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "R",
+      "proficiency": {
+        "text": "tidyverse, Stan, caret",
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 1.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "SQL",
+      "proficiency": {
+        "text": null,
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 1.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Scala",
+      "proficiency": {
+        "text": null,
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 1.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Java",
+      "proficiency": {
+        "text": null,
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 1.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Bash/Shell scripting",
+      "proficiency": {
+        "text": null,
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 1.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "C++",
+      "proficiency": {
+        "text": null,
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 1.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Deep Learning",
+      "proficiency": {
+        "text": "CNNs, RNNs, Transformers, GANs, Autoencoders",
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 1.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "NLP",
+      "proficiency": {
+        "text": "BERT, GPT fine-tuning",
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 1.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Graph Neural Networks",
+      "proficiency": {
+        "text": null,
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 1.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Reinforcement Learning",
+      "proficiency": {
+        "text": null,
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 1.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Bayesian Methods",
+      "proficiency": {
+        "text": null,
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 1.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Ensemble Methods",
+      "proficiency": {
+        "text": null,
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 1.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Apache Spark",
+      "proficiency": {
+        "text": null,
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 1.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Kafka",
+      "proficiency": {
+        "text": null,
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 1.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Hadoop/HDFS",
+      "proficiency": {
+        "text": null,
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 1.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Elasticsearch",
+      "proficiency": {
+        "text": null,
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 1.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Databricks",
+      "proficiency": {
+        "text": null,
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 1.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Dask",
+      "proficiency": {
+        "text": null,
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 1.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Ray",
+      "proficiency": {
+        "text": null,
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 1.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "AWS GovCloud",
+      "proficiency": {
+        "text": "SageMaker, EMR, Glue, Redshift",
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 1.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Kubernetes",
+      "proficiency": {
+        "text": null,
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 1.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Docker",
+      "proficiency": {
+        "text": null,
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 1.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Terraform",
+      "proficiency": {
+        "text": null,
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 1.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "GitLab CI/CD",
+      "proficiency": {
+        "text": null,
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 1.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "MLflow",
+      "proficiency": {
+        "text": null,
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 1.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Kubeﬂow",
+      "proficiency": {
+        "text": null,
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 1.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "PostgreSQL",
+      "proficiency": {
+        "text": null,
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 1.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "MongoDB",
+      "proficiency": {
+        "text": null,
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 1.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Neo4j",
+      "proficiency": {
+        "text": null,
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 1.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Apache Cassandra",
+      "proficiency": {
+        "text": null,
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 1.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Amazon Redshift",
+      "proficiency": {
+        "text": null,
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 1.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Snowflake",
+      "proficiency": {
+        "text": null,
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 1.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Tableau",
+      "proficiency": {
+        "text": null,
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 1.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Kibana",
+      "proficiency": {
+        "text": null,
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 1.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "D3.js",
+      "proficiency": {
+        "text": null,
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 1.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Matplotlib",
+      "proficiency": {
+        "text": null,
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 1.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Plotly",
+      "proficiency": {
+        "text": null,
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 1.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "ArcGIS Pro",
+      "proficiency": {
+        "text": null,
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 1.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Splunk",
+      "proficiency": {
+        "text": null,
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 1.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Elastic SIEM",
+      "proficiency": {
+        "text": null,
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 1.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "MITRE ATT&CK framework",
+      "proficiency": {
+        "text": null,
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 1.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Wireshark",
+      "proficiency": {
+        "text": null,
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 1.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "YARA",
+      "proficiency": {
+        "text": null,
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 1.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Snort/Suricata",
+      "proficiency": {
+        "text": null,
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 1.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "JWICS",
+      "proficiency": {
+        "text": null,
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 1.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "SIPRNet",
+      "proficiency": {
+        "text": null,
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 1.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "NSANet",
+      "proficiency": {
+        "text": null,
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 1.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "IC Cloud (C2S)",
+      "proficiency": {
+        "text": null,
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 1.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Xkeyscore",
+      "proficiency": {
+        "text": "read-only analytical access",
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 1.0
+      },
+      "details": []
+    }
+  ],
+  "languages": [],
+  "certifications": [
+    {
+      "source_pages": [],
+      "name": "AWS Certified Machine Learning – Specialty",
+      "issuer": "Amazon Web Services",
+      "date": "2023",
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Certified Information Systems Security Professional (CISSP)",
+      "issuer": "(ISC)2",
+      "date": "2022",
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "GIAC Cyber Threat Intelligence (GCTI)",
+      "issuer": "SANS Institute",
+      "date": "2021",
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Databricks Certified Machine Learning Professional",
+      "issuer": "Databricks",
+      "date": "2022",
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Google Cloud Professional Data Engineer",
+      "issuer": "Google",
+      "date": "2020",
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Intelligence Community Officer Training (ICOT)",
+      "issuer": "ODNI",
+      "date": "2017",
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Federal Executive Institute – Leadership for a Democratic Society",
+      "issuer": "OPM",
+      "date": "2023",
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Certified Analytics Professional (CAP)",
+      "issuer": "INFORMS",
+      "date": "2019",
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "SANS SEC504: Hacker Tools, Techniques, and Incident Handling",
+      "issuer": "SANS Institute",
+      "date": "2018",
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "DHS Cybersecurity Workforce Development Program – Advanced Track",
+      "issuer": "DHS CDM",
+      "date": "2021",
+      "details": []
+    }
+  ],
+  "training": [],
+  "additional_sections": [
+    {
+      "source_pages": [],
+      "heading": "PUBLICATIONS",
+      "text": "PUBLICATIONS\n\n   1. Williams, M.T., Richardson, A.L., & Park, S. (2023).  “Graph Neural Networks for Lateral Movement Detection in Enterprise Networks.” Proceedings of the ACM Conference on Computer and Communications Security (CCS), pp. 1847–1862.\n\n   2. Williams, M.T. & Okonkwo, J.K. (2020). “Deep Learning Approaches to Encrypted Traffic Classification for Cyber Threat Detection.” IEEE Transactions on Information Forensics and Security, 15(4), pp. 2891–2904.\n\n   3. Williams, M.T., Huang, P., & Torres, R. (2017). “Bayesian Hierarchical Models for Small Area Estimation in the American Community Survey.” Journal of the American Statistical Association, 112(518), pp. 564–578.\n\n   4. Williams, M.T., Huang, P., & Torres, R. (2017). “Bayesian Hierarchical Models for Small Area Estimation in the American Community Survey.” Journal of the American Statistical Association, 112(518), pp. 564–578.\n\n   5. Williams, M.T., Chen, R.M., & Foster, K. (2015). “Statistical Methods for Detecting Anomalous Patterns in Suspicious Activity Reporting.” Journal of Homeland Security and Emergency Management, 12(3), pp. 445–468.\n\n   6. Williams, M.T. (2012).  “Bayesian Nonparametric Methods for Large-Scale Record Linkage with Applications to National Security Databases.” Doctoral Dissertation, University of Michigan."
+    },
+    {
+      "source_pages": [],
+      "heading": "AWARDS AND RECOGNITION",
+      "text": "AWARDS AND RECOGNITION\n\n• DHS Secretary’s Award for Excellence in Cybersecurity | 2023\n   Recognized for leadership in developing the CISA Automated Threat Detection platform, credited with preventing 3 major cyber intrusions against federal civilian networks.\n\n• Presidential Rank Award – Meritorious Service (Nominated) | 2023\n   Nominated by CISA Director for sustained exceptional performance in advancing national cybersecurity analytics capabilities.\n\n• NSA Director’s Distinguished Service Medal | 2020\n   Awarded for exceptional contributions to signals intelligence analytics and development of novel machine learning approaches for cyber operations support.\n\n• DHS Under Secretary’s Special Act Award ($5,000) | 2022\n   For developing the cross-agency insider threat detection framework adopted by DHS, DOD, and DOE.\n\n• Federal Employee of the Year – Data Science Category | 2019\n   Awarded by the Partnership for Public Service in recognition of innovative applications of AI/ML to national security challenges.\n\n• Census Bureau Bronze Medal | 2016\n   For contributions to the development of differential privacy methods for the 2020 Census Disclosure Avoidance System."
+    },
+    {
+      "source_pages": [],
+      "heading": "TECHNICAL PROFICIENCIES",
+      "text": "TECHNICAL PROFICIENCIES\n\nProgramming:           Python (NumPy, pandas,  scikit-learn, PyTorch, TensorFlow), R\n                               (tidyverse, Stan, caret), SQL, Scala, Java, Bash/Shell scripting, C++\nML/AI:                 Deep Learning (CNNs, RNNs, Transformers, GANs, Autoencoders),\n                   NLP (BERT, GPT fine-tuning), Graph Neural Networks, Reinforcement Learning, Bayesian Methods, Ensemble Methods\nBig Data:               Apache Spark, Kafka, Hadoop/HDFS, Elasticsearch,  Databricks,\n                           Dask, Ray\nCloud/DevOps:       AWS GovCloud (SageMaker, EMR, Glue, Redshift), Kubernetes,\n                            Docker, Terraform, GitLab CI/CD, MLflow, Kubeﬂow\nDatabases:               PostgreSQL, MongoDB, Neo4j, Apache Cassandra, Amazon Redshift,\n                        Snowflake\nVisualization:             Tableau, Kibana, D3.js, Matplotlib, Plotly, ArcGIS Pro\n\nSecurity Tools:            Splunk, Elastic SIEM, MITRE ATT&CK framework, Wireshark,\n                     YARA, Snort/Suricata\nClassiﬁed Systems:      JWICS, SIPRNet, NSANet, IC Cloud (C2S), Xkeyscore (read-only\n                               analytical access)"
+    },
+    {
+      "source_pages": [],
+      "heading": "PROFESSIONAL AFFILIATIONS",
+      "text": "PROFESSIONAL AFFILIATIONS\n\n• American Statistical Association (ASA) – Member, Section on National Defense and\n   Homeland Security (2012–Present); Program Committee, JSM Government Statistics Section\n   (2019–2021)\n\n• Institute for Operations Research and Management Sciences (INFORMS) – Member,\n   Analytics Society (2014–Present)\n\n• Association for Computing Machinery (ACM) – Member, Special Interest Group on\n    Security, Audit and Control (SIGSAC) (2017–Present)\n\n• Intelligence and National Security Alliance (INSA) – Member, Cyber Council (2021–\n   Present)\n\n• National Society of Black Engineers (NSBE) – Member; Mentor, NSBE Jr. Data Science\n   Pipeline Program (2015–Present)\n\n• Federal Data Science Community of Practice – Co-Chair (2022–Present); Founding mem-\n   ber (2019)"
+    },
+    {
+      "source_pages": [],
+      "heading": "REFERENCES",
+      "text": "REFERENCES\n\nAvailable upon request. Federal supervisor references can be veriﬁed through the DHS Office of\nHuman Capital, (202) 555-0100."
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "structure_cv",
+  "method": "llm_structuring",
+  "execution_status": "skipped",
+  "outcome": null,
+  "metrics": {},
+  "error": null,
+  "skip_reason": "Previous stage returned no text: read_pdf"
+}

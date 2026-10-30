@@ -1,0 +1,258 @@
+{
+  "personal_information": {
+    "source_pages": [
+      1
+    ],
+    "full_name": "YOUR NAME HERE",
+    "headline": "Your Position or Tagline Here",
+    "emails": [
+      "your_name@email.com"
+    ],
+    "phones": [
+      "000-00-0000"
+    ],
+    "location": "Åddrésş, Street, 00000 Cóuntry",
+    "weblinks": [
+      {
+        "url": "www.homepage.com",
+        "platform": "homepage"
+      },
+      {
+        "url": "https://twitter.com/x-handle",
+        "platform": "xtwitter"
+      },
+      {
+        "url": "linkedin.com/in/your_id",
+        "platform": "linkedin"
+      },
+      {
+        "url": "github.com/your_id",
+        "platform": "github"
+      },
+      {
+        "url": "orcid.org/0000-0000-0000-0000",
+        "platform": "orcid"
+      },
+      {
+        "url": "gitlab.com/your_id",
+        "platform": "gitlab"
+      },
+      {
+        "url": "https://instance.url/@username",
+        "platform": "mastodon"
+      }
+    ],
+    "details": []
+  },
+  "summary": null,
+  "work_experience": [
+    {
+      "source_pages": [
+        2
+      ],
+      "employer": "Company 1",
+      "role": "Job Title 1",
+      "client": null,
+      "dates": {
+        "start": "Month 20XX",
+        "end": "Ongoing",
+        "duration": null
+      },
+      "location": "Location",
+      "details": [
+        "• Job description 1",
+        "• Job description 2",
+        "MOST PROUD OF",
+        "• Job description 1",
+        "• Job description 2",
+        "Fantastic Achievement",
+        "and some details about it",
+        "achievement",
+        "more details about it of course"
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        2
+      ],
+      "employer": "Company 2",
+      "role": "Job Title 2",
+      "client": null,
+      "dates": {
+        "start": "Month 20XX",
+        "end": "Ongoing",
+        "duration": null
+      },
+      "location": "Location",
+      "details": [
+        "• Job description 1",
+        "• Job description 2",
+        "STRENGTHS",
+        "Hard-working",
+        "Eye for detail",
+        "Motivator & Leader"
+      ],
+      "skills": []
+    }
+  ],
+  "projects": [
+    {
+      "source_pages": [
+        3
+      ],
+      "name": "Project 1",
+      "organization": "Funding agency/institution",
+      "client": null,
+      "role": null,
+      "dates": {
+        "start": "Date: Project duration",
+        "end": null,
+        "duration": null
+      },
+      "details": [
+        "A short abstract would also work."
+      ],
+      "skills": [
+        "C++",
+        "Embedded Systems"
+      ]
+    },
+    {
+      "source_pages": [
+        3
+      ],
+      "name": "Project 2",
+      "organization": "Funding agency/institution",
+      "client": null,
+      "role": null,
+      "dates": {
+        "start": "Date: Project duration",
+        "end": null,
+        "duration": null
+      },
+      "details": [
+        "A short abstract would also work."
+      ],
+      "skills": [
+        "Statistical Analysis"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "source_pages": [
+        4
+      ],
+      "institution": "Your University",
+      "qualification": "Ph.D. in Your Discipline",
+      "dates": {
+        "start": "Sept 2002",
+        "end": "June 2006",
+        "duration": null
+      },
+      "details": [
+        "Thesis title: Wonderful Research"
+      ]
+    },
+    {
+      "source_pages": [
+        4
+      ],
+      "institution": "Your University",
+      "qualification": "M.Sc. in Your Discipline",
+      "dates": {
+        "start": "Sept 2001",
+        "end": "June 2002",
+        "duration": null
+      },
+      "details": []
+    },
+    {
+      "source_pages": [
+        4
+      ],
+      "institution": "Stanford University",
+      "qualification": "B.Sc. in Your Discipline",
+      "dates": {
+        "start": "Sept 1998",
+        "end": "June 2001",
+        "duration": null
+      },
+      "details": []
+    }
+  ],
+  "skills": [
+    {
+      "source_pages": [],
+      "name": "C++",
+      "proficiency": {
+        "text": "Embedded Systems",
+        "type": "numeric",
+        "value": 5.0,
+        "maximum": 5.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Statistical Analysis",
+      "proficiency": {
+        "text": "Embedded Systems",
+        "type": "numeric",
+        "value": 5.0,
+        "maximum": 5.0
+      },
+      "details": []
+    }
+  ],
+  "languages": [
+    {
+      "source_pages": [],
+      "name": "English",
+      "proficiency": {
+        "text": "5",
+        "type": "numeric",
+        "value": 5.0,
+        "maximum": 5.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Spanish",
+      "proficiency": {
+        "text": "4",
+        "type": "numeric",
+        "value": 4.0,
+        "maximum": 5.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "German",
+      "proficiency": {
+        "text": "3 . 5",
+        "type": "numeric",
+        "value": 3.5,
+        "maximum": 5.0
+      },
+      "details": []
+    }
+  ],
+  "certifications": [],
+  "training": [],
+  "additional_sections": [
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "A DAY OF MY LIFE\n\nDaytime\n\nHopeful  nov\n\nelist  b y   night:\n\nSports an d  relaxation:\n\nSleep,                                           Spending tim\n\nbeautifu l sleep:                                                                                                                                                          Date: Sept 2002 – June 2006                            e wi th          family"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "PUBLICATIONS                  REFEREES\n\n  \faBookBooks                                                                  Prof. Alpha Beta\n                                     @  Institute\n•  E. Someone and T. Lim, A Fictional Research. Somewhere, Some\n   Place, 2010.                              #  a.beta@university.edu\n                                                                 Address Line 1\n                                                                 Address Line 2\n\n   \faFileJournal Articles\n                                                                              Prof. Gamma Delta•  L. T. Wong and E. Someone, “A non-existant paper,” Journal of\n                                     @  Institute   Carrying On, vol. 12, 2011.\n                                     #  g.delta@university.edu•  L. T. Lim, E. Someone, and A. Other, “A study into ﬁreside story-\ntelling,” Journal of Carrying On, vol. 7, 2008.                          Address Line 1\n                                                                 Address Line 2\n\n    \faUsersConference Proceedings\n\n•  E. Someone and L. T. Lim, “Another paper something something,”\n   in Proceedings of the 72nd AmaZing Conference, Far Far Away,\n  2013."
+    }
+  ]
+}

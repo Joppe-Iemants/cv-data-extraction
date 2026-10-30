@@ -1,0 +1,57 @@
+{
+  "document_id": "CV009",
+  "repetition": 4,
+  "status": "error",
+  "metrics": {
+    "processing_seconds": 178.50217970000085
+  },
+  "stages": [
+    {
+      "name": "read_pdf",
+      "method": "pdf_text",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 0.016456299999845214,
+        "memory": {
+          "enabled": false
+        },
+        "page_count": 1,
+        "character_count": 3641,
+        "pages_without_text": []
+      },
+      "error": null
+    },
+    {
+      "name": "prepare_text",
+      "method": "join_page_text",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 2.340000355616212e-05,
+        "memory": {
+          "enabled": false
+        },
+        "character_count": 3641
+      },
+      "error": null
+    },
+    {
+      "name": "structure_cv",
+      "method": "llm_structuring",
+      "execution_status": "error",
+      "outcome": null,
+      "metrics": {
+        "duration_seconds": 178.48569999999745,
+        "memory": {
+          "enabled": false
+        }
+      },
+      "error": {
+        "type": "StructuringError",
+        "message": "Ollama returned HTTP 500: Internal Server Error"
+      },
+      "artifacts_file": "artifacts.json"
+    }
+  ]
+}
