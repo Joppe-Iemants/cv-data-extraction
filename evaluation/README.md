@@ -19,3 +19,33 @@ Run: `20261029T215235_8e602a1a`
 - **Inconsistent completion:** CV008 and CV010 each completed only once across five repetitions.
 
 - It appears CV30 is a deliberate prompt injection.
+
+### Vision extraction
+
+| Measurement | Before | After |
+|---|---:|---:|
+| Structuring stage, including model loading | 65 minutes | 1.93 minutes |
+| Generation speed | 0.43 tokens/s | 19.97 tokens/s |
+| Peak allocated GPU memory during generation | 8.59 GiB | 3.70 GiB |
+| Parsed extraction | Same | Same |
+
+
+- **Efficient attention adapter**
+  - Test separately.
+  - Measure generation speed and peak GPU memory.
+
+- **`logits_to_keep=1`**
+  - Test separately, then combine with the attention adapter.
+  - Measure processing time and peak GPU memory.
+
+- **Image resolution control**
+  - Group the pixel limit and smaller-image retries together.
+  - Measure processing time, memory, extraction accuracy, and success rate.
+
+- **GPU memory allocation cap**
+  - Test separately.
+  - Measure memory use and out-of-memory failures.
+
+- **Batch reliability**
+  - Group process isolation, timeouts, progress saving, logging, and sleep prevention together.
+  - Measure batch completion, failure recovery, and model-reloading overhead.

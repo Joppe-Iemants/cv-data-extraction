@@ -563,6 +563,30 @@
         "CV012"
       ]
     },
+    "20261030T220121_51392060": {
+      "path": "archived_runs/20261030T220121_51392060",
+      "title": "CV002 VLM baseline before attention optimizations",
+      "description": "Single successful CV002 attempt using Qwen3-VL-4B-Instruct in 4-bit on GPU only, 120-DPI page renders and an 8192-token output limit. Original SDPA attention, without KV-head expansion, logits_to_keep=1, a pixel cap or a GPU allocation cap. Structuring took approximately 3901 seconds (65 minutes), with generation at 0.43 tokens/s. Process RAM monitoring was disabled. Preserved as the slow baseline for VLM efficiency comparisons.",
+      "tags": [
+        "baseline", "vision", "qwen3-vl-4b", "4-bit", "sdpa", "single-document"
+      ],
+      "document_ids": ["CV002"]
+    },
+    "20261030T234809_f3750d98": {
+      "path": "archived_runs/20261030T234809_f3750d98",
+      "title": "Overnight VLM development run with combined optimizations",
+      "description": "Qwen3-VL-4B-Instruct in 4-bit on GPU only across 34 development CVs, excluding VDAB, with one repetition and 120-DPI renders. Combined changes: expanded-KV SDPA attention adapter, logits_to_keep=1, a 1400000-pixel per-page processor limit, an 85% GPU allocation cap and up to three smaller-image retries after CUDA OOM. Each CV ran in a separate offline worker with a 14-minute timeout and an eight-hour batch deadline; process RAM was sampled every 100 ms. All 34 attempts finished in approximately 1 hour 47 minutes: 6 passed schema validation and 28 failed schema validation, although all final raw responses were valid JSON. CV032 and CV037 required memory retries. Preserved for timing, memory and reliability analysis; this combined run does not isolate individual optimization effects.",
+      "tags": [
+        "vision", "qwen3-vl-4b", "4-bit", "development", "one-repetition",
+        "overnight", "combined-optimizations", "expanded-kv-sdpa", "schema-failures"
+      ],
+      "document_ids": [
+        "CV001", "CV002", "CV003", "CV004", "CV005", "CV006", "CV007", "CV008", "CV009",
+        "CV010", "CV011", "CV012", "CV017", "CV018", "CV019", "CV020", "CV021", "CV022",
+        "CV023", "CV024", "CV025", "CV026", "CV027", "CV028", "CV029", "CV030",
+        "CV031", "CV032", "CV033", "CV034", "CV035", "CV036", "CV037", "CV038"
+      ]
+    },
     "20261029T215235_8e602a1a": {
       "path": "archived_runs/20261029T215235_8e602a1a",
       "title": "Text baseline development run with five repetitions",
