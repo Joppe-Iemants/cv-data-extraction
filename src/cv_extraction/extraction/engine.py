@@ -1,7 +1,7 @@
 from pathlib import Path
 from time import perf_counter
 
-from .stages import STAGE_METHODS
+from .registry import STAGE_METHODS
 from ..monitoring.memory import MemoryMonitor
 
 def validate_stage_output(output) -> None:
@@ -12,9 +12,7 @@ def validate_stage_output(output) -> None:
     missing_keys = required_keys - set(output)
 
     if missing_keys:
-        raise ValueError(
-            f"Stage output is missing keys: {sorted(missing_keys)}"
-        )
+        raise ValueError(f'Stage output is missing keys: {sorted(missing_keys)}')
 
     if not isinstance(output["data"], dict):
         raise TypeError("Stage output data must be a dictionary.")
@@ -22,9 +20,7 @@ def validate_stage_output(output) -> None:
     outcome = output["outcome"]
 
     if not isinstance(outcome, str) or not outcome.strip():
-        raise ValueError(
-            "Stage outcome must be a nonempty string."
-        )
+        raise ValueError('Stage outcome must be a nonempty string.')
 
     metrics = output["metrics"]
 
@@ -35,10 +31,7 @@ def validate_stage_output(output) -> None:
     conflicting_keys = reserved_keys & set(metrics)
 
     if conflicting_keys:
-        raise ValueError(
-            "Stage metrics cannot overwrite shared measurements: "
-            f"{sorted(conflicting_keys)}"
-        )
+        raise ValueError(f'Stage metrics cannot overwrite shared measurements: {sorted(conflicting_keys)}')
     
     if "artifacts" in output:
         if not isinstance(output["artifacts"], dict):

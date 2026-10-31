@@ -37,15 +37,15 @@ Runs comparisons using reusable components
 ### 2) run the run_experiment.py file  
    For example:
 ```cmd
-python experiments/run_experiment.py --config experiments/configs/pdf_text_sorted.json
+python experiments/run_experiment.py --config experiments/configs/component_checks/pdf_text.json
 ```
 OR
 ```cmd
-pipenv run experiment --config experiments/configs/pdf_text_sorted.json
+pipenv run experiment --config experiments/configs/component_checks/pdf_text.json
 
-pipenv run experiment --config experiments/configs/text_baseline.json
+pipenv run experiment --config experiments/configs/text_baseline/baseline.json
 
-pipenv run experiment --config experiments/configs/vision_extraction.json
+pipenv run experiment --config experiments/configs/vision/baseline.json
 ```
 
 ### 3) Evaluate the run
@@ -57,7 +57,8 @@ pipenv run evaluate --run-ids RUN_ID
 
 ## VLM CPU offloading
 
-`vision_extraction.json` enables `allow_cpu_offload` for the VLM stage. Accelerate
+`configs/vision/baseline.json` currently sets `allow_cpu_offload` to `false`.
+Set it to `true` to enable CPU offloading for the VLM stage. Accelerate
 automatically distributes model weights over GPU 0 and CPU RAM when
 needed. CUDA is still required. Set the option to `false` (or omit it) to retain
 the original GPU-0-only loading behavior.

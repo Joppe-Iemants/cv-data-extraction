@@ -75,7 +75,7 @@ def build_vision_prompt() -> str:
     schema = json.dumps(
         RawCV.model_json_schema(),
         ensure_ascii=False,
-        separators=(",", ":"),
+        separators=(",", ":")
     )
 
     return f"{SYSTEM_PROMPT}\n\nJSON schema:\n{schema}"

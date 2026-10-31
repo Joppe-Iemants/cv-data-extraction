@@ -7,7 +7,7 @@ from .normalization import link_identity, normalized
 
 CATEGORIES = (
     "personal_information", "work_experience", "projects", "education",
-    "skills", "languages", "certifications", "training",
+    "skills", "languages", "certifications", "training"
 )
 
 
@@ -23,7 +23,7 @@ def metrics(counts):
         **result, "expected_facts": expected, "predicted_facts": predicted,
         "precision": correct / predicted if predicted else None,
         "recall": correct / expected if expected else None,
-        "f1": 2 * correct / (expected + predicted) if expected + predicted else None,
+        "f1": 2 * correct / (expected + predicted) if expected + predicted else None
     }
 
 
@@ -125,6 +125,6 @@ def evaluate(reference, prediction, provenance_policy="empty"):
         "content_review": {
             "status": "pending", "reference": content(expected), "prediction": content(actual),
             "checklist": {key: {"passed": None, "notes": ""} for key in
-                          ("preservation", "faithfulness", "placement", "duplication")},
-        },
+                          ("preservation", "faithfulness", "placement", "duplication")}
+        }
     }

@@ -11,7 +11,7 @@ from pydantic import ValidationError
 from ..schemas import RawCV
 from ..storage import save_json
 from .scoring import CATEGORIES, COUNTS, evaluate, metrics
-from ..extraction.stages import STAGE_METHODS
+from ..extraction.registry import STAGE_METHODS
 
 VERSION = "1.2"
 ROOT = Path(__file__).resolve().parents[3]

@@ -9,7 +9,7 @@ from importlib.metadata import distributions
 from pathlib import Path
 from uuid import uuid4
 
-from cv_extraction.extraction.pipeline import run_extraction
+from cv_extraction.extraction.engine import run_extraction
 from cv_extraction.storage import save_json
 from cv_extraction.config import select_split, validate_stages
 from cv_extraction.monitoring.reporting import build_document_summaries

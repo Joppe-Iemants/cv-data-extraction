@@ -39,7 +39,7 @@ def link_identity(record):
 
 MONTHS = dict(zip(
     "jan feb mar apr may jun jul aug sep sept oct nov dec".split(),
-    "january february march april may june july august september september october november december".split(),
+    "january february march april may june july august september september october november december".split()
 ))
 
 
@@ -57,6 +57,6 @@ def normalized(value, field=""):
     if field in {"start", "end", "date"}:
         text = re.sub(
             r"\b(" + "|".join(MONTHS) + r")\.?(?=\s|$)",
-            lambda match: MONTHS[match[1]], text,
+            lambda match: MONTHS[match[1]], text
         )
     return text

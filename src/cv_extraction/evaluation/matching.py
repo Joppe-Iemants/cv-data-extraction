@@ -11,7 +11,7 @@ IDENTITIES = {
     "skills": ("name",), "languages": ("name",),
     "certifications": ("name", "issuer", "date"),
     "training": ("name", "provider", "dates.start"),
-    "weblinks": ("url", "platform"),
+    "weblinks": ("url", "platform")
 }
 
 

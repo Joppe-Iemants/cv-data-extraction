@@ -7,8 +7,8 @@ from types import SimpleNamespace
 from unittest.mock import Mock, patch
 
 from cv_extraction.config import validate_stages
-from cv_extraction.extraction.methods import vlm_runtime
-from cv_extraction.extraction.methods.vlm_structuring import structure_cv_images
+from cv_extraction.extraction.backends import qwen_vl as vlm_runtime
+from cv_extraction.extraction.components.structuring.from_images import structure_cv_images
 
 GiB = 1024 ** 3
 
@@ -25,18 +25,18 @@ class VLMOffloadTests(unittest.TestCase):
             cuda=SimpleNamespace(
                 is_available=Mock(return_value=True),
                 mem_get_info=Mock(return_value=(8 * GiB, 8 * GiB)),
-                synchronize=Mock(),
-            ),
+                synchronize=Mock()
+            )
         )
         self.transformers = SimpleNamespace(
             AutoProcessor=SimpleNamespace(from_pretrained=Mock()),
             BitsAndBytesConfig=Mock(),
-            Qwen3VLForConditionalGeneration=SimpleNamespace(from_pretrained=Mock(return_value=self.model)),
+            Qwen3VLForConditionalGeneration=SimpleNamespace(from_pretrained=Mock(return_value=self.model))
         )
         self.modules = patch.dict('sys.modules', {
             'torch': self.torch,
             'transformers': self.transformers,
-            'psutil': SimpleNamespace(virtual_memory=lambda: SimpleNamespace(available=20 * GiB)),
+            'psutil': SimpleNamespace(virtual_memory=lambda: SimpleNamespace(available=20 * GiB))
         })
         self.cache = patch.multiple(vlm_runtime, _RUNTIME=None, _RUNTIME_KEY=None)
         self.modules.start()
@@ -88,7 +88,7 @@ class VLMOffloadTests(unittest.TestCase):
 
 class VLMConfigurationTests(unittest.TestCase):
     def test_new_and_existing_stage_configs_validate(self):
-        config = json.loads((Path(__file__).parents[1] / 'experiments/configs/vision_extraction.json').read_text())
+        config = json.loads((Path(__file__).parents[1] / 'experiments/configs/vision/baseline.json').read_text())
         validate_stages(config['stages'])
         legacy = copy.deepcopy(config['stages'])
         legacy[-1]['settings'].pop('allow_cpu_offload')
@@ -129,10 +129,10 @@ class VLMConfigurationTests(unittest.TestCase):
         image.convert.return_value = Mock()
         with patch.dict('sys.modules', {'torch': torch}), \
              patch('PIL.Image.open', return_value=image), \
-             patch('cv_extraction.extraction.methods.vlm_structuring.get_vlm_runtime', return_value=runtime):
+             patch('cv_extraction.extraction.components.structuring.from_images.get_vlm_runtime', return_value=runtime):
             result = structure_cv_images(
                 {'pages': [{'page_number': 1, 'image_path': 'unused.png'}], 'dpi': 120},
-                'test-model', True, 10, allow_cpu_offload=True,
+                'test-model', True, 10, allow_cpu_offload=True
             )
         batch.to.assert_called_once_with('cuda:0')
         self.assertTrue(result['metrics']['cpu_offload_used'])

@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 
-from .extraction.stages import STAGE_METHODS
+from .extraction.registry import STAGE_METHODS
 
 def select_split(documents: list[dict], splits_path: Path, split_name: str) -> list[dict]:
     splits = json.loads(splits_path.read_text(encoding="utf-8"))
@@ -49,9 +49,7 @@ def validate_stages(stages: list[dict]) -> None:
         settings = stage["settings"]
 
         if not isinstance(name, str) or not name.isidentifier():
-            raise ValueError(
-                "Stage names must be valid identifiers, such as read_pdf."
-            )
+            raise ValueError('Stage names must be valid identifiers, such as read_pdf.')
 
         if name in names:
             raise ValueError(f"Duplicate stage name: {name}")
@@ -64,10 +62,7 @@ def validate_stages(stages: list[dict]) -> None:
         definition = STAGE_METHODS[method]
 
         if definition["input_kind"] != available_kind:
-            raise ValueError(
-                f"Stage {name} requires {definition['input_kind']}, "
-                f"but the previous output is {available_kind}."
-            )
+            raise ValueError(f"Stage {name} requires {definition['input_kind']}, but the previous output is {available_kind}.")
 
         expected_settings = definition["settings"]
         optional_settings = definition.get("optional_settings", {})
@@ -76,18 +71,12 @@ def validate_stages(stages: list[dict]) -> None:
             raise ValueError(f"Settings for {name} must be an object.")
 
         if not set(expected_settings).issubset(settings) or set(settings) - (set(expected_settings) | set(optional_settings)):
-            raise ValueError(
-                f"Stage {name} requires these settings: "
-                f"{sorted(expected_settings)}"
-            )
+            raise ValueError(f'Stage {name} requires these settings: {sorted(expected_settings)}')
 
         for key, expected_type in (expected_settings | optional_settings).items():
             if key not in settings:
                 continue
             if type(settings[key]) is not expected_type:
-                raise ValueError(
-                    f"Invalid type for {name}.{key}; "
-                    f"expected {expected_type.__name__}."
-                )
+                raise ValueError(f'Invalid type for {name}.{key}; expected {expected_type.__name__}.')
 
         available_kind = definition["output_kind"]

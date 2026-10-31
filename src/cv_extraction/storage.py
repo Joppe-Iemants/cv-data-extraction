@@ -7,5 +7,5 @@ def save_json(path: Path, data) -> None:
 
     path.write_text(
         json.dumps(data, indent=2, ensure_ascii=False),
-        encoding="utf-8",
+        encoding="utf-8"
     )

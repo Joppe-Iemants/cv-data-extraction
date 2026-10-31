@@ -2,9 +2,9 @@ import json
 from contextlib import ExitStack
 from time import perf_counter
 
-from ...schemas import RawCV
-from ..prompts.vision import build_vision_prompt
-from .vlm_runtime import get_vlm_runtime
+from ....schemas import RawCV
+from ...prompts.vision import build_vision_prompt
+from ...backends.qwen_vl import get_vlm_runtime
 
 
 class VisionStructuringError(RuntimeError):
@@ -171,7 +171,4 @@ def structure_cv_images(
             "message": str(error)
         }
 
-        raise VisionStructuringError(
-            f"Vision extraction failed: {error}",
-            artifacts
-        ) from error
+        raise VisionStructuringError(f'Vision extraction failed: {error}', artifacts) from error

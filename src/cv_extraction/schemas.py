@@ -13,7 +13,7 @@ def blank_to_none(value):
 
 OptionalText = Annotated[
     NonEmptyText | None,
-    BeforeValidator(blank_to_none),
+    BeforeValidator(blank_to_none)
 ]
 
 class CVModel(BaseModel):

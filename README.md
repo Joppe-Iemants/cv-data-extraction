@@ -9,7 +9,7 @@ Bachelor’s thesis comparing methods for extracting structured data from CVs, w
 | **Text baseline** | ✅ | ❌ | ⚠️ | ❌ | ❌ | ✅ |
 | **Layout-aware text** | ❓ | ❓ | ❓ | ❓ | ❓ | ⬜ |
 | **OCR extraction** | ❓ | ❓ | ❓ | ❓ | ❓ | ⬜ |
-| **Vision extraction** | ❓ | ❓ | ❓ | ❓ | ❓ | ⬜ |
+| **Vision extraction** | ❓ | ❓ | ❓ | ❓ | ❓ | ✅ |
 | **Multimodal extraction** | ❓ | ❓ | ❓ | ❓ | ❓ | ⬜ |
 | **Visual correction** | ❓ | ❓ | ❓ | ❓ | ❓ | ⬜ |
 | **Targeted vision** | ❓ | ❓ | ❓ | ❓ | ❓ | ⬜ |
@@ -29,6 +29,9 @@ Bachelor’s thesis comparing methods for extracting structured data from CVs, w
 
 
 ## Layout
+Start with the [pipeline guides](src/cv_extraction/extraction/pipelines/README.md)
+to follow an approach from its config to its components, prompt and backend.
+
 | Repository directory | Purpose |
 | --- | --- |
 | `data/` | CV source files, reference annotations and archived runs |
@@ -43,8 +46,21 @@ Bachelor’s thesis comparing methods for extracting structured data from CVs, w
 | `evaluation/` | Compare extracted data against references and generate accuracy reports |
 | `monitoring/` | Monitor hardware, memory usage and execution times |
 
+| Directory under `extraction/` | Purpose |
+| --- | --- |
+| `pipelines/` | Guides showing how each extraction approach is composed |
+| `components/pdf/` | Native PDF text extraction and page rendering |
+| `components/text/` | Text preparation |
+| `components/structuring/` | Convert text or images into the shared CV schema |
+| `backends/` | Ollama HTTP transport and Qwen model runtime |
+| `prompts/` | Text and vision extraction instructions |
+
+`extraction/engine.py` executes stages; `extraction/registry.py` registers their
+functions and settings. [Experiment configs](experiments/configs/README.md) are
+grouped by approach, with model-free checks in `component_checks/`.
+
 ```powershell
-pipenv run experiment --config experiments/configs/text_baseline.json
+pipenv run experiment --config experiments/configs/text_baseline/baseline.json
 pipenv run evaluate --run-ids RUN_ID
 ```
 
