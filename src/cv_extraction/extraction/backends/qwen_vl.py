@@ -50,12 +50,16 @@ def get_vlm_runtime(model_id: str, load_in_4bit: bool, allow_cpu_offload: bool =
 
     processor = AutoProcessor.from_pretrained(model_id)
 
+    from .attention import register_expanded_kv_sdpa
+
+    attention = register_expanded_kv_sdpa()
+
     model = Qwen3VLForConditionalGeneration.from_pretrained(
         model_id,
         quantization_config=quantization,
         **placement,
         dtype=torch.float16,
-        attn_implementation="sdpa"
+        attn_implementation=attention
     )
 
     model.eval()
