@@ -1,0 +1,2912 @@
+{
+  "run_id": "20261030T234809_f3750d98",
+  "started_at_utc": "2026-10-30T23:48:09.311892+00:00",
+  "finished_at_utc": "2026-10-31T01:35:23.098365+00:00",
+  "document_count": 34,
+  "attempt_count": 34,
+  "stop_reason": "completed",
+  "documents": [
+    {
+      "document_id": "CV001",
+      "attempt_count": 1,
+      "outcome_counts": {
+        "completed": 1
+      },
+      "stages": {
+        "render_pages": {
+          "method": "render_pdf",
+          "execution_counts": {
+            "completed": 1
+          },
+          "outcome_counts": {
+            "success": 1
+          },
+          "completed_timing_seconds": {
+            "count": 1,
+            "minimum": 0.07538059999933466,
+            "median": 0.07538059999933466,
+            "maximum": 0.07538059999933466
+          },
+          "failed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 144621568,
+              "median": 144621568,
+              "maximum": 144621568
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "boundary_only_measurements": 1
+          }
+        },
+        "structure_cv": {
+          "method": "vlm_structuring",
+          "execution_counts": {
+            "completed": 1
+          },
+          "outcome_counts": {
+            "success": 1
+          },
+          "completed_timing_seconds": {
+            "count": 1,
+            "minimum": 97.86798189999536,
+            "median": 97.86798189999536,
+            "maximum": 97.86798189999536
+          },
+          "failed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 2539339776,
+              "median": 2539339776,
+              "maximum": 2539339776
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "boundary_only_measurements": 0
+          }
+        }
+      }
+    },
+    {
+      "document_id": "CV002",
+      "attempt_count": 1,
+      "outcome_counts": {
+        "completed": 1
+      },
+      "stages": {
+        "render_pages": {
+          "method": "render_pdf",
+          "execution_counts": {
+            "completed": 1
+          },
+          "outcome_counts": {
+            "success": 1
+          },
+          "completed_timing_seconds": {
+            "count": 1,
+            "minimum": 0.03665899997577071,
+            "median": 0.03665899997577071,
+            "maximum": 0.03665899997577071
+          },
+          "failed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 143249408,
+              "median": 143249408,
+              "maximum": 143249408
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "boundary_only_measurements": 1
+          }
+        },
+        "structure_cv": {
+          "method": "vlm_structuring",
+          "execution_counts": {
+            "completed": 1
+          },
+          "outcome_counts": {
+            "success": 1
+          },
+          "completed_timing_seconds": {
+            "count": 1,
+            "minimum": 88.19005510001443,
+            "median": 88.19005510001443,
+            "maximum": 88.19005510001443
+          },
+          "failed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 2542465024,
+              "median": 2542465024,
+              "maximum": 2542465024
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "boundary_only_measurements": 0
+          }
+        }
+      }
+    },
+    {
+      "document_id": "CV003",
+      "attempt_count": 1,
+      "outcome_counts": {
+        "error": 1
+      },
+      "stages": {
+        "render_pages": {
+          "method": "render_pdf",
+          "execution_counts": {
+            "completed": 1
+          },
+          "outcome_counts": {
+            "success": 1
+          },
+          "completed_timing_seconds": {
+            "count": 1,
+            "minimum": 0.16371280001476407,
+            "median": 0.16371280001476407,
+            "maximum": 0.16371280001476407
+          },
+          "failed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 148168704,
+              "median": 148168704,
+              "maximum": 148168704
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "boundary_only_measurements": 0
+          }
+        },
+        "structure_cv": {
+          "method": "vlm_structuring",
+          "execution_counts": {
+            "error": 1
+          },
+          "outcome_counts": {},
+          "completed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "failed_timing_seconds": {
+            "count": 1,
+            "minimum": 254.94924340001307,
+            "median": 254.94924340001307,
+            "maximum": 254.94924340001307
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 2543591424,
+              "median": 2543591424,
+              "maximum": 2543591424
+            },
+            "boundary_only_measurements": 0
+          }
+        }
+      }
+    },
+    {
+      "document_id": "CV004",
+      "attempt_count": 1,
+      "outcome_counts": {
+        "completed": 1
+      },
+      "stages": {
+        "render_pages": {
+          "method": "render_pdf",
+          "execution_counts": {
+            "completed": 1
+          },
+          "outcome_counts": {
+            "success": 1
+          },
+          "completed_timing_seconds": {
+            "count": 1,
+            "minimum": 0.04943850002018735,
+            "median": 0.04943850002018735,
+            "maximum": 0.04943850002018735
+          },
+          "failed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 145158144,
+              "median": 145158144,
+              "maximum": 145158144
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "boundary_only_measurements": 1
+          }
+        },
+        "structure_cv": {
+          "method": "vlm_structuring",
+          "execution_counts": {
+            "completed": 1
+          },
+          "outcome_counts": {
+            "success": 1
+          },
+          "completed_timing_seconds": {
+            "count": 1,
+            "minimum": 117.99651430000085,
+            "median": 117.99651430000085,
+            "maximum": 117.99651430000085
+          },
+          "failed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 2540814336,
+              "median": 2540814336,
+              "maximum": 2540814336
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "boundary_only_measurements": 0
+          }
+        }
+      }
+    },
+    {
+      "document_id": "CV005",
+      "attempt_count": 1,
+      "outcome_counts": {
+        "completed": 1
+      },
+      "stages": {
+        "render_pages": {
+          "method": "render_pdf",
+          "execution_counts": {
+            "completed": 1
+          },
+          "outcome_counts": {
+            "success": 1
+          },
+          "completed_timing_seconds": {
+            "count": 1,
+            "minimum": 0.05159290001029149,
+            "median": 0.05159290001029149,
+            "maximum": 0.05159290001029149
+          },
+          "failed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 144035840,
+              "median": 144035840,
+              "maximum": 144035840
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "boundary_only_measurements": 1
+          }
+        },
+        "structure_cv": {
+          "method": "vlm_structuring",
+          "execution_counts": {
+            "completed": 1
+          },
+          "outcome_counts": {
+            "success": 1
+          },
+          "completed_timing_seconds": {
+            "count": 1,
+            "minimum": 109.92811849998543,
+            "median": 109.92811849998543,
+            "maximum": 109.92811849998543
+          },
+          "failed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 2539339776,
+              "median": 2539339776,
+              "maximum": 2539339776
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "boundary_only_measurements": 0
+          }
+        }
+      }
+    },
+    {
+      "document_id": "CV006",
+      "attempt_count": 1,
+      "outcome_counts": {
+        "completed": 1
+      },
+      "stages": {
+        "render_pages": {
+          "method": "render_pdf",
+          "execution_counts": {
+            "completed": 1
+          },
+          "outcome_counts": {
+            "success": 1
+          },
+          "completed_timing_seconds": {
+            "count": 1,
+            "minimum": 0.0516901999944821,
+            "median": 0.0516901999944821,
+            "maximum": 0.0516901999944821
+          },
+          "failed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 144236544,
+              "median": 144236544,
+              "maximum": 144236544
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "boundary_only_measurements": 1
+          }
+        },
+        "structure_cv": {
+          "method": "vlm_structuring",
+          "execution_counts": {
+            "completed": 1
+          },
+          "outcome_counts": {
+            "success": 1
+          },
+          "completed_timing_seconds": {
+            "count": 1,
+            "minimum": 121.7695090000052,
+            "median": 121.7695090000052,
+            "maximum": 121.7695090000052
+          },
+          "failed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 2542022656,
+              "median": 2542022656,
+              "maximum": 2542022656
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "boundary_only_measurements": 0
+          }
+        }
+      }
+    },
+    {
+      "document_id": "CV007",
+      "attempt_count": 1,
+      "outcome_counts": {
+        "error": 1
+      },
+      "stages": {
+        "render_pages": {
+          "method": "render_pdf",
+          "execution_counts": {
+            "completed": 1
+          },
+          "outcome_counts": {
+            "success": 1
+          },
+          "completed_timing_seconds": {
+            "count": 1,
+            "minimum": 0.07760459999553859,
+            "median": 0.07760459999553859,
+            "maximum": 0.07760459999553859
+          },
+          "failed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 144109568,
+              "median": 144109568,
+              "maximum": 144109568
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "boundary_only_measurements": 1
+          }
+        },
+        "structure_cv": {
+          "method": "vlm_structuring",
+          "execution_counts": {
+            "error": 1
+          },
+          "outcome_counts": {},
+          "completed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "failed_timing_seconds": {
+            "count": 1,
+            "minimum": 90.39185600000201,
+            "median": 90.39185600000201,
+            "maximum": 90.39185600000201
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 2544304128,
+              "median": 2544304128,
+              "maximum": 2544304128
+            },
+            "boundary_only_measurements": 0
+          }
+        }
+      }
+    },
+    {
+      "document_id": "CV008",
+      "attempt_count": 1,
+      "outcome_counts": {
+        "error": 1
+      },
+      "stages": {
+        "render_pages": {
+          "method": "render_pdf",
+          "execution_counts": {
+            "completed": 1
+          },
+          "outcome_counts": {
+            "success": 1
+          },
+          "completed_timing_seconds": {
+            "count": 1,
+            "minimum": 0.12056250000023283,
+            "median": 0.12056250000023283,
+            "maximum": 0.12056250000023283
+          },
+          "failed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 147783680,
+              "median": 147783680,
+              "maximum": 147783680
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "boundary_only_measurements": 0
+          }
+        },
+        "structure_cv": {
+          "method": "vlm_structuring",
+          "execution_counts": {
+            "error": 1
+          },
+          "outcome_counts": {},
+          "completed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "failed_timing_seconds": {
+            "count": 1,
+            "minimum": 241.24642189999577,
+            "median": 241.24642189999577,
+            "maximum": 241.24642189999577
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 2543906816,
+              "median": 2543906816,
+              "maximum": 2543906816
+            },
+            "boundary_only_measurements": 0
+          }
+        }
+      }
+    },
+    {
+      "document_id": "CV009",
+      "attempt_count": 1,
+      "outcome_counts": {
+        "completed": 1
+      },
+      "stages": {
+        "render_pages": {
+          "method": "render_pdf",
+          "execution_counts": {
+            "completed": 1
+          },
+          "outcome_counts": {
+            "success": 1
+          },
+          "completed_timing_seconds": {
+            "count": 1,
+            "minimum": 0.03522039999370463,
+            "median": 0.03522039999370463,
+            "maximum": 0.03522039999370463
+          },
+          "failed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 143876096,
+              "median": 143876096,
+              "maximum": 143876096
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "boundary_only_measurements": 1
+          }
+        },
+        "structure_cv": {
+          "method": "vlm_structuring",
+          "execution_counts": {
+            "completed": 1
+          },
+          "outcome_counts": {
+            "success": 1
+          },
+          "completed_timing_seconds": {
+            "count": 1,
+            "minimum": 71.89894559999811,
+            "median": 71.89894559999811,
+            "maximum": 71.89894559999811
+          },
+          "failed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 2537840640,
+              "median": 2537840640,
+              "maximum": 2537840640
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "boundary_only_measurements": 0
+          }
+        }
+      }
+    },
+    {
+      "document_id": "CV010",
+      "attempt_count": 1,
+      "outcome_counts": {
+        "error": 1
+      },
+      "stages": {
+        "render_pages": {
+          "method": "render_pdf",
+          "execution_counts": {
+            "completed": 1
+          },
+          "outcome_counts": {
+            "success": 1
+          },
+          "completed_timing_seconds": {
+            "count": 1,
+            "minimum": 0.04585380002390593,
+            "median": 0.04585380002390593,
+            "maximum": 0.04585380002390593
+          },
+          "failed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 143929344,
+              "median": 143929344,
+              "maximum": 143929344
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "boundary_only_measurements": 1
+          }
+        },
+        "structure_cv": {
+          "method": "vlm_structuring",
+          "execution_counts": {
+            "error": 1
+          },
+          "outcome_counts": {},
+          "completed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "failed_timing_seconds": {
+            "count": 1,
+            "minimum": 101.50341249999474,
+            "median": 101.50341249999474,
+            "maximum": 101.50341249999474
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 2536689664,
+              "median": 2536689664,
+              "maximum": 2536689664
+            },
+            "boundary_only_measurements": 0
+          }
+        }
+      }
+    },
+    {
+      "document_id": "CV011",
+      "attempt_count": 1,
+      "outcome_counts": {
+        "error": 1
+      },
+      "stages": {
+        "render_pages": {
+          "method": "render_pdf",
+          "execution_counts": {
+            "completed": 1
+          },
+          "outcome_counts": {
+            "success": 1
+          },
+          "completed_timing_seconds": {
+            "count": 1,
+            "minimum": 0.04693910002242774,
+            "median": 0.04693910002242774,
+            "maximum": 0.04693910002242774
+          },
+          "failed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 143835136,
+              "median": 143835136,
+              "maximum": 143835136
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "boundary_only_measurements": 1
+          }
+        },
+        "structure_cv": {
+          "method": "vlm_structuring",
+          "execution_counts": {
+            "error": 1
+          },
+          "outcome_counts": {},
+          "completed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "failed_timing_seconds": {
+            "count": 1,
+            "minimum": 102.02237369999057,
+            "median": 102.02237369999057,
+            "maximum": 102.02237369999057
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 2543194112,
+              "median": 2543194112,
+              "maximum": 2543194112
+            },
+            "boundary_only_measurements": 0
+          }
+        }
+      }
+    },
+    {
+      "document_id": "CV012",
+      "attempt_count": 1,
+      "outcome_counts": {
+        "error": 1
+      },
+      "stages": {
+        "render_pages": {
+          "method": "render_pdf",
+          "execution_counts": {
+            "completed": 1
+          },
+          "outcome_counts": {
+            "success": 1
+          },
+          "completed_timing_seconds": {
+            "count": 1,
+            "minimum": 0.04296210000757128,
+            "median": 0.04296210000757128,
+            "maximum": 0.04296210000757128
+          },
+          "failed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 143601664,
+              "median": 143601664,
+              "maximum": 143601664
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "boundary_only_measurements": 1
+          }
+        },
+        "structure_cv": {
+          "method": "vlm_structuring",
+          "execution_counts": {
+            "error": 1
+          },
+          "outcome_counts": {},
+          "completed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "failed_timing_seconds": {
+            "count": 1,
+            "minimum": 122.21898119998514,
+            "median": 122.21898119998514,
+            "maximum": 122.21898119998514
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 2543009792,
+              "median": 2543009792,
+              "maximum": 2543009792
+            },
+            "boundary_only_measurements": 0
+          }
+        }
+      }
+    },
+    {
+      "document_id": "CV017",
+      "attempt_count": 1,
+      "outcome_counts": {
+        "error": 1
+      },
+      "stages": {
+        "render_pages": {
+          "method": "render_pdf",
+          "execution_counts": {
+            "completed": 1
+          },
+          "outcome_counts": {
+            "success": 1
+          },
+          "completed_timing_seconds": {
+            "count": 1,
+            "minimum": 0.0585185999807436,
+            "median": 0.0585185999807436,
+            "maximum": 0.0585185999807436
+          },
+          "failed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 143904768,
+              "median": 143904768,
+              "maximum": 143904768
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "boundary_only_measurements": 1
+          }
+        },
+        "structure_cv": {
+          "method": "vlm_structuring",
+          "execution_counts": {
+            "error": 1
+          },
+          "outcome_counts": {},
+          "completed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "failed_timing_seconds": {
+            "count": 1,
+            "minimum": 181.32278020001831,
+            "median": 181.32278020001831,
+            "maximum": 181.32278020001831
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 2536804352,
+              "median": 2536804352,
+              "maximum": 2536804352
+            },
+            "boundary_only_measurements": 0
+          }
+        }
+      }
+    },
+    {
+      "document_id": "CV018",
+      "attempt_count": 1,
+      "outcome_counts": {
+        "error": 1
+      },
+      "stages": {
+        "render_pages": {
+          "method": "render_pdf",
+          "execution_counts": {
+            "completed": 1
+          },
+          "outcome_counts": {
+            "success": 1
+          },
+          "completed_timing_seconds": {
+            "count": 1,
+            "minimum": 0.10206270002527162,
+            "median": 0.10206270002527162,
+            "maximum": 0.10206270002527162
+          },
+          "failed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 147058688,
+              "median": 147058688,
+              "maximum": 147058688
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "boundary_only_measurements": 1
+          }
+        },
+        "structure_cv": {
+          "method": "vlm_structuring",
+          "execution_counts": {
+            "error": 1
+          },
+          "outcome_counts": {},
+          "completed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "failed_timing_seconds": {
+            "count": 1,
+            "minimum": 116.15326620000997,
+            "median": 116.15326620000997,
+            "maximum": 116.15326620000997
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 2542133248,
+              "median": 2542133248,
+              "maximum": 2542133248
+            },
+            "boundary_only_measurements": 0
+          }
+        }
+      }
+    },
+    {
+      "document_id": "CV019",
+      "attempt_count": 1,
+      "outcome_counts": {
+        "error": 1
+      },
+      "stages": {
+        "render_pages": {
+          "method": "render_pdf",
+          "execution_counts": {
+            "completed": 1
+          },
+          "outcome_counts": {
+            "success": 1
+          },
+          "completed_timing_seconds": {
+            "count": 1,
+            "minimum": 0.06405970000196248,
+            "median": 0.06405970000196248,
+            "maximum": 0.06405970000196248
+          },
+          "failed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 143818752,
+              "median": 143818752,
+              "maximum": 143818752
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "boundary_only_measurements": 1
+          }
+        },
+        "structure_cv": {
+          "method": "vlm_structuring",
+          "execution_counts": {
+            "error": 1
+          },
+          "outcome_counts": {},
+          "completed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "failed_timing_seconds": {
+            "count": 1,
+            "minimum": 123.6696365000098,
+            "median": 123.6696365000098,
+            "maximum": 123.6696365000098
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 2538307584,
+              "median": 2538307584,
+              "maximum": 2538307584
+            },
+            "boundary_only_measurements": 0
+          }
+        }
+      }
+    },
+    {
+      "document_id": "CV020",
+      "attempt_count": 1,
+      "outcome_counts": {
+        "error": 1
+      },
+      "stages": {
+        "render_pages": {
+          "method": "render_pdf",
+          "execution_counts": {
+            "completed": 1
+          },
+          "outcome_counts": {
+            "success": 1
+          },
+          "completed_timing_seconds": {
+            "count": 1,
+            "minimum": 0.0678378000156954,
+            "median": 0.0678378000156954,
+            "maximum": 0.0678378000156954
+          },
+          "failed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 143015936,
+              "median": 143015936,
+              "maximum": 143015936
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "boundary_only_measurements": 1
+          }
+        },
+        "structure_cv": {
+          "method": "vlm_structuring",
+          "execution_counts": {
+            "error": 1
+          },
+          "outcome_counts": {},
+          "completed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "failed_timing_seconds": {
+            "count": 1,
+            "minimum": 149.46647700000904,
+            "median": 149.46647700000904,
+            "maximum": 149.46647700000904
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 2542735360,
+              "median": 2542735360,
+              "maximum": 2542735360
+            },
+            "boundary_only_measurements": 0
+          }
+        }
+      }
+    },
+    {
+      "document_id": "CV021",
+      "attempt_count": 1,
+      "outcome_counts": {
+        "error": 1
+      },
+      "stages": {
+        "render_pages": {
+          "method": "render_pdf",
+          "execution_counts": {
+            "completed": 1
+          },
+          "outcome_counts": {
+            "success": 1
+          },
+          "completed_timing_seconds": {
+            "count": 1,
+            "minimum": 0.07916140000452287,
+            "median": 0.07916140000452287,
+            "maximum": 0.07916140000452287
+          },
+          "failed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 143847424,
+              "median": 143847424,
+              "maximum": 143847424
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "boundary_only_measurements": 1
+          }
+        },
+        "structure_cv": {
+          "method": "vlm_structuring",
+          "execution_counts": {
+            "error": 1
+          },
+          "outcome_counts": {},
+          "completed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "failed_timing_seconds": {
+            "count": 1,
+            "minimum": 177.3131497000286,
+            "median": 177.3131497000286,
+            "maximum": 177.3131497000286
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 2536153088,
+              "median": 2536153088,
+              "maximum": 2536153088
+            },
+            "boundary_only_measurements": 0
+          }
+        }
+      }
+    },
+    {
+      "document_id": "CV022",
+      "attempt_count": 1,
+      "outcome_counts": {
+        "error": 1
+      },
+      "stages": {
+        "render_pages": {
+          "method": "render_pdf",
+          "execution_counts": {
+            "completed": 1
+          },
+          "outcome_counts": {
+            "success": 1
+          },
+          "completed_timing_seconds": {
+            "count": 1,
+            "minimum": 0.06469900000956841,
+            "median": 0.06469900000956841,
+            "maximum": 0.06469900000956841
+          },
+          "failed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 143765504,
+              "median": 143765504,
+              "maximum": 143765504
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "boundary_only_measurements": 1
+          }
+        },
+        "structure_cv": {
+          "method": "vlm_structuring",
+          "execution_counts": {
+            "error": 1
+          },
+          "outcome_counts": {},
+          "completed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "failed_timing_seconds": {
+            "count": 1,
+            "minimum": 151.57690840002033,
+            "median": 151.57690840002033,
+            "maximum": 151.57690840002033
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 2542571520,
+              "median": 2542571520,
+              "maximum": 2542571520
+            },
+            "boundary_only_measurements": 0
+          }
+        }
+      }
+    },
+    {
+      "document_id": "CV023",
+      "attempt_count": 1,
+      "outcome_counts": {
+        "error": 1
+      },
+      "stages": {
+        "render_pages": {
+          "method": "render_pdf",
+          "execution_counts": {
+            "completed": 1
+          },
+          "outcome_counts": {
+            "success": 1
+          },
+          "completed_timing_seconds": {
+            "count": 1,
+            "minimum": 0.08020880000549369,
+            "median": 0.08020880000549369,
+            "maximum": 0.08020880000549369
+          },
+          "failed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 143802368,
+              "median": 143802368,
+              "maximum": 143802368
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "boundary_only_measurements": 1
+          }
+        },
+        "structure_cv": {
+          "method": "vlm_structuring",
+          "execution_counts": {
+            "error": 1
+          },
+          "outcome_counts": {},
+          "completed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "failed_timing_seconds": {
+            "count": 1,
+            "minimum": 178.78581639999175,
+            "median": 178.78581639999175,
+            "maximum": 178.78581639999175
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 2543529984,
+              "median": 2543529984,
+              "maximum": 2543529984
+            },
+            "boundary_only_measurements": 0
+          }
+        }
+      }
+    },
+    {
+      "document_id": "CV024",
+      "attempt_count": 1,
+      "outcome_counts": {
+        "error": 1
+      },
+      "stages": {
+        "render_pages": {
+          "method": "render_pdf",
+          "execution_counts": {
+            "completed": 1
+          },
+          "outcome_counts": {
+            "success": 1
+          },
+          "completed_timing_seconds": {
+            "count": 1,
+            "minimum": 0.07528520000050776,
+            "median": 0.07528520000050776,
+            "maximum": 0.07528520000050776
+          },
+          "failed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 143884288,
+              "median": 143884288,
+              "maximum": 143884288
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "boundary_only_measurements": 1
+          }
+        },
+        "structure_cv": {
+          "method": "vlm_structuring",
+          "execution_counts": {
+            "error": 1
+          },
+          "outcome_counts": {},
+          "completed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "failed_timing_seconds": {
+            "count": 1,
+            "minimum": 171.75243520000367,
+            "median": 171.75243520000367,
+            "maximum": 171.75243520000367
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 2534797312,
+              "median": 2534797312,
+              "maximum": 2534797312
+            },
+            "boundary_only_measurements": 0
+          }
+        }
+      }
+    },
+    {
+      "document_id": "CV025",
+      "attempt_count": 1,
+      "outcome_counts": {
+        "error": 1
+      },
+      "stages": {
+        "render_pages": {
+          "method": "render_pdf",
+          "execution_counts": {
+            "completed": 1
+          },
+          "outcome_counts": {
+            "success": 1
+          },
+          "completed_timing_seconds": {
+            "count": 1,
+            "minimum": 0.0900911999924574,
+            "median": 0.0900911999924574,
+            "maximum": 0.0900911999924574
+          },
+          "failed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 143159296,
+              "median": 143159296,
+              "maximum": 143159296
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "boundary_only_measurements": 1
+          }
+        },
+        "structure_cv": {
+          "method": "vlm_structuring",
+          "execution_counts": {
+            "error": 1
+          },
+          "outcome_counts": {},
+          "completed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "failed_timing_seconds": {
+            "count": 1,
+            "minimum": 374.5638409999956,
+            "median": 374.5638409999956,
+            "maximum": 374.5638409999956
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 2542575616,
+              "median": 2542575616,
+              "maximum": 2542575616
+            },
+            "boundary_only_measurements": 0
+          }
+        }
+      }
+    },
+    {
+      "document_id": "CV026",
+      "attempt_count": 1,
+      "outcome_counts": {
+        "error": 1
+      },
+      "stages": {
+        "render_pages": {
+          "method": "render_pdf",
+          "execution_counts": {
+            "completed": 1
+          },
+          "outcome_counts": {
+            "success": 1
+          },
+          "completed_timing_seconds": {
+            "count": 1,
+            "minimum": 0.0725488000025507,
+            "median": 0.0725488000025507,
+            "maximum": 0.0725488000025507
+          },
+          "failed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 144998400,
+              "median": 144998400,
+              "maximum": 144998400
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "boundary_only_measurements": 1
+          }
+        },
+        "structure_cv": {
+          "method": "vlm_structuring",
+          "execution_counts": {
+            "error": 1
+          },
+          "outcome_counts": {},
+          "completed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "failed_timing_seconds": {
+            "count": 1,
+            "minimum": 150.0050751999952,
+            "median": 150.0050751999952,
+            "maximum": 150.0050751999952
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 2544619520,
+              "median": 2544619520,
+              "maximum": 2544619520
+            },
+            "boundary_only_measurements": 0
+          }
+        }
+      }
+    },
+    {
+      "document_id": "CV027",
+      "attempt_count": 1,
+      "outcome_counts": {
+        "error": 1
+      },
+      "stages": {
+        "render_pages": {
+          "method": "render_pdf",
+          "execution_counts": {
+            "completed": 1
+          },
+          "outcome_counts": {
+            "success": 1
+          },
+          "completed_timing_seconds": {
+            "count": 1,
+            "minimum": 0.0727109000144992,
+            "median": 0.0727109000144992,
+            "maximum": 0.0727109000144992
+          },
+          "failed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 142544896,
+              "median": 142544896,
+              "maximum": 142544896
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "boundary_only_measurements": 1
+          }
+        },
+        "structure_cv": {
+          "method": "vlm_structuring",
+          "execution_counts": {
+            "error": 1
+          },
+          "outcome_counts": {},
+          "completed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "failed_timing_seconds": {
+            "count": 1,
+            "minimum": 125.41446209998685,
+            "median": 125.41446209998685,
+            "maximum": 125.41446209998685
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 2539249664,
+              "median": 2539249664,
+              "maximum": 2539249664
+            },
+            "boundary_only_measurements": 0
+          }
+        }
+      }
+    },
+    {
+      "document_id": "CV028",
+      "attempt_count": 1,
+      "outcome_counts": {
+        "error": 1
+      },
+      "stages": {
+        "render_pages": {
+          "method": "render_pdf",
+          "execution_counts": {
+            "completed": 1
+          },
+          "outcome_counts": {
+            "success": 1
+          },
+          "completed_timing_seconds": {
+            "count": 1,
+            "minimum": 0.07036419998621568,
+            "median": 0.07036419998621568,
+            "maximum": 0.07036419998621568
+          },
+          "failed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 142823424,
+              "median": 142823424,
+              "maximum": 142823424
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "boundary_only_measurements": 1
+          }
+        },
+        "structure_cv": {
+          "method": "vlm_structuring",
+          "execution_counts": {
+            "error": 1
+          },
+          "outcome_counts": {},
+          "completed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "failed_timing_seconds": {
+            "count": 1,
+            "minimum": 152.87272420001682,
+            "median": 152.87272420001682,
+            "maximum": 152.87272420001682
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 2537967616,
+              "median": 2537967616,
+              "maximum": 2537967616
+            },
+            "boundary_only_measurements": 0
+          }
+        }
+      }
+    },
+    {
+      "document_id": "CV029",
+      "attempt_count": 1,
+      "outcome_counts": {
+        "error": 1
+      },
+      "stages": {
+        "render_pages": {
+          "method": "render_pdf",
+          "execution_counts": {
+            "completed": 1
+          },
+          "outcome_counts": {
+            "success": 1
+          },
+          "completed_timing_seconds": {
+            "count": 1,
+            "minimum": 0.22819399999571033,
+            "median": 0.22819399999571033,
+            "maximum": 0.22819399999571033
+          },
+          "failed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 151289856,
+              "median": 151289856,
+              "maximum": 151289856
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "boundary_only_measurements": 0
+          }
+        },
+        "structure_cv": {
+          "method": "vlm_structuring",
+          "execution_counts": {
+            "error": 1
+          },
+          "outcome_counts": {},
+          "completed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "failed_timing_seconds": {
+            "count": 1,
+            "minimum": 206.8925621000235,
+            "median": 206.8925621000235,
+            "maximum": 206.8925621000235
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 2544406528,
+              "median": 2544406528,
+              "maximum": 2544406528
+            },
+            "boundary_only_measurements": 0
+          }
+        }
+      }
+    },
+    {
+      "document_id": "CV030",
+      "attempt_count": 1,
+      "outcome_counts": {
+        "error": 1
+      },
+      "stages": {
+        "render_pages": {
+          "method": "render_pdf",
+          "execution_counts": {
+            "completed": 1
+          },
+          "outcome_counts": {
+            "success": 1
+          },
+          "completed_timing_seconds": {
+            "count": 1,
+            "minimum": 0.17990869999630377,
+            "median": 0.17990869999630377,
+            "maximum": 0.17990869999630377
+          },
+          "failed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 151810048,
+              "median": 151810048,
+              "maximum": 151810048
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "boundary_only_measurements": 0
+          }
+        },
+        "structure_cv": {
+          "method": "vlm_structuring",
+          "execution_counts": {
+            "error": 1
+          },
+          "outcome_counts": {},
+          "completed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "failed_timing_seconds": {
+            "count": 1,
+            "minimum": 87.28125329999602,
+            "median": 87.28125329999602,
+            "maximum": 87.28125329999602
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 2551730176,
+              "median": 2551730176,
+              "maximum": 2551730176
+            },
+            "boundary_only_measurements": 0
+          }
+        }
+      }
+    },
+    {
+      "document_id": "CV031",
+      "attempt_count": 1,
+      "outcome_counts": {
+        "error": 1
+      },
+      "stages": {
+        "render_pages": {
+          "method": "render_pdf",
+          "execution_counts": {
+            "completed": 1
+          },
+          "outcome_counts": {
+            "success": 1
+          },
+          "completed_timing_seconds": {
+            "count": 1,
+            "minimum": 0.10077749998890795,
+            "median": 0.10077749998890795,
+            "maximum": 0.10077749998890795
+          },
+          "failed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 144162816,
+              "median": 144162816,
+              "maximum": 144162816
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "boundary_only_measurements": 1
+          }
+        },
+        "structure_cv": {
+          "method": "vlm_structuring",
+          "execution_counts": {
+            "error": 1
+          },
+          "outcome_counts": {},
+          "completed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "failed_timing_seconds": {
+            "count": 1,
+            "minimum": 235.7713593999797,
+            "median": 235.7713593999797,
+            "maximum": 235.7713593999797
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 2536935424,
+              "median": 2536935424,
+              "maximum": 2536935424
+            },
+            "boundary_only_measurements": 0
+          }
+        }
+      }
+    },
+    {
+      "document_id": "CV032",
+      "attempt_count": 1,
+      "outcome_counts": {
+        "error": 1
+      },
+      "stages": {
+        "render_pages": {
+          "method": "render_pdf",
+          "execution_counts": {
+            "completed": 1
+          },
+          "outcome_counts": {
+            "success": 1
+          },
+          "completed_timing_seconds": {
+            "count": 1,
+            "minimum": 0.19415640001534484,
+            "median": 0.19415640001534484,
+            "maximum": 0.19415640001534484
+          },
+          "failed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 2187132928,
+              "median": 2187132928,
+              "maximum": 2187132928
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "boundary_only_measurements": 0
+          }
+        },
+        "structure_cv": {
+          "method": "vlm_structuring",
+          "execution_counts": {
+            "error": 1
+          },
+          "outcome_counts": {},
+          "completed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "failed_timing_seconds": {
+            "count": 1,
+            "minimum": 394.40856289997464,
+            "median": 394.40856289997464,
+            "maximum": 394.40856289997464
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 2292772864,
+              "median": 2292772864,
+              "maximum": 2292772864
+            },
+            "boundary_only_measurements": 0
+          }
+        }
+      }
+    },
+    {
+      "document_id": "CV033",
+      "attempt_count": 1,
+      "outcome_counts": {
+        "error": 1
+      },
+      "stages": {
+        "render_pages": {
+          "method": "render_pdf",
+          "execution_counts": {
+            "completed": 1
+          },
+          "outcome_counts": {
+            "success": 1
+          },
+          "completed_timing_seconds": {
+            "count": 1,
+            "minimum": 0.5916877000126988,
+            "median": 0.5916877000126988,
+            "maximum": 0.5916877000126988
+          },
+          "failed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 197808128,
+              "median": 197808128,
+              "maximum": 197808128
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "boundary_only_measurements": 0
+          }
+        },
+        "structure_cv": {
+          "method": "vlm_structuring",
+          "execution_counts": {
+            "error": 1
+          },
+          "outcome_counts": {},
+          "completed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "failed_timing_seconds": {
+            "count": 1,
+            "minimum": 178.83102320000762,
+            "median": 178.83102320000762,
+            "maximum": 178.83102320000762
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 2576982016,
+              "median": 2576982016,
+              "maximum": 2576982016
+            },
+            "boundary_only_measurements": 0
+          }
+        }
+      }
+    },
+    {
+      "document_id": "CV034",
+      "attempt_count": 1,
+      "outcome_counts": {
+        "error": 1
+      },
+      "stages": {
+        "render_pages": {
+          "method": "render_pdf",
+          "execution_counts": {
+            "completed": 1
+          },
+          "outcome_counts": {
+            "success": 1
+          },
+          "completed_timing_seconds": {
+            "count": 1,
+            "minimum": 0.36892160002025776,
+            "median": 0.36892160002025776,
+            "maximum": 0.36892160002025776
+          },
+          "failed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 170369024,
+              "median": 170369024,
+              "maximum": 170369024
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "boundary_only_measurements": 0
+          }
+        },
+        "structure_cv": {
+          "method": "vlm_structuring",
+          "execution_counts": {
+            "error": 1
+          },
+          "outcome_counts": {},
+          "completed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "failed_timing_seconds": {
+            "count": 1,
+            "minimum": 206.14478390000295,
+            "median": 206.14478390000295,
+            "maximum": 206.14478390000295
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 2560655360,
+              "median": 2560655360,
+              "maximum": 2560655360
+            },
+            "boundary_only_measurements": 0
+          }
+        }
+      }
+    },
+    {
+      "document_id": "CV035",
+      "attempt_count": 1,
+      "outcome_counts": {
+        "error": 1
+      },
+      "stages": {
+        "render_pages": {
+          "method": "render_pdf",
+          "execution_counts": {
+            "completed": 1
+          },
+          "outcome_counts": {
+            "success": 1
+          },
+          "completed_timing_seconds": {
+            "count": 1,
+            "minimum": 0.6693304999789689,
+            "median": 0.6693304999789689,
+            "maximum": 0.6693304999789689
+          },
+          "failed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 186109952,
+              "median": 186109952,
+              "maximum": 186109952
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "boundary_only_measurements": 0
+          }
+        },
+        "structure_cv": {
+          "method": "vlm_structuring",
+          "execution_counts": {
+            "error": 1
+          },
+          "outcome_counts": {},
+          "completed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "failed_timing_seconds": {
+            "count": 1,
+            "minimum": 314.90298840001924,
+            "median": 314.90298840001924,
+            "maximum": 314.90298840001924
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 2576818176,
+              "median": 2576818176,
+              "maximum": 2576818176
+            },
+            "boundary_only_measurements": 0
+          }
+        }
+      }
+    },
+    {
+      "document_id": "CV036",
+      "attempt_count": 1,
+      "outcome_counts": {
+        "error": 1
+      },
+      "stages": {
+        "render_pages": {
+          "method": "render_pdf",
+          "execution_counts": {
+            "completed": 1
+          },
+          "outcome_counts": {
+            "success": 1
+          },
+          "completed_timing_seconds": {
+            "count": 1,
+            "minimum": 0.402414799988037,
+            "median": 0.402414799988037,
+            "maximum": 0.402414799988037
+          },
+          "failed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 176672768,
+              "median": 176672768,
+              "maximum": 176672768
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "boundary_only_measurements": 0
+          }
+        },
+        "structure_cv": {
+          "method": "vlm_structuring",
+          "execution_counts": {
+            "error": 1
+          },
+          "outcome_counts": {},
+          "completed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "failed_timing_seconds": {
+            "count": 1,
+            "minimum": 215.7650263000105,
+            "median": 215.7650263000105,
+            "maximum": 215.7650263000105
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 2569719808,
+              "median": 2569719808,
+              "maximum": 2569719808
+            },
+            "boundary_only_measurements": 0
+          }
+        }
+      }
+    },
+    {
+      "document_id": "CV037",
+      "attempt_count": 1,
+      "outcome_counts": {
+        "error": 1
+      },
+      "stages": {
+        "render_pages": {
+          "method": "render_pdf",
+          "execution_counts": {
+            "completed": 1
+          },
+          "outcome_counts": {
+            "success": 1
+          },
+          "completed_timing_seconds": {
+            "count": 1,
+            "minimum": 0.3472965999972075,
+            "median": 0.3472965999972075,
+            "maximum": 0.3472965999972075
+          },
+          "failed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 2378452992,
+              "median": 2378452992,
+              "maximum": 2378452992
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "boundary_only_measurements": 0
+          }
+        },
+        "structure_cv": {
+          "method": "vlm_structuring",
+          "execution_counts": {
+            "error": 1
+          },
+          "outcome_counts": {},
+          "completed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "failed_timing_seconds": {
+            "count": 1,
+            "minimum": 594.5808362999815,
+            "median": 594.5808362999815,
+            "maximum": 594.5808362999815
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 2827448320,
+              "median": 2827448320,
+              "maximum": 2827448320
+            },
+            "boundary_only_measurements": 0
+          }
+        }
+      }
+    },
+    {
+      "document_id": "CV038",
+      "attempt_count": 1,
+      "outcome_counts": {
+        "error": 1
+      },
+      "stages": {
+        "render_pages": {
+          "method": "render_pdf",
+          "execution_counts": {
+            "completed": 1
+          },
+          "outcome_counts": {
+            "success": 1
+          },
+          "completed_timing_seconds": {
+            "count": 1,
+            "minimum": 0.20479959997464903,
+            "median": 0.20479959997464903,
+            "maximum": 0.20479959997464903
+          },
+          "failed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 159293440,
+              "median": 159293440,
+              "maximum": 159293440
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "boundary_only_measurements": 0
+          }
+        },
+        "structure_cv": {
+          "method": "vlm_structuring",
+          "execution_counts": {
+            "error": 1
+          },
+          "outcome_counts": {},
+          "completed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "failed_timing_seconds": {
+            "count": 1,
+            "minimum": 321.29857680000714,
+            "median": 321.29857680000714,
+            "maximum": 321.29857680000714
+          },
+          "memory": {
+            "collection_counts": {
+              "completed": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 1,
+              "minimum": 2540699648,
+              "median": 2540699648,
+              "maximum": 2540699648
+            },
+            "boundary_only_measurements": 0
+          }
+        }
+      }
+    }
+  ]
+}

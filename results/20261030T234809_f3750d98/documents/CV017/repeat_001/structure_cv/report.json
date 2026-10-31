@@ -1,0 +1,26 @@
+{
+  "name": "structure_cv",
+  "method": "vlm_structuring",
+  "execution_status": "error",
+  "outcome": null,
+  "metrics": {
+    "duration_seconds": 181.32278020001831,
+    "memory": {
+      "enabled": true,
+      "collection_status": "completed",
+      "metric": "process_rss",
+      "scope": "current_process",
+      "sample_interval_ms": 100,
+      "sample_count": 1653,
+      "start_rss_bytes": 143917056,
+      "end_rss_bytes": 2049581056,
+      "sampled_peak_rss_bytes": 2536804352,
+      "error": null
+    }
+  },
+  "error": {
+    "type": "VisionStructuringError",
+    "message": "Vision extraction failed: 10 validation errors for RawCV\nlanguages.0.proficiency.type\n  Input should be 'stars', 'dots', 'bars', 'percentage', 'fraction' or 'numeric' [type=literal_error, input_value='null', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.14/v/literal_error\nlanguages.1.proficiency.type\n  Input should be 'stars', 'dots', 'bars', 'percentage', 'fraction' or 'numeric' [type=literal_error, input_value='null', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.14/v/literal_error\nlanguages.2.proficiency.type\n  Input should be 'stars', 'dots', 'bars', 'percentage', 'fraction' or 'numeric' [type=literal_error, input_value='null', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.14/v/literal_error\nadditional_sections.0.text\n  Input should be a valid string [type=string_type, input_value=['Student Teaching Assist...CENG 230)', 'Fall 2016'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_type\nadditional_sections.1.text\n  Input should be a valid string [type=string_type, input_value=['Programming: Python, Ma...SS, Jekyll, JavaScript'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_type\nadditional_sections.2.text\n  Input should be a valid string [type=string_type, input_value=['English: Proficient, TO...nal, CEFR level: A1-A2'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_type\nadditional_sections.3.text\n  Input should be a valid string [type=string_type, input_value=['eth-cs-notes (LaTeX/Mar...n BERT word embeddings'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_type\nadditional_sections.4.text\n  Input should be a valid string [type=string_type, input_value=['ETH Zurich Direct Docto...mination (LYS)', '2013'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_type\nadditional_sections.5.text\n  Input should be a valid string [type=string_type, input_value=['Career Mentor at Crossi...ronment', 'Winter 2015'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_type\nadditional_sections.6.text\n  Input should be a valid string [type=string_type, input_value=['[1] S. Petridis, J. She.... 2018, pp. 6219-6223.'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_type"
+  },
+  "artifacts_file": "artifacts.json"
+}

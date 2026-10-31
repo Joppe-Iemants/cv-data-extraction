@@ -1,0 +1,26 @@
+{
+  "name": "structure_cv",
+  "method": "vlm_structuring",
+  "execution_status": "error",
+  "outcome": null,
+  "metrics": {
+    "duration_seconds": 101.50341249999474,
+    "memory": {
+      "enabled": true,
+      "collection_status": "completed",
+      "metric": "process_rss",
+      "scope": "current_process",
+      "sample_interval_ms": 100,
+      "sample_count": 922,
+      "start_rss_bytes": 143937536,
+      "end_rss_bytes": 2021122048,
+      "sampled_peak_rss_bytes": 2536689664,
+      "error": null
+    }
+  },
+  "error": {
+    "type": "VisionStructuringError",
+    "message": "Vision extraction failed: 2 validation errors for RawCV\nlanguages.0.proficiency.type\n  Input should be 'stars', 'dots', 'bars', 'percentage', 'fraction' or 'numeric' [type=literal_error, input_value='null', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.14/v/literal_error\nlanguages.1.proficiency.type\n  Input should be 'stars', 'dots', 'bars', 'percentage', 'fraction' or 'numeric' [type=literal_error, input_value='null', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.14/v/literal_error"
+  },
+  "artifacts_file": "artifacts.json"
+}

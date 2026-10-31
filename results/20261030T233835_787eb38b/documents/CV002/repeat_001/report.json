@@ -1,0 +1,36 @@
+{
+  "document_id": "CV002",
+  "repetition": 1,
+  "status": "error",
+  "metrics": {
+    "processing_seconds": 0.20399999999790452
+  },
+  "stages": [
+    {
+      "name": "render_pages",
+      "method": "render_pdf",
+      "execution_status": "error",
+      "outcome": null,
+      "metrics": {
+        "duration_seconds": 0.20399999999790452
+      },
+      "error": {
+        "type": "TimeoutError",
+        "message": "Document or batch time limit exceeded"
+      }
+    },
+    {
+      "name": "structure_cv",
+      "method": "vlm_structuring",
+      "execution_status": "error",
+      "outcome": null,
+      "metrics": {
+        "duration_seconds": 0.20399999999790452
+      },
+      "error": {
+        "type": "TimeoutError",
+        "message": "Document or batch time limit exceeded"
+      }
+    }
+  ]
+}

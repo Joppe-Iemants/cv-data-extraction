@@ -1,0 +1,61 @@
+{
+  "document_id": "CV028",
+  "repetition": 1,
+  "status": "error",
+  "metrics": {
+    "processing_seconds": 152.94308840000303
+  },
+  "stages": [
+    {
+      "name": "render_pages",
+      "method": "render_pdf",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 0.07036419998621568,
+        "memory": {
+          "enabled": true,
+          "collection_status": "completed",
+          "metric": "process_rss",
+          "scope": "current_process",
+          "sample_interval_ms": 100,
+          "sample_count": 2,
+          "start_rss_bytes": 139972608,
+          "end_rss_bytes": 142823424,
+          "sampled_peak_rss_bytes": 142823424,
+          "error": null
+        },
+        "page_count": 3,
+        "dpi": 120,
+        "total_pixels": 4039200
+      },
+      "error": null
+    },
+    {
+      "name": "structure_cv",
+      "method": "vlm_structuring",
+      "execution_status": "error",
+      "outcome": null,
+      "metrics": {
+        "duration_seconds": 152.87272420001682,
+        "memory": {
+          "enabled": true,
+          "collection_status": "completed",
+          "metric": "process_rss",
+          "scope": "current_process",
+          "sample_interval_ms": 100,
+          "sample_count": 1393,
+          "start_rss_bytes": 142831616,
+          "end_rss_bytes": 2074750976,
+          "sampled_peak_rss_bytes": 2537967616,
+          "error": null
+        }
+      },
+      "error": {
+        "type": "VisionStructuringError",
+        "message": "Vision extraction failed: 8 validation errors for RawCV\nlanguages.0.proficiency.type\n  Input should be 'stars', 'dots', 'bars', 'percentage', 'fraction' or 'numeric' [type=literal_error, input_value='null', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.14/v/literal_error\nlanguages.1.proficiency.type\n  Input should be 'stars', 'dots', 'bars', 'percentage', 'fraction' or 'numeric' [type=literal_error, input_value='null', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.14/v/literal_error\nadditional_sections.0.text\n  Input should be a valid string [type=string_type, input_value=['Distributed Systems Review ICCCEE19'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_type\nadditional_sections.1.text\n  Input should be a valid string [type=string_type, input_value=['training in the use of ...ine University College'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_type\nadditional_sections.2.text\n  Input should be a valid string [type=string_type, input_value=['Modern Database Query O...ne Learning Frameworks'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_type\nadditional_sections.3.text\n  Input should be a valid string [type=string_type, input_value=['Cisco CCNA', 'SAP TERP1... Certificate, Coursera'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_type\nadditional_sections.4.text\n  Input should be a valid string [type=string_type, input_value=['Windows 7, 8, 10, 11, a...P, XSL, XML', 'Drupal.'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_type\nadditional_sections.5.text\n  Input should be a valid string [type=string_type, input_value=['Arabic (native).', 'Eng...writing and speaking).'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_type"
+      },
+      "artifacts_file": "artifacts.json"
+    }
+  ]
+}

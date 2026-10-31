@@ -3,10 +3,11 @@ from time import perf_counter
 _RUNTIME = None
 _RUNTIME_KEY = None
 
-def get_vlm_runtime(model_id: str, load_in_4bit: bool, allow_cpu_offload: bool = False) -> dict:
+def get_vlm_runtime(model_id: str, load_in_4bit: bool, allow_cpu_offload: bool = False,
+                    expand_kv_for_sdpa: bool = False) -> dict:
     global _RUNTIME, _RUNTIME_KEY
 
-    runtime_key = (model_id, load_in_4bit, allow_cpu_offload)
+    runtime_key = (model_id, load_in_4bit, allow_cpu_offload, expand_kv_for_sdpa)
 
     if _RUNTIME is not None:
         if runtime_key != _RUNTIME_KEY:
@@ -51,12 +52,17 @@ def get_vlm_runtime(model_id: str, load_in_4bit: bool, allow_cpu_offload: bool =
 
     processor = AutoProcessor.from_pretrained(model_id)
 
+    attention = 'sdpa'
+    if expand_kv_for_sdpa:
+        from .vlm_attention import register_expanded_kv_sdpa
+        attention = register_expanded_kv_sdpa()
+
     model = Qwen3VLForConditionalGeneration.from_pretrained(
         model_id,
         quantization_config=quantization,
         **placement,
         dtype=torch.float16,
-        attn_implementation="sdpa"
+        attn_implementation=attention
     )
 
     model.eval()

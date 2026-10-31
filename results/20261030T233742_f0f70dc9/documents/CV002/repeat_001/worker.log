@@ -1,0 +1,22 @@
+W1031 00:37:50.854000 20520 Lib\site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+Loading VLM: Qwen/Qwen3-VL-4B-Instruct
+Could not reach the Hub ([Errno 11001] getaddrinfo failed). Using cached commit hash for 'Qwen/Qwen3-VL-4B-Instruct'.
+'[Errno 11001] getaddrinfo failed' thrown while requesting GET https://huggingface.co/api/models/Qwen/Qwen3-VL-4B-Instruct/tree/main/additional_chat_templates
+Retrying in 1s [Retry 1/5].
+'[Errno 11001] getaddrinfo failed' thrown while requesting GET https://huggingface.co/api/models/Qwen/Qwen3-VL-4B-Instruct/tree/main/additional_chat_templates
+Retrying in 2s [Retry 2/5].
+'[Errno 11001] getaddrinfo failed' thrown while requesting GET https://huggingface.co/api/models/Qwen/Qwen3-VL-4B-Instruct/tree/main/additional_chat_templates
+Retrying in 4s [Retry 3/5].
+'[Errno 11001] getaddrinfo failed' thrown while requesting GET https://huggingface.co/api/models/Qwen/Qwen3-VL-4B-Instruct/tree/main/additional_chat_templates
+Retrying in 8s [Retry 4/5].
+'[Errno 11001] getaddrinfo failed' thrown while requesting GET https://huggingface.co/api/models/Qwen/Qwen3-VL-4B-Instruct/tree/main/additional_chat_templates
+Retrying in 8s [Retry 5/5].
+'[Errno 11001] getaddrinfo failed' thrown while requesting GET https://huggingface.co/api/models/Qwen/Qwen3-VL-4B-Instruct/tree/main/additional_chat_templates
+'[Errno 11001] getaddrinfo failed' thrown while requesting GET https://huggingface.co/api/models/Qwen/Qwen3-VL-4B-Instruct/tree/main/additional_chat_templates
+Retrying in 1s [Retry 1/5].
+'[Errno 11001] getaddrinfo failed' thrown while requesting GET https://huggingface.co/api/models/Qwen/Qwen3-VL-4B-Instruct/tree/main/additional_chat_templates
+Retrying in 2s [Retry 2/5].
+'[Errno 11001] getaddrinfo failed' thrown while requesting GET https://huggingface.co/api/models/Qwen/Qwen3-VL-4B-Instruct/tree/main/additional_chat_templates
+Retrying in 4s [Retry 3/5].
+'[Errno 11001] getaddrinfo failed' thrown while requesting GET https://huggingface.co/api/models/Qwen/Qwen3-VL-4B-Instruct/tree/main/additional_chat_templates
+Retrying in 8s [Retry 4/5].

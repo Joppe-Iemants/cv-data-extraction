@@ -1,0 +1,26 @@
+{
+  "name": "structure_cv",
+  "method": "vlm_structuring",
+  "execution_status": "error",
+  "outcome": null,
+  "metrics": {
+    "duration_seconds": 178.83102320000762,
+    "memory": {
+      "enabled": true,
+      "collection_status": "completed",
+      "metric": "process_rss",
+      "scope": "current_process",
+      "sample_interval_ms": 100,
+      "sample_count": 1628,
+      "start_rss_bytes": 193691648,
+      "end_rss_bytes": 2168020992,
+      "sampled_peak_rss_bytes": 2576982016,
+      "error": null
+    }
+  },
+  "error": {
+    "type": "VisionStructuringError",
+    "message": "Vision extraction failed: 2 validation errors for RawCV\npersonal_information.source_pages.0\n  Input should be greater than or equal to 1 [type=greater_than_equal, input_value=0, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.14/v/greater_than_equal\nsummary\n  Input should be a valid string [type=string_type, input_value={'source_pages': [0], 'te...roblem solving skills.'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_type"
+  },
+  "artifacts_file": "artifacts.json"
+}

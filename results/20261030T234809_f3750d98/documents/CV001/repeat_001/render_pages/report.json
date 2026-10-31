@@ -1,0 +1,25 @@
+{
+  "name": "render_pages",
+  "method": "render_pdf",
+  "execution_status": "completed",
+  "outcome": "success",
+  "metrics": {
+    "duration_seconds": 0.07538059999933466,
+    "memory": {
+      "enabled": true,
+      "collection_status": "completed",
+      "metric": "process_rss",
+      "scope": "current_process",
+      "sample_interval_ms": 100,
+      "sample_count": 2,
+      "start_rss_bytes": 140275712,
+      "end_rss_bytes": 144621568,
+      "sampled_peak_rss_bytes": 144621568,
+      "error": null
+    },
+    "page_count": 2,
+    "dpi": 120,
+    "total_pixels": 2788344
+  },
+  "error": null
+}

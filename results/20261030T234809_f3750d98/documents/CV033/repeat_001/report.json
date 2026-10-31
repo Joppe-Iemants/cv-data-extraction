@@ -1,0 +1,61 @@
+{
+  "document_id": "CV033",
+  "repetition": 1,
+  "status": "error",
+  "metrics": {
+    "processing_seconds": 179.42271090002032
+  },
+  "stages": [
+    {
+      "name": "render_pages",
+      "method": "render_pdf",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 0.5916877000126988,
+        "memory": {
+          "enabled": true,
+          "collection_status": "completed",
+          "metric": "process_rss",
+          "scope": "current_process",
+          "sample_interval_ms": 100,
+          "sample_count": 6,
+          "start_rss_bytes": 140468224,
+          "end_rss_bytes": 193691648,
+          "sampled_peak_rss_bytes": 197808128,
+          "error": null
+        },
+        "page_count": 4,
+        "dpi": 120,
+        "total_pixels": 5490902
+      },
+      "error": null
+    },
+    {
+      "name": "structure_cv",
+      "method": "vlm_structuring",
+      "execution_status": "error",
+      "outcome": null,
+      "metrics": {
+        "duration_seconds": 178.83102320000762,
+        "memory": {
+          "enabled": true,
+          "collection_status": "completed",
+          "metric": "process_rss",
+          "scope": "current_process",
+          "sample_interval_ms": 100,
+          "sample_count": 1628,
+          "start_rss_bytes": 193691648,
+          "end_rss_bytes": 2168020992,
+          "sampled_peak_rss_bytes": 2576982016,
+          "error": null
+        }
+      },
+      "error": {
+        "type": "VisionStructuringError",
+        "message": "Vision extraction failed: 2 validation errors for RawCV\npersonal_information.source_pages.0\n  Input should be greater than or equal to 1 [type=greater_than_equal, input_value=0, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.14/v/greater_than_equal\nsummary\n  Input should be a valid string [type=string_type, input_value={'source_pages': [0], 'te...roblem solving skills.'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_type"
+      },
+      "artifacts_file": "artifacts.json"
+    }
+  ]
+}

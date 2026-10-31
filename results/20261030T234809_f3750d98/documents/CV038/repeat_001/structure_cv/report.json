@@ -1,0 +1,26 @@
+{
+  "name": "structure_cv",
+  "method": "vlm_structuring",
+  "execution_status": "error",
+  "outcome": null,
+  "metrics": {
+    "duration_seconds": 321.29857680000714,
+    "memory": {
+      "enabled": true,
+      "collection_status": "completed",
+      "metric": "process_rss",
+      "scope": "current_process",
+      "sample_interval_ms": 100,
+      "sample_count": 2934,
+      "start_rss_bytes": 159313920,
+      "end_rss_bytes": 2140450816,
+      "sampled_peak_rss_bytes": 2540699648,
+      "error": null
+    }
+  },
+  "error": {
+    "type": "VisionStructuringError",
+    "message": "Vision extraction failed: 10 validation errors for RawCV\npersonal_information.source_pages.0\n  Input should be greater than or equal to 1 [type=greater_than_equal, input_value=0, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.14/v/greater_than_equal\neducation.0.source_pages.0\n  Input should be greater than or equal to 1 [type=greater_than_equal, input_value=0, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.14/v/greater_than_equal\neducation.1.source_pages.0\n  Input should be greater than or equal to 1 [type=greater_than_equal, input_value=0, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.14/v/greater_than_equal\neducation.2.source_pages.0\n  Input should be greater than or equal to 1 [type=greater_than_equal, input_value=0, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.14/v/greater_than_equal\ncertifications.0.source_pages.0\n  Input should be greater than or equal to 1 [type=greater_than_equal, input_value=0, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.14/v/greater_than_equal\ncertifications.1.source_pages.0\n  Input should be greater than or equal to 1 [type=greater_than_equal, input_value=0, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.14/v/greater_than_equal\nadditional_sections.0.text\n  Input should be a valid string [type=string_type, input_value=['1964-1968 Consultant Ra... Radiologic Technology'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_type\nadditional_sections.1.text\n  Input should be a valid string [type=string_type, input_value=['1. Crews, Q.E.: Observa...ress,\" RSNA, Dec 1975.'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_type\nadditional_sections.2.text\n  Input should be a valid string [type=string_type, input_value=['10. Green, N., Kurohara... 787-788, March, 1980.'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_type\nadditional_sections.3.text\n  Input should be a valid string [type=string_type, input_value=['1. \"Radium and Intersti...oma Linda, California.'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_type"
+  },
+  "artifacts_file": "artifacts.json"
+}

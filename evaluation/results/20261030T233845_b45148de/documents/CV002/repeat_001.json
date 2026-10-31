@@ -1,0 +1,834 @@
+{
+  "document_id": "CV002",
+  "repetition": 1,
+  "overall": {
+    "correct": 15,
+    "missing": 25,
+    "incorrect": 17,
+    "unexpected": 36,
+    "expected_facts": 57,
+    "predicted_facts": 68,
+    "precision": 0.22058823529411764,
+    "recall": 0.2631578947368421,
+    "f1": 0.24
+  },
+  "extraction_status": "completed",
+  "prediction_sha256": "333f8bac6cdd68a2af01a14e1299bffc891a6fd33f682769305bdf83651f77d3",
+  "json_valid": true,
+  "schema_valid": true,
+  "categories": {
+    "personal_information": {
+      "correct": 5,
+      "missing": 2,
+      "incorrect": 1,
+      "unexpected": 3,
+      "expected_facts": 8,
+      "predicted_facts": 9,
+      "precision": 0.5555555555555556,
+      "recall": 0.625,
+      "f1": 0.5882352941176471
+    },
+    "work_experience": {
+      "correct": 4,
+      "missing": 12,
+      "incorrect": 7,
+      "unexpected": 28,
+      "expected_facts": 23,
+      "predicted_facts": 39,
+      "precision": 0.10256410256410256,
+      "recall": 0.17391304347826086,
+      "f1": 0.12903225806451613
+    },
+    "projects": {
+      "correct": 0,
+      "missing": 0,
+      "incorrect": 0,
+      "unexpected": 0,
+      "expected_facts": 0,
+      "predicted_facts": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null
+    },
+    "education": {
+      "correct": 6,
+      "missing": 0,
+      "incorrect": 9,
+      "unexpected": 5,
+      "expected_facts": 15,
+      "predicted_facts": 20,
+      "precision": 0.3,
+      "recall": 0.4,
+      "f1": 0.34285714285714286
+    },
+    "skills": {
+      "correct": 0,
+      "missing": 11,
+      "incorrect": 0,
+      "unexpected": 0,
+      "expected_facts": 11,
+      "predicted_facts": 0,
+      "precision": null,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "languages": {
+      "correct": 0,
+      "missing": 0,
+      "incorrect": 0,
+      "unexpected": 0,
+      "expected_facts": 0,
+      "predicted_facts": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null
+    },
+    "certifications": {
+      "correct": 0,
+      "missing": 0,
+      "incorrect": 0,
+      "unexpected": 0,
+      "expected_facts": 0,
+      "predicted_facts": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null
+    },
+    "training": {
+      "correct": 0,
+      "missing": 0,
+      "incorrect": 0,
+      "unexpected": 0,
+      "expected_facts": 0,
+      "predicted_facts": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null
+    }
+  },
+  "differences": [
+    {
+      "path": "personal_information.emails[reference:0]",
+      "result": "missing",
+      "expected": "info@jankuester.com",
+      "actual": null
+    },
+    {
+      "path": "personal_information.emails[prediction:0]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "jan@jankuester.com"
+    },
+    {
+      "path": "personal_information.phones[reference:0]",
+      "result": "missing",
+      "expected": "+49 176 *** *** **",
+      "actual": null
+    },
+    {
+      "path": "personal_information.phones[prediction:0]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "+49 370 11111111"
+    },
+    {
+      "path": "personal_information.weblinks[0->0].platform",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "website"
+    },
+    {
+      "path": "personal_information.weblinks[1->1].url",
+      "result": "incorrect",
+      "expected": "github.com/jankapunkt",
+      "actual": "https://github.com/jankuester"
+    },
+    {
+      "path": "work_experience[2->2].dates.end",
+      "result": "incorrect",
+      "expected": "2014",
+      "actual": "2014-12-31"
+    },
+    {
+      "path": "work_experience[2->2].dates.start",
+      "result": "incorrect",
+      "expected": "2012",
+      "actual": "2012-01-01"
+    },
+    {
+      "path": "work_experience[2->2].location",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Bremen"
+    },
+    {
+      "path": "work_experience[2->2].skills[prediction:0]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Software Development"
+    },
+    {
+      "path": "work_experience[2->2].skills[prediction:1]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Scrum"
+    },
+    {
+      "path": "work_experience[3->3].dates.end",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "2011-12-31"
+    },
+    {
+      "path": "work_experience[3->3].dates.start",
+      "result": "incorrect",
+      "expected": "2011 / 11",
+      "actual": "2011-01-01"
+    },
+    {
+      "path": "work_experience[3->3].employer",
+      "result": "incorrect",
+      "expected": "Getoq Consulting",
+      "actual": "Getig Consulting"
+    },
+    {
+      "path": "work_experience[3->3].location",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Bremen"
+    },
+    {
+      "path": "work_experience[3->3].skills[prediction:0]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Project Management"
+    },
+    {
+      "path": "work_experience[3->3].skills[prediction:1]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Change Management"
+    },
+    {
+      "path": "work_experience[4->4].dates.end",
+      "result": "incorrect",
+      "expected": "2011",
+      "actual": "2011-12-31"
+    },
+    {
+      "path": "work_experience[4->4].dates.start",
+      "result": "incorrect",
+      "expected": "2010",
+      "actual": "2010-01-01"
+    },
+    {
+      "path": "work_experience[4->4].employer",
+      "result": "incorrect",
+      "expected": "otulea.uni-bremen.de",
+      "actual": "online.uni-bremen.de"
+    },
+    {
+      "path": "work_experience[4->4].location",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Bremen"
+    },
+    {
+      "path": "work_experience[4->4].skills[prediction:0]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Flex"
+    },
+    {
+      "path": "work_experience[4->4].skills[prediction:1]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Usability Testing"
+    },
+    {
+      "path": "work_experience[reference:0].dates.end",
+      "result": "missing",
+      "expected": "present",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:0].dates.start",
+      "result": "missing",
+      "expected": "2016",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:0].employer",
+      "result": "missing",
+      "expected": "University of Bremen",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:0].role",
+      "result": "missing",
+      "expected": "Scientific Employee / PhD Student",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:0].skills[reference:0]",
+      "result": "missing",
+      "expected": "Meteor",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:1].dates.end",
+      "result": "missing",
+      "expected": "2016",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:1].dates.start",
+      "result": "missing",
+      "expected": "2014",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:1].employer",
+      "result": "missing",
+      "expected": "We4IT GmbH Bremen",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:1].role",
+      "result": "missing",
+      "expected": "IT Consultant for IBM XPages and Notes Domino",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:1].skills[reference:0]",
+      "result": "missing",
+      "expected": "IBM XPages",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:1].skills[reference:1]",
+      "result": "missing",
+      "expected": "Notes Domino",
+      "actual": null
+    },
+    {
+      "path": "work_experience[reference:1].skills[reference:2]",
+      "result": "missing",
+      "expected": "We4IT Aveedo",
+      "actual": null
+    },
+    {
+      "path": "work_experience[prediction:0].dates.end",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "2016-12-31"
+    },
+    {
+      "path": "work_experience[prediction:0].dates.start",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "2016-01-01"
+    },
+    {
+      "path": "work_experience[prediction:0].employer",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "We4IT GmbH"
+    },
+    {
+      "path": "work_experience[prediction:0].location",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Bremen"
+    },
+    {
+      "path": "work_experience[prediction:0].role",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "IT Consultant"
+    },
+    {
+      "path": "work_experience[prediction:0].skills[prediction:0]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Meteor"
+    },
+    {
+      "path": "work_experience[prediction:0].skills[prediction:1]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "XPages"
+    },
+    {
+      "path": "work_experience[prediction:0].skills[prediction:2]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "JavaScript"
+    },
+    {
+      "path": "work_experience[prediction:0].skills[prediction:3]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Scrum"
+    },
+    {
+      "path": "work_experience[prediction:1].dates.end",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "2016-12-31"
+    },
+    {
+      "path": "work_experience[prediction:1].dates.start",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "2014-01-01"
+    },
+    {
+      "path": "work_experience[prediction:1].employer",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "We4IT GmbH"
+    },
+    {
+      "path": "work_experience[prediction:1].location",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Bremen"
+    },
+    {
+      "path": "work_experience[prediction:1].role",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "IT Consultant"
+    },
+    {
+      "path": "work_experience[prediction:1].skills[prediction:0]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "XPages"
+    },
+    {
+      "path": "work_experience[prediction:1].skills[prediction:1]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "BPMN"
+    },
+    {
+      "path": "work_experience[prediction:1].skills[prediction:2]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "JavaScript"
+    },
+    {
+      "path": "work_experience[prediction:1].skills[prediction:3]",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Scrum"
+    },
+    {
+      "path": "education[0->0].dates.end",
+      "result": "incorrect",
+      "expected": "2015 / 07",
+      "actual": "2015-12-31"
+    },
+    {
+      "path": "education[0->0].dates.start",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "2015-01-01"
+    },
+    {
+      "path": "education[0->0].qualification",
+      "result": "incorrect",
+      "expected": "Graduated as M.Sc. Digital Media",
+      "actual": "Master Thesis: Semantic Automated Scoring in Technology Based Assessment"
+    },
+    {
+      "path": "education[1->1].dates.end",
+      "result": "incorrect",
+      "expected": "2013",
+      "actual": "2013-12-31"
+    },
+    {
+      "path": "education[1->1].dates.start",
+      "result": "incorrect",
+      "expected": "2012",
+      "actual": "2012-01-01"
+    },
+    {
+      "path": "education[1->1].qualification",
+      "result": "incorrect",
+      "expected": "Master Project - PrIMA",
+      "actual": "Master Project - PyM.A."
+    },
+    {
+      "path": "education[2->3].dates.end",
+      "result": "incorrect",
+      "expected": "2015",
+      "actual": "2015-12-31"
+    },
+    {
+      "path": "education[2->3].dates.start",
+      "result": "incorrect",
+      "expected": "2012",
+      "actual": "2012-01-01"
+    },
+    {
+      "path": "education[3->4].dates.end",
+      "result": "incorrect",
+      "expected": "2010",
+      "actual": "2010-12-31"
+    },
+    {
+      "path": "education[3->4].dates.start",
+      "result": "incorrect",
+      "expected": "2009",
+      "actual": "2009-01-01"
+    },
+    {
+      "path": "education[prediction:2].dates.end",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "2013-12-31"
+    },
+    {
+      "path": "education[prediction:2].dates.start",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "2012-01-01"
+    },
+    {
+      "path": "education[prediction:2].institution",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "University of Bremen"
+    },
+    {
+      "path": "education[prediction:2].qualification",
+      "result": "unexpected",
+      "expected": null,
+      "actual": "Master Project - PyM.A."
+    },
+    {
+      "path": "skills[reference:0].name",
+      "result": "missing",
+      "expected": "Software Engineering",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:1].name",
+      "result": "missing",
+      "expected": "Consulting",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:2].name",
+      "result": "missing",
+      "expected": "Scrum",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:3].name",
+      "result": "missing",
+      "expected": "Usability",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:4].name",
+      "result": "missing",
+      "expected": "Meteor",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:5].name",
+      "result": "missing",
+      "expected": "Javascript",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:6].name",
+      "result": "missing",
+      "expected": "Mongo",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:7].name",
+      "result": "missing",
+      "expected": "Bootstrap",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:8].name",
+      "result": "missing",
+      "expected": "Bash",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:9].name",
+      "result": "missing",
+      "expected": "Git",
+      "actual": null
+    },
+    {
+      "path": "skills[reference:10].name",
+      "result": "missing",
+      "expected": "Webstorm",
+      "actual": null
+    }
+  ],
+  "matching_review_required": true,
+  "matching_warnings": [
+    {
+      "path": "personal_information.weblinks",
+      "reference_index": 1,
+      "prediction_index": 1,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    },
+    {
+      "path": "work_experience",
+      "reference_index": 2,
+      "prediction_index": 2,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    },
+    {
+      "path": "work_experience",
+      "reference_index": 3,
+      "prediction_index": 3,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    },
+    {
+      "path": "work_experience",
+      "reference_index": 4,
+      "prediction_index": 4,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    },
+    {
+      "path": "education",
+      "reference_index": 0,
+      "prediction_index": 0,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    },
+    {
+      "path": "education",
+      "reference_index": 1,
+      "prediction_index": 1,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    },
+    {
+      "path": "education",
+      "reference_index": 2,
+      "prediction_index": 3,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    },
+    {
+      "path": "education",
+      "reference_index": 3,
+      "prediction_index": 4,
+      "reason": "Ambiguous or non-exact identity alignment; review this pair."
+    }
+  ],
+  "provenance": {
+    "policy": "empty",
+    "correct": 0,
+    "missing": 0,
+    "incorrect": 0,
+    "unexpected": 0,
+    "expected_facts": 0,
+    "predicted_facts": 0,
+    "precision": null,
+    "recall": null,
+    "f1": null,
+    "differences": []
+  },
+  "content_review": {
+    "status": "pending",
+    "reference": [
+      {
+        "path": "personal_information.details",
+        "content": [
+          "Status: M.Sc. Digital Media, Scientific Employee"
+        ]
+      },
+      {
+        "path": "summary",
+        "content": "Digital media graduate with project experience in the field of technology based assessment. Currently working as IT Consultant at We4IT, Bremen in the field of IBM Notes Domino and XPages applications. Master studies focused on teams from different disciplines and cultural backgrounds on solutions for complex problems."
+      },
+      {
+        "path": "work_experience[0].details",
+        "content": [
+          "Develop and evaluate the next generation learning management system with Meteor",
+          "Define a new level of software for classroom management based on an extensive nursing curriculum."
+        ]
+      },
+      {
+        "path": "work_experience[1].details",
+        "content": [
+          "Realize projects in XPages and We4IT Aveedo, monitor project status, conduct reports",
+          "Implement the frontend for a BPMN compatible engine within We4IT Aveedo"
+        ]
+      },
+      {
+        "path": "work_experience[2].details",
+        "content": [
+          "Invented a flexible assessment framework, targeting industrial trainees",
+          "Supervised software development lifecycle, Recruited team members"
+        ]
+      },
+      {
+        "path": "work_experience[3].details",
+        "content": [
+          "Performed a two-day project simulation from management perspective",
+          "Topics included customer contracts, change management, controlling, operational tasks"
+        ]
+      },
+      {
+        "path": "work_experience[4].details",
+        "content": [
+          "Realized an online diagnosis platform for workforce literacy development (Flex)",
+          "Modeled software design, implemented various prototypes, conducted usability tests"
+        ]
+      },
+      {
+        "path": "education[0].details",
+        "content": [
+          "Master Thesis: Semi Automated Scoring in Technology Based Assessment",
+          "Developed and evaluated an algorithm for semi automated scoring of spreadsheet data"
+        ]
+      },
+      {
+        "path": "education[1].details",
+        "content": [
+          "Co-Invented a touch table application for medical support, co-developed software (Java)",
+          "Formed a scrum team, mainted project dev server (Debian), surveyed target audience"
+        ]
+      },
+      {
+        "path": "education[2].details",
+        "content": [
+          "Inter-cultural classes in English, covering special topics in computer science and design",
+          "Professionalized in research methods, software development and e-assessment"
+        ]
+      },
+      {
+        "path": "education[3].details",
+        "content": [
+          "Mastered six months of study and trans-cultural experience in Melbourne, Australia",
+          "Finished machine programming, information visualization, professional essay writing"
+        ]
+      },
+      {
+        "path": "additional_sections",
+        "content": [
+          {
+            "source_pages": [],
+            "heading": "Activities",
+            "text": "Global Game Jam, Open Source, Fitness"
+          }
+        ]
+      }
+    ],
+    "prediction": [
+      {
+        "path": "personal_information.details",
+        "content": [
+          "Status: M.Sc. Digital Media, Scientific Employee",
+          "Field: Software Engineering, Consulting, Scrum, Usability",
+          "Tech: Meteor, Javascript, Mongo, Bootstrap, Bash, Git, Webstorm",
+          "Activity: Global Game Jam, Open Source, Fitness"
+        ]
+      },
+      {
+        "path": "summary",
+        "content": "Digital media graduate with project experience in the field of technology based assessment. Currently working as IT Consultant for We4IT, Bremen in the field of IBM Notes Domino and XPages applications. Studies focused on teams from different disciplines and cultural backgrounds on solutions for complex problems."
+      },
+      {
+        "path": "work_experience[0].details",
+        "content": [
+          "Develop and evaluate the next generation learning management system with Meteor",
+          "Define a new level of software for classroom management based on an extensive nursing curriculum."
+        ]
+      },
+      {
+        "path": "work_experience[1].details",
+        "content": [
+          "Realize projects in XPages and We4IT Avedeo, monitor project status, conduct reports",
+          "Implement the frontend for a BPMN compatible engine within We4IT Avedeo"
+        ]
+      },
+      {
+        "path": "work_experience[2].details",
+        "content": [
+          "Invented a flexible assessment framework, targeting industrial trainees",
+          "Supervised software development lifecycle, Recruited team members"
+        ]
+      },
+      {
+        "path": "work_experience[3].details",
+        "content": [
+          "Performed a two-day project simulation from management perspective",
+          "Topics included customer contracts, change management, controlling, operational tasks"
+        ]
+      },
+      {
+        "path": "work_experience[4].details",
+        "content": [
+          "Realized an online diagnostic platform for workforce literacy development (Flex)",
+          "Modeled software design, implemented various prototypes, conducted usability tests"
+        ]
+      },
+      {
+        "path": "education[0].details",
+        "content": [
+          "Developed an algorithm for semi automated scoring of spreadsheet data"
+        ]
+      },
+      {
+        "path": "education[1].details",
+        "content": [
+          "Co-Invented a touch table application for medical support, co-developed software (Java)",
+          "Formed a scrum team, managed project dev server (Deviant), surveyed target audience"
+        ]
+      },
+      {
+        "path": "education[2].details",
+        "content": [
+          "Co-Invented a touch table application for medical support, co-developed software (Java)",
+          "Formed a scrum team, managed project dev server (Deviant), surveyed target audience"
+        ]
+      },
+      {
+        "path": "education[3].details",
+        "content": [
+          "Inter-cultural classes in English, covering special topics in computer science and design",
+          "Professionalism in research methods, software development and e-assessment"
+        ]
+      },
+      {
+        "path": "education[4].details",
+        "content": [
+          "Mastered six months of study and trans-cultural experience in Melbourne, Australia",
+          "Finished machine programming, information visualization, professional essay writing"
+        ]
+      }
+    ],
+    "checklist": {
+      "preservation": {
+        "passed": null,
+        "notes": ""
+      },
+      "faithfulness": {
+        "passed": null,
+        "notes": ""
+      },
+      "placement": {
+        "passed": null,
+        "notes": ""
+      },
+      "duplication": {
+        "passed": null,
+        "notes": ""
+      }
+    }
+  },
+  "status": "evaluated"
+}

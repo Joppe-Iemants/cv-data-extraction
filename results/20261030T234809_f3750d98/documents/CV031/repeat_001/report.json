@@ -1,0 +1,61 @@
+{
+  "document_id": "CV031",
+  "repetition": 1,
+  "status": "error",
+  "metrics": {
+    "processing_seconds": 235.8721368999686
+  },
+  "stages": [
+    {
+      "name": "render_pages",
+      "method": "render_pdf",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 0.10077749998890795,
+        "memory": {
+          "enabled": true,
+          "collection_status": "completed",
+          "metric": "process_rss",
+          "scope": "current_process",
+          "sample_interval_ms": 100,
+          "sample_count": 2,
+          "start_rss_bytes": 140521472,
+          "end_rss_bytes": 144162816,
+          "sampled_peak_rss_bytes": 144162816,
+          "error": null
+        },
+        "page_count": 3,
+        "dpi": 120,
+        "total_pixels": 4182516
+      },
+      "error": null
+    },
+    {
+      "name": "structure_cv",
+      "method": "vlm_structuring",
+      "execution_status": "error",
+      "outcome": null,
+      "metrics": {
+        "duration_seconds": 235.7713593999797,
+        "memory": {
+          "enabled": true,
+          "collection_status": "completed",
+          "metric": "process_rss",
+          "scope": "current_process",
+          "sample_interval_ms": 100,
+          "sample_count": 2150,
+          "start_rss_bytes": 144158720,
+          "end_rss_bytes": 2101288960,
+          "sampled_peak_rss_bytes": 2536935424,
+          "error": null
+        }
+      },
+      "error": {
+        "type": "VisionStructuringError",
+        "message": "Vision extraction failed: 40 validation errors for RawCV\npersonal_information.source_pages.0\n  Input should be greater than or equal to 1 [type=greater_than_equal, input_value=0, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.14/v/greater_than_equal\nwork_experience.0.source_pages.0\n  Input should be greater than or equal to 1 [type=greater_than_equal, input_value=0, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.14/v/greater_than_equal\nwork_experience.1.source_pages.0\n  Input should be greater than or equal to 1 [type=greater_than_equal, input_value=0, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.14/v/greater_than_equal\nskills.0.source_pages.0\n  Input should be greater than or equal to 1 [type=greater_than_equal, input_value=0, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.14/v/greater_than_equal\nskills.1.source_pages.0\n  Input should be greater than or equal to 1 [type=greater_than_equal, input_value=0, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.14/v/greater_than_equal\nskills.2.source_pages.0\n  Input should be greater than or equal to 1 [type=greater_than_equal, input_value=0, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.14/v/greater_than_equal\nskills.3.source_pages.0\n  Input should be greater than or equal to 1 [type=greater_than_equal, input_value=0, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.14/v/greater_than_equal\nskills.4.source_pages.0\n  Input should be greater than or equal to 1 [type=greater_than_equal, input_value=0, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.14/v/greater_than_equal\nskills.5.source_pages.0\n  Input should be greater than or equal to 1 [type=greater_than_equal, input_value=0, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.14/v/greater_than_equal\nskills.6.source_pages.0\n  Input should be greater than or equal to 1 [type=greater_than_equal, input_value=0, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.14/v/greater_than_equal\nskills.7.source_pages.0\n  Input should be greater than or equal to 1 [type=greater_than_equal, input_value=0, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.14/v/greater_than_equal\nskills.8.source_pages.0\n  Input should be greater than or equal to 1 [type=greater_than_equal, input_value=0, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.14/v/greater_than_equal\nskills.9.source_pages.0\n  Input should be greater than or equal to 1 [type=greater_than_equal, input_value=0, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.14/v/greater_than_equal\nskills.10.source_pages.0\n  Input should be greater than or equal to 1 [type=greater_than_equal, input_value=0, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.14/v/greater_than_equal\nskills.11.source_pages.0\n  Input should be greater than or equal to 1 [type=greater_than_equal, input_value=0, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.14/v/greater_than_equal\nskills.12.source_pages.0\n  Input should be greater than or equal to 1 [type=greater_than_equal, input_value=0, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.14/v/greater_than_equal\nskills.13.source_pages.0\n  Input should be greater than or equal to 1 [type=greater_than_equal, input_value=0, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.14/v/greater_than_equal\nskills.14.source_pages.0\n  Input should be greater than or equal to 1 [type=greater_than_equal, input_value=0, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.14/v/greater_than_equal\nskills.15.source_pages.0\n  Input should be greater than or equal to 1 [type=greater_than_equal, input_value=0, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.14/v/greater_than_equal\nskills.16.source_pages.0\n  Input should be greater than or equal to 1 [type=greater_than_equal, input_value=0, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.14/v/greater_than_equal\nskills.17.source_pages.0\n  Input should be greater than or equal to 1 [type=greater_than_equal, input_value=0, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.14/v/greater_than_equal\nskills.18.source_pages.0\n  Input should be greater than or equal to 1 [type=greater_than_equal, input_value=0, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.14/v/greater_than_equal\nskills.19.source_pages.0\n  Input should be greater than or equal to 1 [type=greater_than_equal, input_value=0, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.14/v/greater_than_equal\nskills.20.source_pages.0\n  Input should be greater than or equal to 1 [type=greater_than_equal, input_value=0, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.14/v/greater_than_equal\nskills.21.source_pages.0\n  Input should be greater than or equal to 1 [type=greater_than_equal, input_value=0, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.14/v/greater_than_equal\nskills.22.source_pages.0\n  Input should be greater than or equal to 1 [type=greater_than_equal, input_value=0, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.14/v/greater_than_equal\nskills.23.source_pages.0\n  Input should be greater than or equal to 1 [type=greater_than_equal, input_value=0, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.14/v/greater_than_equal\nskills.24.source_pages.0\n  Input should be greater than or equal to 1 [type=greater_than_equal, input_value=0, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.14/v/greater_than_equal\nskills.25.source_pages.0\n  Input should be greater than or equal to 1 [type=greater_than_equal, input_value=0, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.14/v/greater_than_equal\ncertifications.0.details\n  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.14/v/list_type\ncertifications.1.details\n  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.14/v/list_type\ncertifications.2.details\n  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.14/v/list_type\ncertifications.3.details\n  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.14/v/list_type\ncertifications.4.details\n  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.14/v/list_type\nadditional_sections.0.text\n  Input should be a valid string [type=string_type, input_value=['Platform Architecture I... coding standards docs'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_type\nadditional_sections.1.text\n  Input should be a valid string [type=string_type, input_value=['Event-Driven Architectu...overnance. 19K+ reads.'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_type\nadditional_sections.2.text\n  Input should be a valid string [type=string_type, input_value=['ReactDay Berlin 2023', ...', 'JSConf Berlin 2021'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_type\nadditional_sections.3.text\n  Input should be a valid string [type=string_type, input_value=['crdt-collab (2.1K stars...6-react-ui contributor'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_type\nadditional_sections.4.text\n  Input should be a valid string [type=string_type, input_value=['Street photography', 'C...o open-source projects'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_type\nadditional_sections.5.text\n  Input should be a valid string [type=string_type, input_value=['2023 AWS Solutions Arch...DB Certified Developer'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_type"
+      },
+      "artifacts_file": "artifacts.json"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "structure_cv",
+  "method": "vlm_structuring",
+  "execution_status": "error",
+  "outcome": null,
+  "metrics": {
+    "duration_seconds": 151.57690840002033,
+    "memory": {
+      "enabled": true,
+      "collection_status": "completed",
+      "metric": "process_rss",
+      "scope": "current_process",
+      "sample_interval_ms": 100,
+      "sample_count": 1380,
+      "start_rss_bytes": 143777792,
+      "end_rss_bytes": 2046857216,
+      "sampled_peak_rss_bytes": 2542571520,
+      "error": null
+    }
+  },
+  "error": {
+    "type": "VisionStructuringError",
+    "message": "Vision extraction failed: 4 validation errors for RawCV\nadditional_sections.0.text\n  Input should be a valid string [type=string_type, input_value=['Sparse Mixture-of-Exper...Paper Award)\\nMay 2021'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_type\nadditional_sections.1.text\n  Input should be a valid string [type=string_type, input_value=['MIT Technology Review 3...raduate Studies (2018)'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_type\nadditional_sections.2.text\n  Input should be a valid string [type=string_type, input_value=['1. Adaptive Quantizatio...(US Patent 11,456,789)'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_type\nadditional_sections.3.text\n  Input should be a valid string [type=string_type, input_value=['4. Scaling Laws for Eff...oogle Tech Talk (2022)'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_type"
+  },
+  "artifacts_file": "artifacts.json"
+}

@@ -1,0 +1,22 @@
+{
+  "source_run_id": "20261030T234353_b83756e0",
+  "source_path": "results\\20261030T234353_b83756e0",
+  "source_config_sha256": "65fc4c8741f817f8297ea5ff60f2437589dd9c05fb732b0535ed47bb1b8b272d",
+  "evaluator_version": "1.2",
+  "evaluator_files_sha256": {
+    "runner.py": "39425ccf23691f35ecbad6846f20023ee3c075fb66a85a9ce64fa89aa6b75c2f",
+    "scoring.py": "37696cbf478d210ca29c7808bc5fe18dbc28c26f54311533c67dae6492016c6d",
+    "matching.py": "7539f59a8199481f993161259ea37c2fc7888300cfe2ecbbb2d1edf767be7c71",
+    "normalization.py": "c58862db38b4abae6018feeecd9a8479f98ca7471bc2c6591434ad04051e60e3"
+  },
+  "schema_sha256": "35978a2881ac89d463bf04e81b813c04981c3f4eaa355d3a704349aaa6ea7ce4",
+  "evaluated_at_utc": "2026-10-30T23:46:08.675982+00:00",
+  "provenance_policy": "empty",
+  "references": {
+    "CV002": {
+      "path": "data\\references\\CV002.json",
+      "sha256": "75da1aa0be8c8d4a29633c087532caa12a9f0f9a1d5d8a9c8fc54bbb721b78af"
+    }
+  },
+  "run_description": null
+}

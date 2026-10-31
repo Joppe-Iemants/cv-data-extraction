@@ -1,0 +1,26 @@
+{
+  "name": "structure_cv",
+  "method": "vlm_structuring",
+  "execution_status": "error",
+  "outcome": null,
+  "metrics": {
+    "duration_seconds": 215.7650263000105,
+    "memory": {
+      "enabled": true,
+      "collection_status": "completed",
+      "metric": "process_rss",
+      "scope": "current_process",
+      "sample_interval_ms": 100,
+      "sample_count": 1968,
+      "start_rss_bytes": 176685056,
+      "end_rss_bytes": 2156793856,
+      "sampled_peak_rss_bytes": 2569719808,
+      "error": null
+    }
+  },
+  "error": {
+    "type": "VisionStructuringError",
+    "message": "Vision extraction failed: 9 validation errors for RawCV\nadditional_sections.0.text\n  Input should be a valid string [type=string_type, input_value=['Assessed and specified ...ut bell-frame loading.\"], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_type\nadditional_sections.1.text\n  Input should be a valid string [type=string_type, input_value=['Catalogued foundry mark...epted by the diocesan.'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_type\nadditional_sections.2.text\n  Input should be a valid string [type=string_type, input_value=['Senior Founder and Tune...Career actually began.'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_type\nadditional_sections.3.text\n  Input should be a valid string [type=string_type, input_value=['Formal - Degree', 'B.En...unders, admitted 2014.'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_type\nadditional_sections.4.text\n  Input should be a valid string [type=string_type, input_value=['Full 8-bell rehang and ...ual towers, 2015-2015.'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_type\nadditional_sections.5.text\n  Input should be a valid string [type=string_type, input_value=[\"Contributing researcher...lumn, 2018 to present.\"], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_type\nadditional_sections.6.text\n  Input should be a valid string [type=string_type, input_value=['Worshipful Company of F...ity of practitioners).\"], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_type\nadditional_sections.7.text\n  Input should be a valid string [type=string_type, input_value=['Central Council of Chur...unders, admitted 2014.'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_type\nadditional_sections.8.text\n  Input should be a valid string [type=string_type, input_value=[\"Available on request th...nal contact protocols.\"], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_type"
+  },
+  "artifacts_file": "artifacts.json"
+}

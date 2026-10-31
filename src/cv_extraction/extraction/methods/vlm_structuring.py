@@ -15,10 +15,15 @@ class VisionStructuringError(RuntimeError):
 
 def structure_cv_images(
     data: dict, model_id: str, load_in_4bit: bool, max_new_tokens: int,
-    allow_cpu_offload: bool = False
+    allow_cpu_offload: bool = False, max_pixels: int = 0,
+    gpu_memory_fraction: float = 0.0, expand_kv_for_sdpa: bool = False
 ) -> dict:
     if max_new_tokens <= 0:
         raise ValueError("max_new_tokens must be positive.")
+    if max_pixels < 0 or (max_pixels and max_pixels < 65536):
+        raise ValueError("max_pixels must be zero or at least 65536.")
+    if not 0 <= gpu_memory_fraction <= 1:
+        raise ValueError("gpu_memory_fraction must be between zero and one.")
 
     pages = data.get("pages", [])
 
@@ -39,6 +44,9 @@ def structure_cv_images(
             "allow_cpu_offload": allow_cpu_offload,
             "max_new_tokens": max_new_tokens,
             "do_sample": False,
+            "max_pixels": max_pixels,
+            "gpu_memory_fraction": gpu_memory_fraction,
+            "expand_kv_for_sdpa": expand_kv_for_sdpa,
             "dpi": data["dpi"],
             "pages": pages,
             "prompt": prompt
@@ -51,7 +59,12 @@ def structure_cv_images(
         import torch
         from PIL import Image
 
-        runtime = get_vlm_runtime(model_id, load_in_4bit, allow_cpu_offload)
+        if gpu_memory_fraction:
+            # Fail explicitly rather than letting WDDM spill allocations into RAM.
+            torch.cuda.set_per_process_memory_fraction(gpu_memory_fraction, 0)
+
+        runtime = get_vlm_runtime(model_id, load_in_4bit, allow_cpu_offload,
+                                  expand_kv_for_sdpa=expand_kv_for_sdpa)
         processor = runtime["processor"]
         model = runtime["model"]
 
@@ -97,7 +110,10 @@ def structure_cv_images(
                 tokenize=True,
                 add_generation_prompt=True,
                 return_dict=True,
-                return_tensors="pt"
+                return_tensors="pt",
+                **({"processor_kwargs": {"images_kwargs": {"size": {
+                    "shortest_edge": 65536, "longest_edge": max_pixels
+                }}}} if max_pixels else {})
             )
 
             inputs.pop("token_type_ids", None)
@@ -118,7 +134,8 @@ def structure_cv_images(
                 **inputs,
                 max_new_tokens=max_new_tokens,
                 do_sample=False,
-                use_cache=True
+                use_cache=True,
+                logits_to_keep=1
             )
 
         torch.cuda.synchronize(0)

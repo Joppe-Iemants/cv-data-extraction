@@ -1,0 +1,61 @@
+{
+  "document_id": "CV008",
+  "repetition": 1,
+  "status": "error",
+  "metrics": {
+    "processing_seconds": 241.366984399996
+  },
+  "stages": [
+    {
+      "name": "render_pages",
+      "method": "render_pdf",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 0.12056250000023283,
+        "memory": {
+          "enabled": true,
+          "collection_status": "completed",
+          "metric": "process_rss",
+          "scope": "current_process",
+          "sample_interval_ms": 100,
+          "sample_count": 3,
+          "start_rss_bytes": 140075008,
+          "end_rss_bytes": 143605760,
+          "sampled_peak_rss_bytes": 147783680,
+          "error": null
+        },
+        "page_count": 4,
+        "dpi": 120,
+        "total_pixels": 5576688
+      },
+      "error": null
+    },
+    {
+      "name": "structure_cv",
+      "method": "vlm_structuring",
+      "execution_status": "error",
+      "outcome": null,
+      "metrics": {
+        "duration_seconds": 241.24642189999577,
+        "memory": {
+          "enabled": true,
+          "collection_status": "completed",
+          "metric": "process_rss",
+          "scope": "current_process",
+          "sample_interval_ms": 100,
+          "sample_count": 2200,
+          "start_rss_bytes": 143622144,
+          "end_rss_bytes": 2102788096,
+          "sampled_peak_rss_bytes": 2543906816,
+          "error": null
+        }
+      },
+      "error": {
+        "type": "VisionStructuringError",
+        "message": "Vision extraction failed: 16 validation errors for RawCV\npersonal_information.source_pages.0\n  Input should be greater than or equal to 1 [type=greater_than_equal, input_value=0, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.14/v/greater_than_equal\nwork_experience.0.source_pages.0\n  Input should be greater than or equal to 1 [type=greater_than_equal, input_value=0, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.14/v/greater_than_equal\nskills.0.source_pages.0\n  Input should be greater than or equal to 1 [type=greater_than_equal, input_value=0, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.14/v/greater_than_equal\nskills.1.source_pages.0\n  Input should be greater than or equal to 1 [type=greater_than_equal, input_value=0, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.14/v/greater_than_equal\nskills.2.source_pages.0\n  Input should be greater than or equal to 1 [type=greater_than_equal, input_value=0, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.14/v/greater_than_equal\nskills.3.source_pages.0\n  Input should be greater than or equal to 1 [type=greater_than_equal, input_value=0, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.14/v/greater_than_equal\nskills.4.source_pages.0\n  Input should be greater than or equal to 1 [type=greater_than_equal, input_value=0, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.14/v/greater_than_equal\nskills.5.source_pages.0\n  Input should be greater than or equal to 1 [type=greater_than_equal, input_value=0, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.14/v/greater_than_equal\nskills.6.source_pages.0\n  Input should be greater than or equal to 1 [type=greater_than_equal, input_value=0, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.14/v/greater_than_equal\nskills.7.source_pages.0\n  Input should be greater than or equal to 1 [type=greater_than_equal, input_value=0, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.14/v/greater_than_equal\nadditional_sections.0.text\n  Input should be a valid string [type=string_type, input_value=['LPIC 1 - Linux administ...gram', 'Online Classes'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_type\nadditional_sections.1.text\n  Input should be a valid string [type=string_type, input_value=['NOVELL eDirectory', 'Sh...cumentation versioning'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_type\nadditional_sections.2.text\n  Input should be a valid string [type=string_type, input_value=['Drastically accelerated...dows and Linux systems'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_type\nadditional_sections.3.text\n  Input should be a valid string [type=string_type, input_value=['Implementing code cover...Environment in project'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_type\nadditional_sections.4.text\n  Input should be a valid string [type=string_type, input_value=['Implementation of autom...f potential code flaws'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_type\nadditional_sections.5.text\n  Input should be a valid string [type=string_type, input_value=['Definition of uniform s...ta analysis in project'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_type"
+      },
+      "artifacts_file": "artifacts.json"
+    }
+  ]
+}

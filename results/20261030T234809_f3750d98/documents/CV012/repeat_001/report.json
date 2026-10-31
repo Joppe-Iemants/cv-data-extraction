@@ -1,0 +1,61 @@
+{
+  "document_id": "CV012",
+  "repetition": 1,
+  "status": "error",
+  "metrics": {
+    "processing_seconds": 122.26194329999271
+  },
+  "stages": [
+    {
+      "name": "render_pages",
+      "method": "render_pdf",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 0.04296210000757128,
+        "memory": {
+          "enabled": true,
+          "collection_status": "completed",
+          "metric": "process_rss",
+          "scope": "current_process",
+          "sample_interval_ms": 100,
+          "sample_count": 2,
+          "start_rss_bytes": 140488704,
+          "end_rss_bytes": 143601664,
+          "sampled_peak_rss_bytes": 143601664,
+          "error": null
+        },
+        "page_count": 1,
+        "dpi": 120,
+        "total_pixels": 1346400
+      },
+      "error": null
+    },
+    {
+      "name": "structure_cv",
+      "method": "vlm_structuring",
+      "execution_status": "error",
+      "outcome": null,
+      "metrics": {
+        "duration_seconds": 122.21898119998514,
+        "memory": {
+          "enabled": true,
+          "collection_status": "completed",
+          "metric": "process_rss",
+          "scope": "current_process",
+          "sample_interval_ms": 100,
+          "sample_count": 1110,
+          "start_rss_bytes": 143613952,
+          "end_rss_bytes": 2026393600,
+          "sampled_peak_rss_bytes": 2543009792,
+          "error": null
+        }
+      },
+      "error": {
+        "type": "VisionStructuringError",
+        "message": "Vision extraction failed: 3 validation errors for RawCV\neducation.0.location\n  Extra inputs are not permitted [type=extra_forbidden, input_value='Ithaca, NY', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.14/v/extra_forbidden\neducation.1.location\n  Extra inputs are not permitted [type=extra_forbidden, input_value='Ithaca, NY', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.14/v/extra_forbidden\neducation.2.location\n  Extra inputs are not permitted [type=extra_forbidden, input_value='Kolkata, India', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.14/v/extra_forbidden"
+      },
+      "artifacts_file": "artifacts.json"
+    }
+  ]
+}

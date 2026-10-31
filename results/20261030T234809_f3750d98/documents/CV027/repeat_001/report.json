@@ -1,0 +1,61 @@
+{
+  "document_id": "CV027",
+  "repetition": 1,
+  "status": "error",
+  "metrics": {
+    "processing_seconds": 125.48717300000135
+  },
+  "stages": [
+    {
+      "name": "render_pages",
+      "method": "render_pdf",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 0.0727109000144992,
+        "memory": {
+          "enabled": true,
+          "collection_status": "completed",
+          "metric": "process_rss",
+          "scope": "current_process",
+          "sample_interval_ms": 100,
+          "sample_count": 2,
+          "start_rss_bytes": 139743232,
+          "end_rss_bytes": 142544896,
+          "sampled_peak_rss_bytes": 142544896,
+          "error": null
+        },
+        "page_count": 3,
+        "dpi": 120,
+        "total_pixels": 4039200
+      },
+      "error": null
+    },
+    {
+      "name": "structure_cv",
+      "method": "vlm_structuring",
+      "execution_status": "error",
+      "outcome": null,
+      "metrics": {
+        "duration_seconds": 125.41446209998685,
+        "memory": {
+          "enabled": true,
+          "collection_status": "completed",
+          "metric": "process_rss",
+          "scope": "current_process",
+          "sample_interval_ms": 100,
+          "sample_count": 1141,
+          "start_rss_bytes": 142553088,
+          "end_rss_bytes": 2098565120,
+          "sampled_peak_rss_bytes": 2539249664,
+          "error": null
+        }
+      },
+      "error": {
+        "type": "VisionStructuringError",
+        "message": "Vision extraction failed: 8 validation errors for RawCV\npersonal_information.source_pages.0\n  Input should be greater than or equal to 1 [type=greater_than_equal, input_value=0, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.14/v/greater_than_equal\nsummary\n  Input should be a valid string [type=string_type, input_value={'source_pages': [0], 'te...bid-phase solutioning.'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_type\nskills.0.source_pages.0\n  Input should be greater than or equal to 1 [type=greater_than_equal, input_value=0, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.14/v/greater_than_equal\nskills.1.source_pages.0\n  Input should be greater than or equal to 1 [type=greater_than_equal, input_value=0, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.14/v/greater_than_equal\nskills.2.source_pages.0\n  Input should be greater than or equal to 1 [type=greater_than_equal, input_value=0, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.14/v/greater_than_equal\nskills.3.source_pages.0\n  Input should be greater than or equal to 1 [type=greater_than_equal, input_value=0, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.14/v/greater_than_equal\nadditional_sections.0.text\n  Input should be a valid string [type=string_type, input_value=['Rising Star Recognition...tributor – Cognizant'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_type\nadditional_sections.1.text\n  Input should be a valid string [type=string_type, input_value=['English | Telugu | Hindi | Kannada'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_type"
+      },
+      "artifacts_file": "artifacts.json"
+    }
+  ]
+}

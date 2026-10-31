@@ -1,0 +1,30 @@
+{
+  "page_count": 4,
+  "dpi": 120,
+  "pages": [
+    {
+      "page_number": 1,
+      "image_path": "D:\\School\\TI_3\\TI_sem_5\\AI-Project\\cv-data-extraction\\results\\20261030T234809_f3750d98\\documents\\CV034\\repeat_001\\render_pages\\images\\page_001.png",
+      "width": 992,
+      "height": 1402
+    },
+    {
+      "page_number": 2,
+      "image_path": "D:\\School\\TI_3\\TI_sem_5\\AI-Project\\cv-data-extraction\\results\\20261030T234809_f3750d98\\documents\\CV034\\repeat_001\\render_pages\\images\\page_002.png",
+      "width": 992,
+      "height": 1402
+    },
+    {
+      "page_number": 3,
+      "image_path": "D:\\School\\TI_3\\TI_sem_5\\AI-Project\\cv-data-extraction\\results\\20261030T234809_f3750d98\\documents\\CV034\\repeat_001\\render_pages\\images\\page_003.png",
+      "width": 992,
+      "height": 1402
+    },
+    {
+      "page_number": 4,
+      "image_path": "D:\\School\\TI_3\\TI_sem_5\\AI-Project\\cv-data-extraction\\results\\20261030T234809_f3750d98\\documents\\CV034\\repeat_001\\render_pages\\images\\page_004.png",
+      "width": 992,
+      "height": 1402
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "document_id": "CV037",
+  "repetition": 1,
+  "status": "error",
+  "metrics": {
+    "processing_seconds": 594.9281328999787
+  },
+  "stages": [
+    {
+      "name": "render_pages",
+      "method": "render_pdf",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 0.3472965999972075,
+        "memory": {
+          "enabled": true,
+          "collection_status": "completed",
+          "metric": "process_rss",
+          "scope": "current_process",
+          "sample_interval_ms": 100,
+          "sample_count": 4,
+          "start_rss_bytes": 2371796992,
+          "end_rss_bytes": 2374266880,
+          "sampled_peak_rss_bytes": 2378452992,
+          "error": null
+        },
+        "page_count": 12,
+        "dpi": 120,
+        "total_pixels": 16730064
+      },
+      "error": null
+    },
+    {
+      "name": "structure_cv",
+      "method": "vlm_structuring",
+      "execution_status": "error",
+      "outcome": null,
+      "metrics": {
+        "duration_seconds": 594.5808362999815,
+        "memory": {
+          "enabled": true,
+          "collection_status": "completed",
+          "metric": "process_rss",
+          "scope": "current_process",
+          "sample_interval_ms": 100,
+          "sample_count": 5442,
+          "start_rss_bytes": 2374316032,
+          "end_rss_bytes": 2474778624,
+          "sampled_peak_rss_bytes": 2827448320,
+          "error": null
+        }
+      },
+      "error": {
+        "type": "VisionStructuringError",
+        "message": "Vision extraction failed: 18 validation errors for RawCV\npersonal_information.source_pages.0\n  Input should be greater than or equal to 1 [type=greater_than_equal, input_value=0, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.14/v/greater_than_equal\nwork_experience.0.source_pages.0\n  Input should be greater than or equal to 1 [type=greater_than_equal, input_value=0, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.14/v/greater_than_equal\neducation.0.source_pages.0\n  Input should be greater than or equal to 1 [type=greater_than_equal, input_value=0, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.14/v/greater_than_equal\neducation.1.source_pages.0\n  Input should be greater than or equal to 1 [type=greater_than_equal, input_value=0, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.14/v/greater_than_equal\nlanguages.0.source_pages.0\n  Input should be greater than or equal to 1 [type=greater_than_equal, input_value=0, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.14/v/greater_than_equal\nlanguages.1.source_pages.0\n  Input should be greater than or equal to 1 [type=greater_than_equal, input_value=0, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.14/v/greater_than_equal\nlanguages.2.source_pages.0\n  Input should be greater than or equal to 1 [type=greater_than_equal, input_value=0, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.14/v/greater_than_equal\npublications\n  Extra inputs are not permitted [type=extra_forbidden, input_value=[{'source_pages': [3], 'n...', 'Times Cited: 153']}], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.14/v/extra_forbidden\nawards\n  Extra inputs are not permitted [type=extra_forbidden, input_value=[{'source_pages': [3], 'n...dicine', 'details': []}], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.14/v/extra_forbidden\ninterests\n  Extra inputs are not permitted [type=extra_forbidden, input_value=[{'source_pages': [0], 'n... work.\", 'details': []}], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.14/v/extra_forbidden\nmedia\n  Extra inputs are not permitted [type=extra_forbidden, input_value=[{'source_pages': [11], '...even\".', 'details': []}], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.14/v/extra_forbidden\nmemberships\n  Extra inputs are not permitted [type=extra_forbidden, input_value=[{'source_pages': [5], 'n....2005)', 'details': []}], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.14/v/extra_forbidden\nprofessional_service\n  Extra inputs are not permitted [type=extra_forbidden, input_value=[{'source_pages': [5], 'n...grants', 'details': []}], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.14/v/extra_forbidden\nconsultantships\n  Extra inputs are not permitted [type=extra_forbidden, input_value=[{'source_pages': [5], 'n...ultant', 'details': []}], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.14/v/extra_forbidden\ninvited_guest_lectures\n  Extra inputs are not permitted [type=extra_forbidden, input_value=[{'source_pages': [7], 'n...China.', 'details': []}], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.14/v/extra_forbidden\nreviewer\n  Extra inputs are not permitted [type=extra_forbidden, input_value=[{'source_pages': [10], '...iruses', 'details': []}], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.14/v/extra_forbidden\nfund_raising\n  Extra inputs are not permitted [type=extra_forbidden, input_value=[{'source_pages': [4], 'n.... (62 232.39893 €)']}], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.14/v/extra_forbidden\norganisation_of_meetings\n  Extra inputs are not permitted [type=extra_forbidden, input_value=[{'source_pages': [11], '... ['6-8 December 1977']}], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.14/v/extra_forbidden"
+      },
+      "artifacts_file": "artifacts.json"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "structure_cv",
+  "method": "vlm_structuring",
+  "execution_status": "error",
+  "outcome": null,
+  "metrics": {
+    "duration_seconds": 19.57799399999203,
+    "memory": {
+      "enabled": true,
+      "collection_status": "completed",
+      "metric": "process_rss",
+      "scope": "current_process",
+      "sample_interval_ms": 100,
+      "sample_count": 170,
+      "start_rss_bytes": 144117760,
+      "end_rss_bytes": 2138394624,
+      "sampled_peak_rss_bytes": 2546421760,
+      "error": null
+    }
+  },
+  "error": {
+    "type": "VisionStructuringError",
+    "message": "Vision extraction failed: CUDA out of memory. Tried to allocate 354.00 MiB. GPU 0 has a total capacity of 8.00 GiB of which 173.63 MiB is free. 6.80 GiB allowed; Of the allocated memory 6.25 GiB is allocated by PyTorch, and 450.20 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)"
+  },
+  "artifacts_file": "artifacts.json"
+}

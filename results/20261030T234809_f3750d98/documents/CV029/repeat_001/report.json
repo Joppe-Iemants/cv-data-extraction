@@ -1,0 +1,61 @@
+{
+  "document_id": "CV029",
+  "repetition": 1,
+  "status": "error",
+  "metrics": {
+    "processing_seconds": 207.1207561000192
+  },
+  "stages": [
+    {
+      "name": "render_pages",
+      "method": "render_pdf",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 0.22819399999571033,
+        "memory": {
+          "enabled": true,
+          "collection_status": "completed",
+          "metric": "process_rss",
+          "scope": "current_process",
+          "sample_interval_ms": 100,
+          "sample_count": 4,
+          "start_rss_bytes": 141484032,
+          "end_rss_bytes": 147111936,
+          "sampled_peak_rss_bytes": 151289856,
+          "error": null
+        },
+        "page_count": 5,
+        "dpi": 120,
+        "total_pixels": 6970860
+      },
+      "error": null
+    },
+    {
+      "name": "structure_cv",
+      "method": "vlm_structuring",
+      "execution_status": "error",
+      "outcome": null,
+      "metrics": {
+        "duration_seconds": 206.8925621000235,
+        "memory": {
+          "enabled": true,
+          "collection_status": "completed",
+          "metric": "process_rss",
+          "scope": "current_process",
+          "sample_interval_ms": 100,
+          "sample_count": 1887,
+          "start_rss_bytes": 147124224,
+          "end_rss_bytes": 2144608256,
+          "sampled_peak_rss_bytes": 2544406528,
+          "error": null
+        }
+      },
+      "error": {
+        "type": "VisionStructuringError",
+        "message": "Vision extraction failed: 6 validation errors for RawCV\nadditional_sections.0.text\n  Input should be a valid string [type=string_type, input_value=['Built an end-to-end sec...lower bandwidth spend.'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_type\nadditional_sections.1.text\n  Input should be a valid string [type=string_type, input_value=['CyberCX Senior Security...y Analyst 2011– 2013'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_type\nadditional_sections.2.text\n  Input should be a valid string [type=string_type, input_value=['Edith Cowan University ...uter & Security) (HON)'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_type\nadditional_sections.3.text\n  Input should be a valid string [type=string_type, input_value=['GIAC Certified Incident...', 'COBIT 5 Foundation'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_type\nadditional_sections.4.text\n  Input should be a valid string [type=string_type, input_value=['Firewalls: Palo Alto, p...Cisco NX-OS, F5 BIG-IP'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_type\nadditional_sections.5.text\n  Input should be a valid string [type=string_type, input_value=['Referees available upon request'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_type"
+      },
+      "artifacts_file": "artifacts.json"
+    }
+  ]
+}

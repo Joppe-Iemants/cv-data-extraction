@@ -1,0 +1,214 @@
+{
+  "personal_information": {
+    "source_pages": [],
+    "full_name": "JAN KÜSTER",
+    "headline": "Consultant and Software Developer",
+    "emails": [
+      "jan@jankuester.com"
+    ],
+    "phones": [
+      "+49 370 11111111"
+    ],
+    "location": "Bremen, Germany",
+    "weblinks": [
+      {
+        "url": "www.jankuester.com",
+        "platform": "website"
+      },
+      {
+        "url": "https://github.com/jankuester",
+        "platform": "github"
+      }
+    ],
+    "details": [
+      "Status: M.Sc. Digital Media, Scientific Employee",
+      "Field: Software Engineering, Consulting, Scrum, Usability",
+      "Tech: Meteor, Javascript, Mongo, Bootstrap, Bash, Git, Webstorm",
+      "Activity: Global Game Jam, Open Source, Fitness"
+    ]
+  },
+  "summary": "Digital media graduate with project experience in the field of technology based assessment. Currently working as IT Consultant for We4IT, Bremen in the field of IBM Notes Domino and XPages applications. Studies focused on teams from different disciplines and cultural backgrounds on solutions for complex problems.",
+  "work_experience": [
+    {
+      "source_pages": [],
+      "employer": "We4IT GmbH",
+      "role": "IT Consultant",
+      "client": null,
+      "dates": {
+        "start": "2016-01-01",
+        "end": "2016-12-31",
+        "duration": null
+      },
+      "location": "Bremen",
+      "details": [
+        "Develop and evaluate the next generation learning management system with Meteor",
+        "Define a new level of software for classroom management based on an extensive nursing curriculum."
+      ],
+      "skills": [
+        "Meteor",
+        "XPages",
+        "JavaScript",
+        "Scrum"
+      ]
+    },
+    {
+      "source_pages": [],
+      "employer": "We4IT GmbH",
+      "role": "IT Consultant",
+      "client": null,
+      "dates": {
+        "start": "2014-01-01",
+        "end": "2016-12-31",
+        "duration": null
+      },
+      "location": "Bremen",
+      "details": [
+        "Realize projects in XPages and We4IT Avedeo, monitor project status, conduct reports",
+        "Implement the frontend for a BPMN compatible engine within We4IT Avedeo"
+      ],
+      "skills": [
+        "XPages",
+        "BPMN",
+        "JavaScript",
+        "Scrum"
+      ]
+    },
+    {
+      "source_pages": [],
+      "employer": "University of Bremen",
+      "role": "Scientific Employee / Software Development",
+      "client": null,
+      "dates": {
+        "start": "2012-01-01",
+        "end": "2014-12-31",
+        "duration": null
+      },
+      "location": "Bremen",
+      "details": [
+        "Invented a flexible assessment framework, targeting industrial trainees",
+        "Supervised software development lifecycle, Recruited team members"
+      ],
+      "skills": [
+        "Software Development",
+        "Scrum"
+      ]
+    },
+    {
+      "source_pages": [],
+      "employer": "Getig Consulting",
+      "role": "Project Management Simulation Training",
+      "client": null,
+      "dates": {
+        "start": "2011-01-01",
+        "end": "2011-12-31",
+        "duration": null
+      },
+      "location": "Bremen",
+      "details": [
+        "Performed a two-day project simulation from management perspective",
+        "Topics included customer contracts, change management, controlling, operational tasks"
+      ],
+      "skills": [
+        "Project Management",
+        "Change Management"
+      ]
+    },
+    {
+      "source_pages": [],
+      "employer": "online.uni-bremen.de",
+      "role": "Student Assistant / Programmer",
+      "client": null,
+      "dates": {
+        "start": "2010-01-01",
+        "end": "2011-12-31",
+        "duration": null
+      },
+      "location": "Bremen",
+      "details": [
+        "Realized an online diagnostic platform for workforce literacy development (Flex)",
+        "Modeled software design, implemented various prototypes, conducted usability tests"
+      ],
+      "skills": [
+        "Flex",
+        "Usability Testing"
+      ]
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "source_pages": [],
+      "institution": "University of Bremen",
+      "qualification": "Master Thesis: Semantic Automated Scoring in Technology Based Assessment",
+      "dates": {
+        "start": "2015-01-01",
+        "end": "2015-12-31",
+        "duration": null
+      },
+      "details": [
+        "Developed an algorithm for semi automated scoring of spreadsheet data"
+      ]
+    },
+    {
+      "source_pages": [],
+      "institution": "University of Bremen",
+      "qualification": "Master Project - PyM.A.",
+      "dates": {
+        "start": "2012-01-01",
+        "end": "2013-12-31",
+        "duration": null
+      },
+      "details": [
+        "Co-Invented a touch table application for medical support, co-developed software (Java)",
+        "Formed a scrum team, managed project dev server (Deviant), surveyed target audience"
+      ]
+    },
+    {
+      "source_pages": [],
+      "institution": "University of Bremen",
+      "qualification": "Master Project - PyM.A.",
+      "dates": {
+        "start": "2012-01-01",
+        "end": "2013-12-31",
+        "duration": null
+      },
+      "details": [
+        "Co-Invented a touch table application for medical support, co-developed software (Java)",
+        "Formed a scrum team, managed project dev server (Deviant), surveyed target audience"
+      ]
+    },
+    {
+      "source_pages": [],
+      "institution": "University of Bremen",
+      "qualification": "Master Studies Digital Media",
+      "dates": {
+        "start": "2012-01-01",
+        "end": "2015-12-31",
+        "duration": null
+      },
+      "details": [
+        "Inter-cultural classes in English, covering special topics in computer science and design",
+        "Professionalism in research methods, software development and e-assessment"
+      ]
+    },
+    {
+      "source_pages": [],
+      "institution": "University of Melbourne",
+      "qualification": "Semester Abroad",
+      "dates": {
+        "start": "2009-01-01",
+        "end": "2010-12-31",
+        "duration": null
+      },
+      "details": [
+        "Mastered six months of study and trans-cultural experience in Melbourne, Australia",
+        "Finished machine programming, information visualization, professional essay writing"
+      ]
+    }
+  ],
+  "skills": [],
+  "languages": [],
+  "certifications": [],
+  "training": [],
+  "additional_sections": []
+}

@@ -1,0 +1,260 @@
+{
+  "personal_information": {
+    "source_pages": [],
+    "full_name": "JAN KÜSTER",
+    "headline": "CONSULTANT/ SOFTWARE ENG.",
+    "emails": [
+      "info@jankuester.com"
+    ],
+    "phones": [
+      "+49 176 **** ***"
+    ],
+    "location": "Bremen, Germany",
+    "weblinks": [
+      {
+        "url": "www.jankuester.com",
+        "platform": null
+      },
+      {
+        "url": "github.com/jankapunkt",
+        "platform": "github"
+      },
+      {
+        "url": "@Kuester_Jan",
+        "platform": "twitter"
+      }
+    ],
+    "details": [
+      "I am a digital media graduate with working experience in research projects as well as in the private sector."
+    ]
+  },
+  "summary": "I am a digital media graduate with working experience in research projects as well as in the private sector. And I am always looking for new exciting and interdisciplinary projects worldwide.",
+  "work_experience": [
+    {
+      "source_pages": [],
+      "employer": "UB",
+      "role": "Software Engineer",
+      "client": null,
+      "dates": {
+        "start": "2018-10-01",
+        "end": null,
+        "duration": null
+      },
+      "location": null,
+      "details": [],
+      "skills": []
+    },
+    {
+      "source_pages": [],
+      "employer": "UB",
+      "role": "Software Engineer",
+      "client": null,
+      "dates": {
+        "start": "2016-09-01",
+        "end": null,
+        "duration": null
+      },
+      "location": null,
+      "details": [],
+      "skills": []
+    },
+    {
+      "source_pages": [],
+      "employer": "@We4IT",
+      "role": "IT Consultant",
+      "client": null,
+      "dates": {
+        "start": "2014-11-01",
+        "end": null,
+        "duration": null
+      },
+      "location": null,
+      "details": [],
+      "skills": []
+    },
+    {
+      "source_pages": [],
+      "employer": "UB",
+      "role": "Scientific Employee",
+      "client": null,
+      "dates": {
+        "start": "2012-01-01",
+        "end": null,
+        "duration": null
+      },
+      "location": null,
+      "details": [],
+      "skills": []
+    },
+    {
+      "source_pages": [],
+      "employer": "UB",
+      "role": "Student Assistant",
+      "client": null,
+      "dates": {
+        "start": "2010-06-01",
+        "end": null,
+        "duration": null
+      },
+      "location": null,
+      "details": [],
+      "skills": []
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "source_pages": [],
+      "institution": "University of Bremen",
+      "qualification": "M.Sc. Digital Media",
+      "dates": {
+        "start": "2015-07-01",
+        "end": null,
+        "duration": null
+      },
+      "details": [
+        "as latest degree from University of Bremen"
+      ]
+    },
+    {
+      "source_pages": [],
+      "institution": "University of Bremen",
+      "qualification": "Bachelor Studies",
+      "dates": {
+        "start": "2007-10-01",
+        "end": null,
+        "duration": null
+      },
+      "details": []
+    }
+  ],
+  "skills": [
+    {
+      "source_pages": [],
+      "name": "Javascript",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Blaze",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Meteor",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Bootstrap",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "MongoDB",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "HTML/CSS",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "LaTeX",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Webstorm",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Git",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Sourcetree",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Linux",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Office",
+      "proficiency": null,
+      "details": []
+    }
+  ],
+  "languages": [
+    {
+      "source_pages": [],
+      "name": "German",
+      "proficiency": {
+        "text": "native",
+        "type": null,
+        "value": null,
+        "maximum": null
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "English",
+      "proficiency": {
+        "text": "c1",
+        "type": null,
+        "value": null,
+        "maximum": null
+      },
+      "details": []
+    }
+  ],
+  "certifications": [],
+  "training": [
+    {
+      "source_pages": [],
+      "name": "PM Training",
+      "provider": null,
+      "dates": {
+        "start": "2011-06-01",
+        "end": null,
+        "duration": null
+      },
+      "details": []
+    }
+  ],
+  "additional_sections": [
+    {
+      "source_pages": [],
+      "heading": "EXPERIENCE AND EDUCATION",
+      "text": "2021\n10/2020 Meteor Impact Conference\n10/2018 Software Engineer @UB\n9/2016 Software Engineer @UB\n5/2016 Startup Weekend\n7/2015 M.Sc. Graduation\n11/2014 IT Consultant @We4IT\n9/2013 DELFI Conference\n11/2012 Master Project - PrlMA\n1/2012 Scientific Employee @UB\n6/2011 PM Training\n6/2010 Student Assistant @UB\n5/2009 Semester Abroad\n10/2007 Bachelor Studies"
+    },
+    {
+      "source_pages": [],
+      "heading": "SKILLS AND TECHNOLOGIES",
+      "text": "The biggest part I contribute to my work is in the area of Software Engineering.\nCurrently, I develop real-time apps with Meteor and Blaze. Formerly I worked with Java and XPages.\nI regularly use Meteor, Git-Webstorm for my dev projects."
+    },
+    {
+      "source_pages": [],
+      "heading": "ACTIVITIES",
+      "text": "7 years of participation at Global Game Jam\nIn my freetime I read lots of news and help others on Stackoverflow. Via bodyweight training I keep my body and mind in balance.\nStackoverflow\nNews\nFitness\nGame Dev"
+    }
+  ]
+}
