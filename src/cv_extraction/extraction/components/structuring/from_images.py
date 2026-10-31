@@ -11,7 +11,16 @@ class VisionStructuringError(RuntimeError):
         self.artifacts = artifacts
 
 
-def structure_cv_images(data: dict, model_id: str, load_in_4bit: bool, max_new_tokens: int, allow_cpu_offload: bool = False) -> dict:
+def structure_cv_images(
+        data: dict,
+        model_id: str,
+        load_in_4bit: bool,
+        max_new_tokens: int,
+        allow_cpu_offload: bool = False,
+        attention_implementation: str = "sdpa",
+        sdpa_backend: str = "auto",
+        logits_to_keep: int = 0
+    ) -> dict:
     if max_new_tokens <= 0:
         raise ValueError("max_new_tokens must be positive.")
 
@@ -46,7 +55,11 @@ def structure_cv_images(data: dict, model_id: str, load_in_4bit: bool, max_new_t
         metrics = artifacts["metrics"]
         response = generate_from_images(
             pages, prompt, model_id, load_in_4bit, max_new_tokens,
-            allow_cpu_offload, metrics=metrics
+            allow_cpu_offload,
+            metrics=metrics,
+            attention_implementation=attention_implementation,
+            sdpa_backend=sdpa_backend,
+            logits_to_keep=logits_to_keep
         )
         artifacts["raw_response"] = response
 

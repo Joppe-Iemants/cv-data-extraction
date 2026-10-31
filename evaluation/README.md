@@ -30,11 +30,20 @@ Run: `20261029T215235_8e602a1a`
 | Parsed extraction | Same | Same |
 
 
-- **Efficient attention adapter**
-  - Test separately.
-  - Measure generation speed and peak GPU memory.
+#### **Efficient attention adapter**
+  
+| Measurement | Original baseline | Adapter + forced efficient SDPA |
+|---|---:|---:|
+| Structuring time, including loading | 65 minutes | **87 seconds** |
+| Generation time | 3,884 seconds | **74 seconds** |
+| Generation speed | 0.43 tokens/s | **22.72 tokens/s** |
+| Peak allocated GPU memory | 8.59 GiB | **3.70 GiB** |
+| Input tokens | 4,207 | 4,207 |
+| Output tokens | 1,672 | 1,672 |
+| Parsed extraction | Identical | Identical |
 
-- **`logits_to_keep=1`**
+#### **logits_to_keep=1**
+
   - Test separately, then combine with the attention adapter.
   - Measure processing time and peak GPU memory.
 

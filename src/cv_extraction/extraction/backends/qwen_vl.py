@@ -1,13 +1,16 @@
-from contextlib import ExitStack
+from contextlib import ExitStack, nullcontext
 from time import perf_counter
 
 _RUNTIME = None
 _RUNTIME_KEY = None
 
-def get_vlm_runtime(model_id: str, load_in_4bit: bool, allow_cpu_offload: bool = False) -> dict:
+def get_vlm_runtime(model_id: str, load_in_4bit: bool, allow_cpu_offload: bool = False, attention_implementation: str = "sdpa") -> dict:
     global _RUNTIME, _RUNTIME_KEY
 
-    runtime_key = (model_id, load_in_4bit, allow_cpu_offload)
+    runtime_key = (model_id, load_in_4bit, allow_cpu_offload, attention_implementation)
+
+    if attention_implementation not in {"sdpa", "expanded_kv_sdpa"}:
+        raise ValueError(f"Unknown attention implementation: {attention_implementation}")
 
     if _RUNTIME is not None:
         if runtime_key != _RUNTIME_KEY:
@@ -50,9 +53,12 @@ def get_vlm_runtime(model_id: str, load_in_4bit: bool, allow_cpu_offload: bool =
 
     processor = AutoProcessor.from_pretrained(model_id)
 
-    from .attention import register_expanded_kv_sdpa
+    attention = attention_implementation
 
-    attention = register_expanded_kv_sdpa()
+    if attention_implementation == "expanded_kv_sdpa":
+        from .attention import register_expanded_kv_sdpa
+
+        attention = register_expanded_kv_sdpa()
 
     model = Qwen3VLForConditionalGeneration.from_pretrained(
         model_id,
@@ -98,7 +104,8 @@ def get_vlm_runtime(model_id: str, load_in_4bit: bool, allow_cpu_offload: bool =
 
 def generate_from_images(
     pages: list[dict], prompt: str, model_id: str, load_in_4bit: bool,
-    max_new_tokens: int, allow_cpu_offload: bool = False, *, metrics: dict
+    max_new_tokens: int, allow_cpu_offload: bool = False, *, metrics: dict,
+    attention_implementation: str = "sdpa", sdpa_backend: str = "auto", logits_to_keep: int = 0
 ) -> str:
     """Generate text from page images, updating metrics as work completes.
 
@@ -110,7 +117,13 @@ def generate_from_images(
     from torch.nn.attention import SDPBackend, sdpa_kernel
     from PIL import Image
 
-    runtime = get_vlm_runtime(model_id, load_in_4bit, allow_cpu_offload)
+    if sdpa_backend not in {"auto", "efficient"}:
+        raise ValueError(f"Unknown SDPA backend: {sdpa_backend}")
+
+    if logits_to_keep < 0:
+        raise ValueError("logits_to_keep must be nonnegative.")
+
+    runtime = get_vlm_runtime(model_id, load_in_4bit, allow_cpu_offload, attention_implementation=attention_implementation)
     processor = runtime["processor"]
     model = runtime["model"]
 
@@ -171,12 +184,18 @@ def generate_from_images(
 
     generation_start = perf_counter()
 
-    with torch.inference_mode(), sdpa_kernel(SDPBackend.EFFICIENT_ATTENTION):
+    attention_context = (
+        sdpa_kernel(SDPBackend.EFFICIENT_ATTENTION)
+        if sdpa_backend == "efficient"
+        else nullcontext()
+    )
+    with torch.inference_mode(), attention_context:
         output = model.generate(
             **inputs,
             max_new_tokens=max_new_tokens,
             do_sample=False,
-            use_cache=True
+            use_cache=True,
+            logits_to_keep=logits_to_keep
         )
 
     torch.cuda.synchronize(0)

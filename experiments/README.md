@@ -55,20 +55,10 @@ pipenv run evaluate --run-ids RUN_ID
 ```
 "--overwrite": lets you overwrite an existing report for the RUN_ID
 
-## VLM CPU offloading
+## VLM optimazation configuration
 
-`configs/vision/baseline.json` currently sets `allow_cpu_offload` to `false`.
-Set it to `true` to enable CPU offloading for the VLM stage. Accelerate
-automatically distributes model weights over GPU 0 and CPU RAM when
-needed. CUDA is still required. Set the option to `false` (or omit it) to retain
-the original GPU-0-only loading behavior.
-
-Automatic placement reserves 2 GiB of free memory on GPU 0 for image processing
-and generation and budgets 80% of currently available system RAM for weights.
-These budgets do not guarantee that every image/page count or output length fits
-during generation. CPU offloading can substantially increase inference time.
-
-The request records whether offloading is allowed; stage metrics record the actual
-device map, input device, CPU placement and weight memory budgets. Compare timing
-results with that placement information. This setting does not change the prompt
-or evaluator, and existing text-baseline runs do not need to be repeated.
+| Experiment | `attention_implementation` | `sdpa_backend` | `logits_to_keep` |
+|---|---|---|---:|
+| Original slow baseline | `"sdpa"` | `"auto"` | `0` |
+| Efficient attention | `"expanded_kv_sdpa"` | `"efficient"` | `0` |
+| Efficient attention + logits | `"expanded_kv_sdpa"` | `"efficient"` | `1` |
