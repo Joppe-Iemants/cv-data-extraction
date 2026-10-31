@@ -1,0 +1,42 @@
+{
+  "name": "vision_extraction",
+  "split": "development",
+  "document_ids": [
+    "CV002"
+  ],
+  "exclude_sources": [
+    "vdab"
+  ],
+  "repetitions": 1,
+  "monitoring": {
+    "memory": false,
+    "sample_interval_ms": 10
+  },
+  "stages": [
+    {
+      "name": "render_pages",
+      "method": "render_pdf",
+      "settings": {
+        "dpi": 120
+      }
+    },
+    {
+      "name": "structure_cv",
+      "method": "vlm_structuring",
+      "settings": {
+        "model_id": "Qwen/Qwen3-VL-4B-Instruct",
+        "load_in_4bit": true,
+        "allow_cpu_offload": false,
+        "max_new_tokens": 8192
+      }
+    }
+  ],
+  "excluded_inputs": [],
+  "inputs": [
+    {
+      "id": "CV002",
+      "file": "data/cvs/CV002_latexcv_classic.pdf",
+      "sha256": "92882b625bfcb059a7ff68db63038c8439642faf05eb7d842ebe20a018673f37"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "document_id": "CV002",
+  "repetition": 1,
+  "status": "error",
+  "metrics": {
+    "processing_seconds": 14.279066099999454
+  },
+  "stages": [
+    {
+      "name": "render_pages",
+      "method": "render_pdf",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 0.06584059999977399,
+        "memory": {
+          "enabled": false
+        },
+        "page_count": 1,
+        "dpi": 120,
+        "total_pixels": 1394172
+      },
+      "error": null
+    },
+    {
+      "name": "structure_cv",
+      "method": "vlm_structuring",
+      "execution_status": "error",
+      "outcome": null,
+      "metrics": {
+        "duration_seconds": 14.21322549999968,
+        "memory": {
+          "enabled": false
+        }
+      },
+      "error": {
+        "type": "VisionStructuringError",
+        "message": "Vision extraction failed: No available kernel. Aborting execution."
+      },
+      "artifacts_file": "artifacts.json"
+    }
+  ]
+}
