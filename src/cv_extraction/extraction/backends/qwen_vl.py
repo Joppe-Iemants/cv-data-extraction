@@ -103,6 +103,7 @@ def generate_from_images(
     structuring component.
     """
     import torch
+    from torch.nn.attention import SDPBackend, sdpa_kernel
     from PIL import Image
 
     runtime = get_vlm_runtime(model_id, load_in_4bit, allow_cpu_offload)
@@ -166,7 +167,7 @@ def generate_from_images(
 
     generation_start = perf_counter()
 
-    with torch.inference_mode():
+    with torch.inference_mode(), sdpa_kernel(SDPBackend.EFFICIENT_ATTENTION):
         output = model.generate(
             **inputs,
             max_new_tokens=max_new_tokens,
