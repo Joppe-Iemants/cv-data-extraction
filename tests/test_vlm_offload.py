@@ -133,16 +133,11 @@ class VLMConfigurationTests(unittest.TestCase):
             result = structure_cv_images(
                 {'pages': [{'page_number': 1, 'image_path': 'unused.png'}], 'dpi': 120},
                 'test-model', True, 10, allow_cpu_offload=True,
-                max_pixels=301056, gpu_memory_fraction=0.85,
             )
         batch.to.assert_called_once_with('cuda:0')
         self.assertTrue(result['metrics']['cpu_offload_used'])
         self.assertEqual(result['metrics']['device_map'], runtime['device_map'])
         self.assertTrue(result['artifacts']['request']['allow_cpu_offload'])
-        cuda.set_per_process_memory_fraction.assert_called_once_with(0.85, 0)
-        self.assertEqual(processor.apply_chat_template.call_args.kwargs['processor_kwargs'],
-                         {'images_kwargs': {'size': {'shortest_edge': 65536, 'longest_edge': 301056}}})
-        self.assertEqual(model.generate.call_args.kwargs['logits_to_keep'], 1)
 
 
 if __name__ == '__main__':

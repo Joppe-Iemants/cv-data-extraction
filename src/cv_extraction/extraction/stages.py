@@ -103,10 +103,7 @@ STAGE_METHODS = {
             "max_new_tokens": int
         },
         "optional_settings": {
-            "allow_cpu_offload": bool,
-            "max_pixels": int,
-            "gpu_memory_fraction": float,
-            "expand_kv_for_sdpa": bool
+            "allow_cpu_offload": bool
         }
     }
 }
