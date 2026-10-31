@@ -13,10 +13,7 @@ class VisionStructuringError(RuntimeError):
         self.artifacts = artifacts
 
 
-def structure_cv_images(
-    data: dict, model_id: str, load_in_4bit: bool, max_new_tokens: int,
-    allow_cpu_offload: bool = False
-) -> dict:
+def structure_cv_images(data: dict, model_id: str, load_in_4bit: bool, max_new_tokens: int, allow_cpu_offload: bool = False) -> dict:
     if max_new_tokens <= 0:
         raise ValueError("max_new_tokens must be positive.")
 

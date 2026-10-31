@@ -76,11 +76,9 @@ def align(expected, actual, section, path, warnings):
                     continue
                 a, b = normalized(a, field.split(".")[-1]), normalized(b, field.split(".")[-1])
                 similarity = SequenceMatcher(None, str(a), str(b)).ratio()
-                # Dates only match exactly. Fuzzy text helps alignment, never scoring.
                 exact = a == b
                 if exact or (not field.startswith("dates.") and field != "date" and similarity >= .85):
                     evidence.append((field, 1. if exact else similarity))
-            # A date alone cannot identify a record.
             identity = [score for field, score in evidence if field not in {"date", "dates.start", "dates.end"}]
             row.append(sum(score for _, score in evidence) if identity else 0.)
         weights.append(row)

@@ -12,14 +12,7 @@ class StructuringError(RuntimeError):
         self.artifacts = artifacts
 
 
-def structure_cv_text(
-    data: dict,
-    model: str,
-    base_url: str,
-    timeout_seconds: int,
-    options: dict,
-    keep_alive: str
-) -> dict:
+def structure_cv_text(data: dict, model: str, base_url: str, timeout_seconds: int, options: dict, keep_alive: str) -> dict:
     text = data["text"]
 
     if not isinstance(text, str) or not text.strip():

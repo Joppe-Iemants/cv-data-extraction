@@ -32,7 +32,6 @@ def link_identity(record):
             handle = handle[3:]
         if handle and "/" not in handle:
             return (platform, handle.removeprefix("@"))
-    # A bare identifier is meaningful only with an explicit known platform.
     if platform in set(hosts.values()) and not any(c in value for c in "/:?#"):
         return (platform, value.removeprefix("@"))
     return value
@@ -47,7 +46,6 @@ def normalized(value, field=""):
     if not isinstance(value, str):
         return value
     text = " ".join(unicodedata.normalize("NFKC", value).split())
-    # URLs/handles retain case and protocol; do not credit constructed links.
     if field != "url":
         text = text.casefold()
     if field == "platform" and text in {"x", "twitter"}:

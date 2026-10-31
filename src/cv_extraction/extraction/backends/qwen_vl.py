@@ -35,7 +35,6 @@ def get_vlm_runtime(model_id: str, load_in_4bit: bool, allow_cpu_offload: bool =
             bnb_4bit_quant_type="nf4",
             bnb_4bit_compute_dtype=torch.float16,
             bnb_4bit_use_double_quant=True,
-            # Transformers also requires this flag for mixed GPU/CPU 4-bit loading.
             llm_int8_enable_fp32_cpu_offload=allow_cpu_offload
         )
 
@@ -43,7 +42,6 @@ def get_vlm_runtime(model_id: str, load_in_4bit: bool, allow_cpu_offload: bool =
     if allow_cpu_offload:
         import psutil
 
-        # Leave space for image activations and the generation KV cache.
         reserve_bytes = 2 * 1024 ** 3
         max_memory = {0: max(0, torch.cuda.mem_get_info(0)[0] - reserve_bytes)}
         max_memory["cpu"] = int(psutil.virtual_memory().available * 0.8)
@@ -66,8 +64,6 @@ def get_vlm_runtime(model_id: str, load_in_4bit: bool, allow_cpu_offload: bool =
     if any(str(device) == "disk" for device in device_map.values()):
         raise RuntimeError("The VLM exceeds the GPU/CPU memory budget; disk offloading is not enabled.")
 
-    # Offloaded weights can reside on CPU while Accelerate executes them on GPU.
-    # model.device alone can therefore point at the wrong device for the inputs.
     execution_device = getattr(getattr(model, "_hf_hook", None), "execution_device", None)
     if execution_device is None:
         execution_device = next(

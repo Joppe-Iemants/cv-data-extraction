@@ -96,7 +96,6 @@ def evaluate(reference, prediction, provenance_policy="empty"):
         compare(expected[category], actual[category], category, counts)
         categories[category] = metrics(counts)
         total.update(counts)
-    # Additional-section pages are separate from manually reviewed section text.
     for i, section in enumerate(actual["additional_sections"]):
         if provenance_policy == "empty":
             compare_pages([], section["source_pages"], f"additional_sections[{i}].source_pages")

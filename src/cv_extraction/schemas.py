@@ -21,7 +21,6 @@ class CVModel(BaseModel):
 
 
 class CVEntry(CVModel):
-    # Record-level provenance; empty when reliable page labels are unavailable.
     source_pages: list[PageNumber] = Field(default_factory=list)
 
 
@@ -75,7 +74,6 @@ class Skill(CVEntry):
 class Language(CVEntry):
     name: NonEmptyText
     proficiency: Proficiency | None = None
-    # Separate speaking/writing levels, when supplied, remain in details.
     details: list[NonEmptyText] = Field(default_factory=list)
 
 

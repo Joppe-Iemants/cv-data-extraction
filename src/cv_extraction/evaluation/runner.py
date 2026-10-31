@@ -35,8 +35,6 @@ def resolve_run(root, manifest, run_id):
     candidates = [path for path in (active, saved) if (path / "config.json").is_file()]
     if not candidates:
         raise FileNotFoundError(f"Run not found: {run_id}")
-    # An explicitly registered preserved copy is authoritative; active results
-    # may be removed later without changing the source used for evaluation.
     return saved if selected and saved in candidates else candidates[0]
 
 
