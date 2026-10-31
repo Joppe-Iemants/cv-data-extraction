@@ -8,7 +8,9 @@ from unittest.mock import Mock, patch
 
 from cv_extraction.config import validate_stages
 from cv_extraction.extraction.backends import qwen_vl as vlm_runtime
-from cv_extraction.extraction.components.structuring.from_images import structure_cv_images
+from cv_extraction.extraction.components.structuring.from_images import (
+    VisionStructuringError, structure_cv_images,
+)
 
 GiB = 1024 ** 3
 
@@ -129,7 +131,7 @@ class VLMConfigurationTests(unittest.TestCase):
         image.convert.return_value = Mock()
         with patch.dict('sys.modules', {'torch': torch}), \
              patch('PIL.Image.open', return_value=image), \
-             patch('cv_extraction.extraction.components.structuring.from_images.get_vlm_runtime', return_value=runtime):
+             patch('cv_extraction.extraction.backends.qwen_vl.get_vlm_runtime', return_value=runtime):
             result = structure_cv_images(
                 {'pages': [{'page_number': 1, 'image_path': 'unused.png'}], 'dpi': 120},
                 'test-model', True, 10, allow_cpu_offload=True
@@ -138,6 +140,38 @@ class VLMConfigurationTests(unittest.TestCase):
         self.assertTrue(result['metrics']['cpu_offload_used'])
         self.assertEqual(result['metrics']['device_map'], runtime['device_map'])
         self.assertTrue(result['artifacts']['request']['allow_cpu_offload'])
+
+    def test_invalid_cv_retains_backend_response_and_metrics(self):
+        def generate(*args, metrics):
+            metrics.update(generation_seconds=2.0, token_limit_reached=False)
+            return '{"additional_sections": [{"text": ["invalid list"]}]}'
+
+        with patch('cv_extraction.extraction.components.structuring.from_images.generate_from_images',
+                   side_effect=generate), self.assertRaises(VisionStructuringError) as caught:
+            structure_cv_images(
+                {'pages': [{'page_number': 1, 'image_path': 'unused.png'}], 'dpi': 120},
+                'test-model', True, 10,
+            )
+        artifacts = caught.exception.artifacts
+        self.assertEqual(artifacts['metrics']['generation_seconds'], 2.0)
+        self.assertIn('invalid list', artifacts['raw_response'])
+        self.assertEqual(artifacts['error']['type'], 'ValidationError')
+
+    def test_backend_failure_retains_partial_metrics(self):
+        def generate(*args, metrics):
+            metrics['input_tokens'] = 42
+            raise RuntimeError('generation failed')
+
+        with patch('cv_extraction.extraction.components.structuring.from_images.generate_from_images',
+                   side_effect=generate), self.assertRaises(VisionStructuringError) as caught:
+            structure_cv_images(
+                {'pages': [{'page_number': 1, 'image_path': 'unused.png'}], 'dpi': 120},
+                'test-model', True, 10,
+            )
+        artifacts = caught.exception.artifacts
+        self.assertEqual(artifacts['metrics']['input_tokens'], 42)
+        self.assertIsNone(artifacts['raw_response'])
+        self.assertEqual(artifacts['error']['message'], 'generation failed')
 
 
 if __name__ == '__main__':

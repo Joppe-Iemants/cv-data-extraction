@@ -29,12 +29,13 @@ Bachelor’s thesis comparing methods for extracting structured data from CVs, w
 
 
 ## Layout
-Start with the [pipeline guides](src/cv_extraction/extraction/pipelines/README.md)
+Start with the [pipeline guides](docs/pipelines/README.md)
 to follow an approach from its config to its components, prompt and backend.
 
 | Repository directory | Purpose |
 | --- | --- |
 | `data/` | CV source files, reference annotations and archived runs |
+| `docs/pipelines/` | Guides showing how each extraction approach is composed |
 | `experiments/` | Experiment configurations and execution entry point |
 | `results/` | Extraction outputs and reports from experiment runs |
 | `evaluation/` | Accuracy reports and notebooks for analysing evaluation results |
@@ -48,11 +49,10 @@ to follow an approach from its config to its components, prompt and backend.
 
 | Directory under `extraction/` | Purpose |
 | --- | --- |
-| `pipelines/` | Guides showing how each extraction approach is composed |
 | `components/pdf/` | Native PDF text extraction and page rendering |
 | `components/text/` | Text preparation |
 | `components/structuring/` | Convert text or images into the shared CV schema |
-| `backends/` | Ollama HTTP transport and Qwen model runtime |
+| `backends/` | Ollama HTTP transport and Qwen model loading, input processing and generation |
 | `prompts/` | Text and vision extraction instructions |
 
 `extraction/engine.py` executes stages; `extraction/registry.py` registers their

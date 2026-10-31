@@ -10,15 +10,15 @@ are the executable stage definitions; these pages describe their composition.
 
 ## Where code belongs
 
-- `pipelines/`: documentation and any future code unique to one approach.
+- `docs/pipelines/`: guides explaining how each extraction approach is composed.
 - `components/`: reusable processing steps, grouped by PDF, text and structuring.
-- `backends/`: model loading and service transport.
+- `backends/`: model loading, input processing, generation and service transport.
 - `prompts/`: extraction instructions supplied to models.
-- [registry.py](../registry.py): stage method names, functions, input/output kinds and settings.
-- [engine.py](../engine.py): shared execution, timing, optional RAM monitoring and error handling.
-- [Experiment configs](../../../../experiments/configs/): document selection, repetitions and stage settings.
+- [registry.py](../../src/cv_extraction/extraction/registry.py): stage method names, functions, input/output kinds and settings.
+- [engine.py](../../src/cv_extraction/extraction/engine.py): shared execution, timing, optional RAM monitoring and error handling.
+- [Experiment configs](../../experiments/configs/): document selection, repetitions and stage settings.
 
-All structured pipelines use [RawCV](../../schemas.py) and the same evaluation
+All structured pipelines use [RawCV](../../src/cv_extraction/schemas.py) and the same evaluation
 code. Stage method names and output formats remain stable across the directory
 reorganization, so saved run configs can still be replayed.
 
@@ -26,7 +26,7 @@ reorganization, so saved run configs can still be replayed.
 
 1. Add a config folder under `experiments/configs/` and compose existing stages.
 2. Implement new reusable steps under `components/` and register them in `registry.py`.
-3. Add a backend only when new model-loading or transport code is needed.
+3. Add a backend only when new model execution or transport code is needed.
 4. Add a pipeline guide here linking its config, components, prompts and backend.
 
 For example, OCR can reuse PDF rendering and text structuring; multimodal

@@ -19,5 +19,5 @@ Moved configurations (contents unchanged):
 | `pdf_text_sorted.json` | `component_checks/pdf_text.json` |
 | `vision_render_test.json` | `component_checks/pdf_render.json` |
 
-See the [pipeline guides](../../src/cv_extraction/extraction/pipelines/README.md)
+See the [pipeline guides](../../docs/pipelines/README.md)
 to follow each configuration into its implementation.
