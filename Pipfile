@@ -22,6 +22,7 @@ accelerate = "*"
 bitsandbytes = "*"
 pillow = "*"
 torchvision = {version = "*", index = "pytorch-cu128"}
+pymupdf4llm = "*"
 
 [dev-packages]
 

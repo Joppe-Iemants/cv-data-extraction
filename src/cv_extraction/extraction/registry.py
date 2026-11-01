@@ -3,9 +3,15 @@ from .components.pdf.render_pages import render_pdf
 from .components.text.join_pages import prepare_text_stage
 from .components.structuring.from_text import structure_cv_text
 from .components.structuring.from_images import structure_cv_images
+from .components.pdf.extract_layout import read_layout_stage
 
-
-STAGE_METHODS = {
+STAGE_METHODS = {    
+    "pdf_layout": {
+        "function": read_layout_stage,
+        "input_kind": "pdf",
+        "output_kind": "pages",
+        "settings": {}
+    },
     "pdf_text": {
         "function": read_pdf_stage,
         "input_kind": "pdf",

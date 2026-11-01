@@ -1,0 +1,25 @@
+{
+  "name": "layout_text_check",
+  "split": "development",
+  "document_ids": ["CV001"],
+  "exclude_sources": ["vdab"],
+  "repetitions": 1,
+  "monitoring": {
+    "memory": false,
+    "sample_interval_ms": 10
+  },
+  "stages": [
+    {
+      "name": "read_layout",
+      "method": "pdf_layout",
+      "settings": {}
+    },
+    {
+      "name": "prepare_text",
+      "method": "join_page_text",
+      "settings": {
+        "page_separator": "\n\n"
+      }
+    }
+  ]
+}
