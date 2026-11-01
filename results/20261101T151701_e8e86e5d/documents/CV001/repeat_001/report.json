@@ -1,0 +1,83 @@
+{
+  "document_id": "CV001",
+  "repetition": 1,
+  "status": "completed",
+  "metrics": {
+    "processing_seconds": 174.42708979989402
+  },
+  "stages": [
+    {
+      "name": "render_pages",
+      "method": "render_pdf",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 0.4297911999747157,
+        "memory": {
+          "enabled": false
+        },
+        "page_count": 2,
+        "dpi": 300,
+        "total_pixels": 17406696
+      },
+      "error": null
+    },
+    {
+      "name": "recognize_text",
+      "method": "tesseract_ocr",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 2.735884599853307,
+        "memory": {
+          "enabled": false
+        },
+        "engine": "tesseract",
+        "engine_version": "5.5.3.20260724",
+        "language": "eng",
+        "page_segmentation": 3,
+        "dpi": 300,
+        "page_count": 2,
+        "character_count": 2086,
+        "pages_without_text": []
+      },
+      "error": null
+    },
+    {
+      "name": "prepare_text",
+      "method": "join_page_text",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 2.750009298324585e-05,
+        "memory": {
+          "enabled": false
+        },
+        "character_count": 2088
+      },
+      "error": null
+    },
+    {
+      "name": "structure_cv",
+      "method": "llm_structuring",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 171.261386499973,
+        "memory": {
+          "enabled": false
+        },
+        "model": "qwen3:8b",
+        "input_tokens": 4051,
+        "cached_input_tokens": 0,
+        "output_tokens": 1217,
+        "server_total_seconds": 169.1491053,
+        "model_load_seconds": 7.8407248,
+        "prompt_processing_seconds": 3.015563,
+        "generation_seconds": 158.270835
+      },
+      "error": null,
+      "artifacts_file": "artifacts.json"
+    }
+  ]
+}

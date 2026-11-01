@@ -5,6 +5,7 @@ from .components.structuring.from_text import structure_cv_text
 from .components.structuring.from_images import structure_cv_images
 from .components.pdf.extract_layout import read_layout_stage
 from .components.text.reading_order import prepare_reading_order_stage
+from .components.ocr.tesseract import recognize_page_images
 
 STAGE_METHODS = {    
     "pdf_layout": {
@@ -56,6 +57,16 @@ STAGE_METHODS = {
         "needs_stage_directory": True,
         "settings": {
             "dpi": int
+        }
+    },
+    "tesseract_ocr": {
+        "function": recognize_page_images,
+        "input_kind": "images",
+        "output_kind": "pages",
+        "settings": {
+            "language": str,
+            "page_segmentation": int,
+            "timeout_seconds": int
         }
     },
     "vlm_structuring": {

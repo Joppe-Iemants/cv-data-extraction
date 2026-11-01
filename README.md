@@ -7,7 +7,7 @@ Bachelor’s thesis comparing methods for extracting structured data from CVs, w
 | Pipeline | Native PDF text | Image-only scans | Columns and reading order | Graphical ratings | Charts and diagrams | Implemented? |
 | --- | :---: | :---: | :---: | :---: | :---: | :---: |
 | **Text baseline** | ✅ | ❌ | ⚠️ | ⚠️ | ❌ | ✅ |
-| **Layout-aware text** | ❓ | ❓ | ❓ | ❓ | ❓ | ⬜ |
+| **Layout-aware text** | ❓ | ❓ | ❓ | ❓ | ❓ | ✅ |
 | **OCR extraction** | ❓ | ❓ | ❓ | ❓ | ❓ | ⬜ |
 | **Vision extraction** | ❓ | ❓ | ❓ | ❓ | ❓ | ✅ |
 | **Multimodal extraction** | ❓ | ❓ | ❓ | ❓ | ❓ | ⬜ |

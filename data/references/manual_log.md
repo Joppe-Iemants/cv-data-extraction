@@ -1,0 +1,45 @@
+# Reference corrections - 2026-10-30
+
+Source-checked corrections to the annotations identified during the evaluation audit. No experiment predictions were used as ground truth. PDFs, schema, scorer, experiment outputs and saved evaluation reports were not changed.
+
+## Corrected references
+### CV001
+
+### CV002
+### CV003
+### CV004
+### CV005
+### CV006
+### CV007
+### CV008
+### CV009
+### CV010
+### CV011
+### CV012
+### CV013
+### CV014
+### CV015
+### CV016
+### CV017
+### CV018
+### CV019
+### CV020
+### CV021
+### CV022
+### CV023
+### CV024
+### CV025
+### CV026
+### CV027
+### CV028
+### CV029
+### CV030
+### CV031
+### CV032
+### CV033
+### CV034
+### CV035
+### CV036
+### CV037
+### CV038
+### CV039

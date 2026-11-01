@@ -23,6 +23,7 @@ bitsandbytes = "*"
 pillow = "*"
 torchvision = {version = "*", index = "pytorch-cu128"}
 pymupdf4llm = "*"
+pytesseract = "*"
 
 [dev-packages]
 

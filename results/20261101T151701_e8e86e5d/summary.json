@@ -1,0 +1,174 @@
+{
+  "run_id": "20261101T151701_e8e86e5d",
+  "started_at_utc": "2026-11-01T15:17:01.705724+00:00",
+  "finished_at_utc": "2026-11-01T15:19:56.486230+00:00",
+  "document_count": 1,
+  "attempt_count": 1,
+  "documents": [
+    {
+      "document_id": "CV001",
+      "attempt_count": 1,
+      "outcome_counts": {
+        "completed": 1
+      },
+      "stages": {
+        "prepare_text": {
+          "method": "join_page_text",
+          "execution_counts": {
+            "completed": 1
+          },
+          "outcome_counts": {
+            "success": 1
+          },
+          "completed_timing_seconds": {
+            "count": 1,
+            "minimum": 2.750009298324585e-05,
+            "median": 2.750009298324585e-05,
+            "maximum": 2.750009298324585e-05
+          },
+          "failed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "memory": {
+            "collection_counts": {
+              "disabled": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "boundary_only_measurements": 0
+          }
+        },
+        "recognize_text": {
+          "method": "tesseract_ocr",
+          "execution_counts": {
+            "completed": 1
+          },
+          "outcome_counts": {
+            "success": 1
+          },
+          "completed_timing_seconds": {
+            "count": 1,
+            "minimum": 2.735884599853307,
+            "median": 2.735884599853307,
+            "maximum": 2.735884599853307
+          },
+          "failed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "memory": {
+            "collection_counts": {
+              "disabled": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "boundary_only_measurements": 0
+          }
+        },
+        "render_pages": {
+          "method": "render_pdf",
+          "execution_counts": {
+            "completed": 1
+          },
+          "outcome_counts": {
+            "success": 1
+          },
+          "completed_timing_seconds": {
+            "count": 1,
+            "minimum": 0.4297911999747157,
+            "median": 0.4297911999747157,
+            "maximum": 0.4297911999747157
+          },
+          "failed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "memory": {
+            "collection_counts": {
+              "disabled": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "boundary_only_measurements": 0
+          }
+        },
+        "structure_cv": {
+          "method": "llm_structuring",
+          "execution_counts": {
+            "completed": 1
+          },
+          "outcome_counts": {
+            "success": 1
+          },
+          "completed_timing_seconds": {
+            "count": 1,
+            "minimum": 171.261386499973,
+            "median": 171.261386499973,
+            "maximum": 171.261386499973
+          },
+          "failed_timing_seconds": {
+            "count": 0,
+            "minimum": null,
+            "median": null,
+            "maximum": null
+          },
+          "memory": {
+            "collection_counts": {
+              "disabled": 1
+            },
+            "completed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "failed_stage_peak_rss_bytes": {
+              "count": 0,
+              "minimum": null,
+              "median": null,
+              "maximum": null
+            },
+            "boundary_only_measurements": 0
+          }
+        }
+      }
+    }
+  ]
+}

@@ -50,6 +50,8 @@ def execute_stage(name: str, method: str, function, *args, monitoring: dict | No
     artifacts = None
     execution_status = "completed"
 
+    print(f"Starting stage: {name} ({method})", flush=True)
+
     monitor.start()
     start = perf_counter()
 
@@ -68,6 +70,8 @@ def execute_stage(name: str, method: str, function, *args, monitoring: dict | No
     finally:
         duration = perf_counter() - start
         monitor.stop()
+        
+    print(f"Finished stage: {name} — {execution_status}", flush=True)
 
     return {
         "report": {

@@ -1,0 +1,254 @@
+{
+  "personal_information": {
+    "source_pages": [
+      1
+    ],
+    "full_name": "YOUR NAME HERE",
+    "headline": "Your Position or Tagline Here",
+    "emails": [
+      "your_name@email.com"
+    ],
+    "phones": [
+      "000-00-0000"
+    ],
+    "location": "Location, COUNTRY",
+    "weblinks": [
+      {
+        "url": "www.homepage.com",
+        "platform": "homepage"
+      },
+      {
+        "url": "@x-handle",
+        "platform": "twitter"
+      },
+      {
+        "url": "your_id",
+        "platform": "linkedin"
+      },
+      {
+        "url": "your_id",
+        "platform": "github"
+      },
+      {
+        "url": "0000-0000-0000-0000",
+        "platform": "orcid"
+      },
+      {
+        "url": "your_id",
+        "platform": "gitlab"
+      },
+      {
+        "url": "https://instance.url/@username",
+        "platform": "mastodon"
+      }
+    ],
+    "details": []
+  },
+  "summary": null,
+  "work_experience": [
+    {
+      "source_pages": [
+        1
+      ],
+      "employer": "Company 1",
+      "role": "Job Title 1",
+      "client": null,
+      "dates": {
+        "start": "Month 20XX",
+        "end": "Ongoing",
+        "duration": null
+      },
+      "location": "Location",
+      "details": [
+        "Job description 1",
+        "Job description 2"
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "employer": "Company 2",
+      "role": "Job Title 2",
+      "client": null,
+      "dates": {
+        "start": "Month 20XX",
+        "end": "Ongoing",
+        "duration": null
+      },
+      "location": "Location",
+      "details": [
+        "Job description 1",
+        "Job description 2"
+      ],
+      "skills": []
+    }
+  ],
+  "projects": [
+    {
+      "source_pages": [
+        1
+      ],
+      "name": "Project 1",
+      "organization": "Funding agency/institution",
+      "client": null,
+      "role": null,
+      "dates": null,
+      "details": [
+        "Details"
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "name": "Project 2",
+      "organization": "Funding agency/institution",
+      "client": null,
+      "role": null,
+      "dates": {
+        "start": "Project duration",
+        "end": null,
+        "duration": null
+      },
+      "details": [
+        "A short abstract would also work."
+      ],
+      "skills": []
+    }
+  ],
+  "education": [],
+  "skills": [
+    {
+      "source_pages": [],
+      "name": "C++",
+      "proficiency": {
+        "text": "Embedded Systems",
+        "type": "numeric",
+        "value": 5.0,
+        "maximum": 5.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Statistical Analysis",
+      "proficiency": {
+        "text": null,
+        "type": "numeric",
+        "value": 5.0,
+        "maximum": 5.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Hard-working",
+      "proficiency": {
+        "text": null,
+        "type": "numeric",
+        "value": 5.0,
+        "maximum": 5.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Eye for detail",
+      "proficiency": {
+        "text": null,
+        "type": "numeric",
+        "value": 5.0,
+        "maximum": 5.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Motivator & Leader",
+      "proficiency": {
+        "text": null,
+        "type": "numeric",
+        "value": 5.0,
+        "maximum": 5.0
+      },
+      "details": []
+    }
+  ],
+  "languages": [
+    {
+      "source_pages": [],
+      "name": "English",
+      "proficiency": {
+        "text": "5",
+        "type": "numeric",
+        "value": 5.0,
+        "maximum": 5.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Spanish",
+      "proficiency": {
+        "text": "4",
+        "type": "numeric",
+        "value": 4.0,
+        "maximum": 5.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "German",
+      "proficiency": {
+        "text": "3 . 5",
+        "type": "numeric",
+        "value": 3.5,
+        "maximum": 5.0
+      },
+      "details": []
+    }
+  ],
+  "certifications": [],
+  "training": [],
+  "additional_sections": [
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "A DAY OF MY LIFE\n\n       Hopeful  nov\n           elist  b y   night:\n\n                  Sleep,\n           beautifu l sleep:\n\nDaytime\n\nSports an d  relaxation:\n\nSpending tim\ne wi th          family"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "MY LIFE PHILOSOPHY\n\n“Something smart or heartfelt, prefer-\nably in one sentence.”"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "MOST PROUD OF\n\n\faTrophyFantastic Achievement    and some details about it\n\n\faHeartbeatAnother achievement    more details about it of course\n\n\faHeartbeatAnother achievement    more details about it of course"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "STRENGTHS\n\n Hard-working   Eye for detail\n\nMotivator & Leader"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "EDUCATION\n\nPh.D. in Your Discipline\n\nYour University\n\n  Date: Sept 2002 – June 2006\n\nThesis title: Wonderful Research\n\nM.Sc. in Your Discipline\n\nYour University\n\n  Date: Sept 2001 – June 2002\n\nB.Sc. in Your Discipline\n\nStanford University\n\n  Date: Sept 1998 – June 2001"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "PUBLICATIONS\n\n  \faBookBooks\n\n•  E. Someone and T. Lim, A Fictional Research. Somewhere, Some\n   Place, 2010.\n\n\n   \faFileJournal Articles\n\n•  L. T. Wong and E. Someone, “A non-existant paper,” Journal of\n   Carrying On, vol. 12, 2011.\n\n•  L. T. Lim, E. Someone, and A. Other, “A study into ﬁreside story-\n    telling,” Journal of Carrying On, vol. 7, 2008.\n\n\faUsersConference Proceedings\n\n•  E. Someone and L. T. Lim, “Another paper something something,”\n   in Proceedings of the 72nd AmaZing Conference, Far Far Away,\n  2013."
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "REFEREES\n\nProf. Alpha Beta\n@  Institute\n\n#  a.beta@university.edu\n\nAddress Line 1\nAddress Line 2\n\n\nProf. Gamma Delta\n@  Institute\n\n#  g.delta@university.edu\n\nAddress Line 1\nAddress Line 2"
+    }
+  ]
+}
