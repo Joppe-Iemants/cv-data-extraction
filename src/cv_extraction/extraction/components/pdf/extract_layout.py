@@ -2,8 +2,12 @@ from pathlib import Path
 
 import pymupdf
 
+from .helpers.multi_column import column_boxes
+
 
 def extract_layout_text(pdf_path: Path) -> dict:
+    pages = []
+
     with pymupdf.open(pdf_path) as document:
         if document.needs_pass:
             raise ValueError("Password-protected PDFs are not supported.")
@@ -11,60 +15,58 @@ def extract_layout_text(pdf_path: Path) -> dict:
         if document.page_count == 0:
             raise ValueError("PDF contains no pages.")
 
-        chunks = document.to_markdown(
-            page_chunks=True,
-            use_ocr=False,
-            force_ocr=False,
-            write_images=False,
-            embed_images=False,
-            force_text=True,
-            header=True,
-            footer=True
-        )
+        for page_number, page in enumerate(document, start=1):
+            boxes = column_boxes(
+                page,
+                header_margin=0,
+                footer_margin=0,
+                no_image_text=False
+            )
 
-        pages = []
+            regions = []
 
-        for chunk in chunks:
-            text = chunk["text"]
+            for region_number, box in enumerate(boxes, start=1):
+                text = page.get_text(
+                    "text",
+                    clip=box,
+                    sort=True
+                ).strip()
+
+                regions.append({
+                    "region_number": region_number,
+                    "bbox": list(box),
+                    "text": text
+                })
+
+            native_text = page.get_text("text").strip()
+
+            if native_text and not any(region["text"] for region in regions):
+                raise ValueError(f"No text regions were extracted from page {page_number}, although native text exists.")
 
             pages.append({
-                "page_number": chunk["metadata"]["page_number"],
-                "text": text,
-                "character_count": len(text.strip())
+                "page_number": page_number,
+                "width": page.rect.width,
+                "height": page.rect.height,
+                "regions": regions
             })
 
-        return {
-            "page_count": document.page_count,
-            "pages": pages
-        }
-    
+    return {
+        "page_count": len(pages),
+        "pages": pages
+    }
+
+
 def read_layout_stage(pdf_path: Path) -> dict:
     data = extract_layout_text(pdf_path)
 
-    character_count = sum(
-        page["character_count"]
-        for page in data["pages"]
-    )
-
-    pages_without_text = [
-        page["page_number"]
-        for page in data["pages"]
-        if page["character_count"] == 0
-    ]
-
-    if character_count == 0:
-        outcome = "empty_text"
-    elif pages_without_text:
-        outcome = "partial_text"
-    else:
-        outcome = "success"
-
     return {
         "data": data,
-        "outcome": outcome,
+        "outcome": "success",
         "metrics": {
             "page_count": data["page_count"],
-            "character_count": character_count,
-            "pages_without_text": pages_without_text
+            "region_count": sum(
+                len(page["regions"])
+                for page in data["pages"]
+            )
         }
     }

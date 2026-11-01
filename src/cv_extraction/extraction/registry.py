@@ -9,7 +9,7 @@ STAGE_METHODS = {
     "pdf_layout": {
         "function": read_layout_stage,
         "input_kind": "pdf",
-        "output_kind": "pages",
+        "output_kind": "layout_pages",
         "settings": {}
     },
     "pdf_text": {
