@@ -32,9 +32,22 @@ def extract_layout_text(pdf_path: Path) -> dict:
                     sort=True
                 ).strip()
 
+                words = page.get_text("words", clip=box)
+
+                if words:
+                    text_bbox = [
+                        min(word[0] for word in words),
+                        min(word[1] for word in words),
+                        max(word[2] for word in words),
+                        max(word[3] for word in words)
+                    ]
+                else:
+                    text_bbox = list(box)
+
                 regions.append({
                     "region_number": region_number,
                     "bbox": list(box),
+                    "text_bbox": text_bbox,
                     "text": text
                 })
 

@@ -51,7 +51,7 @@ Usage
 """
 import os
 import sys
-import fitz
+import pymupdf as fitz
 
 
 def column_boxes(page, footer_margin=50, header_margin=50, no_image_text=True):

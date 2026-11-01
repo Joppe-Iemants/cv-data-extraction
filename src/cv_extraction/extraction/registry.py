@@ -4,6 +4,7 @@ from .components.text.join_pages import prepare_text_stage
 from .components.structuring.from_text import structure_cv_text
 from .components.structuring.from_images import structure_cv_images
 from .components.pdf.extract_layout import read_layout_stage
+from .components.text.reading_order import prepare_reading_order_stage
 
 STAGE_METHODS = {    
     "pdf_layout": {
@@ -11,6 +12,14 @@ STAGE_METHODS = {
         "input_kind": "pdf",
         "output_kind": "layout_pages",
         "settings": {}
+    },
+        "layout_reading_order": {
+        "function": prepare_reading_order_stage,
+        "input_kind": "layout_pages",
+        "output_kind": "pages",
+        "settings": {
+            "min_gap": int
+        }
     },
     "pdf_text": {
         "function": read_pdf_stage,
