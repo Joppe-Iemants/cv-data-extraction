@@ -1,0 +1,281 @@
+{
+  "personal_information": {
+    "source_pages": [
+      1
+    ],
+    "full_name": "YOUR NAME HERE",
+    "headline": "Your Position or Tagline Here",
+    "emails": [
+      "your_name@email.com"
+    ],
+    "phones": [
+      "000-00-0000"
+    ],
+    "location": "Location, COUNTRY",
+    "weblinks": [
+      {
+        "url": "www.homepage.com",
+        "platform": "website"
+      }
+    ],
+    "details": [
+      "your_id",
+      "@username@instance"
+    ]
+  },
+  "summary": null,
+  "work_experience": [
+    {
+      "source_pages": [
+        1
+      ],
+      "employer": "Company 1",
+      "role": "Job Title 1",
+      "client": null,
+      "dates": {
+        "start": "Month 20XX",
+        "end": "Ongoing",
+        "duration": null
+      },
+      "location": "Location",
+      "details": [
+        "Job description 1",
+        "Job description 2"
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "employer": "Company 2",
+      "role": "Job Title 2",
+      "client": null,
+      "dates": {
+        "start": "Month 20XX",
+        "end": "Ongoing",
+        "duration": null
+      },
+      "location": "Location",
+      "details": [
+        "Job description 1",
+        "Job description 2"
+      ],
+      "skills": []
+    }
+  ],
+  "projects": [
+    {
+      "source_pages": [
+        1
+      ],
+      "name": "Project 1",
+      "organization": "Funding agency/institution",
+      "client": null,
+      "role": null,
+      "dates": null,
+      "details": [
+        "Details"
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "name": "Project 2",
+      "organization": "Funding agency/institution",
+      "client": null,
+      "role": null,
+      "dates": {
+        "start": "Project duration",
+        "end": null,
+        "duration": null
+      },
+      "details": [
+        "A short abstract would also work."
+      ],
+      "skills": []
+    }
+  ],
+  "education": [
+    {
+      "source_pages": [
+        1
+      ],
+      "institution": "Your University",
+      "qualification": "Ph.D. in Your Discipline",
+      "dates": {
+        "start": "Sept 2002",
+        "end": "June 2006",
+        "duration": null
+      },
+      "details": [
+        "Thesis title: Wonderful Research"
+      ]
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "institution": "Your University",
+      "qualification": "M.Sc. in Your Discipline",
+      "dates": {
+        "start": "Sept 2001",
+        "end": "June 2002",
+        "duration": null
+      },
+      "details": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "institution": "Stanford University",
+      "qualification": "B.Sc. in Your Discipline",
+      "dates": {
+        "start": "Sept 1998",
+        "end": "June 2001",
+        "duration": null
+      },
+      "details": []
+    }
+  ],
+  "skills": [
+    {
+      "source_pages": [
+        1
+      ],
+      "name": "Hard-working",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "name": "Eye for detail",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "name": "Motivator & Leader",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "name": "C++",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "name": "Embedded Systems",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "name": "Statistical Analysis",
+      "proficiency": null,
+      "details": []
+    }
+  ],
+  "languages": [
+    {
+      "source_pages": [
+        1
+      ],
+      "name": "English",
+      "proficiency": {
+        "text": null,
+        "type": "dots",
+        "value": 5.0,
+        "maximum": 5.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "name": "Spanish",
+      "proficiency": {
+        "text": null,
+        "type": "dots",
+        "value": 4.0,
+        "maximum": 5.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "name": "German",
+      "proficiency": {
+        "text": null,
+        "type": "dots",
+        "value": 3.0,
+        "maximum": 5.0
+      },
+      "details": []
+    }
+  ],
+  "certifications": [],
+  "training": [],
+  "additional_sections": [
+    {
+      "source_pages": [
+        1
+      ],
+      "heading": "MY LIFE PHILOSOPHY",
+      "text": "\"Something smart or heartfelt, preferably in one sentence.\""
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "heading": "MOST PROUD OF",
+      "text": "Fantastic Achievement and some details about it\nAnother achievement more details about it of course\nAnother achievement more details about it of course"
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "heading": "STRENGTHS",
+      "text": "Hard-working Eye for detail Motivator & Leader C++ Embedded Systems Statistical Analysis"
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "heading": "A DAY OF MY LIFE",
+      "text": "Daytime job\nSports and relaxation\nSpending time with family\nSleep, beautiful sleep\nHopeful novelist by night"
+    },
+    {
+      "source_pages": [
+        2
+      ],
+      "heading": "PUBLICATIONS",
+      "text": "Books\n• E. Someone and T. Lim, A Fictional Research. Somewhere, Some Place, 2010.\n\nJournal Articles\n• L. T. Wong and E. Someone, \"A non-existant paper,\" Journal of Carrying On, vol. 12, 2011.\n• L. T. Lim, E. Someone, and A. Other, \"A study into fireside storytelling,\" Journal of Carrying On, vol. 7, 2008.\n\nConference Proceedings\n• E. Someone and L. T. Lim, \"Another paper something something,\" in Proceedings of the 72nd AmaZing Conference, Far Far Away, 2013."
+    },
+    {
+      "source_pages": [
+        2
+      ],
+      "heading": "REFEREES",
+      "text": "Prof. Alpha Beta\n@ Institute\na.beta@university.edu\nAddress Line 1\nAddress Line 2\n\nProf. Gamma Delta\n@ Institute\ng.delta@university.edu\nAddress Line 1\nAddress Line 2"
+    }
+  ]
+}

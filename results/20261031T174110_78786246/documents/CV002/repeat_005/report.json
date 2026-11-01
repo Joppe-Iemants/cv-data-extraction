@@ -1,0 +1,59 @@
+{
+  "document_id": "CV002",
+  "repetition": 5,
+  "status": "completed",
+  "metrics": {
+    "processing_seconds": 72.02628119999918
+  },
+  "stages": [
+    {
+      "name": "render_pages",
+      "method": "render_pdf",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 0.03130539999983739,
+        "memory": {
+          "enabled": false
+        },
+        "page_count": 1,
+        "dpi": 120,
+        "total_pixels": 1394172
+      },
+      "error": null
+    },
+    {
+      "name": "structure_cv",
+      "method": "vlm_structuring",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 71.99497579999934,
+        "memory": {
+          "enabled": false
+        },
+        "model": "Qwen/Qwen3-VL-4B-Instruct",
+        "model_load_seconds": 0.0,
+        "model_reused": true,
+        "input_device": "cuda:0",
+        "device_map": {
+          "": "cuda:0"
+        },
+        "cpu_offload_used": false,
+        "max_memory": {},
+        "page_count": 1,
+        "preprocessing_seconds": 0.036469199999373814,
+        "input_tokens": 4207,
+        "gpu_allocated_before_generation_bytes": 2953342976,
+        "generation_seconds": 71.9529233000003,
+        "output_tokens": 1672,
+        "output_tokens_per_second": 23.237415845201568,
+        "generation_peak_gpu_allocated_bytes": 3976014336,
+        "generation_peak_gpu_reserved_bytes": 4328521728,
+        "token_limit_reached": false
+      },
+      "error": null,
+      "artifacts_file": "artifacts.json"
+    }
+  ]
+}

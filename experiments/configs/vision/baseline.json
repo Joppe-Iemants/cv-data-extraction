@@ -1,9 +1,9 @@
 {
   "name": "vision_extraction",
   "split": "development",
-  "document_ids": ["CV002"],
+  "document_ids": null,
   "exclude_sources": ["vdab"],
-  "repetitions": 1,
+  "repetitions": 3,
   "monitoring": {
     "memory": false,
     "sample_interval_ms": 10
@@ -24,7 +24,7 @@
         "load_in_4bit": true,
         "allow_cpu_offload": false,
         "max_new_tokens": 8192,
-        "attention_implementation": "sdpa",
+        "attention_implementation": "expanded_kv_sdpa",
         "sdpa_backend": "auto",
         "logits_to_keep": 0
       }

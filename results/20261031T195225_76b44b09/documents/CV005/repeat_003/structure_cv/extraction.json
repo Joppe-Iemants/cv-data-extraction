@@ -1,0 +1,334 @@
+{
+  "personal_information": {
+    "source_pages": [],
+    "full_name": "Jan Küster",
+    "headline": "Consultant and Software Engineer - Bremen, Germany",
+    "emails": [
+      "info@jankuester.com"
+    ],
+    "phones": [
+      "+49 176 313 XXX XX"
+    ],
+    "location": "Bremen, Germany",
+    "weblinks": [
+      {
+        "url": "github.com/jankapunkt",
+        "platform": "github"
+      }
+    ],
+    "details": [
+      "I create awesome resume templates in LaTeX for everyone."
+    ]
+  },
+  "summary": null,
+  "work_experience": [
+    {
+      "source_pages": [
+        1
+      ],
+      "employer": "University of Bremen",
+      "role": "Fullstack Javascript Engineer",
+      "client": null,
+      "dates": {
+        "start": "2016",
+        "end": "now",
+        "duration": null
+      },
+      "location": "Bremen, Germany",
+      "details": [
+        "Invent a realtime classroom management using Meteor and React",
+        "Design software architecture and leading development"
+      ],
+      "skills": [
+        "Meteor",
+        "React"
+      ]
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "employer": "We4IT GmbH Bremen",
+      "role": "IT Consultant for IBM XPages and Notes Domino",
+      "client": null,
+      "dates": {
+        "start": "2014",
+        "end": "2016",
+        "duration": null
+      },
+      "location": "Bremen, Germany",
+      "details": [
+        "Realize projects in XPages and We4IT Aveedo, monitor project status, conduct reports",
+        "Integrated Camunda BPMN engine and BPMN.IO modeler in We4IT Aveedo"
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "employer": "University of Bremen",
+      "role": "Scientific Employee / Software Development",
+      "client": null,
+      "dates": {
+        "start": "2012",
+        "end": "2014",
+        "duration": null
+      },
+      "location": "Bremen, Germany",
+      "details": [
+        "Invented a flexible assessment framework, targeting industrial trainees",
+        "Supervised software development lifecycle. Recruited team members"
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "employer": "Getoq Consulting",
+      "role": "Project Management Simulation Training",
+      "client": null,
+      "dates": {
+        "start": "Nov. 2011",
+        "end": null,
+        "duration": null
+      },
+      "location": null,
+      "details": [
+        "Performed a two-day project simulation from management perspective",
+        "Topics included customer contracts, change management, controlling, operational tasks"
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "employer": "otulea.uni-bremen.de",
+      "role": "Student Assistant / Programmer",
+      "client": null,
+      "dates": {
+        "start": "2010",
+        "end": "2011",
+        "duration": null
+      },
+      "location": null,
+      "details": [
+        "Realized an online diagnosis platform for workforce literacy development (Flex)",
+        "Modeled software design, implemented various prototypes, conducted usability tests"
+      ],
+      "skills": []
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "source_pages": [
+        1
+      ],
+      "institution": "University of Bremen",
+      "qualification": "Graduated as M.Sc. Digital Media",
+      "dates": {
+        "start": "2015",
+        "end": "07",
+        "duration": null
+      },
+      "details": [
+        "Master Thesis: Semi Automated Scoring in Technology Based Assessment",
+        "Developed and evaluated an algorithm for semi automated scoring of spreadsheet data"
+      ]
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "institution": "University of Bremen",
+      "qualification": "Master Project - PrIMA",
+      "dates": {
+        "start": "2012",
+        "end": "2013",
+        "duration": null
+      },
+      "details": [
+        "Co-Invented a touch table application for medical support, co-developed software (Java)",
+        "Formed a scrum team, maintained project dev server (Debian), surveyed target audience"
+      ]
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "institution": "University of Bremen",
+      "qualification": "Master Studies Digital Media",
+      "dates": {
+        "start": "2012",
+        "end": "2015",
+        "duration": null
+      },
+      "details": [
+        "Inter-cultural classes in English, covering special topics in computer science and design",
+        "Professionalized in research methods, software development and e-assessment"
+      ]
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "institution": "University of Melbourne",
+      "qualification": "Semester Abroad",
+      "dates": {
+        "start": "2009",
+        "end": "2010",
+        "duration": null
+      },
+      "details": [
+        "Mastered six months of study and trans-cultural experience in Melbourne, Australia",
+        "Finished machine programming, information visualization, professional essay writing"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "source_pages": [],
+      "name": "PhD student",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "M.Sc. Digital Media",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Fullstack JS Engineer",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Software Development",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Consulting",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Education",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Meteor",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Mongo",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "React",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Bootstrap",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Fontawesome",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Mocha",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Git",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Sourcetree",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Travis",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Webstorm",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Terminal",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Global Game Jam",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Sound Engineering",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Blender",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Martial Arts",
+      "proficiency": null,
+      "details": []
+    }
+  ],
+  "languages": [],
+  "certifications": [],
+  "training": [],
+  "additional_sections": [
+    {
+      "source_pages": [],
+      "heading": "EXPERIENCE",
+      "text": "Fullstack Javascript Engineer (University of Bremen)\n2016 - now\n• Invent a realtime classroom management using Meteor and React\n• Design software architecture and leading development\n\nIT Consultant for IBM XPages and Notes Domino (We4IT GmbH Bremen)\n2014 - 2016\n• Realize projects in XPages and We4IT Aveedo, monitor project status, conduct reports\n• Integrated Camunda BPMN engine and BPMN.IO modeler in We4IT Aveedo\n\nScientific Employee / Software Development (University of Bremen)\n2012 - 2014\n• Invented a flexible assessment framework, targeting industrial trainees\n• Supervised software development lifecycle. Recruited team members\n\nProject Management Simulation Training (Getoq Consulting)\nNov. 2011\n• Performed a two-day project simulation from management perspective\n• Topics included customer contracts, change management, controlling, operational tasks\n\nStudent Assistant / Programmer (otulea.uni-bremen.de)\n2010 - 2011\n• Realized an online diagnosis platform for workforce literacy development (Flex)\n• Modeled software design, implemented various prototypes, conducted usability tests"
+    },
+    {
+      "source_pages": [],
+      "heading": "EDUCATION",
+      "text": "Graduated as M.Sc. Digital Media (University of Bremen)\n2015 / 07\n• Master Thesis: Semi Automated Scoring in Technology Based Assessment\n• Developed and evaluated an algorithm for semi automated scoring of spreadsheet data\n\nMaster Project - PrIMA (University of Bremen)\n2012 - 2013\n• Co-Invented a touch table application for medical support, co-developed software (Java)\n• Formed a scrum team, maintained project dev server (Debian), surveyed target audience\n\nMaster Studies Digital Media (University of Bremen)\n2012 - 2015\n• Inter-cultural classes in English, covering special topics in computer science and design\n• Professionalized in research methods, software development and e-assessment\n\nSemester Abroad (University of Melbourne)\n2009 - 2010\n• Mastered six months of study and trans-cultural experience in Melbourne, Australia\n• Finished machine programming, information visualization, professional essay writing"
+    }
+  ]
+}
