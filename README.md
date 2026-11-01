@@ -4,16 +4,16 @@ Bachelor’s thesis comparing methods for extracting structured data from CVs, w
 ## Pipelines 
 ✅ Supported · ❌ Unsupported · ⚠️ Not always · ❓ Needs testing · ⬜ Not implemented
 
-| Pipeline | Native PDF text | Image-only scans | Columns and reading order | Graphical ratings | Charts and diagrams | Implemented? |
-| --- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Text baseline** | ✅ | ❌ | ⚠️ | ⚠️ | ❌ | ✅ |
-| **Layout-aware text** | ❓ | ❓ | ❓ | ❓ | ❓ | ✅ |
-| **OCR extraction** | ❓ | ❓ | ❓ | ❓ | ❓ | ⬜ |
-| **Vision extraction** | ❓ | ❓ | ❓ | ❓ | ❓ | ✅ |
-| **Multimodal extraction** | ❓ | ❓ | ❓ | ❓ | ❓ | ⬜ |
-| **Visual correction** | ❓ | ❓ | ❓ | ❓ | ❓ | ⬜ |
-| **Targeted vision** | ❓ | ❓ | ❓ | ❓ | ❓ | ⬜ |
-| **Adaptive extraction** | ❓ | ❓ | ❓ | ❓ | ❓ | ⬜ |
+| Pipeline | Native PDF text | Image-only scans | Columns and reading order | Graphical ratings | Charts and diagrams | Implemented? | Tested? |
+| --- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Text baseline** | ✅ | ❌ | ⚠️ | ⚠️ | ❌ | ✅ | ✅ |
+| **Layout-aware text** | ❓ | ❓ | ❓ | ❓ | ❓ | ✅ | ⬜ |
+| **OCR extraction** | ❓ | ❓ | ❓ | ❓ | ❓ | ✅ | ⬜ |
+| **Vision extraction** | ❓ | ❓ | ❓ | ❓ | ❓ | ✅ | ⬜ |
+| **Multimodal extraction** | ❓ | ❓ | ❓ | ❓ | ❓ | ⬜ | ⬜ |
+| **Visual correction** | ❓ | ❓ | ❓ | ❓ | ❓ | ⬜ | ⬜ |
+| **Targeted vision** | ❓ | ❓ | ❓ | ❓ | ❓ | ⬜ | ⬜ |
+| **Adaptive extraction** | ❓ | ❓ | ❓ | ❓ | ❓ | ⬜ | ⬜ |
 
 
 | Name | Description |
