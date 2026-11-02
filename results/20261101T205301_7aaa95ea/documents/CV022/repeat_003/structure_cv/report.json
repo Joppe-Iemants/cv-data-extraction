@@ -1,0 +1,17 @@
+{
+  "name": "structure_cv",
+  "method": "vlm_structuring",
+  "execution_status": "error",
+  "outcome": null,
+  "metrics": {
+    "duration_seconds": 145.89320829999633,
+    "memory": {
+      "enabled": false
+    }
+  },
+  "error": {
+    "type": "VisionStructuringError",
+    "message": "Vision extraction failed: 4 validation errors for RawCV\nadditional_sections.0.text\n  Input should be a valid string [type=string_type, input_value=['Sparse Mixture-of-Exper...Paper Award)\\nMay 2021'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_type\nadditional_sections.1.text\n  Input should be a valid string [type=string_type, input_value=['MIT Technology Review 3...raduate Studies (2018)'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_type\nadditional_sections.2.text\n  Input should be a valid string [type=string_type, input_value=['1. Adaptive Quantizatio...(US Patent 11,456,789)'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_type\nadditional_sections.3.text\n  Input should be a valid string [type=string_type, input_value=['4. Scaling Laws for Eff...oogle Tech Talk (2022)'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_type"
+  },
+  "artifacts_file": "artifacts.json"
+}

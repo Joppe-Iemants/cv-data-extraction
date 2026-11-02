@@ -1,5 +1,5 @@
 {
-  "name": "vision_extraction",
+  "name": "vision_extraction_expanded_kv",
   "split": "development",
   "document_ids": null,
   "exclude_sources": ["vdab"],
@@ -25,8 +25,8 @@
         "allow_cpu_offload": false,
         "max_new_tokens": 8192,
         "attention_implementation": "expanded_kv_sdpa",
-        "sdpa_backend": "auto",
-        "logits_to_keep": 0
+        "sdpa_backend": "efficient",
+        "logits_to_keep": 1
       }
     }
   ]
