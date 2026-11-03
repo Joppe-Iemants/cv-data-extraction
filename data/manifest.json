@@ -547,50 +547,11 @@
     }
   },
   "archived_runs": {
-    "20261029T101434_7476b507": {
-      "path": "archived_runs/20261029T101434_7476b507",
-      "title": "Compact schema with restored extraction rules",
-      "description": "Three-CV test after optional blank-text normalization and expanded extraction prompt. All three attempts completed; keep for timing and accuracy comparisons.",
-      "tags": [
-        "baseline",
-        "compact-schema",
-        "pdf-text",
-        "qwen3-8b"
-      ],
-      "document_ids": [
-        "CV001",
-        "CV002",
-        "CV012"
-      ]
-    },
-    "20261030T220121_51392060": {
-      "path": "archived_runs/20261030T220121_51392060",
-      "title": "CV002 VLM baseline before attention optimizations",
-      "description": "Single successful CV002 attempt using Qwen3-VL-4B-Instruct in 4-bit on GPU only, 120-DPI page renders and an 8192-token output limit. Original SDPA attention, without KV-head expansion, logits_to_keep=1, a pixel cap or a GPU allocation cap. Structuring took approximately 3901 seconds (65 minutes), with generation at 0.43 tokens/s. Process RAM monitoring was disabled. Preserved as the slow baseline for VLM efficiency comparisons.",
-      "tags": [
-        "baseline", "vision", "qwen3-vl-4b", "4-bit", "sdpa", "single-document"
-      ],
-      "document_ids": ["CV002"]
-    },
-    "20261030T234809_f3750d98": {
-      "path": "archived_runs/20261030T234809_f3750d98",
-      "title": "Overnight VLM development run with combined optimizations",
-      "description": "Qwen3-VL-4B-Instruct in 4-bit on GPU only across 34 development CVs, excluding VDAB, with one repetition and 120-DPI renders. Combined changes: expanded-KV SDPA attention adapter, logits_to_keep=1, a 1400000-pixel per-page processor limit, an 85% GPU allocation cap and up to three smaller-image retries after CUDA OOM. Each CV ran in a separate offline worker with a 14-minute timeout and an eight-hour batch deadline; process RAM was sampled every 100 ms. All 34 attempts finished in approximately 1 hour 47 minutes: 6 passed schema validation and 28 failed schema validation, although all final raw responses were valid JSON. CV032 and CV037 required memory retries. Preserved for timing, memory and reliability analysis; this combined run does not isolate individual optimization effects.",
-      "tags": [
-        "vision", "qwen3-vl-4b", "4-bit", "development", "one-repetition",
-        "overnight", "combined-optimizations", "expanded-kv-sdpa", "schema-failures"
-      ],
-      "document_ids": [
-        "CV001", "CV002", "CV003", "CV004", "CV005", "CV006", "CV007", "CV008", "CV009",
-        "CV010", "CV011", "CV012", "CV017", "CV018", "CV019", "CV020", "CV021", "CV022",
-        "CV023", "CV024", "CV025", "CV026", "CV027", "CV028", "CV029", "CV030",
-        "CV031", "CV032", "CV033", "CV034", "CV035", "CV036", "CV037", "CV038"
-      ]
-    },
     "20261029T215235_8e602a1a": {
+      "run_id": "20261029T215235_8e602a1a",
       "path": "archived_runs/20261029T215235_8e602a1a",
-      "title": "Text baseline development run with five repetitions",
-      "description": "Text baseline using native PDF text and Qwen3 8B on 34 development CVs, excluding VDAB sources. Five repetitions per CV: 122 completed attempts, 28 structuring errors (18 output-limit failures, 5 token-repeat server errors and 5 timeouts), and 20 empty-text outcomes. Preserved for timing, reliability and accuracy comparisons.",
+      "title": "Text baseline run with five repetitions",
+      "description": "Text baseline using native PDF text and Qwen3 8B on 34 development CVs, excluding VDAB sources. Five repetitions per CV: 122 completed attempts, 28 structuring errors (18 output-limit failures, 5 token-repeat server errors and 5 timeouts), and 20 empty-text outcomes. Preserved for timing, reliability and accuracy comparisons. Last CV folder: CV038 (4 pages). All five repetitions finished successfully.",
       "tags": [
         "baseline",
         "compact-schema",
@@ -600,10 +561,138 @@
         "five-repetitions"
       ],
       "document_ids": [
-        "CV001", "CV002", "CV003", "CV004", "CV005", "CV006", "CV007", "CV008", "CV009",
-        "CV010", "CV011", "CV012", "CV017", "CV018", "CV019", "CV020", "CV021", "CV022",
-        "CV023", "CV024", "CV025", "CV026", "CV027", "CV028", "CV029", "CV030",
-        "CV031", "CV032", "CV033", "CV034", "CV035", "CV036", "CV037", "CV038"
+        "CV001", "CV002", "CV003", "CV004", "CV005", "CV006",
+        "CV007", "CV008", "CV009", "CV010", "CV011", "CV012",
+        "CV017", "CV018", "CV019", "CV020", "CV021", "CV022",
+        "CV023", "CV024", "CV025", "CV026", "CV027", "CV028",
+        "CV029", "CV030", "CV031", "CV032", "CV033", "CV034",
+        "CV035", "CV036", "CV037", "CV038"
+      ]
+    },
+    "20261030T234809_f3750d98": {
+      "run_id": "20261030T234809_f3750d98",
+      "path": "archived_runs/20261030T234809_f3750d98",
+      "title": "VLM overnight run with combined optimizations",
+      "description": "Qwen3-VL-4B-Instruct in 4-bit on GPU only across 34 development CVs, excluding VDAB, with one repetition and 120-DPI renders. Combined changes: expanded-KV SDPA attention adapter, logits_to_keep=1, a 1400000-pixel per-page processor limit, an 85% GPU allocation cap and up to three smaller-image retries after CUDA OOM. Each CV ran in a separate offline worker with a 14-minute timeout and an eight-hour batch deadline; process RAM was sampled every 100 ms. All 34 attempts finished in approximately 1 hour 47 minutes: 6 passed schema validation and 28 failed schema validation, although all final raw responses were valid JSON. CV032 and CV037 required memory retries. Preserved for timing, memory and reliability analysis; this combined run does not isolate individual optimization effects. Last CV folder: CV038 (4 pages). Its single attempt returned a schema validation error; no successful extraction was saved.",
+      "tags": [
+        "vision",
+        "qwen3-vl-4b",
+        "4-bit",
+        "development",
+        "one-repetition",
+        "overnight",
+        "combined-optimizations",
+        "expanded-kv-sdpa",
+        "schema-failures"
+      ],
+      "document_ids": [
+        "CV001", "CV002", "CV003", "CV004", "CV005", "CV006",
+        "CV007", "CV008", "CV009", "CV010", "CV011", "CV012",
+        "CV017", "CV018", "CV019", "CV020", "CV021", "CV022",
+        "CV023", "CV024", "CV025", "CV026", "CV027", "CV028",
+        "CV029", "CV030", "CV031", "CV032", "CV033", "CV034",
+        "CV035", "CV036", "CV037", "CV038"
+      ]
+    },
+    "20261031T195225_76b44b09": {
+      "run_id": "20261031T195225_76b44b09",
+      "path": "archived_runs/20261031T195225_76b44b09",
+      "title": "VLM SDPA baseline with three planned repetitions",
+      "description": "Qwen3-VL-4B-Instruct in 4-bit on GPU only, with 120-DPI page renders, an 8192-token output limit and process RAM monitoring disabled. Configured for 34 development CVs, excluding VDAB, with three repetitions per CV (102 planned attempts). Standard SDPA attention with the automatic backend and logits_to_keep=0. Saved attempt reports cover 12 CVs and 36 attempts: 18 completed, 12 schema validation errors and 6 CUDA out-of-memory errors. CV017/repeat_001 has artifacts but no attempt report. No batch summary is present; treat this archive as partial. document_ids lists the configured input scope. Last CV folder: CV017 (2 pages). The first repetition only finished page rendering; no structuring artifacts or attempt report were saved, so no attempt finished.",
+      "tags": [
+        "vision",
+        "qwen3-vl-4b",
+        "4-bit",
+        "development",
+        "three-repetitions",
+        "partial",
+        "baseline",
+        "sdpa",
+        "auto-backend",
+        "all-logits"
+      ],
+      "document_ids": [
+        "CV001", "CV002", "CV003", "CV004", "CV005", "CV006",
+        "CV007", "CV008", "CV009", "CV010", "CV011", "CV012",
+        "CV017", "CV018", "CV019", "CV020", "CV021", "CV022",
+        "CV023", "CV024", "CV025", "CV026", "CV027", "CV028",
+        "CV029", "CV030", "CV031", "CV032", "CV033", "CV034",
+        "CV035", "CV036", "CV037", "CV038"
+      ]
+    },
+    "20261101T205301_7aaa95ea": {
+      "run_id": "20261101T205301_7aaa95ea",
+      "path": "archived_runs/20261101T205301_7aaa95ea",
+      "title": "VLM expanded-KV SDPA with automatic backend",
+      "description": "Qwen3-VL-4B-Instruct in 4-bit on GPU only, with 120-DPI page renders, an 8192-token output limit and process RAM monitoring disabled. Configured for 34 development CVs, excluding VDAB, with three repetitions per CV (102 planned attempts). Expanded-KV SDPA attention with the automatic backend and logits_to_keep=0. Saved attempt reports cover 32 CVs and 96 attempts: 18 completed and 78 schema validation errors. CV037/repeat_001 has artifacts but no attempt report. No batch summary is present; treat this archive as partial. document_ids lists the configured input scope. Last CV folder: CV037 (12 pages). The first repetition only finished page rendering; no structuring artifacts or attempt report were saved, so no attempt finished.",
+      "tags": [
+        "vision",
+        "qwen3-vl-4b",
+        "4-bit",
+        "development",
+        "three-repetitions",
+        "partial",
+        "expanded-kv-sdpa",
+        "auto-backend",
+        "all-logits"
+      ],
+      "document_ids": [
+        "CV001", "CV002", "CV003", "CV004", "CV005", "CV006",
+        "CV007", "CV008", "CV009", "CV010", "CV011", "CV012",
+        "CV017", "CV018", "CV019", "CV020", "CV021", "CV022",
+        "CV023", "CV024", "CV025", "CV026", "CV027", "CV028",
+        "CV029", "CV030", "CV031", "CV032", "CV033", "CV034",
+        "CV035", "CV036", "CV037", "CV038"
+      ]
+    },
+    "20261102T093112_9fe8ecbf": {
+      "run_id": "20261102T093112_9fe8ecbf",
+      "path": "archived_runs/20261102T093112_9fe8ecbf",
+      "title": "VLM expanded-KV SDPA with efficient backend",
+      "description": "Qwen3-VL-4B-Instruct in 4-bit on GPU only, with 120-DPI page renders, an 8192-token output limit and process RAM monitoring disabled. Configured for 34 development CVs, excluding VDAB, with three repetitions per CV (102 planned attempts). Expanded-KV SDPA attention with the efficient backend and logits_to_keep=0. Saved attempt reports cover 32 CVs and 96 attempts: 18 completed and 78 schema validation errors. CV037/repeat_001 has artifacts but no attempt report. No batch summary is present; treat this archive as partial. document_ids lists the configured input scope. Last CV folder: CV037 (12 pages). The first repetition only finished page rendering; no structuring artifacts or attempt report were saved, so no attempt finished.",
+      "tags": [
+        "vision",
+        "qwen3-vl-4b",
+        "4-bit",
+        "development",
+        "three-repetitions",
+        "partial",
+        "expanded-kv-sdpa",
+        "efficient-backend",
+        "all-logits"
+      ],
+      "document_ids": [
+        "CV001", "CV002", "CV003", "CV004", "CV005", "CV006",
+        "CV007", "CV008", "CV009", "CV010", "CV011", "CV012",
+        "CV017", "CV018", "CV019", "CV020", "CV021", "CV022",
+        "CV023", "CV024", "CV025", "CV026", "CV027", "CV028",
+        "CV029", "CV030", "CV031", "CV032", "CV033", "CV034",
+        "CV035", "CV036", "CV037", "CV038"
+      ]
+    },
+    "20261102T162158_c9b0de83": {
+      "run_id": "20261102T162158_c9b0de83",
+      "path": "archived_runs/20261102T162158_c9b0de83",
+      "title": "VLM expanded-KV SDPA with efficient backend and last-token logits",
+      "description": "Qwen3-VL-4B-Instruct in 4-bit on GPU only, with 120-DPI page renders, an 8192-token output limit and process RAM monitoring disabled. Configured for 34 development CVs, excluding VDAB, with three repetitions per CV (102 planned attempts). Expanded-KV SDPA attention with the efficient backend and logits_to_keep=1. Saved attempt reports cover 33 CVs and 97 attempts: 18 completed, 78 schema validation errors and 1 invalid-JSON error. CV037/repeat_002 has artifacts but no attempt report. No batch summary is present; treat this archive as partial. document_ids lists the configured input scope. Last CV folder: CV037 (12 pages). The first repetition returned an invalid-JSON error after approximately 5 hours 46 minutes of structuring, so generation returned once but no successful extraction was saved. The second repetition only finished page rendering and has no structuring artifacts or attempt report.",
+      "tags": [
+        "vision",
+        "qwen3-vl-4b",
+        "4-bit",
+        "development",
+        "three-repetitions",
+        "partial",
+        "expanded-kv-sdpa",
+        "efficient-backend",
+        "last-token-logits"
+      ],
+      "document_ids": [
+        "CV001", "CV002", "CV003", "CV004", "CV005", "CV006",
+        "CV007", "CV008", "CV009", "CV010", "CV011", "CV012",
+        "CV017", "CV018", "CV019", "CV020", "CV021", "CV022",
+        "CV023", "CV024", "CV025", "CV026", "CV027", "CV028",
+        "CV029", "CV030", "CV031", "CV032", "CV033", "CV034",
+        "CV035", "CV036", "CV037", "CV038"
       ]
     }
   }

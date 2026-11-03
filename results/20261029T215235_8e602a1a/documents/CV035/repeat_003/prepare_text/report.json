@@ -1,9 +1,0 @@
-{
-  "name": "prepare_text",
-  "method": "join_page_text",
-  "execution_status": "skipped",
-  "outcome": null,
-  "metrics": {},
-  "error": null,
-  "skip_reason": "Previous stage returned no text: read_pdf"
-}

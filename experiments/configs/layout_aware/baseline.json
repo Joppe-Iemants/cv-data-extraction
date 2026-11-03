@@ -1,9 +1,9 @@
 {
   "name": "layout_aware",
   "split": "development",
-  "document_ids": ["CV001"],
+  "document_ids": null,
   "exclude_sources": ["vdab"],
-  "repetitions": 1,
+  "repetitions": 3,
   "monitoring": {
     "memory": false,
     "sample_interval_ms": 10

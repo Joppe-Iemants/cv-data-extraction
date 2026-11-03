@@ -2,7 +2,7 @@
 Bachelor’s thesis comparing methods for extracting structured data from CVs, with a focus on reducing processing time and hardware requirements.
 
 ## Pipelines 
-✅ Supported · ❌ Unsupported · ⚠️ Not always · ❓ Needs testing · ⬜ Not implemented
+✅ Supported · ❌ Unsupported · ⚠️ Not always · ❓ Needs testing
 
 | Pipeline | Native PDF text | Image-only scans | Columns and reading order | Graphical ratings | Charts and diagrams | Implemented? | Tested? |
 | --- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
