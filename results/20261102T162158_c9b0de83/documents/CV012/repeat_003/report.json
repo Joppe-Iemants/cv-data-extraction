@@ -1,0 +1,43 @@
+{
+  "document_id": "CV012",
+  "repetition": 3,
+  "status": "error",
+  "metrics": {
+    "processing_seconds": 109.70410669999546
+  },
+  "stages": [
+    {
+      "name": "render_pages",
+      "method": "render_pdf",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 0.035977099993033335,
+        "memory": {
+          "enabled": false
+        },
+        "page_count": 1,
+        "dpi": 120,
+        "total_pixels": 1346400
+      },
+      "error": null
+    },
+    {
+      "name": "structure_cv",
+      "method": "vlm_structuring",
+      "execution_status": "error",
+      "outcome": null,
+      "metrics": {
+        "duration_seconds": 109.66812960000243,
+        "memory": {
+          "enabled": false
+        }
+      },
+      "error": {
+        "type": "VisionStructuringError",
+        "message": "Vision extraction failed: 3 validation errors for RawCV\neducation.0.location\n  Extra inputs are not permitted [type=extra_forbidden, input_value='Ithaca, NY', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.14/v/extra_forbidden\neducation.1.location\n  Extra inputs are not permitted [type=extra_forbidden, input_value='Ithaca, NY', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.14/v/extra_forbidden\neducation.2.location\n  Extra inputs are not permitted [type=extra_forbidden, input_value='Kolkata, India', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.14/v/extra_forbidden"
+      },
+      "artifacts_file": "artifacts.json"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "document_id": "CV033",
+  "repetition": 2,
+  "status": "error",
+  "metrics": {
+    "processing_seconds": 163.47311879997142
+  },
+  "stages": [
+    {
+      "name": "render_pages",
+      "method": "render_pdf",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 0.5477903999853879,
+        "memory": {
+          "enabled": false
+        },
+        "page_count": 4,
+        "dpi": 120,
+        "total_pixels": 5490902
+      },
+      "error": null
+    },
+    {
+      "name": "structure_cv",
+      "method": "vlm_structuring",
+      "execution_status": "error",
+      "outcome": null,
+      "metrics": {
+        "duration_seconds": 162.92532839998603,
+        "memory": {
+          "enabled": false
+        }
+      },
+      "error": {
+        "type": "VisionStructuringError",
+        "message": "Vision extraction failed: 2 validation errors for RawCV\npersonal_information.source_pages.0\n  Input should be greater than or equal to 1 [type=greater_than_equal, input_value=0, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.14/v/greater_than_equal\nsummary\n  Input should be a valid string [type=string_type, input_value={'source_pages': [0], 'te...roblem solving skills.'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_type"
+      },
+      "artifacts_file": "artifacts.json"
+    }
+  ]
+}

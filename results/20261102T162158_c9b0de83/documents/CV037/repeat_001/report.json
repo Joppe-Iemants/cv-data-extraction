@@ -1,0 +1,43 @@
+{
+  "document_id": "CV037",
+  "repetition": 1,
+  "status": "error",
+  "metrics": {
+    "processing_seconds": 20751.407372899965
+  },
+  "stages": [
+    {
+      "name": "render_pages",
+      "method": "render_pdf",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 0.3621745999844279,
+        "memory": {
+          "enabled": false
+        },
+        "page_count": 12,
+        "dpi": 120,
+        "total_pixels": 16730064
+      },
+      "error": null
+    },
+    {
+      "name": "structure_cv",
+      "method": "vlm_structuring",
+      "execution_status": "error",
+      "outcome": null,
+      "metrics": {
+        "duration_seconds": 20751.04519829998,
+        "memory": {
+          "enabled": false
+        }
+      },
+      "error": {
+        "type": "VisionStructuringError",
+        "message": "Vision extraction failed: Unterminated string starting at: line 389 column 15 (char 15103)"
+      },
+      "artifacts_file": "artifacts.json"
+    }
+  ]
+}

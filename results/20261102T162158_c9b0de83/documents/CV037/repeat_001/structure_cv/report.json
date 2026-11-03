@@ -1,0 +1,17 @@
+{
+  "name": "structure_cv",
+  "method": "vlm_structuring",
+  "execution_status": "error",
+  "outcome": null,
+  "metrics": {
+    "duration_seconds": 20751.04519829998,
+    "memory": {
+      "enabled": false
+    }
+  },
+  "error": {
+    "type": "VisionStructuringError",
+    "message": "Vision extraction failed: Unterminated string starting at: line 389 column 15 (char 15103)"
+  },
+  "artifacts_file": "artifacts.json"
+}
