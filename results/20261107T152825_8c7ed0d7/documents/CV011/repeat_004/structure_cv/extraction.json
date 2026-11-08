@@ -1,0 +1,244 @@
+{
+  "personal_information": {
+    "source_pages": [
+      1
+    ],
+    "full_name": "ACHRAF NAJMI",
+    "headline": "ELECTRO INFO PHYSICIEN",
+    "emails": [
+      "najmi.achraf@gmail.com"
+    ],
+    "phones": [
+      "+212 6 22 90 22 21"
+    ],
+    "location": "Casablanca, Maroc",
+    "weblinks": [
+      {
+        "url": "github.com/NajmiAchraf",
+        "platform": null
+      },
+      {
+        "url": "stackoverflow.com/users/12854948",
+        "platform": null
+      },
+      {
+        "url": "linkedin.com/in/najmiachraf",
+        "platform": null
+      }
+    ],
+    "details": [
+      "Permis : B"
+    ]
+  },
+  "summary": null,
+  "work_experience": [],
+  "projects": [],
+  "education": [],
+  "skills": [
+    {
+      "source_pages": [],
+      "name": "Développement",
+      "proficiency": null,
+      "details": [
+        "SOFTWARE PROGRAMS: PyCharm ™, CLion, Terminal, Proteus, git"
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "Maintenance",
+      "proficiency": null,
+      "details": [
+        "Désigne"
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "Schématisation",
+      "proficiency": null,
+      "details": [
+        "Anglais (A2)"
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "Python",
+      "proficiency": null,
+      "details": [
+        "Actuellement, je developpe des applications en temps réel avec Python, et crée une interface graphique avec tkinter, et extrait du script 'file.py' un fichier exécutable par pyinstaller en utilisant auto py to exe."
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "tkinter",
+      "proficiency": null,
+      "details": [
+        "Crée une interface graphique"
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "pyinstaller",
+      "proficiency": null,
+      "details": [
+        "Extrait du script 'file.py' un fichier exécutable"
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "auto py to exe",
+      "proficiency": null,
+      "details": [
+        "Extrait du script 'file.py' un fichier exécutable"
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "numpy",
+      "proficiency": {
+        "text": "numpy",
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 1.0
+      },
+      "details": [
+        "Actuellement, je developpe des applications en temps réel avec Python, et crée une interface graphique avec tkinter, et extrait du script 'file.py' un fichier exécutable par pyinstaller en utilisant auto py to exe."
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "pandas",
+      "proficiency": {
+        "text": "pandas",
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 1.0
+      },
+      "details": [
+        "Actuellement, je developpe des applications en temps réel avec Python, et crée une interface graphique avec tkinter, et extrait du script 'file.py' un fichier exécutable par pyinstaller en utilisant auto py to exe."
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "matplotlib",
+      "proficiency": {
+        "text": "matplotlib",
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 1.0
+      },
+      "details": [
+        "Actuellement, je developpe des applications en temps réel avec Python, et crée une interface graphique avec tkinter, et extrait du script 'file.py' un fichier exécutable par pyinstaller en utilisant auto py to exe."
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "Go",
+      "proficiency": null,
+      "details": [
+        "Go"
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "OS",
+      "proficiency": null,
+      "details": [
+        "windows",
+        "macos"
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "Frang¢ais",
+      "proficiency": {
+        "text": "B2",
+        "type": "numeric",
+        "value": 2.0,
+        "maximum": 5.0
+      },
+      "details": [
+        "Frang¢ais (B2)"
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "Anglais",
+      "proficiency": {
+        "text": "A2",
+        "type": "numeric",
+        "value": 2.0,
+        "maximum": 5.0
+      },
+      "details": [
+        "Anglais (A2)"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "source_pages": [],
+      "name": "Frang¢ais",
+      "proficiency": {
+        "text": "B2",
+        "type": "numeric",
+        "value": 2.0,
+        "maximum": 5.0
+      },
+      "details": [
+        "Frang¢ais (B2)"
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "Anglais",
+      "proficiency": {
+        "text": "A2",
+        "type": "numeric",
+        "value": 2.0,
+        "maximum": 5.0
+      },
+      "details": [
+        "Anglais (A2)"
+      ]
+    }
+  ],
+  "certifications": [],
+  "training": [],
+  "additional_sections": [
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "Je suis toujours ala recherche de nouveaux projets interdisciplinaires passionnants liés a la physique."
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "LEF\nJe suis dipl6me en Physique Electronique avec une experience de travail dans des projets de recherche.\n\n_ Physique Electronique,\ncomme dernier dipl6me de Université Hassan II de Casablanca : Faculté des Sciences Ben M'’sik."
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "COMPETENCES\nLa plus grande partie de ma contribution a mon travail se situe dans le domaine du développement et maintenance informatique.\n\nFrang¢ais (B2)\n\nDéveloppement\nMaintenance =\n‘ Désigne\n\nAnglais (A2) Schématisation\nSOFTWARE PROGRAMS\nPyCharm ™ CLion Terminal Proteus git\n\nJ'utilise regulierement pour mes projets de développement PyCharm et CLion comme IDE, et j'utilise pour la capture schematique et la simulation Proteus CAD."
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "D\nGo\n| OS\n\nwt [ windows)\nFe [macos)\n\nDEVELOPPEMENT INFORMATIQUE\ncE\n\nis c Langage Front End Back End\n\n/> Syntaxe\nuu Bibliothé¢quess\n‘ir DataScience IIIT,\nOo Dii-  ___!\n@ DataAnalyse IIIT\n\nActuellement, je developpe des applications en temps réel avec Python, et crée une interface graphique avec tkinter, et extrait du script ‘file.py' un fichier exécutable par pyinstaller en utilisant auto py to exe."
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "ACTIVITES\n=\n=\nO-\n@Q\nx\nf\n\ni\"\nyinstaller\natplotlib\n\nxe)\n3\n\ntkinter\nnumpy\n\nEIBINEIGEIES\nHEGE\n2\n\npandas\n\nParmis les dominantes activites que je pratique est de naviguer sur internet a la recherche de nouvelles sur le monde d'informatique et entraineé sur tous les\n\nCompte GitHub ae qu\nfs) miinteresse.\n\n© Tutoriels\nB® Actualités Tech\n¥#y Jeux Cérébrale\ndans mon\n\n& Sport"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "Né le: 24/07/1994\n@ | Casablanca, Maroc\nCi +212 6 22 90 22 21\n\n/@ | najmi.achraf@gmail.com\ngithub.com/NajmiAchraf\n\nstackoverflow.com/users/12854948\n| linkedin.com/in/najmiachraf"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "EDUCATION ET PROJET ET EXPERIENCE\nEducation Projet Expérience Evenement\n\n7/2021 Un mois intensif dans UM6P\nPiscine d'école 1337 42 network\nQ github.com/NajmiAchraf/1337_Piscine\n\n3/2021 Scientific Computing with Python\nDeveloper Certification\n\n(4) freecodecamp.org/certification/\nnajmiachraf/scientific-computing-with-\npython-v7\n\n2/2021 Début du Projet Hydrogeologie\n- Hydrologie des eaux souterraines\n\nQ github.com/NajmiAchraf\n/Hydrogeologie (PROJET PRIVE)\n\n9/2020 Début du Projet Gmail\n- Expéditeur CSV de Google messagerie\n© github.com/NajmiAchraf/Gmail\n\n4/2020 Mis le projet MathPy dans GitHub\nQ github.com/NajmiAchraf/MathPy\n(PROJET PRIVE)\n\nProjet MathPy est constamment mis a jour\n\n12/2019 Debut du Projet MathPy\n* Calculatrice Scientifique Moderne\n\n9/2019 Debuter a apprendre Python\n\n6/2019 Licence d'Etudes Fondamentales\n(LEF)\n\n+ Filiere : Science Matiere Physique\n- Parcours ; Electronique /no_think"
+    }
+  ]
+}

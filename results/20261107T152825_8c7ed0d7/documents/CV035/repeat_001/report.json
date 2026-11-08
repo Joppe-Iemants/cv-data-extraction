@@ -1,0 +1,83 @@
+{
+  "document_id": "CV035",
+  "repetition": 1,
+  "status": "completed",
+  "metrics": {
+    "processing_seconds": 254.52886359998956
+  },
+  "stages": [
+    {
+      "name": "render_pages",
+      "method": "render_pdf",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 1.5337999999755993,
+        "memory": {
+          "enabled": false
+        },
+        "page_count": 6,
+        "dpi": 300,
+        "total_pixels": 52213920
+      },
+      "error": null
+    },
+    {
+      "name": "recognize_text",
+      "method": "tesseract_ocr",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 6.181145900045522,
+        "memory": {
+          "enabled": false
+        },
+        "engine": "tesseract",
+        "engine_version": "5.4.0.20240606",
+        "language": "eng",
+        "page_segmentation": 3,
+        "dpi": 300,
+        "page_count": 6,
+        "character_count": 5166,
+        "pages_without_text": []
+      },
+      "error": null
+    },
+    {
+      "name": "prepare_text",
+      "method": "join_page_text",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 2.329994458705187e-05,
+        "memory": {
+          "enabled": false
+        },
+        "character_count": 5176
+      },
+      "error": null
+    },
+    {
+      "name": "structure_cv",
+      "method": "llm_structuring",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 246.81389440002386,
+        "memory": {
+          "enabled": false
+        },
+        "model": "qwen3:8b",
+        "input_tokens": 5467,
+        "cached_input_tokens": 3375,
+        "output_tokens": 2194,
+        "server_total_seconds": 244.7812121,
+        "model_load_seconds": 0.0060913,
+        "prompt_processing_seconds": 1.653735,
+        "generation_seconds": 243.09894
+      },
+      "error": null,
+      "artifacts_file": "artifacts.json"
+    }
+  ]
+}

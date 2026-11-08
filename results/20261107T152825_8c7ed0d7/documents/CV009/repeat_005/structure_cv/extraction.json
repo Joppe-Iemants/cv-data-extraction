@@ -1,0 +1,326 @@
+{
+  "personal_information": {
+    "source_pages": [
+      9
+    ],
+    "full_name": "JAN KUSTER",
+    "headline": null,
+    "emails": [
+      "info@jankuester.com"
+    ],
+    "phones": [],
+    "location": null,
+    "weblinks": [
+      {
+        "url": "www,jankuester.com",
+        "platform": null
+      },
+      {
+        "url": "github.com/jankapunkt",
+        "platform": null
+      }
+    ],
+    "details": [
+      "he |",
+      "@Kuester_Jan"
+    ]
+  },
+  "summary": null,
+  "work_experience": [
+    {
+      "source_pages": [
+        9
+      ],
+      "employer": "UB",
+      "role": "Software Engineer",
+      "client": null,
+      "dates": {
+        "start": "10/2018",
+        "end": null,
+        "duration": null
+      },
+      "location": null,
+      "details": [
+        "The biggest part | contribute to my work is in the area of Software Engineering."
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        9
+      ],
+      "employer": "UB",
+      "role": "Software Engineer",
+      "client": null,
+      "dates": {
+        "start": "9/2016",
+        "end": null,
+        "duration": null
+      },
+      "location": null,
+      "details": [
+        "| regularly use Me- teor, Git and Web- storm for my dev projects."
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        9
+      ],
+      "employer": "We4IT",
+      "role": "IT Consultant",
+      "client": null,
+      "dates": {
+        "start": "11/2014",
+        "end": null,
+        "duration": null
+      },
+      "location": null,
+      "details": [],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        9
+      ],
+      "employer": "UB",
+      "role": "Scientific Employee",
+      "client": null,
+      "dates": {
+        "start": "1/2012",
+        "end": null,
+        "duration": null
+      },
+      "location": null,
+      "details": [],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        9
+      ],
+      "employer": "UB",
+      "role": "Student Assistant",
+      "client": null,
+      "dates": {
+        "start": "6/2010",
+        "end": null,
+        "duration": null
+      },
+      "location": null,
+      "details": [],
+      "skills": []
+    }
+  ],
+  "projects": [
+    {
+      "source_pages": [
+        9
+      ],
+      "name": "Startup Weekend",
+      "organization": null,
+      "client": null,
+      "role": null,
+      "dates": {
+        "start": "5/2016",
+        "end": null,
+        "duration": null
+      },
+      "details": [],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        9
+      ],
+      "name": "Master Project - PriMA",
+      "organization": null,
+      "client": null,
+      "role": null,
+      "dates": {
+        "start": "11/2012",
+        "end": null,
+        "duration": null
+      },
+      "details": [],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        9
+      ],
+      "name": "Global Game Jam @UB",
+      "organization": null,
+      "client": null,
+      "role": null,
+      "dates": {
+        "start": "10/2007",
+        "end": null,
+        "duration": null
+      },
+      "details": [],
+      "skills": []
+    }
+  ],
+  "education": [
+    {
+      "source_pages": [
+        9
+      ],
+      "institution": "University of Bremen",
+      "qualification": "M.Sc. Digital Media",
+      "dates": {
+        "start": "7/2015",
+        "end": null,
+        "duration": null
+      },
+      "details": [
+        "as latest degree from"
+      ]
+    },
+    {
+      "source_pages": [
+        9
+      ],
+      "institution": "University of Bremen",
+      "qualification": "Bachelor Studies",
+      "dates": {
+        "start": "5/2009",
+        "end": null,
+        "duration": null
+      },
+      "details": []
+    }
+  ],
+  "skills": [
+    {
+      "source_pages": [],
+      "name": "Software Engineering",
+      "proficiency": null,
+      "details": [
+        "The biggest part | contribute to my work is in the area of Software Engineering."
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "Research",
+      "proficiency": null,
+      "details": [
+        "| am a digital media graduate with working experience in research projects as well as in the private sector."
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "Consulting",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Design",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Javascript",
+      "proficiency": null,
+      "details": [
+        "| regularly use Me- teor, Git and Web- storm for my dev projects."
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "Blaze",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "MongoDB",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "HTML/CSS",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Me- teor",
+      "proficiency": null,
+      "details": [
+        "| regularly use Me- teor, Git and Web- storm for my dev projects."
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "Git",
+      "proficiency": null,
+      "details": [
+        "| regularly use Me- teor, Git and Web- storm for my dev projects."
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "Webstorm",
+      "proficiency": null,
+      "details": [
+        "| regularly use Me- teor, Git and Web- storm for my dev projects."
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "Sourcetree",
+      "proficiency": null,
+      "details": [
+        "| regularly use Me- teor, Git and Web- storm for my dev projects."
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "Linux",
+      "proficiency": null,
+      "details": [
+        "| regularly use Me- teor, Git and Web- storm for my dev projects."
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "Office",
+      "proficiency": null,
+      "details": [
+        "| regularly use Me- teor, Git and Web- storm for my dev projects."
+      ]
+    }
+  ],
+  "languages": [],
+  "certifications": [],
+  "training": [
+    {
+      "source_pages": [],
+      "name": "PM Training",
+      "provider": "UB",
+      "dates": {
+        "start": "6/2011",
+        "end": null,
+        "duration": null
+      },
+      "details": []
+    }
+  ],
+  "additional_sections": [
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "In my freetime | read lots of news and help others on Stackoverflow. Via body-weight training | keep my body and mind in balance. Fitness of participation at Game Dev"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "Events\n\n10/2020 Meteor Impact Conference\n\n9/2016 Software Engineer @UB\n\n5/2016 Startup Weekend\n\n7/2015 M.Sc. Graduation\n\n11/2014 IT Consultant @We4IT\n\nJavascript (a\n\nBlaze (ls\n\nMeir TA Currently, | develop re 9/2013 DELFI Conference\n\naltine apps with Me-\n\nBootstrap teor and Blaze.\n\nMongoDB iii Formerly | worked with 11/2012 Master Project - PriMA\n\nHTML/CSS TAS\n\nLalex 1/2012 Scientific Employee @UB\n\n6/2011 PM Training\n\n| regularly use Me- Webstorm Git Sourcetree Linux Office\n\n6/2010 Student Assistant @UB\n\n5/2009 Semester Abroad\n\nACTVITIES\n\nIn my freetime | read lots Stackoverflow 10/2007 Bachelor Studies\n\nN\n\nbody- ews\n\nweight training | keep my .\n\nbody and mind in balance. Fitness\n\nof participation at Game Dev"
+    }
+  ]
+}

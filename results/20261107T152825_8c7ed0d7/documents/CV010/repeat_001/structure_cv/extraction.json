@@ -1,0 +1,421 @@
+{
+  "personal_information": {
+    "source_pages": [
+      1
+    ],
+    "full_name": "ACHRAF NAJMI",
+    "headline": "ELECTRO INFO PHYSICIST",
+    "emails": [
+      "najmi.achraf@gmail.com"
+    ],
+    "phones": [
+      "212 6 22 90 22 21"
+    ],
+    "location": "Casablanca, Morocco",
+    "weblinks": [
+      {
+        "url": "github.com/NajmiAchraf",
+        "platform": null
+      },
+      {
+        "url": "stackoverflow.com/users/12854948",
+        "platform": null
+      },
+      {
+        "url": "linkedin.com/in/najmiachraf",
+        "platform": null
+      }
+    ],
+    "details": [
+      "Driver's license : B"
+    ]
+  },
+  "summary": null,
+  "work_experience": [],
+  "projects": [
+    {
+      "source_pages": [
+        1
+      ],
+      "name": "Realtime applications",
+      "organization": null,
+      "client": null,
+      "role": null,
+      "dates": null,
+      "details": [
+        "Currently, I am developing realtime applications with numpy Python, and creating a GUI with tkinter, and extracting from the script 'file.py' an executable file by pyinstaller using auto py to exe."
+      ],
+      "skills": [
+        "Development",
+        "Maintenance",
+        "Design",
+        "Schematization",
+        "Language",
+        "Front End",
+        "Back End",
+        "Built-in",
+        "Libraries",
+        "Data Science",
+        "Gui",
+        "Data Analysis",
+        "installer",
+        "matplotlib",
+        "tkinter",
+        "PyCharm",
+        "CLion",
+        "Terminal",
+        "Proteus",
+        "git"
+      ]
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "name": "MathPy Project",
+      "organization": "GitHub",
+      "client": null,
+      "role": null,
+      "dates": null,
+      "details": [
+        "MathPy Project is constantly updating"
+      ],
+      "skills": [
+        "Development",
+        "Maintenance",
+        "Design",
+        "Schematization",
+        "Language",
+        "Front End",
+        "Back End",
+        "Built-in",
+        "Libraries",
+        "Data Science",
+        "Gui",
+        "Data Analysis",
+        "installer",
+        "matplotlib",
+        "tkinter",
+        "PyCharm",
+        "CLion",
+        "Terminal",
+        "Proteand",
+        "git"
+      ]
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "name": "Hydrogeology Project",
+      "organization": "GitHub",
+      "client": null,
+      "role": null,
+      "dates": null,
+      "details": [
+        "Start the Hydrogeology Project + Groundwater Hydrology"
+      ],
+      "skills": [
+        "Development",
+        "Maintenance",
+        "Design",
+        "Schematization",
+        "Language",
+        "Front End",
+        "Back End",
+        "Built-in",
+        "Libraries",
+        "Data Science",
+        "Gui",
+        "Data Analysis",
+        "installer",
+        "matplotlib",
+        "tkinter",
+        "PyCharm",
+        "CLion",
+        "Terminal",
+        "Proteus",
+        "git"
+      ]
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "name": "Gmail Project",
+      "organization": "GitHub",
+      "client": null,
+      "role": null,
+      "dates": null,
+      "details": [
+        "Start the Gmail Project + CSV Google-mail Sender"
+      ],
+      "skills": [
+        "Development",
+        "Maintenance",
+        "Design",
+        "Schematization",
+        "Language",
+        "Front End",
+        "Back End",
+        "Built-in",
+        "Libraries",
+        "Data Science",
+        "Gui",
+        "Data Analysis",
+        "installer",
+        "matplotlib",
+        "tkinter",
+        "PyCharm",
+        "CLion",
+        "Terminal",
+        "Proteus",
+        "git"
+      ]
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "name": "1337_Piscine",
+      "organization": "UM6P",
+      "client": null,
+      "role": null,
+      "dates": null,
+      "details": [
+        "One intensive month in UM6P Piscine of 1337 school 42 network"
+      ],
+      "skills": [
+        "Development",
+        "Maintenance",
+        "Design",
+        "Schematization",
+        "Language",
+        "Front End",
+        "Back End",
+        "Built-in",
+        "Libraries",
+        "Data Science",
+        "Gui",
+        "Data Analysis",
+        "installer",
+        "matplotlib",
+        "tkinter",
+        "PyCharm",
+        "CLion",
+        "Terminal",
+        "Proteus",
+        "git"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "source_pages": [
+        1
+      ],
+      "institution": "University Hassan II of Casablanca : Faculty of Science Ben M’sik",
+      "qualification": "Bachelor of General Studies (BGS) * Series : Matter Science Physics + Course : Electronic",
+      "dates": {
+        "start": "6/2019",
+        "end": null,
+        "duration": null
+      },
+      "details": [
+        "Bachelor of General Studies (BGS) * Series : Matter Science Physics + Course : Electronic"
+      ]
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "institution": "freecodecamp.org",
+      "qualification": "Scientific Computing with Python Developer Certification",
+      "dates": {
+        "start": "3/2021",
+        "end": null,
+        "duration": null
+      },
+      "details": [
+        "Scientific Computing with Python Developer Certification"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "source_pages": [],
+      "name": "PyCharm",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "CLion",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Terminal",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Proteus",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "git",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Development",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Maintenance",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Design",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Schematization",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Language",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Front End",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Back End",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Built-in",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Libraries",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Data Science",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Gui",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Data Analysis",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "installer",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "matplotlib",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "tkinter",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "numpy",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "pandas",
+      "proficiency": null,
+      "details": []
+    }
+  ],
+  "languages": [
+    {
+      "source_pages": [],
+      "name": "French",
+      "proficiency": {
+        "text": "B2",
+        "type": "numeric",
+        "value": 2.0,
+        "maximum": 10.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "English",
+      "proficiency": {
+        "text": "A2",
+        "type": "numeric",
+        "value": 2.0,
+        "maximum": 10.0
+      },
+      "details": []
+    }
+  ],
+  "certifications": [
+    {
+      "source_pages": [],
+      "name": "Scientific Computing with Python Developer Certification",
+      "issuer": "freecodecamp.org",
+      "date": "3/2021",
+      "details": [
+        "Scientific Computing with Python Developer Certification"
+      ]
+    }
+  ],
+  "training": [],
+  "additional_sections": [
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "SOFTWARE PROGRAMS\n\nPyCharm = CLion Terminal Proteus git\n\nD\nG0O0cd0°o\nOs |\n\n| regularly use for my development projects\nPyCharm and CLion as IDE, and | use for\n\na | schematic capture and simulation Proteus\n\n| & | macos| CAD.\n® Pythons © Cc\n\n</> Syntax\n\nDevelopment\n\nMaintenance\n\nQn Design\n\nSchematization\n\nCE“\nLanguage Front End Back End\n\nuilt-in\n\niu, Libraries\n\n4lr Data Science\n& Gui\n\n@ Data Analysis\n\nyinstaller\natplotlib\n\nod ee be\n3\nKe}\n<\n\ntkinter\n\nCurrently, | am developing realtime applications with numpy\nPython, and creating a GUI with tkinter, and extracting\nfrom the script ‘file.py’ an executable file by pyinstaller\nusing auto py to exe.\n\nBIEDEGEIE\n\npandas\n\nACTIVITIES\n\nLT © Tutorials 8\n\nAmong the dominant\nactivities that | practice\n\npublic\nrepos\n\nTech News in search of news on\n\nthe computer world\nand trained on all the\n tutorials that interests\ne.\n\n¥#¥ Brain Games\nin my\nGitHub Account\n)\n\n& Sport\n\n3\n\nFY 801m : 7/24/1994\n@ | Casablanca, Morocco github.com/NajmiAchraf\nPE] 212 6 22 90 22 21\n| Driver's license : B\n\nis to browse the internet\n\n@ | najmi.achraf@gmail.com\n\na stackoverflow.com/users/12854948\n| linkedin.com/in/najmiachraf"
+    }
+  ]
+}

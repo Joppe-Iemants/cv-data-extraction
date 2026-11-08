@@ -1,0 +1,60 @@
+{
+  "document_id": "CV034",
+  "repetition": 2,
+  "status": "error",
+  "metrics": {
+    "processing_seconds": 1.6211449999827892
+  },
+  "stages": [
+    {
+      "name": "render_pages",
+      "method": "render_pdf",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 1.6209627999924123,
+        "memory": {
+          "enabled": false
+        },
+        "page_count": 4,
+        "dpi": 300,
+        "total_pixels": 34769600
+      },
+      "error": null
+    },
+    {
+      "name": "recognize_text",
+      "method": "tesseract_ocr",
+      "execution_status": "error",
+      "outcome": null,
+      "metrics": {
+        "duration_seconds": 0.0001821999903768301,
+        "memory": {
+          "enabled": false
+        }
+      },
+      "error": {
+        "type": "ModuleNotFoundError",
+        "message": "No module named 'pytesseract'"
+      }
+    },
+    {
+      "name": "prepare_text",
+      "method": "join_page_text",
+      "execution_status": "skipped",
+      "outcome": null,
+      "metrics": {},
+      "error": null,
+      "skip_reason": "Previous stage failed: recognize_text"
+    },
+    {
+      "name": "structure_cv",
+      "method": "llm_structuring",
+      "execution_status": "skipped",
+      "outcome": null,
+      "metrics": {},
+      "error": null,
+      "skip_reason": "Previous stage failed: recognize_text"
+    }
+  ]
+}

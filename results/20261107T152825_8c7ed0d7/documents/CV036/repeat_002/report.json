@@ -1,0 +1,78 @@
+{
+  "document_id": "CV036",
+  "repetition": 2,
+  "status": "error",
+  "metrics": {
+    "processing_seconds": 1090.2467998999637
+  },
+  "stages": [
+    {
+      "name": "render_pages",
+      "method": "render_pdf",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 1.7293961000395939,
+        "memory": {
+          "enabled": false
+        },
+        "page_count": 5,
+        "dpi": 300,
+        "total_pixels": 43462000
+      },
+      "error": null
+    },
+    {
+      "name": "recognize_text",
+      "method": "tesseract_ocr",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 5.852711800020188,
+        "memory": {
+          "enabled": false
+        },
+        "engine": "tesseract",
+        "engine_version": "5.4.0.20240606",
+        "language": "eng",
+        "page_segmentation": 3,
+        "dpi": 300,
+        "page_count": 5,
+        "character_count": 4473,
+        "pages_without_text": []
+      },
+      "error": null
+    },
+    {
+      "name": "prepare_text",
+      "method": "join_page_text",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 1.989991869777441e-05,
+        "memory": {
+          "enabled": false
+        },
+        "character_count": 4481
+      },
+      "error": null
+    },
+    {
+      "name": "structure_cv",
+      "method": "llm_structuring",
+      "execution_status": "error",
+      "outcome": null,
+      "metrics": {
+        "duration_seconds": 1082.6646720999852,
+        "memory": {
+          "enabled": false
+        }
+      },
+      "error": {
+        "type": "StructuringError",
+        "message": "ValueError: Generation did not finish normally: length"
+      },
+      "artifacts_file": "artifacts.json"
+    }
+  ]
+}

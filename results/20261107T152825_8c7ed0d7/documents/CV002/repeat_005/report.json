@@ -1,0 +1,83 @@
+{
+  "document_id": "CV002",
+  "repetition": 5,
+  "status": "completed",
+  "metrics": {
+    "processing_seconds": 137.10488960018847
+  },
+  "stages": [
+    {
+      "name": "render_pages",
+      "method": "render_pdf",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 0.1310316000599414,
+        "memory": {
+          "enabled": false
+        },
+        "page_count": 1,
+        "dpi": 300,
+        "total_pixels": 8703348
+      },
+      "error": null
+    },
+    {
+      "name": "recognize_text",
+      "method": "tesseract_ocr",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 1.3183584000216797,
+        "memory": {
+          "enabled": false
+        },
+        "engine": "tesseract",
+        "engine_version": "5.4.0.20240606",
+        "language": "eng",
+        "page_segmentation": 3,
+        "dpi": 300,
+        "page_count": 1,
+        "character_count": 2852,
+        "pages_without_text": []
+      },
+      "error": null
+    },
+    {
+      "name": "prepare_text",
+      "method": "join_page_text",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 1.1100084520876408e-05,
+        "memory": {
+          "enabled": false
+        },
+        "character_count": 2852
+      },
+      "error": null
+    },
+    {
+      "name": "structure_cv",
+      "method": "llm_structuring",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 135.65548850002233,
+        "memory": {
+          "enabled": false
+        },
+        "model": "qwen3:8b",
+        "input_tokens": 4033,
+        "cached_input_tokens": 4032,
+        "output_tokens": 1359,
+        "server_total_seconds": 133.6127839,
+        "model_load_seconds": 0.0063218,
+        "prompt_processing_seconds": 0.169387,
+        "generation_seconds": 133.421940999
+      },
+      "error": null,
+      "artifacts_file": "artifacts.json"
+    }
+  ]
+}

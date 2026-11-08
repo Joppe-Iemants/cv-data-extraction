@@ -1,0 +1,83 @@
+{
+  "document_id": "CV032",
+  "repetition": 5,
+  "status": "completed",
+  "metrics": {
+    "processing_seconds": 880.1000918002101
+  },
+  "stages": [
+    {
+      "name": "render_pages",
+      "method": "render_pdf",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 0.8304693000391126,
+        "memory": {
+          "enabled": false
+        },
+        "page_count": 7,
+        "dpi": 300,
+        "total_pixels": 58905000
+      },
+      "error": null
+    },
+    {
+      "name": "recognize_text",
+      "method": "tesseract_ocr",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 8.5275135000702,
+        "memory": {
+          "enabled": false
+        },
+        "engine": "tesseract",
+        "engine_version": "5.4.0.20240606",
+        "language": "eng",
+        "page_segmentation": 3,
+        "dpi": 300,
+        "page_count": 7,
+        "character_count": 17890,
+        "pages_without_text": []
+      },
+      "error": null
+    },
+    {
+      "name": "prepare_text",
+      "method": "join_page_text",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 1.470011193305254e-05,
+        "memory": {
+          "enabled": false
+        },
+        "character_count": 17902
+      },
+      "error": null
+    },
+    {
+      "name": "structure_cv",
+      "method": "llm_structuring",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 870.7420942999888,
+        "memory": {
+          "enabled": false
+        },
+        "model": "qwen3:8b",
+        "input_tokens": 7655,
+        "cached_input_tokens": 7654,
+        "output_tokens": 6026,
+        "server_total_seconds": 868.7275547,
+        "model_load_seconds": 0.0026012,
+        "prompt_processing_seconds": 0.093357,
+        "generation_seconds": 868.598864
+      },
+      "error": null,
+      "artifacts_file": "artifacts.json"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "page_count": 1,
+  "pages": [
+    {
+      "page_number": 1,
+      "width": 595.2760009765625,
+      "height": 841.8900146484375,
+      "regions": [
+        {
+          "region_number": 1,
+          "bbox": [
+            100,
+            14,
+            504,
+            58
+          ],
+          "text_bbox": [
+            100.58699798583984,
+            14.478202819824219,
+            503.709716796875,
+            57.0679931640625
+          ],
+          "text": "Consultant and Software Engineer · Bremen, Germany · info@jankuester.com · +49 176 313 XXX XX\n\n   JAN KüSTER RESUME"
+        },
+        {
+          "region_number": 2,
+          "bbox": [
+            140,
+            85,
+            465,
+            93
+          ],
+          "text_bbox": [
+            140.29800415039062,
+            85.60014343261719,
+            464.4991760253906,
+            92.03204345703125
+          ],
+          "text": "I create awesome resume templates in LaTeX for everyone."
+        },
+        {
+          "region_number": 3,
+          "bbox": [
+            169,
+            119,
+            500,
+            209
+          ],
+          "text_bbox": [
+            169.16200256347656,
+            119.70213317871094,
+            499.7810363769531,
+            208.74798583984375
+          ],
+          "text": "Status:    PhD student, M.Sc. Digital Media, Fullstack JS Engineer\n\n\n\nFields:      Software Development, Consulting, Education\n\n\n\nStack:      Meteor, Mongo, React, Bootstrap, Fontawesome ,Mocha\n\n\n\nTools:         Git, Sourcetree, Travis, Webstorm, Terminal\n\n\n\nActivities:   Global Game Jam, Sound Engineering, Blender, Martial Arts"
+        },
+        {
+          "region_number": 4,
+          "bbox": [
+            37,
+            257,
+            475,
+            535
+          ],
+          "text_bbox": [
+            37.513999938964844,
+            257.41900634765625,
+            474.66363525390625,
+            534.10205078125
+          ],
+          "text": "Fullstack Javascript Engineer (University of Bremen)                         2016 - now\n\n\n  Invent a realtime classroom management using Meteor and React\n\n\n  Design software architecture and leading development\n\n\nIT Consultant for IBM XPages and Notes Domino (We4IT GmbH Bremen)        2014 - 2016\n\n\n  Realize projects in XPages and We4IT Aveedo, monitor project status, conduct reports\n\n\n  Integrated Camunda BPMN engine and BPMN.IO modeler in We4IT Aveedo\n\n\nScientiﬁc Employee / Software Development (University of Bremen)           2012 - 2014\n\n\n  Invented a ﬂexible assessment framework, targeting industrial trainees\n\n\n  Supervised software development lifecycle, Recruited team members\n\n\nProject Management Simulation Training (Getoq Consulting)                      Nov. 2011\n\n\n  Performed a two-day project simulation from management perspective\n\n\n  Topics included customer contracts, change management, controlling, operational tasks\n\n\nStudent Assistant / Programmer (otulea.uni-bremen.de)                     2010 - 2011\n\n\n  Realized an online diagnosis platform for workforce literacy development (Flex)\n\n\n  Modeled software design, implemented various prototypes, conducted usability tests"
+        },
+        {
+          "region_number": 5,
+          "bbox": [
+            121,
+            559,
+            483,
+            571
+          ],
+          "text_bbox": [
+            121.35600280761719,
+            559.1673583984375,
+            482.94024658203125,
+            570.5367431640625
+          ],
+          "text": "Check out my open source projects at - github.com/jankapunkt"
+        },
+        {
+          "region_number": 6,
+          "bbox": [
+            37,
+            591,
+            475,
+            810
+          ],
+          "text_bbox": [
+            37.513999938964844,
+            591.4440307617188,
+            474.6631164550781,
+            809.447021484375
+          ],
+          "text": "Graduated as M.Sc. Digital Media (University of Bremen)                        2015 / 07\n\n\n  Master Thesis: Semi Automated Scoring in Technology Based Assessment\n\n\n  Developed and evaluated an algorithm for semi automated scoring of spreadsheet data\n\n\nMaster Project - PrIMA (University of Bremen)                               2012 - 2013\n\n\n  Co-Invented a touch table application for medical support, co-developed software (Java)\n\n\n  Formed a scrum team, mainted project dev server (Debian), surveyed target audience\n\n\nMaster Studies Digital Media (University of Bremen)                         2012 - 2015\n\n\n  Inter-cultural classes in English, covering special topics in computer science and design\n\n\n  Professionalized in research methods, software development and e-assessment\n\n\nSemester Abroad (University of Melbourne)                            2009 - 2010\n\n\n  Mastered six months of study and trans-cultural experience in Melbourne, Australia\n\n\n  Finished machine programming, information visualization, professional essay writing"
+        },
+        {
+          "region_number": 7,
+          "bbox": [
+            195,
+            831,
+            410,
+            841
+          ],
+          "text_bbox": [
+            195.2100067138672,
+            831.5360717773438,
+            409.0853576660156,
+            840.9407348632812
+          ],
+          "text": "www.jankuester.com · twitter.com/kuester_jan"
+        }
+      ]
+    }
+  ]
+}

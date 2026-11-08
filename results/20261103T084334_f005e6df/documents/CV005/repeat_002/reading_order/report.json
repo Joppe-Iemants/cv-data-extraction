@@ -1,0 +1,15 @@
+{
+  "name": "reading_order",
+  "method": "layout_reading_order",
+  "execution_status": "completed",
+  "outcome": "success",
+  "metrics": {
+    "duration_seconds": 4.300000728107989e-05,
+    "memory": {
+      "enabled": false
+    },
+    "character_count": 2859,
+    "pages_without_text": []
+  },
+  "error": null
+}

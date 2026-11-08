@@ -1,0 +1,83 @@
+{
+  "document_id": "CV031",
+  "repetition": 3,
+  "status": "completed",
+  "metrics": {
+    "processing_seconds": 331.61580189992674
+  },
+  "stages": [
+    {
+      "name": "render_pages",
+      "method": "render_pdf",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 0.37610879994463176,
+        "memory": {
+          "enabled": false
+        },
+        "page_count": 3,
+        "dpi": 300,
+        "total_pixels": 26110044
+      },
+      "error": null
+    },
+    {
+      "name": "recognize_text",
+      "method": "tesseract_ocr",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 3.1360797999659553,
+        "memory": {
+          "enabled": false
+        },
+        "engine": "tesseract",
+        "engine_version": "5.4.0.20240606",
+        "language": "eng",
+        "page_segmentation": 3,
+        "dpi": 300,
+        "page_count": 3,
+        "character_count": 4590,
+        "pages_without_text": []
+      },
+      "error": null
+    },
+    {
+      "name": "prepare_text",
+      "method": "join_page_text",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 1.2699980288743973e-05,
+        "memory": {
+          "enabled": false
+        },
+        "character_count": 4594
+      },
+      "error": null
+    },
+    {
+      "name": "structure_cv",
+      "method": "llm_structuring",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 328.10360060003586,
+        "memory": {
+          "enabled": false
+        },
+        "model": "qwen3:8b",
+        "input_tokens": 4737,
+        "cached_input_tokens": 4736,
+        "output_tokens": 2998,
+        "server_total_seconds": 326.0421967,
+        "model_load_seconds": 0.0096156,
+        "prompt_processing_seconds": 0.292199,
+        "generation_seconds": 325.720107
+      },
+      "error": null,
+      "artifacts_file": "artifacts.json"
+    }
+  ]
+}

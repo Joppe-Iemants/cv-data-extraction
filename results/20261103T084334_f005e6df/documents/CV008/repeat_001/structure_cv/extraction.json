@@ -1,0 +1,376 @@
+{
+  "personal_information": {
+    "source_pages": [
+      1
+    ],
+    "full_name": "ILYA RUMYANTSEV",
+    "headline": "Freelance Automation Consultant and Developer",
+    "emails": [
+      "contact@example.com"
+    ],
+    "phones": [
+      "+49 178 910 11 12 13"
+    ],
+    "location": "Example St. 1, 12345 Somewhere",
+    "weblinks": [],
+    "details": []
+  },
+  "summary": "IT Consultant with strong theoretical skills and a passion for OpenSource software.\n\nDevOps Engineer, specialized both in automation and in custom application development, experienced with large projects and heterogeneous infrastructures. The link between development and operations, comfortable in both.\n\nCustomer-oriented and structured method of working, focused on quality and maintainability. Highly motivated to work in a team, both comfortable in big companies as in small teams.",
+  "work_experience": [
+    {
+      "source_pages": [
+        2
+      ],
+      "employer": "Research and Development",
+      "role": "DevOps/FullStack developer",
+      "client": null,
+      "dates": {
+        "start": "Sep 15",
+        "end": "NOW",
+        "duration": null
+      },
+      "location": null,
+      "details": [
+        "A large IAM project required an intuitive interface for role-based access and rights management. At the same time, new workflows for role based access, life time and monitoring had to be established",
+        "Creation of a web portal for role- and rights management",
+        "Establishing a connection to the existing MicroFocus role solution",
+        "Development of new role-based workflows and processes, as well as training and support",
+        "Maintenance of existing infrastructure"
+      ],
+      "skills": [
+        "Django",
+        "Angular",
+        "HTML5/CSS3/Bootstrap3",
+        "Ansible",
+        "Docker"
+      ]
+    },
+    {
+      "source_pages": [
+        2
+      ],
+      "employer": "Research and Development",
+      "role": "DevOps engineer",
+      "client": null,
+      "dates": {
+        "start": "Jan 15",
+        "end": "Sep 15",
+        "duration": null
+      },
+      "location": null,
+      "details": [
+        "Responsible for infrastructure architecture with regard on the future development and tool selection in the field of identity and access management",
+        "Selection of future-proof tools for a large infrastructure",
+        "Infrastructure migration into a cloudstack cloud",
+        "Quality assurance in terms of documentation",
+        "Tool development for infrastructure overview",
+        "Development of Ansible modules for client"
+      ],
+      "skills": [
+        "Python",
+        "Ansible",
+        "SLES12",
+        "Django"
+      ]
+    },
+    {
+      "source_pages": [
+        2
+      ],
+      "employer": "Research and Development",
+      "role": "Systems Analyst",
+      "client": null,
+      "dates": {
+        "start": "Mar 14",
+        "end": "Jan 15",
+        "duration": null
+      },
+      "location": null,
+      "details": [
+        "Responsible for infrastructure architecture / automaton as well as custom tool development on a project for directory services and identity / access management in a large heterogeneous environment",
+        "Design and implementation of update and deployment process automation",
+        "Quality assurance by design of infrastructure monitoring, centralized logging solutions and documentation",
+        "Customized tool creation for ldap operations",
+        "Installation and maintenance of single sign on solutions",
+        "Customer support in ldap / infrastructural / programming concerns"
+      ],
+      "skills": [
+        "Ansible",
+        "Python",
+        "nxLog + rsyslog + graylog"
+      ]
+    },
+    {
+      "source_pages": [
+        3
+      ],
+      "employer": "Tourism industry",
+      "role": "Systems Analyst",
+      "client": null,
+      "dates": {
+        "start": "Sep 13",
+        "end": "Mar 14",
+        "duration": null
+      },
+      "location": null,
+      "details": [
+        "Responsible for data transformation and tool customization on a migration (legacy c++ code from Solaris to Linux systems) project. The tasks include",
+        "Tool development for identification of critical spots in code",
+        "Legacy code analysis",
+        "Quality assurance",
+        "Department-wide training in python",
+        "Consulting in topics of migration to Git"
+      ],
+      "skills": [
+        "Python",
+        "Git",
+        "Linux (Debian)"
+      ]
+    },
+    {
+      "source_pages": [
+        3
+      ],
+      "employer": "Tourism industry",
+      "role": "Systems Analyst",
+      "client": null,
+      "dates": {
+        "start": "Oct 12",
+        "end": "Sep 13",
+        "duration": null
+      },
+      "location": null,
+      "details": [
+        "Responsible for the infrastructure including performance and quality assurance on a large social media project.",
+        "Organization and care of a cloud network (Debian systems)",
+        "Support for software developers",
+        "Configuration of open source tools for code quality and documentation",
+        "Implementation of performance checks",
+        "Implementation of automated reports on code quality and performance"
+      ],
+      "skills": [
+        "Python + Django",
+        "Sonar",
+        "OpenLDAP",
+        "JIRA"
+      ]
+    },
+    {
+      "source_pages": [
+        3
+      ],
+      "employer": "Accenture Tech. Solutions",
+      "role": "IT Consultant",
+      "client": null,
+      "dates": {
+        "start": "Oct 11",
+        "end": "Oct 12",
+        "duration": null
+      },
+      "location": null,
+      "details": [
+        "Large public service project with the goal to establish a platform for handling of finance processes with a very high number of transactions. Main focus was the migration of legacy data, by assuring data quality and transformation into various formats",
+        "Customer consulting with regard to loading / unloading interfaces",
+        "Definition of requirements for transformation of legacy data",
+        "Implementation of algorithms for data transformation",
+        "Tool development for secure data transport",
+        "Tool development for tests of data quality/interface implementation"
+      ],
+      "skills": [
+        "Standard Linux tools, such as awk, sed, grep, ...",
+        "Python",
+        "Java",
+        "IBM DataStage"
+      ]
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "source_pages": [
+        4
+      ],
+      "institution": "Universität Bonn",
+      "qualification": "M. Sc. Physics.",
+      "dates": {
+        "start": "2009",
+        "end": "2011",
+        "duration": null
+      },
+      "details": [
+        "Main thematic priority of those master studies was numerical time series analysis of non-linear dynamical systems. Beside data analysis and transformation, great importance was attached to fast algorithms and efficient software architecture. In the master thesis a numerical approach for the detection of the direction of interaction was proposed. Analysis of this new approach was performed with the help computer simulations to find out its limits and to compare it to another commonly used approaches. This numerical approach was highly optimised for cluster computing and implemented in c++. For those purposes a distributed computing cluster had to be set up and administrated."
+      ]
+    },
+    {
+      "source_pages": [
+        4
+      ],
+      "institution": "Universität Bonn",
+      "qualification": "B. Sc. Physics.",
+      "dates": {
+        "start": "2006",
+        "end": "2009",
+        "duration": null
+      },
+      "details": [
+        "The topic for the bachelor’s thesis was ’Feshbach resonance’. A numerical application was built to calculate the diagrams."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "source_pages": [],
+      "name": "Python",
+      "proficiency": {
+        "text": "5+ yrs",
+        "type": "numeric",
+        "value": 5.0,
+        "maximum": null
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Ansible",
+      "proficiency": {
+        "text": "5+ yrs",
+        "type": "numeric",
+        "value": 5.0,
+        "maximum": null
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Linux",
+      "proficiency": {
+        "text": "5+ yrs",
+        "type": "numeric",
+        "value": 5.0,
+        "maximum": null
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Open Source Tools",
+      "proficiency": {
+        "text": "5+ yrs",
+        "type": "numeric",
+        "value": 5.0,
+        "maximum": null
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Django",
+      "proficiency": {
+        "text": "5+ yrs",
+        "type": "numeric",
+        "value": 5.0,
+        "maximum": null
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Html/CSS",
+      "proficiency": {
+        "text": "3+ yrs",
+        "type": "numeric",
+        "value": 3.0,
+        "maximum": null
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Javascript",
+      "proficiency": {
+        "text": "3+ yrs",
+        "type": "numeric",
+        "value": 3.0,
+        "maximum": null
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "GIT",
+      "proficiency": {
+        "text": "3+ yrs",
+        "type": "numeric",
+        "value": 3.0,
+        "maximum": null
+      },
+      "details": []
+    }
+  ],
+  "languages": [],
+  "certifications": [
+    {
+      "source_pages": [],
+      "name": "LPIC 1 - Linux administrator",
+      "issuer": "Linux Professional Institute",
+      "date": null,
+      "details": [
+        "to prove abilities in Linux administration"
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "IBM InfoSphere Advanced DataStage Essentials",
+      "issuer": "IBM",
+      "date": null,
+      "details": [
+        "Intense course about the ETL technologies and the use of IBM DataStage."
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "Jump Start Program",
+      "issuer": null,
+      "date": null,
+      "details": [
+        "Two months full-time training in object oriented programming in Java SE/EE, software development, testing and modern enterprise web-frameworks. Other topics were object oriented design patterns, test-driven development, SQL-databases and webservers in Java environment (Tomcat / Glassfish / JBoss / Jety)"
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "Online Classes",
+      "issuer": null,
+      "date": null,
+      "details": [
+        "It is important for me to stay up to date with the newest topics in the field of IT. In DevOps it is also important to have a general overview and a hands-on experience on them. Therefore, besides intense article studies, I also keep myself up to date with online classes.",
+        "• NOVELL eDirectory",
+        "• Shibboleth as identity Provider combined with ldap",
+        "• SLES11",
+        "• Git for configuration and documentation versioning"
+      ]
+    }
+  ],
+  "training": [],
+  "additional_sections": [
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "Achievements include:\n\n• Drastically accelerated ( 20x faster) the update process and improved its reliability by introduction of centralized configuration management\n\n• Extended the python-ldap library with interfaces for simplified access and modification of LDAP-Objects and searches\n\n• Introduction of a complete and reliable centralized logging solution including log filtering and alerting for both windows and Linux systems"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "Achievements include:\n\n• Implementing code coverage and dynamic code checker for c++ legacy source code based on gcov\n\n• Introduction of Python + Environment in project"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "Achievements include:\n\n• Customized wiki and documentation application for developers with Jenkins and Git integration\n\n• Django web application to test the product performance using selenium tests in background with customizable tests / test environments ad a graphical evaluation using the jqPlot library (also Jaiascript / jQuery)\n\n• Improvement of the overall code quality by raising test coverage (+ ˜30%) and identification + elimination of potential code flaws"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "Achievements include:\n\n• Definition of uniform standards\n\n• Introduction of the standard Linux stack as global toolset for data analysis in project"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "read_layout",
+  "method": "pdf_layout",
+  "execution_status": "completed",
+  "outcome": "success",
+  "metrics": {
+    "duration_seconds": 0.20456839998951182,
+    "memory": {
+      "enabled": false
+    },
+    "page_count": 4,
+    "region_count": 8
+  },
+  "error": null
+}

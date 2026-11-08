@@ -1,0 +1,398 @@
+{
+  "personal_information": {
+    "source_pages": [
+      1
+    ],
+    "full_name": "ACHRAF NAJMI",
+    "headline": "ELECTRO INFO PHYSICIEN",
+    "emails": [
+      "najmi.achraf@gmail.com"
+    ],
+    "phones": [
+      "+212 6 22 90 22 21"
+    ],
+    "location": "Casablanca, Maroc",
+    "weblinks": [
+      {
+        "url": "github.com/NajmiAchraf",
+        "platform": null
+      },
+      {
+        "url": "stackoverflow.com/users/12854948",
+        "platform": null
+      },
+      {
+        "url": "linkedin.com/in/najmiachraf",
+        "platform": null
+      }
+    ],
+    "details": [
+      "Permis : B",
+      "Je suis toujours ala recherche de nouveaux projets interdisciplinaires passionnants liés a la physique."
+    ]
+  },
+  "summary": null,
+  "work_experience": [],
+  "projects": [],
+  "education": [],
+  "skills": [
+    {
+      "source_pages": [],
+      "name": "Développement",
+      "proficiency": {
+        "text": "B2",
+        "type": "dots",
+        "value": 2.0,
+        "maximum": 5.0
+      },
+      "details": [
+        "Désigne",
+        "Schématisation",
+        "SOFTWARE PROGRAMS",
+        "PyCharm ™",
+        "CLion",
+        "Terminal",
+        "Proteus",
+        "git"
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "Maintenance",
+      "proficiency": {
+        "text": "A2",
+        "type": "dots",
+        "value": 2.0,
+        "maximum": 5.0
+      },
+      "details": [
+        "Désigne",
+        "Schématisation",
+        "SOFTWARE PROGRAMS",
+        "PyCharm ™",
+        "CLion",
+        "Terminal",
+        "Proteus",
+        "git"
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "Python",
+      "proficiency": {
+        "text": "B2",
+        "type": "dots",
+        "value": 2.0,
+        "maximum": 5.0
+      },
+      "details": [
+        "Actuellement, je developpe des applications en temps réel avec Python, et crée une interface graphique avec tkinter, et extrait du script 'file.py' un fichier exécutable par pyinstaller en utilisant auto py to exe."
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "tkinter",
+      "proficiency": {
+        "text": "B2",
+        "type": "dots",
+        "value": 2.0,
+        "maximum": 5.0
+      },
+      "details": [
+        "Actuellement, je developpe des applications en temps réel avec Python, et crée une interface graphique avec tkinter, et extrait du script 'file.py' un fichier exécutable par pyinstaller en utilisant auto py to exe."
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "pyinstaller",
+      "proficiency": {
+        "text": "B2",
+        "type": "dots",
+        "value": 2.0,
+        "maximum": 5.0
+      },
+      "details": [
+        "Actuellement, je developpe des applications en temps réel avec Python, et crée une interface graphique avec tkinter, et extrait du script 'file.py' un fichier exécutable par pyinstaller en utilisant auto py to exe."
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "auto py to exe",
+      "proficiency": {
+        "text": "B2",
+        "type": "dots",
+        "value": 2.0,
+        "maximum": 5.0
+      },
+      "details": [
+        "Actuellement, je developpe des applications en temps réel avec Python, et crée une interface graphique avec tkinter, et extrait du script 'file.py' un fichier exécutable par pyinstaller en utilisant auto py to exe."
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "numpy",
+      "proficiency": {
+        "text": "B2",
+        "type": "dots",
+        "value": 2.0,
+        "maximum": 5.0
+      },
+      "details": [
+        "Parmis les dominantes activites que je pratique est de naviguer sur internet a la recherche de nouvelles sur le monde d'informatique et entraineé sur tous les",
+        "Compte GitHub ae qu",
+        "fs) miinteresse."
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "pandas",
+      "proficiency": {
+        "text": "B2",
+        "type": "dots",
+        "value": 2.0,
+        "maximum": 5.0
+      },
+      "details": [
+        "Parmis les dominantes activites que je pratique est de naviguer sur internet a la recherche de nouvelles sur le monde d'informatique et entraineé sur tous les",
+        "Compte GitHub ae qu",
+        "fs) miinteresse."
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "matplotlib",
+      "proficiency": {
+        "text": "B2",
+        "type": "dots",
+        "value": 2.0,
+        "maximum": 5.0
+      },
+      "details": [
+        "Parmis les dominantes activites que je pratique est de naviguer sur internet a la recherche de nouvelles sur le monde d'informatique et entraineé sur tous les",
+        "Compte GitHub ae qu",
+        "fs) miinteresse."
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "Go",
+      "proficiency": {
+        "text": "B2",
+        "type": "dots",
+        "value": 2.0,
+        "maximum": 5.0
+      },
+      "details": [
+        "Parmis les dominantes activites que je pratique est de naviguer sur internet a la recherche de nouvelles sur le monde d'informatique et entraineé sur tous les",
+        "Compte GitHub ae qu",
+        "fs) miinteresse."
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "OS",
+      "proficiency": {
+        "text": "B2",
+        "type": "dots",
+        "value": 2.0,
+        "maximum": 5.0
+      },
+      "details": [
+        "Parmis les dominantes activites que je pratique est de naviguer sur internet a la recherche de nouvelles sur le monde d'informatique et entraineé sur tous les",
+        "Compte GitHub ae qu",
+        "fs) miinteresse."
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "windows",
+      "proficiency": {
+        "text": "B2",
+        "type": "dots",
+        "value": 2.0,
+        "maximum": 5.0
+      },
+      "details": [
+        "Parmis les dominantes activites que je pratique est de naviguer sur internet a la recherche de nouvelles sur le monde d'informatique et entraineé sur tous les",
+        "Compte GitHub ae qu",
+        "fs) miinteresse."
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "macos",
+      "proficiency": {
+        "text": "B2",
+        "type": "dots",
+        "value": 2.0,
+        "maximum": 5.0
+      },
+      "details": [
+        "Parmis les dominantes activites que je pratique est de naviguer sur internet a la recherche de nouvelles sur le monde d'informatique et entraineé sur tous les",
+        "Com, GitHub ae qu",
+        "fs) miinteresse."
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "Frang¢ais",
+      "proficiency": {
+        "text": "B2",
+        "type": "dots",
+        "value": 2.0,
+        "maximum": 5.0
+      },
+      "details": [
+        "Parmis les dominantes activites que je pratique est de naviguer sur internet a la recherche de nouvelles sur le monde d'informatique et entraineé sur tous les",
+        "Compte GitHub ae qu",
+        "fs) miinteresse."
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "Anglais",
+      "proficiency": {
+        "text": "A2",
+        "type": "dots",
+        "value": 2.0,
+        "maximum": 5.0
+      },
+      "details": [
+        "Parmis les dominantes activites que je pratique est de naviguer sur internet a la recherche de nouvelles sur le monde d'informatique et entraineé sur tous les",
+        "Compte GitHub ae qu",
+        "fs) miinteresse."
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "source_pages": [],
+      "name": "Frang¢ais",
+      "proficiency": {
+        "text": "B2",
+        "type": "dots",
+        "value": 2.0,
+        "maximum": 5.0
+      },
+      "details": [
+        "Parmis les dominantes activites que je pratique est de naviguer sur internet a la recherche de nouvelles sur le monde d'informatique et entraineé sur tous les",
+        "Compte GitHub ae qu",
+        "fs) miinteresse."
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "Anglais",
+      "proficiency": {
+        "text": "A2",
+        "type": "dots",
+        "value": 2.0,
+        "maximum": 5.0
+      },
+      "details": [
+        "Parmis les dominantes activites que je pratique est de naviguer sur internet a la recherche de nouvelles sur le monde d'informatique et entraineé sur tous les",
+        "Compte GitHub ae qu",
+        "fs) miinteresse."
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "source_pages": [],
+      "name": "Scientific Computing with Python",
+      "issuer": "freecodecamp.org",
+      "date": "3/2021",
+      "details": [
+        "Developer Certification"
+      ]
+    }
+  ],
+  "training": [],
+  "additional_sections": [
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "Né le: 24/07/1994"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "Casablanca, Maroc"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "Ci +212 6 22 90 22 21"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "/@ | najmi.achraf@gmail.com"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "github.com/NajmiAchraf"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "stackoverflow.com/users/12854948"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "linkedin.com/in/najmiachraf"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "Education Projet Expérience Evenement"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "7/2021 Un mois intensif dans UM6P Piscine d'école 1337 42 network Q github.com/NajmiAchraf/1337_Piscine"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "3/2021 Scientific Computing with Python Developer Certification (4) freecodecamp.org/certification/najmiachraf/scientific-computing-with-python-v7"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "2/2021 Début du Projet Hydrogeologie - Hydrologie des eaux souterraines Q github.com/NajmiAchraf/Hydrogeologie (PROJET PRIVE)"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "9/2020 Début du Projet Gmail - Expéditeur CSV de Google messagerie © github.com/NajmiAchraf/Gmail"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "4/2020 Mis le projet MathPy dans GitHub Q github.com/NajmiAchraf/MathPy (PROJET PRIVE)"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "Projet MathPy est constamment mis a jour"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "12/2019 Debut du Projet MathPy * Calculatrice Scientifique Moderne"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "9/2019 Debuter a apprendre Python"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "6/2019 Licence d'Etudes Fondamentales (LEF) + Filiere : Science Matiere Physique - Parcours ; Electronique /no_think"
+    }
+  ]
+}

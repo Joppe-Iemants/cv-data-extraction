@@ -1,0 +1,267 @@
+{
+  "personal_information": {
+    "source_pages": [
+      1
+    ],
+    "full_name": "ACHRAF NAJMI",
+    "headline": null,
+    "emails": [
+      "najmi.achraf@gmail.com"
+    ],
+    "phones": [
+      "+212 6 22 90 22 21"
+    ],
+    "location": null,
+    "weblinks": [
+      {
+        "url": "github.com/NajmiAchraf",
+        "platform": "github"
+      },
+      {
+        "url": "stackoverflow.com/users/12854948",
+        "platform": "stackoverflow"
+      },
+      {
+        "url": "linkedin.com/in/najmiachraf",
+        "platform": "linkedin"
+      }
+    ],
+    "details": [
+      "O Born : 7/24/1994",
+      "( Casablanca, Morocco",
+      "F  +212 6 22 90 22 21",
+      "  Driver’s license : B"
+    ]
+  },
+  "summary": null,
+  "work_experience": [],
+  "projects": [
+    {
+      "source_pages": [
+        2
+      ],
+      "name": "1337_Piscine",
+      "organization": "UM6P",
+      "client": null,
+      "role": null,
+      "dates": {
+        "start": "7/2021",
+        "end": null,
+        "duration": null
+      },
+      "details": [
+        "One intensive month in UM6P",
+        "Piscine of 1337 school 42 network"
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        2
+      ],
+      "name": "Scientific Computing with Python",
+      "organization": "freecodecamp.org",
+      "client": null,
+      "role": null,
+      "dates": {
+        "start": "3/2021",
+        "end": null,
+        "duration": null
+      },
+      "details": [
+        "Developer Certification"
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        2
+      ],
+      "name": "Hydrogeologie (PROJET PRIVÉ)",
+      "organization": "github.com/NajmiAchraf",
+      "client": null,
+      "role": null,
+      "dates": {
+        "start": "2/2021",
+        "end": null,
+        "duration": null
+      },
+      "details": [
+        "Groundwater Hydrology"
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        2
+      ],
+      "name": "Gmail",
+      "organization": "github.com/NajmiAchraf",
+      "client": null,
+      "role": null,
+      "dates": {
+        "start": "9/2020",
+        "end": null,
+        "duration": null
+      },
+      "details": [
+        "CSV Google-mail Sender"
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        2
+      ],
+      "name": "MathPy",
+      "organization": "github.com/NajmiAchraf",
+      "client": null,
+      "role": null,
+      "dates": {
+        "start": "4/2020",
+        "end": null,
+        "duration": null
+      },
+      "details": [
+        "MathPy Project is constantly updating"
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        2
+      ],
+      "name": "MathPy",
+      "organization": "github.com/NajmiAchraf",
+      "client": null,
+      "role": null,
+      "dates": {
+        "start": "12/2019",
+        "end": null,
+        "duration": null
+      },
+      "details": [
+        "Modern Scientific Calculator"
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        2
+      ],
+      "name": "MathPy",
+      "organization": "github.com/NajmiAchraf",
+      "client": null,
+      "role": null,
+      "dates": {
+        "start": "9/2019",
+        "end": null,
+        "duration": null
+      },
+      "details": [
+        "Beginning of learning Python"
+      ],
+      "skills": []
+    }
+  ],
+  "education": [
+    {
+      "source_pages": [
+        2
+      ],
+      "institution": "University Hassan II of Casablanca",
+      "qualification": "Bachelor of General Studies (BGS) : Series : Matter Science Physics, Course : Electronic",
+      "dates": {
+        "start": "6/2019",
+        "end": null,
+        "duration": null
+      },
+      "details": []
+    }
+  ],
+  "skills": [
+    {
+      "source_pages": [],
+      "name": "Electronic",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Electrical Engineering",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Digital",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Telecommunication",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Network",
+      "proficiency": null,
+      "details": []
+    }
+  ],
+  "languages": [
+    {
+      "source_pages": [],
+      "name": "French",
+      "proficiency": {
+        "text": "B2",
+        "type": "numeric",
+        "value": 2.0,
+        "maximum": 5.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "English",
+      "proficiency": {
+        "text": "A2",
+        "type": "numeric",
+        "value": 2.0,
+        "maximum": 5.0
+      },
+      "details": []
+    }
+  ],
+  "certifications": [
+    {
+      "source_pages": [],
+      "name": "Scientific Computing with Python",
+      "issuer": "freecodecamp.org",
+      "date": "3/2021",
+      "details": [
+        "Developer Certification"
+      ]
+    }
+  ],
+  "training": [],
+  "additional_sections": [
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "Maintenance\n\n        Schematization\n\nPyCharm\n\n   B\n\nWindows\n\nmacOS\n\nCLion\n\nTerminal\n\nProteus\n\nMD\n\nOS\n\nI regularly use for my development projects\n  PyCharm and CLion as IDE, and I use for\n schematic capture and simulation Proteus\n                 CAD."
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "Language Front End Back End\n\n                * & ] & LATEX\n\n                â  built-in\n\n                  B  pyinstaller\n\n                matplotlib\n            & sympy\n\nIT DEVELOPMENT\n\n*  Python 3  ]\n\n  Î Syntax\n\n  d Libraries\n\nÑ Data Science\n\n          GUI\n\n¡ Data Analysis\n\ntkinter\nnumpy\npandas\n\nCurrently, I am developing realtime applications with\nPython, and creating a GUI with tkinter, and extracting\nfrom the script ‘file.py‘ an executable file by pyinstaller\n               using auto py to exe."
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "ACTIVITIES\n\nAmong the dominant\n activities that I practice\nis to browse the internet\n  in search of news on\n  the computer world\n and trained on all the\n tutorials that interests\n        me.\n\n Tutorials   8\n\nZ Tech News          public\n\nZ Tech News\n\nrepos\n\n      in my\nGitHub Account\n\n§ Brain Games\n\nÎ Sport /no_think"
+    }
+  ]
+}

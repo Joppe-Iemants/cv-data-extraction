@@ -1,0 +1,269 @@
+{
+  "personal_information": {
+    "source_pages": [
+      1
+    ],
+    "full_name": "ACHRAF NAJMI",
+    "headline": null,
+    "emails": [
+      "najmi.achraf@gmail.com"
+    ],
+    "phones": [
+      "+212 6 22 90 22 21"
+    ],
+    "location": null,
+    "weblinks": [
+      {
+        "url": "github.com/NajmiAchraf",
+        "platform": "github"
+      },
+      {
+        "url": "stackoverflow.com/users/12854948",
+        "platform": "stackoverflow"
+      },
+      {
+        "url": "linkedin.com/in/najmiachraf",
+        "platform": "linkedin"
+      }
+    ],
+    "details": [
+      "O Né le: 24/07/1994",
+      "(  Casablanca, Maroc",
+      "F  +212 6 22 90 22 21",
+      " Permis : B"
+    ]
+  },
+  "summary": null,
+  "work_experience": [],
+  "projects": [
+    {
+      "source_pages": [
+        2
+      ],
+      "name": "Piscine d’école 1337 42 network",
+      "organization": null,
+      "client": null,
+      "role": null,
+      "dates": {
+        "start": "7/2021",
+        "end": null,
+        "duration": null
+      },
+      "details": [
+        "Un mois intensif dans UM6P"
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        2
+      ],
+      "name": "Scientific Computing with Python",
+      "organization": null,
+      "client": null,
+      "role": "Developer",
+      "dates": {
+        "start": "3/2021",
+        "end": null,
+        "duration": null
+      },
+      "details": [],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        2
+      ],
+      "name": "Hydrogéologie",
+      "organization": null,
+      "client": null,
+      "role": null,
+      "dates": {
+        "start": "2/2021",
+        "end": null,
+        "duration": null
+      },
+      "details": [
+        "• Hydrologie des eaux souterraines"
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        2
+      ],
+      "name": "Gmail",
+      "organization": null,
+      "client": null,
+      "role": null,
+      "dates": {
+        "start": "9/2020",
+        "end": null,
+        "duration": null
+      },
+      "details": [
+        "• Expéditeur CSV de Google messagerie"
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        2
+      ],
+      "name": "MathPy",
+      "organization": null,
+      "client": null,
+      "role": null,
+      "dates": {
+        "start": "4/2020",
+        "end": null,
+        "duration": null
+      },
+      "details": [
+        "• Calculatrice Scientifique Moderne"
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        2
+      ],
+      "name": "MathPy",
+      "organization": null,
+      "client": null,
+      "role": null,
+      "dates": {
+        "start": "12/2019",
+        "end": null,
+        "duration": null
+      },
+      "details": [
+        "• Calculatrice Scientifique Moderne"
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        2
+      ],
+      "name": "MathPy",
+      "organization": null,
+      "client": null,
+      "role": null,
+      "dates": {
+        "start": "9/2019",
+        "end": null,
+        "duration": null
+      },
+      "details": [
+        "• Débuter à apprendre Python"
+      ],
+      "skills": []
+    }
+  ],
+  "education": [
+    {
+      "source_pages": [
+        2
+      ],
+      "institution": "Université Hassan II de Casablanca",
+      "qualification": "Licence d’Études Fondamentales (LEF) - Filière : Science Matière Physique - Parcours : Électronique",
+      "dates": {
+        "start": "6/2019",
+        "end": null,
+        "duration": null
+      },
+      "details": []
+    }
+  ],
+  "skills": [
+    {
+      "source_pages": [],
+      "name": "Électronique",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Électrotechnique",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Numérique",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Télécommunication",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Réseau",
+      "proficiency": null,
+      "details": []
+    }
+  ],
+  "languages": [
+    {
+      "source_pages": [],
+      "name": "Français",
+      "proficiency": {
+        "text": "B2",
+        "type": "numeric",
+        "value": 2.0,
+        "maximum": 5.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Anglais",
+      "proficiency": {
+        "text": "A2",
+        "type": "numeric",
+        "value": 2.0,
+        "maximum": 5.0
+      },
+      "details": []
+    }
+  ],
+  "certifications": [
+    {
+      "source_pages": [],
+      "name": "Scientific Computing with Python",
+      "issuer": "freecodecamp.org",
+      "date": "3/2021",
+      "details": [
+        "najmiachraf/scientific-computing-with-python-v7"
+      ]
+    }
+  ],
+  "training": [],
+  "additional_sections": [
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "La plus grande partie de ma contribution à mon travail se situe dans le domaine du développement et maintenance informatique."
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "SOFTWARE PROGRAMS\nMaintenance\n\n        Schématisation\nPyCharm\n\n   B\n\nWindows\nmacOS\nCLion\nTerminal\nProteus\nMD\nOS\n\nJ’utilise régulièrement pour mes projets de développement PyCharm et CLion comme IDE, et j’utilise pour la capture schématique et la simulation Proteus CAD."
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "DEVELOPPEMENT INFORMATIQUE\n*  Python 3  ]  C\n                        Langage  Front End Back End\n\n* & ] & LATEX\nâ  intégré\n\nB  pyinstaller\n\n  matplotlib\n& sympy\n\n;  tkinter\n   numpy\n\nL  pandas\n\nÎ Syntaxe\n\nd Bibliothèques\n\nÑ Data Science\n           GUI\n\n¡ Data Analyse\n\nActuellement, je développe des applications en temps réel avec Python, et crée une interface graphique avec tkinter, et extrait du script ‘file.py‘ un fichier exécutable par pyinstaller en utilisant auto py to exe."
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "ACTIVITES\nParmis les dominantes activités que je pratique est de naviguer sur internet à la recherche de nouvelles sur le monde d’informatique et entraîné sur tous les tutoriels qui m’intéresse.\n\n Tutoriels\n      8\nZ Actualités Tech      repos\n                    publique\n§ Jeux Cérébrale\n\n Tutoriels\n      8\nZ Actualités Tech      repos\n                    publique\n\ndans mon\nCompte GitHub\n\nÎ Sport /no_think"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "document_id": "CV025",
+  "repetition": 5,
+  "status": "completed",
+  "metrics": {
+    "processing_seconds": 459.54981579995365
+  },
+  "stages": [
+    {
+      "name": "read_layout",
+      "method": "pdf_layout",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 0.05592619997332804,
+        "memory": {
+          "enabled": false
+        },
+        "page_count": 3,
+        "region_count": 5
+      },
+      "error": null
+    },
+    {
+      "name": "reading_order",
+      "method": "layout_reading_order",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 4.069998976774514e-05,
+        "memory": {
+          "enabled": false
+        },
+        "character_count": 5941,
+        "pages_without_text": []
+      },
+      "error": null
+    },
+    {
+      "name": "prepare_text",
+      "method": "join_page_text",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 1.6499980119988322e-05,
+        "memory": {
+          "enabled": false
+        },
+        "character_count": 5945
+      },
+      "error": null
+    },
+    {
+      "name": "structure_cv",
+      "method": "llm_structuring",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 459.49383240001043,
+        "memory": {
+          "enabled": false
+        },
+        "model": "qwen3:8b",
+        "input_tokens": 5120,
+        "cached_input_tokens": 5119,
+        "output_tokens": 3966,
+        "server_total_seconds": 457.4310317,
+        "model_load_seconds": 0.0041049,
+        "prompt_processing_seconds": 0.174859,
+        "generation_seconds": 457.22819
+      },
+      "error": null,
+      "artifacts_file": "artifacts.json"
+    }
+  ]
+}

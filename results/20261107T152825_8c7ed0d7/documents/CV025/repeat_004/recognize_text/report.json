@@ -1,0 +1,21 @@
+{
+  "name": "recognize_text",
+  "method": "tesseract_ocr",
+  "execution_status": "completed",
+  "outcome": "success",
+  "metrics": {
+    "duration_seconds": 3.0470251999795437,
+    "memory": {
+      "enabled": false
+    },
+    "engine": "tesseract",
+    "engine_version": "5.4.0.20240606",
+    "language": "eng",
+    "page_segmentation": 3,
+    "dpi": 300,
+    "page_count": 3,
+    "character_count": 5583,
+    "pages_without_text": []
+  },
+  "error": null
+}

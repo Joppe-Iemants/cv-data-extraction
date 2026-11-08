@@ -1,0 +1,16 @@
+{
+  "name": "recognize_text",
+  "method": "tesseract_ocr",
+  "execution_status": "error",
+  "outcome": null,
+  "metrics": {
+    "duration_seconds": 0.00019369996152818203,
+    "memory": {
+      "enabled": false
+    }
+  },
+  "error": {
+    "type": "ModuleNotFoundError",
+    "message": "No module named 'pytesseract'"
+  }
+}

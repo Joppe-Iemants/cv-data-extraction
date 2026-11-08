@@ -1,0 +1,353 @@
+{
+  "personal_information": {
+    "source_pages": [
+      1,
+      2
+    ],
+    "full_name": "John Doe",
+    "headline": null,
+    "emails": [],
+    "phones": [],
+    "location": "San Francisco,CA",
+    "weblinks": [
+      {
+        "url": "mailto:john.doe@email.com",
+        "platform": "email"
+      },
+      {
+        "url": "@ rendercv.com",
+        "platform": "twitter"
+      }
+    ],
+    "details": [
+      "© rendercv",
+      "RenderCV reads a CV written in a YAML file, and generates a PDF with professional typography.",
+      "Each section title is arbitrary.",
+      "You can choose any of the 9 entry types for each section.",
+      "Markdown syntax is supported everywhere. This is bold, italic, and link."
+    ]
+  },
+  "summary": null,
+  "work_experience": [
+    {
+      "source_pages": [
+        1
+      ],
+      "employer": "Nexus Al",
+      "role": "Co-Founder & CTO",
+      "client": null,
+      "dates": {
+        "start": "Sept 2018",
+        "end": "May 2023",
+        "duration": "4 years 10 months"
+      },
+      "location": "Princeton, NJ",
+      "details": [
+        "Built foundation model infrastructure serving 2M+ monthly API requests with 99.97% uptime",
+        "Raised $18M Series A led by Sequoia Capital, with participation from a16z and Founders Fund",
+        "Scaled engineering team from 3 to 28 across ML research, platform, and applied Al divisions",
+        "Developed proprietary inference optimization reducing latency by 73% compared to baseline"
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "employer": "NVIDIA Research",
+      "role": "Research Intern",
+      "client": null,
+      "dates": {
+        "start": "Sept 2014",
+        "end": "June 2018",
+        "duration": "3 years 10 months"
+      },
+      "location": "Istanbul, Turkiye",
+      "details": [
+        "Designed sparse attention mechanism reducing transformer memory footprint by 4.2x",
+        "Co-authored paper accepted at NeurlPS 2022 (spotlight presentation, top 5% of submissions)"
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "employer": "Google DeepMind",
+      "role": "Research Intern",
+      "client": null,
+      "dates": {
+        "start": "Sept 2014",
+        "end": "June 2018",
+        "duration": "3 years 10 months"
+      },
+      "location": "Istanbul, Turkiye",
+      "details": [
+        "Developed reinforcement learning algorithms for multi-agent coordination",
+        "Published research at top-tier venues with significant academic impact",
+        "ICML 2022 main conference paper, cited 340+ times within two years",
+        "NeurlPS 2022 workshop paper on emergent communication protocols",
+        "Invited journal extension in JMLR (2023)"
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "employer": "Apple ML Research",
+      "role": "Research Intern",
+      "client": null,
+      "dates": {
+        "start": "Sept 2014",
+        "end": "June 2018",
+        "duration": "3 years 10 months"
+      },
+      "location": "Istanbul, Turkiye",
+      "details": [
+        "Created on-device neural network compression pipeline deployed across 50M+ devices",
+        "Filed 2 patents on efficient model quantization techniques for edge inference"
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "employer": "Microsoft Research",
+      "role": "Research Intern",
+      "client": null,
+      "dates": {
+        "start": "Sept 2014",
+        "end": "June 2018",
+        "duration": "3 years 10 months"
+      },
+      "location": "Istanbul, Turkiye",
+      "details": [
+        "Implemented novel self-supervised learning framework for low-resource language modeling",
+        "Research integrated into Azure Cognitive Services, reducing training data requirements by 60%"
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        2
+      ],
+      "employer": "Nexus Al",
+      "role": "Co-Founder & CTO",
+      "client": null,
+      "dates": {
+        "start": "June 2023",
+        "end": "present",
+        "duration": "2 years 10 months"
+      },
+      "location": "San Francisco, CA",
+      "details": [],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        2
+      ],
+      "employer": "Nexus Al",
+      "role": "Co-Founder & CTO",
+      "client": null,
+      "dates": {
+        "start": "May 2022",
+        "end": "Aug 2022",
+        "duration": "4 months"
+      },
+      "location": "Santa Clara, CA",
+      "details": [],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        2
+      ],
+      "employer": "Nexus Al",
+      "role": "Co-Founder & CTO",
+      "client": null,
+      "dates": {
+        "start": "May 2021",
+        "end": "Aug 2021",
+        "duration": "4 months"
+      },
+      "location": "London, UK",
+      "details": [],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        2
+      ],
+      "employer": "Nexus Al",
+      "role": "Co-Founder & CTO",
+      "client": null,
+      "dates": {
+        "start": "May 2020",
+        "end": "Aug 2020",
+        "duration": "4 months"
+      },
+      "location": "Cupertino, CA",
+      "details": [],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        2
+      ],
+      "employer": "Nexus Al",
+      "role": "Co-Founder & CTO",
+      "client": null,
+      "dates": {
+        "start": "May 2019",
+        "end": "Aug 2019",
+        "duration": "4 months"
+      },
+      "location": "Redmond, WA",
+      "details": [],
+      "skills": []
+    }
+  ],
+  "projects": [
+    {
+      "source_pages": [
+        2
+      ],
+      "name": "Flashinfer",
+      "organization": "Open-source",
+      "client": null,
+      "role": null,
+      "dates": null,
+      "details": [
+        "Library for high-performance LLM inference kernels",
+        "Achieved 2.8x speedup over baseline attention implementations on A100 GPUs",
+        "Adopted by 3 major Al labs, 8,500+ GitHub stars, 200+ contributors"
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        2
+      ],
+      "name": "NeuralPrune",
+      "organization": "Publications",
+      "client": null,
+      "role": null,
+      "dates": null,
+      "details": [
+        "Automated neural network pruning toolkit with differentiable masks",
+        "Reduced model size by 90% with less than 1% accuracy degradation on ImageNet",
+        "Featured in PyTorch ecosystem tools, 4,200+ GitHub stars"
+      ],
+      "skills": []
+    }
+  ],
+  "education": [
+    {
+      "source_pages": [
+        1
+      ],
+      "institution": "Princeton University",
+      "qualification": "PhD Computer Science",
+      "dates": {
+        "start": "Sept 2018",
+        "end": "May 2023",
+        "duration": "4 years 10 months"
+      },
+      "details": [
+        "Thesis: Efficient Neural Architecture Search for Resource-Constrained Deployment",
+        "Advisor: Prof. Sanjeev Arora",
+        "NSF Graduate Research Fellowship, Siebel Scholar (Class of 2022)"
+      ]
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "institution": "Bogazici University",
+      "qualification": "BS Computer Engineering",
+      "dates": {
+        "start": "Sept 2014",
+        "end": "June 2018",
+        "duration": "3 years 10 months"
+      },
+      "details": [
+        "GPA: 3.97/4.00, Valedictorian",
+        "Fulbright Scholarship recipient for Graduate Studies"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "source_pages": [],
+      "name": "Languages",
+      "proficiency": {
+        "text": "Python, C++, CUDA, Rust, Julia",
+        "type": null,
+        "value": null,
+        "maximum": null
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "ML Frameworks",
+      "proficiency": {
+        "text": "PyTorch, JAX, TensorFlow, Triton, ONNX",
+        "type": null,
+        "value": null,
+        "maximum": null
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Infrastructure",
+      "proficiency": {
+        "text": "Kubernetes, Ray, distributed training, AWS, GCP",
+        "type": null,
+        "value": null,
+        "maximum": null
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Research Areas",
+      "proficiency": {
+        "text": "Neural architecture search, model compression, efficient inference, multi-agent RL",
+        "type": null,
+        "value": null,
+        "maximum": null
+      },
+      "details": []
+    }
+  ],
+  "languages": [],
+  "certifications": [],
+  "training": [],
+  "additional_sections": [
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "Publications\n\nJan 2023 - present\n\nJohn Doe, Sarah Williams, David Park\n10.1234/neurips.2023.1234 (NeurlPS 2023)\n\nJames Liu, John Doe\n\nMaria Garcia, John Doe, Tom Anderson\n10.1234/icml.2022.9012 (ICML 2022)\n\nJan 2021\n\nAutomated neural network pruning toolkit with differentiable masks\n\nReduced model size by 90% with less than 1% accuracy degradation on ImageNet\n\nFeatured in PyTorch ecosystem tools, 4,200+ GitHub stars\nSparse Mixture-of-Experts at Scale: Efficient Routing for Trillion-Parameter Models July 2023\nNeural Architecture Search via Differentiable Pruning Dec 2022\n10.1234/neurips.2022.5678 (NeurlPS 2022, Spotlight)\nMulti-Agent Reinforcement Learning with Emergent Communication July 2022\nOn-Device Model Compression via Learned Quantization May 2021\n\nJohn Doe, Kevin Wu\n10.1234/iclr.2021.3456 (ICLR 2021, Best Paper Award)"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "Selected Honors\n\n* MIT Technology Review 35 Under 35 Innovators (2024)\n\n¢ Forbes 30 Under 30 in Enterprise Technology (2024)\n\n« ACM Doctoral Dissertation Award Honorable Mention (2023)\n* Google PhD Fellowship in Machine Learning (2020 - 2023)\n\n¢ Fulbright Scholarship for Graduate Studies (2018)"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "Patents\n\n1. Adaptive Quantization for Neural Network Inference on Edge Devices (US Patent 11,234,567)\n\n2. Dynamic Sparsity Patterns for Efficient Transformer Attention (US Patent 11,345,678)\n3. Hardware-Aware Neural Architecture Search Method (US Patent 11,456,789)"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "Invited Talks\n\n4. Scaling Laws for Efficient Inference — Stanford HAI Symposium (2024)\n\n3. Building Al Infrastructure for the Next Decade — TechCrunch Disrupt (2024)\n\n2. From Research to Production: Lessons in ML Systems — NeurIPS Workshop (2023)\n1. Efficient Deep Learning: A Practitioner’s Perspective — Google Tech Talk (2022)"
+    }
+  ]
+}

@@ -1,0 +1,802 @@
+{
+  "personal_information": {
+    "source_pages": [
+      1
+    ],
+    "full_name": "QUIN1DUS EARL CREWS, JR., M. D.",
+    "headline": null,
+    "emails": [],
+    "phones": [],
+    "location": null,
+    "weblinks": [],
+    "details": [
+      "Date of Birth: 19 September 1929",
+      "Place of Birth: Port Arthur, Texas",
+      "Marital Status: Married 19 December 1954",
+      "Wife: Maybelle",
+      "Children: Quintous, III (3 Oct SS), Cynthia (6 Nov 57), Patricia (17 Mar 60), Victoria (2 Dec 68)"
+    ]
+  },
+  "summary": null,
+  "work_experience": [
+    {
+      "source_pages": [
+        1
+      ],
+      "employer": "Good Samaritan Hospital, Phoenix, Arizona",
+      "role": "Medical Officer, Duty Instruction",
+      "client": null,
+      "dates": {
+        "start": "19SS",
+        "end": "19S6",
+        "duration": null
+      },
+      "location": null,
+      "details": [],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "employer": "Radiology Residency, Naval Hospital, Oakland, California",
+      "role": null,
+      "client": null,
+      "dates": {
+        "start": "19S8",
+        "end": "1960",
+        "duration": null
+      },
+      "location": null,
+      "details": [],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "employer": "Fellow Therapeutic Radiology, Los Angeles Tumor Institute, Los Angeles, California",
+      "role": null,
+      "client": null,
+      "dates": {
+        "start": "1960",
+        "end": "1961",
+        "duration": null
+      },
+      "location": null,
+      "details": [],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "employer": "Fellow Therapeutic Radiology, M. D. Anderson Hospital, Houston, Texas",
+      "role": null,
+      "client": null,
+      "dates": {
+        "start": "1968",
+        "end": "1969",
+        "duration": null
+      },
+      "location": null,
+      "details": [],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "employer": "Diplomate, American fuard of Radiology",
+      "role": null,
+      "client": null,
+      "dates": {
+        "start": "1963",
+        "end": null,
+        "duration": null
+      },
+      "location": null,
+      "details": [],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "employer": "Fellow, American College of Radiology",
+      "role": null,
+      "client": null,
+      "dates": {
+        "start": "1973",
+        "end": null,
+        "duration": null
+      },
+      "location": null,
+      "details": [],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "employer": "Professional Licenses: Texas #C-5017 (20 Aug S5)",
+      "role": null,
+      "client": null,
+      "dates": {
+        "start": "20 Aug S5",
+        "end": null,
+        "duration": null
+      },
+      "location": null,
+      "details": [],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "employer": "Professional Licenses: California #18479 (8 Apr 57)",
+      "role": null,
+      "client": null,
+      "dates": {
+        "start": "8 Apr 57",
+        "end": null,
+        "duration": null
+      },
+      "location": null,
+      "details": [],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "employer": "Professional Licenses: Guam, Marianas Islands #oOOOlll (7 May 67)",
+      "role": null,
+      "client": null,
+      "dates": {
+        "start": "7 May 67",
+        "end": null,
+        "duration": null
+      },
+      "location": null,
+      "details": [],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "employer": "Professional Societies: The American College of Radiology",
+      "role": null,
+      "client": null,
+      "dates": {
+        "start": null,
+        "end": null,
+        "duration": null
+      },
+      "location": null,
+      "details": [],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "employer": "The Radiological Society of North America",
+      "role": null,
+      "client": null,
+      "dates": {
+        "start": null,
+        "end": null,
+        "duration": null
+      },
+      "location": null,
+      "details": [],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "employer": "The Society of C-ilclear Medicine",
+      "role": null,
+      "client": null,
+      "dates": {
+        "start": null,
+        "end": null,
+        "duration": null
+      },
+      "location": null,
+      "details": [],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "employer": "American Medical Association (Military)",
+      "role": null,
+      "client": null,
+      "dates": {
+        "start": null,
+        "end": null,
+        "duration": null
+      },
+      "location": null,
+      "details": [],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "employer": "American Society of Therapeutic Radiologists",
+      "role": null,
+      "client": null,
+      "dates": {
+        "start": null,
+        "end": null,
+        "duration": null
+      },
+      "location": null,
+      "details": [],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "employer": "California Radiation Therapy Association",
+      "role": null,
+      "client": null,
+      "dates": {
+        "start": null,
+        "end": null,
+        "duration": null
+      },
+      "location": null,
+      "details": [],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "employer": "San Diego Radiological Society",
+      "role": null,
+      "client": null,
+      "dates": {
+        "start": null,
+        "end": null,
+        "duration": null
+      },
+      "location": null,
+      "details": [],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "employer": "Association of Military Surgeons of the United States",
+      "role": null,
+      "client": null,
+      "dates": {
+        "start": null,
+        "end": null,
+        "duration": null
+      },
+      "location": null,
+      "details": [],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        2
+      ],
+      "employer": "Medical Officer, Duty Instruction, Naval Hospital, California",
+      "role": null,
+      "client": null,
+      "dates": {
+        "start": "1956-1958",
+        "end": null,
+        "duration": null
+      },
+      "location": null,
+      "details": [],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        2
+      ],
+      "employer": "Medical Officer, Naval Dispensary, Long Beach, California",
+      "role": null,
+      "client": null,
+      "dates": {
+        "start": "1958-1960",
+        "end": null,
+        "duration": null
+      },
+      "location": null,
+      "details": [],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        2
+      ],
+      "employer": "Duty Instruction, Los Angeles Tumor Institute, Los Angeles, California",
+      "role": null,
+      "client": null,
+      "dates": {
+        "start": "1960-1961",
+        "end": null,
+        "duration": null
+      },
+      "location": null,
+      "details": [],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        2
+      ],
+      "employer": "Assistant Chief, Radiology, Naval Hospital, Great Lakes, Illinois",
+      "role": null,
+      "client": null,
+      "dates": {
+        "start": "1961-1964",
+        "end": null,
+        "duration": null
+      },
+      "location": null,
+      "details": [],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        2
+      ],
+      "employer": "Chief, Radiology, Naval Hospital, Guam, Marianas Islands",
+      "role": null,
+      "client": null,
+      "dates": {
+        "start": "1964-1968",
+        "end": null,
+        "duration": null
+      },
+      "location": null,
+      "details": [],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        2
+      ],
+      "employer": "SeniOr Fellow Radiotherapy, Duty Instruct,ion, M. D. Anderson Hospital, Houston, Texas",
+      "role": null,
+      "client": null,
+      "dates": {
+        "start": "1968-1969",
+        "end": null,
+        "duration": null
+      },
+      "location": null,
+      "details": [],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        2
+      ],
+      "employer": "Assistant Chief, Radiology, Naval Hospital, San Diego, California",
+      "role": null,
+      "client": null,
+      "dates": {
+        "start": "1969-1970",
+        "end": null,
+        "duration": null
+      },
+      "location": null,
+      "details": [],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        2
+      ],
+      "employer": "Chief, Radiology, Naval Regional Medical Center, San Diego, California",
+      "role": null,
+      "client": null,
+      "dates": {
+        "start": "1970-1976",
+        "end": null,
+        "duration": null
+      },
+      "location": null,
+      "details": [],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        2
+      ],
+      "employer": "Director of Clinical Services, National Naval Medical Center, Bethesda, Maryland",
+      "role": null,
+      "client": null,
+      "dates": {
+        "start": "1970-1976",
+        "end": null,
+        "duration": null
+      },
+      "location": null,
+      "details": [],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        2
+      ],
+      "employer": "Commanding Officer, Naval Regional Medical Center, Long Beach, California",
+      "role": null,
+      "client": null,
+      "dates": {
+        "start": "1970-1976",
+        "end": null,
+        "duration": null
+      },
+      "location": null,
+      "details": [],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        2
+      ],
+      "employer": "Consultant Radiologist, Guam Memorial Hospital, Guam, Marianas Islands",
+      "role": null,
+      "client": null,
+      "dates": {
+        "start": "1970-1976",
+        "end": null,
+        "duration": null
+      },
+      "location": null,
+      "details": [],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        2
+      ],
+      "employer": "Consultant Radiologist, U. S. Trust Territories of Pacific, HQ Saipan, Marianas Islands",
+      "role": null,
+      "client": null,
+      "dates": {
+        "start": "1970-1976",
+        "end": null,
+        "duration": null
+      },
+      "location": null,
+      "details": [],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        2
+      ],
+      "employer": "Consultant Radiologist, Andersen Air Force Base, Guam, Marianas Islands",
+      "role": null,
+      "client": null,
+      "dates": {
+        "start": "1970-1976",
+        "end": null,
+        "duration": null
+      },
+      "location": null,
+      "details": [],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        2
+      ],
+      "employer": "Professional Director of X-Ray Technique School, Hospital Corps School, San Diego, California",
+      "role": null,
+      "client": null,
+      "dates": {
+        "start": "1970-1976",
+        "end": null,
+        "duration": null
+      },
+      "location": null,
+      "details": [],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        2
+      ],
+      "employer": "Associate Clinical Professor, Department of Radiology, University of California, San Diego, California",
+      "role": null,
+      "client": null,
+      "dates": {
+        "start": "1970-1976",
+        "end": null,
+        "duration": null
+      },
+      "location": null,
+      "details": [],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        2
+      ],
+      "employer": "Assistant Clinical Professor of Radiology, University of Southern California School of Medicine, Los Angeles, California",
+      "role": null,
+      "client": null,
+      "dates": {
+        "start": "1970-1976",
+        "end": null,
+        "duration": null
+      },
+      "location": null,
+      "details": [],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        2
+      ],
+      "employer": "Navy Alternate Counselor, American College of Radiology",
+      "role": null,
+      "client": null,
+      "dates": {
+        "start": "1970-1976",
+        "end": null,
+        "duration": null
+      },
+      "location": null,
+      "details": [],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        2
+      ],
+      "employer": "Surveyor on Joint Review Committee on Education in Radiologic Technology",
+      "role": null,
+      "client": null,
+      "dates": {
+        "start": "1970-1976",
+        "end": null,
+        "duration": null
+      },
+      "location": null,
+      "details": [],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        2
+      ],
+      "employer": "Clinical Professor of Radiology, George Washington University, Washington, D. C.",
+      "role": null,
+      "client": null,
+      "dates": {
+        "start": "1970-1976",
+        "end": null,
+        "duration": null
+      },
+      "location": null,
+      "details": [],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        2
+      ],
+      "employer": "Radiological Advisor to the Surgeon General, Bureau of Medicine and Surgery, Department of the Navy",
+      "role": null,
+      "client": null,
+      "dates": {
+        "start": "1970-1976",
+        "end": null,
+        "duration": null
+      },
+      "location": null,
+      "details": [],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        2
+      ],
+      "employer": "Navy Counselor, American College of Radiology",
+      "role": null,
+      "client": null,
+      "dates": {
+        "start": "1970-1976",
+        "end": null,
+        "duration": null
+      },
+      "location": null,
+      "details": [],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        2
+      ],
+      "employer": "Fellow, American College of Radiology",
+      "role": null,
+      "client": null,
+      "dates": {
+        "start": "1970-1976",
+        "end": null,
+        "duration": null
+      },
+      "location": null,
+      "details": [],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        2
+      ],
+      "employer": "Member, Joint Review Committee on Education in Radiologic Technology",
+      "role": null,
+      "client": null,
+      "dates": {
+        "start": "1970-1976",
+        "end": null,
+        "duration": null
+      },
+      "location": null,
+      "details": [],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        3
+      ],
+      "employer": "Associate Dean for Academic Affairs, Uniformed Services University of the Health Sciences",
+      "role": null,
+      "client": null,
+      "dates": {
+        "start": "1977-1978",
+        "end": null,
+        "duration": null
+      },
+      "location": null,
+      "details": [],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        3
+      ],
+      "employer": "Navy Counselor, Radiological Society of North America",
+      "role": null,
+      "client": null,
+      "dates": {
+        "start": "1977-Present",
+        "end": null,
+        "duration": null
+      },
+      "location": null,
+      "details": [],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        3
+      ],
+      "employer": "Associate Clinical Professor of Radiology, University of Southern California School of Medicine, Los Angeles, California",
+      "role": null,
+      "client": null,
+      "dates": {
+        "start": "1979-Present",
+        "end": null,
+        "duration": null
+      },
+      "location": null,
+      "details": [],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        3
+      ],
+      "employer": "Attending Physician, Department of Health Services, Memorial Hospital Medical Center/UC, Irvine",
+      "role": null,
+      "client": null,
+      "dates": {
+        "start": "1979-Present",
+        "end": null,
+        "duration": null
+      },
+      "location": null,
+      "details": [],
+      "skills": []
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "source_pages": [
+        1
+      ],
+      "institution": "Lamar Junior College, Beaumont, Texas",
+      "qualification": "1948-19SO",
+      "dates": {
+        "start": "1948",
+        "end": "19SO",
+        "duration": null
+      },
+      "details": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "institution": "University of Texas, Austin, Texas",
+      "qualification": "19S0-19Sl",
+      "dates": {
+        "start": "19S0",
+        "end": "19Sl",
+        "duration": null
+      },
+      "details": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "institution": "University of Texas School of Medicine, Galveston, Texas",
+      "qualification": "Medical School: 19Sl-19SS, M. D. Degree 3 June 19SS",
+      "dates": {
+        "start": "19Sl",
+        "end": "19SS",
+        "duration": null
+      },
+      "details": [
+        "M. D. Degree 3 June 19SS"
+      ]
+    }
+  ],
+  "skills": [],
+  "languages": [],
+  "certifications": [
+    {
+      "source_pages": [],
+      "name": "Diplomate, American fuard of Radiology",
+      "issuer": null,
+      "date": "1963",
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Fellow, American College of Radiology",
+      "issuer": null,
+      "date": "1973",
+      "details": []
+    }
+  ],
+  "training": [],
+  "additional_sections": [
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "1.  Crews, Q.E.: Observations on the Combined Use of 5-Fluorouracil and 2 MEV Radiation in Advanced Solid Tumors in Man.  Cancer Chemotherapy Reports, No. 14, October 1961.\n\n2.  Hare, H.F., and Crews, Q.E.: Nasopharyngeal Tumors: Three to Five Year Survivals.  The American Journal of Roentgenology, Radium Therapy and Nuclear Medicine.  Vol. 89, No.  1, January 1963.\n\n3.   Rosenzweig, A. L., Crews, Q. E., and Hopwood, H. G.:  Vinbalstine Sulfate in Hodgkins' Disease in Pregnancy.  Annals of Internal Medicine, Vol. 61, No. 1 1964.\n\n4.  Crews, Q. E., and Fletcher, G. H.: Comparative Evaluation of the Sequential Use of Radiation and Surgery in Primary Tumors of the Oral Cavity, Oropharynx, Larynx and HyPopharynx.  The American Journal of Roentgenology, Radium Therapy and Nuclear Medicine.  Vol.  III:73, No.  1, January 1971.\n\n5.   Schroeder, A.F., Crews, Q.E., and Rotner, M.B.: Combined Treatment of Non-Seminoma Testicular Cancer.  Frontiers of Radiation Therapy and Oncology. Vol.  5, pp 240-250, 1970.\n\n6.  Asher, W. M .• and Crews, Q. E.:  Radiation Therapy Applications of Diagnostic Ultrasound.  Abstract published in the proceedings of the Third international Conference on Medical Physics, Goteborg, Sweden, 1972.\n\n7.   Hill, D.R., Crews, Q. E., and Walsh, P.D.:  Prostate Carcinoma:  Radiation Therapy of Primary and Regional Lymphatics.  Cancer, 34-156-60, July 1974.\n\n8.   Safer, M.L., Green, J.P., Crews, Q.E., and Hill, D.R.: Lymphangiogram Accuracy in the Staging of Testicular Tumors.  Cancer Journal, Vol. 35, pp _160-163, June 1975.\n\n9.   Williams, D. M., Wilcox,  J. R., Asher, W. M., Crews, Q. E.: A Non-Invasive Tec.:hnlque for Estimating Renal Volume in Vivo.  \"Work in Progress,\" RSNA, Dec  197.S.\n\n10.  Green, N., Kurohara, S.S., George, F. W., Crews, Q. E.: Postresection Irradiation for Primary Lung Cancer.  Radiology.  Vol. 116, No.  2, pp 405-407, August 1975.\n\n11.  Green, J.P., Marriott, J.D., Halpern, S.E., Crews, Q.E.:  Thyroid Uptake of 131  - I:  Furtger Comparisons of Capsules and Liquid Preparation.  Journal of Nuclear Medicine.  Vol,  17, No.  4, pp 310-312, April 1976.\n\n12.  Stolz, Jonathan L., Rominger, C. Jules, Crews, Q. E.:  Radiologic Technology and Education: The Role of the Radiologist.  Radiology.  Vol. 134, No.  3, pp 787-788, March, 1980."
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "Lectures:\n\n1.  \"Radium and Interstial Therapy Techniques. \"  Radiation Oncology Lecture Series  - Naval Regional Medical Center, San Diego, California, 1973-1976.\n\n2.   \"Early Detection of Breast Cancer.\" Ambulatory Health Care Symposium, 1975, Hilton Hotel, San Diego, California.\n\n3.   \"History of Radioactivity  - How, When and Why It All Began.\" Nuclear Accident Symposium, 7 April 1979, Naval Support Activity, Long Beach, California.\n\n4.  \"Overview Radiation Oncology.\"  28 April 1980, Lorna Linda University School of Medicine, Lorna Linda,  California."
+    }
+  ]
+}

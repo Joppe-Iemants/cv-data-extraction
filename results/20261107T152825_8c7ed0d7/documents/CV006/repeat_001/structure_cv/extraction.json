@@ -1,0 +1,366 @@
+{
+  "personal_information": {
+    "source_pages": [
+      1
+    ],
+    "full_name": "Jan Kiister",
+    "headline": null,
+    "emails": [
+      "info@jankuester.com"
+    ],
+    "phones": [
+      "+49 176 313 877 34"
+    ],
+    "location": "Bremen, Germany",
+    "weblinks": [],
+    "details": []
+  },
+  "summary": "JAN | KUSTER a a | am a digital media graduate (M.Sc.) with project ex-»Status: — Fullstack JS Engineer, MSc. Digital Media, Consultant) Fields: Project Management, Software Development, Consulting experience in educational research as well as in the private sector. During my studies | focused on e-assessment software and moved over to b2b software for IBM Notes Domino. Currently | develop and evaluate the next generation learning management system with Meteor based on an extensive nursing curriculum for healthcare education. | also love fitness, martial arts, videogames, news and Sci-Fi series.» Tech: Meteor, Javascript, Bootstrap, Mongodb, Git, Webstorm, Sourcetree, Terminal» Loves: Global Game Jam, Sci-Fi series, Stackoverflow, Fitness and Martial Arts",
+  "work_experience": [
+    {
+      "source_pages": [
+        1
+      ],
+      "employer": "University of Bremen",
+      "role": "Fullstack Javascript Engineer",
+      "client": null,
+      "dates": {
+        "start": "2016 / 09",
+        "end": null,
+        "duration": null
+      },
+      "location": null,
+      "details": [
+        "Invent a realtime classroom management using Meteor and React",
+        "Design — software development architecture and leading"
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "employer": "We4lT GmbH Bremen",
+      "role": "IT Consultant for IBM XPages and Notes Domino",
+      "client": null,
+      "dates": {
+        "start": "2014",
+        "end": "2016",
+        "duration": null
+      },
+      "location": null,
+      "details": [
+        "Realize projects in XPages and We4IT Aveedo, monitor project status, conduct reports",
+        "Integrated Camunda BPMN engine and BPMN.IO modeler in We4lT Aveedo"
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "employer": "University of Bremen",
+      "role": "Scientific Employee / Software Development",
+      "client": null,
+      "dates": {
+        "start": "2012",
+        "end": "2014",
+        "duration": null
+      },
+      "location": null,
+      "details": [
+        "Invented a flexible assessment framework, targeting industrial trainees",
+        "Supervised software development lifecycle, Recruited team members"
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "employer": "Getog Consulting",
+      "role": "Project Management Simulation Training",
+      "client": null,
+      "dates": {
+        "start": "2011 / 11",
+        "end": null,
+        "duration": null
+      },
+      "location": null,
+      "details": [
+        "Performed a two-day project simulation from management perspective",
+        "Topics included customer contracts, change management, controlling, operational tasks"
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "employer": "otulea.uni-bremen.de",
+      "role": "Student Assistant / Programmer",
+      "client": null,
+      "dates": {
+        "start": "2010",
+        "end": "2011",
+        "duration": null
+      },
+      "location": null,
+      "details": [
+        "Realized an online diagnosis platform for workforce literacy development (Flex)",
+        "Modeled software design, implemented various prototypes, conducted usability tests"
+      ],
+      "skills": []
+    }
+  ],
+  "projects": [
+    {
+      "source_pages": [
+        1
+      ],
+      "name": "Master Project - PriMA",
+      "organization": "University of Bremen",
+      "client": null,
+      "role": null,
+      "dates": {
+        "start": "2012 - 2013",
+        "end": null,
+        "duration": null
+      },
+      "details": [
+        "Co-lInvented a touch table application for medical support, co-developed software (Java)",
+        "Formed a scrum team, maintained project dev server (Debian), surveyed target audience"
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "name": "Master Thesis: Seri Automated Scoring in Technology Based Assessment",
+      "organization": "University of Bremen",
+      "client": null,
+      "role": null,
+      "dates": {
+        "start": "2015 / 07",
+        "end": null,
+        "duration": null
+      },
+      "details": [
+        "Developed and evaluated an algorithm for semi automated scoring of spreadsheet data"
+      ],
+      "skills": []
+    }
+  ],
+  "education": [
+    {
+      "source_pages": [
+        1
+      ],
+      "institution": "University of Bremen",
+      "qualification": "M.Sc. Digital Media",
+      "dates": {
+        "start": "2015 / 07",
+        "end": null,
+        "duration": null
+      },
+      "details": [
+        "Master Thesis: Seri Automated Scoring in Technology Based Assessment"
+      ]
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "institution": "University of Bremen",
+      "qualification": "Master Project - PriMA",
+      "dates": {
+        "start": "2012 - 2013",
+        "end": null,
+        "duration": null
+      },
+      "details": [
+        "Co-lInvented a touch table application for medical support, co-developed software (Java)",
+        "Formed a scrum team, maintained project dev server (Debian), surveyed target audience"
+      ]
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "institution": "University of Bremen",
+      "qualification": "Master Studies Digital Media",
+      "dates": {
+        "start": "2012 - 2015",
+        "end": null,
+        "duration": null
+      },
+      "details": [
+        "Inter-cultural classes in English, covering special topics in computer science and design",
+        "Professionalized in research methods, software development and e-assessment"
+      ]
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "institution": "University of Melbourne",
+      "qualification": "Semester Abroad",
+      "dates": {
+        "start": "2009 - 2010",
+        "end": null,
+        "duration": null
+      },
+      "details": [
+        "Mastered six months of study and trans-cultural experience in Melbourne, Australia",
+        "Finished machine programming, information visualization, professional essay writing"
+      ]
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "institution": "University of Bremen",
+      "qualification": "Bachelor Studies Digital Media",
+      "dates": {
+        "start": "2007 - 2012",
+        "end": null,
+        "duration": null
+      },
+      "details": [
+        "Fundamentals in Computer Science",
+        "Bachelor thesis focused on experimental redesign of the keyboard to support functional illiterates."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "source_pages": [],
+      "name": "Meteor",
+      "proficiency": {
+        "text": "Fluent",
+        "type": "numeric",
+        "value": 10.0,
+        "maximum": 10.0
+      },
+      "details": [
+        "Invent a realtime classroom management using Meteor and React"
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "Javascript",
+      "proficiency": {
+        "text": "Fluent",
+        "type": "numeric",
+        "value": 10.0,
+        "maximum": 10.0
+      },
+      "details": [
+        "Invent a realtime classroom management using Meteor and React"
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "Bootstrap",
+      "proficiency": {
+        "text": "Fluent",
+        "type": "numeric",
+        "value": 10.0,
+        "maximum": 10.0
+      },
+      "details": [
+        "Invent a realtime classroom management using Meteor and React"
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "Mongodb",
+      "proficiency": {
+        "text": "Fluent",
+        "type": "numeric",
+        "value": 10.0,
+        "maximum": 10.0
+      },
+      "details": [
+        "Invent a realtime classroom management using Meteor and React"
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "Git",
+      "proficiency": {
+        "text": "Fluent",
+        "type": "numeric",
+        "value": 10.0,
+        "maximum": 10.0
+      },
+      "details": [
+        "Invent a realtime classroom management using Meteor and React"
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "Webstorm",
+      "proficiency": {
+        "text": "Fluent",
+        "type": "numeric",
+        "value": 10.0,
+        "maximum": 10.0
+      },
+      "details": [
+        "Invent a realtime classroom management using Meteor and React"
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "Sourcetree",
+      "proficiency": {
+        "text": "Fluent",
+        "type": "numeric",
+        "value": 10.0,
+        "maximum": 10.0
+      },
+      "details": [
+        "Invent a realtime classroom management using Meteor and React"
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "Terminal",
+      "proficiency": {
+        "text": "Fluent",
+        "type": "numeric",
+        "value": 10.0,
+        "maximum": 10.0
+      },
+      "details": [
+        "Invent a realtime classroom management using Meteor and React"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "source_pages": [],
+      "name": "English",
+      "proficiency": {
+        "text": "Fluent",
+        "type": "numeric",
+        "value": 10.0,
+        "maximum": 10.0
+      },
+      "details": [
+        "Inter-cultural classes in English, covering special topics in computer science and design"
+      ]
+    }
+  ],
+  "certifications": [],
+  "training": [],
+  "additional_sections": [
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "» Loves: Global Game Jam, Sci-Fi series, Stackoverflow, Fitness and Martial Arts"
+    }
+  ]
+}

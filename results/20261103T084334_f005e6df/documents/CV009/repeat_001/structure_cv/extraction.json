@@ -1,0 +1,384 @@
+{
+  "personal_information": {
+    "source_pages": [
+      1
+    ],
+    "full_name": "JAN KÜSTER",
+    "headline": null,
+    "emails": [
+      "info@jankuester.com"
+    ],
+    "phones": [
+      "+49 176 *** *** **"
+    ],
+    "location": "Bremen, Germany",
+    "weblinks": [
+      {
+        "url": "www.jankuester.com",
+        "platform": null
+      },
+      {
+        "url": "github.com/jankapunkt",
+        "platform": null
+      }
+    ],
+    "details": [
+      "@Kuester_Jan"
+    ]
+  },
+  "summary": null,
+  "work_experience": [
+    {
+      "source_pages": [
+        1
+      ],
+      "employer": "University of Bremen",
+      "role": "Software Engineer",
+      "client": null,
+      "dates": {
+        "start": "9/2016",
+        "end": "11/2014",
+        "duration": null
+      },
+      "location": null,
+      "details": [
+        "Software Engineer @UB"
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "employer": "University of Bremen",
+      "role": "Scientific Employee",
+      "client": null,
+      "dates": {
+        "start": "1/2012",
+        "end": null,
+        "duration": null
+      },
+      "location": null,
+      "details": [
+        "Scientific Employee @UB"
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "employer": "We4IT",
+      "role": "IT Consultant",
+      "client": null,
+      "dates": {
+        "start": "11/2012",
+        "end": "6/2011",
+        "duration": null
+      },
+      "location": null,
+      "details": [
+        "IT Consultant @We4IT"
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "employer": "University of Bremen",
+      "role": "Student Assistant",
+      "client": null,
+      "dates": {
+        "start": "6/2010",
+        "end": null,
+        "duration": null
+      },
+      "location": null,
+      "details": [
+        "Student Assistant @UB"
+      ],
+      "skills": []
+    }
+  ],
+  "projects": [
+    {
+      "source_pages": [
+        1
+      ],
+      "name": "Meteor Impact Conference",
+      "organization": null,
+      "client": null,
+      "role": null,
+      "dates": {
+        "start": "10/2020",
+        "end": null,
+        "duration": null
+      },
+      "details": [
+        "Meteor Impact Conference"
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "name": "Startup Weekend",
+      "organization": null,
+      "client": null,
+      "role": null,
+      "dates": {
+        "start": "5/2016",
+        "end": null,
+        "duration": null
+      },
+      "details": [
+        "Startup Weekend"
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "name": "Master Project - PrIMA",
+      "organization": null,
+      "client": null,
+      "role": null,
+      "dates": {
+        "start": "11/2012",
+        "end": "7/2015",
+        "duration": null
+      },
+      "details": [
+        "Master Project - PrIMA"
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "name": "DELFI Conference",
+      "organization": null,
+      "client": null,
+      "role": null,
+      "dates": {
+        "start": "9/2013",
+        "end": null,
+        "duration": null
+      },
+      "details": [
+        "DELFI Conference"
+      ],
+      "skills": []
+    }
+  ],
+  "education": [
+    {
+      "source_pages": [
+        1
+      ],
+      "institution": "University of Bremen",
+      "qualification": "M.Sc. Digital Media",
+      "dates": {
+        "start": "7/2015",
+        "end": null,
+        "duration": null
+      },
+      "details": [
+        "as latest degree from University of Bremen",
+        "M.Sc. Digital Media"
+      ]
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "institution": "University of Bremen",
+      "qualification": "Bachelor Studies",
+      "dates": {
+        "start": "10/2007",
+        "end": null,
+        "duration": null
+      },
+      "details": [
+        "Bachelor Studies"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "source_pages": [],
+      "name": "Software Engineering",
+      "proficiency": null,
+      "details": [
+        "The biggest part I contribute to my work is in the area of Software Engineering."
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "Consulting",
+      "proficiency": null,
+      "details": [
+        "Consulting"
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "Design",
+      "proficiency": null,
+      "details": [
+        "Design"
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "Research",
+      "proficiency": null,
+      "details": [
+        "Research"
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "Javascript",
+      "proficiency": null,
+      "details": [
+        "Javascript"
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "Blaze",
+      "proficiency": null,
+      "details": [
+        "Blaze"
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "Metor",
+      "proficiency": null,
+      "details": [
+        "Metor"
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "Bootstrap",
+      "proficiency": null,
+      "details": [
+        "Bootstrap"
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "MongoDB",
+      "proficiency": null,
+      "details": [
+        "MongoDB"
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "HTML/CSS",
+      "proficiency": null,
+      "details": [
+        "HTML/CSS"
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "LaTex",
+      "proficiency": null,
+      "details": [
+        "LaTex"
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "Webstorm",
+      "proficiency": null,
+      "details": [
+        "Webstorm"
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "Git",
+      "proficiency": null,
+      "details": [
+        "Git"
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "Sourcetree",
+      "proficiency": null,
+      "details": [
+        "Sourcetree"
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "Linux",
+      "proficiency": null,
+      "details": [
+        "Linux"
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "Oﬃce",
+      "proficiency": null,
+      "details": [
+        "Oﬃce"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "source_pages": [],
+      "name": "German",
+      "proficiency": {
+        "text": "native",
+        "type": null,
+        "value": null,
+        "maximum": null
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "English",
+      "proficiency": {
+        "text": "c1",
+        "type": null,
+        "value": null,
+        "maximum": null
+      },
+      "details": []
+    }
+  ],
+  "certifications": [],
+  "training": [],
+  "additional_sections": [
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "And I am always look-\nning  for new  exciting\nand   interdisciplinary\nprojects worldwide.\n\n www.jankuester.com\n\n    github.com/jankapunkt\n\n   7 @Kuester_Jan"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "EXPERIENCE AND EDUCATION\n\nJAN KÜSTER\nCONSULTANT/ SOFTWARE ENG.\n\nJAN KÜSTER\nC        / S       E\n\nI am a digital media\ngraduate with working\nexperience in research\nprojects as well as in\nthe private sector.\n\nM.Sc.\n    Digital Media\n\nas latest degree from\nUniversity of Bremen\n\n2021\n\n\n 2007\n\nExperience Events Education\n\n10/2020 Meteor Impact Conference\n\n10/2018 Software Engineer @UB\n\n9/2016 Software Engineer @UB\n\n5/2016 Startup Weekend\n\n7/2015 M.Sc. Graduation\n\n11/2014 IT Consultant @We4IT\n\n9/2013 DELFI Conference\n\n11/2012 Master Project - PrIMA\n\n1/2012 Scientiﬁc Employee @UB\n\n6/2011 PM Training\n\n6/2010 Student Assistant @UB\n\n5/2009 Semester Abroad\n\n10/2007 Bachelor Studies\n\n\n     @UB = University of Bremen"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "SKILLS AND TECHNOLOGIES\n\nThe biggest  part   I con-\ntribute to my work is in the\narea of Software Engineer-                               Projects\ning.\n\n\n LANGUAGES\n\n ^  German (native)\n\n ^  English (c1)\n\n\n\n  Javascript\n      Blaze\n     Metor\n  Bootstrap\n MongoDB\nHTML/CSS\n      LaTex\nResearch\n                        Consulting\n\n                           Design\n\n\n                 Software Engineering\n\n\n                Currently, I develop re-\n               altime apps with Me-\n                teor and Blaze.\n              Formerly I worked with\n              Java and XPages.\n\nWebstorm    Git   Sourcetree  Linux   Oﬃce\n\nI regularly use Me-\nteor,  Git and Web-\nstorm  for my dev\nprojects.\n\n\n ACTVITIES\n\n  7\n   years\n\nof participation at\nGlobal Game Jam\n\nStackoverﬂow\n\nNews\n\nFitness\n\nGame Dev\n\nIn my freetime  I read lots\nof news and help others on\nStackoverﬂow.  Via body-\nweight training  I keep my\nbody and mind in balance."
+    }
+  ]
+}

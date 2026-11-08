@@ -1,0 +1,236 @@
+{
+  "page_count": 1,
+  "pages": [
+    {
+      "page_number": 1,
+      "width": 595.2760009765625,
+      "height": 841.8900146484375,
+      "regions": [
+        {
+          "region_number": 1,
+          "bbox": [
+            253,
+            20,
+            378,
+            167
+          ],
+          "text_bbox": [
+            253.53900146484375,
+            20.579071044921875,
+            377.26507568359375,
+            166.6044921875
+          ],
+          "text": "½  Bremen, Germany\n\n    Æ  +49 176 *** *** **\n\n > info@jankuester.com\n\n\n\n\n\nAnd I am always look-\ning  for new  exciting\nand   interdisciplinary\nprojects worldwide."
+        },
+        {
+          "region_number": 2,
+          "bbox": [
+            383,
+            20,
+            538,
+            109
+          ],
+          "text_bbox": [
+            383.6490173339844,
+            20.873138427734375,
+            537.33544921875,
+            108.9552230834961
+          ],
+          "text": " www.jankuester.com\n\n    github.com/jankapunkt\n\n   7 @Kuester_Jan\n\n\n\n\nEXPERIENCE AND EDUCATION"
+        },
+        {
+          "region_number": 3,
+          "bbox": [
+            37,
+            22,
+            237,
+            66
+          ],
+          "text_bbox": [
+            37.3129997253418,
+            22.760669708251953,
+            236.3325653076172,
+            65.37120056152344
+          ],
+          "text": "JAN KÜSTER\nCONSULTANT/ SOFTWARE ENG."
+        },
+        {
+          "region_number": 4,
+          "bbox": [
+            37,
+            22,
+            218,
+            52
+          ],
+          "text_bbox": [
+            37.3129997253418,
+            22.760669708251953,
+            217.67755126953125,
+            65.37120056152344
+          ],
+          "text": "JAN KÜSTER\nC        / S       E"
+        },
+        {
+          "region_number": 5,
+          "bbox": [
+            30,
+            119,
+            123,
+            173
+          ],
+          "text_bbox": [
+            30.63299560546875,
+            119.7573471069336,
+            122.78069305419922,
+            172.08349609375
+          ],
+          "text": "I am a digital media\ngraduate with working\nexperience in research\nprojects as well as in\nthe private sector."
+        },
+        {
+          "region_number": 6,
+          "bbox": [
+            143,
+            119,
+            234,
+            201
+          ],
+          "text_bbox": [
+            143.17599487304688,
+            119.95166778564453,
+            233.14491271972656,
+            200.3803253173828
+          ],
+          "text": "M.Sc.\n    Digital Media\n\n\n\n\nas latest degree from\nUniversity of Bremen"
+        },
+        {
+          "region_number": 7,
+          "bbox": [
+            387,
+            144,
+            417,
+            776
+          ],
+          "text_bbox": [
+            387.5700378417969,
+            144.71221923828125,
+            416.3462219238281,
+            775.3651733398438
+          ],
+          "text": "2021\n\n\n\n\n\n 2007"
+        },
+        {
+          "region_number": 8,
+          "bbox": [
+            431,
+            149,
+            584,
+            793
+          ],
+          "text_bbox": [
+            431.4730529785156,
+            149.22720336914062,
+            583.417724609375,
+            792.6167602539062
+          ],
+          "text": "Experience Events Education\n\n\n10/2020 Meteor Impact Conference\n\n\n\n\n\n10/2018 Software Engineer @UB\n\n\n\n\n\n9/2016 Software Engineer @UB\n\n5/2016 Startup Weekend\n\n\n\n7/2015 M.Sc. Graduation\n\n\n11/2014 IT Consultant @We4IT\n\n\n\n\n\n9/2013 DELFI Conference\n\n\n\n11/2012 Master Project - PrIMA\n\n\n\n1/2012 Scientiﬁc Employee @UB\n\n\n6/2011 PM Training\n\n\n\n\n6/2010 Student Assistant @UB\n\n\n\n\n5/2009 Semester Abroad\n\n\n\n\n\n10/2007 Bachelor Studies\n\n\n\n\n\n     @UB = University of Bremen"
+        },
+        {
+          "region_number": 9,
+          "bbox": [
+            30,
+            237,
+            193,
+            545
+          ],
+          "text_bbox": [
+            30.63300132751465,
+            237.61024475097656,
+            192.6608428955078,
+            544.9034423828125
+          ],
+          "text": "SKILLS AND TECHNOLOGIES\n\n\n\nThe biggest  part   I con-\ntribute to my work is in the\narea of Software Engineer-                               Projects\ning.\n\n\n\n LANGUAGES\n\n ^  German (native)\n\n ^  English (c1)\n\n\n\n\n\n  Javascript\n\n      Blaze\n\n     Metor\n\n  Bootstrap\n\n MongoDB\n\nHTML/CSS\n\n      LaTex"
+        },
+        {
+          "region_number": 10,
+          "bbox": [
+            193,
+            258,
+            360,
+            526
+          ],
+          "text_bbox": [
+            193.70301818847656,
+            258.0903625488281,
+            359.5517883300781,
+            525.314453125
+          ],
+          "text": "Research\n                        Consulting\n\n\n\n                           Design\n\n\n\n\n\n                 Software Engineering\n\n\n\n\n\n                Currently, I develop re-\n               altime apps with Me-\n                teor and Blaze.\n              Formerly I worked with\n              Java and XPages."
+        },
+        {
+          "region_number": 11,
+          "bbox": [
+            139,
+            596,
+            344,
+            605
+          ],
+          "text_bbox": [
+            139.7620086669922,
+            596.13916015625,
+            343.3540954589844,
+            604.679443359375
+          ],
+          "text": "Webstorm    Git   Sourcetree  Linux   Oﬃce"
+        },
+        {
+          "region_number": 12,
+          "bbox": [
+            30,
+            597,
+            116,
+            793
+          ],
+          "text_bbox": [
+            30.633014678955078,
+            597.521240234375,
+            115.67036437988281,
+            792.88916015625
+          ],
+          "text": "I regularly use Me-\nteor,  Git and Web-\nstorm  for my dev\nprojects.\n\n\n\n\n ACTVITIES\n\n  7\n   years\n\n\n\nof participation at\nGlobal Game Jam"
+        },
+        {
+          "region_number": 13,
+          "bbox": [
+            300,
+            713,
+            359,
+            782
+          ],
+          "text_bbox": [
+            300.406005859375,
+            713.5592041015625,
+            358.99249267578125,
+            781.4284057617188
+          ],
+          "text": "Stackoverﬂow\n\nNews\n\n\nFitness\n\nGame Dev"
+        },
+        {
+          "region_number": 14,
+          "bbox": [
+            117,
+            717,
+            232,
+            771
+          ],
+          "text_bbox": [
+            117.95901489257812,
+            717.6881713867188,
+            231.34814453125,
+            770.014404296875
+          ],
+          "text": "In my freetime  I read lots\nof news and help others on\nStackoverﬂow.  Via body-\nweight training  I keep my\nbody and mind in balance."
+        }
+      ]
+    }
+  ]
+}

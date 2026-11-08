@@ -1,0 +1,35 @@
+{
+  "personal_information": {
+    "source_pages": [
+      1
+    ],
+    "full_name": "Jan Küster",
+    "headline": "Consultant and Software Engineer",
+    "emails": [],
+    "phones": [],
+    "location": "Bremen, Germany",
+    "weblinks": [
+      {
+        "url": "www.jankuester.com",
+        "platform": null
+      },
+      {
+        "url": "github.com/jankapunkt",
+        "platform": null
+      }
+    ],
+    "details": [
+      "info@jankuester.com",
+      "+49 176 *** *** **"
+    ]
+  },
+  "summary": "JAN küSTER RESUME\n\nStatus:        M.Sc. Digital Media, Fullstack JS Engineer\n\n\nFields:         Project Management, Software Development, Consulting\n\n\nTech:         Meteor, Javascript, Bootstrap, Mongodb, Git, Webstorm, Sourcetree\n\n\nLoves:        Global Game Jam, Sci-Fi series, Stackoverﬂow, Fitness and Martial\n               Arts",
+  "work_experience": [],
+  "projects": [],
+  "education": [],
+  "skills": [],
+  "languages": [],
+  "certifications": [],
+  "training": [],
+  "additional_sections": []
+}

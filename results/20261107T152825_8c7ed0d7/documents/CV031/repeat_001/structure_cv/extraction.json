@@ -1,0 +1,428 @@
+{
+  "personal_information": {
+    "source_pages": [
+      1
+    ],
+    "full_name": "ELENA VASQUEZ",
+    "headline": "she/her",
+    "emails": [
+      "elena.vasquez@email.com"
+    ],
+    "phones": [
+      "+49-176-4821-9035"
+    ],
+    "location": "Prenzlauer Berg, Berlin, Germany",
+    "weblinks": [
+      {
+        "url": "Q /elenavz",
+        "platform": "null"
+      },
+      {
+        "url": "fH /elena-vasquez",
+        "platform": "null"
+      },
+      {
+        "url": " /Elena_Vasquez",
+        "platform": "null"
+      }
+    ],
+    "details": []
+  },
+  "summary": null,
+  "work_experience": [],
+  "projects": [],
+  "education": [],
+  "skills": [
+    {
+      "source_pages": [],
+      "name": "TypeScript",
+      "proficiency": {
+        "text": "Grade scale: (1) very good +91%-100%, (2) good +81%-",
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 5.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "JavaScript",
+      "proficiency": {
+        "text": "Grade scale: (1) very good +91%-100%, (2) good +81%-",
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 5.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Python",
+      "proficiency": {
+        "text": "Grade scale: (1) very good +91%-100%, (2) good +81%-",
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 5.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Go",
+      "proficiency": {
+        "text": "Grade scale: (1) very good +91%-100%, (2) good +81%-",
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 5.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Rust",
+      "proficiency": {
+        "text": "Grade scale: (1) very good +91%-100%, (2) good +81%-",
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 5.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "PostgreSQL",
+      "proficiency": {
+        "text": "Grade scale: (1) very good +91%-100%, (2) good +81%-",
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 5.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "MongoDB",
+      "proficiency": {
+        "text": "Grade scale: (1) very good +91%-100%, (2) good +81%-",
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 5.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Redis",
+      "proficiency": {
+        "text": "Grade scale: (1) very good +91%-100%, (2) good +81%-",
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 5.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "GraphQL",
+      "proficiency": {
+        "text": "Grade scale: (1) very good +91%-100%, (2) good +81%-",
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 5.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "HTML",
+      "proficiency": {
+        "text": "Grade scale: (1) very good +91%-100%, (2) good +81%-",
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 5.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "CSS",
+      "proficiency": {
+        "text": "Grade scale: (1) very good +91%-100%, (2) good +81%-",
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 5.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Sass",
+      "proficiency": {
+        "text": "Grade scale: (1) very good +91%-100%, (2) good +81%-",
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 5.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Tailwind",
+      "proficiency": {
+        "text": "Grade scale: (1) very good +91%-100%, (2) good +81%-",
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 5.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Docker",
+      "proficiency": {
+        "text": "Grade scale: (1) very good +91%-100%, (2) good +81%-",
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 5.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Kubernetes",
+      "proficiency": {
+        "text": "Grade scale: (1) very good +91%-100%, (2) good +81%-",
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 5.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Terraform",
+      "proficiency": {
+        "text": "Grade scale: (1) very good +91%-100%, (2) good +81%-",
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 5.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "AWS",
+      "proficiency": {
+        "text": "Grade scale: (1) very good +91%-100%, (2) good +81%-",
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 5.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "GCP",
+      "proficiency": {
+        "text": "Grade scale: (1) very good +91%-100%, (2) good +81%-",
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 5.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Linux",
+      "proficiency": {
+        "text": "Grade scale: (1) very good +91%-100%, (2) good +81%-",
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 5.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "macOS",
+      "proficiency": {
+        "text": "Grade scale: (1) very good +91%-100%, (2) good +81%-",
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 5.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "VS Code",
+      "proficiency": {
+        "text": "Grade scale: (1) very good +91%-100%, (2) good +81%-",
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 5.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "IntelliJ",
+      "proficiency": {
+        "text": "Grade scale: (1) very good +91%-100%, (2) good +81%-",
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 5.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Neovim",
+      "proficiency": {
+        "text": "Grade scale: (1) very good +91%-100%, (2) good +81%-",
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 5.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Git",
+      "proficiency": {
+        "text": "Grade scale: (1) very good +91%-100%, (2) good +81%-",
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 5.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "CI/CD",
+      "proficiency": {
+        "text": "Grade scale: (1) very good +91%-100%, (2) good +81%-",
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 5.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Agile/Scrum",
+      "proficiency": {
+        "text": "Grade scale: (1) very good +91%-100%, (2) good +81%-",
+        "type": "numeric",
+        "value": 1.0,
+        "maximum": 5.0
+      },
+      "details": []
+    }
+  ],
+  "languages": [
+    {
+      "source_pages": [],
+      "name": "Spanish",
+      "proficiency": {
+        "text": "QB Spanish (Mother tongue)",
+        "type": "numeric",
+        "value": 5.0,
+        "maximum": 5.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "English",
+      "proficiency": {
+        "text": "BB English (Fluent)",
+        "type": "numeric",
+        "value": 5.0,
+        "maximum": 5.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "German",
+      "proficiency": {
+        "text": "QB German (C1)",
+        "type": "numeric",
+        "value": 5.0,
+        "maximum": 5.0
+      },
+      "details": []
+    }
+  ],
+  "certifications": [
+    {
+      "source_pages": [],
+      "name": "AWS Solutions Architect Professional",
+      "issuer": "AWS",
+      "date": "2023",
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Certified Kubernetes Administrator",
+      "issuer": "null",
+      "date": "2022",
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Google Cloud Professional Cloud Architect",
+      "issuer": "Google Cloud",
+      "date": "2022",
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "HashiCorp Terraform Associate",
+      "issuer": "HashiCorp",
+      "date": "2020",
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "MongoDB Certified Developer",
+      "issuer": "MongoDB",
+      "date": "2020",
+      "details": []
+    }
+  ],
+  "training": [],
+  "additional_sections": [
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "Hobbies\n© Street photography\n5 Contributing to open-source projects"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "Speaking\nReactDay Berlin 2023\nKubeCon EU 2022\nJSConf Berlin 2021"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "Open Source\n©  crdt-collab (2.1K stars)\n©  cost-lens (890 stars)\n@ n26-react-ui contributor"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "Languages: TypeScript, Go, Python, Rust"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "TECHNICAL LEADERSHIP\nPlatform Architecture Initiative\nZALANDO SE 2023-PRESENT\n\n- Leading cross-team working group (12 engineers) defining\nplatform standards for 250+ microservices\n\n- Designed service mesh strategy using Istio, reducing inter-service latency by 30%\n\n- Authored ADRs (Architecture Decision Records) adopted as standard across 6 engineering domains\n\nEngineering Excellence Program\nZALANDO SE 2022\n\n- Established inner-source program enabling engineers to contribute to shared platform libraries\n\n- Introduced weekly architecture guild (40+ members) raising the bar on system design\n\n- Reduced new-engineer onboarding time from 3 weeks to 5 days via coding standards docs"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "PUBLICATIONS\nEvent-Driven Architectures in Practice\nZALANDO ENGINEERING BLOG 2023\n\nDeep dive on migrating checkout to event-driven microservices. 45K+ reads.\n\nReal-Time Collaborative Editing with CRDTs\nTHE PRAGMATIC ENGINEER 2023\n\nTutorial on operational transforms vs CRDTs for collaborative apps. 28K+ reads.\n\nReducing Cloud Costs Without Reducing Velocity\nINFOQ 2022\n\nCase study on EUR 180K/year savings through automated resource governance. 19K+ reads."
+    }
+  ]
+}

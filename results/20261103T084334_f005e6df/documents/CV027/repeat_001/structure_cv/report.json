@@ -1,0 +1,22 @@
+{
+  "name": "structure_cv",
+  "method": "llm_structuring",
+  "execution_status": "completed",
+  "outcome": "success",
+  "metrics": {
+    "duration_seconds": 263.2449680000136,
+    "memory": {
+      "enabled": false
+    },
+    "model": "qwen3:8b",
+    "input_tokens": 4306,
+    "cached_input_tokens": 3375,
+    "output_tokens": 2485,
+    "server_total_seconds": 261.2052111,
+    "model_load_seconds": 0.0056697,
+    "prompt_processing_seconds": 0.83477,
+    "generation_seconds": 260.34554
+  },
+  "error": null,
+  "artifacts_file": "artifacts.json"
+}

@@ -1,0 +1,71 @@
+{
+  "document_id": "CV010",
+  "repetition": 2,
+  "status": "error",
+  "metrics": {
+    "processing_seconds": 131.07009269995615
+  },
+  "stages": [
+    {
+      "name": "read_layout",
+      "method": "pdf_layout",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 0.1638715999724809,
+        "memory": {
+          "enabled": false
+        },
+        "page_count": 1,
+        "region_count": 24
+      },
+      "error": null
+    },
+    {
+      "name": "reading_order",
+      "method": "layout_reading_order",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 3.649998689070344e-05,
+        "memory": {
+          "enabled": false
+        },
+        "character_count": 3098,
+        "pages_without_text": []
+      },
+      "error": null
+    },
+    {
+      "name": "prepare_text",
+      "method": "join_page_text",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 7.299997378140688e-06,
+        "memory": {
+          "enabled": false
+        },
+        "character_count": 3098
+      },
+      "error": null
+    },
+    {
+      "name": "structure_cv",
+      "method": "llm_structuring",
+      "execution_status": "error",
+      "outcome": null,
+      "metrics": {
+        "duration_seconds": 130.9061772999994,
+        "memory": {
+          "enabled": false
+        }
+      },
+      "error": {
+        "type": "StructuringError",
+        "message": "Ollama returned HTTP 500: Internal Server Error"
+      },
+      "artifacts_file": "artifacts.json"
+    }
+  ]
+}

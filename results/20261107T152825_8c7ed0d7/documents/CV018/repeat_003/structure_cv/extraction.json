@@ -1,0 +1,167 @@
+{
+  "personal_information": {
+    "source_pages": [
+      1
+    ],
+    "full_name": "Doruk Cetin",
+    "headline": null,
+    "emails": [
+      "dcetin@ethz.ch"
+    ],
+    "phones": [],
+    "location": null,
+    "weblinks": [
+      {
+        "url": "dcetin.me",
+        "platform": null
+      },
+      {
+        "url": "github.com/dcetin",
+        "platform": null
+      }
+    ],
+    "details": []
+  },
+  "summary": null,
+  "work_experience": [],
+  "projects": [],
+  "education": [
+    {
+      "source_pages": [
+        1
+      ],
+      "institution": "ETH Zurich Zurich, CH",
+      "qualification": "M.S. in Computer Science, GPA: 5.63/6.00",
+      "dates": {
+        "start": "2018",
+        "end": "2020",
+        "duration": null
+      },
+      "details": [
+        "Thesis: “Learning in-the-wild Temporal 3D Pose Estimation from MoCap Data”"
+      ]
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "institution": "Middle East Technical University Ankara, TR",
+      "qualification": "B.S. in Computer Engineering, GPA: 3.96/4.00 (ranked 2”¢/190 in the dept.)",
+      "dates": {
+        "start": "2013",
+        "end": "2018",
+        "duration": null
+      },
+      "details": [
+        "Thesis: “AlgoTrade: A web-based algorithmic trading and backtesting framework”"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "source_pages": [],
+      "name": "Programming",
+      "proficiency": null,
+      "details": [
+        "Python, Matlab, C/C++, Java"
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "M. Learning",
+      "proficiency": null,
+      "details": [
+        "PyTorch, TensorFlow, Keras, Chainer"
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "Tools/Techs",
+      "proficiency": null,
+      "details": [
+        "LaTeX, Git, SQL"
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "Web",
+      "proficiency": null,
+      "details": [
+        "HTML/CSS, Jekyll, JavaScript"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "source_pages": [],
+      "name": "English",
+      "proficiency": {
+        "text": "Proficient",
+        "type": null,
+        "value": null,
+        "maximum": null
+      },
+      "details": [
+        "TOEFL iBT score: 112/120"
+      ]
+    },
+    {
+      "source_pages": [],
+      "name": "Turkish",
+      "proficiency": {
+        "text": "Mother tongue, native speaker",
+        "type": null,
+        "value": null,
+        "maximum": null
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Spanish",
+      "proficiency": {
+        "text": "Conversational",
+        "type": null,
+        "value": null,
+        "maximum": null
+      },
+      "details": [
+        "CEFR level: A1-A2"
+      ]
+    }
+  ],
+  "certifications": [],
+  "training": [],
+  "additional_sections": [
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "Page 1 of 2"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "Page 2 of 2"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "PUBLICATIONS\n\n[1] S. Petridis, J. Shen, D. Cetin, and M. Pantic, “Visual-Only Recognition of Normal, Whispered and\nSilent Speech”, in 2018 IEEE International Conference on Acoustics, Speech and Signal Processing\n(ICASSP), Apr. 2018, pp. 6219-6223."
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "TEACHING\n\ne Student Teaching Assistant at Middle East Technical University Spring 2018\nProgramming Language Concepts (CENG 242)\n\ne Student Teaching Assistant at Middle East Technical University Fall 2016\n\nIntroduction to C Programming (CENG 230)"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "SCHOLARSHIPS AND AWARDS\n\ne ETH Zurich Direct Doctorate Scholarship 2018-2020\n\ne 37 place in METU Ceng Demo Day 2018, final year project exhibition of the department 2018\n\ne Erasmus+ Traineeship Scholarship 2017\n\ne Summer@EPFL Scholarship 2016\n\ne METU Development Foundation Scholarship for Outstanding Success 2013-2018\n\ne Merit based Prime Ministry Scholarship 2013-2018\n\ne Isbank Altin Gencler Award and mobility grant 2013\n\n¢ Ranked 4‘” among 1.9 million participants nationwide in Undergraduate Placement Examination (LYS) 2013"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "VOLUNTEERING & MENTORING\n\ne Career Mentor at Crossing Paths 2017—-Current\nHelping undergraduate students on their career goals, also took part in their Career Chats program\n\ne Master Helper at ETH VIS Welcome Day 2019 Fall 2019\nMentored newcomer Master students, gave a campus tour and aided them in Study Planning Workshop\n\ne C Programming Language Tutor at IREE METU Student Branch Fall 2016\n\nAn introduction to programming and a tutorial for the school courses for non-CS students\n\ne Official Turkish localization of the video game Human Resource Machine Winter 2015\n\nA puzzle game by Tomorrow Corporation, simulating a simple computer in an office environment"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "document_id": "CV034",
+  "repetition": 2,
+  "status": "completed",
+  "metrics": {
+    "processing_seconds": 25.08486519998405
+  },
+  "stages": [
+    {
+      "name": "render_pages",
+      "method": "render_pdf",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 1.6723954000044614,
+        "memory": {
+          "enabled": false
+        },
+        "page_count": 4,
+        "dpi": 300,
+        "total_pixels": 34769600
+      },
+      "error": null
+    },
+    {
+      "name": "recognize_text",
+      "method": "tesseract_ocr",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 5.57243900001049,
+        "memory": {
+          "enabled": false
+        },
+        "engine": "tesseract",
+        "engine_version": "5.4.0.20240606",
+        "language": "eng",
+        "page_segmentation": 3,
+        "dpi": 300,
+        "page_count": 4,
+        "character_count": 6910,
+        "pages_without_text": []
+      },
+      "error": null
+    },
+    {
+      "name": "prepare_text",
+      "method": "join_page_text",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 1.109996810555458e-05,
+        "memory": {
+          "enabled": false
+        },
+        "character_count": 6916
+      },
+      "error": null
+    },
+    {
+      "name": "structure_cv",
+      "method": "llm_structuring",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 17.840019700000994,
+        "memory": {
+          "enabled": false
+        },
+        "model": "qwen3:8b",
+        "input_tokens": 5153,
+        "cached_input_tokens": 5152,
+        "output_tokens": 170,
+        "server_total_seconds": 15.7924289,
+        "model_load_seconds": 0.0037467,
+        "prompt_processing_seconds": 0.294969,
+        "generation_seconds": 15.476718
+      },
+      "error": null,
+      "artifacts_file": "artifacts.json"
+    }
+  ]
+}

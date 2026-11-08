@@ -1,0 +1,83 @@
+{
+  "document_id": "CV032",
+  "repetition": 1,
+  "status": "completed",
+  "metrics": {
+    "processing_seconds": 1200.9215302999364
+  },
+  "stages": [
+    {
+      "name": "render_pages",
+      "method": "render_pdf",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 0.844024799996987,
+        "memory": {
+          "enabled": false
+        },
+        "page_count": 7,
+        "dpi": 300,
+        "total_pixels": 58905000
+      },
+      "error": null
+    },
+    {
+      "name": "recognize_text",
+      "method": "tesseract_ocr",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 8.519353699986823,
+        "memory": {
+          "enabled": false
+        },
+        "engine": "tesseract",
+        "engine_version": "5.4.0.20240606",
+        "language": "eng",
+        "page_segmentation": 3,
+        "dpi": 300,
+        "page_count": 7,
+        "character_count": 17890,
+        "pages_without_text": []
+      },
+      "error": null
+    },
+    {
+      "name": "prepare_text",
+      "method": "join_page_text",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 1.4699995517730713e-05,
+        "memory": {
+          "enabled": false
+        },
+        "character_count": 17902
+      },
+      "error": null
+    },
+    {
+      "name": "structure_cv",
+      "method": "llm_structuring",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 1191.558137099957,
+        "memory": {
+          "enabled": false
+        },
+        "model": "qwen3:8b",
+        "input_tokens": 7655,
+        "cached_input_tokens": 3375,
+        "output_tokens": 7711,
+        "server_total_seconds": 1189.527071,
+        "model_load_seconds": 0.0122025,
+        "prompt_processing_seconds": 2.834362,
+        "generation_seconds": 1186.162904
+      },
+      "error": null,
+      "artifacts_file": "artifacts.json"
+    }
+  ]
+}

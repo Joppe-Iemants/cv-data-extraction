@@ -1,0 +1,306 @@
+{
+  "personal_information": {
+    "source_pages": [
+      1
+    ],
+    "full_name": "Jebaresnya Das",
+    "headline": null,
+    "emails": [
+      "deedy@fb.com",
+      "dd367@cornelledu"
+    ],
+    "phones": [
+      "607.379.5733"
+    ],
+    "location": "Ithaca, NY",
+    "weblinks": [
+      {
+        "url": "Facebook:// dd",
+        "platform": "Facebook"
+      },
+      {
+        "url": "Github:// deedydas",
+        "platform": "Github"
+      },
+      {
+        "url": "LinkedIn:// debarghyadas",
+        "platform": "LinkedIn"
+      },
+      {
+        "url": "YouTube:// DeedyDashOO7",
+        "platform": "YouTube"
+      },
+      {
+        "url": "Twitter:// @debarghya_das",
+        "platform": "Twitter"
+      },
+      {
+        "url": "Quora:// Debarghya-Das",
+        "platform": "Quora"
+      }
+    ],
+    "details": []
+  },
+  "summary": null,
+  "work_experience": [],
+  "projects": [],
+  "education": [
+    {
+      "source_pages": [
+        1
+      ],
+      "institution": "CORNELL UNIVERSITY",
+      "qualification": "MENG IN COMPUTER SCIENCE",
+      "dates": {
+        "start": "Dec 2014",
+        "end": "Ithaca, NY",
+        "duration": null
+      },
+      "details": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "institution": "CORNELL UNIVERSITY",
+      "qualification": "BS IN COMPUTER SCIENCE",
+      "dates": {
+        "start": "May 2014",
+        "end": "Ithaca, NY",
+        "duration": null
+      },
+      "details": [
+        "College of Engineering",
+        "Magna Cum Laude",
+        "Cum. GPA: 3.83 7 4.0",
+        "Major GPA: 3.9 7 4.0"
+      ]
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "institution": "LA MARTINIERE FOR BOYS",
+      "qualification": "Grad. May 2011",
+      "dates": {
+        "start": "May 2011",
+        "end": "Kolkata, India",
+        "duration": null
+      },
+      "details": []
+    }
+  ],
+  "skills": [
+    {
+      "source_pages": [],
+      "name": "Java",
+      "proficiency": {
+        "text": "Over 5000 lines",
+        "type": "numeric",
+        "value": null,
+        "maximum": null
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Shell",
+      "proficiency": {
+        "text": "Over 5000 lines",
+        "type": "numeric",
+        "value": null,
+        "maximum": null
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Python",
+      "proficiency": {
+        "text": "Over 5000 lines",
+        "type": "numeric",
+        "value": null,
+        "maximum": null
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Javascript",
+      "proficiency": {
+        "text": "Over 5000 lines",
+        "type": "numeric",
+        "value": null,
+        "maximum": null
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "OCaml",
+      "proficiency": {
+        "text": "Over 5000 lines",
+        "type": "numeric",
+        "value": null,
+        "maximum": null
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Matlab",
+      "proficiency": {
+        "text": "Over 5000 lines",
+        "type": "numeric",
+        "value": null,
+        "maximum": null
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Rails",
+      "proficiency": {
+        "text": "Over 5000 lines",
+        "type": "numeric",
+        "value": null,
+        "maximum": null
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "ATEX",
+      "proficiency": {
+        "text": "Over 5000 lines",
+        "type": "numeric",
+        "value": null,
+        "maximum": null
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "C++",
+      "proficiency": {
+        "text": "Over 1000 lines",
+        "type": "numeric",
+        "value": null,
+        "maximum": null
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "CSS",
+      "proficiency": {
+        "text": "Over 1000 lines",
+        "type": "numeric",
+        "value": null,
+        "maximum": null
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "PHP",
+      "proficiency": {
+        "text": "Over 1000 lines",
+        "type": "numeric",
+        "value": null,
+        "maximum": null
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Assembly",
+      "proficiency": {
+        "text": "Over 1000 lines",
+        "type": "numeric",
+        "value": null,
+        "maximum": null
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "AS3",
+      "proficiency": {
+        "text": "Familiar",
+        "type": "numeric",
+        "value": null,
+        "maximum": null
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "iOS",
+      "proficiency": {
+        "text": "Familiar",
+        "type": "numeric",
+        "value": null,
+        "maximum": null
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Android",
+      "proficiency": {
+        "text": "Familiar",
+        "type": "numeric",
+        "value": null,
+        "maximum": null
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "MySQL",
+      "proficiency": {
+        "text": "Familiar",
+        "type": "numeric",
+        "value": null,
+        "maximum": null
+      },
+      "details": []
+    }
+  ],
+  "languages": [],
+  "certifications": [],
+  "training": [],
+  "additional_sections": [
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "COURSEWORK\nGRADUATE\n\nAdvanced Machine Learning\n\nOpen Source Software Engineering\n\nAdvanced Interactive Graphics\n\nCompilers + Practicum\n\nCloud Computing\n\nEvolutionary Computation\n\nDefending Computer Networks\n\nMachine Learning\n\n\nUNDERGRADUATE\n\nInformation Retrieval\n\nOperating Systems\n\nArtificial Intelligence + Practicum\n\nFunctional Programming\n\nComputer Graphics + Practicum\n\n(Research Asst. & Teaching Asst 2x)\n\nUnix Tools and Scripting"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "SKILLS\n\nPROGRAMMING\n\nOver 5000 lines:\n\nJava e Shell « Python e Javascript\n\nOCaml ¢ Matlab « Rails « ATEX\n\nOver 1000 lines:\n\nCe C++ e CSS e PHP e Assembly\n\nFamiliar:\n\nAS3 ¢ iOS e Android ¢e MySQL"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "EXPERIENCE\n\nFACEBOOK | SoFTWARE ENGINEER\n\nJan 2015 - Present | New York, NY\n\nCOURSERA | KPCB FELLOW + SOFTWARE ENGINEERING INTERN\n\nJune 2014 - Sep 2014 | Mountain View, CA\n\ne 52 out of 2500 applicants chosen to be a KPCB Fellow 2014.\n\ne Led and shipped Yoda - the admin interface for the new Phoenix platform.\n\ne Full-stack developer - Wrote and reviewed code for JS using Backbone, Jade,\nStylus and Require and Scala using Play\n\nGOOGLE | SOFTWARE ENGINEERING INTERN\n\nMay 2013 - Aug 2013 | Mountain View, CA\n\ne Worked on the YouTube Captions team, in Javascript and Python to plan, to\n design and develop the full stack to add and edit Automatic Speech Recognition\n captions. In production.\n\ne Created abackbone,js-like framework for the Captions editor.\n\nPHABRICATOR | OPEN SOURCE CONTRIBUTOR & TEAM LEADER\n\nJan 2013 - May 2013 | Palo Alto, CA & Ithaca, NY\n\ne Phabricator is used daily by Facebook, Dropbox, Quora, Asana and more.\n\ne | created the Meme generator and more in PHP and Shell.\n\ne Ledateam from MIT, Cornell, IC London and UHelsinki for the project."
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "RESEARCH\n\nCORNELL ROBOT LEARNING LAB | RESEARCHER\n\nJan 2014 - Jan 2015 | Ithaca, NY\n\nWorked with Ashesh Jain and Prof Ashutosh Saxena to create Plant, a tool which\nlearns from large scale user preference feedback to plan robot trajectories in human\nenvironments.\n\nCORNELL PHONETICS LAB | HEAD UNDERGRADUATE RESEARCHER\n\nMar 2012 - May 2013 | Ithaca, NY\n\nLed the development of QuickTongue, the first ever breakthrough tongue-controlled\n game with Prof Sam Tilsen to aid in Linguistics research."
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "AWARDS\n\n2014 top 52/2500 KPCB Engineering Fellow\n\n2014 = 15/50 Microsoft Coding Competition, Cornell\n\n2013 National Jump Trading Challenge Finalist\n\n2013 7/120 CS 3410 Cache Race Bot Tournament\n\n2012 24/150 CS 3110 Biannual Intra-Class Bot Tournament\n\n2011 ~National Indian National Mathematics Olympiad (INMO) Finalist"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "PUBLICATIONS\n\n[4] A. Jain, D. Das, and A. Saxena. Planit: A crowdsourcing approach for learning to\n plan paths from large scale preference feedback. Tech Report, ICRA, in press.\n\n[2] S. Tilsen, D. Das, and B. McKee. Real-time articulatory biofeedback with\n electromagnetic articulography. Linguistics Vanguard, in press."
+    }
+  ]
+}

@@ -1,0 +1,339 @@
+{
+  "page_count": 2,
+  "pages": [
+    {
+      "page_number": 1,
+      "width": 612.0,
+      "height": 792.0,
+      "regions": [
+        {
+          "region_number": 1,
+          "bbox": [
+            50,
+            21,
+            612,
+            221
+          ],
+          "text_bbox": [
+            50.400001525878906,
+            21.924015045166016,
+            555.9307250976562,
+            220.79220581054688
+          ],
+          "text": "Last updated in Mar 2026\n            John Doe\n         San Francisco, CA   john.doe@email.com  rendercv.com   rendercv   rendercv\n\nWelcome to RenderCV\n RenderCV reads a CV written in a YAML file, and generates a PDF with professional typography.\n Each section title is arbitrary.\n You can choose any of the 9 entry types for each section.\n Markdown syntax is supported everywhere. This is bold, italic, and link.\nEducation"
+        },
+        {
+          "region_number": 2,
+          "bbox": [
+            56,
+            221,
+            436,
+            274
+          ],
+          "text_bbox": [
+            56.06929016113281,
+            221.80613708496094,
+            435.458251953125,
+            273.84613037109375
+          ],
+          "text": "PhD   Princeton University, Computer Science\n            • Thesis: Efficient Neural Architecture Search for Resource-Constrained Deployment\n            • Advisor: Prof. Sanjeev Arora\n            • NSF Graduate Research Fellowship, Siebel Scholar (Class of 2022)"
+        },
+        {
+          "region_number": 3,
+          "bbox": [
+            463,
+            221,
+            612,
+            312
+          ],
+          "text_bbox": [
+            463.65069580078125,
+            221.80613708496094,
+            555.9307250976562,
+            311.046142578125
+          ],
+          "text": "Princeton, NJ\n Sept 2018 – May 2023\n\n\n      Istanbul, Türkiye\nSept 2014 – June 2018"
+        },
+        {
+          "region_number": 4,
+          "bbox": [
+            50,
+            284,
+            316,
+            349
+          ],
+          "text_bbox": [
+            50.400001525878906,
+            284.2061462402344,
+            315.5423583984375,
+            348.65936279296875
+          ],
+          "text": "BS    Boğaziçi University, Computer Engineering\n              • GPA: 3.97/4.00, Valedictorian\n              • Fulbright Scholarship recipient for Graduate Studies\nExperience"
+        },
+        {
+          "region_number": 5,
+          "bbox": [
+            56,
+            349,
+            438,
+            465
+          ],
+          "text_bbox": [
+            56.06929016113281,
+            349.6733093261719,
+            435.45843505859375,
+            464.71331787109375
+          ],
+          "text": "Nexus AI, Co-Founder & CTO\n • Built foundation model infrastructure serving 2M+ monthly API requests with 99.97%\n  uptime\n • Raised $18M Series A led by Sequoia Capital, with participation from a16z and Founders\n  Fund\n • Scaled engineering team from 3 to 28 across ML research, platform, and applied AI\n   divisions\n • Developed proprietary inference optimization reducing latency by 73% compared to\n   baseline"
+        },
+        {
+          "region_number": 6,
+          "bbox": [
+            472,
+            349,
+            556,
+            390
+          ],
+          "text_bbox": [
+            472.7107238769531,
+            349.6733093261719,
+            555.9307250976562,
+            389.1133117675781
+          ],
+          "text": "San Francisco, CA\nJune 2023 – present\n  2 years 10 months"
+        },
+        {
+          "region_number": 7,
+          "bbox": [
+            56,
+            475,
+            435,
+            528
+          ],
+          "text_bbox": [
+            56.06929016113281,
+            475.07330322265625,
+            434.2717590332031,
+            527.11328125
+          ],
+          "text": "NVIDIA Research, Research Intern\n • Designed sparse attention mechanism reducing transformer memory footprint by 4.2x\n • Co-authored paper accepted at NeurIPS 2022 (spotlight presentation, top 5% of submis­\n   sions)"
+        },
+        {
+          "region_number": 8,
+          "bbox": [
+            470,
+            475,
+            556,
+            515
+          ],
+          "text_bbox": [
+            470.54071044921875,
+            475.07330322265625,
+            555.9307250976562,
+            514.5133056640625
+          ],
+          "text": "Santa Clara, CA\nMay 2022 – Aug 2022\n         4 months"
+        },
+        {
+          "region_number": 9,
+          "bbox": [
+            56,
+            537,
+            379,
+            615
+          ],
+          "text_bbox": [
+            56.06929016113281,
+            537.4733276367188,
+            378.2413024902344,
+            614.7133178710938
+          ],
+          "text": "Google DeepMind, Research Intern\n • Developed reinforcement learning algorithms for multi-agent coordination\n • Published research at top-tier venues with significant academic impact\n     • ICML 2022 main conference paper, cited 340+ times within two years\n     • NeurIPS 2022 workshop paper on emergent communication protocols\n     • Invited journal extension in JMLR (2023)"
+        },
+        {
+          "region_number": 10,
+          "bbox": [
+            470,
+            537,
+            556,
+            577
+          ],
+          "text_bbox": [
+            470.54071044921875,
+            537.4733276367188,
+            555.9307250976562,
+            576.913330078125
+          ],
+          "text": "London, UK\nMay 2021 – Aug 2021\n         4 months"
+        },
+        {
+          "region_number": 11,
+          "bbox": [
+            56,
+            625,
+            429,
+            665
+          ],
+          "text_bbox": [
+            56.06929016113281,
+            625.0733032226562,
+            428.1813049316406,
+            664.5133056640625
+          ],
+          "text": "Apple ML Research, Research Intern\n • Created on-device neural network compression pipeline deployed across 50M+ devices\n • Filed 2 patents on efficient model quantization techniques for edge inference"
+        },
+        {
+          "region_number": 12,
+          "bbox": [
+            470,
+            625,
+            556,
+            665
+          ],
+          "text_bbox": [
+            470.54071044921875,
+            625.0733032226562,
+            555.9307250976562,
+            664.5133056640625
+          ],
+          "text": "Cupertino, CA\nMay 2020 – Aug 2020\n         4 months"
+        },
+        {
+          "region_number": 13,
+          "bbox": [
+            56,
+            674,
+            438,
+            740
+          ],
+          "text_bbox": [
+            56.06929016113281,
+            674.873291015625,
+            437.16876220703125,
+            739.5133056640625
+          ],
+          "text": "Microsoft Research, Research Intern\n • Implemented novel self-supervised learning framework for low-resource language mod­\n   eling\n • Research integrated into Azure Cognitive Services, reducing training data requirements\n  by 60%"
+        },
+        {
+          "region_number": 14,
+          "bbox": [
+            470,
+            674,
+            556,
+            715
+          ],
+          "text_bbox": [
+            470.54071044921875,
+            674.873291015625,
+            555.9307250976562,
+            714.3132934570312
+          ],
+          "text": "Redmond, WA\nMay 2019 – Aug 2019\n         4 months"
+        },
+        {
+          "region_number": 15,
+          "bbox": [
+            279,
+            757,
+            612,
+            771
+          ],
+          "text_bbox": [
+            279.1394958496094,
+            757.5239868164062,
+            332.8605041503906,
+            770.3399658203125
+          ],
+          "text": "John Doe – 1/2"
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "width": 612.0,
+      "height": 792.0,
+      "regions": [
+        {
+          "region_number": 1,
+          "bbox": [
+            50,
+            45,
+            104,
+            66
+          ],
+          "text_bbox": [
+            50.400001525878906,
+            45.30401611328125,
+            100.9260025024414,
+            65.2400131225586
+          ],
+          "text": "Projects"
+        },
+        {
+          "region_number": 2,
+          "bbox": [
+            56,
+            66,
+            395,
+            119
+          ],
+          "text_bbox": [
+            56.06929016113281,
+            66.25395965576172,
+            394.61138916015625,
+            118.2939453125
+          ],
+          "text": "FlashInfer\nOpen-source library for high-performance LLM inference kernels\n • Achieved 2.8x speedup over baseline attention implementations on A100 GPUs\n • Adopted by 3 major AI labs, 8,500+ GitHub stars, 200+ contributors"
+        },
+        {
+          "region_number": 3,
+          "bbox": [
+            478,
+            66,
+            612,
+            371
+          ],
+          "text_bbox": [
+            478.0707092285156,
+            66.25395965576172,
+            555.9307250976562,
+            370.3611145019531
+          ],
+          "text": "Jan 2023 – present\n\n\n\n        Jan 2021\n\n\n\n\n         July 2023\n\n\n        Dec 2022\n\n\n         July 2022\n\n\n       May 2021"
+        },
+        {
+          "region_number": 4,
+          "bbox": [
+            50,
+            128,
+            418,
+            421
+          ],
+          "text_bbox": [
+            50.400001525878906,
+            128.65391540527344,
+            417.26922607421875,
+            420.5743408203125
+          ],
+          "text": "NeuralPrune\n Automated neural network pruning toolkit with differentiable masks\n   • Reduced model size by 90% with less than 1% accuracy degradation on ImageNet\n   • Featured in PyTorch ecosystem tools, 4,200+ GitHub stars\nPublications\n Sparse Mixture-of-Experts at Scale: Efficient Routing for Trillion-Parameter Models\n John Doe, Sarah Williams, David Park\n 10.1234/neurips.2023.1234 (NeurIPS 2023)\n\n Neural Architecture Search via Differentiable Pruning\n James Liu, John Doe\n 10.1234/neurips.2022.5678 (NeurIPS 2022, Spotlight)\n\n Multi-Agent Reinforcement Learning with Emergent Communication\n Maria Garcia, John Doe, Tom Anderson\n 10.1234/icml.2022.9012 (ICML 2022)\n\n On-Device Model Compression via Learned Quantization\n John Doe, Kevin Wu\n 10.1234/iclr.2021.3456 (ICLR 2021, Best Paper Award)\nSelected Honors"
+        },
+        {
+          "region_number": 5,
+          "bbox": [
+            50,
+            421,
+            612,
+            771
+          ],
+          "text_bbox": [
+            50.400001525878906,
+            421.5882873535156,
+            469.74932861328125,
+            770.3399658203125
+          ],
+          "text": "• MIT Technology Review 35 Under 35 Innovators (2024)\n  • Forbes 30 Under 30 in Enterprise Technology (2024)\n  • ACM Doctoral Dissertation Award Honorable Mention (2023)\n  • Google PhD Fellowship in Machine Learning (2020 – 2023)\n  • Fulbright Scholarship for Graduate Studies (2018)\nSkills\n Languages: Python, C++, CUDA, Rust, Julia\n ML Frameworks: PyTorch, JAX, TensorFlow, Triton, ONNX\n Infrastructure: Kubernetes, Ray, distributed training, AWS, GCP\n Research Areas: Neural architecture search, model compression, efficient inference, multi-agent RL\nPatents\n  1. Adaptive Quantization for Neural Network Inference on Edge Devices (US Patent 11,234,567)\n  2. Dynamic Sparsity Patterns for Efficient Transformer Attention (US Patent 11,345,678)\n  3. Hardware-Aware Neural Architecture Search Method (US Patent 11,456,789)\nInvited Talks\n  4. Scaling Laws for Efficient Inference — Stanford HAI Symposium (2024)\n  3. Building AI Infrastructure for the Next Decade — TechCrunch Disrupt (2024)\n  2. From Research to Production: Lessons in ML Systems — NeurIPS Workshop (2023)\n  1. Efficient Deep Learning: A Practitioner’s Perspective — Google Tech Talk (2022)\n\n                                                  John Doe – 2/2"
+        }
+      ]
+    }
+  ]
+}

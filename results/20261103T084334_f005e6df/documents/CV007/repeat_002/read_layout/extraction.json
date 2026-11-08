@@ -1,0 +1,76 @@
+{
+  "page_count": 1,
+  "pages": [
+    {
+      "page_number": 1,
+      "width": 595.2760009765625,
+      "height": 841.8900146484375,
+      "regions": [
+        {
+          "region_number": 1,
+          "bbox": [
+            32,
+            811,
+            595,
+            821
+          ],
+          "text_bbox": [
+            32.012001037597656,
+            811.0659790039062,
+            378.0729064941406,
+            820.361083984375
+          ],
+          "text": "Finished machine programming, information visualization, professional essay writing"
+        },
+        {
+          "region_number": 2,
+          "bbox": [
+            14,
+            19,
+            396,
+            805
+          ],
+          "text_bbox": [
+            14.72599983215332,
+            19.958614349365234,
+            395.2484436035156,
+            804.4210815429688
+          ],
+          "text": "JAN KÜSTER  RESUME\n\n\n\n\n\n                                                                                        I create awesome resume templates in\n                                     LaTeX for everyone. Besides that I am\n                                      working at the University of Bremen and\n                                     engineer fullstack JS applications with Meteor.\n\n\n\n\n\n     STATUS\n\n\nJavaScript fullstack engineer, M.Sc. Digital Media, focuses on education and healthcare\n\n\n     EXPERIENCE\n\n\n Fullstack Javascript Engineer                       University of Bremen, 2016/09 - now\n\n    Invent a realtime classroom management using Meteor and React\n\n    Design software architecture and leading development\n\n\n Scientiﬁc Employee / Software Development        University of Bremen, 2012 - 2014\n\n    Invented a ﬂexible assessment framework, targeting industrial trainees\n\n    Supervised software development lifecycle\n\n    Recruited team members\n\n\n Project Management Simulation Training                 Getoq Consulting, 2011 / 11\n\n    Performed a two-day project simulation from management perspective\n\n    Topics included customer contracts, change management, controlling, operational tasks\n\n\n Student Assistant / Programmer                     otulea.uni-bremen.de, 2010 - 2011\n\n    Realized an online diagnosis platform for workforce literacy development (Flex)\n\n   Modeled software design, implemented various prototypes, conducted usability tests\n\n\n     EDUCATION\n\n\n Graduated as M.Sc. Digital Media                       University of Bremen, 2015 / 07\n\n    Master Thesis: Semi Automated Scoring in Technology Based Assessment\n\n    Developed and evaluated an algorithm for semi automated scoring of spreadsheet data\n\n\n Master Project - PrIMA                                University of Bremen, 2012 - 2013\n\n    Co-Invented a touch table application for medical support, co-developed software (Java)\n\n   Formed a scrum team, mainted project dev server (Debian), surveyed target audience\n\n\n Master Studies Digital Media                          University of Bremen, 2012 - 2015\n\n     Inter-cultural classes in English, covering special topics in computer science and design\n\n    Professionalized in research methods, software development and e-assessment\n\n\n Semester Abroad                                  University of Melbourne, 2009 - 2010\n\n    Mastered six months of study and trans-cultural experience in Melbourne, Australia"
+        },
+        {
+          "region_number": 3,
+          "bbox": [
+            413,
+            20,
+            575,
+            625
+          ],
+          "text_bbox": [
+            413.67803955078125,
+            20.77511215209961,
+            574.763427734375,
+            624.2083129882812
+          ],
+          "text": "CONTACT\n\n       ½ Bremen, Germany\n\n          Æ +49 176 313 *** **\n\n   > info@jankuester.com\n\n      http://jankuester.com/\n\n   https://github.com/jankapunkt\n\n     7 @Kuester_Jan\n\n\n            FIELDS\n\n   / Software Development\n  ⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆\n\n      : Consulting\n  ⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆\n\n      0  Project Management\n  ⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆\n\n\n\n       TECHNOLOGIES\n\n     / JavaScript\n\n      / Meteor\n\n         t Blaze\n\n         MongoDB\n\n             0  Git\n\n\n\n          TOOLS\n\n  / Webstorm  0 SourceTree\n\n& Terminal ` Inkscape \" Blender\n\n\n          ACTIVITIES\n\n    e\n\n\n\n     OPERATING SYSTEMS"
+        },
+        {
+          "region_number": 4,
+          "bbox": [
+            164,
+            829,
+            421,
+            839
+          ],
+          "text_bbox": [
+            164.1750030517578,
+            829.2592163085938,
+            420.0707092285156,
+            838.126953125
+          ],
+          "text": "Coypright 2018 jkuester@uni-bremen.de · licensed under MIT license"
+        }
+      ]
+    }
+  ]
+}

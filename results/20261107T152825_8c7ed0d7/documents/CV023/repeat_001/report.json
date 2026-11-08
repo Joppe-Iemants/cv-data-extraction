@@ -1,0 +1,83 @@
+{
+  "document_id": "CV023",
+  "repetition": 1,
+  "status": "completed",
+  "metrics": {
+    "processing_seconds": 219.04410260007717
+  },
+  "stages": [
+    {
+      "name": "render_pages",
+      "method": "render_pdf",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 0.3569569999817759,
+        "memory": {
+          "enabled": false
+        },
+        "page_count": 3,
+        "dpi": 300,
+        "total_pixels": 25245000
+      },
+      "error": null
+    },
+    {
+      "name": "recognize_text",
+      "method": "tesseract_ocr",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 2.5454985999967903,
+        "memory": {
+          "enabled": false
+        },
+        "engine": "tesseract",
+        "engine_version": "5.4.0.20240606",
+        "language": "eng",
+        "page_segmentation": 3,
+        "dpi": 300,
+        "page_count": 3,
+        "character_count": 4763,
+        "pages_without_text": []
+      },
+      "error": null
+    },
+    {
+      "name": "prepare_text",
+      "method": "join_page_text",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 1.2300093658268452e-05,
+        "memory": {
+          "enabled": false
+        },
+        "character_count": 4767
+      },
+      "error": null
+    },
+    {
+      "name": "structure_cv",
+      "method": "llm_structuring",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 216.14163470000494,
+        "memory": {
+          "enabled": false
+        },
+        "model": "qwen3:8b",
+        "input_tokens": 4734,
+        "cached_input_tokens": 3378,
+        "output_tokens": 2025,
+        "server_total_seconds": 214.1022666,
+        "model_load_seconds": 0.0079451,
+        "prompt_processing_seconds": 0.839549,
+        "generation_seconds": 212.806722
+      },
+      "error": null,
+      "artifacts_file": "artifacts.json"
+    }
+  ]
+}

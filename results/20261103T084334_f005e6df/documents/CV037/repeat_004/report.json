@@ -1,0 +1,71 @@
+{
+  "document_id": "CV037",
+  "repetition": 4,
+  "status": "error",
+  "metrics": {
+    "processing_seconds": 1802.3682690999121
+  },
+  "stages": [
+    {
+      "name": "read_layout",
+      "method": "pdf_layout",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 0.30725939996773377,
+        "memory": {
+          "enabled": false
+        },
+        "page_count": 12,
+        "region_count": 13
+      },
+      "error": null
+    },
+    {
+      "name": "reading_order",
+      "method": "layout_reading_order",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 2.9199989512562752e-05,
+        "memory": {
+          "enabled": false
+        },
+        "character_count": 47057,
+        "pages_without_text": []
+      },
+      "error": null
+    },
+    {
+      "name": "prepare_text",
+      "method": "join_page_text",
+      "execution_status": "completed",
+      "outcome": "success",
+      "metrics": {
+        "duration_seconds": 1.839996548369527e-05,
+        "memory": {
+          "enabled": false
+        },
+        "character_count": 47079
+      },
+      "error": null
+    },
+    {
+      "name": "structure_cv",
+      "method": "llm_structuring",
+      "execution_status": "error",
+      "outcome": null,
+      "metrics": {
+        "duration_seconds": 1802.0609620999894,
+        "memory": {
+          "enabled": false
+        }
+      },
+      "error": {
+        "type": "StructuringError",
+        "message": "TimeoutError: timed out"
+      },
+      "artifacts_file": "artifacts.json"
+    }
+  ]
+}

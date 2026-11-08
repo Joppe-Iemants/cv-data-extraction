@@ -1,0 +1,190 @@
+{
+  "personal_information": {
+    "source_pages": [
+      1
+    ],
+    "full_name": "YOUR NAME HERE",
+    "headline": "Your Position or Tagline Here",
+    "emails": [
+      "@ your_name@email.com"
+    ],
+    "phones": [
+      "2 000-000-0000"
+    ],
+    "location": "Addréss, Street, 00000 Country",
+    "weblinks": [
+      {
+        "url": "www.homepage.com",
+        "platform": "X"
+      },
+      {
+        "url": "fB your_id",
+        "platform": "Q your_id"
+      },
+      {
+        "url": "0000-0000-0000-0000",
+        "platform": "@username@instance"
+      }
+    ],
+    "details": []
+  },
+  "summary": null,
+  "work_experience": [
+    {
+      "source_pages": [
+        1
+      ],
+      "employer": "Company 1",
+      "role": "Job Title 1",
+      "client": null,
+      "dates": {
+        "start": "Month 20XX",
+        "end": "Ongoing",
+        "duration": null
+      },
+      "location": "Location",
+      "details": [
+        "e Job description 1",
+        "e Job description 2"
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "employer": "Company 2",
+      "role": "Job Title 2",
+      "client": null,
+      "dates": {
+        "start": "Month 20XX",
+        "end": "Ongoing",
+        "duration": null
+      },
+      "location": "Location",
+      "details": [
+        "e Job description 1",
+        "e Job description 2"
+      ],
+      "skills": []
+    }
+  ],
+  "projects": [
+    {
+      "source_pages": [
+        1
+      ],
+      "name": "Project 1",
+      "organization": "Funding agency/institution",
+      "client": null,
+      "role": null,
+      "dates": null,
+      "details": [
+        "e Details"
+      ],
+      "skills": []
+    },
+    {
+      "source_pages": [
+        1
+      ],
+      "name": "Project 2",
+      "organization": "Funding agency/institution",
+      "client": null,
+      "role": null,
+      "dates": {
+        "start": "©) Project duration",
+        "end": null,
+        "duration": null
+      },
+      "details": [
+        "A short abstract would also work."
+      ],
+      "skills": []
+    }
+  ],
+  "education": [],
+  "skills": [
+    {
+      "source_pages": [],
+      "name": "C++ Embedded Systems",
+      "proficiency": null,
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Statistical Analysis",
+      "proficiency": null,
+      "details": []
+    }
+  ],
+  "languages": [
+    {
+      "source_pages": [],
+      "name": "English",
+      "proficiency": {
+        "text": "@©ee0e0",
+        "type": "numeric",
+        "value": 0.0,
+        "maximum": 10.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "Spanish",
+      "proficiency": {
+        "text": "@©ee0@",
+        "type": "numeric",
+        "value": 0.0,
+        "maximum": 10.0
+      },
+      "details": []
+    },
+    {
+      "source_pages": [],
+      "name": "German",
+      "proficiency": {
+        "text": "@e@@t",
+        "type": "numeric",
+        "value": 0.0,
+        "maximum": 10.0
+      },
+      "details": []
+    }
+  ],
+  "certifications": [],
+  "training": [],
+  "additional_sections": [
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "A DAY OF MY LIFE\n\nDaytime job\n\nHopeful nov-\nelist by night\n—_ Sports and relaxation\nSleep, _ \\ Spending time\n\nbeautiful sleep with family"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "MY LIFE PHILOSOPHY\n\n“Something smart or heartfelt, prefer-\nably in one sentence.”"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "MOST PROUD OF\n\na Fantastic Achievement\nand some details about it\n\n@@ Another achievement\nmore details about it of course\n\n@@ Another achievement\nVv more details about it of course"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "STRENGTHS\n\nHard-working Eye for detail\nMotivator & Leader"
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "PUBLICATIONS\n\nfl Books\n\ne E. Someone and T. Lim, A Fictional Research. Somewhere, Some\nPlace, 2010.\n\n(2) Journal Articles\n\ne L.T. Wong and E. Someone, “A non-existant paper,’ Journal of\nCarrying On, vol. 12, 2011.\n\ne L.T. Lim, E. Someone, and A. Other, “A study into fireside story-\ntelling,” Journal of Carrying On, vol. 7, 2008.\n\ns@* Conference Proceedings\n\ne E. Someone and L. T. Lim, “Another paper something something,”\nin Proceedings of the 72nd AmaZing Conference, Far Far Away,\n2013."
+    },
+    {
+      "source_pages": [],
+      "heading": null,
+      "text": "REFEREES\n\nProf. Alpha Beta\n@ Institute\nM@% a.beta@university.edu\n\nAddress Line 1\nAddress Line 2\n\nProf. Gamma Delta\n@ Institute\n@% g.delta@university.edu\n\nAddress Line 1\nAddress Line 2"
+    }
+  ]
+}

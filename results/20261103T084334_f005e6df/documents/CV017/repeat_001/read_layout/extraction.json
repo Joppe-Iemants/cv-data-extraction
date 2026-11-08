@@ -1,0 +1,131 @@
+{
+  "page_count": 2,
+  "pages": [
+    {
+      "page_number": 1,
+      "width": 612.0,
+      "height": 792.0,
+      "regions": [
+        {
+          "region_number": 1,
+          "bbox": [
+            42,
+            50,
+            167,
+            76
+          ],
+          "text_bbox": [
+            42.52000045776367,
+            50.85138702392578,
+            166.60423278808594,
+            75.63848114013672
+          ],
+          "text": "Doruk Çetin"
+        },
+        {
+          "region_number": 2,
+          "bbox": [
+            415,
+            44,
+            612,
+            83
+          ],
+          "text_bbox": [
+            415.15301513671875,
+            44.68626403808594,
+            546.7824096679688,
+            82.693359375
+          ],
+          "text": "Website: dcetin.me\n     Email: dcetin@ethz.ch\nGitHub: github.com/dcetin"
+        },
+        {
+          "region_number": 3,
+          "bbox": [
+            42,
+            101,
+            612,
+            752
+          ],
+          "text_bbox": [
+            42.52000045776367,
+            101.74696350097656,
+            569.4805297851562,
+            751.5963745117188
+          ],
+          "text": "Education\n\n  ETH Zurich                                                                                 Zurich, CH\n   M.S. in Computer Science, GPA: 5.63/6.00                                                        2018–2020\n\n    – Thesis: “Learning in-the-wild Temporal 3D Pose Estimation from MoCap Data”\n\n  Middle East Technical University                                                 Ankara, TR\n   B.S. in Computer Engineering, GPA: 3.96/4.00 (ranked 2nd/190 in the dept.)                          2013–2018\n\n    – Thesis: “AlgoTrade: A web-based algorithmic trading and backtesting framework”\n\nExperience\n\n  ETH Zurich                                                                                 Zurich, CH\n   Student Research Assistant at Data Analytics Lab                                       Summer 2019\n\n    – Interpretability in adversarial word embeddings for text\n\n     – Adapted the codebase for adversarial attacks on embeddings, conducted qualitative and\n         quantitative analyses, worked on adversarial text generation via embedding projection\n\n  Imperial College London                                                         London, UK\n   Research Intern at Intelligent Behaviour Understanding Group (iBUG)                        Summer 2017\n\n    – A novel audiovisual dataset for normal, whispered and silent speech\n\n     – Created tools for data collection and analysis, analysed the collected data, implemented\n          fixes, worked on the reimplementation of the existing network in a different library\n\n  École Polytechnique Fédérale de Lausanne                                       Lausanne, CH\n   Research Intern at Data Intensive Applications and Systems Laboratory (DIAS)                 Summer 2016\n\n    – Microarchitectural analysis of OLAP database systems\n\n     – Examined the changes in microarchitectural utilization of different column-oriented\n        database systems on distinct workloads\n\nPublications\n\n[1]  S. Petridis, J. Shen, D. Cetin, and M. Pantic, “Visual-Only Recognition of Normal, Whispered and\n     Silent Speech”, in 2018 IEEE International Conference on Acoustics, Speech and Signal Processing\n    (ICASSP), Apr. 2018, pp. 6219–6223.\n\n\n\n\n\n                                                                                   Page 1 of 2"
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "width": 612.0,
+      "height": 792.0,
+      "regions": [
+        {
+          "region_number": 1,
+          "bbox": [
+            42,
+            43,
+            612,
+            121
+          ],
+          "text_bbox": [
+            42.52000045776367,
+            43.50996017456055,
+            566.1529541015625,
+            120.9697494506836
+          ],
+          "text": "Teaching\n\n• Student Teaching Assistant at Middle East Technical University                                  Spring 2018\n   Programming Language Concepts (CENG 242)\n\n• Student Teaching Assistant at Middle East Technical University                                           Fall 2016\n   Introduction to C Programming (CENG 230)"
+        },
+        {
+          "region_number": 2,
+          "bbox": [
+            42,
+            134,
+            296,
+            219
+          ],
+          "text_bbox": [
+            42.52000045776367,
+            134.57296752929688,
+            295.989013671875,
+            218.45973205566406
+          ],
+          "text": "Skills\n\n• Programming:  Python, Matlab, C/C++, Java\n\n• M. Learning:  PyTorch, TensorFlow, Keras, Chainer\n\n• Tools/Techs:  LaTeX, Git, SQL\n\n• Web:  HTML/CSS, Jekyll, JavaScript"
+        },
+        {
+          "region_number": 3,
+          "bbox": [
+            310,
+            134,
+            612,
+            219
+          ],
+          "text_bbox": [
+            310.98101806640625,
+            134.57296752929688,
+            544.3662109375,
+            218.45973205566406
+          ],
+          "text": "Languages\n\n• English:  Proficient, TOEFL iBT score: 112/120\n\n – GRE: V: 162/170, Q: 170/170, AW: 4.0/6.0\n\n• Turkish:  Mother tongue, native speaker\n\n• Spanish:  Conversational, CEFR level: A1-A2"
+        },
+        {
+          "region_number": 4,
+          "bbox": [
+            42,
+            239,
+            612,
+            752
+          ],
+          "text_bbox": [
+            42.52000045776367,
+            239.35296630859375,
+            569.4805297851562,
+            751.5963745117188
+          ],
+          "text": "Projects\n\nSee full list of projects on dcetin.me/projects\n\n   eth-cs-notes (LaTeX/Markdown, 2019)            bert-adv-embed (Python/Chainer, 2019)\n•                               •\n   Lecture notes/cheatsheets for Master’s in CS                Adversarial perturbations on BERT word embeddings\n\nScholarships and Awards\n\n• ETH Zurich Direct Doctorate Scholarship                                                         2018–2020\n\n• 3rd place in METU Ceng Demo Day 2018, final year project exhibition of the department               2018\n\n• Erasmus+ Traineeship Scholarship                                                                2017\n\n• Summer@EPFL Scholarship                                                                     2016\n\n• METU Development Foundation Scholarship for Outstanding Success                                 2013–2018\n\n• Merit based Prime Ministry Scholarship                                                           2013–2018\n\n• Isbank Altın Gençler Award and mobility grant                                                    2013\n\n• Ranked 4th among 1.9 million participants nationwide in Undergraduate Placement Examination (LYS)   2013\n\nVolunteering & Mentoring\n\n• Career Mentor at Crossing Paths                                                              2017–Current\n   Helping undergraduate students on their career goals, also took part in their Career Chats program\n\n• Master Helper at ETH VIS Welcome Day 2019                                                                 Fall 2019\n   Mentored newcomer Master students, gave a campus tour and aided them in Study Planning Workshop\n\n• C Programming Language Tutor at IEEE METU Student Branch                                             Fall 2016\n  An introduction to programming and a tutorial for the school courses for non-CS students\n\n• Official Turkish localization of the video game Human Resource Machine                           Winter 2015\n  A puzzle game by Tomorrow Corporation, simulating a simple computer in an office environment\n\n\n\n\n\n                                                                                   Page 2 of 2"
+        }
+      ]
+    }
+  ]
+}

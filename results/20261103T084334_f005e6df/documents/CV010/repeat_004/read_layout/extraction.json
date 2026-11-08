@@ -1,0 +1,396 @@
+{
+  "page_count": 1,
+  "pages": [
+    {
+      "page_number": 1,
+      "width": 595.2760009765625,
+      "height": 841.8900146484375,
+      "regions": [
+        {
+          "region_number": 1,
+          "bbox": [
+            265,
+            18,
+            381,
+            86
+          ],
+          "text_bbox": [
+            265.9110107421875,
+            18.55390739440918,
+            380.41400146484375,
+            85.30349731445312
+          ],
+          "text": "O Born : 7/24/1994\n\n( Casablanca, Morocco\n\nF  +212 6 22 90 22 21\n\n  Driver’s license : B"
+        },
+        {
+          "region_number": 2,
+          "bbox": [
+            396,
+            17,
+            581,
+            86
+          ],
+          "text_bbox": [
+            396.3550109863281,
+            17.56989860534668,
+            580.135009765625,
+            84.73528289794922
+          ],
+          "text": "@ najmi.achraf@gmail.com\n\n¥ github.com/NajmiAchraf\n\n` stackoverflow.com/users/12854948\n\nè linkedin.com/in/najmiachraf"
+        },
+        {
+          "region_number": 3,
+          "bbox": [
+            18,
+            26,
+            239,
+            70
+          ],
+          "text_bbox": [
+            18.38399887084961,
+            26.922657012939453,
+            238.3578338623047,
+            69.2032241821289
+          ],
+          "text": "ACHRAF NAJMI\nELECTRO INFO PHYSICIST"
+        },
+        {
+          "region_number": 4,
+          "bbox": [
+            128,
+            92,
+            228,
+            200
+          ],
+          "text_bbox": [
+            128.572998046875,
+            92.30469512939453,
+            227.8220672607422,
+            199.17823791503906
+          ],
+          "text": "BGS\n       Physics\n      Electronic\n\n\n\n as latest degree from\n University Hassan II of\nCasablanca : Faculty of\n  Science Ben M’sik."
+        },
+        {
+          "region_number": 5,
+          "bbox": [
+            25,
+            105,
+            105,
+            220
+          ],
+          "text_bbox": [
+            25.94499969482422,
+            105.93387603759766,
+            104.12981414794922,
+            219.04933166503906
+          ],
+          "text": "I am a graduate in\n Physics Electronic\n   with working\n   experience in\n research projects.\n\n\n\n\n\nSKILLS"
+        },
+        {
+          "region_number": 6,
+          "bbox": [
+            249,
+            105,
+            331,
+            316
+          ],
+          "text_bbox": [
+            249.10899353027344,
+            105.8868179321289,
+            330.19219970703125,
+            315.2080383300781
+          ],
+          "text": "I am always looking\n  for exciting new\n  interdisciplinary\n projects related to\n      physics.\n\n\n\n\n\n      Development\n\n\n\n\n\n           Design"
+        },
+        {
+          "region_number": 7,
+          "bbox": [
+            358,
+            108,
+            576,
+            804
+          ],
+          "text_bbox": [
+            358.6440124511719,
+            108.17628479003906,
+            575.0222778320312,
+            803.207275390625
+          ],
+          "text": "EDUCATION & PROJECT & EXPERIENCE\n\n\n    Electronic •  Electrical Engineering • < Digital\n\n     l Telecommunication • X Network\n\n2022\n\n          Education Project Experience Event\n\n\n\n\n         7/2021 One intensive month in UM6P\n          Piscine of 1337 school 42 network\n     ¥ github.com/NajmiAchraf/1337_Piscine\n\n\n\n        3/2021 Scientific Computing with Python\n         Developer Certification\n     freecodecamp.org/certification/\n          najmiachraf/scientific-computing-with-\n         python-v7\n\n\n        2/2021 Start the Hydrogeology Project\n              • Groundwater Hydrology\n     ¥ github.com/NajmiAchraf\n         /Hydrogeologie (PROJET PRIVÉ)\n\n\n\n        9/2020 Start the Gmail Project\n              • CSV Google-mail Sender\n     ¥ github.com/NajmiAchraf/Gmail\n\n\n\n\n\n        4/2020 Set MathPy Project in GitHub\n     ¥ github.com/NajmiAchraf/MathPy\n        (PROJET PRIVÉ)\n        MathPy Project is constantly updating\n\n\n\n\n         12/2019 Start the MathPy Project\n              • Modern Scientific Calculator\n\n\n\n\n        9/2019 Beginning of learning Python\n\n\n\n        6/2019 Bachelor of General Studies (BGS)\n              • Series : Matter Science Physics\n              • Course : Electronic\n\n\n\n\n\n 2019"
+        },
+        {
+          "region_number": 8,
+          "bbox": [
+            21,
+            226,
+            132,
+            370
+          ],
+          "text_bbox": [
+            21.24799919128418,
+            226.54489135742188,
+            131.310546875,
+            369.4463195800781
+          ],
+          "text": "Most of my contribution to\nmy work is in the field of IT\n    development and\n      maintenance.\n\n\n\n LANGUAGES\n\nþ  French (B2)\n\nþ  English (A2)\n\n\n\n SOFTWARE PROGRAMS"
+        },
+        {
+          "region_number": 9,
+          "bbox": [
+            139,
+            251,
+            228,
+            340
+          ],
+          "text_bbox": [
+            139.82000732421875,
+            251.2559356689453,
+            227.1346435546875,
+            339.5040283203125
+          ],
+          "text": "Maintenance\n\n\n\n\n\n        Schematization"
+        },
+        {
+          "region_number": 10,
+          "bbox": [
+            42,
+            374,
+            88,
+            485
+          ],
+          "text_bbox": [
+            42.26599884033203,
+            374.6759033203125,
+            87.01326751708984,
+            484.71728515625
+          ],
+          "text": "PyCharm\n\n\n   B\n\n\n\n\n\nWindows\n\nmacOS"
+        },
+        {
+          "region_number": 11,
+          "bbox": [
+            103,
+            376,
+            118,
+            386
+          ],
+          "text_bbox": [
+            103.35099792480469,
+            376.6759033203125,
+            117.62550354003906,
+            385.6423034667969
+          ],
+          "text": "MD"
+        },
+        {
+          "region_number": 12,
+          "bbox": [
+            141,
+            376,
+            165,
+            386
+          ],
+          "text_bbox": [
+            141.0590057373047,
+            376.59088134765625,
+            164.95448303222656,
+            385.5572814941406
+          ],
+          "text": "CLion"
+        },
+        {
+          "region_number": 13,
+          "bbox": [
+            177,
+            376,
+            214,
+            386
+          ],
+          "text_bbox": [
+            177.72299194335938,
+            376.59088134765625,
+            213.3285675048828,
+            385.5572814941406
+          ],
+          "text": "Terminal"
+        },
+        {
+          "region_number": 14,
+          "bbox": [
+            222,
+            376,
+            254,
+            386
+          ],
+          "text_bbox": [
+            222.24200439453125,
+            376.59088134765625,
+            253.84857177734375,
+            385.5572814941406
+          ],
+          "text": "Proteus"
+        },
+        {
+          "region_number": 15,
+          "bbox": [
+            26,
+            437,
+            39,
+            446
+          ],
+          "text_bbox": [
+            26.6200008392334,
+            437.3972473144531,
+            38.89500045776367,
+            445.92431640625
+          ],
+          "text": "OS"
+        },
+        {
+          "region_number": 16,
+          "bbox": [
+            21,
+            497,
+            103,
+            616
+          ],
+          "text_bbox": [
+            21.844993591308594,
+            497.1702575683594,
+            102.20423889160156,
+            615.2162475585938
+          ],
+          "text": "IT DEVELOPMENT\n\n*  Python 3  ]\n\n\n  Î Syntax\n\n  d Libraries\n\nÑ Data Science\n\n          GUI\n\n¡ Data Analysis"
+        },
+        {
+          "region_number": 17,
+          "bbox": [
+            147,
+            438,
+            331,
+            614
+          ],
+          "text_bbox": [
+            147.3249969482422,
+            438.2098693847656,
+            330.523681640625,
+            614.6907958984375
+          ],
+          "text": "I regularly use for my development projects\n  PyCharm and CLion as IDE, and I use for\n schematic capture and simulation Proteus\n                 CAD.\n\n\n\n\n\nLanguage Front End Back End\n\n                * & ] & LATEX\n\n                â  built-in\n\n                  B  pyinstaller\n\n                matplotlib\n            & sympy"
+        },
+        {
+          "region_number": 18,
+          "bbox": [
+            286,
+            621,
+            317,
+            660
+          ],
+          "text_bbox": [
+            286.2309875488281,
+            621.178955078125,
+            316.707763671875,
+            659.3342895507812
+          ],
+          "text": "tkinter\nnumpy\n\npandas"
+        },
+        {
+          "region_number": 19,
+          "bbox": [
+            22,
+            629,
+            247,
+            702
+          ],
+          "text_bbox": [
+            22.69899559020996,
+            629.4219360351562,
+            246.03407287597656,
+            701.060302734375
+          ],
+          "text": "Currently, I am developing realtime applications with\nPython, and creating a GUI with tkinter, and extracting\nfrom the script ‘file.py‘ an executable file by pyinstaller\n               using auto py to exe.\n\n\n ACTIVITIES"
+        },
+        {
+          "region_number": 20,
+          "bbox": [
+            240,
+            713,
+            340,
+            799
+          ],
+          "text_bbox": [
+            240.67601013183594,
+            713.2089233398438,
+            339.8892822265625,
+            798.8872680664062
+          ],
+          "text": "Among the dominant\n activities that I practice\nis to browse the internet\n  in search of news on\n  the computer world\n and trained on all the\n tutorials that interests\n        me."
+        },
+        {
+          "region_number": 21,
+          "bbox": [
+            78,
+            717,
+            210,
+            751
+          ],
+          "text_bbox": [
+            78.30001068115234,
+            715.774658203125,
+            209.41845703125,
+            753.0003051757812
+          ],
+          "text": " Tutorials   8\nZ Tech News          public"
+        },
+        {
+          "region_number": 22,
+          "bbox": [
+            78,
+            743,
+            138,
+            754
+          ],
+          "text_bbox": [
+            78.30001068115234,
+            743.935302734375,
+            137.35382080078125,
+            753.0003051757812
+          ],
+          "text": "Z Tech News"
+        },
+        {
+          "region_number": 23,
+          "bbox": [
+            78,
+            768,
+            144,
+            799
+          ],
+          "text_bbox": [
+            78.30001068115234,
+            768.1983032226562,
+            143.136962890625,
+            798.5703125
+          ],
+          "text": "§ Brain Games\n\nÎ Sport"
+        },
+        {
+          "region_number": 24,
+          "bbox": [
+            161,
+            752,
+            230,
+            799
+          ],
+          "text_bbox": [
+            161.8699951171875,
+            752.697265625,
+            229.8711700439453,
+            798.8212890625
+          ],
+          "text": "repos\n\n\n      in my\nGitHub Account"
+        }
+      ]
+    }
+  ]
+}
